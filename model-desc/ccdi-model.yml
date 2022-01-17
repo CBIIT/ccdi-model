@@ -113,7 +113,7 @@ Nodes:
 Relationships:
   #of_alias: should this relationships of alias be defined at a  cds node level (e.,g. study, sample) or at alias node?
   of_clinical_measure:
-    Props:null
+    Props: null
     Mul: many_to_many
     Ends:
       - Src: file
@@ -126,8 +126,7 @@ Relationships:
         Dst: experiment
       - Src: sample
         Dst: experiment
-    Mul: many_to_one
-    Ends:
+        Mul: many_to_one
       - Src: alias
         Dst: experiment
   #in_experiment: moved file-experiment to of_experiment
@@ -150,8 +149,7 @@ Relationships:
     Ends:
       - Src: file
         Dst: sample
-    Mul: many_to_one
-    Ends:
+        Mul: many_to_one
       - Src: alias
         Dst: sample
   of_specimen:

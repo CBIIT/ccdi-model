@@ -1,0 +1,191 @@
+Handle: CDA
+Nodes:
+  alias:  #the repository_name + repository_ID is a composite key value for the composite value of CDS_concept + CDS_ID, else the key is a concat of repository_name + repository_ID and value is a concat of CDS_concept + CDS_ID 
+    Props:
+      - repository_ID #string
+      - repository_name #string
+      - CDS_node # string, the node in CDS schema
+      - CDS_ID #string, the CDS schema identifier
+  clinical_measures:
+    Props:
+     - clinical_measure_ID
+     - clinical_measure_description
+     - age_at_measure
+     - site_of_measure
+  diagnosis: # may have multiple dxs for multiple timepoints?
+    Props:
+      - diagnosis_ID
+      - primary_diagnosis
+      - primary_site
+      - age_at_diagnosis
+      - tumor_grade
+      - tumor_stage
+      - tumor_morphology
+      - incidence_type # primary, metastatic, recurrence, progression
+      - days_to_recurrence
+      - last_known_disease_status
+      - days_to_last_known_status
+  experiment: # this is renaming of node 'submission':
+    Props:
+      - design_description
+      # - sra_experiment_accession, move to new node alias
+      - protocol #is this a file reference?
+  file:
+    Props:
+      - file_id #system generated UUID/PK
+      - file_name
+      - file_type
+      - file_description
+      - file_size
+      - md5sum
+      #- sra_study_accession # here?
+      #- sra_run_accession, move to new node alias
+      - cds_url
+      #- drs_url #what is this?
+  genomic_detail:
+    Props:
+      - library_id # moved from submission
+      - library_strategy # moved from submission
+      - library_layout # paired end, single, moved from submission
+      - library_source # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
+      - number_of_bp # moved from experiment
+      - number_of_reads # moved fr
+      - average_read_length
+      - coverage
+      - genome_reference_or_accession
+  imaging_detail:
+    Props:
+      - image_id
+      - image_modality
+      - platform
+      - instrument_model
+      - software_packages # list of free text I guess
+  sample: # aka subspecimen (CMB)
+    Props:
+      - sample_id
+      - sample_type #sample type used in an assay? more than one assay sample type could be derived from a single biopsy
+      - sample_tumor_status # tumor or normal
+      - sample_anatomic_site
+    # - days_to_collection
+      - sample_collection_day #- study day for the subject when sample collected, replaces days_to_collection
+      - sample_collection_event # index event for collection day enum: enrollment, diagnosis, treatment, 
+    # - biosample_accession, pulled into new node alias
+  specimen: #what is the purpose of specimen?
+    Props:
+      - specimen_id
+  study:
+    Props:
+      - study_title
+      - study_acronym
+      - study_description
+      - study_external_url
+      - phs_accession
+    # - bioproject_id , pull bioproject_id into new node alias
+      - index_date # what are relative dates relative to? dx date, collection date, etc.
+  study_admin:
+    Props:
+      # - cds_requestor #is this the ODS PO, the dbGAP GP or someone else?, Why is this important?
+      # - funding_agency moved to study_funding
+      - species
+      - study_type # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
+      - data_types # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
+      - file_types # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
+      - data_access_level #populated from a dbGAP query?
+  study_funding: # 0 or many grant or contract IDs
+    Props: 
+      - funding_agency # 0 or many per study
+      - funding_ID #grant or contract ID, NIH or other
+  study_subject:
+    Props:
+      - subject_id
+      - race #how are multiple race values stored? is a new node needed for race to allow many to one
+      - gender
+      - ethnicity
+      - vital_status
+      - age_at_enrollment
+      - age_unit
+      # -age , how is subject age recorded?
+  therapeutic_procedure: #how are therapeutic_procedure linked to a subject?
+    Props:
+      - treatment_type
+      - treatment_outcome
+      - days_to_treatment
+Relationships:
+  #of_alias: should this relationships of alias be defined at a  cds node level (e.,g. study, sample) or at alias node?
+  of_clinical_measure:
+    Props:null
+    Mul: many_to_many
+    Ends:
+      - Src: file
+        Dst: clinical_measure
+  of_experiment: #changed from_submission to of_experiment, but I need clarification on from_ and of_ relationships
+    Props: null
+    Mul: many_to_many
+    Ends:
+      - Src: file
+        Dst: experiment
+      - Src: sample
+        Dst: experiment
+    Mul: many_to_one
+    Ends:
+      - Src: alias
+        Dst: experiment
+  #in_experiment: moved file-experiment to of_experiment
+    #Props: null
+    #Mul: many_to_many
+    #Ends:
+  of_file:
+    Props: null
+    Mul: one_to_one
+    Ends:
+       - Src: alias
+         Dst: file
+       - Src: genomic_detail
+         Dst: file
+       - Src: imaging_detail
+         Dst: file
+  from_sample:
+    Props: null
+    Mul: many_to_many
+    Ends:
+      - Src: file
+        Dst: sample
+    Mul: many_to_one
+    Ends:
+      - Src: alias
+        Dst: sample
+  of_specimen:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: sample
+        Dst: specimen
+  of_study:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: alias
+        Dst: study
+      - Src: file
+        Dst: study
+      - Src: study_admin
+        Dst: study
+      - Src: study_funding
+        Dst: study
+        Mul: one_to_one
+      - Src: study_subject
+        Dst: study
+  of_study_subject:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: alias
+        Dst: study_subject
+      - Src: diagnosis
+        Dst: study_subject
+      - Src: file
+        Dst: study_subject
+      - Src: sample
+        Dst: study_subject
+      - Src: specimen
+        Dst: study_subject

@@ -143,8 +143,8 @@ Relationships:
         Dst: file
       - Src: imaging_detail
         Dst: file
-     Mul: many_to_one
-     Ends:
+    Mul: many_to_one
+    Ends:
       - Src: alias
         Dst: file
   of_sample:

@@ -139,14 +139,14 @@ Relationships:
     Props: null
     Mul: one_to_one
     Ends:
-       - Src: genomic_detail
-         Dst: file
-       - Src: imaging_detail
-         Dst: file
+      - Src: genomic_detail
+        Dst: file
+      - Src: imaging_detail
+        Dst: file
      Mul: many_to_one
      Ends:
-       - Src: alias
-         Dst: file
+      - Src: alias
+        Dst: file
   of_sample:
     Props: null
     Mul: many_to_many

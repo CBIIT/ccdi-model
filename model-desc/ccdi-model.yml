@@ -6,7 +6,7 @@ Nodes:
       - repository_name #string
       - CDS_node # string, the node in CDS schema
       - CDS_ID #string, the CDS schema identifier
-  clinical_measures:
+  clinical_measure:
     Props:
      - clinical_measure_ID
      - clinical_measure_description

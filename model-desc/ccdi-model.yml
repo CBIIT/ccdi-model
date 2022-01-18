@@ -114,7 +114,7 @@ Nodes:
       # -age , how is subject age recorded?
   therapeutic_procedure: 
     Props:
-      - theapeuitc_procedure_ID
+      - theapeutic_procedure_ID
       - treatment_type
       - treatment_outcome
       - days_to_treatment

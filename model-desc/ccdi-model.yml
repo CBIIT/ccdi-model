@@ -156,10 +156,9 @@ Relationships:
     Ends:
       - Src: file
         Dst: sample
-        Mul: many_to_one
+    Mul: many_to_one
       - Src: alias
         Dst: sample
-    Mul: many_to_one
       - Src: specimen
         Dst: sample
   of_study:

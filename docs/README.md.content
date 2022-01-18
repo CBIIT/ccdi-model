@@ -18,6 +18,6 @@ Zoom to Node: <select id="node_select">
 <div id="model"></div>
 
 <p>
-<a href="./model-desc/ctdc-model.svg">SVG file (in view above)</a>
+<a href="./model-desc/ccdi-model.svg">SVG file (in view above)</a>
 <p>
 <a href="./model-desc">Additional model files</a>

@@ -121,34 +121,31 @@ Nodes:
 Relationships:
   of_clinical_measure:
     Props: null
-    Mul: many_to_many
+    Mul: many_to_one
     Ends:
       - Src: file
         Dst: clinical_measure
-  of_experiment: #changed from_submission to of_experiment, but I need clarification on from_ and of_ relationships
+  of_experiment: #changed from_submission to of_experiment
     Props: null
-    Mul: many_to_many
+    Mul: many_to_one
     Ends:
+      - Src: alias
+        Dst: experiment
       - Src: file
         Dst: experiment
       - Src: sample
         Dst: experiment
-        Mul: many_to_one
-      - Src: alias
-        Dst: experiment
-  #in_experiment: moved file-experiment to of_experiment
-    #Props: null
-    #Mul: many_to_many
-    #Ends:
   of_file:
     Props: null
     Mul: one_to_one
     Ends:
-       - Src: alias
-         Dst: file
        - Src: genomic_detail
          Dst: file
        - Src: imaging_detail
+         Dst: file
+     Mul: many_to_one
+     Ends:
+       - Src: alias
          Dst: file
   of_sample:
     Props: null
@@ -157,6 +154,7 @@ Relationships:
       - Src: file
         Dst: sample
     Mul: many_to_one
+    Ends:
       - Src: alias
         Dst: sample
       - Src: specimen
@@ -192,5 +190,6 @@ Relationships:
    of_therapeutic_procedure
      Props: null
      Mul: many_to_many
+     Ends:
       - Src: therapeutic_procedure
         Dst: study_subject

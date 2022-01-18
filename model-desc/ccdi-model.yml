@@ -27,6 +27,7 @@ Nodes:
       - days_to_last_known_status
   experiment: # this is renaming of node 'submission':
     Props:
+      - experiment_ID
       - design_description
       # - sra_experiment_accession, move to new node alias
       - protocol #is this a file reference?
@@ -95,6 +96,12 @@ Nodes:
     Props: 
       - funding_agency # 0 or many per study
       - funding_ID #grant or contract ID, NIH or other
+  study_personnel:
+    Props:
+      - study_personnel_ID
+      - personnel_name
+      - personnel_type #enum: PI, Co-PI, Data Submitter, etc
+      - institution
   study_subject:
     Props:
       - subject_id
@@ -105,13 +112,13 @@ Nodes:
       - age_at_enrollment
       - age_unit
       # -age , how is subject age recorded?
-  therapeutic_procedure: #how are therapeutic_procedure linked to a subject?
+  therapeutic_procedure: 
     Props:
+      - theapeuitc_procedure_ID
       - treatment_type
       - treatment_outcome
       - days_to_treatment
 Relationships:
-  #of_alias: should this relationships of alias be defined at a  cds node level (e.,g. study, sample) or at alias node?
   of_clinical_measure:
     Props: null
     Mul: many_to_many
@@ -143,7 +150,7 @@ Relationships:
          Dst: file
        - Src: imaging_detail
          Dst: file
-  from_sample:
+  of_sample:
     Props: null
     Mul: many_to_many
     Ends:
@@ -152,12 +159,9 @@ Relationships:
         Mul: many_to_one
       - Src: alias
         Dst: sample
-  of_specimen:
-    Props: null
     Mul: many_to_one
-    Ends:
-      - Src: sample
-        Dst: specimen
+      - Src: specimen
+        Dst: sample
   of_study:
     Props: null
     Mul: many_to_one
@@ -170,7 +174,8 @@ Relationships:
         Dst: study
       - Src: study_funding
         Dst: study
-        Mul: one_to_one
+      - Src: study_personnel
+        Dst: study
       - Src: study_subject
         Dst: study
   of_study_subject:
@@ -185,5 +190,8 @@ Relationships:
         Dst: study_subject
       - Src: sample
         Dst: study_subject
-      - Src: specimen
+   of_therapeutic_procedure
+     Props: null
+     Mul: many_to_many
+      - Src: therapeutic_procedure
         Dst: study_subject

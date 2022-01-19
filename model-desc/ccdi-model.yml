@@ -147,13 +147,11 @@ Relationships:
         Dst: file
   of_sample:
     Props: null
-    Mul: many_to_many
+    Mul: many_to_one
     Ends:
       - Src: file
         Dst: sample
-    Props: null
-    Mul: many_to_one
-    Ends:
+        Mul: many_to_many
       - Src: alias
         Dst: sample
       - Src: specimen

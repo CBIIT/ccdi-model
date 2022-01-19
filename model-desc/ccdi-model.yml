@@ -49,8 +49,8 @@ Nodes:
       - library_strategy # moved from submission
       - library_layout # paired end, single, moved from submission
       - library_source # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
-      - number_of_bp # moved from experiment
-      - number_of_reads # moved fr
+      - number_of_bp # moved from submission
+      - number_of_reads
       - average_read_length
       - coverage
       - genome_reference_or_accession
@@ -137,15 +137,13 @@ Relationships:
         Dst: experiment
   of_file:
     Props: null
-    Mul: one_to_one
-    Ends:
-      - Src: genomic_detail
-        Dst: file
-      - Src: imaging_detail
-        Dst: file
     Mul: many_to_one
     Ends:
       - Src: alias
+        Dst: file
+      - Src: genomic_detail
+        Dst: file
+      - Src: imaging_detail
         Dst: file
   of_sample:
     Props: null

@@ -187,9 +187,9 @@ Relationships:
         Dst: study_subject
       - Src: sample
         Dst: study_subject
-   of_therapeutic_procedure
-     Props: null
-     Mul: many_to_many
-     Ends:
+  of_therapeutic_procedure
+    Props: null
+    Mul: many_to_many
+    Ends:
       - Src: therapeutic_procedure
         Dst: study_subject

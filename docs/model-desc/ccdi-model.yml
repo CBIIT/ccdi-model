@@ -4,8 +4,8 @@ Nodes:
     Props:
       - repository_ID #string
       - repository_name #string
-      - CDS_node # string, the node in CDS schema
-      - CDS_ID #string, the CDS schema identifier
+      - cds_node # string, the node in CDS schema
+      - cds_ID #string, the CDS schema identifier
   clinical_measure:
     Props:
      - clinical_measure_ID
@@ -71,9 +71,9 @@ Nodes:
       - sample_collection_day #- study day for the subject when sample collected, replaces days_to_collection
       - sample_collection_event # index event for collection day enum: enrollment, diagnosis, treatment, 
     # - biosample_accession, pulled into new node alias
-  specimen: #what is the purpose of specimen?
-    Props:
-      - specimen_id
+  #specimen: #what is the purpose of specimen?
+  #  Props:
+  #    - specimen_id
   study:
     Props:
       - study_title
@@ -112,12 +112,12 @@ Nodes:
       - age_at_enrollment
       - age_unit
       # -age , how is subject age recorded?
-  therapeutic_procedure: 
-    Props:
-      - theapeutic_procedure_ID
-      - treatment_type
-      - treatment_outcome
-      - days_to_treatment
+  #therapeutic_procedure: 
+  #  Props:
+  #    - theapeutic_procedure_ID
+  #    - treatment_type
+  #    - treatment_outcome
+  #    - days_to_treatment
 Relationships:
   of_clinical_measure:
     Props: null
@@ -145,22 +145,29 @@ Relationships:
         Dst: file
       - Src: imaging_detail
         Dst: file
-  of_sample:
+  from_sample:
     Props: null
-    Mul: many_to_one
+    Mul: many_to_many
     Ends:
       - Src: file
         Dst: sample
-        Mul: many_to_many
+  of_sample:
+    Props: null
+    Mul: many_to_many
+    Ends:
       - Src: alias
         Dst: sample
-      - Src: specimen
-        Dst: sample
+      #- Src: specimen
+      #  Dst: sample
   of_study:
     Props: null
     Mul: many_to_one
     Ends:
       - Src: alias
+        Dst: study
+      - Src: clinical_measure
+        Dst: study
+      - Src: experiment
         Dst: study
       - Src: file
         Dst: study
@@ -172,6 +179,12 @@ Relationships:
         Dst: study
       - Src: study_subject
         Dst: study
+  from_study_subject:
+    Props: null
+    Mul: many_to_many
+    Ends:
+      - Src: file
+        Dst: study_subject
   of_study_subject:
     Props: null
     Mul: many_to_one
@@ -180,13 +193,11 @@ Relationships:
         Dst: study_subject
       - Src: diagnosis
         Dst: study_subject
-      - Src: file
-        Dst: study_subject
       - Src: sample
         Dst: study_subject
-  of_therapeutic_procedure:
-    Props: null
-    Mul: many_to_many
-    Ends:
-      - Src: therapeutic_procedure
-        Dst: study_subject
+#  of_therapeutic_procedure:
+#    Props: null
+#    Mul: many_to_many
+#    Ends:
+#      - Src: therapeutic_procedure
+#        Dst: study_subject

@@ -2,49 +2,45 @@ Handle: CDA
 Nodes:
   alias:  #the repository_name + repository_ID is a composite key value for the composite value of CDS_concept + CDS_ID, else the key is a concat of repository_name + repository_ID and value is a concat of CDS_concept + CDS_ID 
     Props:
-      - repository_ID #string
+      - repository_id #string
       - repository_name #string
       - cds_node # string, the node in CDS schema
-      - cds_ID #string, the CDS schema identifier
+      - cds_id #string, the CDS schema identifier
   clinical_measure:
     Props:
-     - clinical_measure_ID
+     - clinical_measure_id
      - clinical_measure_description
      - age_at_measure
      - site_of_measure
   diagnosis: # may have multiple dxs for multiple timepoints?
     Props:
-      - diagnosis_ID
+      - diagnosis_id
       - primary_diagnosis
       - primary_site
       - age_at_diagnosis
-      - tumor_grade
-      - tumor_stage
-      - tumor_morphology
-      - incidence_type # primary, metastatic, recurrence, progression
+
       - days_to_recurrence
       - last_known_disease_status
       - days_to_last_known_status
   experiment: # this is renaming of node 'submission':
     Props:
-      - experiment_ID
+      - experiment_id
       - design_description
       # - sra_experiment_accession, move to new node alias
       - protocol #is this a file reference?
   file:
     Props:
-      - file_id #system generated UUID/PK
+      - file_id #system generated GUID/PK
       - file_name
       - file_type
       - file_description
       - file_size
       - md5sum
-      #- sra_study_accession # here?
-      #- sra_run_accession, move to new node alias
       - cds_url
-      #- drs_url #what is this?
+      - dcf_indexd_guid
   genomic_detail:
     Props:
+      - genomic_detail_id
       - library_id # moved from submission
       - library_strategy # moved from submission
       - library_layout # paired end, single, moved from submission
@@ -53,34 +49,38 @@ Nodes:
       - number_of_reads
       - average_read_length
       - coverage
-      - genome_reference_or_accession
+      - reference_genome_assembly
   imaging_detail:
     Props:
-      - image_id
+      - imaging_detail_id
       - image_modality
       - platform
       - instrument_model
-      - software_packages # list of free text I guess
+      - software_package # list of free text I guess
   sample: # aka subspecimen (CMB)
     Props:
       - sample_id
       - sample_type #sample type used in an assay? more than one assay sample type could be derived from a single biopsy
-      - sample_tumor_status # tumor or normal
-      - sample_anatomic_site
-    # - days_to_collection
-      - sample_collection_day #- study day for the subject when sample collected, replaces days_to_collection
-      - sample_collection_event # index event for collection day enum: enrollment, diagnosis, treatment, 
-    # - biosample_accession, pulled into new node alias
+      - disease_type
+      - tumor_status # tumor or normal
+      - anatomic_site
+      - study_subject_age_at_collection # aka sample_collection_study_day (i.e. study day for the subject when sample collected) , it might be helpful to also have sample_collection_event (i.e. index event for collection day enum: enrollment, diagnosis, treatment,) 
+      - dbgap_sample_id
+      - tumor_grade
+      - tumor_stage
+      - tumor_morphology
+      - tumor_incidence_type # primary, metastatic, recurrence, progression
   #specimen: #what is the purpose of specimen?
   #  Props:
   #    - specimen_id
   study:
     Props:
+      - study_id
       - study_title
       - study_acronym
       - study_description
       - study_external_url
-      - phs_accession
+      - dbgap_phs_accession
     # - bioproject_id , pull bioproject_id into new node alias
       - index_date # what are relative dates relative to? dx date, collection date, etc.
   study_admin:
@@ -94,8 +94,9 @@ Nodes:
       - data_access_level #populated from a dbGAP query?
   study_funding: # 0 or many grant or contract IDs
     Props: 
+      - study_funding_id
       - funding_agency # 0 or many per study
-      - funding_ID #grant or contract ID, NIH or other
+      - funding_id #grant or contract ID, NIH or other
   study_personnel:
     Props:
       - study_personnel_ID
@@ -104,7 +105,7 @@ Nodes:
       - institution
   study_subject:
     Props:
-      - subject_id
+      - study_subject_id
       - race #how are multiple race values stored? is a new node needed for race to allow many to one
       - gender
       - ethnicity

@@ -1,25 +1,19 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 1383c18
+commit 92e5ad6
 node	property	value_or_TYPE
-alias	cds_ID	NA
+alias	cds_id	NA
 alias	cds_node	NA
-alias	repository_ID	NA
+alias	repository_id	NA
 alias	repository_name	NA
 clinical_measure	age_at_measure	NA
-clinical_measure	clinical_measure_ID	NA
 clinical_measure	clinical_measure_description	NA
+clinical_measure	clinical_measure_id	NA
 clinical_measure	site_of_measure	NA
 diagnosis	age_at_diagnosis	NUMBER (yr)
 diagnosis	age_at_diagnosis	NUMBER (mon)
 diagnosis	days_to_last_known_status	INTEGER
 diagnosis	days_to_recurrence	INTEGER
-diagnosis	diagnosis_ID	NA
-diagnosis	incidence_type	metastasis
-diagnosis	incidence_type	no_disease
-diagnosis	incidence_type	primary
-diagnosis	incidence_type	progression
-diagnosis	incidence_type	recurrence
-diagnosis	incidence_type	remission
+diagnosis	diagnosis_id	NA
 diagnosis	last_known_disease_status	metastasis
 diagnosis	last_known_disease_status	no_disease
 diagnosis	last_known_disease_status	primary
@@ -28,13 +22,11 @@ diagnosis	last_known_disease_status	recurrence
 diagnosis	last_known_disease_status	remission
 diagnosis	primary_diagnosis	TBD
 diagnosis	primary_site	TBD
-diagnosis	tumor_grade	TBD
-diagnosis	tumor_morphology	TBD
-diagnosis	tumor_stage	TBD
 experiment	design_description	STRING
-experiment	experiment_ID	NA
+experiment	experiment_id	NA
 experiment	protocol	URL
 file	cds_url	NA
+file	dcf_indexd_guid	NA
 file	file_description	STRING
 file	file_id	NA
 file	file_name	STRING
@@ -43,7 +35,7 @@ file	file_type	TBD
 file	md5sum	REGEXP /^[0-9a-fA-F]{32}$/
 genomic_detail	average_read_length	NUMBER
 genomic_detail	coverage	NUMBER
-genomic_detail	genome_reference_or_accession	STRING
+genomic_detail	genomic_detail_id	NA
 genomic_detail	library_id	STRING
 genomic_detail	library_layout	STRING
 genomic_detail	library_source	GENOMIC
@@ -92,8 +84,9 @@ genomic_detail	library_strategy	ncRNA-Seq
 genomic_detail	library_strategy	ssRNA-seq
 genomic_detail	number_of_bp	INTEGER
 genomic_detail	number_of_reads	INTEGER
-imaging_detail	image_id	NA
+genomic_detail	reference_genome_assembly	NA
 imaging_detail	image_modality	STRING
+imaging_detail	imaging_detail_id	NA
 imaging_detail	instrument_model	454 GS
 imaging_detail	instrument_model	454 GS 20
 imaging_detail	instrument_model	454 GS FLX
@@ -164,21 +157,27 @@ imaging_detail	platform	ION_TORRENT
 imaging_detail	platform	LS454
 imaging_detail	platform	OXFORD_NANOPORE
 imaging_detail	platform	PACBIO_SMRT
-sample	sample_anatomic_site	TBD
-sample	sample_collection_day	NA
-sample	sample_collection_event	NA
+imaging_detail	software_package	NA
+sample	anatomic_site	NA
+sample	dbgap_sample_id	NA
+sample	disease_type	NA
 sample	sample_id	STRING
-sample	sample_tumor_status	normal
-sample	sample_tumor_status	tumor
 sample	sample_type	TBD
+sample	study_subject_age_at_collection	NA
+sample	tumor_grade	TBD
+sample	tumor_incidence_type	NA
+sample	tumor_morphology	TBD
+sample	tumor_stage	TBD
+sample	tumor_status	NA
+study	dbgap_phs_accession	NA
 study	index_date	date_of_birth
 study	index_date	date_of_collection
 study	index_date	date_of_diagnosis
 study	index_date	date_of_enrollment
-study	phs_accession	REGEXP /^phs[0-9]+([.]v[0-9]+)*$/
 study	study_acronym	STRING
 study	study_description	STRING
 study	study_external_url	URL
+study	study_id	NA
 study	study_title	STRING
 study_admin	data_access_level	controlled
 study_admin	data_access_level	mixed
@@ -187,8 +186,9 @@ study_admin	species	STRING
 study_admin	study_type	adult
 study_admin	study_type	other
 study_admin	study_type	pediatric
-study_funding	funding_ID	NA
 study_funding	funding_agency	STRING
+study_funding	funding_id	NA
+study_funding	study_funding_id	NA
 study_personnel	institution	NA
 study_personnel	personnel_name	NA
 study_personnel	personnel_type	NA
@@ -199,7 +199,7 @@ study_subject	ethnicity	TBD
 study_subject	gender	Female
 study_subject	gender	Male
 study_subject	gender	Unknown
-study_subject	subject_id	STRING
+study_subject	study_subject_id	NA
 study_subject	vital_status	Alive
 study_subject	vital_status	Deceased
 study_subject	vital_status	Unknown
@@ -209,20 +209,20 @@ from_sample	file	sample	NA	NA
 from_study_subject	file	study_subject	NA	NA
 of_clinical_measure	file	clinical_measure	NA	NA
 of_experiment	alias	experiment	NA	NA
-of_experiment	file	experiment	NA	NA
 of_experiment	sample	experiment	NA	NA
+of_experiment	file	experiment	NA	NA
 of_file	imaging_detail	file	NA	NA
 of_file	alias	file	NA	NA
 of_file	genomic_detail	file	NA	NA
 of_sample	alias	sample	NA	NA
-of_study	clinical_measure	study	NA	NA
 of_study	study_subject	study	NA	NA
+of_study	clinical_measure	study	NA	NA
 of_study	file	study	NA	NA
-of_study	alias	study	NA	NA
-of_study	study_admin	study	NA	NA
-of_study	study_personnel	study	NA	NA
 of_study	experiment	study	NA	NA
+of_study	alias	study	NA	NA
+of_study	study_personnel	study	NA	NA
 of_study	study_funding	study	NA	NA
+of_study	study_admin	study	NA	NA
 of_study_subject	sample	study_subject	NA	NA
 of_study_subject	alias	study_subject	NA	NA
 of_study_subject	diagnosis	study_subject	NA	NA

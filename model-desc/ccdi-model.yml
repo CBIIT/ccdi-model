@@ -12,22 +12,21 @@ Nodes:
      - clinical_measure_description
      - age_at_measure
      - site_of_measure
-  diagnosis: # may have multiple dxs for multiple timepoints?
-    Props:
-      - diagnosis_id
-      - primary_diagnosis
-      - primary_site
-      - age_at_diagnosis
-
-      - days_to_recurrence
-      - last_known_disease_status
-      - days_to_last_known_status
+   # diagnosis: # may have multiple dxs for multiple timepoints?
+     # Props:
+     # - diagnosis_id
+     #  - primary_diagnosis
+     # - primary_site
+     # - age_at_diagnosis
+     # - days_to_recurrence
+     # - last_known_disease_status
+     # - days_to_last_known_status
   experiment: # this is renaming of node 'submission':
     Props:
       - experiment_id
       - design_description
-      # - sra_experiment_accession, move to new node alias
-      - protocol #is this a file reference?
+     # - sra_experiment_accession, move to new node alias
+     # - protocol #is this a file reference?
   file:
     Props:
       - file_id #system generated GUID/PK
@@ -79,10 +78,10 @@ Nodes:
       - study_title
       - study_acronym
       - study_description
-      - study_external_url
+      - external_url
       - dbgap_phs_accession
     # - bioproject_id , pull bioproject_id into new node alias
-      - index_date # what are relative dates relative to? dx date, collection date, etc.
+    # - index_date # what are relative dates relative to? dx date, collection date, etc.
   study_admin:
     Props:
       # - cds_requestor #is this the ODS PO, the dbGAP GP or someone else?, Why is this important?
@@ -102,6 +101,7 @@ Nodes:
       - study_personnel_ID
       - personnel_name
       - personnel_type #enum: PI, Co-PI, Data Submitter, etc
+      - email_address
       - institution
   study_subject:
     Props:
@@ -130,8 +130,6 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: alias
-        Dst: experiment
       - Src: file
         Dst: experiment
       - Src: sample
@@ -140,8 +138,6 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: alias
-        Dst: file
       - Src: genomic_detail
         Dst: file
       - Src: imaging_detail
@@ -152,20 +148,10 @@ Relationships:
     Ends:
       - Src: file
         Dst: sample
-  of_sample:
-    Props: null
-    Mul: many_to_many
-    Ends:
-      - Src: alias
-        Dst: sample
-      #- Src: specimen
-      #  Dst: sample
   of_study:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: alias
-        Dst: study
       - Src: clinical_measure
         Dst: study
       - Src: experiment
@@ -190,10 +176,8 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: alias
-        Dst: study_subject
-      - Src: diagnosis
-        Dst: study_subject
+     # - Src: diagnosis
+     #   Dst: study_subject
       - Src: sample
         Dst: study_subject
 #  of_therapeutic_procedure:

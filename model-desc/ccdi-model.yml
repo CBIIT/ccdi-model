@@ -170,8 +170,8 @@ Relationships:
     Props: null
     Mul: many_to_many
     Ends:
-      -Src: study
-       Dst: study_funding
+      - Src: study
+        Dst: study_funding
   from_study_personnel:
     Props: null
     Mul: many_to_many

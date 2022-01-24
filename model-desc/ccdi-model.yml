@@ -160,10 +160,6 @@ Relationships:
         Dst: study
       - Src: study_admin
         Dst: study
-      - Src: study_funding
-        Dst: study
-      - Src: study_personnel
-        Dst: study
       - Src: study_subject
         Dst: study
   from_study__funding:

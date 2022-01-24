@@ -180,6 +180,8 @@ Relationships:
     Ends:
       - Src: file
         Dst: study_subject
+      - Src: clinical_measure
+        Dst: study_subject
   of_study_subject:
     Props: null
     Mul: many_to_one
@@ -188,6 +190,7 @@ Relationships:
      #   Dst: study_subject
       - Src: sample
         Dst: study_subject
+     
 #  of_therapeutic_procedure:
 #    Props: null
 #    Mul: many_to_many

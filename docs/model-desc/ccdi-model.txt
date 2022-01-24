@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 92e5ad6
+commit 4fa83c5
 node	property	value_or_TYPE
 alias	cds_id	NA
 alias	cds_node	NA
@@ -9,22 +9,8 @@ clinical_measure	age_at_measure	NA
 clinical_measure	clinical_measure_description	NA
 clinical_measure	clinical_measure_id	NA
 clinical_measure	site_of_measure	NA
-diagnosis	age_at_diagnosis	NUMBER (yr)
-diagnosis	age_at_diagnosis	NUMBER (mon)
-diagnosis	days_to_last_known_status	INTEGER
-diagnosis	days_to_recurrence	INTEGER
-diagnosis	diagnosis_id	NA
-diagnosis	last_known_disease_status	metastasis
-diagnosis	last_known_disease_status	no_disease
-diagnosis	last_known_disease_status	primary
-diagnosis	last_known_disease_status	progression
-diagnosis	last_known_disease_status	recurrence
-diagnosis	last_known_disease_status	remission
-diagnosis	primary_diagnosis	TBD
-diagnosis	primary_site	TBD
 experiment	design_description	STRING
 experiment	experiment_id	NA
-experiment	protocol	URL
 file	cds_url	NA
 file	dcf_indexd_guid	NA
 file	file_description	STRING
@@ -170,13 +156,9 @@ sample	tumor_morphology	TBD
 sample	tumor_stage	TBD
 sample	tumor_status	NA
 study	dbgap_phs_accession	NA
-study	index_date	date_of_birth
-study	index_date	date_of_collection
-study	index_date	date_of_diagnosis
-study	index_date	date_of_enrollment
+study	external_url	NA
 study	study_acronym	STRING
 study	study_description	STRING
-study	study_external_url	URL
 study	study_id	NA
 study	study_title	STRING
 study_admin	data_access_level	controlled
@@ -189,6 +171,7 @@ study_admin	study_type	pediatric
 study_funding	funding_agency	STRING
 study_funding	funding_id	NA
 study_funding	study_funding_id	NA
+study_personnel	email_address	NA
 study_personnel	institution	NA
 study_personnel	personnel_name	NA
 study_personnel	personnel_type	NA
@@ -208,24 +191,18 @@ relationship	source_node	destination_node	property	value_or_TYPE
 from_sample	file	sample	NA	NA
 from_study_subject	file	study_subject	NA	NA
 of_clinical_measure	file	clinical_measure	NA	NA
-of_experiment	alias	experiment	NA	NA
 of_experiment	sample	experiment	NA	NA
 of_experiment	file	experiment	NA	NA
-of_file	imaging_detail	file	NA	NA
-of_file	alias	file	NA	NA
 of_file	genomic_detail	file	NA	NA
-of_sample	alias	sample	NA	NA
-of_study	study_subject	study	NA	NA
+of_file	imaging_detail	file	NA	NA
 of_study	clinical_measure	study	NA	NA
-of_study	file	study	NA	NA
-of_study	experiment	study	NA	NA
-of_study	alias	study	NA	NA
-of_study	study_personnel	study	NA	NA
 of_study	study_funding	study	NA	NA
 of_study	study_admin	study	NA	NA
+of_study	experiment	study	NA	NA
+of_study	study_subject	study	NA	NA
+of_study	study_personnel	study	NA	NA
+of_study	file	study	NA	NA
 of_study_subject	sample	study_subject	NA	NA
-of_study_subject	alias	study_subject	NA	NA
-of_study_subject	diagnosis	study_subject	NA	NA
 
 property	description
 age_at_diagnosis	Age of subject at this diagnosis

@@ -86,6 +86,7 @@ Nodes:
     Props:
       # - cds_requestor #is this the ODS PO, the dbGAP GP or someone else?, Why is this important?
       # - funding_agency moved to study_funding
+      - study_admin_id
       - species
       - study_type # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
       - data_types # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
@@ -93,7 +94,6 @@ Nodes:
       - data_access_level #populated from a dbGAP query?
   study_funding: # 0 or many grant or contract IDs
     Props: 
-      - study_funding_id
       - funding_agency # 0 or many per study
       - funding_id #grant or contract ID, NIH or other
   study_personnel:
@@ -166,6 +166,18 @@ Relationships:
         Dst: study
       - Src: study_subject
         Dst: study
+  from_study__funding:
+    Props: null
+    Mul: many_to_many
+    Ends:
+      -Src: study
+       Dst: study_funding
+  from_study_personnel:
+    Props: null
+    Mul: many_to_many
+    Ends:
+      - Src: study
+        Dst: study_personnel
   from_study_subject:
     Props: null
     Mul: many_to_many

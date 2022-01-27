@@ -37,18 +37,6 @@ Nodes:
       - md5sum
       - cds_url
       - dcf_indexd_guid
-  genomic_detail:
-    Props:
-      - genomic_detail_id
-      - library_id # moved from submission
-      - library_strategy # moved from submission
-      - library_layout # paired end, single, moved from submission
-      - library_source # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
-      - number_of_bp # moved from submission
-      - number_of_reads
-      - average_read_length
-      - coverage
-      - reference_genome_assembly
   imaging_detail:
     Props:
       - imaging_detail_id
@@ -72,6 +60,18 @@ Nodes:
   #specimen: #what is the purpose of specimen?
   #  Props:
   #    - specimen_id
+  sequencing_detail:
+    Props:
+      - genomic_detail_id
+      - library_id # moved from submission
+      - library_strategy # moved from submission
+      - library_layout # paired end, single, moved from submission
+      - library_source # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
+      - number_of_bp # moved from submission
+      - number_of_reads
+      - average_read_length
+      - coverage
+      - reference_genome_assembly
   study:
     Props:
       - study_id
@@ -80,12 +80,8 @@ Nodes:
       - study_description
       - external_url
       - dbgap_phs_accession
-    # - bioproject_id , pull bioproject_id into new node alias
-    # - index_date # what are relative dates relative to? dx date, collection date, etc.
   study_admin:
     Props:
-      # - cds_requestor #is this the ODS PO, the dbGAP GP or someone else?, Why is this important?
-      # - funding_agency moved to study_funding
       - study_admin_id
       - species
       - study_type # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
@@ -138,7 +134,7 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: genomic_detail
+      - Src: sequencing_detail
         Dst: file
       - Src: imaging_detail
         Dst: file

@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit eb6ca6b
+commit 755c771
 node	property	value_or_TYPE
 alias	cds_id	NA
 alias	cds_node	NA
@@ -19,58 +19,6 @@ file	file_name	STRING
 file	file_size	INTEGER
 file	file_type	TBD
 file	md5sum	REGEXP /^[0-9a-fA-F]{32}$/
-genomic_detail	average_read_length	NUMBER
-genomic_detail	coverage	NUMBER
-genomic_detail	genomic_detail_id	NA
-genomic_detail	library_id	STRING
-genomic_detail	library_layout	STRING
-genomic_detail	library_source	GENOMIC
-genomic_detail	library_source	GENOMIC SINGLE CELL
-genomic_detail	library_source	METAGENOMIC
-genomic_detail	library_source	METATRANSCRIPTOMIC
-genomic_detail	library_source	OTHER
-genomic_detail	library_source	SYNTHETIC
-genomic_detail	library_source	TRANSCRIPTOMIC
-genomic_detail	library_source	TRANSCRIPTOMIC SINGLE CELL
-genomic_detail	library_source	VIRAL RNA
-genomic_detail	library_strategy	AMPLICON
-genomic_detail	library_strategy	ATAC-seq
-genomic_detail	library_strategy	Bisulfite-Seq
-genomic_detail	library_strategy	CLONE
-genomic_detail	library_strategy	CLONEEND
-genomic_detail	library_strategy	CTS
-genomic_detail	library_strategy	ChIA-PET
-genomic_detail	library_strategy	ChIP-Seq
-genomic_detail	library_strategy	DNase-Hypersensitivity
-genomic_detail	library_strategy	EST
-genomic_detail	library_strategy	FAIRE-seq
-genomic_detail	library_strategy	FINISHING
-genomic_detail	library_strategy	FL-cDNA
-genomic_detail	library_strategy	Hi-C
-genomic_detail	library_strategy	MBD-Seq
-genomic_detail	library_strategy	MNase-Seq
-genomic_detail	library_strategy	MRE-Seq
-genomic_detail	library_strategy	MeDIP-Seq
-genomic_detail	library_strategy	OTHER
-genomic_detail	library_strategy	POOLCLONE
-genomic_detail	library_strategy	RAD-Seq
-genomic_detail	library_strategy	RIP-Seq
-genomic_detail	library_strategy	RNA-Seq
-genomic_detail	library_strategy	SELEX
-genomic_detail	library_strategy	Synthetic-Long-Read
-genomic_detail	library_strategy	Targeted-Capture
-genomic_detail	library_strategy	Tethered Chromatin Conformation Capture
-genomic_detail	library_strategy	Tn-Seq
-genomic_detail	library_strategy	WCS
-genomic_detail	library_strategy	WGA
-genomic_detail	library_strategy	WGS
-genomic_detail	library_strategy	WXS
-genomic_detail	library_strategy	miRNA-Seq
-genomic_detail	library_strategy	ncRNA-Seq
-genomic_detail	library_strategy	ssRNA-seq
-genomic_detail	number_of_bp	INTEGER
-genomic_detail	number_of_reads	INTEGER
-genomic_detail	reference_genome_assembly	NA
 imaging_detail	image_modality	STRING
 imaging_detail	imaging_detail_id	NA
 imaging_detail	instrument_model	454 GS
@@ -155,6 +103,58 @@ sample	tumor_incidence_type	NA
 sample	tumor_morphology	TBD
 sample	tumor_stage	TBD
 sample	tumor_status	NA
+sequencing_detail	average_read_length	NUMBER
+sequencing_detail	coverage	NUMBER
+sequencing_detail	genomic_detail_id	NA
+sequencing_detail	library_id	STRING
+sequencing_detail	library_layout	STRING
+sequencing_detail	library_source	GENOMIC
+sequencing_detail	library_source	GENOMIC SINGLE CELL
+sequencing_detail	library_source	METAGENOMIC
+sequencing_detail	library_source	METATRANSCRIPTOMIC
+sequencing_detail	library_source	OTHER
+sequencing_detail	library_source	SYNTHETIC
+sequencing_detail	library_source	TRANSCRIPTOMIC
+sequencing_detail	library_source	TRANSCRIPTOMIC SINGLE CELL
+sequencing_detail	library_source	VIRAL RNA
+sequencing_detail	library_strategy	AMPLICON
+sequencing_detail	library_strategy	ATAC-seq
+sequencing_detail	library_strategy	Bisulfite-Seq
+sequencing_detail	library_strategy	CLONE
+sequencing_detail	library_strategy	CLONEEND
+sequencing_detail	library_strategy	CTS
+sequencing_detail	library_strategy	ChIA-PET
+sequencing_detail	library_strategy	ChIP-Seq
+sequencing_detail	library_strategy	DNase-Hypersensitivity
+sequencing_detail	library_strategy	EST
+sequencing_detail	library_strategy	FAIRE-seq
+sequencing_detail	library_strategy	FINISHING
+sequencing_detail	library_strategy	FL-cDNA
+sequencing_detail	library_strategy	Hi-C
+sequencing_detail	library_strategy	MBD-Seq
+sequencing_detail	library_strategy	MNase-Seq
+sequencing_detail	library_strategy	MRE-Seq
+sequencing_detail	library_strategy	MeDIP-Seq
+sequencing_detail	library_strategy	OTHER
+sequencing_detail	library_strategy	POOLCLONE
+sequencing_detail	library_strategy	RAD-Seq
+sequencing_detail	library_strategy	RIP-Seq
+sequencing_detail	library_strategy	RNA-Seq
+sequencing_detail	library_strategy	SELEX
+sequencing_detail	library_strategy	Synthetic-Long-Read
+sequencing_detail	library_strategy	Targeted-Capture
+sequencing_detail	library_strategy	Tethered Chromatin Conformation Capture
+sequencing_detail	library_strategy	Tn-Seq
+sequencing_detail	library_strategy	WCS
+sequencing_detail	library_strategy	WGA
+sequencing_detail	library_strategy	WGS
+sequencing_detail	library_strategy	WXS
+sequencing_detail	library_strategy	miRNA-Seq
+sequencing_detail	library_strategy	ncRNA-Seq
+sequencing_detail	library_strategy	ssRNA-seq
+sequencing_detail	number_of_bp	INTEGER
+sequencing_detail	number_of_reads	INTEGER
+sequencing_detail	reference_genome_assembly	NA
 study	dbgap_phs_accession	NA
 study	external_url	NA
 study	study_acronym	STRING
@@ -194,15 +194,15 @@ from_study_personnel	study	study_personnel	NA	NA
 from_study_subject	file	study_subject	NA	NA
 from_study_subject	clinical_measure	study_subject	NA	NA
 of_clinical_measure	file	clinical_measure	NA	NA
-of_experiment	sample	experiment	NA	NA
 of_experiment	file	experiment	NA	NA
+of_experiment	sample	experiment	NA	NA
 of_file	imaging_detail	file	NA	NA
-of_file	genomic_detail	file	NA	NA
-of_study	clinical_measure	study	NA	NA
-of_study	study_subject	study	NA	NA
-of_study	file	study	NA	NA
+of_file	sequencing_detail	file	NA	NA
 of_study	experiment	study	NA	NA
 of_study	study_admin	study	NA	NA
+of_study	file	study	NA	NA
+of_study	clinical_measure	study	NA	NA
+of_study	study_subject	study	NA	NA
 of_study_subject	sample	study_subject	NA	NA
 
 property	description

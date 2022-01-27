@@ -134,7 +134,7 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: genomic_detail
+      - Src: sequencing_detail
         Dst: file
       - Src: imaging_detail
         Dst: file

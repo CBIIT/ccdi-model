@@ -10,8 +10,6 @@ Nodes:
     Props:
      - clinical_measure_id
      - clinical_measure_description
-     - age_at_measure
-     - site_of_measure
    # diagnosis: # may have multiple dxs for multiple timepoints?
      # Props:
      # - diagnosis_id

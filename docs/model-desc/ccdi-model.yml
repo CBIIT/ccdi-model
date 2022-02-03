@@ -92,7 +92,7 @@ Nodes:
       - funding_id #grant or contract ID, NIH or other
   study_personnel:
     Props:
-      - study_personnel_ID
+      - study_personnel_id
       - personnel_name
       - personnel_type #enum: PI, Co-PI, Data Submitter, etc
       - email_address

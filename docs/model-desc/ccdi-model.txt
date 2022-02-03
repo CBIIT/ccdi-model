@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 7e4bc1b
+commit 5cace76
 node	property	value_or_TYPE
 alias	cds_id	NA
 alias	cds_node	NA
@@ -173,7 +173,7 @@ study_personnel	email_address	NA
 study_personnel	institution	NA
 study_personnel	personnel_name	NA
 study_personnel	personnel_type	NA
-study_personnel	study_personnel_ID	NA
+study_personnel	study_personnel_id	NA
 study_subject	age_at_enrollment	NA
 study_subject	age_unit	NA
 study_subject	ethnicity	TBD
@@ -189,18 +189,18 @@ relationship	source_node	destination_node	property	value_or_TYPE
 from_sample	file	sample	NA	NA
 from_study__funding	study	study_funding	NA	NA
 from_study_personnel	study	study_personnel	NA	NA
-from_study_subject	file	study_subject	NA	NA
 from_study_subject	clinical_measure	study_subject	NA	NA
+from_study_subject	file	study_subject	NA	NA
 of_clinical_measure	file	clinical_measure	NA	NA
-of_experiment	sample	experiment	NA	NA
 of_experiment	file	experiment	NA	NA
+of_experiment	sample	experiment	NA	NA
 of_file	imaging_detail	file	NA	NA
 of_file	sequencing_detail	file	NA	NA
-of_study	study_admin	study	NA	NA
-of_study	file	study	NA	NA
 of_study	experiment	study	NA	NA
 of_study	study_subject	study	NA	NA
 of_study	clinical_measure	study	NA	NA
+of_study	file	study	NA	NA
+of_study	study_admin	study	NA	NA
 of_study_subject	sample	study_subject	NA	NA
 
 property	description

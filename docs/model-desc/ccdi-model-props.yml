@@ -1,385 +1,483 @@
 PropDefinitions:
-  # file
-  drs_url :
-    Desc: DRS url pointing to this file
-    Type: url
-  file_description:
-    Desc: Human-readable description of file
+  #alias
+  repository_id: #string
+    Desc: TBD.
+    Src: None
     Type: string
-  file_name:
+    Req: true
+    Private: false
+  repository_name: #string
+    Desc: TBD.
+    Src: None
     Type: string
-  file_size:
-    Desc: File size in bytes
-    Type: integer
-  file_type:
-    Desc: File type from enumerated list
-    Enum:
-      - TBD
-  internal_url:
-    Desc: Sytem-local url for this file
-    Type: url
-  md5sum:
-    Desc: MD5 hex digest for this file
-    Type:
-      pattern: "^[0-9a-fA-F]{32}$"
-  sra_run_accession:
-    Desc: SRA run accession ID for run containing this file
-    Type:
-      pattern: "^SRR[0-9]+$"
-  sra_study_accession:
-    Desc: SRA study accession ID for study containing this file
-    Type:
-      pattern: "^SRP[0-9]+$"
-  # study_subject
-  ethnicity:
-    Desc: OMB Ethinicity designator
-    Enum:
-      - TBD
-  gender:
-    Desc: Biological gender at birth
-    Enum:
-      - Male
-      - Female
-      - Unknown
-  race:
-    Desc: OMB Race designator
-    Type:
-      value_type: list
-      item_type:
-        - TBD
-  subject_id:
-    Desc: Identifier for this subject, as submitted by the requestor
+    Req: true
+    Private: false
+  cds_node: # string, the node in CDS schema
+    Desc: TBD.
+    Src: None
     Type: string
-  vital_status:
-    Desc: Vital status as of last known follow up
-    Enum:
-      - Alive
-      - Deceased
-      - Unknown
-  # diagnosis
-  age_at_diagnosis:
-    Desc: Age of subject at this diagnosis
-    Type:
-      value_type: number
-      units: ['yr','mon']
-  days_to_last_known_status:
-    Desc: Days to last known subject status, relative to study index date
-    Type: integer
-  days_to_recurrence:
-    Desc: Days to disease recurrence, relative to study index date
-    Type: integer
-  incidence_type:
-    Desc: For this diagnosis, disease incidence relative to prior status of subject
-    Enum:
-      - primary
-      - progression
-      - recurrence
-      - metastasis
-      - remission
-      - no_disease
-  last_known_disease_status:
-    Desc: Last known disease incidence for this subject and diagnosis
-    Enum:
-      - primary
-      - progression
-      - recurrence
-      - metastasis
-      - remission
-      - no_disease
+    Req: true
+    Private: false
+  cds_id: #string, the CDS schema identifier
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  # clinical_measure
+  clinical_measure_id:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  clinical_measure_description:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  age_at_measure:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  site_of_measure:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  # diagnosis: 
+  diagnosis_id:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
   primary_diagnosis:
-    Desc: Primary disease diagnosed for this diagnosis and subject
-    Enum:
-      # reuse ICD-O-3 value_set
-      - TBD
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
   primary_site:
-    Desc: Anatomical site of disease in primary diagnosis for this diagnosis
-    Enum:
-      # reuse GDC anatomical site list
-      - TBD
-  tumor_grade:
-    Desc: Tumor grade, in disease-appropriate grading system
-    Enum:
-      - TBD
-  tumor_morphology:
-    Desc: ICD-O-3 Morphology term associated with this diagnosis
-    Enum:
-      # ICD-O-3 M
-      - TBD
-  tumor_stage:
-    Desc: Tumor stage, in disease-appropriate staging system
-    Enum:
-      - TBD
-  # study
-  bioproject_id:
-    Desc: NCBI BioProject accession ID
-    Type:
-      pattern: "^PRJNA[0-9]+$"
-  index_date:
-    Desc: Index date (Day 0) to which all dates are relative, for this study
-    Enum:
-      - date_of_diagnosis
-      - date_of_enrollment
-      - date_of_collection
-      - date_of_birth
-  phs_accession:
-    Desc: PHS accession number (a.k.a dbGaP accession)
-    Type:
-      pattern: "^phs[0-9]+([.]v[0-9]+)*$"
-  study_acronym:
-    Desc: Short acronym or other study desginator
+    Desc: TBD.
+    Src: None
     Type: string
-  study_description:
-    Desc: Human-readable study description
+    Req: true
+    Private: false  
+  age_at_diagnosis:
+    Desc: TBD.
+    Src: None
     Type: string
-  study_external_url:
-    Desc: Website or other url relevant to study
-    Type: url
-  study_title:
-    Desc: Official name of study
+    Req: true
+    Private: false
+  days_to_recurrence:
+    Desc: TBD.
+    Src: None
     Type: string
-  # submission
+    Req: false
+    Private: false     
+  last_known_disease_status:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false     
+  days_to_last_known_status:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false  
+  # experiment
+  experiment_id:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
   design_description:
-    Desc: Human-readable description of methods used to create sequencing library
+    Desc: TBD.
+    Src: None
     Type: string
+    Req: true
+    Private: false
+  # file
+  # file_id: #system generated GUID/PK
+  #   Desc: TBD.
+  #   Src: None
+  #   Type: string
+  #   Req: true
+  #   Private: false
+  file_name:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  file_type:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  file_description:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  file_size:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  md5sum:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  cds_url:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  dcf_indexd_guid:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  # imaging_detail
+  imaging_detail_id:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
   image_modality:
-    Desc: Image modality
+    Desc: TBD.
+    Src: None
     Type: string
-  image_series_id:
-    Desc: Image series id
-    Type: string
+    Req: true
+    Private: false
   platform:
-    Desc: Instrument platform or manufacturer
-    Enum:
-      - LS454
-      - ILLUMINA
-      - HELICOS
-      - ABI_SOLID
-      - COMPLETE_GENOMICS
-      - PACBIO_SMRT
-      - ION_TORRENT
-      - CAPILLARY
-      - OXFORD_NANOPORE
-      - BGISEQ
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
   instrument_model:
-    Desc: Instrument model
-    Enum:
-      - 454 GS
-      - 454 GS 20
-      - 454 GS FLX
-      - 454 GS FLX+
-      - 454 GS FLX Titanium
-      - 454 GS Junior
-      - HiSeq X Five
-      - HiSeq X Ten
-      - Illumina Genome Analyzer
-      - Illumina Genome Analyzer II
-      - Illumina Genome Analyzer IIx
-      - Illumina HiScanSQ
-      - Illumina HiSeq 1000
-      - Illumina HiSeq 1500
-      - Illumina HiSeq 2000
-      - Illumina HiSeq 2500
-      - Illumina HiSeq 3000
-      - Illumina HiSeq 4000
-      - Illumina iSeq 100
-      - Illumina NovaSeq 6000
-      - Illumina MiniSeq
-      - Illumina MiSeq
-      - NextSeq 500
-      - NextSeq 550
-      - Helicos HeliScope
-      - AB 5500 Genetic Analyzer
-      - AB 5500xl Genetic Analyzer
-      - AB 5500x-Wl Genetic Analyzer
-      - AB SOLiD 3 Plus System
-      - AB SOLiD 4 System
-      - AB SOLiD 4hq System
-      - AB SOLiD PI System
-      - AB SOLiD System
-      - AB SOLiD System 2.0
-      - AB SOLiD System 3.0
-      - Complete Genomics
-      - PacBio RS
-      - PacBio RS II
-      - PacBio Sequel
-      - PacBio Sequel II
-      - Ion Torrent PGM
-      - Ion Torrent Proton
-      - Ion Torrent S5 XL
-      - Ion Torrent S5
-      - AB 310 Genetic Analyzer
-      - AB 3130 Genetic Analyzer
-      - AB 3130xL Genetic Analyzer
-      - AB 3500 Genetic Analyzer
-      - AB 3500xL Genetic Analyzer
-      - AB 3730 Genetic Analyzer
-      - AB 3730xL Genetic Analyzer
-      - GridION
-      - MinION
-      - PromethION
-      - BGISEQ-500
-      - BGISEQ-500
-      - DNBSEQ-G400
-      - DNBSEQ-T7
-      - DNBSEQ-G50
-      - MGISEQ-2000RS      
-  library_id:
-    Desc: Library identifier as submitted by requestor
+    Desc: TBD.
+    Src: None
     Type: string
-  library_layout:
-    Desc: Library layout as submitted by requestor
+    Req: true
+    Private: false
+  software_package: # list of free text I guess
+    Desc: TBD.
+    Src: None
     Type: string
-  library_source:
-    Desc: Source of material used to create library
-    Enum:
-      - GENOMIC
-      - TRANSCRIPTOMIC
-      - METAGENOMIC
-      - METATRANSCRIPTOMIC
-      - SYNTHETIC
-      - VIRAL RNA
-      - GENOMIC SINGLE CELL
-      - TRANSCRIPTOMIC SINGLE CELL
-      - OTHER        
-  library_strategy:
-    Desc: Nucleic acid capture or processing strategy for this library
-    Enum:
-      - WGA
-      - WGS
-      - WXS
-      - RNA-Seq
-      - miRNA-Seq
-      - WCS
-      - CLONE
-      - POOLCLONE
-      - AMPLICON
-      - CLONEEND
-      - FINISHING
-      - ChIP-Seq
-      - MNase-Seq
-      - DNase-Hypersensitivity
-      - Bisulfite-Seq
-      - Tn-Seq
-      - EST
-      - FL-cDNA
-      - CTS
-      - MRE-Seq
-      - MeDIP-Seq
-      - MBD-Seq
-      - Synthetic-Long-Read
-      - ATAC-seq
-      - ChIA-PET
-      - FAIRE-seq
-      - Hi-C
-      - ncRNA-Seq
-      - RAD-Seq
-      - RIP-Seq
-      - SELEX
-      - ssRNA-seq
-      - Targeted-Capture
-      - Tethered Chromatin Conformation Capture
-      - OTHER        
-  protocol:
-    Desc: Link to protocol used
-    Type: url
-  software_packages:
-    Desc: List of software packages or algorithms used to process data
-    Type:
-      value_type: list
-      item_type: string
-  sra_experiment_accession:
-    Desc: NCBI SRA experiment accession ID for this submission
-    Type:
-      pattern: "^SRX[0-9]+$"
-      
-  # sample
-  biosample_accession:
-    Desc: NCBI BioSample accession ID for this sample
-    Type:
-      pattern: "^SAMN[0-9]+$"
-  days_to_collection:
-    Desc: Number of days to collection, relative to index date
-    Type: integer
-  sample_anatomic_site:
-    Desc: Anatomic site from which sample was collected
-    Enum:
-      # use GDC anatomic site list
-      - TBD
+    Req: true
+    Private: false
+   # participant
+  participant_id:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  race: #how are multiple race values stored? is a new node needed for race to allow many to one
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  gender:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  ethnicity:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  vital_status:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+ # sample
   sample_id:
-    Desc: Sample identifier as submitted by requestor
+    Desc: TBD.
+    Src: None
     Type: string
-  sample_tumor_status:
-    Desc: Tumor or normal status
-    Enum:
-      - tumor
-      - normal
-  sample_type:
-    Desc: Tissue type of this sample
-    Enum:
-      # use GDC list of tissue types
-      - TBD
-  # therapeutic_procedure
-  days_to_treatment:
-    Desc: Days to this procedure, relative to index date
-    Type: integer
-  treatment_outcome:
-    Desc: Health outcome of this procedure
-    Enum:
-      # use GDC outcome list?
-      - TBD
-  treatment_type:
-    Desc: Type of treatment
-    Enum:
-      # use CMB list?
-      - TBD
-  #genomic_details
-  genome_reference_or_accession:
-    Desc: Accession or name of genome reference or assembly used for alignment
+    Req: true
+    Private: false
+  sample_type: #sample type used in an assay? more than one assay sample type could be derived from a single biopsy
+    Desc: TBD.
+    Src: None
     Type: string
-  average_read_length:
-    Desc: Average sequence read length
-    Type: number
-  coverage:
-    Desc: Average depth of coverage on reference used
-    Type: number
-  number_of_bp:
-    Desc: Total number of unique bases read
-    Type: integer
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  disease_type:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  tumor_status: # tumor or normal
+    Desc: TBD.
+    Src: None
+    Type:
+      - "tumor"
+      - "normal"
+      - "Not Available"  # 02/10/2022 adeforge, temporary
+      - "NA"  # 02/10/2022 adeforge, temporary
+    Req: true
+    Private: false
+  anatomic_site:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  participant_age_at_collection: # aka sample_collection_study_day (i.e. study day for the subject when sample collected) , it might be helpful to also have sample_collection_event (i.e. index event for collection day enum: enrollment, diagnosis, treatment,) 
+    Desc: TBD.
+    Src: None
+    Type: float  # 01/26/2022 adeforge, all ages are integers!!
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  dbgap_sample_id:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  tumor_grade:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  tumor_stage:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  tumor_morphology:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  tumor_incidence_type: # primary, metastatic, recurrence, progression
+    Desc: TBD.
+    Src: None
+    Type:
+      - "primary"
+      - "metastatic"
+      - "recurrence"
+      - "progression"
+      - "Not Available"  # 02/10/2022 adeforge, temporary
+      - "NA"  # 02/10/2022 adeforge, temporary
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  # sequencing_detail
+  sequencing_detail_id:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  library_id: # moved from submission
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  library_strategy: # moved from submission
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  library_layout: # paired end, single, moved from submission
+    Desc: TBD.
+    Src: None
+    Type:
+      - "paired end"
+      - "single end"
+      - "NA"  # 02/10/2022 adeforge, added this just to get past the loading error to see what happens next, will remove
+    Req: true
+    Private: false
+  library_source: # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
+    Desc: TBD.
+    Src: None
+    Type:
+      - "genomic"
+      - "transcriptome"
+      - "metagenomic"
+      - "viral"
+      - "synthetic"
+      - "NA"  # 02/10/2022 adeforge, added this just to get past the loading error to see what happens next, will remove
+    Req: true
+    Private: false
+  number_of_bp: # moved from submission
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
   number_of_reads:
-    Desc: Total number of reads performed
-    Type: integer
-  # cds requestor
-  cds_requestor:
-    Desc: Identifies the user requesting storage in CDS
+    Desc: TBD.
+    Src: None
     Type: string
-  data_access_level:
-    Desc: Is data open, controlled, or mixed?
-    Enum:
-      - open
-      - controlled
-      - mixed
-  data_types:
-    Desc: Data types for storage
-    Type:
-      value_type: list
-      item_type: string
-  file_types:
-    Desc: File types for storage
-    Type:
-      value_type: list
-      item_type: string
-  funding_agency:
-    Desc: Funding agency of the requestor study
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  average_read_length:
+    Desc: TBD.
+    Src: None
     Type: string
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  coverage:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  reference_genome_assembly:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  # study
+  dbgap_phs_accession:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  study_title:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  study_acronym:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  study_description:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  external_url:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  # study_admin
+  study_admin_id:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
   species:
-    Desc: Species binomial of study subjects
+    Desc: TBD.
+    Src: None
     Type: string
-  study_type:
-    Desc: Adult human, pediatric, or other
-    Enum:
-      - adult
-      - pediatric
-      - other
-  specimen_id:
-    Desc: Identifier for specimen (parent of sample) as provided by requestor
+    Req: true
+    Private: false
+  study_type: # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
+    Desc: TBD.
+    Src: None
+    Type:
+      - "adult"
+      - "pediatric"
+    Req: true
+    Private: false
+  data_types: # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
+    Desc: TBD.
+    Src: None
     Type: string
+    Req: true
+    Private: false
+  file_types: # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  data_access_level: #populated from a dbGAP query?
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  # study_funding
+  funding_agency: # 0 or many per study
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  funding_id: #grant or contract ID, NIH or other
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  # study_personnel
+  study_personnel_id:  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  personnel_name:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  personnel_type: #enum: PI, Co-PI, Data Submitter, etc
+    Desc: TBD.
+    Src: None
+    Type:
+      - "PI"
+      - "Co-PI"
+      - "Data Submitter" # these? 01/26/2022 adeforge
+      - "Data Manager"  # 02/22/2022 adeforge, is this different from a 'Data Submitter'?
+    Req: true
+    Private: false
+  email_address:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  institution:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false

@@ -10,15 +10,17 @@ Nodes:
     Props:
      - clinical_measure_id
      - clinical_measure_description
-   # diagnosis: # may have multiple dxs for multiple timepoints?
-     # Props:
-     # - diagnosis_id
-     #  - primary_diagnosis
-     # - primary_site
-     # - age_at_diagnosis
-     # - days_to_recurrence
-     # - last_known_disease_status
-     # - days_to_last_known_status
+     #- age_at_measure  02/03/2022 adeforge, Pat said remove them
+     #- site_of_measure  02/03/2022 adeforge, Pat said remove them
+  diagnosis: 
+    Props:
+     - diagnosis_id
+     - primary_diagnosis
+     - primary_site
+     - age_at_diagnosis
+     - days_to_recurrence
+     - last_known_disease_status
+     - days_to_last_known_status
   experiment: # this is renaming of node 'submission':
     Props:
       - experiment_id
@@ -27,7 +29,7 @@ Nodes:
      # - protocol #is this a file reference?
   file:
     Props:
-      - file_id #system generated GUID/PK
+      # - file_id #system generated GUID/PK
       - file_name
       - file_type
       - file_description
@@ -35,6 +37,18 @@ Nodes:
       - md5sum
       - cds_url
       - dcf_indexd_guid
+  sequencing_detail:  # was genomic_detail, 01/28/2022 adeforge
+    Props:
+      - sequencing_detail_id  # genomic_detail_id, 02/10/2022 adeforge
+      - library_id # moved from submission
+      - library_strategy # moved from submission
+      - library_layout # paired end, single, moved from submission
+      - library_source # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
+      - number_of_bp # moved from submission
+      - number_of_reads
+      - average_read_length
+      - coverage
+      - reference_genome_assembly
   imaging_detail:
     Props:
       - imaging_detail_id
@@ -49,7 +63,7 @@ Nodes:
       - disease_type
       - tumor_status # tumor or normal
       - anatomic_site
-      - study_subject_age_at_collection # aka sample_collection_study_day (i.e. study day for the subject when sample collected) , it might be helpful to also have sample_collection_event (i.e. index event for collection day enum: enrollment, diagnosis, treatment,) 
+      - participant_age_at_collection # aka sample_collection_study_day (i.e. study day for the subject when sample collected) , it might be helpful to also have sample_collection_event (i.e. index event for collection day enum: enrollment, diagnosis, treatment,) 
       - dbgap_sample_id
       - tumor_grade
       - tumor_stage
@@ -58,28 +72,19 @@ Nodes:
   #specimen: #what is the purpose of specimen?
   #  Props:
   #    - specimen_id
-  sequencing_detail:
-    Props:
-      - genomic_detail_id
-      - library_id # moved from submission
-      - library_strategy # moved from submission
-      - library_layout # paired end, single, moved from submission
-      - library_source # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
-      - number_of_bp # moved from submission
-      - number_of_reads
-      - average_read_length
-      - coverage
-      - reference_genome_assembly
   study:
     Props:
-      - study_id
+      - dbgap_phs_accession
       - study_title
       - study_acronym
       - study_description
       - external_url
-      - dbgap_phs_accession
+    # - bioproject_id , pull bioproject_id into new node alias
+    # - index_date # what are relative dates relative to? dx date, collection date, etc.
   study_admin:
     Props:
+      # - cds_requestor #is this the ODS PO, the dbGAP GP or someone else?, Why is this important?
+      # - funding_agency moved to study_funding
       - study_admin_id
       - species
       - study_type # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
@@ -92,20 +97,20 @@ Nodes:
       - funding_id #grant or contract ID, NIH or other
   study_personnel:
     Props:
-      - study_personnel_id
+      - study_personnel_id  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
       - personnel_name
       - personnel_type #enum: PI, Co-PI, Data Submitter, etc
       - email_address
       - institution
-  study_subject:
+  participant:
     Props:
-      - study_subject_id
-      - race #how are multiple race values stored? is a new node needed for race to allow many to one
+      - participant_id
+      - race #how are multiple race values stored? is a new node needed for race to allow many to one, 01/27/2022 adeforge https://minorityhealth.hhs.gov/omh/browse.aspx?lvl=3&lvlid=54#:~:text=The%20OMB%20minimum%20categories%20for,and%20Not%20Hispanic%20or%20Latino these categories were used by CHOP's FHIR endpoints
       - gender
-      - ethnicity
+      - ethnicity  # 01/27/2022 adeforge https://minorityhealth.hhs.gov/omh/browse.aspx?lvl=3&lvlid=54#:~:text=The%20OMB%20minimum%20categories%20for,and%20Not%20Hispanic%20or%20Latino these categories were used by CHOP's FHIR endpoints
       - vital_status
-      - age_at_enrollment
-      - age_unit
+      #- age_at_enrollment
+      #- age_unit
       # -age , how is subject age recorded?
   #therapeutic_procedure: 
   #  Props:
@@ -132,8 +137,8 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: sequencing_detail
-        Dst: file
+      - Src: file  # 02/07/2022 adeforge, was genomic_detail
+        Dst: sequencing_detail
       - Src: imaging_detail
         Dst: file
   from_sample:
@@ -154,36 +159,38 @@ Relationships:
         Dst: study
       - Src: study_admin
         Dst: study
-      - Src: study_subject
+      - Src: participant
         Dst: study
-  from_study__funding:
+      - Src: sample  # 02/22/2022 adeforge, new as of USCv9
+        Dst: study
+  from_study_funding:
     Props: null
     Mul: many_to_many
     Ends:
-      - Src: study
-        Dst: study_funding
+      - Src: study_funding  # 02/22/2022 adeforge, sometimes this way sometimes reversed
+        Dst: study
   from_study_personnel:
     Props: null
     Mul: many_to_many
     Ends:
-      - Src: study
-        Dst: study_personnel
-  from_study_subject:
+      - Src: study_personnel  
+        Dst: study
+  from_participant:
     Props: null
     Mul: many_to_many
     Ends:
       - Src: file
-        Dst: study_subject
+        Dst: participant
       - Src: clinical_measure
-        Dst: study_subject
-  of_study_subject:
+        Dst: participant
+  of_participant:
     Props: null
     Mul: many_to_one
     Ends:
      # - Src: diagnosis
      #   Dst: study_subject
       - Src: sample
-        Dst: study_subject
+        Dst: participant
      
 #  of_therapeutic_procedure:
 #    Props: null

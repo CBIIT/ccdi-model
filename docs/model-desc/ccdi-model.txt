@@ -1,269 +1,187 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 5cace76
+commit 19ebc2f
 node	property	value_or_TYPE
-alias	cds_id	NA
-alias	cds_node	NA
-alias	repository_id	NA
-alias	repository_name	NA
-clinical_measure	clinical_measure_description	NA
-clinical_measure	clinical_measure_id	NA
+alias	cds_id	STRING
+alias	cds_node	STRING
+alias	repository_id	STRING
+alias	repository_name	STRING
+clinical_measure	clinical_measure_description	STRING
+clinical_measure	clinical_measure_id	STRING
+diagnosis	age_at_diagnosis	STRING
+diagnosis	days_to_last_known_status	STRING
+diagnosis	days_to_recurrence	STRING
+diagnosis	diagnosis_id	STRING
+diagnosis	last_known_disease_status	STRING
+diagnosis	primary_diagnosis	STRING
+diagnosis	primary_site	STRING
 experiment	design_description	STRING
-experiment	experiment_id	NA
-file	cds_url	NA
-file	dcf_indexd_guid	NA
+experiment	experiment_id	STRING
+file	cds_url	STRING
+file	dcf_indexd_guid	STRING
 file	file_description	STRING
-file	file_id	NA
 file	file_name	STRING
-file	file_size	INTEGER
-file	file_type	TBD
-file	md5sum	REGEXP /^[0-9a-fA-F]{32}$/
+file	file_size	STRING
+file	file_type	STRING
+file	md5sum	STRING
 imaging_detail	image_modality	STRING
-imaging_detail	imaging_detail_id	NA
-imaging_detail	instrument_model	454 GS
-imaging_detail	instrument_model	454 GS 20
-imaging_detail	instrument_model	454 GS FLX
-imaging_detail	instrument_model	454 GS FLX Titanium
-imaging_detail	instrument_model	454 GS FLX+
-imaging_detail	instrument_model	454 GS Junior
-imaging_detail	instrument_model	AB 310 Genetic Analyzer
-imaging_detail	instrument_model	AB 3130 Genetic Analyzer
-imaging_detail	instrument_model	AB 3130xL Genetic Analyzer
-imaging_detail	instrument_model	AB 3500 Genetic Analyzer
-imaging_detail	instrument_model	AB 3500xL Genetic Analyzer
-imaging_detail	instrument_model	AB 3730 Genetic Analyzer
-imaging_detail	instrument_model	AB 3730xL Genetic Analyzer
-imaging_detail	instrument_model	AB 5500 Genetic Analyzer
-imaging_detail	instrument_model	AB 5500x-Wl Genetic Analyzer
-imaging_detail	instrument_model	AB 5500xl Genetic Analyzer
-imaging_detail	instrument_model	AB SOLiD 3 Plus System
-imaging_detail	instrument_model	AB SOLiD 4 System
-imaging_detail	instrument_model	AB SOLiD 4hq System
-imaging_detail	instrument_model	AB SOLiD PI System
-imaging_detail	instrument_model	AB SOLiD System
-imaging_detail	instrument_model	AB SOLiD System 2.0
-imaging_detail	instrument_model	AB SOLiD System 3.0
-imaging_detail	instrument_model	BGISEQ-500
-imaging_detail	instrument_model	BGISEQ-500
-imaging_detail	instrument_model	Complete Genomics
-imaging_detail	instrument_model	DNBSEQ-G400
-imaging_detail	instrument_model	DNBSEQ-G50
-imaging_detail	instrument_model	DNBSEQ-T7
-imaging_detail	instrument_model	GridION
-imaging_detail	instrument_model	Helicos HeliScope
-imaging_detail	instrument_model	HiSeq X Five
-imaging_detail	instrument_model	HiSeq X Ten
-imaging_detail	instrument_model	Illumina Genome Analyzer
-imaging_detail	instrument_model	Illumina Genome Analyzer II
-imaging_detail	instrument_model	Illumina Genome Analyzer IIx
-imaging_detail	instrument_model	Illumina HiScanSQ
-imaging_detail	instrument_model	Illumina HiSeq 1000
-imaging_detail	instrument_model	Illumina HiSeq 1500
-imaging_detail	instrument_model	Illumina HiSeq 2000
-imaging_detail	instrument_model	Illumina HiSeq 2500
-imaging_detail	instrument_model	Illumina HiSeq 3000
-imaging_detail	instrument_model	Illumina HiSeq 4000
-imaging_detail	instrument_model	Illumina MiSeq
-imaging_detail	instrument_model	Illumina MiniSeq
-imaging_detail	instrument_model	Illumina NovaSeq 6000
-imaging_detail	instrument_model	Illumina iSeq 100
-imaging_detail	instrument_model	Ion Torrent PGM
-imaging_detail	instrument_model	Ion Torrent Proton
-imaging_detail	instrument_model	Ion Torrent S5
-imaging_detail	instrument_model	Ion Torrent S5 XL
-imaging_detail	instrument_model	MGISEQ-2000RS
-imaging_detail	instrument_model	MinION
-imaging_detail	instrument_model	NextSeq 500
-imaging_detail	instrument_model	NextSeq 550
-imaging_detail	instrument_model	PacBio RS
-imaging_detail	instrument_model	PacBio RS II
-imaging_detail	instrument_model	PacBio Sequel
-imaging_detail	instrument_model	PacBio Sequel II
-imaging_detail	instrument_model	PromethION
-imaging_detail	platform	ABI_SOLID
-imaging_detail	platform	BGISEQ
-imaging_detail	platform	CAPILLARY
-imaging_detail	platform	COMPLETE_GENOMICS
-imaging_detail	platform	HELICOS
-imaging_detail	platform	ILLUMINA
-imaging_detail	platform	ION_TORRENT
-imaging_detail	platform	LS454
-imaging_detail	platform	OXFORD_NANOPORE
-imaging_detail	platform	PACBIO_SMRT
-imaging_detail	software_package	NA
-sample	anatomic_site	NA
-sample	dbgap_sample_id	NA
-sample	disease_type	NA
+imaging_detail	imaging_detail_id	STRING
+imaging_detail	instrument_model	STRING
+imaging_detail	platform	STRING
+imaging_detail	software_package	STRING
+participant	ethnicity	STRING
+participant	gender	STRING
+participant	participant_id	STRING
+participant	race	STRING
+participant	vital_status	STRING
+sample	anatomic_site	STRING
+sample	dbgap_sample_id	STRING
+sample	disease_type	STRING
+sample	participant_age_at_collection	FLOAT
 sample	sample_id	STRING
-sample	sample_type	TBD
-sample	study_subject_age_at_collection	NA
-sample	tumor_grade	TBD
+sample	sample_type	STRING
+sample	tumor_grade	STRING
 sample	tumor_incidence_type	NA
-sample	tumor_morphology	TBD
-sample	tumor_stage	TBD
+sample	tumor_incidence_type	Not Available
+sample	tumor_incidence_type	metastatic
+sample	tumor_incidence_type	primary
+sample	tumor_incidence_type	progression
+sample	tumor_incidence_type	recurrence
+sample	tumor_morphology	STRING
+sample	tumor_stage	STRING
 sample	tumor_status	NA
-sequencing_detail	average_read_length	NUMBER
-sequencing_detail	coverage	NUMBER
-sequencing_detail	genomic_detail_id	NA
+sample	tumor_status	Not Available
+sample	tumor_status	normal
+sample	tumor_status	tumor
+sequencing_detail	average_read_length	STRING
+sequencing_detail	coverage	STRING
 sequencing_detail	library_id	STRING
-sequencing_detail	library_layout	STRING
-sequencing_detail	library_source	GENOMIC
-sequencing_detail	library_source	GENOMIC SINGLE CELL
-sequencing_detail	library_source	METAGENOMIC
-sequencing_detail	library_source	METATRANSCRIPTOMIC
-sequencing_detail	library_source	OTHER
-sequencing_detail	library_source	SYNTHETIC
-sequencing_detail	library_source	TRANSCRIPTOMIC
-sequencing_detail	library_source	TRANSCRIPTOMIC SINGLE CELL
-sequencing_detail	library_source	VIRAL RNA
-sequencing_detail	library_strategy	AMPLICON
-sequencing_detail	library_strategy	ATAC-seq
-sequencing_detail	library_strategy	Bisulfite-Seq
-sequencing_detail	library_strategy	CLONE
-sequencing_detail	library_strategy	CLONEEND
-sequencing_detail	library_strategy	CTS
-sequencing_detail	library_strategy	ChIA-PET
-sequencing_detail	library_strategy	ChIP-Seq
-sequencing_detail	library_strategy	DNase-Hypersensitivity
-sequencing_detail	library_strategy	EST
-sequencing_detail	library_strategy	FAIRE-seq
-sequencing_detail	library_strategy	FINISHING
-sequencing_detail	library_strategy	FL-cDNA
-sequencing_detail	library_strategy	Hi-C
-sequencing_detail	library_strategy	MBD-Seq
-sequencing_detail	library_strategy	MNase-Seq
-sequencing_detail	library_strategy	MRE-Seq
-sequencing_detail	library_strategy	MeDIP-Seq
-sequencing_detail	library_strategy	OTHER
-sequencing_detail	library_strategy	POOLCLONE
-sequencing_detail	library_strategy	RAD-Seq
-sequencing_detail	library_strategy	RIP-Seq
-sequencing_detail	library_strategy	RNA-Seq
-sequencing_detail	library_strategy	SELEX
-sequencing_detail	library_strategy	Synthetic-Long-Read
-sequencing_detail	library_strategy	Targeted-Capture
-sequencing_detail	library_strategy	Tethered Chromatin Conformation Capture
-sequencing_detail	library_strategy	Tn-Seq
-sequencing_detail	library_strategy	WCS
-sequencing_detail	library_strategy	WGA
-sequencing_detail	library_strategy	WGS
-sequencing_detail	library_strategy	WXS
-sequencing_detail	library_strategy	miRNA-Seq
-sequencing_detail	library_strategy	ncRNA-Seq
-sequencing_detail	library_strategy	ssRNA-seq
-sequencing_detail	number_of_bp	INTEGER
-sequencing_detail	number_of_reads	INTEGER
-sequencing_detail	reference_genome_assembly	NA
-study	dbgap_phs_accession	NA
-study	external_url	NA
+sequencing_detail	library_layout	NA
+sequencing_detail	library_layout	paired end
+sequencing_detail	library_layout	single end
+sequencing_detail	library_source	NA
+sequencing_detail	library_source	genomic
+sequencing_detail	library_source	metagenomic
+sequencing_detail	library_source	synthetic
+sequencing_detail	library_source	transcriptome
+sequencing_detail	library_source	viral
+sequencing_detail	library_strategy	STRING
+sequencing_detail	number_of_bp	STRING
+sequencing_detail	number_of_reads	STRING
+sequencing_detail	reference_genome_assembly	STRING
+sequencing_detail	sequencing_detail_id	STRING
+study	dbgap_phs_accession	STRING
+study	external_url	STRING
 study	study_acronym	STRING
 study	study_description	STRING
-study	study_id	NA
 study	study_title	STRING
-study_admin	data_access_level	controlled
-study_admin	data_access_level	mixed
-study_admin	data_access_level	open
+study_admin	data_access_level	STRING
+study_admin	data_types	STRING
+study_admin	file_types	STRING
 study_admin	species	STRING
-study_admin	study_admin_id	NA
+study_admin	study_admin_id	STRING
 study_admin	study_type	adult
-study_admin	study_type	other
 study_admin	study_type	pediatric
 study_funding	funding_agency	STRING
-study_funding	funding_id	NA
-study_personnel	email_address	NA
-study_personnel	institution	NA
-study_personnel	personnel_name	NA
-study_personnel	personnel_type	NA
-study_personnel	study_personnel_id	NA
-study_subject	age_at_enrollment	NA
-study_subject	age_unit	NA
-study_subject	ethnicity	TBD
-study_subject	gender	Female
-study_subject	gender	Male
-study_subject	gender	Unknown
-study_subject	study_subject_id	NA
-study_subject	vital_status	Alive
-study_subject	vital_status	Deceased
-study_subject	vital_status	Unknown
+study_funding	funding_id	STRING
+study_personnel	email_address	STRING
+study_personnel	institution	STRING
+study_personnel	personnel_name	STRING
+study_personnel	personnel_type	Co-PI
+study_personnel	personnel_type	Data Manager
+study_personnel	personnel_type	Data Submitter
+study_personnel	personnel_type	PI
+study_personnel	study_personnel_id	STRING
 
 relationship	source_node	destination_node	property	value_or_TYPE
+from_participant	file	participant	NA	NA
+from_participant	clinical_measure	participant	NA	NA
 from_sample	file	sample	NA	NA
-from_study__funding	study	study_funding	NA	NA
-from_study_personnel	study	study_personnel	NA	NA
-from_study_subject	clinical_measure	study_subject	NA	NA
-from_study_subject	file	study_subject	NA	NA
+from_study_funding	study_funding	study	NA	NA
+from_study_personnel	study_personnel	study	NA	NA
 of_clinical_measure	file	clinical_measure	NA	NA
 of_experiment	file	experiment	NA	NA
 of_experiment	sample	experiment	NA	NA
 of_file	imaging_detail	file	NA	NA
-of_file	sequencing_detail	file	NA	NA
-of_study	experiment	study	NA	NA
-of_study	study_subject	study	NA	NA
-of_study	clinical_measure	study	NA	NA
+of_file	file	sequencing_detail	NA	NA
+of_participant	sample	participant	NA	NA
 of_study	file	study	NA	NA
+of_study	participant	study	NA	NA
+of_study	clinical_measure	study	NA	NA
 of_study	study_admin	study	NA	NA
-of_study_subject	sample	study_subject	NA	NA
+of_study	sample	study	NA	NA
+of_study	experiment	study	NA	NA
 
 property	description
-age_at_diagnosis	Age of subject at this diagnosis
-average_read_length	Average sequence read length
-bioproject_id	NCBI BioProject accession ID
-biosample_accession	NCBI BioSample accession ID for this sample
-cds_requestor	Identifies the user requesting storage in CDS
-coverage	Average depth of coverage on reference used
-data_types	Data types for storage
-days_to_collection	Number of days to collection, relative to index date
-days_to_last_known_status	Days to last known subject status, relative to study index date
-days_to_recurrence	Days to disease recurrence, relative to study index date
-days_to_treatment	Days to this procedure, relative to index date
-design_description	Human-readable description of methods used to create sequencing library
-drs_url	DRS url pointing to this file
-ethnicity	OMB Ethinicity designator
-file_description	Human-readable description of file
-file_size	File size in bytes
-file_type	File type from enumerated list
-file_types	File types for storage
-funding_agency	Funding agency of the requestor study
-gender	Biological gender at birth
-genome_reference_or_accession	Accession or name of genome reference or assembly used for alignment
-image_modality	Image modality
-image_series_id	Image series id
-incidence_type	For this diagnosis, disease incidence relative to prior status of subject
-index_date	Index date (Day 0) to which all dates are relative, for this study
-instrument_model	Instrument model
-internal_url	Sytem-local url for this file
-last_known_disease_status	Last known disease incidence for this subject and diagnosis
-library_id	Library identifier as submitted by requestor
-library_layout	Library layout as submitted by requestor
-library_source	Source of material used to create library
-library_strategy	Nucleic acid capture or processing strategy for this library
-md5sum	MD5 hex digest for this file
-number_of_bp	Total number of unique bases read
-number_of_reads	Total number of reads performed
-phs_accession	PHS accession number (a.k.a dbGaP accession)
-platform	Instrument platform or manufacturer
-primary_diagnosis	Primary disease diagnosed for this diagnosis and subject
-primary_site	Anatomical site of disease in primary diagnosis for this diagnosis
-protocol	Link to protocol used
-race	OMB Race designator
-sample_anatomic_site	Anatomic site from which sample was collected
-sample_id	Sample identifier as submitted by requestor
-sample_tumor_status	Tumor or normal status
-sample_type	Tissue type of this sample
-software_packages	List of software packages or algorithms used to process data
-species	Species binomial of study subjects
-specimen_id	Identifier for specimen (parent of sample) as provided by requestor
-sra_experiment_accession	NCBI SRA experiment accession ID for this submission
-sra_run_accession	SRA run accession ID for run containing this file
-sra_study_accession	SRA study accession ID for study containing this file
-study_acronym	Short acronym or other study desginator
-study_description	Human-readable study description
-study_external_url	Website or other url relevant to study
-study_title	Official name of study
-study_type	Adult human, pediatric, or other
-subject_id	Identifier for this subject, as submitted by the requestor
-treatment_outcome	Health outcome of this procedure
-treatment_type	Type of treatment
-tumor_grade	Tumor grade, in disease-appropriate grading system
-tumor_morphology	ICD-O-3 Morphology term associated with this diagnosis
-tumor_stage	Tumor stage, in disease-appropriate staging system
-vital_status	Vital status as of last known follow up
+age_at_diagnosis	TBD.
+age_at_measure	TBD.
+anatomic_site	TBD.
+average_read_length	TBD.
+cds_id	TBD.
+cds_node	TBD.
+cds_url	TBD.
+clinical_measure_description	TBD.
+clinical_measure_id	TBD.
+coverage	TBD.
+data_access_level	TBD.
+data_types	TBD.
+days_to_last_known_status	TBD.
+days_to_recurrence	TBD.
+dbgap_phs_accession	TBD.
+dbgap_sample_id	TBD.
+dcf_indexd_guid	TBD.
+design_description	TBD.
+diagnosis_id	TBD.
+disease_type	TBD.
+email_address	TBD.
+ethnicity	TBD.
+experiment_id	TBD.
+external_url	TBD.
+file_description	TBD.
+file_name	TBD.
+file_size	TBD.
+file_type	TBD.
+file_types	TBD.
+funding_agency	TBD.
+funding_id	TBD.
+gender	TBD.
+image_modality	TBD.
+imaging_detail_id	TBD.
+institution	TBD.
+instrument_model	TBD.
+last_known_disease_status	TBD.
+library_id	TBD.
+library_layout	TBD.
+library_source	TBD.
+library_strategy	TBD.
+md5sum	TBD.
+number_of_bp	TBD.
+number_of_reads	TBD.
+participant_age_at_collection	TBD.
+participant_id	TBD.
+personnel_name	TBD.
+personnel_type	TBD.
+platform	TBD.
+primary_diagnosis	TBD.
+primary_site	TBD.
+race	TBD.
+reference_genome_assembly	TBD.
+repository_id	TBD.
+repository_name	TBD.
+sample_id	TBD.
+sample_type	TBD.
+sequencing_detail_id	TBD.
+site_of_measure	TBD.
+software_package	TBD.
+species	TBD.
+study_acronym	TBD.
+study_admin_id	TBD.
+study_description	TBD.
+study_personnel_id	TBD.
+study_title	TBD.
+study_type	TBD.
+tumor_grade	TBD.
+tumor_incidence_type	TBD.
+tumor_morphology	TBD.
+tumor_stage	TBD.
+tumor_status	TBD.
+vital_status	TBD.

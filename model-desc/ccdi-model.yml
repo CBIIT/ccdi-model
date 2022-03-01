@@ -48,7 +48,8 @@ Nodes:
   participant: # 28.02.22 pdunn
     Props:
       - participant_id
-      - race       - gender
+      - race       
+      - gender
       - ethnicity  # 01/27/2022 adeforge https://minorityhealth.hhs.gov/omh/browse.aspx?lvl=3&lvlid=54#:~:text=The%20OMB%20minimum%20categories%20for,and%20Not%20Hispanic%20or%20Latino these categories were used by CHOP's FHIR endpoints
       - vital_status
       #- age_at_enrollment

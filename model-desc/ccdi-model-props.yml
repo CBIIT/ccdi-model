@@ -25,25 +25,7 @@ PropDefinitions:
     Req: true
     Private: false
   # clinical_measure
-  clinical_measure_id:
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: true
-    Private: false
-  clinical_measure_description:
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: true
-    Private: false
-  age_at_measure:
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: true
-    Private: false
-  site_of_measure:
+  name:
     Desc: TBD.
     Src: None
     Type: string
@@ -84,13 +66,13 @@ PropDefinitions:
     Desc: TBD.
     Src: None
     Type: string
-    Req: true
+    Req: false
     Private: false     
   days_to_last_known_status:
     Desc: TBD.
     Src: None
     Type: string
-    Req: true
+    Req: false
     Private: false  
   # experiment
   experiment_id:
@@ -105,13 +87,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  # file
-  # file_id: #system generated GUID/PK
-  #   Desc: TBD.
-  #   Src: None
-  #   Type: string
-  #   Req: true
-  #   Private: false
+  # common file props
   file_name:
     Desc: TBD.
     Src: None
@@ -154,13 +130,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  # imaging_detail
-  imaging_detail_id:
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: true
-    Private: false
+  # imaging file props
   image_modality:
     Desc: TBD.
     Src: None
@@ -179,20 +149,20 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  software_package: # list of free text I guess
+  software_package:
     Desc: TBD.
     Src: None
     Type: string
     Req: true
     Private: false
-   # participant
+  # participant
   participant_id:
     Desc: TBD.
     Src: None
     Type: string
     Req: true
     Private: false
-  race: #how are multiple race values stored? is a new node needed for race to allow many to one
+  race: 
     Desc: TBD.
     Src: None
     Type: string
@@ -223,7 +193,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  sample_type: #sample type used in an assay? more than one assay sample type could be derived from a single biopsy
+  sample_type: 
     Desc: TBD.
     Src: None
     Type: string
@@ -254,26 +224,20 @@ PropDefinitions:
   participant_age_at_collection: # aka sample_collection_study_day (i.e. study day for the subject when sample collected) , it might be helpful to also have sample_collection_event (i.e. index event for collection day enum: enrollment, diagnosis, treatment,) 
     Desc: TBD.
     Src: None
-    Type: float  # 01/26/2022 adeforge, all ages are integers!!
+    Type: string  # 01/26/2022 adeforge, all ages are integers!! 28feb22 pdunn
     Req: false  # 02/22/2022 adeforge, not required?
-    Private: false
-  dbgap_sample_id:
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: true
     Private: false
   tumor_grade:
     Desc: TBD.
     Src: None
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required?
+    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   tumor_stage:
     Desc: TBD.
     Src: None
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required?
+    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   tumor_morphology:
     Desc: TBD.
@@ -288,43 +252,33 @@ PropDefinitions:
       - "primary"
       - "metastatic"
       - "recurrence"
-      - "progression"
-      - "Not Available"  # 02/10/2022 adeforge, temporary
-      - "NA"  # 02/10/2022 adeforge, temporary
-    Req: false  # 02/22/2022 adeforge, not required?
-    Private: false
-  # sequencing_detail
-  sequencing_detail_id:
+      - "progression"# new properties for new model 01/25/2022 adeforge
+  # sequencing_file props
+  library_id: # per dbGaP, library_id can be == sample_id if there is only 1 seq file per sample
     Desc: TBD.
     Src: None
     Type: string
     Req: true
     Private: false
-  library_id: # moved from submission
+  library_strategy: 
     Desc: TBD.
     Src: None
     Type: string
     Req: true
     Private: false
-  library_strategy: # moved from submission
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: true
-    Private: false
-  library_layout: # paired end, single, moved from submission
+  library_layout: 
     Desc: TBD.
     Src: None
     Type:
       - "paired end"
-      - "single end"
+      - "single end" #28feb22 pdunn
       - "NA"  # 02/10/2022 adeforge, added this just to get past the loading error to see what happens next, will remove
     Req: true
     Private: false
   library_source: # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
     Desc: TBD.
     Src: None
-    Type:
+    Type: #enum values in dbGaP are UC, in yaml, they are LC
       - "genomic"
       - "transcriptome"
       - "metagenomic"
@@ -333,7 +287,7 @@ PropDefinitions:
       - "NA"  # 02/10/2022 adeforge, added this just to get past the loading error to see what happens next, will remove
     Req: true
     Private: false
-  number_of_bp: # moved from submission
+  number_of_bp:
     Desc: TBD.
     Src: None
     Type: string
@@ -343,25 +297,25 @@ PropDefinitions:
     Desc: TBD.
     Src: None
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required?
+    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   average_read_length:
     Desc: TBD.
     Src: None
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required?
+    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   coverage:
     Desc: TBD.
     Src: None
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required?
+    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   reference_genome_assembly:
     Desc: TBD.
     Src: None
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required?
+    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   # study
   dbgap_phs_accession:
@@ -419,13 +373,13 @@ PropDefinitions:
     Desc: TBD.
     Src: None
     Type: string
-    Req: true
+    Req: false
     Private: false
   file_types: # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
     Desc: TBD.
     Src: None
     Type: string
-    Req: true
+    Req: false
     Private: false
   data_access_level: #populated from a dbGAP query?
     Desc: TBD.
@@ -479,5 +433,5 @@ PropDefinitions:
     Desc: TBD.
     Src: None
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required?
+    Req: true  # 28feb22 pdunn
     Private: false

@@ -133,7 +133,7 @@ Relationships:
   of_clinical_measure_file_participant: # 01.03.22 pdunn
     Props: null
     Mul: many_to_many # this Mul is many_to_many. of_clinical_measure_file Mul is many_to_one
-    Ends
+    Ends:
       - Src: clinical_measure_file
         Dst: participant
   of_diagnosis: # 01.03.22 pdunn

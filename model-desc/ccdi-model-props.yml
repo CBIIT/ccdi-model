@@ -252,7 +252,7 @@ PropDefinitions:
       - "primary"
       - "metastatic"
       - "recurrence"
-      - "progression"# new properties for new model 01/25/2022 adeforge
+      - "progression" # new properties for new model 01/25/2022 adeforge
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
   # sequencing_file props

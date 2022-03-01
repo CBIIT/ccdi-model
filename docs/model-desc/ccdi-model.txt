@@ -1,12 +1,18 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 19ebc2f
+commit de5322d
 node	property	value_or_TYPE
 alias	cds_id	STRING
 alias	cds_node	STRING
 alias	repository_id	STRING
 alias	repository_name	STRING
-clinical_measure	clinical_measure_description	STRING
-clinical_measure	clinical_measure_id	STRING
+clinical_measure	name	STRING
+clinical_measure_file	cds_url	STRING
+clinical_measure_file	dcf_indexd_guid	STRING
+clinical_measure_file	file_description	STRING
+clinical_measure_file	file_name	STRING
+clinical_measure_file	file_size	STRING
+clinical_measure_file	file_type	STRING
+clinical_measure_file	md5sum	STRING
 diagnosis	age_at_diagnosis	STRING
 diagnosis	days_to_last_known_status	STRING
 diagnosis	days_to_recurrence	STRING
@@ -16,32 +22,29 @@ diagnosis	primary_diagnosis	STRING
 diagnosis	primary_site	STRING
 experiment	design_description	STRING
 experiment	experiment_id	STRING
-file	cds_url	STRING
-file	dcf_indexd_guid	STRING
-file	file_description	STRING
-file	file_name	STRING
-file	file_size	STRING
-file	file_type	STRING
-file	md5sum	STRING
-imaging_detail	image_modality	STRING
-imaging_detail	imaging_detail_id	STRING
-imaging_detail	instrument_model	STRING
-imaging_detail	platform	STRING
-imaging_detail	software_package	STRING
+imaging_file	cds_url	STRING
+imaging_file	dcf_indexd_guid	STRING
+imaging_file	file_description	STRING
+imaging_file	file_name	STRING
+imaging_file	file_size	STRING
+imaging_file	file_type	STRING
+imaging_file	image_modality	STRING
+imaging_file	instrument_model	STRING
+imaging_file	md5sum	STRING
+imaging_file	platform	STRING
+imaging_file	software_package	STRING
 participant	ethnicity	STRING
 participant	gender	STRING
 participant	participant_id	STRING
 participant	race	STRING
 participant	vital_status	STRING
 sample	anatomic_site	STRING
-sample	dbgap_sample_id	STRING
+sample	dbgap_sample_id	NA
 sample	disease_type	STRING
-sample	participant_age_at_collection	FLOAT
+sample	participant_age_at_collection	STRING
 sample	sample_id	STRING
 sample	sample_type	STRING
 sample	tumor_grade	STRING
-sample	tumor_incidence_type	NA
-sample	tumor_incidence_type	Not Available
 sample	tumor_incidence_type	metastatic
 sample	tumor_incidence_type	primary
 sample	tumor_incidence_type	progression
@@ -52,23 +55,29 @@ sample	tumor_status	NA
 sample	tumor_status	Not Available
 sample	tumor_status	normal
 sample	tumor_status	tumor
-sequencing_detail	average_read_length	STRING
-sequencing_detail	coverage	STRING
-sequencing_detail	library_id	STRING
-sequencing_detail	library_layout	NA
-sequencing_detail	library_layout	paired end
-sequencing_detail	library_layout	single end
-sequencing_detail	library_source	NA
-sequencing_detail	library_source	genomic
-sequencing_detail	library_source	metagenomic
-sequencing_detail	library_source	synthetic
-sequencing_detail	library_source	transcriptome
-sequencing_detail	library_source	viral
-sequencing_detail	library_strategy	STRING
-sequencing_detail	number_of_bp	STRING
-sequencing_detail	number_of_reads	STRING
-sequencing_detail	reference_genome_assembly	STRING
-sequencing_detail	sequencing_detail_id	STRING
+sequencing_file	average_read_length	STRING
+sequencing_file	cds_url	STRING
+sequencing_file	coverage	STRING
+sequencing_file	dcf_indexd_guid	STRING
+sequencing_file	file_description	STRING
+sequencing_file	file_name	STRING
+sequencing_file	file_size	STRING
+sequencing_file	file_type	STRING
+sequencing_file	library_id	STRING
+sequencing_file	library_layout	NA
+sequencing_file	library_layout	paired end
+sequencing_file	library_layout	single end
+sequencing_file	library_source	NA
+sequencing_file	library_source	genomic
+sequencing_file	library_source	metagenomic
+sequencing_file	library_source	synthetic
+sequencing_file	library_source	transcriptome
+sequencing_file	library_source	viral
+sequencing_file	library_strategy	STRING
+sequencing_file	md5sum	STRING
+sequencing_file	number_of_bp	STRING
+sequencing_file	number_of_reads	STRING
+sequencing_file	reference_genome_assembly	STRING
 study	dbgap_phs_accession	STRING
 study	external_url	STRING
 study	study_acronym	STRING
@@ -93,41 +102,35 @@ study_personnel	personnel_type	PI
 study_personnel	study_personnel_id	STRING
 
 relationship	source_node	destination_node	property	value_or_TYPE
-from_participant	file	participant	NA	NA
-from_participant	clinical_measure	participant	NA	NA
-from_sample	file	sample	NA	NA
-from_study_funding	study_funding	study	NA	NA
-from_study_personnel	study_personnel	study	NA	NA
-of_clinical_measure	file	clinical_measure	NA	NA
-of_experiment	file	experiment	NA	NA
-of_experiment	sample	experiment	NA	NA
-of_file	imaging_detail	file	NA	NA
-of_file	file	sequencing_detail	NA	NA
-of_participant	sample	participant	NA	NA
-of_study	file	study	NA	NA
-of_study	participant	study	NA	NA
-of_study	clinical_measure	study	NA	NA
-of_study	study_admin	study	NA	NA
-of_study	sample	study	NA	NA
-of_study	experiment	study	NA	NA
+of_clinical_measure	clinical_measure	study	NA	NA
+of_clinical_measure_file	clinical_measure_file	clinical_measure	NA	NA
+of_clinical_measure_file_participant	clinical_measure_file	participant	NA	NA
+of_diagnosis	diagnosis	participant	NA	NA
+of_experiment	experiment	study	NA	NA
+of_imaging_file	imaging_file	experiment	NA	NA
+of_imaging_file	imaging_file	sample	NA	NA
+of_participant	participant	study	NA	NA
+of_sample	sample	study	NA	NA
+of_sample	sample	participant	NA	NA
+of_sequencing_file	sequencing_file	sample	NA	NA
+of_sequencing_file	sequencing_file	experiment	NA	NA
+of_study_admin	study_admin	study	NA	NA
+of_study_funding	study_funding	study	NA	NA
+of_study_personnel	study_personnel	study	NA	NA
 
 property	description
 age_at_diagnosis	TBD.
-age_at_measure	TBD.
 anatomic_site	TBD.
 average_read_length	TBD.
 cds_id	TBD.
 cds_node	TBD.
 cds_url	TBD.
-clinical_measure_description	TBD.
-clinical_measure_id	TBD.
 coverage	TBD.
 data_access_level	TBD.
 data_types	TBD.
 days_to_last_known_status	TBD.
 days_to_recurrence	TBD.
 dbgap_phs_accession	TBD.
-dbgap_sample_id	TBD.
 dcf_indexd_guid	TBD.
 design_description	TBD.
 diagnosis_id	TBD.
@@ -145,7 +148,6 @@ funding_agency	TBD.
 funding_id	TBD.
 gender	TBD.
 image_modality	TBD.
-imaging_detail_id	TBD.
 institution	TBD.
 instrument_model	TBD.
 last_known_disease_status	TBD.
@@ -154,6 +156,7 @@ library_layout	TBD.
 library_source	TBD.
 library_strategy	TBD.
 md5sum	TBD.
+name	TBD.
 number_of_bp	TBD.
 number_of_reads	TBD.
 participant_age_at_collection	TBD.
@@ -169,8 +172,6 @@ repository_id	TBD.
 repository_name	TBD.
 sample_id	TBD.
 sample_type	TBD.
-sequencing_detail_id	TBD.
-site_of_measure	TBD.
 software_package	TBD.
 species	TBD.
 study_acronym	TBD.

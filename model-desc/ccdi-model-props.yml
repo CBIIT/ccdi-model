@@ -253,6 +253,8 @@ PropDefinitions:
       - "metastatic"
       - "recurrence"
       - "progression"# new properties for new model 01/25/2022 adeforge
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
   # sequencing_file props
   library_id: # per dbGaP, library_id can be == sample_id if there is only 1 seq file per sample
     Desc: TBD.

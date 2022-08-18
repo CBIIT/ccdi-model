@@ -201,7 +201,7 @@ PropDefinitions:
       - "Not Reported"
       - "Not Specified"
       - "Unknown"
-      - "Unspecified    
+      - "Unspecified" 
     Req: true
     Private: false
   ethnicity:
@@ -213,7 +213,7 @@ PropDefinitions:
       - "Not allowed to collect"
       - "Not Hispanic or Latino"
       - "Not reported"
-      - "Unknown    
+      - "Unknown" 
     Req: true
     Private: false
   vital_status:

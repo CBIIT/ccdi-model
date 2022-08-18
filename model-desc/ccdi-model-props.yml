@@ -40,25 +40,29 @@ PropDefinitions:
     Private: false
   primary_diagnosis:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6161032
     Type: string
     Req: true
     Private: false
   primary_site:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6161019
     Type: string
     Req: true
     Private: false  
   age_at_diagnosis:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 3225640
     Type: string
     Req: true
     Private: false
   days_to_recurrence:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6154731
     Type: string
     Req: false
     Private: false     
@@ -70,7 +74,8 @@ PropDefinitions:
     Private: false     
   days_to_last_known_status:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 5424231
     Type: string
     Req: false
     Private: false  
@@ -90,13 +95,15 @@ PropDefinitions:
   # common file props
   file_name:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6115804
     Type: string
     Req: true
     Private: false
   file_type:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6983162
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -108,7 +115,8 @@ PropDefinitions:
     Private: false
   file_size:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6115806
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -139,13 +147,15 @@ PropDefinitions:
     Private: false
   platform:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6347771
     Type: string
     Req: true
     Private: false
   instrument_model:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6352164
     Type: string
     Req: true
     Private: false
@@ -158,31 +168,58 @@ PropDefinitions:
   # participant
   participant_id:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6867052
     Type: string
     Req: true
     Private: false
   race: 
     Desc: TBD.
-    Src: None
-    Type: string
+    Src: caDSR
+    Code: 2192199
+    Enum: 
+      - "American Indian or Alaska Native"
+      - "Asian"
+      - "Black or African American"
+      - "Native Hawaiian or other Pacific Islander"
+      - "Not allowed to collect"
+      - "Not Reported"
+      - "Unknown"
+      - "White"
     Req: true
     Private: false
   gender:
     Desc: TBD.
-    Src: None
-    Type: string
+    Src: caDSR
+    Code: 2200604
+    Enum: 
+      - "Female"
+      - "Female Gender"
+      - "Intersex"
+      - "Male"
+      - "Male Gender"
+      - "Not Reported"
+      - "Not Specified"
+      - "Unknown"
+      - "Unspecified    
     Req: true
     Private: false
   ethnicity:
     Desc: TBD.
-    Src: None
-    Type: string
+    Src: caDSR
+    Code: 2192217
+    Enum:
+      - "Hispanic or Latino"
+      - "Not allowed to collect"
+      - "Not Hispanic or Latino"
+      - "Not reported"
+      - "Unknown    
     Req: true
     Private: false
   vital_status:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 5
     Type: string
     Req: true
     Private: false
@@ -195,13 +232,15 @@ PropDefinitions:
     Private: false
   sample_type: 
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 3111302
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
   disease_type:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6161017
     Type: string
     Req: true
     Private: false
@@ -217,7 +256,8 @@ PropDefinitions:
     Private: false
   anatomic_site:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6161035
     Type: string
     Req: true
     Private: false
@@ -229,19 +269,36 @@ PropDefinitions:
     Private: false
   tumor_grade:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 2785839
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
-  tumor_stage:
+  tumor_stage_clinical_t:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 3440328
+    Type: string
+    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
+    Private: false
+  tumor_stage_clinical_n:
+    Desc: TBD.
+    Src: caDSR
+    Code: 3440330
+    Type: string
+    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
+    Private: false
+  tumor_stage_clinical_m:
+    Desc: TBD.
+    Src: caDSR
+    Code: 3440331
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   tumor_morphology:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 3326275
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -264,7 +321,8 @@ PropDefinitions:
     Private: false
   library_strategy: 
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6273393
     Type: string
     Req: true
     Private: false
@@ -279,7 +337,8 @@ PropDefinitions:
     Private: false
   library_source: # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6285979
     Enum: #enum values in dbGaP are UC, in yaml, they are LC
       - "genomic"
       - "transcriptome"
@@ -303,7 +362,8 @@ PropDefinitions:
     Private: false
   average_read_length:
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 6380354
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
@@ -398,7 +458,8 @@ PropDefinitions:
     Private: false
   funding_id: #grant or contract ID, NIH or other
     Desc: TBD.
-    Src: None
+    Src: caDSR
+    Code: 3434057
     Type: string
     Req: true
     Private: false

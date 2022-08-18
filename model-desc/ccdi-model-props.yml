@@ -208,7 +208,7 @@ PropDefinitions:
   tumor_status: # tumor or normal
     Desc: TBD.
     Src: None
-    Type:
+    Enum:
       - "tumor"
       - "normal"
       - "Not Available"  # 02/10/2022 adeforge, temporary
@@ -248,7 +248,7 @@ PropDefinitions:
   tumor_incidence_type: # primary, metastatic, recurrence, progression
     Desc: TBD.
     Src: None
-    Type:
+    Enum:
       - "primary"
       - "metastatic"
       - "recurrence"
@@ -271,7 +271,7 @@ PropDefinitions:
   library_layout: 
     Desc: TBD.
     Src: None
-    Type:
+    Enum:
       - "paired end"
       - "single end" #28feb22 pdunn
       - "NA"  # 02/10/2022 adeforge, added this just to get past the loading error to see what happens next, will remove
@@ -280,7 +280,7 @@ PropDefinitions:
   library_source: # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
     Desc: TBD.
     Src: None
-    Type: #enum values in dbGaP are UC, in yaml, they are LC
+    Enum: #enum values in dbGaP are UC, in yaml, they are LC
       - "genomic"
       - "transcriptome"
       - "metagenomic"
@@ -366,7 +366,7 @@ PropDefinitions:
   study_type: # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
     Desc: TBD.
     Src: None
-    Type:
+    Enum:
       - "adult"
       - "pediatric"
     Req: true
@@ -418,7 +418,7 @@ PropDefinitions:
   personnel_type: #enum: PI, Co-PI, Data Submitter, etc
     Desc: TBD.
     Src: None
-    Type:
+    Enum:
       - "PI"
       - "Co-PI"
       - "Data Submitter" # these? 01/26/2022 adeforge

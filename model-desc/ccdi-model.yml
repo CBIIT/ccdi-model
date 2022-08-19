@@ -64,6 +64,9 @@ Nodes:
       - participant_age_at_collection # 28.02.22 pdunn
       - tumor_grade
       - tumor_stage
+      - tumor_stage_clinical_t
+      - tumor_stage_clinical_n
+      - tumor_stage_clinical_m
       - tumor_morphology
       - tumor_incidence_type # primary, metastatic, recurrence, progression
       - dbgap_sample_id

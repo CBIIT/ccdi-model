@@ -630,7 +630,7 @@ PropDefinitions:
       - "With tumor"
     Req: false
     Private: false     
-  days_to_last_known_status:
+  days_to_last_known_disease_status:
     Desc: TBD.
     Src: caDSR
     Code: 3008273
@@ -988,7 +988,7 @@ PropDefinitions:
       - "NA"  # 02/10/2022 adeforge, temporary #values from first DD version 08/18/2022
     Req: true
     Private: false
-  anatomic_site:
+  sample_anatomic_site:
     Desc: TBD.
     Src: caDSR
     Code: 6161035
@@ -1551,7 +1551,7 @@ PropDefinitions:
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
-  average_read_length:
+  avg_read_length:
     Desc: TBD.
     Src: caDSR
     Code: 6380354
@@ -1571,13 +1571,13 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   # study
-  dbgap_phs_accession:
+  phs_accession:
     Desc: TBD.
     Src: None
     Type: string
     Req: true
     Private: false
-  study_title:
+  study_short_title:
     Desc: TBD.
     Src: None
     Type: string
@@ -1608,18 +1608,18 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  species:
+  organism_species:
     Desc: TBD.
     Src: None
     Type: string
     Req: true
     Private: false
-  study_type: # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
+  adult_or_childhood_study: # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
     Desc: TBD.
     Src: None
     Enum:
-      - "adult"
-      - "pediatric"
+      - "Adult"
+      - "Pediatric"
     Req: true
     Private: false
   data_types: # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
@@ -1628,13 +1628,13 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  file_types: # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
+  file_types_and_format: # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
     Desc: TBD.
     Src: None
     Type: string
     Req: false
     Private: false
-  data_access_level: #populated from a dbGAP query?
+  acl: #populated from a dbGAP query?
     Desc: TBD.
     Src: None
     Type: string
@@ -1647,7 +1647,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  funding_id: #grant or contract ID, NIH or other
+  grant_id: #grant or contract ID, NIH or other
     Desc: TBD.
     Src: caDSR
     Code: 3434057

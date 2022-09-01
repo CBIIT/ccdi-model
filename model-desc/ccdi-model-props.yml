@@ -688,7 +688,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  cds_url:
+  file_url_in_cds:
     Desc: TBD.
     Src: None
     Type: string

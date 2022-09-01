@@ -39,7 +39,7 @@ PropDefinitions:
     Req: true
     Private: false
   primary_diagnosis:
-    Desc: TBD.
+    Desc: Text term used to describe the patient's histologic diagnosis, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Src: caDSR
     Code: 6161032
     Enum:
@@ -522,7 +522,7 @@ PropDefinitions:
     Req: true
     Private: false
   primary_site:
-    Desc: TBD.
+    Desc: The text term used to describe the general location of the malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Src: caDSR
     Code: 6161019
     Enum:
@@ -790,7 +790,7 @@ PropDefinitions:
     Private: false
   # participant
   participant_id:
-    Desc: TBD.
+    Desc: A unique sequence of alphanumeric characters used to identify the participant, in the investigation or study, of the specimen at it's point of origin.
     Src: caDSR
     Code: 6867052
     Type: string
@@ -1546,7 +1546,7 @@ PropDefinitions:
     Req: true
     Private: false
   number_of_reads:
-    Desc: TBD.
+    Desc: Count of the number of reads in the data. Please count each read only once if using secondary alignments.
     Src: None
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn

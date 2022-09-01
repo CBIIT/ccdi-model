@@ -654,14 +654,18 @@ PropDefinitions:
   file_name:
     Desc: TBD.
     Src: caDSR
-    Code: 6115804
+    Code: 
+      - 6115804
+      - 7787681
     Type: string
     Req: true
     Private: false
   file_type:
     Desc: TBD.
     Src: caDSR
-    Code: 6983162
+    Code: 
+      - 6983162
+      - 7797710
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -838,7 +842,9 @@ PropDefinitions:
   vital_status:
     Desc: TBD.
     Src: caDSR
-    Code: 5
+    Code: 
+      - 5
+      - 2847330
     Enum:
       - "Alive"
       - "Dead"
@@ -1435,7 +1441,7 @@ PropDefinitions:
   tumor_morphology:
     Desc: TBD.
     Src: caDSR
-    Code: 3326275
+    Code: 3226275
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false

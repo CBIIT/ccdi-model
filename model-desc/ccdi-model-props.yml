@@ -522,7 +522,7 @@ PropDefinitions:
     Req: true
     Private: false
   primary_site:
-    Desc: TBD.
+    Desc: The text term used to describe the general location of the malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Src: caDSR
     Code: 6161019
     Enum:
@@ -797,7 +797,7 @@ PropDefinitions:
     Req: true
     Private: false
   race: 
-    Desc: TBD.
+    Desc: The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
     Src: caDSR
     Code: 2192199
     Enum: 
@@ -840,7 +840,7 @@ PropDefinitions:
     Req: true
     Private: false
   vital_status:
-    Desc: TBD.
+    Desc: The survival state of the person registered on the protocol.
     Src: caDSR
     Code: 
       - 5
@@ -858,13 +858,13 @@ PropDefinitions:
     Private: false
  # sample
   sample_id:
-    Desc: TBD.
+    Desc: A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.
     Src: None
     Type: string
     Req: true
     Private: false
   sample_type: 
-    Desc: TBD.
+    Desc: Text term to describe the source of a biospecimen used for a laboratory test.
     Src: caDSR
     Code: 3111302
     Enum: 
@@ -1335,7 +1335,7 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
   tumor_grade:
-    Desc: TBD.
+    Desc: Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.
     Src: caDSR
     Code: 2785839
     Enum:
@@ -1351,7 +1351,7 @@ PropDefinitions:
       - "Not Applicable"
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
-  tumor_stage_clinical_t:
+  tumor_stage_clinical_t: Extent of the primary cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
     Desc: TBD.
     Src: caDSR
     Code: 3440328
@@ -1394,7 +1394,7 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   tumor_stage_clinical_n:
-    Desc: TBD.
+    Desc: Extent of the regional lymph node involvement for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
     Src: caDSR
     Code: 3440330
     Enum:
@@ -1425,7 +1425,7 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   tumor_stage_clinical_m:
-    Desc: TBD.
+    Desc: Extent of the distant metastasis for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
     Src: caDSR
     Code: 3440331
     Enum:
@@ -1565,7 +1565,7 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   reference_genome_assembly:
-    Desc: TBD.
+    Desc: A published genetic sequence that is used as a reference sequence against which other sequences are compared. This is only if you are submitting a bam file aligned against a NCBI assembly.
     Src: None
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
@@ -1584,7 +1584,7 @@ PropDefinitions:
     Req: true
     Private: false
   study_acronym:
-    Desc: TBD.
+    Desc: A one word acronym to represent the study.
     Src: None
     Type: string
     Req: true

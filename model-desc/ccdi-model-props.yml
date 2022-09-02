@@ -724,6 +724,11 @@ PropDefinitions:
       - "PacBio SMRT"
     Req: true
     Private: false
+  imaging_platform:
+    Desc: The words used to describe the instrument used to carry out an imaging experiment.
+    Src: None
+    Req: false
+    Private: false
   instrument_model:
     Desc: The words used to describe the specific model of the instrument used to carry out a high-throughput sequencing experiment.
     Src: caDSR

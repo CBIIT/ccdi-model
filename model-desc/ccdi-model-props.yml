@@ -41,7 +41,7 @@ PropDefinitions:
   primary_diagnosis:
     Desc: Text term used to describe the patient's histologic diagnosis, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Src: caDSR
-    Code: 6161032
+    caDSR: 6161032
     Enum:
       - "Acantholytic Cuniculatum"
       - "Acantholytic squamous cell skin carcinoma"
@@ -79,12 +79,12 @@ PropDefinitions:
       - "Adrenocortical Carcinoma - Myxoid Type"
       - "Adrenocortical Carcinoma - Oncocytic Type"
       - "Adrenocortical carcinoma - Usual Type"
-      - "Anaplastic Astrocytoma "
-      - "Anaplastic Ganglioglioma "
-      - "Anaplastic Oligodendroglioma "
-      - "Anaplastic Pleomorphic Xanthoastrocytoma "
+      - "Anaplastic Astrocytoma "
+      - "Anaplastic Ganglioglioma "
+      - "Anaplastic Oligodendroglioma "
+      - "Anaplastic Pleomorphic Xanthoastrocytoma "
       - "Astrocytoma"
-      - "Atypical Teratoid/Rhabdoid Tumor "
+      - "Atypical Teratoid/Rhabdoid Tumor "
       - "B-cell lymphoma (unclassifiable) with features intermediate between DLBCL and Burkitt lymphoma"
       - "Basal cell adenocarcinoma"
       - "Basaloid Squamous Cell"
@@ -132,8 +132,8 @@ PropDefinitions:
       - "Carcinoma; urothelial; NOS"
       - "Carcinosarcoma"
       - "Carcinosarcoma (malignant mixed Müllerian tumor)"
-      - "Central Nervous System Ganglioneuroblastoma "
-      - "Central Nervous System Neuroblastoma "
+      - "Central Nervous System Ganglioneuroblastoma "
+      - "Central Nervous System Neuroblastoma "
       - "Cervical Squamous Cell Carcinoma"
       - "Cholangiocarcinoma"
       - "Cholangiocarcinoma; distal"
@@ -164,7 +164,7 @@ PropDefinitions:
       - "Desmoid Tumor"
       - "Desmoplastic melanoma"
       - "Desmoplastic mesothelioma"
-      - "Desmoplastic/Nodular Medulloblastoma "
+      - "Desmoplastic/Nodular Medulloblastoma "
       - "Diffuse large B-cell lymphoma (DLBCL) NOS (any anatomic site nodal or extranodal)"
       - "Diffuse malignant mesothelioma - Biphasic"
       - "Diffuse malignant mesothelioma - Desmoplastic"
@@ -214,10 +214,10 @@ PropDefinitions:
       - "Germ cell tumor; mixed"
       - "Germ cell tumor; non-seminomatous"
       - "Giant cell 'MFH' / Undifferentiated pleomorphic sarcoma with giant cells"
-      - "Giant Cell Glioblastoma "
+      - "Giant Cell Glioblastoma "
       - "Glassy Cell Carcinoma"
       - "Glioblastoma Multiforme (GBM)"
-      - "Gliosarcoma "
+      - "Gliosarcoma "
       - "Granulosa cell tumor, adult type"
       - "Granulosa cell tumor, juvenile type"
       - "Granulosa cell tumor; malignant"
@@ -270,7 +270,7 @@ PropDefinitions:
       - "Large cell neuroendocrine carcinoma, HPV negative"
       - "Large cell neuroendocrine carcinoma, HPV positive"
       - "Large Cell/Anaplastic MB"
-      - "Large Cell/Anaplastic Medulloblastoma "
+      - "Large Cell/Anaplastic Medulloblastoma "
       - "Leiomyosarcoma (LMS)"
       - "Leiomyosarcoma, epithelioid type"
       - "Leiomyosarcoma, myxoid type"
@@ -309,8 +309,8 @@ PropDefinitions:
       - "Marginal zone lymphoma, NOS"
       - "Medullary Carcinoma"
       - "Medullary Carcinoma, NOS"
-      - "Medulloblastoma with Extensive Nodularity "
-      - "Medulloepithelioma "
+      - "Medulloblastoma with Extensive Nodularity "
+      - "Medulloepithelioma "
       - "Melanoma"
       - "Melanoma arising from blue nevus"
       - "Melanoma arising in a giant congenital nevus"
@@ -403,7 +403,7 @@ PropDefinitions:
       - "Paraganglioma; Extra-adrenal Pheochromocytoma"
       - "Pheochromocytoma"
       - "Phyllodes Tumor"
-      - "Pilocytic Astrocytoma "
+      - "Pilocytic Astrocytoma "
       - "Plasmacytoma; NOS"
       - "Pleomorphic 'MFH' / Undifferentiated pleomorphic sarcoma"
       - "Polymorphous adenocarcinoma, classic"
@@ -524,7 +524,7 @@ PropDefinitions:
   primary_site:
     Desc: The text term used to describe the general location of the malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Src: caDSR
-    Code: 6161019
+    caDSR: 6161019
     Enum:
       - "Accessory sinuses"
       - "Adrenal gland"
@@ -602,21 +602,21 @@ PropDefinitions:
   age_at_diagnosis:
     Desc: Age at the time of diagnosis expressed in number of days since birth.
     Src: caDSR
-    Code: 3225640
+    caDSR: 3225640
     Type: string
     Req: true
     Private: false
   days_to_recurrence:
     Desc: Number of days between the date used for index and the date the patient's disease recurred.
     Src: caDSR
-    Code: 6154731
+    caDSR: 6154731
     Type: string
     Req: false
     Private: false     
   last_known_disease_status:
     Desc: TBD.
     Src: caDSR
-    Code: 5424231
+    caDSR: 5424231
     Enum:
       - "Biochemical evidence of disease without structural correlate"
       - "Distant met recurrence/progression"
@@ -633,7 +633,7 @@ PropDefinitions:
   days_to_last_known_disease_status:
     Desc: Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
     Src: caDSR
-    Code: 3008273
+    caDSR: 3008273
     Type: string
     Req: false
     Private: false  
@@ -654,7 +654,7 @@ PropDefinitions:
   file_name:
     Desc: The name by which a set of related records (either written or electronic) are known.
     Src: caDSR
-    Code: 
+    caDSR: 
       - 6115804
       - 7787681
     Type: string
@@ -663,7 +663,7 @@ PropDefinitions:
   file_type:
     Desc: Text that provides a description of a particular kind of set of related records.
     Src: caDSR
-    Code: 
+    caDSR: 
       - 6983162
       - 7797710
     Type: string
@@ -678,7 +678,7 @@ PropDefinitions:
   file_size:
     Desc: The numerical quantity documenting the physical magnitude of a set of related electronic records.
     Src: caDSR
-    Code: 6115806
+    caDSR: 6115806
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -710,7 +710,7 @@ PropDefinitions:
   platform:
     Desc: The words used to describe the instrument used to carry out a high-throughput sequencing experiment.
     Src: caDSR
-    Code: 6347771
+    caDSR: 6347771
     Enum:
       - "AB Capillary"
       - "ABI Solid"
@@ -732,7 +732,7 @@ PropDefinitions:
   instrument_model:
     Desc: The words used to describe the specific model of the instrument used to carry out a high-throughput sequencing experiment.
     Src: caDSR
-    Code: 6352164
+    caDSR: 6352164
     Enum:
       - "454 GS"
       - "454 GS 20"
@@ -797,14 +797,14 @@ PropDefinitions:
   participant_id:
     Desc: A unique sequence of alphanumeric characters used to identify the participant, in the investigation or study, of the specimen at it's point of origin.
     Src: caDSR
-    Code: 6867052
+    caDSR: 6867052
     Type: string
     Req: true
     Private: false
   race: 
     Desc: The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
     Src: caDSR
-    Code: 2192199
+    caDSR: 2192199
     Enum: 
       - "American Indian or Alaska Native"
       - "Asian"
@@ -819,7 +819,7 @@ PropDefinitions:
   gender:
     Desc: Text designations that identify gender. Gender is described as the assemblage of properties that distinguish people on the basis of their societal roles. [Explanatory Comment 1: Identification of gender is based upon self-report and may come from a form, questionnaire, interview, etc.]
     Src: caDSR
-    Code: 2200604
+    caDSR: 2200604
     Enum: 
       - "Female"
       - "Female Gender"
@@ -835,7 +835,7 @@ PropDefinitions:
   ethnicity:
     Desc: The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
     Src: caDSR
-    Code: 2192217
+    caDSR: 2192217
     Enum:
       - "Hispanic or Latino"
       - "Not allowed to collect"
@@ -847,7 +847,7 @@ PropDefinitions:
   vital_status:
     Desc: The survival state of the person registered on the protocol.
     Src: caDSR
-    Code: 
+    caDSR: 
       - 5
       - 2847330
     Enum:
@@ -871,7 +871,7 @@ PropDefinitions:
   sample_type: 
     Desc: Text term to describe the source of a biospecimen used for a laboratory test.
     Src: caDSR
-    Code: 3111302
+    caDSR: 3111302
     Enum: 
       - "Ascites"
       - "Blood"
@@ -914,7 +914,7 @@ PropDefinitions:
   disease_type:
     Desc: The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Src: caDSR
-    Code: 6161017
+    caDSR: 6161017
     Enum:
       - "Acinar Cell Neoplasms"
       - "Adenomas and Adenocarcinomas"
@@ -996,7 +996,7 @@ PropDefinitions:
   sample_anatomic_site:
     Desc: The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Src: caDSR
-    Code: 6161035
+    caDSR: 6161035
     Enum:
       - "Abdomen, NOS"
       - "Abdominal esophagus"
@@ -1342,7 +1342,7 @@ PropDefinitions:
   tumor_grade:
     Desc: Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.
     Src: caDSR
-    Code: 2785839
+    caDSR: 2785839
     Enum:
       - "G1"
       - "G2"
@@ -1359,7 +1359,7 @@ PropDefinitions:
   tumor_stage_clinical_t: Extent of the primary cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
     Desc: TBD.
     Src: caDSR
-    Code: 3440328
+    caDSR: 3440328
     Enum:
       - "T0"
       - "T1"
@@ -1401,7 +1401,7 @@ PropDefinitions:
   tumor_stage_clinical_n:
     Desc: Extent of the regional lymph node involvement for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
     Src: caDSR
-    Code: 3440330
+    caDSR: 3440330
     Enum:
       - "N0"
       - "N0 (i-)"
@@ -1432,7 +1432,7 @@ PropDefinitions:
   tumor_stage_clinical_m:
     Desc: Extent of the distant metastasis for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
     Src: caDSR
-    Code: 3440331
+    caDSR: 3440331
     Enum:
       - "cM0 (i+)"
       - "M0"
@@ -1446,7 +1446,7 @@ PropDefinitions:
   tumor_morphology:
     Desc: Code that represents the histology of the disease using the third edition of the International Classification of Diseases for Oncology, published in 2000, used principally in tumor and cancer registries for coding the site (topography) and the histology (morphology) of neoplasms.
     Src: caDSR
-    Code: 3226275
+    caDSR: 3226275
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -1470,7 +1470,7 @@ PropDefinitions:
   library_strategy: 
     Desc: The overall strategy for the collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
     Src: caDSR
-    Code: 6273393
+    caDSR: 6273393
     Enum:
       - "AMPLICON"
       - "ATAC-seq"
@@ -1522,7 +1522,7 @@ PropDefinitions:
   library_source: # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
     Desc: The source of a sample collection of double stranded DNA fragments analyzed by high-throughput sequencing.
     Src: caDSR
-    Code: 6285979
+    caDSR: 6285979
     Enum: #enum values in dbGaP are UC, in yaml, they are LC
       - "Bulk cells"
       - "Bulk nuclei"
@@ -1560,7 +1560,7 @@ PropDefinitions:
     Desc: The number of nucleotides successfully ordered from each side of a
       nucleic acid fragment obtained after the completion of a sequencing process.
     Src: caDSR
-    Code: 6380354
+    caDSR: 6380354
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
@@ -1616,6 +1616,7 @@ PropDefinitions:
     Private: false
   organism_species:
     Desc: The organism from which the sample is derived or originated.
+    Src: caDSR
     caDSR: 6118266
     Type: string
     Req: true
@@ -1656,7 +1657,7 @@ PropDefinitions:
   grant_id: #grant or contract ID, NIH or other
     Desc: Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
     Src: caDSR
-    Code: 3434057
+    caDSR: 3434057
     Type: string
     Req: true
     Private: false
@@ -1694,4 +1695,11 @@ PropDefinitions:
     Src: None
     Type: string
     Req: true  # 28feb22 pdunn
+    Private: false
+  tissue_or_organ_of_origin:
+    Desc: The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+    Src: caDSR
+    caDSR: 6161035
+    Type: string
+    Req: false
     Private: false

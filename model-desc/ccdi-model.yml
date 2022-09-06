@@ -17,7 +17,7 @@ Nodes:
       - file_description
       - file_size
       - md5sum
-      - cds_url
+      - file_url_in_cds
       - dcf_indexd_guid
       - checksum_algorithm
       - checksum_value
@@ -30,7 +30,7 @@ Nodes:
      - age_at_diagnosis
      - days_to_recurrence
      - last_known_disease_status
-     - days_to_last_known_status
+     - days_to_last_known_disease_status
      - tissue_or_organ_of_origin
      - days_to_last_follow_up
      - progression_or_recurrence
@@ -46,7 +46,7 @@ Nodes:
       - file_description
       - file_size
       - md5sum
-      - cds_url
+      - file_url_in_cds
       - dcf_indexd_guid
       - image_modality
       - platform
@@ -73,7 +73,7 @@ Nodes:
       - sample_type 
       - disease_type
       - tumor_status # tumor or normal
-      - anatomic_site
+      - sample_anatomic_site
       - participant_age_at_collection # 28.02.22 pdunn
       - tumor_grade
       - tumor_stage
@@ -95,7 +95,7 @@ Nodes:
       - file_description
       - file_size
       - md5sum
-      - cds_url
+      - file_url_in_cds
       - dcf_indexd_guid
       - library_id 
       - library_strategy 
@@ -103,7 +103,7 @@ Nodes:
       - library_source # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
       - number_of_bp 
       - number_of_reads
-      - average_read_length
+      - avg_read_length
       - coverage
       - reference_genome_assembly
       - checksum_algorithm
@@ -114,8 +114,8 @@ Nodes:
       - sequence_alignment_software
   study:
     Props:
-      - dbgap_phs_accession
-      - study_title
+      - phs_accession
+      - study_short_title
       - study_acronym
       - study_description
       - external_url
@@ -127,17 +127,17 @@ Nodes:
   study_admin:
     Props:
       - study_admin_id
-      - species
-      - study_type # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
+      - organism_species
+      - adult_or_childhood_study # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
       - data_types # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
-      - file_types # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
+      - file_types_and_format # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
       - acl
       - number_of_participants
       - number_of_samples
   study_funding: # 0 or many grant or contract IDs
     Props: 
       - funding_agency # 0 or many per study
-      - funding_id #grant or contract ID, NIH or other
+      - grant_id #grant or contract ID, NIH or other
       - clinical_trial_arm
       - clinical_trial_identifier
       - clinical_trial_system

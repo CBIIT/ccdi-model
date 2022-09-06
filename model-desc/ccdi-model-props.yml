@@ -756,6 +756,7 @@ PropDefinitions:
   imaging_platform:
     Desc: The words used to describe the instrument used to carry out an imaging experiment.
     Src: None
+    Type: String
     Req: false
     Private: false
   instrument_model:

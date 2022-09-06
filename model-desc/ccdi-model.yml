@@ -19,6 +19,9 @@ Nodes:
       - md5sum
       - cds_url
       - dcf_indexd_guid
+      - checksum_algorithm
+      - checksum_value
+      - file_mapping_level
   diagnosis: 
     Props:
      - diagnosis_id
@@ -28,6 +31,10 @@ Nodes:
      - days_to_recurrence
      - last_known_disease_status
      - days_to_last_known_status
+     - tissue_or_organ_of_origin
+     - days_to_last_follow_up
+     - progression_or_recurrence
+     - site_of_resection_or_biospy
   experiment:
     Props:
       - experiment_id
@@ -45,6 +52,10 @@ Nodes:
       - platform
       - instrument_model
       - software_package # list of free text I guess
+      - imaging_platform
+      - checksum_algorithm
+      - checksum_value
+      - file_mapping_level
   participant: # 28.02.22 pdunn
     Props:
       - participant_id
@@ -52,11 +63,13 @@ Nodes:
       - gender
       - ethnicity  # 01/27/2022 adeforge https://minorityhealth.hhs.gov/omh/browse.aspx?lvl=3&lvlid=54#:~:text=The%20OMB%20minimum%20categories%20for,and%20Not%20Hispanic%20or%20Latino these categories were used by CHOP's FHIR endpoints
       - vital_status
+      - dbGaP_subject_id
       #- age_at_enrollment
       #- age_unit
   sample: 
     Props:
       - sample_id
+      - biosample_accession
       - sample_type 
       - disease_type
       - tumor_status # tumor or normal
@@ -70,6 +83,10 @@ Nodes:
       - tumor_morphology
       - tumor_incidence_type # primary, metastatic, recurrence, progression
       - dbgap_sample_id
+      - derived_from_specimen
+      - sample_age_at_collection
+      - sample_description
+      - sample_tumor_status
   sequencing_file: # 01.03.22 pdunn
     Props:
       # - file_id #system generated GUID/PK
@@ -89,6 +106,12 @@ Nodes:
       - average_read_length
       - coverage
       - reference_genome_assembly
+      - checksum_algorithm
+      - checksum_value
+      - custome_assembly_fasta_file_for_alignment
+      - file_mapping_level
+      - library_selection
+      - sequence_alignment_software
   study:
     Props:
       - dbgap_phs_accession
@@ -96,6 +119,11 @@ Nodes:
       - study_acronym
       - study_description
       - external_url
+      - bioproject_accession
+      - experimental_strategy_and_data_subtype
+      - size_of_data_being_uploaded
+      - study_data_types
+      - study_name
   study_admin:
     Props:
       - study_admin_id
@@ -103,11 +131,17 @@ Nodes:
       - study_type # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
       - data_types # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
       - file_types # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
-      - data_access_level #populated from a dbGAP query?
+      - acl
+      - number_of_participants
+      - number_of_samples
   study_funding: # 0 or many grant or contract IDs
     Props: 
       - funding_agency # 0 or many per study
       - funding_id #grant or contract ID, NIH or other
+      - clinical_trial_arm
+      - clinical_trial_identifier
+      - clinical_trial_system
+      - funding_source_program_name
   study_personnel:
     Props:
       - study_personnel_id  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
@@ -115,12 +149,12 @@ Nodes:
       - personnel_type #enum: PI, Co-PI, Data Submitter, etc
       - email_address
       - institution
-  #therapeutic_procedure: 
-  #  Props:
-  #    - theapeutic_procedure_ID
-  #    - treatment_type
-  #    - treatment_outcome
-  #    - days_to_treatment
+  therapeutic_procedure:
+    Props:
+      - days_to_treatment
+      - therapeutic_agents
+      - treatement_outcome
+      - treatment_type      
 Relationships:
   of_clinical_measure: # 01.03.22 pdunn
     Props: null

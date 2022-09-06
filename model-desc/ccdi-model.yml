@@ -108,7 +108,7 @@ Nodes:
       - reference_genome_assembly
       - checksum_algorithm
       - checksum_value
-      - custome_assembly_fasta_file_for_alignment
+      - custom_assembly_fasta_file_for_alignment
       - file_mapping_level
       - library_selection
       - sequence_alignment_software

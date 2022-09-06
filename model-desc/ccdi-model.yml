@@ -32,7 +32,7 @@ Nodes:
      - last_known_disease_status
      - days_to_last_known_disease_status
      - tissue_or_organ_of_origin
-     - days_to_last_follow_up
+     - days_to_last_followup
      - progression_or_recurrence
      - site_of_resection_or_biospy
   experiment:

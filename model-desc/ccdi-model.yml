@@ -234,9 +234,9 @@ Relationships:
     Ends:
       - Src: study_personnel  # 01.03.22 pdunn
         Dst: study     
-#  of_therapeutic_procedure:
-#    Props: null
-#    Mul: many_to_many
-#    Ends:
-#      - Src: therapeutic_procedure
-#        Dst: study_subject
+  of_therapeutic_procedure:
+    Props: null
+    Mul: many_to_many
+    Ends:
+      - Src: therapeutic_procedure
+        Dst: study_subject

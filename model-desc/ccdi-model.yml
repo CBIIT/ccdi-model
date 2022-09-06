@@ -34,7 +34,7 @@ Nodes:
      - tissue_or_organ_of_origin
      - days_to_last_followup
      - progression_or_recurrence
-     - site_of_resection_or_biospy
+     - site_of_resection_or_biopsy
   experiment:
     Props:
       - experiment_id

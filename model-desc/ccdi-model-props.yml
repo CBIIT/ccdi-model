@@ -522,23 +522,23 @@ PropDefinitions:
       - Adrenocortical Carcinoma- Myxoid Type
       - Adrenocortical Carcinoma- Oncocytic Type
       - Adrenocortical carcinoma- Usual Type
-      - Anaplastic Astrocytoma 
-      - Anaplastic Ganglioglioma 
-      - Anaplastic Oligodendroglioma 
-      - Anaplastic Pleomorphic Xanthoastrocytoma 
-      - Atypical Teratoid/Rhabdoid Tumor 
-      - Central Nervous System Ganglioneuroblastoma 
-      - Central Nervous System Neuroblastoma 
-      - Desmoplastic/Nodular Medulloblastoma 
-      - Giant Cell Glioblastoma 
-      - Gliosarcoma 
+      - Anaplastic Astrocytoma 
+      - Anaplastic Ganglioglioma 
+      - Anaplastic Oligodendroglioma 
+      - Anaplastic Pleomorphic Xanthoastrocytoma 
+      - Atypical Teratoid/Rhabdoid Tumor 
+      - Central Nervous System Ganglioneuroblastoma 
+      - Central Nervous System Neuroblastoma 
+      - Desmoplastic/Nodular Medulloblastoma 
+      - Giant Cell Glioblastoma 
+      - Gliosarcoma 
       - 'Invasive Carcinoma: Type Cannot Be Determined'
-      - Large Cell/Anaplastic Medulloblastoma 
+      - Large Cell/Anaplastic Medulloblastoma 
       - Lung Adenocarcinoma- Not Otherwise Specified (NOS)
       - Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)
-      - Medulloblastoma with Extensive Nodularity 
-      - Medulloepithelioma 
-      - Pilocytic Astrocytoma 
+      - Medulloblastoma with Extensive Nodularity 
+      - Medulloepithelioma 
+      - Pilocytic Astrocytoma 
       - Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features)
       - 'Uterine Carcinosarcoma/ Malignant Mixed Mullerian Tumor (MMMT): NOS'
       - 'Uterine Carcinosarcoma/ MMMT: Heterologous Type'
@@ -663,6 +663,917 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false  
+  tissue_or_organ_of_origin:
+    Desc: The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+    Src: caDSR
+    caDSR: 6161035
+    Enum:
+      - Abdomen
+      - Abdominal Esophagus
+      - Adrenal Cortex
+      - Adrenal Gland
+      - Adrenal Medulla
+      - Ampulla of Vater
+      - Anal Canal
+      - Anal Transitional Zone
+      - Anterior Mediastinum
+      - Anterior Surface of the Epiglottis
+      - Anterior Wall of the Bladder
+      - Anterior Wall of the Nasopharynx
+      - Antrum Pylori
+      - Anus
+      - Appendage of the Uterus
+      - Appendix
+      - Ascending Colon
+      - Autonomic Nervous System
+      - Axillary Lymph Node
+      - Axillary Tail of the Breast
+      - Base of the Tongue
+      - Biliary Tract
+      - Bladder Neck
+      - Bladder Trigone
+      - Bladder
+      - Blood
+      - Body of Stomach
+      - Body of the Pancreas
+      - Body of the Penis
+      - Bone Marrow
+      - Bone of the Extremity
+      - Bone
+      - Brain Stem
+      - Brain Ventricle
+      - Brain
+      - Branchial Cleft Remnant
+      - Breast
+      - Broad Ligament
+      - Buccal Mucosa
+      - Carotid Body
+      - Cauda Equina
+      - Cecum
+      - Central Portion of the Breast
+      - Cerebellum
+      - Cerebral Hemisphere
+      - Cerebral Meninges
+      - Cervical Esophagus
+      - Cervix Uteri
+      - Choroid
+      - Ciliary Body
+      - Clitoris
+      - Cochlear Nerve
+      - Colon
+      - Commissure of the Lip
+      - Conjunctiva
+      - Cornea
+      - Corpus Uteri
+      - Cranial Nerve
+      - Craniopharyngeal Duct
+      - Descending Colon
+      - Dome of the Bladder
+      - Duodenum
+      - Ectocervix
+      - Endocervix
+      - Endocrine Gland
+      - Endometrium
+      - Epididymis
+      - Esophagus
+      - Ethmoid Sinus
+      - External Ear
+      - External Lip
+      - External Lower Lip
+      - External Upper Lip
+      - Extrahepatic Bile Duct
+      - Eyelid
+      - Eye
+      - Fallopian Tube
+      - Female Genitalia
+      - Floor of Mouth
+      - Frontal Lobe
+      - Frontal Sinus
+      - Fundus of the Stomach
+      - Fundus Uteri
+      - Gallbladder
+      - Gastric Cardia
+      - Gastrointestinal Tract
+      - Gingiva
+      - Glans Penis
+      - Glottis
+      - Greater Curvature of the Stomach
+      - Hard Palate
+      - Head and Neck Lymph Node
+      - Head of the Pancreas
+      - Heart
+      - Hematopoietic System
+      - Hepatic Flexure
+      - Hypopharynx
+      - Ileum
+      - Ill-Defined Anatomic Site
+      - Intestine
+      - Intra-Abdominal Lymph Node
+      - Intrahepatic Bile Duct
+      - Intrathoracic Lymph Node
+      - Islet of Langerhans
+      - Isthmus Uteri
+      - Jejunum
+      - Kidney
+      - Labium Majus
+      - Labium Minus
+      - Lacrimal Gland
+      - Laryngeal Cartilage
+      - Larynx
+      - Lateral Wall of the Bladder
+      - Lateral Wall of the Nasopharynx
+      - Lateral Wall of the Oropharynx
+      - Lesser Curvature of the Stomach
+      - Lingual Tonsil
+      - Lip
+      - Liver
+      - Lower Extremity
+      - Lower Gingiva
+      - Lower Lobe of the Lung
+      - Lower Third of the Esophagus
+      - Lower-Inner Quadrant of the Breast
+      - Lower-Outer Quadrant of the Breast
+      - Lung
+      - Lymph Node of Inguinal Region or Leg
+      - Lymph Node
+      - Main Bronchus
+      - Male Genitalia
+      - Mandible
+      - Maxillary Sinus
+      - Meckel Diverticulum
+      - Mediastinum
+      - Meninges
+      - Middle Ear
+      - Middle Lobe of the Right Lung
+      - Middle Third of the Esophagus
+      - Mucosa of the Lip
+      - Mucosa of the Lower Lip
+      - Mucosa of the Upper Lip
+      - Myometrium
+      - Nasal Cavity
+      - Nasopharynx
+      - Nervous System
+      - Nipple
+      - Not Reported
+      - Occipital Lobe
+      - Olfactory Nerve
+      - Optic Nerve
+      - Oral Cavity
+      - Orbit
+      - Oropharynx
+      - Other and Ill-Defined Sites within Respiratory System and Intrathoracic Organs ICD-O-3
+      - Other and Unspecified Female Genital Organs ICD-O-3
+      - Other and Unspecified Male Genital Organs ICD-O-3
+      - Other Specified Parts of Pancreas
+      - Ovary
+      - Palate
+      - Palatine Tonsil
+      - Pancreas
+      - Pancreatic Duct
+      - Parametrium
+      - Paranasal Sinus
+      - Parathyroid Gland
+      - Parietal Lobe
+      - Parotid Gland
+      - Pelvic Lymph Node
+      - Pelvis
+      - Penis
+      - Peritoneum
+      - Pharynx
+      - Pineal Gland
+      - Pituitary Gland
+      - Placenta
+      - Pleura
+      - Postcricoid Region
+      - Posterior Mediastinum
+      - Posterior Wall of the Bladder
+      - Posterior Wall of the Hypopharynx
+      - Posterior Wall of the Nasopharynx
+      - Posterior Wall of the Oropharynx
+      - Prepuce
+      - Primary Site Unknown
+      - Prostate Gland
+      - Pylorus
+      - Pyriform Sinus
+      - Rectosigmoid Region
+      - Rectum
+      - Renal Pelvis
+      - Reticuloendothelial System
+      - Retina
+      - Retromolar Trigone
+      - Retroperitoneum
+      - Round Ligament
+      - Salivary Gland
+      - Scrotum
+      - Sigmoid Colon
+      - Skene Gland
+      - Skin of the Face
+      - Skin of the Lip
+      - Skin of the Lower Limb and Hip
+      - Skin of the Scalp and Neck
+      - Skin of the Trunk
+      - Skin of the Upper Limb and Shoulder
+      - Skin
+      - Small Intestine
+      - Soft Palate
+      - Spermatic Cord
+      - Sphenoid Sinus
+      - Spinal Cord
+      - Spinal Meninges
+      - Spleen
+      - Splenic Flexure
+      - Stomach
+      - Subglottis
+      - Sublingual Salivary Gland
+      - Submandibular Gland
+      - Superior Wall of the Nasopharynx
+      - Supraglottis
+      - Tail of the Pancreas
+      - Temporal Lobe
+      - Testis
+      - Thoracic Esophagus
+      - Thorax
+      - Thymus Gland
+      - Thyroid Gland
+      - Tongue
+      - Tonsillar Fossa
+      - Tonsillar Pillar
+      - Trachea
+      - Transverse Colon
+      - Undescended Testes
+      - Unknown
+      - Upper Extremity
+      - Upper Gingiva
+      - Upper Lobe of the Lung
+      - Upper Respiratory System
+      - Upper Third of the Esophagus
+      - Upper-Inner Quadrant of the Breast
+      - Upper-Outer Quadrant of the Breast
+      - Urachus
+      - Ureteric Orifice
+      - Ureter
+      - Urethra
+      - Urinary System
+      - Uterus
+      - Uvula
+      - Vagina
+      - Vallecula
+      - Vertebral Column
+      - Vestibule of Mouth
+      - Vulva
+      - Waldeyer Ring
+      - Abdomen, NOS
+      - Abdominal esophagus
+      - Accessory sinus, NOS
+      - Acoustic nerve
+      - Adrenal gland, NOS
+      - Anal canal
+      - Anterior 2/3 of tongue, NOS
+      - Anterior floor of mouth
+      - Anterior mediastinum
+      - Anterior surface of epiglottis
+      - Anterior wall of bladder
+      - Anterior wall of nasopharynx
+      - Anus, NOS
+      - Aortic body and other paraganglia
+      - Ascending colon
+      - Autonomic nervous system, NOS
+      - Axillary tail of breast
+      - Base of tongue, NOS
+      - Biliary tract, NOS
+      - Bladder neck
+      - Bladder, NOS
+      - Body of pancreas
+      - Body of penis
+      - Body of stomach
+      - Bone marrow
+      - Bone of limb, NOS
+      - Bone, NOS
+      - Bones of skull and face and associated joints
+      - Border of tongue
+      - Brain stem
+      - Brain, NOS
+      - Branchial cleft
+      - Breast, NOS
+      - Broad ligament
+      - Cardia, NOS
+      - Carotid body
+      - Cauda equina
+      - Central portion of breast
+      - Cerebellum, NOS
+      - Cerebral meninges
+      - Cerebrum
+      - Cervical esophagus
+      - Cervix uteri
+      - Cheek mucosa
+      - Ciliary body
+      - Cloacogenic zone
+      - Colon, NOS
+      - Commissure of lip
+      - Connective, subcutaneous and other soft tissues of abdomen
+      - Connective, subcutaneous and other soft tissues of head, face, and neck
+      - Connective, subcutaneous and other soft tissues of lower limb and hip
+      - Connective, subcutaneous and other soft tissues of pelvis
+      - Connective, subcutaneous and other soft tissues of thorax
+      - Connective, subcutaneous and other soft tissues of trunk, NOS
+      - Connective, subcutaneous and other soft tissues of upper limb and shoulder
+      - Connective, subcutaneous and other soft tissues, NOS
+      - Cornea, NOS
+      - Corpus uteri
+      - Cortex of adrenal gland
+      - Cranial nerve, NOS
+      - Craniopharyngeal duct
+      - Descended testis
+      - Descending colon
+      - Dome of bladder
+      - Dorsal surface of tongue, NOS
+      - Endocrine gland, NOS
+      - Esophagus, NOS
+      - Ethmoid sinus
+      - Exocervix
+      - External ear
+      - External lip, NOS
+      - External lower lip
+      - External upper lip
+      - Extrahepatic bile duct
+      - Eye, NOS
+      - Fallopian tube
+      - Female genital tract, NOS
+      - Floor of mouth, NOS
+      - Frontal lobe
+      - Frontal sinus
+      - Fundus of stomach
+      - Fundus uteri
+      - Gastric antrum
+      - Gastrointestinal tract, NOS
+      - Glans penis
+      - Greater curvature of stomach, NOS
+      - Gum, NOS
+      - Hard palate
+      - Head of pancreas
+      - Head, face or neck, NOS
+      - Hematopoietic system, NOS
+      - Hepatic flexure of colon
+      - Hypopharyngeal aspect of aryepiglottic fold
+      - Hypopharynx, NOS
+      - Ill-defined sites within respiratory system
+      - Intestinal tract, NOS
+      - Intra-abdominal lymph nodes
+      - Intrahepatic bile duct
+      - Intrathoracic lymph nodes
+      - Islets of Langerhans
+      - Isthmus uteri
+      - Kidney, NOS
+      - Labium majus
+      - Labium minus
+      - Lacrimal gland
+      - Laryngeal cartilage
+      - Laryngeal commissure
+      - Larynx, NOS
+      - Lateral floor of mouth
+      - Lateral wall of bladder
+      - Lateral wall of nasopharynx
+      - Lateral wall of oropharynx
+      - Lesser curvature of stomach, NOS
+      - Lingual tonsil
+      - Lip, NOS
+      - Long bones of lower limb and associated joints
+      - Long bones of upper limb, scapula and associated joints
+      - Lower gum
+      - Lower limb, NOS
+      - Lower lobe, lung
+      - Lower third of esophagus
+      - Lower-inner quadrant of breast
+      - Lower-outer quadrant of breast
+      - Lung, NOS
+      - Lymph node, NOS
+      - Lymph nodes of axilla or arm
+      - Lymph nodes of head, face and neck
+      - Lymph nodes of inguinal region or leg
+      - Lymph nodes of multiple regions
+      - Main bronchus
+      - Major salivary gland, NOS
+      - Male genital organs, NOS
+      - Maxillary sinus
+      - Meckel diverticulum
+      - Mediastinum, NOS
+      - Medulla of adrenal gland
+      - Meninges, NOS
+      - Middle ear
+      - Middle lobe, lung
+      - Middle third of esophagus
+      - Mouth, NOS
+      - Mucosa of lip, NOS
+      - Mucosa of lower lip
+      - Mucosa of upper lip
+      - Nasal cavity
+      - Nasopharynx, NOS
+      - Nervous system, NOS
+      - Occipital lobe
+      - Olfactory nerve
+      - Optic nerve
+      - Orbit, NOS
+      - Oropharynx, NOS
+      - Other ill-defined sites
+      - Other specified parts of female genital organs
+      - Other specified parts of male genital organs
+      - Other specified parts of pancreas
+      - Overlapping lesion of accessory sinuses
+      - Overlapping lesion of biliary tract
+      - Overlapping lesion of bladder
+      - Overlapping lesion of bones, joints and articular cartilage
+      - Overlapping lesion of bones, joints and articular cartilage of limbs
+      - Overlapping lesion of brain
+      - Overlapping lesion of brain and central nervous system
+      - Overlapping lesion of breast
+      - Overlapping lesion of cervix uteri
+      - Overlapping lesion of colon
+      - Overlapping lesion of connective, subcutaneous and other soft tissues
+      - Overlapping lesion of corpus uteri
+      - Overlapping lesion of digestive system
+      - Overlapping lesion of endocrine glands and related structures
+      - Overlapping lesion of esophagus
+      - Overlapping lesion of eye and adnexa
+      - Overlapping lesion of female genital organs
+      - Overlapping lesion of floor of mouth
+      - Overlapping lesion of heart, mediastinum and pleura
+      - Overlapping lesion of hypopharynx
+      - Overlapping lesion of ill-defined sites
+      - Overlapping lesion of larynx
+      - Overlapping lesion of lip
+      - Overlapping lesion of lip, oral cavity and pharynx
+      - Overlapping lesion of lung
+      - Overlapping lesion of major salivary glands
+      - Overlapping lesion of male genital organs
+      - Overlapping lesion of nasopharynx
+      - Overlapping lesion of other and unspecified parts of mouth
+      - Overlapping lesion of palate
+      - Overlapping lesion of pancreas
+      - Overlapping lesion of penis
+      - Overlapping lesion of peripheral nerves and autonomic nervous system
+      - Overlapping lesion of rectum, anus and anal canal
+      - Overlapping lesion of respiratory system and intrathoracic organs
+      - Overlapping lesion of retroperitoneum and peritoneum
+      - Overlapping lesion of skin
+      - Overlapping lesion of small intestine
+      - Overlapping lesion of stomach
+      - Overlapping lesion of tongue
+      - Overlapping lesion of tonsil
+      - Overlapping lesion of urinary organs
+      - Overlapping lesion of vulva
+      - Overlapping lesions of oropharynx
+      - Palate, NOS
+      - Pancreas, NOS
+      - Pancreatic duct
+      - Parathyroid gland
+      - Paraurethral gland
+      - Parietal lobe
+      - Parotid gland
+      - Pelvic bones, sacrum, coccyx and associated joints
+      - Pelvic lymph nodes
+      - Pelvis, NOS
+      - Penis, NOS
+      - Peripheral nerves and autonomic nervous system of abdomen
+      - Peripheral nerves and autonomic nervous system of head, face, and neck
+      - Peripheral nerves and autonomic nervous system of lower limb and hip
+      - Peripheral nerves and autonomic nervous system of pelvis
+      - Peripheral nerves and autonomic nervous system of thorax
+      - Peripheral nerves and autonomic nervous system of trunk, NOS
+      - Peripheral nerves and autonomic nervous system of upper limb and shoulder
+      - Peritoneum, NOS
+      - Pharynx, NOS
+      - Pineal gland
+      - Pituitary gland
+      - Pleura, NOS
+      - Postcricoid region
+      - Posterior mediastinum
+      - Posterior wall of bladder
+      - Posterior wall of hypopharynx
+      - Posterior wall of nasopharynx
+      - Posterior wall of oropharynx
+      - Prostate gland
+      - Pyriform sinus
+      - Rectosigmoid junction
+      - Rectum, NOS
+      - Renal pelvis
+      - Reticuloendothelial system, NOS
+      - Retromolar area
+      - Rib, sternum, clavicle and associated joints
+      - Round ligament
+      - Scrotum, NOS
+      - Short bones of lower limb and associated joints
+      - Short bones of upper limb and associated joints
+      - Sigmoid colon
+      - Skin of lip, NOS
+      - Skin of lower limb and hip
+      - Skin of other and unspecified parts of face
+      - Skin of scalp and neck
+      - Skin of trunk
+      - Skin of upper limb and shoulder
+      - Skin, NOS
+      - Small intestine, NOS
+      - Soft palate, NOS
+      - Specified parts of peritoneum
+      - Spermatic cord
+      - Sphenoid sinus
+      - Spinal cord
+      - Spinal meninges
+      - Splenic flexure of colon
+      - Stomach, NOS
+      - Sublingual gland
+      - Submandibular gland
+      - Superior wall of nasopharynx
+      - Tail of pancreas
+      - Temporal lobe
+      - Testis, NOS
+      - Thoracic esophagus
+      - Thorax, NOS
+      - Thymus
+      - Thyroid gland
+      - Tongue, NOS
+      - Tonsil, NOS
+      - Tonsillar fossa
+      - Tonsillar pillar
+      - Transverse colon
+      - Trigone of bladder
+      - Undescended testis
+      - Unknown primary site
+      - Upper Gum
+      - Upper limb, NOS
+      - Upper lobe, lung
+      - Upper respiratory tract, NOS
+      - Upper third of esophagus
+      - Upper-inner quadrant of breast
+      - Upper-outer quadrant of breast
+      - Ureteric orifice
+      - Urinary system, NOS
+      - Uterine adnexa
+      - Uterus, NOS
+      - Vagina, NOS
+      - Ventral surface of tongue, NOS
+      - Ventricle, NOS
+      - Vertebral column
+      - Vestibule of mouth
+      - Vulva, NOS
+      - Waldeyer ring
+    Req: false
+    Private: false
+  days_to_last_followup:
+    Desc: Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
+    Src: caDSR
+    caDSR: 3008273
+    Type: string
+    Req: false
+    Private: false    
+  progression_or_recurrence:
+    Desc: Yes/No/Unknown indicator to identify whether a patient has had a new tumor event after initial treatment.
+    Src: caDSR
+    caDSR: 3121376
+    Enum:
+      - 'No'
+      - Unknown
+      - 'Yes'
+    Req: false
+    Private: false    
+  site_of_resection_or_biopsy:
+    Desc: The text term used to describe the anatomic site of the resection or biopsy of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+    Src: caDSR
+    caDSR: 6161034
+    Enum:
+      - Abdomen, NOS
+      - Abdominal esophagus
+      - Accessory sinus, NOS
+      - Acoustic nerve
+      - Adrenal gland, NOS
+      - Ampulla of Vater
+      - Anal canal
+      - Anterior 2/3 of tongue, NOS
+      - Anterior floor of mouth
+      - Anterior mediastinum
+      - Anterior surface of epiglottis
+      - Anterior wall of bladder
+      - Anterior wall of nasopharynx
+      - Anus, NOS
+      - Aortic body and other paraganglia
+      - Appendix
+      - Ascending colon
+      - Autonomic nervous system, NOS
+      - Axillary tail of breast
+      - Base of tongue, NOS
+      - Bladder neck
+      - Bladder, NOS
+      - Blood
+      - Body of pancreas
+      - Body of penis
+      - Body of stomach
+      - Bone marrow
+      - Bone of limb, NOS
+      - Bone, NOS
+      - Bones of skull and face and associated joints
+      - Border of tongue
+      - Brain stem
+      - Brain, NOS
+      - Branchial cleft
+      - Breast, NOS
+      - Broad ligament
+      - Cardia, NOS
+      - Carotid body
+      - Cauda equina
+      - Cecum
+      - Central portion of breast
+      - Cerebellum, NOS
+      - Cerebral meninges
+      - Cerebrum
+      - Cervical esophagus
+      - Cervix uteri
+      - Choroid
+      - Ciliary body
+      - Cloacogenic zone
+      - Colon, NOS
+      - Commissure of lip
+      - Conjunctiva
+      - Connective, subcutaneous and other soft tissues of abdomen
+      - Connective, subcutaneous and other soft tissues of head, face, and neck
+      - Connective, subcutaneous and other soft tissues of lower limb and hip
+      - Connective, subcutaneous and other soft tissues of pelvis
+      - Connective, subcutaneous and other soft tissues of thorax
+      - Connective, subcutaneous and other soft tissues of trunk, NOS
+      - Connective, subcutaneous and other soft tissues of upper limb and shoulder
+      - Connective, subcutaneous and other soft tissues, NOS
+      - Cornea, NOS
+      - Corpus uteri
+      - Cortex of adrenal gland
+      - Cranial nerve, NOS
+      - Craniopharyngeal duct
+      - Descended testis
+      - Descending colon
+      - Dome of bladder
+      - Dorsal surface of tongue, NOS
+      - Duodenum
+      - Endocervix
+      - Endocrine gland, NOS
+      - Endometrium
+      - Epididymis
+      - Esophagus, NOS
+      - Ethmoid sinus
+      - Exocervix
+      - External ear
+      - External lip, NOS
+      - External lower lip
+      - External upper lip
+      - Extrahepatic bile duct
+      - Eye, NOS
+      - Eyelid
+      - Fallopian tube
+      - Female genital tract, NOS
+      - Floor of mouth, NOS
+      - Frontal lobe
+      - Frontal sinus
+      - Fundus of stomach
+      - Fundus uteri
+      - Gallbladder
+      - Gastric antrum
+      - Gastrointestinal tract, NOS
+      - Glans penis
+      - Glottis
+      - Greater curvature of stomach, NOS
+      - Gum, NOS
+      - Hard palate
+      - Head of pancreas
+      - Head, face or neck, NOS
+      - Heart
+      - Hematopoietic system, NOS
+      - Hepatic flexure of colon
+      - Hypopharyngeal aspect of aryepiglottic fold
+      - Hypopharynx, NOS
+      - Ileum
+      - Ill-defined sites within respiratory system
+      - Intestinal tract, NOS
+      - Intra-abdominal lymph nodes
+      - Intrahepatic bile duct
+      - Intrathoracic lymph nodes
+      - Islets of Langerhans
+      - Isthmus uteri
+      - Jejunum
+      - Kidney, NOS
+      - Labium majus
+      - Labium minus
+      - Lacrimal gland
+      - Laryngeal cartilage
+      - Larynx, NOS
+      - Lateral floor of mouth
+      - Lateral wall of bladder
+      - Lateral wall of nasopharynx
+      - Lateral wall of oropharynx
+      - Lesser curvature of stomach, NOS
+      - Lingual tonsil
+      - Lip, NOS
+      - Liver
+      - Long bones of lower limb and associated joints
+      - Long bones of upper limb, scapula and associated joints
+      - Lower gum
+      - Lower limb, NOS
+      - Lower lobe, lung
+      - Lower third of esophagus
+      - Lower-inner quadrant of breast
+      - Lower-outer quadrant of breast
+      - Lung, NOS
+      - Lymph node, NOS
+      - Lymph nodes of axilla or arm
+      - Lymph nodes of head, face and neck
+      - Lymph nodes of inguinal region or leg
+      - Lymph nodes of multiple regions
+      - Main bronchus
+      - Major salivary gland, NOS
+      - Male genital organs, NOS
+      - Mandible
+      - Maxillary sinus
+      - Meckel diverticulum
+      - Mediastinum, NOS
+      - Medulla of adrenal gland
+      - Meninges, NOS
+      - Middle ear
+      - Middle lobe, lung
+      - Middle third of esophagus
+      - Mouth, NOS
+      - Mucosa of lip, NOS
+      - Mucosa of lower lip
+      - Mucosa of upper lip
+      - Myometrium
+      - Nasal cavity
+      - Nasopharynx, NOS
+      - Nervous system, NOS
+      - Nipple
+      - Occipital lobe
+      - Olfactory nerve
+      - Optic nerve
+      - Orbit, NOS
+      - Oropharynx, NOS
+      - Other ill-defined sites
+      - Other specified parts of female genital organs
+      - Other specified parts of male genital organs
+      - Other specified parts of pancreas
+      - Ovary
+      - Overlapping lesion of accessory sinuses
+      - Overlapping lesion of bladder
+      - Overlapping lesion of bones, joints and articular cartilage
+      - Overlapping lesion of bones, joints and articular cartilage of limbs
+      - Overlapping lesion of brain
+      - Overlapping lesion of brain and central nervous system
+      - Overlapping lesion of breast
+      - Overlapping lesion of cervix uteri
+      - Overlapping lesion of colon
+      - Overlapping lesion of connective, subcutaneous and other soft tissues
+      - Overlapping lesion of corpus uteri
+      - Overlapping lesion of digestive system
+      - Overlapping lesion of endocrine glands and related structures
+      - Overlapping lesion of esophagus
+      - Overlapping lesion of eye and adnexa
+      - Overlapping lesion of female genital organs
+      - Overlapping lesion of floor of mouth
+      - Overlapping lesion of heart, mediastinum and pleura
+      - Overlapping lesion of hypopharynx
+      - Overlapping lesion of ill-defined sites
+      - Overlapping lesion of larynx
+      - Overlapping lesion of lip
+      - Overlapping lesion of lip, oral cavity and pharynx
+      - Overlapping lesion of lung
+      - Overlapping lesion of major salivary glands
+      - Overlapping lesion of male genital organs
+      - Overlapping lesion of nasopharynx
+      - Overlapping lesion of other and unspecified parts of mouth
+      - Overlapping lesion of palate
+      - Overlapping lesion of pancreas
+      - Overlapping lesion of penis
+      - Overlapping lesion of peripheral nerves and autonomic nervous system
+      - Overlapping lesion of rectum, anus and anal canal
+      - Overlapping lesion of respiratory system and intrathoracic organs
+      - Overlapping lesion of retroperitoneum and peritoneum
+      - Overlapping lesion of skin
+      - Overlapping lesion of small intestine
+      - Overlapping lesion of stomach
+      - Overlapping lesion of tongue
+      - Overlapping lesion of tonsil
+      - Overlapping lesion of urinary organs
+      - Overlapping lesion of vulva
+      - Overlapping lesions of oropharynx
+      - Palate, NOS
+      - Pancreas, NOS
+      - Pancreatic duct
+      - Parametrium
+      - Parathyroid gland
+      - Paraurethral gland
+      - Parietal lobe
+      - Parotid gland
+      - Pelvic bones, sacrum, coccyx and associated joints
+      - Pelvic lymph nodes
+      - Pelvis, NOS
+      - Penis, NOS
+      - Peripheral nerves and autonomic nervous system of abdomen
+      - Peripheral nerves and autonomic nervous system of head, face, and neck
+      - Peripheral nerves and autonomic nervous system of lower limb and hip
+      - Peripheral nerves and autonomic nervous system of pelvis
+      - Peripheral nerves and autonomic nervous system of thorax
+      - Peripheral nerves and autonomic nervous system of trunk, NOS
+      - Peripheral nerves and autonomic nervous system of upper limb and shoulder
+      - Peritoneum, NOS
+      - Pharynx, NOS
+      - Pineal gland
+      - Pituitary gland
+      - Placenta
+      - Pleura, NOS
+      - Postcricoid region
+      - Posterior mediastinum
+      - Posterior wall of bladder
+      - Posterior wall of hypopharynx
+      - Posterior wall of nasopharynx
+      - Posterior wall of oropharynx
+      - Prepuce
+      - Prostate gland
+      - Pylorus
+      - Pyriform sinus
+      - Rectosigmoid junction
+      - Rectum, NOS
+      - Renal pelvis
+      - Reticuloendothelial system, NOS
+      - Retina
+      - Retromolar area
+      - Retroperitoneum
+      - Rib, sternum, clavicle and associated joints
+      - Round ligament
+      - Scrotum, NOS
+      - Short bones of lower limb and associated joints
+      - Short bones of upper limb and associated joints
+      - Sigmoid colon
+      - Skin of lip, NOS
+      - Skin of lower limb and hip
+      - Skin of other and unspecified parts of face
+      - Skin of scalp and neck
+      - Skin of trunk
+      - Skin of upper limb and shoulder
+      - Skin, NOS
+      - Small intestine, NOS
+      - Soft palate, NOS
+      - Specified parts of peritoneum
+      - Spermatic cord
+      - Sphenoid sinus
+      - Spinal cord
+      - Spinal meninges
+      - Spleen
+      - Splenic flexure of colon
+      - Stomach, NOS
+      - Subglottis
+      - Sublingual gland
+      - Submandibular gland
+      - Superior wall of nasopharynx
+      - Supraglottis
+      - Tail of pancreas
+      - Temporal lobe
+      - Testis, NOS
+      - Thoracic esophagus
+      - Thorax, NOS
+      - Thymus
+      - Thyroid gland
+      - Tongue, NOS
+      - Tonsil, NOS
+      - Tonsillar fossa
+      - Tonsillar pillar
+      - Trachea
+      - Transverse colon
+      - Trigone of bladder
+      - Undescended testis
+      - Unknown primary site
+      - Upper gum
+      - Upper limb, NOS
+      - Upper lobe, lung
+      - Upper respiratory tract, NOS
+      - Upper third of esophagus
+      - Upper-inner quadrant of breast
+      - Upper-outer quadrant of breast
+      - Urachus
+      - Ureter
+      - Ureteric orifice
+      - Urethra
+      - Urinary system, NOS
+      - Uterine adnexa
+      - Uterus, NOS
+      - Uvula
+      - Vagina, NOS
+      - Vallecula
+      - Ventral surface of tongue, NOS
+      - Ventricle, NOS
+      - Vertebral column
+      - Vestibule of mouth
+      - Vulva, NOS
+      - Waldeyer ring
+      - Biliary tract, NOS
+      - Cheek mucosa
+      - Clitoris
+      - Overlapping lesion of biliary tract
+      - Unknown
+      - Not Reported
+    Req: false
+    Private: false    
   # experiment
   experiment_id:
     Desc: TBD.
@@ -715,6 +1626,19 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+  checksum_value:
+    Desc: One or more characters using a irreversible unique number generated from a string of text to identify a set of related electronic records.
+    Src: caDSR
+    caDSR: 6115805
+    Type: string
+    Req: false
+    Private: false
+  checksum_algorithm:
+    Desc: Cryptographic checksum algorithm used for 'checksum_value' field. Available for use of something other than md5.
+    Src: None
+    Type: string
+    Req: false
+    Private: false    
   file_url_in_cds:
     Desc: Location of the file on the CDS Cloud, using AWS S3 protocol.
     Src: NCIt
@@ -728,6 +1652,15 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+  file_mapping_level:
+    Desc: Describes if the file belongs to a Participant, a Sample, or a Study.
+    Src: None
+    Enum:
+      - Participiant
+      - Sample
+      - Study
+    Req: false
+    Private: false    
   # imaging file props
   image_modality:
     Desc: TBD.
@@ -735,87 +1668,11 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  platform:
-    Desc: The words used to describe the instrument used to carry out a high-throughput sequencing experiment.
-    Src: caDSR
-    caDSR: 6347771
-    NCIt: C172274
-    Enum:
-      - "AB Capillary"
-      - "ABI Solid"
-      - "BGISEQ"
-      - "Complete Genomics"
-      - "Helicos"
-      - "Illumina"
-      - "Ion Torrent"
-      - "LS 454"
-      - "Oxford Nanopore"
-      - "PacBio SMRT"
-    Req: true
-    Private: false
   imaging_platform:
     Desc: The words used to describe the instrument used to carry out an imaging experiment.
     Src: None
     Type: String
     Req: false
-    Private: false
-  instrument_model:
-    Desc: The words used to describe the specific model of the instrument used to carry out a high-throughput sequencing experiment.
-    Src: caDSR
-    caDSR: 6352164
-    Enum:
-      - "454 GS"
-      - "454 GS 20"
-      - "454 GS FLX"
-      - "454 GS FLX Titanium"
-      - "454 GS FLX+"
-      - "454 GS Junior"
-      - "AB 310 Genetic Analyzer"
-      - "AB 3130 Genetic Analyzer"
-      - "AB 3130xL Genetic Analyzer"
-      - "AB 3500 Genetic Analyzer"
-      - "AB 3500xL Genetic Analyzer"
-      - "AB 3730 Genetic Analyzer"
-      - "AB 3730xL Genetic Analyzer"
-      - "AB SOLiD 2"
-      - "AB SOLiD 3"
-      - "AB SOLiD 4"
-      - "BGISEQ-500"
-      - "Complete Genomics"
-      - "GridION"
-      - "HeliScope"
-      - "HiSeq X Five"
-      - "HiSeq X Ten"
-      - "Illumina Genome Analyzer"
-      - "Illumina Genome Analyzer II"
-      - "Illumina Genome Analyzer IIx"
-      - "Illumina HiScanSQ"
-      - "Illumina HiSeq 1000"
-      - "Illumina HiSeq 1500"
-      - "Illumina HiSeq 2000"
-      - "Illumina HiSeq 2500"
-      - "Illumina HiSeq 3000"
-      - "Illumina HiSeq 4000"
-      - "Illumina HiSeq X Five"
-      - "Illumina HiSeq X Ten"
-      - "Illumina MiniSeq"
-      - "Illumina MiSeq"
-      - "Illumina NextSeq"
-      - "Illumina NovaSeq"
-      - "Ion Torrent PGM"
-      - "Ion Torrent Proton"
-      - "Ion Torrent S5"
-      - "Ion Torrent S5 XL"
-      - "MinION"
-      - "NextSeq 500"
-      - "NextSeq 550"
-      - "Not Reported"
-      - "Other"
-      - "PacBio RS"
-      - "PacBio RS II"
-      - "PromethION"
-      - "Unknown"
-    Req: true
     Private: false
   software_package:
     Desc: TBD.
@@ -891,6 +1748,12 @@ PropDefinitions:
       - "Unspecified"
     Req: true
     Private: false
+  dbGaP_subject_id:
+    Desc: This is the identifer assigned to the participant by dbGap.
+    Src: None
+    Type: string
+    Req: false
+    Private: false    
  # sample
   sample_id:
     Desc: A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.
@@ -2643,6 +3506,54 @@ PropDefinitions:
       - "progression" # new properties for new model 01/25/2022 adeforge
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
+  biosample_accession:
+    Desc: An alphanumeric identifier (SAMN accession number) assigned to a set of descriptive information for biological materials used to generate data that has been or will be submitted to archives provided by the National Center for Biotechnology Information (NCBI).  The alphanumeric identifier assigned to the specimen to uniquely identify it.
+    Src: caDSR
+    caDSR: 2230047
+    NCIt: C175889
+    Type: string
+    Req: false
+    Private: false    
+  derived_from_specimen:
+    Desc: One or more characters used to identify the parent substance, or portion of material obtained for use in testing, examination, or study.
+    Src: caDSR
+    caDSR:
+    - 5581201
+    - 5220155
+    Type: string
+    Req: false
+    Private: false  
+  sample_age_at_collection:
+    Desc: Time interval from the date of biospecimen collection to the date of initial pathologic diagnosis, represented as a calculated number of days.
+    Src: caDSR
+    caDSR: 3008340
+    Type: string
+    Req: false
+    Private: false
+  sample_description:
+    Desc: Text description of a sample or specimen.
+    Src: caDSR
+    caDSR: 
+    - 2003907
+    - 5432687
+    Type: string
+    Req: false
+    Private: false
+  sample_tumor_status:
+    Desc: Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue.
+    Src: caDSR
+    caDSR: 5432687
+    Enum:
+      - Abnormal
+      - Non-neoplastic
+      - Normal
+      - Peritumoral
+      - Tumor
+      - Unavailable
+      - Unknown
+      - Unspecified
+    Req: false
+    Private: false      
   # sequencing_file props
   library_id: # per dbGaP, library_id can be == sample_id if there is only 1 seq file per sample
     Desc: Short unique identifier for the sequencing library.
@@ -2694,6 +3605,82 @@ PropDefinitions:
       - "WXS"
     Req: true
     Private: false
+  platform:
+    Desc: The words used to describe the instrument used to carry out a high-throughput sequencing experiment.
+    Src: caDSR
+    caDSR: 6347771
+    NCIt: C172274
+    Enum:
+      - "AB Capillary"
+      - "ABI Solid"
+      - "BGISEQ"
+      - "Complete Genomics"
+      - "Helicos"
+      - "Illumina"
+      - "Ion Torrent"
+      - "LS 454"
+      - "Oxford Nanopore"
+      - "PacBio SMRT"
+    Req: true
+    Private: false    
+  instrument_model:
+    Desc: The words used to describe the specific model of the instrument used to carry out a high-throughput sequencing experiment.
+    Src: caDSR
+    caDSR: 6352164
+    Enum:
+      - "454 GS"
+      - "454 GS 20"
+      - "454 GS FLX"
+      - "454 GS FLX Titanium"
+      - "454 GS FLX+"
+      - "454 GS Junior"
+      - "AB 310 Genetic Analyzer"
+      - "AB 3130 Genetic Analyzer"
+      - "AB 3130xL Genetic Analyzer"
+      - "AB 3500 Genetic Analyzer"
+      - "AB 3500xL Genetic Analyzer"
+      - "AB 3730 Genetic Analyzer"
+      - "AB 3730xL Genetic Analyzer"
+      - "AB SOLiD 2"
+      - "AB SOLiD 3"
+      - "AB SOLiD 4"
+      - "BGISEQ-500"
+      - "Complete Genomics"
+      - "GridION"
+      - "HeliScope"
+      - "HiSeq X Five"
+      - "HiSeq X Ten"
+      - "Illumina Genome Analyzer"
+      - "Illumina Genome Analyzer II"
+      - "Illumina Genome Analyzer IIx"
+      - "Illumina HiScanSQ"
+      - "Illumina HiSeq 1000"
+      - "Illumina HiSeq 1500"
+      - "Illumina HiSeq 2000"
+      - "Illumina HiSeq 2500"
+      - "Illumina HiSeq 3000"
+      - "Illumina HiSeq 4000"
+      - "Illumina HiSeq X Five"
+      - "Illumina HiSeq X Ten"
+      - "Illumina MiniSeq"
+      - "Illumina MiSeq"
+      - "Illumina NextSeq"
+      - "Illumina NovaSeq"
+      - "Ion Torrent PGM"
+      - "Ion Torrent Proton"
+      - "Ion Torrent S5"
+      - "Ion Torrent S5 XL"
+      - "MinION"
+      - "NextSeq 500"
+      - "NextSeq 550"
+      - "Not Reported"
+      - "Other"
+      - "PacBio RS"
+      - "PacBio RS II"
+      - "PromethION"
+      - "Unknown"
+    Req: true
+    Private: false    
   library_layout: 
     Desc: Paired-end or Single
     Src: NCIt
@@ -2764,795 +3751,19 @@ PropDefinitions:
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
-  # study
-  phs_accession:
-    Desc: A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP). 
-    Src: NCIt
-    NCIt: C173940
-    Type: string
-    Req: true
-    Private: false
-  study_short_title:
-    Desc: The succinct version of the study title if it exists.
-    Src: None
-    Type: string
-    Req: true
-    Private: false
-  study_acronym:
-    Desc: A one word acronym to represent the study.
-    Src: None
-    Type: string
-    Req: true
-    Private: false
-  study_description:
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: true
-    Private: false
-  external_url:
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: false  # 02/22/2022 adeforge, not required?
-    Private: false
-  # study_admin
-  study_admin_id:
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: true
-    Private: false
-  organism_species:
-    Desc: The organism from which the sample is derived or originated.
-    Src: caDSR
-    caDSR: 6118266
-    NCIt: C14250
-    Enum:
-      - Human
-      - Mouse
-    Req: true
-    Private: false
-  adult_or_childhood_study: # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
-    Desc: Specifies whether a study is using adults and/or children as subjects. 
-    Src: NCIt
-    NCIt: C175884
-    Enum:
-      - "Adult"
-      - "Pediatric"
-    Req: true
-    Private: false
-  data_types: # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: false
-    Private: false
-  file_types_and_format: # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
-    Desc: Specific kind of files in the dataset that will be uploaded to the study.
-    Src: NCIt
-    NCIt: C171252
-    Type: string
-    Req: false
-    Private: false
-  acl: #populated from a dbGAP query?
-    Desc: Specifies whether the data in a repository is open access or controlled access. 
-    Src: NCIt
-    NCIt: C175887
-    Type: string
-    Req: true
-    Private: false
-  # study_funding
-  funding_agency: # 0 or many per study
-    Desc: An organization/Sponsor that underwrites financial support for projects of a particular type. Typically, they process applications and award funds to the chosen qualified applicants.
-    Src: NCIt
-    NCIt: C39409
-    Type: string
-    Req: true
-    Private: false
-  grant_id: #grant or contract ID, NIH or other
-    Desc: Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
-    Src: caDSR
-    caDSR: 3434057
-    Type: string
-    Req: true
-    Private: false
-  # study_personnel
-  study_personnel_id:  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: true
-    Private: false
-  personnel_name:
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: true
-    Private: false
-  personnel_type: #enum: PI, Co-PI, Data Submitter, etc
-    Desc: TBD.
-    Src: None
-    Enum:
-      - "PI"
-      - "Co-PI"
-      - "Data Submitter" # these? 01/26/2022 adeforge
-      - "Data Manager"  # 02/22/2022 adeforge, is this different from a 'Data Submitter'?
-    Req: true
-    Private: false
-  email_address:
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: true
-    Private: false
-  institution:
-    Desc: TBD.
-    Src: None
-    Type: string
-    Req: true  # 28feb22 pdunn
-    Private: false
-  #Newly added properties to CCDI for CDS
-  tissue_or_organ_of_origin:
-    Desc: The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
-    Src: caDSR
-    caDSR: 6161035
-    Enum:
-      - Abdomen
-      - Abdominal Esophagus
-      - Adrenal Cortex
-      - Adrenal Gland
-      - Adrenal Medulla
-      - Ampulla of Vater
-      - Anal Canal
-      - Anal Transitional Zone
-      - Anterior Mediastinum
-      - Anterior Surface of the Epiglottis
-      - Anterior Wall of the Bladder
-      - Anterior Wall of the Nasopharynx
-      - Antrum Pylori
-      - Anus
-      - Appendage of the Uterus
-      - Appendix
-      - Ascending Colon
-      - Autonomic Nervous System
-      - Axillary Lymph Node
-      - Axillary Tail of the Breast
-      - Base of the Tongue
-      - Biliary Tract
-      - Bladder Neck
-      - Bladder Trigone
-      - Bladder
-      - Blood
-      - Body of Stomach
-      - Body of the Pancreas
-      - Body of the Penis
-      - Bone Marrow
-      - Bone of the Extremity
-      - Bone
-      - Brain Stem
-      - Brain Ventricle
-      - Brain
-      - Branchial Cleft Remnant
-      - Breast
-      - Broad Ligament
-      - Buccal Mucosa
-      - Carotid Body
-      - Cauda Equina
-      - Cecum
-      - Central Portion of the Breast
-      - Cerebellum
-      - Cerebral Hemisphere
-      - Cerebral Meninges
-      - Cervical Esophagus
-      - Cervix Uteri
-      - Choroid
-      - Ciliary Body
-      - Clitoris
-      - Cochlear Nerve
-      - Colon
-      - Commissure of the Lip
-      - Conjunctiva
-      - Cornea
-      - Corpus Uteri
-      - Cranial Nerve
-      - Craniopharyngeal Duct
-      - Descending Colon
-      - Dome of the Bladder
-      - Duodenum
-      - Ectocervix
-      - Endocervix
-      - Endocrine Gland
-      - Endometrium
-      - Epididymis
-      - Esophagus
-      - Ethmoid Sinus
-      - External Ear
-      - External Lip
-      - External Lower Lip
-      - External Upper Lip
-      - Extrahepatic Bile Duct
-      - Eyelid
-      - Eye
-      - Fallopian Tube
-      - Female Genitalia
-      - Floor of Mouth
-      - Frontal Lobe
-      - Frontal Sinus
-      - Fundus of the Stomach
-      - Fundus Uteri
-      - Gallbladder
-      - Gastric Cardia
-      - Gastrointestinal Tract
-      - Gingiva
-      - Glans Penis
-      - Glottis
-      - Greater Curvature of the Stomach
-      - Hard Palate
-      - Head and Neck Lymph Node
-      - Head of the Pancreas
-      - Heart
-      - Hematopoietic System
-      - Hepatic Flexure
-      - Hypopharynx
-      - Ileum
-      - Ill-Defined Anatomic Site
-      - Intestine
-      - Intra-Abdominal Lymph Node
-      - Intrahepatic Bile Duct
-      - Intrathoracic Lymph Node
-      - Islet of Langerhans
-      - Isthmus Uteri
-      - Jejunum
-      - Kidney
-      - Labium Majus
-      - Labium Minus
-      - Lacrimal Gland
-      - Laryngeal Cartilage
-      - Larynx
-      - Lateral Wall of the Bladder
-      - Lateral Wall of the Nasopharynx
-      - Lateral Wall of the Oropharynx
-      - Lesser Curvature of the Stomach
-      - Lingual Tonsil
-      - Lip
-      - Liver
-      - Lower Extremity
-      - Lower Gingiva
-      - Lower Lobe of the Lung
-      - Lower Third of the Esophagus
-      - Lower-Inner Quadrant of the Breast
-      - Lower-Outer Quadrant of the Breast
-      - Lung
-      - Lymph Node of Inguinal Region or Leg
-      - Lymph Node
-      - Main Bronchus
-      - Male Genitalia
-      - Mandible
-      - Maxillary Sinus
-      - Meckel Diverticulum
-      - Mediastinum
-      - Meninges
-      - Middle Ear
-      - Middle Lobe of the Right Lung
-      - Middle Third of the Esophagus
-      - Mucosa of the Lip
-      - Mucosa of the Lower Lip
-      - Mucosa of the Upper Lip
-      - Myometrium
-      - Nasal Cavity
-      - Nasopharynx
-      - Nervous System
-      - Nipple
-      - Not Reported
-      - Occipital Lobe
-      - Olfactory Nerve
-      - Optic Nerve
-      - Oral Cavity
-      - Orbit
-      - Oropharynx
-      - Other and Ill-Defined Sites within Respiratory System and Intrathoracic Organs ICD-O-3
-      - Other and Unspecified Female Genital Organs ICD-O-3
-      - Other and Unspecified Male Genital Organs ICD-O-3
-      - Other Specified Parts of Pancreas
-      - Ovary
-      - Palate
-      - Palatine Tonsil
-      - Pancreas
-      - Pancreatic Duct
-      - Parametrium
-      - Paranasal Sinus
-      - Parathyroid Gland
-      - Parietal Lobe
-      - Parotid Gland
-      - Pelvic Lymph Node
-      - Pelvis
-      - Penis
-      - Peritoneum
-      - Pharynx
-      - Pineal Gland
-      - Pituitary Gland
-      - Placenta
-      - Pleura
-      - Postcricoid Region
-      - Posterior Mediastinum
-      - Posterior Wall of the Bladder
-      - Posterior Wall of the Hypopharynx
-      - Posterior Wall of the Nasopharynx
-      - Posterior Wall of the Oropharynx
-      - Prepuce
-      - Primary Site Unknown
-      - Prostate Gland
-      - Pylorus
-      - Pyriform Sinus
-      - Rectosigmoid Region
-      - Rectum
-      - Renal Pelvis
-      - Reticuloendothelial System
-      - Retina
-      - Retromolar Trigone
-      - Retroperitoneum
-      - Round Ligament
-      - Salivary Gland
-      - Scrotum
-      - Sigmoid Colon
-      - Skene Gland
-      - Skin of the Face
-      - Skin of the Lip
-      - Skin of the Lower Limb and Hip
-      - Skin of the Scalp and Neck
-      - Skin of the Trunk
-      - Skin of the Upper Limb and Shoulder
-      - Skin
-      - Small Intestine
-      - Soft Palate
-      - Spermatic Cord
-      - Sphenoid Sinus
-      - Spinal Cord
-      - Spinal Meninges
-      - Spleen
-      - Splenic Flexure
-      - Stomach
-      - Subglottis
-      - Sublingual Salivary Gland
-      - Submandibular Gland
-      - Superior Wall of the Nasopharynx
-      - Supraglottis
-      - Tail of the Pancreas
-      - Temporal Lobe
-      - Testis
-      - Thoracic Esophagus
-      - Thorax
-      - Thymus Gland
-      - Thyroid Gland
-      - Tongue
-      - Tonsillar Fossa
-      - Tonsillar Pillar
-      - Trachea
-      - Transverse Colon
-      - Undescended Testes
-      - Unknown
-      - Upper Extremity
-      - Upper Gingiva
-      - Upper Lobe of the Lung
-      - Upper Respiratory System
-      - Upper Third of the Esophagus
-      - Upper-Inner Quadrant of the Breast
-      - Upper-Outer Quadrant of the Breast
-      - Urachus
-      - Ureteric Orifice
-      - Ureter
-      - Urethra
-      - Urinary System
-      - Uterus
-      - Uvula
-      - Vagina
-      - Vallecula
-      - Vertebral Column
-      - Vestibule of Mouth
-      - Vulva
-      - Waldeyer Ring
-      - Abdomen, NOS
-      - Abdominal esophagus
-      - Accessory sinus, NOS
-      - Acoustic nerve
-      - Adrenal gland, NOS
-      - Anal canal
-      - Anterior 2/3 of tongue, NOS
-      - Anterior floor of mouth
-      - Anterior mediastinum
-      - Anterior surface of epiglottis
-      - Anterior wall of bladder
-      - Anterior wall of nasopharynx
-      - Anus, NOS
-      - Aortic body and other paraganglia
-      - Ascending colon
-      - Autonomic nervous system, NOS
-      - Axillary tail of breast
-      - Base of tongue, NOS
-      - Biliary tract, NOS
-      - Bladder neck
-      - Bladder, NOS
-      - Body of pancreas
-      - Body of penis
-      - Body of stomach
-      - Bone marrow
-      - Bone of limb, NOS
-      - Bone, NOS
-      - Bones of skull and face and associated joints
-      - Border of tongue
-      - Brain stem
-      - Brain, NOS
-      - Branchial cleft
-      - Breast, NOS
-      - Broad ligament
-      - Cardia, NOS
-      - Carotid body
-      - Cauda equina
-      - Central portion of breast
-      - Cerebellum, NOS
-      - Cerebral meninges
-      - Cerebrum
-      - Cervical esophagus
-      - Cervix uteri
-      - Cheek mucosa
-      - Ciliary body
-      - Cloacogenic zone
-      - Colon, NOS
-      - Commissure of lip
-      - Connective, subcutaneous and other soft tissues of abdomen
-      - Connective, subcutaneous and other soft tissues of head, face, and neck
-      - Connective, subcutaneous and other soft tissues of lower limb and hip
-      - Connective, subcutaneous and other soft tissues of pelvis
-      - Connective, subcutaneous and other soft tissues of thorax
-      - Connective, subcutaneous and other soft tissues of trunk, NOS
-      - Connective, subcutaneous and other soft tissues of upper limb and shoulder
-      - Connective, subcutaneous and other soft tissues, NOS
-      - Cornea, NOS
-      - Corpus uteri
-      - Cortex of adrenal gland
-      - Cranial nerve, NOS
-      - Craniopharyngeal duct
-      - Descended testis
-      - Descending colon
-      - Dome of bladder
-      - Dorsal surface of tongue, NOS
-      - Endocrine gland, NOS
-      - Esophagus, NOS
-      - Ethmoid sinus
-      - Exocervix
-      - External ear
-      - External lip, NOS
-      - External lower lip
-      - External upper lip
-      - Extrahepatic bile duct
-      - Eye, NOS
-      - Fallopian tube
-      - Female genital tract, NOS
-      - Floor of mouth, NOS
-      - Frontal lobe
-      - Frontal sinus
-      - Fundus of stomach
-      - Fundus uteri
-      - Gastric antrum
-      - Gastrointestinal tract, NOS
-      - Glans penis
-      - Greater curvature of stomach, NOS
-      - Gum, NOS
-      - Hard palate
-      - Head of pancreas
-      - Head, face or neck, NOS
-      - Hematopoietic system, NOS
-      - Hepatic flexure of colon
-      - Hypopharyngeal aspect of aryepiglottic fold
-      - Hypopharynx, NOS
-      - Ill-defined sites within respiratory system
-      - Intestinal tract, NOS
-      - Intra-abdominal lymph nodes
-      - Intrahepatic bile duct
-      - Intrathoracic lymph nodes
-      - Islets of Langerhans
-      - Isthmus uteri
-      - Kidney, NOS
-      - Labium majus
-      - Labium minus
-      - Lacrimal gland
-      - Laryngeal cartilage
-      - Laryngeal commissure
-      - Larynx, NOS
-      - Lateral floor of mouth
-      - Lateral wall of bladder
-      - Lateral wall of nasopharynx
-      - Lateral wall of oropharynx
-      - Lesser curvature of stomach, NOS
-      - Lingual tonsil
-      - Lip, NOS
-      - Long bones of lower limb and associated joints
-      - Long bones of upper limb, scapula and associated joints
-      - Lower gum
-      - Lower limb, NOS
-      - Lower lobe, lung
-      - Lower third of esophagus
-      - Lower-inner quadrant of breast
-      - Lower-outer quadrant of breast
-      - Lung, NOS
-      - Lymph node, NOS
-      - Lymph nodes of axilla or arm
-      - Lymph nodes of head, face and neck
-      - Lymph nodes of inguinal region or leg
-      - Lymph nodes of multiple regions
-      - Main bronchus
-      - Major salivary gland, NOS
-      - Male genital organs, NOS
-      - Maxillary sinus
-      - Meckel diverticulum
-      - Mediastinum, NOS
-      - Medulla of adrenal gland
-      - Meninges, NOS
-      - Middle ear
-      - Middle lobe, lung
-      - Middle third of esophagus
-      - Mouth, NOS
-      - Mucosa of lip, NOS
-      - Mucosa of lower lip
-      - Mucosa of upper lip
-      - Nasal cavity
-      - Nasopharynx, NOS
-      - Nervous system, NOS
-      - Occipital lobe
-      - Olfactory nerve
-      - Optic nerve
-      - Orbit, NOS
-      - Oropharynx, NOS
-      - Other ill-defined sites
-      - Other specified parts of female genital organs
-      - Other specified parts of male genital organs
-      - Other specified parts of pancreas
-      - Overlapping lesion of accessory sinuses
-      - Overlapping lesion of biliary tract
-      - Overlapping lesion of bladder
-      - Overlapping lesion of bones, joints and articular cartilage
-      - Overlapping lesion of bones, joints and articular cartilage of limbs
-      - Overlapping lesion of brain
-      - Overlapping lesion of brain and central nervous system
-      - Overlapping lesion of breast
-      - Overlapping lesion of cervix uteri
-      - Overlapping lesion of colon
-      - Overlapping lesion of connective, subcutaneous and other soft tissues
-      - Overlapping lesion of corpus uteri
-      - Overlapping lesion of digestive system
-      - Overlapping lesion of endocrine glands and related structures
-      - Overlapping lesion of esophagus
-      - Overlapping lesion of eye and adnexa
-      - Overlapping lesion of female genital organs
-      - Overlapping lesion of floor of mouth
-      - Overlapping lesion of heart, mediastinum and pleura
-      - Overlapping lesion of hypopharynx
-      - Overlapping lesion of ill-defined sites
-      - Overlapping lesion of larynx
-      - Overlapping lesion of lip
-      - Overlapping lesion of lip, oral cavity and pharynx
-      - Overlapping lesion of lung
-      - Overlapping lesion of major salivary glands
-      - Overlapping lesion of male genital organs
-      - Overlapping lesion of nasopharynx
-      - Overlapping lesion of other and unspecified parts of mouth
-      - Overlapping lesion of palate
-      - Overlapping lesion of pancreas
-      - Overlapping lesion of penis
-      - Overlapping lesion of peripheral nerves and autonomic nervous system
-      - Overlapping lesion of rectum, anus and anal canal
-      - Overlapping lesion of respiratory system and intrathoracic organs
-      - Overlapping lesion of retroperitoneum and peritoneum
-      - Overlapping lesion of skin
-      - Overlapping lesion of small intestine
-      - Overlapping lesion of stomach
-      - Overlapping lesion of tongue
-      - Overlapping lesion of tonsil
-      - Overlapping lesion of urinary organs
-      - Overlapping lesion of vulva
-      - Overlapping lesions of oropharynx
-      - Palate, NOS
-      - Pancreas, NOS
-      - Pancreatic duct
-      - Parathyroid gland
-      - Paraurethral gland
-      - Parietal lobe
-      - Parotid gland
-      - Pelvic bones, sacrum, coccyx and associated joints
-      - Pelvic lymph nodes
-      - Pelvis, NOS
-      - Penis, NOS
-      - Peripheral nerves and autonomic nervous system of abdomen
-      - Peripheral nerves and autonomic nervous system of head, face, and neck
-      - Peripheral nerves and autonomic nervous system of lower limb and hip
-      - Peripheral nerves and autonomic nervous system of pelvis
-      - Peripheral nerves and autonomic nervous system of thorax
-      - Peripheral nerves and autonomic nervous system of trunk, NOS
-      - Peripheral nerves and autonomic nervous system of upper limb and shoulder
-      - Peritoneum, NOS
-      - Pharynx, NOS
-      - Pineal gland
-      - Pituitary gland
-      - Pleura, NOS
-      - Postcricoid region
-      - Posterior mediastinum
-      - Posterior wall of bladder
-      - Posterior wall of hypopharynx
-      - Posterior wall of nasopharynx
-      - Posterior wall of oropharynx
-      - Prostate gland
-      - Pyriform sinus
-      - Rectosigmoid junction
-      - Rectum, NOS
-      - Renal pelvis
-      - Reticuloendothelial system, NOS
-      - Retromolar area
-      - Rib, sternum, clavicle and associated joints
-      - Round ligament
-      - Scrotum, NOS
-      - Short bones of lower limb and associated joints
-      - Short bones of upper limb and associated joints
-      - Sigmoid colon
-      - Skin of lip, NOS
-      - Skin of lower limb and hip
-      - Skin of other and unspecified parts of face
-      - Skin of scalp and neck
-      - Skin of trunk
-      - Skin of upper limb and shoulder
-      - Skin, NOS
-      - Small intestine, NOS
-      - Soft palate, NOS
-      - Specified parts of peritoneum
-      - Spermatic cord
-      - Sphenoid sinus
-      - Spinal cord
-      - Spinal meninges
-      - Splenic flexure of colon
-      - Stomach, NOS
-      - Sublingual gland
-      - Submandibular gland
-      - Superior wall of nasopharynx
-      - Tail of pancreas
-      - Temporal lobe
-      - Testis, NOS
-      - Thoracic esophagus
-      - Thorax, NOS
-      - Thymus
-      - Thyroid gland
-      - Tongue, NOS
-      - Tonsil, NOS
-      - Tonsillar fossa
-      - Tonsillar pillar
-      - Transverse colon
-      - Trigone of bladder
-      - Undescended testis
-      - Unknown primary site
-      - Upper Gum
-      - Upper limb, NOS
-      - Upper lobe, lung
-      - Upper respiratory tract, NOS
-      - Upper third of esophagus
-      - Upper-inner quadrant of breast
-      - Upper-outer quadrant of breast
-      - Ureteric orifice
-      - Urinary system, NOS
-      - Uterine adnexa
-      - Uterus, NOS
-      - Vagina, NOS
-      - Ventral surface of tongue, NOS
-      - Ventricle, NOS
-      - Vertebral column
-      - Vestibule of mouth
-      - Vulva, NOS
-      - Waldeyer ring
-    Req: false
-    Private: false
-  bioproject_accession:
-    Desc: An alphanumeric identifier (PRJ accession number) assigned to a collection of experimental data associated with a project by the National Center for Biotechnology Information (NCBI) BioProject repository.
-    Src: NCIt
-    NCIt: C175890
-    Type: string
-    Req: false
-    Private: false
-  biosample_accession:
-    Desc: An alphanumeric identifier (SAMN accession number) assigned to a set of descriptive information for biological materials used to generate data that has been or will be submitted to archives provided by the National Center for Biotechnology Information (NCBI).  The alphanumeric identifier assigned to the specimen to uniquely identify it.
-    Src: caDSR
-    caDSR: 2230047
-    NCIt: C175889
-    Type: string
-    Req: false
-    Private: false
-  checksum_value:
-    Desc: One or more characters using a irreversible unique number generated from a string of text to identify a set of related electronic records.
-    Src: caDSR
-    caDSR: 6115805
-    Type: string
-    Req: false
-    Private: false
-  checksum_algorithm:
-    Desc: Cryptographic checksum algorithm used for 'checksum_value' field. Available for use of something other than md5.
-    Src: None
-    Type: string
-    Req: false
-    Private: false
-  clinical_trial_arm:
-    Desc: ARM of the clinical trial.
-    Src: None
-    Type: string
-    Req: false
-    Private: false
-  clinical_trial_identifier:
-    Desc: Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
-    Src: caDSR
-    caDSR: 2649415
-    Type: string
-    Req: false
-    Private: false
-  clinical_trial_system:
-    Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
-    Src: None
-    Type: string
-    Req: false
-    Private: false
   custom_assembly_fasta_file_for_alignment:
     Desc: The name of the custom assembly fasta file used during alignment.
     Src: None
     Type: string
     Req: false
-    Private: false
-  days_to_last_followup:
-    Desc: Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
-    Src: caDSR
-    caDSR: 3008273
-    Type: string
-    Req: false
-    Private: false
-  days_to_treatment:
-    Desc: Number of days between the date used for index and the date the treatment started.
-    Src: caDSR
-    caDSR: 6154726
-    Type: string
-    Req: false
-    Private: false
-  dbGaP_subject_id:
-    Desc: This is the identifer assigned to the participant by dbGap.
-    Src: None
-    Type: string
-    Req: false
-    Private: false
-  derived_from_specimen:
-    Desc: One or more characters used to identify the parent substance, or portion of material obtained for use in testing, examination, or study.
-    Src: caDSR
-    caDSR:
-    - 5581201
-    - 5220155
-    Type: string
-    Req: false
-    Private: false
-  experimental_strategy_and_data_subtype:
-    Desc: The experimental strategy used for the study or the data subtypes that exist in the study.
+    Private: false    
+  sequence_alignment_software:
+    Desc: The name of the software program used to align nucleotide sequencing data.
     Src: NCIt
-    NCIt: C43622
+    NCIt: C175896
     Type: string
     Req: false
-    Private: false
-  file_mapping_level:
-    Desc: Describes if the file belongs to a Participant, a Sample, or a Study.
-    Src: None
-    Enum:
-      - Participiant
-      - Sample
-      - Study
-    Req: false
-    Private: false
-  funding_source_program_name:
-    Desc: The name of the program that is providing funding.
-    Src: NCIt
-    NCIt: C166274
-    Type: string
-    Req: false
-    Private: false
+    Private: false    
   library_selection:
     Desc: The type of systematic actions performed to select or enrich DNA fragments used in analysis by high-throughput sequencing.
     Src: caDSR
@@ -3605,7 +3816,46 @@ PropDefinitions:
       - Size fractionation
       - Unspecified
     Req: false
+    Private: false    
+  # study
+  phs_accession:
+    Desc: A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP). 
+    Src: NCIt
+    NCIt: C173940
+    Type: string
+    Req: true
     Private: false
+  study_short_title:
+    Desc: The succinct version of the study title if it exists.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  study_acronym:
+    Desc: A one word acronym to represent the study.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  study_description:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  external_url:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: false  # 02/22/2022 adeforge, not required?
+    Private: false
+  experimental_strategy_and_data_subtype:
+    Desc: The experimental strategy used for the study or the data subtypes that exist in the study.
+    Src: NCIt
+    NCIt: C43622
+    Type: string
+    Req: false
+    Private: false 
   number_of_participants:
     Desc: The number of participants in the study for a disease, disorder, condition, or problem.
     Src: NCIt
@@ -3619,387 +3869,7 @@ PropDefinitions:
     NCIt: C53190
     Type: string
     Req: false
-    Private: false
-  progression_or_recurrence:
-    Desc: Yes/No/Unknown indicator to identify whether a patient has had a new tumor event after initial treatment.
-    Src: caDSR
-    caDSR: 3121376
-    Enum:
-      - 'No'
-      - Unknown
-      - 'Yes'
-    Req: false
-    Private: false
-  sample_age_at_collection:
-    Desc: Time interval from the date of biospecimen collection to the date of initial pathologic diagnosis, represented as a calculated number of days.
-    Src: caDSR
-    caDSR: 3008340
-    Type: string
-    Req: false
-    Private: false
-  sample_description:
-    Desc: Text description of a sample or specimen.
-    Src: caDSR
-    caDSR: 
-    - 2003907
-    - 5432687
-    Type: string
-    Req: false
-    Private: false
-  sample_tumor_status:
-    Desc: Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue.
-    Src: caDSR
-    caDSR: 5432687
-    Enum:
-      - Abnormal
-      - Non-neoplastic
-      - Normal
-      - Peritumoral
-      - Tumor
-      - Unavailable
-      - Unknown
-      - Unspecified
-    Req: false
-    Private: false
-  site_of_resection_or_biopsy:
-    Desc: The text term used to describe the anatomic site of the resection or biopsy of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
-    Src: caDSR
-    caDSR: 6161034
-    Enum:
-      - Abdomen, NOS
-      - Abdominal esophagus
-      - Accessory sinus, NOS
-      - Acoustic nerve
-      - Adrenal gland, NOS
-      - Ampulla of Vater
-      - Anal canal
-      - Anterior 2/3 of tongue, NOS
-      - Anterior floor of mouth
-      - Anterior mediastinum
-      - Anterior surface of epiglottis
-      - Anterior wall of bladder
-      - Anterior wall of nasopharynx
-      - Anus, NOS
-      - Aortic body and other paraganglia
-      - Appendix
-      - Ascending colon
-      - Autonomic nervous system, NOS
-      - Axillary tail of breast
-      - Base of tongue, NOS
-      - Bladder neck
-      - Bladder, NOS
-      - Blood
-      - Body of pancreas
-      - Body of penis
-      - Body of stomach
-      - Bone marrow
-      - Bone of limb, NOS
-      - Bone, NOS
-      - Bones of skull and face and associated joints
-      - Border of tongue
-      - Brain stem
-      - Brain, NOS
-      - Branchial cleft
-      - Breast, NOS
-      - Broad ligament
-      - Cardia, NOS
-      - Carotid body
-      - Cauda equina
-      - Cecum
-      - Central portion of breast
-      - Cerebellum, NOS
-      - Cerebral meninges
-      - Cerebrum
-      - Cervical esophagus
-      - Cervix uteri
-      - Choroid
-      - Ciliary body
-      - Cloacogenic zone
-      - Colon, NOS
-      - Commissure of lip
-      - Conjunctiva
-      - Connective, subcutaneous and other soft tissues of abdomen
-      - Connective, subcutaneous and other soft tissues of head, face, and neck
-      - Connective, subcutaneous and other soft tissues of lower limb and hip
-      - Connective, subcutaneous and other soft tissues of pelvis
-      - Connective, subcutaneous and other soft tissues of thorax
-      - Connective, subcutaneous and other soft tissues of trunk, NOS
-      - Connective, subcutaneous and other soft tissues of upper limb and shoulder
-      - Connective, subcutaneous and other soft tissues, NOS
-      - Cornea, NOS
-      - Corpus uteri
-      - Cortex of adrenal gland
-      - Cranial nerve, NOS
-      - Craniopharyngeal duct
-      - Descended testis
-      - Descending colon
-      - Dome of bladder
-      - Dorsal surface of tongue, NOS
-      - Duodenum
-      - Endocervix
-      - Endocrine gland, NOS
-      - Endometrium
-      - Epididymis
-      - Esophagus, NOS
-      - Ethmoid sinus
-      - Exocervix
-      - External ear
-      - External lip, NOS
-      - External lower lip
-      - External upper lip
-      - Extrahepatic bile duct
-      - Eye, NOS
-      - Eyelid
-      - Fallopian tube
-      - Female genital tract, NOS
-      - Floor of mouth, NOS
-      - Frontal lobe
-      - Frontal sinus
-      - Fundus of stomach
-      - Fundus uteri
-      - Gallbladder
-      - Gastric antrum
-      - Gastrointestinal tract, NOS
-      - Glans penis
-      - Glottis
-      - Greater curvature of stomach, NOS
-      - Gum, NOS
-      - Hard palate
-      - Head of pancreas
-      - Head, face or neck, NOS
-      - Heart
-      - Hematopoietic system, NOS
-      - Hepatic flexure of colon
-      - Hypopharyngeal aspect of aryepiglottic fold
-      - Hypopharynx, NOS
-      - Ileum
-      - Ill-defined sites within respiratory system
-      - Intestinal tract, NOS
-      - Intra-abdominal lymph nodes
-      - Intrahepatic bile duct
-      - Intrathoracic lymph nodes
-      - Islets of Langerhans
-      - Isthmus uteri
-      - Jejunum
-      - Kidney, NOS
-      - Labium majus
-      - Labium minus
-      - Lacrimal gland
-      - Laryngeal cartilage
-      - Larynx, NOS
-      - Lateral floor of mouth
-      - Lateral wall of bladder
-      - Lateral wall of nasopharynx
-      - Lateral wall of oropharynx
-      - Lesser curvature of stomach, NOS
-      - Lingual tonsil
-      - Lip, NOS
-      - Liver
-      - Long bones of lower limb and associated joints
-      - Long bones of upper limb, scapula and associated joints
-      - Lower gum
-      - Lower limb, NOS
-      - Lower lobe, lung
-      - Lower third of esophagus
-      - Lower-inner quadrant of breast
-      - Lower-outer quadrant of breast
-      - Lung, NOS
-      - Lymph node, NOS
-      - Lymph nodes of axilla or arm
-      - Lymph nodes of head, face and neck
-      - Lymph nodes of inguinal region or leg
-      - Lymph nodes of multiple regions
-      - Main bronchus
-      - Major salivary gland, NOS
-      - Male genital organs, NOS
-      - Mandible
-      - Maxillary sinus
-      - Meckel diverticulum
-      - Mediastinum, NOS
-      - Medulla of adrenal gland
-      - Meninges, NOS
-      - Middle ear
-      - Middle lobe, lung
-      - Middle third of esophagus
-      - Mouth, NOS
-      - Mucosa of lip, NOS
-      - Mucosa of lower lip
-      - Mucosa of upper lip
-      - Myometrium
-      - Nasal cavity
-      - Nasopharynx, NOS
-      - Nervous system, NOS
-      - Nipple
-      - Occipital lobe
-      - Olfactory nerve
-      - Optic nerve
-      - Orbit, NOS
-      - Oropharynx, NOS
-      - Other ill-defined sites
-      - Other specified parts of female genital organs
-      - Other specified parts of male genital organs
-      - Other specified parts of pancreas
-      - Ovary
-      - Overlapping lesion of accessory sinuses
-      - Overlapping lesion of bladder
-      - Overlapping lesion of bones, joints and articular cartilage
-      - Overlapping lesion of bones, joints and articular cartilage of limbs
-      - Overlapping lesion of brain
-      - Overlapping lesion of brain and central nervous system
-      - Overlapping lesion of breast
-      - Overlapping lesion of cervix uteri
-      - Overlapping lesion of colon
-      - Overlapping lesion of connective, subcutaneous and other soft tissues
-      - Overlapping lesion of corpus uteri
-      - Overlapping lesion of digestive system
-      - Overlapping lesion of endocrine glands and related structures
-      - Overlapping lesion of esophagus
-      - Overlapping lesion of eye and adnexa
-      - Overlapping lesion of female genital organs
-      - Overlapping lesion of floor of mouth
-      - Overlapping lesion of heart, mediastinum and pleura
-      - Overlapping lesion of hypopharynx
-      - Overlapping lesion of ill-defined sites
-      - Overlapping lesion of larynx
-      - Overlapping lesion of lip
-      - Overlapping lesion of lip, oral cavity and pharynx
-      - Overlapping lesion of lung
-      - Overlapping lesion of major salivary glands
-      - Overlapping lesion of male genital organs
-      - Overlapping lesion of nasopharynx
-      - Overlapping lesion of other and unspecified parts of mouth
-      - Overlapping lesion of palate
-      - Overlapping lesion of pancreas
-      - Overlapping lesion of penis
-      - Overlapping lesion of peripheral nerves and autonomic nervous system
-      - Overlapping lesion of rectum, anus and anal canal
-      - Overlapping lesion of respiratory system and intrathoracic organs
-      - Overlapping lesion of retroperitoneum and peritoneum
-      - Overlapping lesion of skin
-      - Overlapping lesion of small intestine
-      - Overlapping lesion of stomach
-      - Overlapping lesion of tongue
-      - Overlapping lesion of tonsil
-      - Overlapping lesion of urinary organs
-      - Overlapping lesion of vulva
-      - Overlapping lesions of oropharynx
-      - Palate, NOS
-      - Pancreas, NOS
-      - Pancreatic duct
-      - Parametrium
-      - Parathyroid gland
-      - Paraurethral gland
-      - Parietal lobe
-      - Parotid gland
-      - Pelvic bones, sacrum, coccyx and associated joints
-      - Pelvic lymph nodes
-      - Pelvis, NOS
-      - Penis, NOS
-      - Peripheral nerves and autonomic nervous system of abdomen
-      - Peripheral nerves and autonomic nervous system of head, face, and neck
-      - Peripheral nerves and autonomic nervous system of lower limb and hip
-      - Peripheral nerves and autonomic nervous system of pelvis
-      - Peripheral nerves and autonomic nervous system of thorax
-      - Peripheral nerves and autonomic nervous system of trunk, NOS
-      - Peripheral nerves and autonomic nervous system of upper limb and shoulder
-      - Peritoneum, NOS
-      - Pharynx, NOS
-      - Pineal gland
-      - Pituitary gland
-      - Placenta
-      - Pleura, NOS
-      - Postcricoid region
-      - Posterior mediastinum
-      - Posterior wall of bladder
-      - Posterior wall of hypopharynx
-      - Posterior wall of nasopharynx
-      - Posterior wall of oropharynx
-      - Prepuce
-      - Prostate gland
-      - Pylorus
-      - Pyriform sinus
-      - Rectosigmoid junction
-      - Rectum, NOS
-      - Renal pelvis
-      - Reticuloendothelial system, NOS
-      - Retina
-      - Retromolar area
-      - Retroperitoneum
-      - Rib, sternum, clavicle and associated joints
-      - Round ligament
-      - Scrotum, NOS
-      - Short bones of lower limb and associated joints
-      - Short bones of upper limb and associated joints
-      - Sigmoid colon
-      - Skin of lip, NOS
-      - Skin of lower limb and hip
-      - Skin of other and unspecified parts of face
-      - Skin of scalp and neck
-      - Skin of trunk
-      - Skin of upper limb and shoulder
-      - Skin, NOS
-      - Small intestine, NOS
-      - Soft palate, NOS
-      - Specified parts of peritoneum
-      - Spermatic cord
-      - Sphenoid sinus
-      - Spinal cord
-      - Spinal meninges
-      - Spleen
-      - Splenic flexure of colon
-      - Stomach, NOS
-      - Subglottis
-      - Sublingual gland
-      - Submandibular gland
-      - Superior wall of nasopharynx
-      - Supraglottis
-      - Tail of pancreas
-      - Temporal lobe
-      - Testis, NOS
-      - Thoracic esophagus
-      - Thorax, NOS
-      - Thymus
-      - Thyroid gland
-      - Tongue, NOS
-      - Tonsil, NOS
-      - Tonsillar fossa
-      - Tonsillar pillar
-      - Trachea
-      - Transverse colon
-      - Trigone of bladder
-      - Undescended testis
-      - Unknown primary site
-      - Upper gum
-      - Upper limb, NOS
-      - Upper lobe, lung
-      - Upper respiratory tract, NOS
-      - Upper third of esophagus
-      - Upper-inner quadrant of breast
-      - Upper-outer quadrant of breast
-      - Urachus
-      - Ureter
-      - Ureteric orifice
-      - Urethra
-      - Urinary system, NOS
-      - Uterine adnexa
-      - Uterus, NOS
-      - Uvula
-      - Vagina, NOS
-      - Vallecula
-      - Ventral surface of tongue, NOS
-      - Ventricle, NOS
-      - Vertebral column
-      - Vestibule of mouth
-      - Vulva, NOS
-      - Waldeyer ring
-      - Biliary tract, NOS
-      - Cheek mucosa
-      - Clitoris
-      - Overlapping lesion of biliary tract
-      - Unknown
-      - Not Reported
-    Req: false
-    Private: false
+    Private: false    
   size_of_data_being_uploaded:
     Desc: The numerical quantity documenting the physical magnitude of a set of related electronic records.
     Src: caDSR
@@ -4029,7 +3899,137 @@ PropDefinitions:
     NCIt: C165056
     Type: string
     Req: false
+    Private: false       
+  # study_admin
+  study_admin_id:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
     Private: false
+  organism_species:
+    Desc: The organism from which the sample is derived or originated.
+    Src: caDSR
+    caDSR: 6118266
+    NCIt: C14250
+    Enum:
+      - Human
+      - Mouse
+    Req: true
+    Private: false
+  adult_or_childhood_study: # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
+    Desc: Specifies whether a study is using adults and/or children as subjects. 
+    Src: NCIt
+    NCIt: C175884
+    Enum:
+      - "Adult"
+      - "Pediatric"
+    Req: true
+    Private: false
+  data_types: # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: false
+    Private: false
+  file_types_and_format: # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
+    Desc: Specific kind of files in the dataset that will be uploaded to the study.
+    Src: NCIt
+    NCIt: C171252
+    Type: string
+    Req: false
+    Private: false
+  acl: #populated from a dbGAP query?
+    Desc: Specifies whether the data in a repository is open access or controlled access. 
+    Src: NCIt
+    NCIt: C175887
+    Type: string
+    Req: true
+    Private: false
+  bioproject_accession:
+    Desc: An alphanumeric identifier (PRJ accession number) assigned to a collection of experimental data associated with a project by the National Center for Biotechnology Information (NCBI) BioProject repository.
+    Src: NCIt
+    NCIt: C175890
+    Type: string
+    Req: false
+    Private: false    
+  # study_funding
+  funding_agency: # 0 or many per study
+    Desc: An organization/Sponsor that underwrites financial support for projects of a particular type. Typically, they process applications and award funds to the chosen qualified applicants.
+    Src: NCIt
+    NCIt: C39409
+    Type: string
+    Req: true
+    Private: false
+  grant_id: #grant or contract ID, NIH or other
+    Desc: Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
+    Src: caDSR
+    caDSR: 3434057
+    Type: string
+    Req: true
+    Private: false
+  clinical_trial_arm:
+    Desc: ARM of the clinical trial.
+    Src: None
+    Type: string
+    Req: false
+    Private: false
+  clinical_trial_identifier:
+    Desc: Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
+    Src: caDSR
+    caDSR: 2649415
+    Type: string
+    Req: false
+    Private: false
+  clinical_trial_system:
+    Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
+    Src: None
+    Type: string
+    Req: false
+    Private: false    
+  funding_source_program_name:
+    Desc: The name of the program that is providing funding.
+    Src: NCIt
+    NCIt: C166274
+    Type: string
+    Req: false
+    Private: false    
+  # study_personnel
+  study_personnel_id:  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  personnel_name:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  personnel_type: #enum: PI, Co-PI, Data Submitter, etc
+    Desc: TBD.
+    Src: None
+    Enum:
+      - "PI"
+      - "Co-PI"
+      - "Data Submitter" # these? 01/26/2022 adeforge
+      - "Data Manager"  # 02/22/2022 adeforge, is this different from a 'Data Submitter'?
+    Req: true
+    Private: false
+  email_address:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+  institution:
+    Desc: TBD.
+    Src: None
+    Type: string
+    Req: true  # 28feb22 pdunn
+    Private: false
+  #therapeutic_procedure
   therapeutic_agents:
     Desc: Text identification of the individual agent(s) used as part of a prior treatment regimen.
     Src: caDSR
@@ -8632,10 +8632,10 @@ PropDefinitions:
       - Systemic Radiation
     Req: false
     Private: false
-  sequence_alignment_software:
-    Desc: The name of the software program used to align nucleotide sequencing data.
-    Src: NCIt
-    NCIt: C175896
+  days_to_treatment:
+    Desc: Number of days between the date used for index and the date the treatment started.
+    Src: caDSR
+    caDSR: 6154726
     Type: string
     Req: false
     Private: false

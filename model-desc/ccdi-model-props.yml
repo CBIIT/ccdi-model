@@ -24,6 +24,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   # clinical_measure
   name:
     Desc: TBD.
@@ -31,6 +32,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   # diagnosis: 
   diagnosis_id:
     Desc: TBD.
@@ -38,6 +40,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   primary_diagnosis:
     Desc: Text term used to describe the patient's histologic diagnosis, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Src: caDSR
@@ -1581,6 +1584,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   design_description:
     Desc: Free-form description of the methods used to create the sequencing library; a brief 'materials and methods' section.
     Src: None
@@ -1652,6 +1656,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   file_mapping_level:
     Desc: Describes if the file belongs to a Participant, a Sample, or a Study.
     Src: None
@@ -1688,6 +1693,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   race: 
     Desc: The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
     Src: caDSR
@@ -1761,6 +1767,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   sample_type: 
     Desc: Text term to describe the source of a biospecimen used for a laboratory test.
     Src: caDSR
@@ -3809,6 +3816,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   study_short_title:
     Desc: The succinct version of the study title if it exists.
     Src: None
@@ -3891,6 +3899,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   organism_species:
     Desc: The organism from which the sample is derived or originated.
     Src: caDSR
@@ -3952,6 +3961,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   clinical_trial_arm:
     Desc: ARM of the clinical trial.
     Src: None
@@ -3985,6 +3995,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   personnel_name:
     Desc: TBD.
     Src: None
@@ -8628,4 +8639,5 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+    Key: true
 

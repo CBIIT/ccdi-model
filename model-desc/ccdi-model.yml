@@ -154,7 +154,8 @@ Nodes:
       - days_to_treatment
       - therapeutic_agents
       - treatement_outcome
-      - treatment_type      
+      - treatment_type
+      - treatment_id
 Relationships:
   of_clinical_measure: # 01.03.22 pdunn
     Props: null

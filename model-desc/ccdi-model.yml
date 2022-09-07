@@ -240,4 +240,4 @@ Relationships:
     Mul: many_to_many
     Ends:
       - Src: therapeutic_procedure
-        Dst: study_subject
+        Dst: participant

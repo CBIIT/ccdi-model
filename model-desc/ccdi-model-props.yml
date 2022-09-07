@@ -8623,4 +8623,9 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  treatment_id:
+    Desc: TBD.
+    Type: string
+    Req: false
+    Private: false
 

@@ -1017,8 +1017,11 @@ Terms:
     Value: Bladder, NOS
   Blood:
     Origin: caDSR
-    Definition: Blood circulating throughout the body.
-    Code: 3111300
+    Definition: A liquid tissue; its major function is to transport oxygen throughout
+      the body. It also supplies the tissues with nutrients, removes waste products,
+      and contains various components of the immune system defending the body against
+      infection. Several hormones also travel in the blood.
+    Code: 2567366
     Version: 1
     Value: Blood
   Blood Derived:

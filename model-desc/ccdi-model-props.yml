@@ -1600,9 +1600,9 @@ PropDefinitions:
     Desc: The name by which a set of related records (either written or electronic) are known.
     Term:
       - Origin: caDSR
-        Code: 
-          - 6115804
-          - 7787681
+        Code: 6115804
+      - Origin: caDSR
+        Code: 7787681
     Type: string
     Req: true
     Private: false
@@ -1610,9 +1610,9 @@ PropDefinitions:
     Desc: Text that provides a description of a particular kind of set of related records.
     Term:
       - Origin: caDSR
-        Code: 
-          - 6983162
-          - 7797710
+        Code: 6983162
+      - Origin: caDSR
+        Code: 7797710
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -1746,9 +1746,9 @@ PropDefinitions:
     Desc: The survival state of the person registered on the protocol.
     Term:
       - Origin: caDSR
-        Code: 
-          - 5
-          - 2847330
+        Code: 5
+      - Origin: caDSR
+        Code: 2847330
     Enum:
       - "Alive"
       - "Dead"
@@ -3522,9 +3522,9 @@ PropDefinitions:
     Desc: One or more characters used to identify the parent substance, or portion of material obtained for use in testing, examination, or study.
     Term:
       - Origin: caDSR
-        Code: 
-          - 5581201
-          - 5220155
+        Code: 5581201
+      - Origin: caDSR
+        Code: 5220155
     Type: string
     Req: false
     Private: false  
@@ -3540,9 +3540,9 @@ PropDefinitions:
     Desc: Text description of a sample or specimen.
     Term:
       - Origin: caDSR
-        Code: 
-          - 2003907
-          - 5432687
+        Code: 2003907
+      - Origin: caDSR
+        Code: 5432687
     Type: string
     Req: false
     Private: false

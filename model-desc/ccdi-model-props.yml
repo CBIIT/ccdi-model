@@ -38,7 +38,7 @@ PropDefinitions:
   primary_diagnosis:
     Desc: Text term used to describe the patient's histologic diagnosis, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6161032
     Enum:
       - "Acantholytic Cuniculatum"
@@ -546,9 +546,9 @@ PropDefinitions:
   primary_site:
     Desc: The text term used to describe the general location of the malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6161019
-      Origin: NCIt
+      - Origin: NCIt
         Code: C158874
     Enum:
       - "Accessory sinuses"
@@ -627,9 +627,9 @@ PropDefinitions:
   age_at_diagnosis:
     Desc: Age at the time of diagnosis expressed in number of days since birth.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 3225640
-      Origin: NCIt
+      - Origin: NCIt
         Code: C156420
     Type: string
     Req: true
@@ -637,7 +637,7 @@ PropDefinitions:
   days_to_recurrence:
     Desc: Number of days between the date used for index and the date the patient's disease recurred.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6154731
     Type: string
     Req: false
@@ -645,7 +645,7 @@ PropDefinitions:
   last_known_disease_status:
     Desc: TBD.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 5424231
     Enum:
       - "Biochemical evidence of disease without structural correlate"
@@ -663,7 +663,7 @@ PropDefinitions:
   days_to_last_known_disease_status:
     Desc: Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 3008273
     Type: string
     Req: false
@@ -671,7 +671,7 @@ PropDefinitions:
   tissue_or_organ_of_origin:
     Desc: The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6161035
     Enum:
       - Abdomen
@@ -1227,7 +1227,7 @@ PropDefinitions:
   days_to_last_followup:
     Desc: Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 3008273
     Type: string
     Req: false
@@ -1235,7 +1235,7 @@ PropDefinitions:
   progression_or_recurrence:
     Desc: Yes/No/Unknown indicator to identify whether a patient has had a new tumor event after initial treatment.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 3121376
     Enum:
       - 'No'
@@ -1246,7 +1246,7 @@ PropDefinitions:
   site_of_resection_or_biopsy:
     Desc: The text term used to describe the anatomic site of the resection or biopsy of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6161034
     Enum:
       - Abdomen, NOS
@@ -1599,7 +1599,7 @@ PropDefinitions:
   file_name:
     Desc: The name by which a set of related records (either written or electronic) are known.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 
           - 6115804
           - 7787681
@@ -1609,7 +1609,7 @@ PropDefinitions:
   file_type:
     Desc: Text that provides a description of a particular kind of set of related records.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 
           - 6983162
           - 7797710
@@ -1624,9 +1624,9 @@ PropDefinitions:
   file_size:
     Desc: The numerical quantity documenting the physical magnitude of a set of related electronic records.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6115806
-      Origin: NCIt
+      - Origin: NCIt
         Code: C171276
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
@@ -1639,7 +1639,7 @@ PropDefinitions:
   checksum_value:
     Desc: One or more characters using a irreversible unique number generated from a string of text to identify a set of related electronic records.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6115805
     Type: string
     Req: false
@@ -1690,7 +1690,7 @@ PropDefinitions:
   participant_id:
     Desc: A unique sequence of alphanumeric characters used to identify the participant, in the investigation or study, of the specimen at it's point of origin.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6867052
     Type: string
     Req: true
@@ -1699,7 +1699,7 @@ PropDefinitions:
   race: 
     Desc: The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 2192199
     Enum: 
       - "American Indian or Alaska Native"
@@ -1715,7 +1715,7 @@ PropDefinitions:
   gender:
     Desc: Text designations that identify gender. Gender is described as the assemblage of properties that distinguish people on the basis of their societal roles. [Explanatory Comment 1 Identification of gender is based upon self-report and may come from a form, questionnaire, interview, etc.]
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 2200604
     Enum: 
       - "Female"
@@ -1732,7 +1732,7 @@ PropDefinitions:
   ethnicity:
     Desc: The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 2192217
     Enum:
       - "Hispanic or Latino"
@@ -1745,7 +1745,7 @@ PropDefinitions:
   vital_status:
     Desc: The survival state of the person registered on the protocol.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 
           - 5
           - 2847330
@@ -1775,7 +1775,7 @@ PropDefinitions:
   sample_type: 
     Desc: Text term to describe the source of a biospecimen used for a laboratory test.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 3111302
     Enum: 
       - "Ascites"
@@ -1819,9 +1819,9 @@ PropDefinitions:
   disease_type:
     Desc: The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6161017
-      Origin: NCIt
+      - Origin: NCIt
         Code: C2991
     Enum:
       - "Acinar Cell Neoplasms"
@@ -1888,7 +1888,7 @@ PropDefinitions:
   sample_anatomic_site:
     Desc: The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6161035
     Enum:
       - "Abdomen, NOS"
@@ -2234,7 +2234,7 @@ PropDefinitions:
   tumor_grade:
     Desc: Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 2785839
     Enum:
       - "G1"
@@ -2252,7 +2252,7 @@ PropDefinitions:
   tumor_stage_clinical_t: 
     Desc: Extent of the primary cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 3440328
     Enum:
       - "T0"
@@ -2295,7 +2295,7 @@ PropDefinitions:
   tumor_stage_clinical_n:
     Desc: Extent of the regional lymph node involvement for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 3440330
     Enum:
       - "N0"
@@ -2327,7 +2327,7 @@ PropDefinitions:
   tumor_stage_clinical_m:
     Desc: Extent of the distant metastasis for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 3440331
     Enum:
       - "cM0 (i+)"
@@ -2342,7 +2342,7 @@ PropDefinitions:
   tumor_morphology:
     Desc: Code that represents the histology of the disease using the third edition of the International Classification of Diseases for Oncology, published in 2000, used principally in tumor and cancer registries for coding the site (topography) and the histology (morphology) of neoplasms.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 3226275
     Enum:
       - 8000/0
@@ -3511,9 +3511,9 @@ PropDefinitions:
   biosample_accession:
     Desc: An alphanumeric identifier (SAMN accession number) assigned to a set of descriptive information for biological materials used to generate data that has been or will be submitted to archives provided by the National Center for Biotechnology Information (NCBI).  The alphanumeric identifier assigned to the specimen to uniquely identify it.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 2230047
-      Origin: NCIt
+      - Origin: NCIt
         Code: C175889
     Type: string
     Req: false
@@ -3521,7 +3521,7 @@ PropDefinitions:
   derived_from_specimen:
     Desc: One or more characters used to identify the parent substance, or portion of material obtained for use in testing, examination, or study.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 
           - 5581201
           - 5220155
@@ -3531,7 +3531,7 @@ PropDefinitions:
   sample_age_at_collection:
     Desc: Time interval from the date of biospecimen collection to the date of initial pathologic diagnosis, represented as a calculated number of days.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 3008340
     Type: string
     Req: false
@@ -3539,7 +3539,7 @@ PropDefinitions:
   sample_description:
     Desc: Text description of a sample or specimen.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 
           - 2003907
           - 5432687
@@ -3549,7 +3549,7 @@ PropDefinitions:
   sample_tumor_status:
     Desc: Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 5432687
     Enum:
       - Abnormal
@@ -3566,7 +3566,7 @@ PropDefinitions:
   library_id: # per dbGaP, library_id can be == sample_id if there is only 1 seq file per sample
     Desc: Short unique identifier for the sequencing library.
     Term:
-      Origin: NCIt
+      - Origin: NCIt
         Code: C175893
     Type: string
     Req: true
@@ -3574,7 +3574,7 @@ PropDefinitions:
   library_strategy: 
     Desc: The overall strategy for the collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6273393
     Enum:
       - "AMPLICON"
@@ -3618,9 +3618,9 @@ PropDefinitions:
   platform:
     Desc: The words used to describe the instrument used to carry out a high-throughput sequencing experiment.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6347771
-      Origin: NCIt
+      - Origin: NCIt
         Code: C172274
     Enum:
       - "AB Capillary"
@@ -3638,7 +3638,7 @@ PropDefinitions:
   instrument_model:
     Desc: The words used to describe the specific model of the instrument used to carry out a high-throughput sequencing experiment.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6352164
     Enum:
       - "454 GS"
@@ -3707,9 +3707,9 @@ PropDefinitions:
   library_source: # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
     Desc: The source of a sample collection of double stranded DNA fragments analyzed by high-throughput sequencing.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6285979
-      Origin: NCIt
+      - Origin: NCIt
         Code: C175895
     Enum: #enum values in dbGaP are UC, in yaml, they are LC
       - "Bulk cells"
@@ -3748,7 +3748,7 @@ PropDefinitions:
     Desc: The number of nucleotides successfully ordered from each side of a
       nucleic acid fragment obtained after the completion of a sequencing process.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6380354
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
@@ -3780,7 +3780,7 @@ PropDefinitions:
   library_selection:
     Desc: The type of systematic actions performed to select or enrich DNA fragments used in analysis by high-throughput sequencing.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6347743
     Enum:
       - RANDOM
@@ -3884,9 +3884,9 @@ PropDefinitions:
   size_of_data_being_uploaded:
     Desc: The numerical quantity documenting the physical magnitude of a set of related electronic records.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6115806
-      Origin: NCIt
+      - Origin: NCIt
         Code: C171192
     Type: string
     Req: false
@@ -3894,9 +3894,9 @@ PropDefinitions:
   study_data_types:
     Desc: The field of study(s) associated with the data collection.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6944407
-      Origin: NCIt
+      - Origin: NCIt
         Code: C175886
     Enum:
       - Genomic
@@ -3925,9 +3925,9 @@ PropDefinitions:
   organism_species:
     Desc: The organism from which the sample is derived or originated.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6118266
-      Origin: NCIt
+      - Origin: NCIt
         Code: C14250
     Enum:
       - Human
@@ -3980,7 +3980,7 @@ PropDefinitions:
   grant_id: #grant or contract ID, NIH or other
     Desc: Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 3434057
     Type: string
     Req: true
@@ -3994,7 +3994,7 @@ PropDefinitions:
   clinical_trial_identifier:
     Desc: Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 2649415
     Type: string
     Req: false
@@ -4007,7 +4007,7 @@ PropDefinitions:
   funding_source_program_name:
     Desc: The name of the program that is providing funding.
     Term:
-      Origin: NCIt
+      - Origin: NCIt
         Code: C166274
     Type: string
     Req: false
@@ -4047,7 +4047,7 @@ PropDefinitions:
   therapeutic_agents:
     Desc: Text identification of the individual agent(s) used as part of a prior treatment regimen.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 2975232
     Enum:
       - 10-Deacetyltaxol
@@ -8530,7 +8530,7 @@ PropDefinitions:
   treatment_outcome:
     Desc: Text term that describes the patient's final outcome after the treatment was administered.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 5102383
     Enum:
       - Complete Response
@@ -8560,7 +8560,7 @@ PropDefinitions:
   treatment_type:
     Desc: Text term that describes the kind of treatment administered.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 5102381
     Enum:
       - Ablation, Cryo
@@ -8652,7 +8652,7 @@ PropDefinitions:
   days_to_treatment:
     Desc: Number of days between the date used for index and the date the treatment started.
     Term:
-      Origin: caDSR
+      - Origin: caDSR
         Code: 6154726
     Type: string
     Req: false
@@ -8663,4 +8663,3 @@ PropDefinitions:
     Req: false
     Private: false
     Key: true
-

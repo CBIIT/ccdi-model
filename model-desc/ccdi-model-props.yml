@@ -40,6 +40,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6161032
+        Value: ICD-O Primary Disease Diagnosis Type
     Enum:
       - "Acantholytic Cuniculatum"
       - "Acantholytic squamous cell skin carcinoma"
@@ -548,8 +549,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6161019
+        Value: ICD-O Primary Anatomic Site Category
       - Origin: NCIt
         Code: C158874
+        Value: Primary Site of Disease 
     Enum:
       - "Accessory sinuses"
       - "Adrenal gland"
@@ -629,8 +632,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 3225640
+        Value: Patient Diagnosis Age Day Value
       - Origin: NCIt
         Code: C156420
+        Value: Age at Diagnosis 
     Type: string
     Req: true
     Private: false
@@ -639,14 +644,16 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6154731
+        Value: Index Date To Recurrence Day Count
     Type: string
     Req: false
     Private: false     
   last_known_disease_status:
-    Desc: TBD.
+    Desc: Text term that describes the last known state or condition of an individual's neoplasm.
     Term:
       - Origin: caDSR
         Code: 5424231
+        Value: Person Last Known Neoplasm Status
     Enum:
       - "Biochemical evidence of disease without structural correlate"
       - "Distant met recurrence/progression"
@@ -665,6 +672,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 3008273
+        Value: Last Communication Contact Less Initial Pathologic Diagnosis Date Calculated Day Value
     Type: string
     Req: false
     Private: false  
@@ -673,6 +681,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6161035
+        Value: ICD-O Origin of Disease Anatomic Site
     Enum:
       - Abdomen
       - Abdominal Esophagus
@@ -1229,6 +1238,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 3008273
+        Value: Last Communication Contact Less Initial Pathologic Diagnosis Date Calculated Day Value
     Type: string
     Req: false
     Private: false    
@@ -1237,6 +1247,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 3121376
+        Value: New Neoplasm Event Post Initial Therapy Indicator
     Enum:
       - 'No'
       - Unknown
@@ -1248,6 +1259,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6161034
+        Value: ICD-O Resection or Biopsy Anatomic Site Code
     Enum:
       - Abdomen, NOS
       - Abdominal esophagus
@@ -1601,8 +1613,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6115804
+        Value: File Occurrence Name
       - Origin: caDSR
         Code: 7787681
+        Value: Raw Data Electronic File Name
     Type: string
     Req: true
     Private: false
@@ -1611,8 +1625,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6983162
+        Value: File Type Descriptive Text
       - Origin: caDSR
         Code: 7797710
+        Value: Raw Data File Format
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -1626,8 +1642,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6115806
+        Value: Data File Size Value
       - Origin: NCIt
         Code: C171276
+        Value: MD5 Checksum 
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -1641,6 +1659,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6115805
+        Value: File Hash Value Identifier
     Type: string
     Req: false
     Private: false
@@ -1651,8 +1670,10 @@ PropDefinitions:
     Private: false    
   file_url_in_cds:
     Desc: Location of the file on the CDS Cloud, using AWS S3 protocol.
-    Src: NCIt
-    NCIt: C47922
+    Term:
+      - Origin: NCIt
+        Code: C47922
+        Value:  Pathname
     Type: string
     Req: true
     Private: false
@@ -1692,6 +1713,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6867052
+        Value: Biospecimen Source Subject Identifier
     Type: string
     Req: true
     Private: false
@@ -1701,6 +1723,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 2192199
+        Value: Race Category Text
     Enum: 
       - "American Indian or Alaska Native"
       - "Asian"
@@ -1717,6 +1740,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 2200604
+        Value: Person Gender Text Type
     Enum: 
       - "Female"
       - "Female Gender"
@@ -1734,6 +1758,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 2192217
+        Value: Ethnic Group Category Text
     Enum:
       - "Hispanic or Latino"
       - "Not allowed to collect"
@@ -1747,8 +1772,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 5
+        Value: Patient Vital Status
       - Origin: caDSR
         Code: 2847330
+        Value: Participant Vital Status
     Enum:
       - "Alive"
       - "Dead"
@@ -1777,6 +1804,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 3111302
+        Value: Specimen Type Collection Biospecimen Type
     Enum: 
       - "Ascites"
       - "Blood"
@@ -1821,8 +1849,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6161017
+        Value: ICD-O Disease Diagnosis Category
       - Origin: NCIt
         Code: C2991
+        Value: Disease or Disorder 
     Enum:
       - "Acinar Cell Neoplasms"
       - "Adenomas and Adenocarcinomas"
@@ -1890,6 +1920,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6161035
+        Value: ICD-O Origin of Disease Anatomic Site
     Enum:
       - "Abdomen, NOS"
       - "Abdominal esophagus"
@@ -2236,6 +2267,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 2785839
+        Value: Specimen Histologic Grade Grading System Name Histologic Grade
     Enum:
       - "G1"
       - "G2"
@@ -2254,6 +2286,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 3440328
+        Value: Neoplasm American Joint Committee on Cancer Clinical Primary Tumor T Stage
     Enum:
       - "T0"
       - "T1"
@@ -2297,6 +2330,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 3440330
+        Value: Neoplasm American Joint Committee on Cancer Clinical Regional Lymph Node N Stage
     Enum:
       - "N0"
       - "N0 (i-)"
@@ -2329,6 +2363,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 3440331
+        Value: Neoplasm American Joint Committee on Cancer Clinical Distant Metastasis M Stage
     Enum:
       - "cM0 (i+)"
       - "M0"
@@ -2344,6 +2379,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 3226275
+        Value: International Classification of Diseases for Oncology, Third Edition ICD-O-3 Histology Code
     Enum:
       - 8000/0
       - 8000/1
@@ -3513,8 +3549,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 2230047
+        Value: Specimen Accession Number
       - Origin: NCIt
         Code: C175889
+        Value: BioSample Accession Number 
     Type: string
     Req: false
     Private: false    
@@ -3523,8 +3561,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 5581201
+        Value: Parent Specimen Label Identifier
       - Origin: caDSR
         Code: 5220155
+        Value: Conceptual Parent Biospecimen Investigational Key Barcode
     Type: string
     Req: false
     Private: false  
@@ -3533,6 +3573,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 3008340
+        Value: Biospecimen Collection Date Less Initial Pathologic Diagnosis Date Calculated Day Value
     Type: string
     Req: false
     Private: false
@@ -3541,8 +3582,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 2003907
+        Value: Sample Description Text
       - Origin: caDSR
         Code: 5432687
+        Value: Tissue Sample Description
     Type: string
     Req: false
     Private: false
@@ -3551,6 +3594,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 5432687
+        Value: Tissue Sample Description Category
     Enum:
       - Abnormal
       - Non-neoplastic
@@ -3568,6 +3612,7 @@ PropDefinitions:
     Term:
       - Origin: NCIt
         Code: C175893
+        Value: Sequencing Library Unique Identifier 
     Type: string
     Req: true
     Private: false
@@ -3576,6 +3621,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6273393
+        Value: Sequencing Library Technique Type
     Enum:
       - "AMPLICON"
       - "ATAC-seq"
@@ -3620,8 +3666,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6347771
+        Value: Sequencing Library Platform Name
       - Origin: NCIt
         Code: C172274
+        Value: Sequencing Platform Name 
     Enum:
       - "AB Capillary"
       - "ABI Solid"
@@ -3640,6 +3688,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6352164
+        Value: Sequencing Library Platform Model Name
     Enum:
       - "454 GS"
       - "454 GS 20"
@@ -3696,8 +3745,10 @@ PropDefinitions:
     Private: false    
   library_layout: 
     Desc: Paired-end or Single
-    Src: NCIt
-    NCIt: C175894
+    Term:
+      - Origin: NCIt
+        Code: C175894
+        Value: Sequencing Library Read Layout Indicator 
     Enum:
       - "Paired end"
       - "Single end" #28feb22 pdunn
@@ -3709,8 +3760,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6285979
+        Value: Sequencing Library Specimen Source
       - Origin: NCIt
         Code: C175895
+        Value: Sequencing Library Source Indicator
     Enum: #enum values in dbGaP are UC, in yaml, they are LC
       - "Bulk cells"
       - "Bulk nuclei"
@@ -3739,8 +3792,10 @@ PropDefinitions:
     Private: false
   number_of_reads:
     Desc: Count of the number of reads in the data. Please count each read only once if using secondary alignments.
-    Src: NCIt
-    NCIt: C172300
+    Term:
+      - Origin: NCIt
+        Code: C172300
+        Value: Read Pair Number 
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
@@ -3750,6 +3805,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6380354
+        Value: Nucleotide Sequence Read Length Number
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
@@ -3760,8 +3816,10 @@ PropDefinitions:
     Private: false
   reference_genome_assembly:
     Desc: A published genetic sequence that is used as a reference sequence against which other sequences are compared. This is only if you are submitting a bam file aligned against a NCBI assembly.
-    Src: NCIt
-    NCIt: C164388
+    Term:
+      - Origin: NCIt
+        Code: C164388
+        Value: Genetic Reference Sequence 
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
@@ -3771,9 +3829,11 @@ PropDefinitions:
     Req: false
     Private: false    
   sequence_alignment_software:
-    Desc: The name of the software program used to align nucleotide sequencing data.
-    Src: NCIt
-    NCIt: C175896
+    Desc: The name of the software program used to align nucleotide sequencing data. 
+    Term:
+      - Origin: NCIt
+        Code: C175896
+        Value: Sequence Alignment Software Name 
     Type: string
     Req: false
     Private: false    
@@ -3782,6 +3842,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6347743
+        Value: Sequencing Library Creation Method Type
     Enum:
       - RANDOM
       - PCR
@@ -3834,8 +3895,10 @@ PropDefinitions:
   # study
   phs_accession:
     Desc: A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP). 
-    Src: NCIt
-    NCIt: C173940
+    Term:
+      - Origin: NCIt
+        Code: C173940
+        Value: dbGaP Accession Number 
     Type: string
     Req: true
     Private: false
@@ -3862,22 +3925,28 @@ PropDefinitions:
     Private: false
   experimental_strategy_and_data_subtype:
     Desc: The experimental strategy used for the study or the data subtypes that exist in the study.
-    Src: NCIt
-    NCIt: C43622
+    Term:
+      - Origin: NCIt
+        Code: C43622
+        Value: Experimental Method 
     Type: string
     Req: false
     Private: false 
   number_of_participants:
     Desc: The number of participants in the study for a disease, disorder, condition, or problem.
-    Src: NCIt
-    NCIt: C175885
+    Term:
+      - Origin: NCIt
+        Code: C175885
+        Value: Number of Cases
     Type: string
     Req: false
     Private: false
   number_of_samples:
     Desc: The number of samples in the study, often used as a subset of a larger population, selected for investigation to draw conclusions or make estimates about the larger population. 
-    Src: NCIt
-    NCIt: C53190
+    Term:
+      - Origin: NCIt
+        Code: C53190
+        Value: Sample Size
     Type: string
     Req: false
     Private: false    
@@ -3886,8 +3955,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6115806
+        Value: Data File Size Value
       - Origin: NCIt
         Code: C171192
+        Value: Electronic File Size
     Type: string
     Req: false
     Private: false
@@ -3896,8 +3967,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6944407
+        Value: Data Collection Discipline Occupation or Discipline Type
       - Origin: NCIt
         Code: C175886
+        Value: Scientific Data Type
     Enum:
       - Genomic
       - Proteomic
@@ -3910,8 +3983,10 @@ PropDefinitions:
     Private: false
   study_name:
     Desc: The name applied to an investigational project, also known as Study Title.
-    Src: NCIt
-    NCIt: C165056
+    Term:
+      - Origin: NCIt
+        Code: C165056
+        Value: Project Name
     Type: string
     Req: false
     Private: false       
@@ -3927,8 +4002,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6118266
+        Value: Sample Organism Type
       - Origin: NCIt
         Code: C14250
+        Value: Organism 
     Enum:
       - Human
       - Mouse
@@ -3936,8 +4013,10 @@ PropDefinitions:
     Private: false
   adult_or_childhood_study: # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
     Desc: Specifies whether a study is using adults and/or children as subjects. 
-    Src: NCIt
-    NCIt: C175884
+    Term:
+      - Origin: NCIt
+        Code: C175884
+        Value: Adult and/or Child Study Indicator
     Enum:
       - "Adult"
       - "Pediatric"
@@ -3950,30 +4029,38 @@ PropDefinitions:
     Private: false
   file_types_and_format: # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
     Desc: Specific kind of files in the dataset that will be uploaded to the study.
-    Src: NCIt
-    NCIt: C171252
+    Term:
+      - Origin: NCIt
+        Code: C171252
+        Value:      
     Type: string
     Req: false
     Private: false
   acl: #populated from a dbGAP query?
     Desc: Specifies whether the data in a repository is open access or controlled access. 
-    Src: NCIt
-    NCIt: C175887
+    Term:
+      - Origin: NCIt
+        Code: C175887
+        Value:  
     Type: string
     Req: true
     Private: false
   bioproject_accession:
     Desc: An alphanumeric identifier (PRJ accession number) assigned to a collection of experimental data associated with a project by the National Center for Biotechnology Information (NCBI) BioProject repository.
-    Src: NCIt
-    NCIt: C175890
+    Term:
+      - Origin: NCIt
+        Code: C175890
+        Value:  
     Type: string
     Req: false
     Private: false    
   # study_funding
   funding_agency: # 0 or many per study
     Desc: An organization/Sponsor that underwrites financial support for projects of a particular type. Typically, they process applications and award funds to the chosen qualified applicants.
-    Src: NCIt
-    NCIt: C39409
+    Term:
+      - Origin: NCIt
+        Code: C39409
+        Value:  
     Type: string
     Req: true
     Private: false
@@ -3982,6 +4069,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 3434057
+        Value: Grant Funding Identifier Number
     Type: string
     Req: true
     Private: false
@@ -3996,6 +4084,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 2649415
+        Value: Clinical Trial Protocol Identifier 64 Character Text
     Type: string
     Req: false
     Private: false
@@ -4009,6 +4098,7 @@ PropDefinitions:
     Term:
       - Origin: NCIt
         Code: C166274
+        Value: Program Name 
     Type: string
     Req: false
     Private: false    
@@ -4049,6 +4139,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 2975232
+        Value: Prior Therapy Regimen Text
     Enum:
       - 10-Deacetyltaxol
       - 11C Topotecan
@@ -8532,6 +8623,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 5102383
+        Value: Treatment Outcome Type
     Enum:
       - Complete Response
       - Mixed Response
@@ -8562,6 +8654,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 5102381
+        Value: Treatment Method Type
     Enum:
       - Ablation, Cryo
       - Ablation, Ethanol Injection
@@ -8654,6 +8747,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: 6154726
+        Value: Index Date To Treatment Start Day Count
     Type: string
     Req: false
     Private: false
@@ -8663,3 +8757,4 @@ PropDefinitions:
     Req: false
     Private: false
     Key: true
+

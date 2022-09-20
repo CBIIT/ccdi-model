@@ -198,7 +198,7 @@ Relationships:
     Ends:
       - Src: participant
         Dst: study
-  of_publication: 09.20.22 pd
+  of_publication: # 09.20.22 pd
     Props: null
     Mul: many_to_one
     Ends:

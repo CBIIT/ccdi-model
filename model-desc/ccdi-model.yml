@@ -46,7 +46,7 @@ Nodes:
       - checksum_algorithm
       - checksum_value
       - file_mapping_level
-  methylation_array_file: 09.20.22 pd
+  methylation_array_file: # 09.20.22 pd
     Props:
       - file_name
       - file_type

@@ -1673,7 +1673,7 @@ PropDefinitions:
     Term:
       - Origin: NCIt
         Code: 'C47922'
-        Value:  Pathname
+        Value: Pathname
     Type: string
     Req: true
     Private: false
@@ -4032,7 +4032,7 @@ PropDefinitions:
     Term:
       - Origin: NCIt
         Code: 'C171252'
-        Value:      
+        Value: Electronic File Format 
     Type: string
     Req: false
     Private: false
@@ -4041,7 +4041,7 @@ PropDefinitions:
     Term:
       - Origin: NCIt
         Code: 'C175887'
-        Value:  
+        Value: Open or Controlled Data Access Indicator 
     Type: string
     Req: true
     Private: false
@@ -4050,7 +4050,7 @@ PropDefinitions:
     Term:
       - Origin: NCIt
         Code: 'C175890'
-        Value:  
+        Value: BioProject Accession Number 
     Type: string
     Req: false
     Private: false    
@@ -4060,7 +4060,7 @@ PropDefinitions:
     Term:
       - Origin: NCIt
         Code: 'C39409'
-        Value:  
+        Value: Funding Agency 
     Type: string
     Req: true
     Private: false

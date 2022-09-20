@@ -2,25 +2,21 @@ PropDefinitions:
   #alias
   repository_id: #string
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
   repository_name: #string
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
   cds_node: # string, the node in CDS schema
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
   cds_id: #string, the CDS schema identifier
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
@@ -28,7 +24,6 @@ PropDefinitions:
   # clinical_measure
   name:
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
@@ -36,15 +31,15 @@ PropDefinitions:
   # diagnosis: 
   diagnosis_id:
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
     Key: true
   primary_diagnosis:
     Desc: Text term used to describe the patient's histologic diagnosis, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
-    Src: caDSR
-    caDSR: 6161032
+    Term:
+      Origin: caDSR
+        Code: 6161032
     Enum:
       - "Acantholytic Cuniculatum"
       - "Acantholytic squamous cell skin carcinoma"
@@ -550,9 +545,11 @@ PropDefinitions:
     Private: false
   primary_site:
     Desc: The text term used to describe the general location of the malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
-    Src: caDSR
-    caDSR: 6161019
-    NCIt: C158874
+    Term:
+      Origin: caDSR
+        Code: 6161019
+      Origin: NCIt
+        Code: C158874
     Enum:
       - "Accessory sinuses"
       - "Adrenal gland"
@@ -629,23 +626,27 @@ PropDefinitions:
     Private: false  
   age_at_diagnosis:
     Desc: Age at the time of diagnosis expressed in number of days since birth.
-    Src: caDSR
-    caDSR: 3225640
-    NICt: C156420
+    Term:
+      Origin: caDSR
+        Code: 3225640
+      Origin: NCIt
+        Code: C156420
     Type: string
     Req: true
     Private: false
   days_to_recurrence:
     Desc: Number of days between the date used for index and the date the patient's disease recurred.
-    Src: caDSR
-    caDSR: 6154731
+    Term:
+      Origin: caDSR
+        Code: 6154731
     Type: string
     Req: false
     Private: false     
   last_known_disease_status:
     Desc: TBD.
-    Src: caDSR
-    caDSR: 5424231
+    Term:
+      Origin: caDSR
+        Code: 5424231
     Enum:
       - "Biochemical evidence of disease without structural correlate"
       - "Distant met recurrence/progression"
@@ -661,15 +662,17 @@ PropDefinitions:
     Private: false     
   days_to_last_known_disease_status:
     Desc: Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
-    Src: caDSR
-    caDSR: 3008273
+    Term:
+      Origin: caDSR
+        Code: 3008273
     Type: string
     Req: false
     Private: false  
   tissue_or_organ_of_origin:
     Desc: The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
-    Src: caDSR
-    caDSR: 6161035
+    Term:
+      Origin: caDSR
+        Code: 6161035
     Enum:
       - Abdomen
       - Abdominal Esophagus
@@ -1223,15 +1226,17 @@ PropDefinitions:
     Private: false
   days_to_last_followup:
     Desc: Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
-    Src: caDSR
-    caDSR: 3008273
+    Term:
+      Origin: caDSR
+        Code: 3008273
     Type: string
     Req: false
     Private: false    
   progression_or_recurrence:
     Desc: Yes/No/Unknown indicator to identify whether a patient has had a new tumor event after initial treatment.
-    Src: caDSR
-    caDSR: 3121376
+    Term:
+      Origin: caDSR
+        Code: 3121376
     Enum:
       - 'No'
       - Unknown
@@ -1240,8 +1245,9 @@ PropDefinitions:
     Private: false    
   site_of_resection_or_biopsy:
     Desc: The text term used to describe the anatomic site of the resection or biopsy of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
-    Src: caDSR
-    caDSR: 6161034
+    Term:
+      Origin: caDSR
+        Code: 6161034
     Enum:
       - Abdomen, NOS
       - Abdominal esophagus
@@ -1580,66 +1586,66 @@ PropDefinitions:
   # experiment
   experiment_id:
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
     Key: true
   design_description:
     Desc: Free-form description of the methods used to create the sequencing library; a brief 'materials and methods' section.
-    Src: None
     Type: string
     Req: true
     Private: false
   # common file props
   file_name:
     Desc: The name by which a set of related records (either written or electronic) are known.
-    Src: caDSR
-    caDSR: 
-      - 6115804
-      - 7787681
+    Term:
+      Origin: caDSR
+        Code: 
+          - 6115804
+          - 7787681
     Type: string
     Req: true
     Private: false
   file_type:
     Desc: Text that provides a description of a particular kind of set of related records.
-    Src: caDSR
-    caDSR: 
-      - 6983162
-      - 7797710
+    Term:
+      Origin: caDSR
+        Code: 
+          - 6983162
+          - 7797710
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
   file_description:
     Desc: TBD.
-    Src: None
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
   file_size:
     Desc: The numerical quantity documenting the physical magnitude of a set of related electronic records.
-    Src: caDSR
-    caDSR: 6115806
-    NCIt: C171276
+    Term:
+      Origin: caDSR
+        Code: 6115806
+      Origin: NCIt
+        Code: C171276
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
   md5sum:
     Desc: md5 hash.
-    Src: None
     Type: string
     Req: true
     Private: false
   checksum_value:
     Desc: One or more characters using a irreversible unique number generated from a string of text to identify a set of related electronic records.
-    Src: caDSR
-    caDSR: 6115805
+    Term:
+      Origin: caDSR
+        Code: 6115805
     Type: string
     Req: false
     Private: false
   checksum_algorithm:
     Desc: Cryptographic checksum algorithm used for 'checksum_value' field. Available for use of something other than md5.
-    Src: None
     Type: string
     Req: false
     Private: false    
@@ -1652,14 +1658,12 @@ PropDefinitions:
     Private: false
   dcf_indexd_guid:
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
     Key: true
   file_mapping_level:
     Desc: Describes if the file belongs to a Participant, a Sample, or a Study.
-    Src: None
     Enum:
       - Participiant
       - Sample
@@ -1669,35 +1673,34 @@ PropDefinitions:
   # imaging file props
   image_modality:
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
   imaging_platform:
     Desc: The words used to describe the instrument used to carry out an imaging experiment.
-    Src: None
     Type: String
     Req: false
     Private: false
   software_package:
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
   # participant
   participant_id:
     Desc: A unique sequence of alphanumeric characters used to identify the participant, in the investigation or study, of the specimen at it's point of origin.
-    Src: caDSR
-    caDSR: 6867052
+    Term:
+      Origin: caDSR
+        Code: 6867052
     Type: string
     Req: true
     Private: false
     Key: true
   race: 
     Desc: The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
-    Src: caDSR
-    caDSR: 2192199
+    Term:
+      Origin: caDSR
+        Code: 2192199
     Enum: 
       - "American Indian or Alaska Native"
       - "Asian"
@@ -1711,8 +1714,9 @@ PropDefinitions:
     Private: false
   gender:
     Desc: Text designations that identify gender. Gender is described as the assemblage of properties that distinguish people on the basis of their societal roles. [Explanatory Comment 1 Identification of gender is based upon self-report and may come from a form, questionnaire, interview, etc.]
-    Src: caDSR
-    caDSR: 2200604
+    Term:
+      Origin: caDSR
+        Code: 2200604
     Enum: 
       - "Female"
       - "Female Gender"
@@ -1727,8 +1731,9 @@ PropDefinitions:
     Private: false
   ethnicity:
     Desc: The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
-    Src: caDSR
-    caDSR: 2192217
+    Term:
+      Origin: caDSR
+        Code: 2192217
     Enum:
       - "Hispanic or Latino"
       - "Not allowed to collect"
@@ -1739,10 +1744,11 @@ PropDefinitions:
     Private: false
   vital_status:
     Desc: The survival state of the person registered on the protocol.
-    Src: caDSR
-    caDSR: 
-      - 5
-      - 2847330
+    Term:
+      Origin: caDSR
+        Code: 
+          - 5
+          - 2847330
     Enum:
       - "Alive"
       - "Dead"
@@ -1756,22 +1762,21 @@ PropDefinitions:
     Private: false
   dbGaP_subject_id:
     Desc: This is the identifer assigned to the participant by dbGap.
-    Src: None
     Type: string
     Req: false
     Private: false    
  # sample
   sample_id:
     Desc: A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.
-    Src: None
     Type: string
     Req: true
     Private: false
     Key: true
   sample_type: 
     Desc: Text term to describe the source of a biospecimen used for a laboratory test.
-    Src: caDSR
-    caDSR: 3111302
+    Term:
+      Origin: caDSR
+        Code: 3111302
     Enum: 
       - "Ascites"
       - "Blood"
@@ -1813,9 +1818,11 @@ PropDefinitions:
     Private: false
   disease_type:
     Desc: The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
-    Src: caDSR
-    caDSR: 6161017
-    NCIt: C2991
+    Term:
+      Origin: caDSR
+        Code: 6161017
+      Origin: NCIt
+        Code: C2991
     Enum:
       - "Acinar Cell Neoplasms"
       - "Adenomas and Adenocarcinomas"
@@ -1880,8 +1887,9 @@ PropDefinitions:
     Private: false
   sample_anatomic_site:
     Desc: The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
-    Src: caDSR
-    caDSR: 6161035
+    Term:
+      Origin: caDSR
+        Code: 6161035
     Enum:
       - "Abdomen, NOS"
       - "Abdominal esophagus"
@@ -2220,14 +2228,14 @@ PropDefinitions:
     Private: false
   participant_age_at_collection: # aka sample_collection_study_day (i.e. study day for the subject when sample collected) , it might be helpful to also have sample_collection_event (i.e. index event for collection day enum: enrollment, diagnosis, treatment,) 
     Desc: TBD.
-    Src: None
     Type: string  # 01/26/2022 adeforge, all ages are integers!! 28feb22 pdunn
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
   tumor_grade:
     Desc: Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.
-    Src: caDSR
-    caDSR: 2785839
+    Term:
+      Origin: caDSR
+        Code: 2785839
     Enum:
       - "G1"
       - "G2"
@@ -2243,8 +2251,9 @@ PropDefinitions:
     Private: false
   tumor_stage_clinical_t: 
     Desc: Extent of the primary cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
-    Src: caDSR
-    caDSR: 3440328
+    Term:
+      Origin: caDSR
+        Code: 3440328
     Enum:
       - "T0"
       - "T1"
@@ -2285,8 +2294,9 @@ PropDefinitions:
     Private: false
   tumor_stage_clinical_n:
     Desc: Extent of the regional lymph node involvement for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
-    Src: caDSR
-    caDSR: 3440330
+    Term:
+      Origin: caDSR
+        Code: 3440330
     Enum:
       - "N0"
       - "N0 (i-)"
@@ -2316,8 +2326,9 @@ PropDefinitions:
     Private: false
   tumor_stage_clinical_m:
     Desc: Extent of the distant metastasis for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
-    Src: caDSR
-    caDSR: 3440331
+    Term:
+      Origin: caDSR
+        Code: 3440331
     Enum:
       - "cM0 (i+)"
       - "M0"
@@ -2330,8 +2341,9 @@ PropDefinitions:
     Private: false
   tumor_morphology:
     Desc: Code that represents the histology of the disease using the third edition of the International Classification of Diseases for Oncology, published in 2000, used principally in tumor and cancer registries for coding the site (topography) and the histology (morphology) of neoplasms.
-    Src: caDSR
-    caDSR: 3226275
+    Term:
+      Origin: caDSR
+        Code: 3226275
     Enum:
       - 8000/0
       - 8000/1
@@ -3489,7 +3501,6 @@ PropDefinitions:
     Private: false
   tumor_incidence_type: # primary, metastatic, recurrence, progression
     Desc: TBD.
-    Src: None
     Enum:
       - "primary" 
       - "metastatic"
@@ -3499,41 +3510,47 @@ PropDefinitions:
     Private: false
   biosample_accession:
     Desc: An alphanumeric identifier (SAMN accession number) assigned to a set of descriptive information for biological materials used to generate data that has been or will be submitted to archives provided by the National Center for Biotechnology Information (NCBI).  The alphanumeric identifier assigned to the specimen to uniquely identify it.
-    Src: caDSR
-    caDSR: 2230047
-    NCIt: C175889
+    Term:
+      Origin: caDSR
+        Code: 2230047
+      Origin: NCIt
+        Code: C175889
     Type: string
     Req: false
     Private: false    
   derived_from_specimen:
     Desc: One or more characters used to identify the parent substance, or portion of material obtained for use in testing, examination, or study.
-    Src: caDSR
-    caDSR:
-    - 5581201
-    - 5220155
+    Term:
+      Origin: caDSR
+        Code: 
+          - 5581201
+          - 5220155
     Type: string
     Req: false
     Private: false  
   sample_age_at_collection:
     Desc: Time interval from the date of biospecimen collection to the date of initial pathologic diagnosis, represented as a calculated number of days.
-    Src: caDSR
-    caDSR: 3008340
+    Term:
+      Origin: caDSR
+        Code: 3008340
     Type: string
     Req: false
     Private: false
   sample_description:
     Desc: Text description of a sample or specimen.
-    Src: caDSR
-    caDSR: 
-    - 2003907
-    - 5432687
+    Term:
+      Origin: caDSR
+        Code: 
+          - 2003907
+          - 5432687
     Type: string
     Req: false
     Private: false
   sample_tumor_status:
     Desc: Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue.
-    Src: caDSR
-    caDSR: 5432687
+    Term:
+      Origin: caDSR
+        Code: 5432687
     Enum:
       - Abnormal
       - Non-neoplastic
@@ -3548,15 +3565,17 @@ PropDefinitions:
   # sequencing_file props
   library_id: # per dbGaP, library_id can be == sample_id if there is only 1 seq file per sample
     Desc: Short unique identifier for the sequencing library.
-    Src: NCIt
-    NCIt: C175893
+    Term:
+      Origin: NCIt
+        Code: C175893
     Type: string
     Req: true
     Private: false
   library_strategy: 
     Desc: The overall strategy for the collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
-    Src: caDSR
-    caDSR: 6273393
+    Term:
+      Origin: caDSR
+        Code: 6273393
     Enum:
       - "AMPLICON"
       - "ATAC-seq"
@@ -3598,9 +3617,11 @@ PropDefinitions:
     Private: false
   platform:
     Desc: The words used to describe the instrument used to carry out a high-throughput sequencing experiment.
-    Src: caDSR
-    caDSR: 6347771
-    NCIt: C172274
+    Term:
+      Origin: caDSR
+        Code: 6347771
+      Origin: NCIt
+        Code: C172274
     Enum:
       - "AB Capillary"
       - "ABI Solid"
@@ -3616,8 +3637,9 @@ PropDefinitions:
     Private: false    
   instrument_model:
     Desc: The words used to describe the specific model of the instrument used to carry out a high-throughput sequencing experiment.
-    Src: caDSR
-    caDSR: 6352164
+    Term:
+      Origin: caDSR
+        Code: 6352164
     Enum:
       - "454 GS"
       - "454 GS 20"
@@ -3684,9 +3706,11 @@ PropDefinitions:
     Private: false
   library_source: # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
     Desc: The source of a sample collection of double stranded DNA fragments analyzed by high-throughput sequencing.
-    Src: caDSR
-    caDSR: 6285979
-    NCIt: C175895
+    Term:
+      Origin: caDSR
+        Code: 6285979
+      Origin: NCIt
+        Code: C175895
     Enum: #enum values in dbGaP are UC, in yaml, they are LC
       - "Bulk cells"
       - "Bulk nuclei"
@@ -3710,7 +3734,6 @@ PropDefinitions:
     Private: false
   number_of_bp:
     Desc: Count of unique basecalls present in the data. Please count each base only once if using secondary alignments.
-    Src: None
     Type: string
     Req: true
     Private: false
@@ -3724,14 +3747,14 @@ PropDefinitions:
   avg_read_length:
     Desc: The number of nucleotides successfully ordered from each side of a
       nucleic acid fragment obtained after the completion of a sequencing process.
-    Src: caDSR
-    caDSR: 6380354
+    Term:
+      Origin: caDSR
+        Code: 6380354
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   coverage:
     Desc: Depth of coverage on assembly used. Found by (Unique Aligned Basecalls)/(Reference Length).
-    Src: None
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
@@ -3744,7 +3767,6 @@ PropDefinitions:
     Private: false
   custom_assembly_fasta_file_for_alignment:
     Desc: The name of the custom assembly fasta file used during alignment.
-    Src: None
     Type: string
     Req: false
     Private: false    
@@ -3757,8 +3779,9 @@ PropDefinitions:
     Private: false    
   library_selection:
     Desc: The type of systematic actions performed to select or enrich DNA fragments used in analysis by high-throughput sequencing.
-    Src: caDSR
-    caDSR: 6347743
+    Term:
+      Origin: caDSR
+        Code: 6347743
     Enum:
       - RANDOM
       - PCR
@@ -3819,25 +3842,21 @@ PropDefinitions:
     Key: true
   study_short_title:
     Desc: The succinct version of the study title if it exists.
-    Src: None
     Type: string
     Req: true
     Private: false
   study_acronym:
     Desc: A one word acronym to represent the study.
-    Src: None
     Type: string
     Req: true
     Private: false
   study_description:
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
   external_url:
     Desc: TBD.
-    Src: None
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -3864,17 +3883,21 @@ PropDefinitions:
     Private: false    
   size_of_data_being_uploaded:
     Desc: The numerical quantity documenting the physical magnitude of a set of related electronic records.
-    Src: caDSR
-    caDSR: 6115806
-    NCIt: C171192
+    Term:
+      Origin: caDSR
+        Code: 6115806
+      Origin: NCIt
+        Code: C171192
     Type: string
     Req: false
     Private: false
   study_data_types:
     Desc: The field of study(s) associated with the data collection.
-    Src: caDSR
-    caDSR: 6944407
-    NCIt: C175886
+    Term:
+      Origin: caDSR
+        Code: 6944407
+      Origin: NCIt
+        Code: C175886
     Enum:
       - Genomic
       - Proteomic
@@ -3895,16 +3918,17 @@ PropDefinitions:
   # study_admin
   study_admin_id:
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
     Key: true
   organism_species:
     Desc: The organism from which the sample is derived or originated.
-    Src: caDSR
-    caDSR: 6118266
-    NCIt: C14250
+    Term:
+      Origin: caDSR
+        Code: 6118266
+      Origin: NCIt
+        Code: C14250
     Enum:
       - Human
       - Mouse
@@ -3921,7 +3945,6 @@ PropDefinitions:
     Private: false
   data_types: # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
     Desc: TBD.
-    Src: None
     Type: string
     Req: false
     Private: false
@@ -3956,55 +3979,53 @@ PropDefinitions:
     Private: false
   grant_id: #grant or contract ID, NIH or other
     Desc: Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
-    Src: caDSR
-    caDSR: 3434057
+    Term:
+      Origin: caDSR
+        Code: 3434057
     Type: string
     Req: true
     Private: false
     Key: true
   clinical_trial_arm:
     Desc: ARM of the clinical trial.
-    Src: None
     Type: string
     Req: false
     Private: false
   clinical_trial_identifier:
     Desc: Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
-    Src: caDSR
-    caDSR: 2649415
+    Term:
+      Origin: caDSR
+        Code: 2649415
     Type: string
     Req: false
     Private: false
   clinical_trial_system:
     Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
-    Src: None
     Type: string
     Req: false
     Private: false    
   funding_source_program_name:
     Desc: The name of the program that is providing funding.
-    Src: NCIt
-    NCIt: C166274
+    Term:
+      Origin: NCIt
+        Code: C166274
     Type: string
     Req: false
     Private: false    
   # study_personnel
   study_personnel_id:  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
     Key: true
   personnel_name:
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
   personnel_type: #enum: PI, Co-PI, Data Submitter, etc
     Desc: TBD.
-    Src: None
     Enum:
       - "PI"
       - "Co-PI"
@@ -4014,21 +4035,20 @@ PropDefinitions:
     Private: false
   email_address:
     Desc: TBD.
-    Src: None
     Type: string
     Req: true
     Private: false
   institution:
     Desc: TBD.
-    Src: None
     Type: string
     Req: true  # 28feb22 pdunn
     Private: false
   #therapeutic_procedure
   therapeutic_agents:
     Desc: Text identification of the individual agent(s) used as part of a prior treatment regimen.
-    Src: caDSR
-    caDSR: 2975232
+    Term:
+      Origin: caDSR
+        Code: 2975232
     Enum:
       - 10-Deacetyltaxol
       - 11C Topotecan
@@ -8509,8 +8529,9 @@ PropDefinitions:
     Private: false
   treatment_outcome:
     Desc: Text term that describes the patient's final outcome after the treatment was administered.
-    Src: caDSR
-    caDSR: 5102383
+    Term:
+      Origin: caDSR
+        Code: 5102383
     Enum:
       - Complete Response
       - Mixed Response
@@ -8538,8 +8559,9 @@ PropDefinitions:
     Private: false
   treatment_type:
     Desc: Text term that describes the kind of treatment administered.
-    Src: caDSR
-    caDSR: 5102381
+    Term:
+      Origin: caDSR
+        Code: 5102381
     Enum:
       - Ablation, Cryo
       - Ablation, Ethanol Injection
@@ -8629,8 +8651,9 @@ PropDefinitions:
     Private: false
   days_to_treatment:
     Desc: Number of days between the date used for index and the date the treatment started.
-    Src: caDSR
-    caDSR: 6154726
+    Term:
+      Origin: caDSR
+        Code: 6154726
     Type: string
     Req: false
     Private: false

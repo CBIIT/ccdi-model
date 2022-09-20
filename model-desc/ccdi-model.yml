@@ -1,15 +1,6 @@
 Handle: CDA
 Nodes:
-  alias:  #the repository_name + repository_ID is a composite key value for the composite value of CDS_concept + CDS_ID, else the key is a concat of repository_name + repository_ID and value is a concat of CDS_concept + CDS_ID 
-    Props:
-      - repository_id #string
-      - repository_name #string
-      - cds_node # string, the node in CDS schema
-      - cds_id #string, the CDS schema identifier
-  clinical_measure: # 01.03.22 pdunn
-    Props:
-      - name
-  clinical_measure_file: # 01.03.22 pdunn
+  clinical_measure_file: # 09.20.22 pdunn
     Props:
       # - file_id #system generated GUID/PK
       - file_name
@@ -22,10 +13,13 @@ Nodes:
       - checksum_algorithm
       - checksum_value
       - file_mapping_level
-  diagnosis: 
+      - participant_id
+  diagnosis: #09.20.22 pd
     Props:
      - diagnosis_id
+     - disease_type
      - primary_diagnosis
+     - primary_diagnosis_reference_source
      - primary_site
      - age_at_diagnosis
      - days_to_recurrence
@@ -35,10 +29,6 @@ Nodes:
      - days_to_last_followup
      - progression_or_recurrence
      - site_of_resection_or_biopsy
-  experiment:
-    Props:
-      - experiment_id
-      - design_description
   imaging_file: # 01.03.22 pdunn
     Props:
       - file_name
@@ -49,29 +39,41 @@ Nodes:
       - file_url_in_cds
       - dcf_indexd_guid
       - image_modality
-      - platform
+      # - platform redundant with imaging_platform
       - instrument_model
-      - software_package # list of free text I guess
+      - software_package
       - imaging_platform
       - checksum_algorithm
       - checksum_value
       - file_mapping_level
-  participant: # 28.02.22 pdunn
+  methylation_array_file: 09.20.22 pd
+    Props:
+      - file_name
+      - file_type
+      - file_description
+      - file_size
+      - md5sum
+      - file_url_in_cds
+      - dcf_indexd_guid
+      - file_mapping_level
+      - platform
+      - label
+  participant: # 02.28.22 pdunn
     Props:
       - participant_id
       - race       
       - gender
       - ethnicity  # 01/27/2022 adeforge https://minorityhealth.hhs.gov/omh/browse.aspx?lvl=3&lvlid=54#:~:text=The%20OMB%20minimum%20categories%20for,and%20Not%20Hispanic%20or%20Latino these categories were used by CHOP's FHIR endpoints
       - vital_status
-      - dbGaP_subject_id
-      #- age_at_enrollment
-      #- age_unit
-  sample: 
+      # - dbgap_subject_id : store in synonym
+  publication: # 09.20.22 pd
+     Props:
+      - pubmed_id
+  sample: #09.20.22 pd
     Props:
       - sample_id
-      - biosample_accession
+      # - biosample_accession captured in synonym
       - sample_type 
-      - disease_type
       - tumor_status # tumor or normal
       - sample_anatomic_site
       - participant_age_at_collection # 28.02.22 pdunn
@@ -82,9 +84,6 @@ Nodes:
       - tumor_stage_clinical_m
       - tumor_morphology
       - tumor_incidence_type # primary, metastatic, recurrence, progression
-      - dbgap_sample_id
-      - derived_from_specimen
-      - sample_age_at_collection
       - sample_description
       - sample_tumor_status
   sequencing_file: # 01.03.22 pdunn
@@ -97,33 +96,33 @@ Nodes:
       - md5sum
       - file_url_in_cds
       - dcf_indexd_guid
-      - library_id 
-      - library_strategy 
-      - library_layout # paired end, single, moved from submission
-      - library_source # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
-      - number_of_bp 
-      - number_of_reads
-      - avg_read_length
-      - coverage
-      - reference_genome_assembly
+      - library_id # sra req'd
+      - library_selection # sra req'd
+      - library_strategy  # sra req'd
+      - library_layout  # sra req'd # paired end, single, moved from submission
+      - library_source  # sra req'd # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
+      - number_of_bp  # sra req'd
+      - number_of_reads  # sra req'd
+      - avg_read_length # sra req'd
+      - coverage  # sra req'd
+      - reference_genome_assembly  # sra req'd
       - checksum_algorithm
       - checksum_value
       - custom_assembly_fasta_file_for_alignment
       - file_mapping_level
-      - library_selection
       - sequence_alignment_software
   study:
     Props:
-      - phs_accession
+      - phs_accession #dbGaP accession
+      - study_name
       - study_short_title
       - study_acronym
       - study_description
       - external_url
-      - bioproject_accession
       - experimental_strategy_and_data_subtype
       - size_of_data_being_uploaded
       - study_data_types
-      - study_name
+      # - bioproject_accession : store in synonym
   study_admin:
     Props:
       - study_admin_id
@@ -149,6 +148,12 @@ Nodes:
       - personnel_type #enum: PI, Co-PI, Data Submitter, etc
       - email_address
       - institution
+  synonym:  # 09.20.22 pd, nee alias
+     Props:
+      - synonym_id #the alternate or alias id in another repo
+      - repository_of_synonym_id #the name of the other repo
+      - cds_node # the node in CDS schema
+      - cds_id # id in CDS 
   therapeutic_procedure:
     Props:
       - days_to_treatment
@@ -157,51 +162,49 @@ Nodes:
       - treatment_type
       - treatment_id
 Relationships:
-  of_clinical_measure: # 01.03.22 pdunn
-    Props: null
-    Mul: many_to_one 
-    Ends:
-      - Src: clinical_measure
-        Dst: study
-  of_clinical_measure_file: # 01.03.22 pdunn
+  of_clinical_measure_file: # #09.20.22 pd
     Props: null
     Mul: many_to_one 
     Ends:
       - Src: clinical_measure_file
-        Dst: clinical_measure
-  of_clinical_measure_file_participant: # 01.03.22 pdunn
+        Dst: study
+  of_clinical_measure_file_participant: 
     Props: null
-    Mul: many_to_many # this Mul is many_to_many. of_clinical_measure_file Mul is many_to_one
+    Mul: many_to_many 
     Ends:
       - Src: clinical_measure_file
         Dst: participant
-  of_diagnosis: # 01.03.22 pdunn
+  of_diagnosis: 
     Props: null
     Mul: many_to_one
     Ends:
       - Src: diagnosis
         Dst: participant
-  of_experiment: # 01.03.22 pdunn
-    Props: null
-    Mul: many_to_one
-    Ends:
-      - Src: experiment
-        Dst: study
-  of_imaging_file: # 01.03.22 pdunn
+  of_imaging_file: #09.20.22 pd
     Props: null
     Mul: many_to_one
     Ends:
       - Src: imaging_file
-        Dst: experiment
-      - Src: imaging_file
-        Dst: sample       
-  of_participant: # 01.03.22 pdunn
+        Dst: sample
+  of_methylation_array_file: # 09.20.22 pd
     Props: null
     Mul: many_to_one
+    Ends:
+      - Src: methylation_array_file
+        Dst: sample
+  of_participant: #09.20.22 pd
+    Props: null
+    Mul: many_to_one #will need to mod this to many_to_many if a participant is in >1 study
     Ends:
       - Src: participant
         Dst: study
-  of_sample: # 01.03.22 pdunn
+  of_publication: 09.20.22 pd
+    Props: null
+    Mul: many_to_one
+    Ends:
+     - Src: publication
+       Dst: study
+  of_sample: 
     Props: null
     Mul: many_to_one
     Ends:
@@ -209,31 +212,29 @@ Relationships:
         Dst: participant
       - Src: sample
         Dst: study
-  of_sequencing_file: # 28.02.22 pdunn
+  of_sequencing_file: #09.20.22 pd
     Props: null
     Mul: many_to_one
     Ends:
       - Src: sequencing_file
-        Dst: experiment
-      - Src: sequencing_file
         Dst: sample
-  of_study_admin: # 01.03.22 pdunn
+  of_study_admin: 
     Props: null
     Mul: many_to_one
     Ends:
       - Src: study_admin
         Dst: study
-  of_study_funding: # 01.03.22 pdunn
+  of_study_funding: 
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: study_funding  # 01.03.22 pdunn
+      - Src: study_funding  
         Dst: study
   of_study_personnel:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: study_personnel  # 01.03.22 pdunn
+      - Src: study_personnel  
         Dst: study     
   of_therapeutic_procedure: # 09.07.22 svburke
     Props: null
@@ -241,12 +242,14 @@ Relationships:
     Ends:
       - Src: therapeutic_procedure
         Dst: participant
-  of_alias: # 09.07.22 svburke
+  of_synonym: # 09.20.22 pd
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: alias
+      - Src: synonym
         Dst: participant
-      - Src: alias
+      - Src: synonym
         Dst: sample
+      - Src: synonym
+        Dst: study
  

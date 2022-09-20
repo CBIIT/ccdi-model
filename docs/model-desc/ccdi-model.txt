@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit e279eb8
+commit e5e4dff
 node	property	value_or_TYPE
 alias	cds_id	STRING
 alias	cds_node	STRING
@@ -8011,10 +8011,10 @@ of_experiment	experiment	study	NA	NA
 of_imaging_file	imaging_file	sample	NA	NA
 of_imaging_file	imaging_file	experiment	NA	NA
 of_participant	participant	study	NA	NA
-of_sample	sample	participant	NA	NA
 of_sample	sample	study	NA	NA
-of_sequencing_file	sequencing_file	sample	NA	NA
+of_sample	sample	participant	NA	NA
 of_sequencing_file	sequencing_file	experiment	NA	NA
+of_sequencing_file	sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA

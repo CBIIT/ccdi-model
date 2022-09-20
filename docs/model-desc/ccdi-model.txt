@@ -1,11 +1,6 @@
 repo https://github.com/CBIIT/ccdi-model
-commit e5e4dff
+commit aa6d514
 node	property	value_or_TYPE
-alias	cds_id	STRING
-alias	cds_node	STRING
-alias	repository_id	STRING
-alias	repository_name	STRING
-clinical_measure	name	STRING
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
 clinical_measure_file	dcf_indexd_guid	STRING
@@ -18,11 +13,71 @@ clinical_measure_file	file_size	STRING
 clinical_measure_file	file_type	STRING
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
+clinical_measure_file	participant_id	STRING
 diagnosis	age_at_diagnosis	STRING
 diagnosis	days_to_last_followup	STRING
 diagnosis	days_to_last_known_disease_status	STRING
 diagnosis	days_to_recurrence	STRING
 diagnosis	diagnosis_id	STRING
+diagnosis	disease_type	Acinar Cell Neoplasms
+diagnosis	disease_type	Adenomas and Adenocarcinomas
+diagnosis	disease_type	Adnexal and Skin Appendage Neoplasms
+diagnosis	disease_type	Basal Cell Neoplasms
+diagnosis	disease_type	Blood Vessel Tumors
+diagnosis	disease_type	Chronic Myeloproliferative Disorders
+diagnosis	disease_type	Complex Epithelial Neoplasm
+diagnosis	disease_type	Complex Mixed and Stromal Neoplasms
+diagnosis	disease_type	Cystic, Mucinous and Serous Neoplasms
+diagnosis	disease_type	Ductal and Lobular Neoplasms
+diagnosis	disease_type	Epithelial Neoplasms, NOS
+diagnosis	disease_type	Fibroepithelial Neoplasms
+diagnosis	disease_type	Fibromatous Neoplasms
+diagnosis	disease_type	Germ Cell Neoplasms
+diagnosis	disease_type	Giant Cell Tumors
+diagnosis	disease_type	Gliomas
+diagnosis	disease_type	Granular Cell Tumors and Alveolar Soft Part Sarcomas
+diagnosis	disease_type	Hodgkin Lymphoma
+diagnosis	disease_type	Immunoproliferative Diseases
+diagnosis	disease_type	Leukemias, NOS
+diagnosis	disease_type	Lipomatous Neoplasms
+diagnosis	disease_type	Lymphatic Vessel Tumors
+diagnosis	disease_type	Lymphoid Leukemias
+diagnosis	disease_type	Malignant Lymphomas, NOS or Diffuse
+diagnosis	disease_type	Mast Cell Tumors
+diagnosis	disease_type	Mature B-Cell Lymphomas
+diagnosis	disease_type	Mature T- and NK-Cell Lymphomas
+diagnosis	disease_type	Meningiomas
+diagnosis	disease_type	Mesonephromas
+diagnosis	disease_type	Mesothelial Neoplasms
+diagnosis	disease_type	Miscellaneous Bone Tumors
+diagnosis	disease_type	Miscellaneous Tumors
+diagnosis	disease_type	Mucoepidermoid Neoplasms
+diagnosis	disease_type	Myelodysplastic Syndromes
+diagnosis	disease_type	Myeloid Leukemias
+diagnosis	disease_type	Myomatous Neoplasms
+diagnosis	disease_type	Myxomatous Neoplasms
+diagnosis	disease_type	Neoplasms of Histiocytes and Accessory Lymphoid Cells
+diagnosis	disease_type	Neoplasms, NOS
+diagnosis	disease_type	Nerve Sheath Tumors
+diagnosis	disease_type	Neuroepitheliomatous Neoplasms
+diagnosis	disease_type	Nevi and Melanomas
+diagnosis	disease_type	Not Applicable
+diagnosis	disease_type	Not Reported
+diagnosis	disease_type	Odontogenic Tumors
+diagnosis	disease_type	Osseous and Chondromatous Neoplasms
+diagnosis	disease_type	Other Hematologic Disorders
+diagnosis	disease_type	Other Leukemias
+diagnosis	disease_type	Paragangliomas and Glomus Tumors
+diagnosis	disease_type	Plasma Cell Tumors
+diagnosis	disease_type	Precursor Cell Lymphoblastic Lymphoma
+diagnosis	disease_type	Soft Tissue Tumors and Sarcomas, NOS
+diagnosis	disease_type	Specialized Gonadal Neoplasms
+diagnosis	disease_type	Squamous Cell Neoplasms
+diagnosis	disease_type	Synovial-like Neoplasms
+diagnosis	disease_type	Thymic Epithelial Neoplasms
+diagnosis	disease_type	Transitional Cell Papillomas and Carcinomas
+diagnosis	disease_type	Trophoblastic neoplasms
+diagnosis	disease_type	Unknown
 diagnosis	last_known_disease_status	Biochemical evidence of disease without structural correlate
 diagnosis	last_known_disease_status	Distant met recurrence/progression
 diagnosis	last_known_disease_status	Loco-regional recurrence/progression
@@ -533,6 +588,7 @@ diagnosis	primary_diagnosis	Well-differentiated neuroendocrine carcinoma
 diagnosis	primary_diagnosis	Xp11 translocation renal cell carcinoma
 diagnosis	primary_diagnosis	Yolk sac tumor (endodermal sinus tumor)
 diagnosis	primary_diagnosis	t(6;11) renal cell carcinoma
+diagnosis	primary_diagnosis_reference_source	NA
 diagnosis	primary_site	Accessory sinuses
 diagnosis	primary_site	Adrenal gland
 diagnosis	primary_site	Anus and anal canal
@@ -1487,8 +1543,6 @@ diagnosis	tissue_or_organ_of_origin	Vulva
 diagnosis	tissue_or_organ_of_origin	Vulva, NOS
 diagnosis	tissue_or_organ_of_origin	Waldeyer Ring
 diagnosis	tissue_or_organ_of_origin	Waldeyer ring
-experiment	design_description	STRING
-experiment	experiment_id	STRING
 imaging_file	checksum_algorithm	STRING
 imaging_file	checksum_value	STRING
 imaging_file	dcf_indexd_guid	STRING
@@ -1554,18 +1608,28 @@ imaging_file	instrument_model	PacBio RS II
 imaging_file	instrument_model	PromethION
 imaging_file	instrument_model	Unknown
 imaging_file	md5sum	STRING
-imaging_file	platform	AB Capillary
-imaging_file	platform	ABI Solid
-imaging_file	platform	BGISEQ
-imaging_file	platform	Complete Genomics
-imaging_file	platform	Helicos
-imaging_file	platform	Illumina
-imaging_file	platform	Ion Torrent
-imaging_file	platform	LS 454
-imaging_file	platform	Oxford Nanopore
-imaging_file	platform	PacBio SMRT
 imaging_file	software_package	STRING
-participant	dbGaP_subject_id	STRING
+methylation_array_file	dcf_indexd_guid	STRING
+methylation_array_file	file_description	STRING
+methylation_array_file	file_mapping_level	Participiant
+methylation_array_file	file_mapping_level	Sample
+methylation_array_file	file_mapping_level	Study
+methylation_array_file	file_name	STRING
+methylation_array_file	file_size	STRING
+methylation_array_file	file_type	STRING
+methylation_array_file	file_url_in_cds	STRING
+methylation_array_file	label	NA
+methylation_array_file	md5sum	STRING
+methylation_array_file	platform	AB Capillary
+methylation_array_file	platform	ABI Solid
+methylation_array_file	platform	BGISEQ
+methylation_array_file	platform	Complete Genomics
+methylation_array_file	platform	Helicos
+methylation_array_file	platform	Illumina
+methylation_array_file	platform	Ion Torrent
+methylation_array_file	platform	LS 454
+methylation_array_file	platform	Oxford Nanopore
+methylation_array_file	platform	PacBio SMRT
 participant	ethnicity	Hispanic or Latino
 participant	ethnicity	Not Hispanic or Latino
 participant	ethnicity	Not allowed to collect
@@ -1597,70 +1661,8 @@ participant	vital_status	Not Reported
 participant	vital_status	Subject decided to withdraw from study
 participant	vital_status	Unknown
 participant	vital_status	Unspecified
-sample	biosample_accession	STRING
-sample	dbgap_sample_id	NA
-sample	derived_from_specimen	STRING
-sample	disease_type	Acinar Cell Neoplasms
-sample	disease_type	Adenomas and Adenocarcinomas
-sample	disease_type	Adnexal and Skin Appendage Neoplasms
-sample	disease_type	Basal Cell Neoplasms
-sample	disease_type	Blood Vessel Tumors
-sample	disease_type	Chronic Myeloproliferative Disorders
-sample	disease_type	Complex Epithelial Neoplasm
-sample	disease_type	Complex Mixed and Stromal Neoplasms
-sample	disease_type	Cystic, Mucinous and Serous Neoplasms
-sample	disease_type	Ductal and Lobular Neoplasms
-sample	disease_type	Epithelial Neoplasms, NOS
-sample	disease_type	Fibroepithelial Neoplasms
-sample	disease_type	Fibromatous Neoplasms
-sample	disease_type	Germ Cell Neoplasms
-sample	disease_type	Giant Cell Tumors
-sample	disease_type	Gliomas
-sample	disease_type	Granular Cell Tumors and Alveolar Soft Part Sarcomas
-sample	disease_type	Hodgkin Lymphoma
-sample	disease_type	Immunoproliferative Diseases
-sample	disease_type	Leukemias, NOS
-sample	disease_type	Lipomatous Neoplasms
-sample	disease_type	Lymphatic Vessel Tumors
-sample	disease_type	Lymphoid Leukemias
-sample	disease_type	Malignant Lymphomas, NOS or Diffuse
-sample	disease_type	Mast Cell Tumors
-sample	disease_type	Mature B-Cell Lymphomas
-sample	disease_type	Mature T- and NK-Cell Lymphomas
-sample	disease_type	Meningiomas
-sample	disease_type	Mesonephromas
-sample	disease_type	Mesothelial Neoplasms
-sample	disease_type	Miscellaneous Bone Tumors
-sample	disease_type	Miscellaneous Tumors
-sample	disease_type	Mucoepidermoid Neoplasms
-sample	disease_type	Myelodysplastic Syndromes
-sample	disease_type	Myeloid Leukemias
-sample	disease_type	Myomatous Neoplasms
-sample	disease_type	Myxomatous Neoplasms
-sample	disease_type	Neoplasms of Histiocytes and Accessory Lymphoid Cells
-sample	disease_type	Neoplasms, NOS
-sample	disease_type	Nerve Sheath Tumors
-sample	disease_type	Neuroepitheliomatous Neoplasms
-sample	disease_type	Nevi and Melanomas
-sample	disease_type	Not Applicable
-sample	disease_type	Not Reported
-sample	disease_type	Odontogenic Tumors
-sample	disease_type	Osseous and Chondromatous Neoplasms
-sample	disease_type	Other Hematologic Disorders
-sample	disease_type	Other Leukemias
-sample	disease_type	Paragangliomas and Glomus Tumors
-sample	disease_type	Plasma Cell Tumors
-sample	disease_type	Precursor Cell Lymphoblastic Lymphoma
-sample	disease_type	Soft Tissue Tumors and Sarcomas, NOS
-sample	disease_type	Specialized Gonadal Neoplasms
-sample	disease_type	Squamous Cell Neoplasms
-sample	disease_type	Synovial-like Neoplasms
-sample	disease_type	Thymic Epithelial Neoplasms
-sample	disease_type	Transitional Cell Papillomas and Carcinomas
-sample	disease_type	Trophoblastic neoplasms
-sample	disease_type	Unknown
+publication	pubmed_id	NA
 sample	participant_age_at_collection	STRING
-sample	sample_age_at_collection	STRING
 sample	sample_anatomic_site	Abdomen, NOS
 sample	sample_anatomic_site	Abdominal esophagus
 sample	sample_anatomic_site	Accessory sinus, NOS
@@ -3397,7 +3399,6 @@ sequencing_file	number_of_bp	STRING
 sequencing_file	number_of_reads	STRING
 sequencing_file	reference_genome_assembly	STRING
 sequencing_file	sequence_alignment_software	STRING
-study	bioproject_accession	STRING
 study	experimental_strategy_and_data_subtype	STRING
 study	external_url	STRING
 study	phs_accession	STRING
@@ -3437,6 +3438,10 @@ study_personnel	personnel_type	Data Manager
 study_personnel	personnel_type	Data Submitter
 study_personnel	personnel_type	PI
 study_personnel	study_personnel_id	STRING
+synonym	cds_id	STRING
+synonym	cds_node	STRING
+synonym	repository_of_synonym_id	NA
+synonym	synonym_id	NA
 therapeutic_procedure	days_to_treatment	STRING
 therapeutic_procedure	therapeutic_agents	10-Deacetyltaxol
 therapeutic_procedure	therapeutic_agents	11C Topotecan
@@ -8001,23 +8006,22 @@ therapeutic_procedure	treatment_type	Targeted Molecular Therapy
 therapeutic_procedure	treatment_type	Unknown
 
 relationship	source_node	destination_node	property	value_or_TYPE
-of_alias	alias	sample	NA	NA
-of_alias	alias	participant	NA	NA
-of_clinical_measure	clinical_measure	study	NA	NA
-of_clinical_measure_file	clinical_measure_file	clinical_measure	NA	NA
+of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_clinical_measure_file_participant	clinical_measure_file	participant	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
-of_experiment	experiment	study	NA	NA
 of_imaging_file	imaging_file	sample	NA	NA
-of_imaging_file	imaging_file	experiment	NA	NA
+of_methylation_array_file	methylation_array_file	sample	NA	NA
 of_participant	participant	study	NA	NA
+of_publication	publication	study	NA	NA
 of_sample	sample	study	NA	NA
 of_sample	sample	participant	NA	NA
-of_sequencing_file	sequencing_file	experiment	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
+of_synonym	synonym	study	NA	NA
+of_synonym	synonym	participant	NA	NA
+of_synonym	synonym	sample	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description

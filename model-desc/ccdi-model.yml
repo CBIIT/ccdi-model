@@ -57,14 +57,13 @@ Nodes:
       - dcf_indexd_guid
       - file_mapping_level
       - platform
-      - label
+      - reporter_label
   participant: # 02.28.22 pdunn
     Props:
       - participant_id
       - race       
       - gender
-      - ethnicity  # 01/27/2022 adeforge https://minorityhealth.hhs.gov/omh/browse.aspx?lvl=3&lvlid=54#:~:text=The%20OMB%20minimum%20categories%20for,and%20Not%20Hispanic%20or%20Latino these categories were used by CHOP's FHIR endpoints
-      - vital_status
+      - ethnicity
       # - dbgap_subject_id : store in synonym
   publication: # 09.20.22 pd
      Props:
@@ -133,13 +132,15 @@ Nodes:
       - acl
       - number_of_participants
       - number_of_samples
+  study_arm:
+    Props:
+      - clinical_trial_arm
+      - clinical_trial_identifier
+      - clinical_trial_repository
   study_funding: # 0 or many grant or contract IDs
     Props: 
       - funding_agency # 0 or many per study
       - grant_id #grant or contract ID, NIH or other
-      - clinical_trial_arm
-      - clinical_trial_identifier
-      - clinical_trial_system
       - funding_source_program_name
   study_personnel:
     Props:
@@ -198,6 +199,8 @@ Relationships:
     Ends:
       - Src: participant
         Dst: study
+      - Src: participant
+        Dst: study_arm
   of_publication: # 09.20.22 pd
     Props: null
     Mul: many_to_one
@@ -224,6 +227,12 @@ Relationships:
     Ends:
       - Src: study_admin
         Dst: study
+  of_study_arm: # 09.21.22 pd
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: study_arm
+      - Dst: study
   of_study_funding: 
     Props: null
     Mul: many_to_one

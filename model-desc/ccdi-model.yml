@@ -132,7 +132,7 @@ Nodes:
       - acl
       - number_of_participants
       - number_of_samples
-  study_arm:
+  study_arm: # 09.21.22 pd
     Props:
       - clinical_trial_arm
       - clinical_trial_identifier
@@ -232,7 +232,7 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: study_arm
-      - Dst: study
+        Dst: study
   of_study_funding: 
     Props: null
     Mul: many_to_one

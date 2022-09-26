@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit d56f169
+commit 6531190
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -3389,6 +3389,16 @@ sequencing_file	library_strategy	ssRNA-seq
 sequencing_file	md5sum	STRING
 sequencing_file	number_of_bp	STRING
 sequencing_file	number_of_reads	STRING
+sequencing_file	platform	AB Capillary
+sequencing_file	platform	ABI Solid
+sequencing_file	platform	BGISEQ
+sequencing_file	platform	Complete Genomics
+sequencing_file	platform	Helicos
+sequencing_file	platform	Illumina
+sequencing_file	platform	Ion Torrent
+sequencing_file	platform	LS 454
+sequencing_file	platform	Oxford Nanopore
+sequencing_file	platform	PacBio SMRT
 sequencing_file	reference_genome_assembly	STRING
 sequencing_file	sequence_alignment_software	STRING
 study	experimental_strategy_and_data_subtype	STRING

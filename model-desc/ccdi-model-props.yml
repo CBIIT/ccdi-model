@@ -1684,6 +1684,11 @@ PropDefinitions:
     Type: String
     Req: false
     Private: false
+  imaging_instrument_model:
+    Desc: The words used to describe the specific model of the instrument used to carry out an imaging experiment.
+    Type: string
+    Req: true
+    Private: false    
   software_package:
     Desc: TBD.
     Type: string

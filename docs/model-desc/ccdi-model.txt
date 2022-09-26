@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 1ffa912
+commit 9c4ad91
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -7910,8 +7910,29 @@ therapeutic_procedure	therapeutic_agents	pbi-shRNA STMN1 Lipoplex
 therapeutic_procedure	therapeutic_agents	siG12D LODER
 therapeutic_procedure	therapeutic_agents	siRNA-transfected Peripheral Blood Mononuclear Cells APN401
 therapeutic_procedure	therapeutic_agents	ssRNA-based Immunomodulator CV8102
-therapeutic_procedure	treatement_outcome	NA
 therapeutic_procedure	treatment_id	STRING
+therapeutic_procedure	treatment_outcome	Complete Remission/Response
+therapeutic_procedure	treatment_outcome	Complete Response
+therapeutic_procedure	treatment_outcome	Elevated Tumor Markers and Residual Mass
+therapeutic_procedure	treatment_outcome	First Course Treatment Still in Progress
+therapeutic_procedure	treatment_outcome	Mixed Response
+therapeutic_procedure	treatment_outcome	No Measurable Disease
+therapeutic_procedure	treatment_outcome	No Measureable Tumor or Tumor Markers
+therapeutic_procedure	treatment_outcome	No Response
+therapeutic_procedure	treatment_outcome	Normalization of Tumor Markers, but Residual Tumor Mass
+therapeutic_procedure	treatment_outcome	Not Applicable
+therapeutic_procedure	treatment_outcome	Not Reported
+therapeutic_procedure	treatment_outcome	Other
+therapeutic_procedure	treatment_outcome	Partial Remission/Response
+therapeutic_procedure	treatment_outcome	Partial Response
+therapeutic_procedure	treatment_outcome	Persistent Disease
+therapeutic_procedure	treatment_outcome	Progressive Disease
+therapeutic_procedure	treatment_outcome	Progressive Tumor Mass and Tumor Markers
+therapeutic_procedure	treatment_outcome	Stable Disease
+therapeutic_procedure	treatment_outcome	Treatment Ongoing
+therapeutic_procedure	treatment_outcome	Treatment Stopped Due to Toxicity
+therapeutic_procedure	treatment_outcome	Unknown
+therapeutic_procedure	treatment_outcome	Very Good Partial Response
 therapeutic_procedure	treatment_type	Ablation, Cryo
 therapeutic_procedure	treatment_type	Ablation, Ethanol Injection
 therapeutic_procedure	treatment_type	Ablation, Microwave
@@ -8014,8 +8035,8 @@ of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
 of_synonym	synonym	sample	NA	NA
-of_synonym	synonym	participant	NA	NA
 of_synonym	synonym	study	NA	NA
+of_synonym	synonym	participant	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description

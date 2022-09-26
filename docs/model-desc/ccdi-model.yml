@@ -159,7 +159,7 @@ Nodes:
     Props:
       - days_to_treatment
       - therapeutic_agents
-      - treatement_outcome
+      - treatment_outcome
       - treatment_type
       - treatment_id
 Relationships:

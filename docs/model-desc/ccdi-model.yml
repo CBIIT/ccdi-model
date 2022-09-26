@@ -40,7 +40,7 @@ Nodes:
       - dcf_indexd_guid
       - image_modality
       # - platform redundant with imaging_platform
-      - instrument_model
+      - imaging_instrument_model
       - software_package
       - imaging_platform
       - checksum_algorithm
@@ -103,6 +103,7 @@ Nodes:
       - number_of_bp  # sra req'd
       - number_of_reads  # sra req'd
       - platform
+      - instrument_model
       - avg_read_length # sra req'd
       - coverage  # sra req'd
       - reference_genome_assembly  # sra req'd

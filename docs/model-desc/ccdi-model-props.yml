@@ -3533,18 +3533,18 @@ PropDefinitions:
 #    Type: string
 #    Req: false
 #    Private: false    
-  derived_from_specimen:
-    Desc: One or more characters used to identify the parent substance, or portion of material obtained for use in testing, examination, or study.
-    Term:
-      - Origin: caDSR
-        Code: '5581201'
-        Value: Parent Specimen Label Identifier
-      - Origin: caDSR
-        Code: '5220155'
-        Value: Conceptual Parent Biospecimen Investigational Key Barcode
-    Type: string
-    Req: false
-    Private: false  
+#  derived_from_specimen:
+#    Desc: One or more characters used to identify the parent substance, or portion of material obtained for use in testing, examination, or study.
+#    Term:
+#      - Origin: caDSR
+#        Code: '5581201'
+#        Value: Parent Specimen Label Identifier
+#      - Origin: caDSR
+#        Code: '5220155'
+#        Value: Conceptual Parent Biospecimen Investigational Key Barcode
+#    Type: string
+#    Req: false
+#    Private: false  
 #  sample_age_at_collection:
 #    Desc: Time interval from the date of biospecimen collection to the date of initial pathologic diagnosis, represented as a calculated number of days.
 #    Term:

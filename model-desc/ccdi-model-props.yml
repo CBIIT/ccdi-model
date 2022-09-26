@@ -1,15 +1,5 @@
 PropDefinitions:
-  #alias
-  repository_id: #string
-    Desc: TBD.
-    Type: string
-    Req: true
-    Private: false
-  repository_name: #string
-    Desc: TBD.
-    Type: string
-    Req: true
-    Private: false
+  #synonym
   cds_node: # string, the node in CDS schema
     Desc: TBD.
     Type: string
@@ -21,13 +11,17 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  # clinical_measure
-  name:
+  synonym_id:
     Desc: TBD.
     Type: string
     Req: true
     Private: false
-    Key: true
+  repository_of_synonym_id:
+    Desc: TBD.
+    Type: string
+    Req: true
+    Private: false  
+  # clinical_measure_file
   # diagnosis: 
   diagnosis_id:
     Desc: TBD.
@@ -1595,18 +1589,6 @@ PropDefinitions:
       - Not Reported
     Req: false
     Private: false    
-  # experiment
-  experiment_id:
-    Desc: TBD.
-    Type: string
-    Req: true
-    Private: false
-    Key: true
-  design_description:
-    Desc: Free-form description of the methods used to create the sequencing library; a brief 'materials and methods' section.
-    Type: string
-    Req: true
-    Private: false
   # common file props
   file_name:
     Desc: The name by which a set of related records (either written or electronic) are known.
@@ -1767,31 +1749,26 @@ PropDefinitions:
       - "Unknown" 
     Req: true
     Private: false
-  vital_status:
-    Desc: The survival state of the person registered on the protocol.
-    Term:
-      - Origin: caDSR
-        Code: '5'
-        Value: Patient Vital Status
-      - Origin: caDSR
-        Code: '2847330'
-        Value: Participant Vital Status
-    Enum:
-      - "Alive"
-      - "Dead"
-      - "Death"
-      - "Lost to Follow-up"
-      - "Not Reported"
-      - "Subject decided to withdraw from study"
-      - "Unknown"
-      - "Unspecified"
-    Req: true
-    Private: false
-  dbGaP_subject_id:
-    Desc: This is the identifer assigned to the participant by dbGap.
-    Type: string
-    Req: false
-    Private: false    
+#  vital_status:
+#    Desc: The survival state of the person registered on the protocol.
+#    Term:
+#      - Origin: caDSR
+#        Code: '5'
+#        Value: Patient Vital Status
+#      - Origin: caDSR
+#        Code: '2847330'
+#        Value: Participant Vital Status
+#    Enum:
+#      - "Alive"
+#      - "Dead"
+#      - "Death"
+#      - "Lost to Follow-up"
+#      - "Not Reported"
+#      - "Subject decided to withdraw from study"
+#      - "Unknown"
+#      - "Unspecified"
+#    Req: true
+#    Private: false 
  # sample
   sample_id:
     Desc: A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.
@@ -3544,18 +3521,18 @@ PropDefinitions:
       - "progression" # new properties for new model 01/25/2022 adeforge
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
-  biosample_accession:
-    Desc: An alphanumeric identifier (SAMN accession number) assigned to a set of descriptive information for biological materials used to generate data that has been or will be submitted to archives provided by the National Center for Biotechnology Information (NCBI).  The alphanumeric identifier assigned to the specimen to uniquely identify it.
-    Term:
-      - Origin: caDSR
-        Code: '2230047'
-        Value: Specimen Accession Number
-      - Origin: NCIt
-        Code: 'C175889'
-        Value: BioSample Accession Number 
-    Type: string
-    Req: false
-    Private: false    
+#  biosample_accession:
+#    Desc: An alphanumeric identifier (SAMN accession number) assigned to a set of descriptive information for biological materials used to generate data that has been or will be submitted to archives provided by the National Center for Biotechnology Information (NCBI).  The alphanumeric identifier assigned to the specimen to uniquely identify it.
+#    Term:
+#      - Origin: caDSR
+#        Code: '2230047'
+#        Value: Specimen Accession Number
+#      - Origin: NCIt
+#        Code: 'C175889'
+#        Value: BioSample Accession Number 
+#    Type: string
+#    Req: false
+#    Private: false    
   derived_from_specimen:
     Desc: One or more characters used to identify the parent substance, or portion of material obtained for use in testing, examination, or study.
     Term:
@@ -3568,15 +3545,15 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false  
-  sample_age_at_collection:
-    Desc: Time interval from the date of biospecimen collection to the date of initial pathologic diagnosis, represented as a calculated number of days.
-    Term:
-      - Origin: caDSR
-        Code: '3008340'
-        Value: Biospecimen Collection Date Less Initial Pathologic Diagnosis Date Calculated Day Value
-    Type: string
-    Req: false
-    Private: false
+#  sample_age_at_collection:
+#    Desc: Time interval from the date of biospecimen collection to the date of initial pathologic diagnosis, represented as a calculated number of days.
+#    Term:
+#      - Origin: caDSR
+#        Code: '3008340'
+#        Value: Biospecimen Collection Date Less Initial Pathologic Diagnosis Date Calculated Day Value
+#    Type: string
+#    Req: false
+#    Private: false
   sample_description:
     Desc: Text description of a sample or specimen.
     Term:
@@ -4045,15 +4022,15 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  bioproject_accession:
-    Desc: An alphanumeric identifier (PRJ accession number) assigned to a collection of experimental data associated with a project by the National Center for Biotechnology Information (NCBI) BioProject repository.
-    Term:
-      - Origin: NCIt
-        Code: 'C175890'
-        Value: BioProject Accession Number 
-    Type: string
-    Req: false
-    Private: false    
+#  bioproject_accession:
+#    Desc: An alphanumeric identifier (PRJ accession number) assigned to a collection of experimental data associated with a project by the National Center for Biotechnology Information (NCBI) BioProject repository.
+#    Term:
+#      - Origin: NCIt
+#        Code: 'C175890'
+#        Value: BioProject Accession Number 
+#    Type: string
+#    Req: false
+#    Private: false    
   # study_funding
   funding_agency: # 0 or many per study
     Desc: An organization/Sponsor that underwrites financial support for projects of a particular type. Typically, they process applications and award funds to the chosen qualified applicants.
@@ -4088,11 +4065,11 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  clinical_trial_system:
-    Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
-    Type: string
-    Req: false
-    Private: false    
+#  clinical_trial_system:
+#    Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
+#    Type: string
+#    Req: false
+#    Private: false    
   funding_source_program_name:
     Desc: The name of the program that is providing funding.
     Term:

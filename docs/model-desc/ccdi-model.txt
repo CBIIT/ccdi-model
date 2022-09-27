@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit f4d6af7
+commit e73ecaf
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -13,7 +13,6 @@ clinical_measure_file	file_size	STRING
 clinical_measure_file	file_type	STRING
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
-clinical_measure_file	participant_id	STRING
 diagnosis	age_at_diagnosis	STRING
 diagnosis	days_to_last_followup	STRING
 diagnosis	days_to_last_known_disease_status	STRING

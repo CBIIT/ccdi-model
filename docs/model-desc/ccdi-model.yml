@@ -13,7 +13,6 @@ Nodes:
       - checksum_algorithm
       - checksum_value
       - file_mapping_level
-      - participant_id
   diagnosis: #09.20.22 pd
     Props:
      - diagnosis_id

@@ -56,7 +56,7 @@ Nodes:
       - file_url_in_cds
       - dcf_indexd_guid
       - file_mapping_level
-      - platform
+      - methylation_platform
       - reporter_label
   participant: # 02.28.22 pdunn
     Props:

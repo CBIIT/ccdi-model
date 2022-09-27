@@ -8739,4 +8739,8 @@ PropDefinitions:
     Req: false
     Private: false
     Key: true
-
+  methylation_platform:
+    Desc: The words used to describe the instrument used to carry out a methylation experiment.
+    Type: string
+    Req: true
+    Private: false  

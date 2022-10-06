@@ -1,4 +1,10 @@
 PropDefinitions:
+  #publication
+  pubmed_id: # string, the node in CDS schema
+    Desc: The accession number used in PubMed.
+    Type: string
+    Req: true
+    Private: false
   #synonym
   cds_node: # string, the node in CDS schema
     Desc: TBD.
@@ -1629,7 +1635,7 @@ PropDefinitions:
         Code: 'C171276'
         Value: MD5 Checksum 
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required?
+    Req: true
     Private: false
   md5sum:
     Desc: md5 hash.
@@ -3779,7 +3785,7 @@ PropDefinitions:
         Code: 'C172300'
         Value: Read Pair Number 
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
+    Req: true
     Private: false
   avg_read_length:
     Desc: The number of nucleotides successfully ordered from each side of a
@@ -3789,12 +3795,12 @@ PropDefinitions:
         Code: '6380354'
         Value: Nucleotide Sequence Read Length Number
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
+    Req: true
     Private: false
   coverage:
     Desc: Depth of coverage on assembly used. Found by (Unique Aligned Basecalls)/(Reference Length).
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
+    Req: true
     Private: false
   reference_genome_assembly:
     Desc: A published genetic sequence that is used as a reference sequence against which other sequences are compared. This is only if you are submitting a bam file aligned against a NCBI assembly.
@@ -3872,7 +3878,7 @@ PropDefinitions:
       - rRNA Depletion
       - Size fractionation
       - Unspecified
-    Req: false
+    Req: true
     Private: false    
   # study
   phs_accession:
@@ -4068,7 +4074,7 @@ PropDefinitions:
         Code: '2649415'
         Value: Clinical Trial Protocol Identifier 64 Character Text
     Type: string
-    Req: false
+    Req: true
     Private: false
 #  clinical_trial_system:
 #    Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
@@ -8736,7 +8742,7 @@ PropDefinitions:
   treatment_id:
     Desc: TBD.
     Type: string
-    Req: false
+    Req: true
     Private: false
     Key: true
   methylation_platform:

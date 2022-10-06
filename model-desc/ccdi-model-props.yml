@@ -1612,7 +1612,7 @@ PropDefinitions:
         Code: '7797710'
         Value: Raw Data File Format
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required?
+    Req: true
     Private: false
   file_description:
     Desc: TBD.

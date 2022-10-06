@@ -6,17 +6,6 @@ PropDefinitions:
     Req: true
     Private: false
   #synonym
-  cds_node: # string, the node in CDS schema
-    Desc: TBD.
-    Type: string
-    Req: true
-    Private: false
-  cds_id: #string, the CDS schema identifier
-    Desc: TBD.
-    Type: string
-    Req: true
-    Private: false
-    Key: true
   synonym_id:
     Desc: TBD.
     Type: string
@@ -26,8 +15,13 @@ PropDefinitions:
     Desc: TBD.
     Type: string
     Req: true
-    Private: false  
+    Private: false
   # clinical_measure_file
+  participant_list:
+    Desc: The list of participant ids that are found in this clinical file. This is often used for files that have a large number of participants referenced within the file.
+    Type: string
+    Reg: false
+    Private: false
   # diagnosis: 
   diagnosis_id:
     Desc: TBD.
@@ -3592,7 +3586,7 @@ PropDefinitions:
       - Unavailable
       - Unknown
       - Unspecified
-    Req: false
+    Req: true
     Private: false      
   # sequencing_file props
   library_id: # per dbGaP, library_id can be == sample_id if there is only 1 seq file per sample

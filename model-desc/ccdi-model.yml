@@ -13,6 +13,7 @@ Nodes:
       - checksum_algorithm
       - checksum_value
       - file_mapping_level
+      - participant_list
   diagnosis: #09.20.22 pd
     Props:
      - diagnosis_id
@@ -154,8 +155,6 @@ Nodes:
      Props:
       - synonym_id #the alternate or alias id in another repo
       - repository_of_synonym_id #the name of the other repo
-      - cds_node # the node in CDS schema
-      - cds_id # id in CDS 
   therapeutic_procedure:
     Props:
       - days_to_treatment

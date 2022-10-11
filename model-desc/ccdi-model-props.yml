@@ -4075,11 +4075,11 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-#  clinical_trial_system:
-#    Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
-#    Type: string
-#    Req: false
-#    Private: false    
+  clinical_trial_repository:
+    Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
+    Type: string
+    Req: false
+    Private: false    
   funding_source_program_name:
     Desc: The name of the program that is providing funding.
     Term:

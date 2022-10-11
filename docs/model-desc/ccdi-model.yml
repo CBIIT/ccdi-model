@@ -73,11 +73,9 @@ Nodes:
       - sample_id
       # - biosample_accession captured in synonym
       - sample_type 
-      - tumor_status # tumor or normal
       - sample_anatomic_site
       - participant_age_at_collection # 28.02.22 pdunn
       - tumor_grade
-      - tumor_stage
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m

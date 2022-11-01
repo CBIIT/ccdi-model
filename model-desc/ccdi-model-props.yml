@@ -7,12 +7,12 @@ PropDefinitions:
     Private: false
   #synonym
   synonym_id:
-    Desc: TBD.
+    Desc: The synonym of the id that is found in a different repository.
     Type: string
     Req: true
     Private: false
   repository_of_synonym_id:
-    Desc: TBD.
+    Desc: The repository of the synonym.
     Type: string
     Req: true
     Private: false
@@ -24,7 +24,7 @@ PropDefinitions:
     Private: false
   # diagnosis: 
   diagnosis_id:
-    Desc: TBD.
+    Desc: A unique string that is used for linking diagnosis metadata.
     Type: string
     Req: true
     Private: false
@@ -1120,7 +1120,7 @@ PropDefinitions:
     Req: true
     Private: false
   file_description:
-    Desc: TBD.
+    Desc: A freeform description of the file.
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -1165,7 +1165,7 @@ PropDefinitions:
     Req: true
     Private: false
   dcf_indexd_guid:
-    Desc: TBD.
+    Desc: An assigned globally unique identifier (GUID) that is assigned for the indexing process, making files available. This is usually not supplied by the submitter, but created in the ingestion process.
     Type: string
     Req: true
     Private: false
@@ -1195,7 +1195,7 @@ PropDefinitions:
     Req: true
     Private: false    
   software_package:
-    Desc: TBD.
+    Desc: The name of the software package that was used.
     Type: string
     Req: true
     Private: false

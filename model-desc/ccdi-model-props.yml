@@ -24,7 +24,7 @@ PropDefinitions:
     Private: false
   # diagnosis: 
   diagnosis_id:
-    Desc: A unique string that is used for linking diagnosis metadata.
+    Desc: A unique sequence of alphanumeric characters used to identify the diagnosis in the investigation or study, which is used for linking metadata.
     Type: string
     Req: true
     Private: false
@@ -3479,7 +3479,7 @@ PropDefinitions:
     Private: false       
   # study_admin
   study_admin_id:
-    Desc: The unique identifier for the study that will be used for linking purposes in the graph model.
+    Desc: A unique sequence of alphanumeric characters used to identify the admin in the investigation or study, which is used for linking metadata.
     Type: string
     Req: true
     Private: false
@@ -3591,7 +3591,7 @@ PropDefinitions:
     Private: false    
   # study_personnel
   study_personnel_id:  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
-    Desc: The unique identifier for the study that will be used for linking purposes in the graph model.
+    Desc: A unique sequence of alphanumeric characters used to identify the personnel in the investigation or study, which is used for linking metadata.
     Type: string
     Req: true
     Private: false
@@ -8239,7 +8239,7 @@ PropDefinitions:
     Req: false
     Private: false
   treatment_id:
-    Desc: The unique identifier for the study that will be used for linking purposes in the graph model.
+    Desc: A unique sequence of alphanumeric characters used to identify the treatment in the investigation or study, which is used for linking metadata.
     Type: string
     Req: true
     Private: false

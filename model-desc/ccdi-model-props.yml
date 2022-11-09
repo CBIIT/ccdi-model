@@ -1142,16 +1142,20 @@ PropDefinitions:
     Req: true
     Private: false
   checksum_value:
-    Desc: One or more characters using a irreversible unique number generated from a string of text to identify a set of related electronic records.
+    Desc: A small-sized block of data derived from a file for the purpose of detecting errors that may have been introduced during file transmission and/or storage and used to verify data integrity.
     Term:
       - Origin: caDSR
-        Code: '6115805'
-        Value: File Hash Value Identifier
+        Code: '11480133'
+        Value: Electronic Data File Checksum Value
     Type: string
     Req: false
     Private: false
   checksum_algorithm:
-    Desc: Cryptographic checksum algorithm used for 'checksum_value' field. Available for use of something other than md5.
+    Desc: The method by which the file checksum was calculated. (Something other than md5sum)
+    Term:
+      - Origin: caDSR
+        Code: '11475057'
+        Value: Electronic Data File Checksum Type
     Type: string
     Req: false
     Private: false    
@@ -1750,11 +1754,11 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
   tumor_grade:
-    Desc: Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.
+    Desc: A text term to express the degree of abnormality of cancer cells as a measure of differentiation and aggressiveness.
     Term:
       - Origin: caDSR
-        Code: '2785839'
-        Value: Specimen Histologic Grade Grading System Name Histologic Grade
+        Code: '11325685'
+        Value: Diagnosis Tumor Grade
     Enum:
       - "G1"
       - "G2"
@@ -3524,8 +3528,11 @@ PropDefinitions:
     Req: false
     Private: false
   acl: #populated from a dbGAP query?
-    Desc: Specifies whether the data in a repository is open access or controlled access. 
+    Desc: A free text field used to document whether the data in a repository is open access or controlled access. 
     Term:
+      - Origin: caDSR
+        Code: '11555664'
+        Value: Electronic Data File Access Level Text
       - Origin: NCIt
         Code: 'C175887'
         Value: Open or Controlled Data Access Indicator 

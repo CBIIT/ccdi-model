@@ -3385,8 +3385,11 @@ PropDefinitions:
     Private: false    
   # study
   phs_accession:
-    Desc: A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP). 
+    Desc: Systematic investigation into a subject in order to discover facts, establish or revise a theory, or develop a plan of action based on the facts discovered.:A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP).:Unique identifier for an object. 
     Term:
+      - Origin: caDSR
+        Code: '11524544'
+        Value: Research Activity dbGaP Accession Number Identifier
       - Origin: NCIt
         Code: 'C173940'
         Value: dbGaP Accession Number 
@@ -3395,11 +3398,15 @@ PropDefinitions:
     Private: false
     Key: true
   study_short_title:
-    Desc: The succinct version of the study title if it exists.
+    Desc: The acronym or abbreviated form of the title for a research data collection.  Example – GLIOMA01
+    Term:
+      - Origin: caDSR
+        Code: '11459812'
+        Value: Study Short Name Text
     Type: string
     Req: true
     Private: false
-  study_acronym:
+  study_acronym: #Most likely redundant with study_short_title now, 9Nov2022
     Desc: A one word acronym to represent the study.
     Type: string
     Req: true
@@ -3473,8 +3480,11 @@ PropDefinitions:
     Req: false
     Private: false
   study_name:
-    Desc: The name applied to an investigational project, also known as Study Title.
+    Desc: The narrative title used as a textual label for a research data collection.  Example – Comparative Molecular Life History of Spontaneous Canine and Human Gliomas
     Term:
+      - Origin: caDSR
+        Code: '11459810'
+        Value: Study Name Text
       - Origin: NCIt
         Code: 'C165056'
         Value: Project Name

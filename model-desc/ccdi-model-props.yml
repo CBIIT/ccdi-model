@@ -44,11 +44,11 @@ PropDefinitions:
     Req: false
     Private: false
   primary_site:
-    Desc: The text term used to describe the general location of the malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+    Desc: The organ or part of the body where cancer begins as captured by the topography codes of the International Classification of Diseases for Oncology, 3rd Edition (ICD-O-3).
     Term:
       - Origin: caDSR
-        Code: '6161019'
-        Value: ICD-O Primary Anatomic Site Category
+        Code: '11341616'
+        Value: Diagnosis Primary Anatomic Site ICD-O-3 Code
       - Origin: NCIt
         Code: 'C158874'
         Value: Primary Site of Disease 
@@ -1332,11 +1332,11 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
   disease_type:
-    Desc: The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+    Desc: An alphanumeric value from the 2023 extension of the tenth version of the International Classification of Disease (ICD-10-CM, the disease code subset of ICD-10) used to identify the diagnosis in humans.
     Term:
       - Origin: caDSR
-        Code: '6161017'
-        Value: ICD-O Disease Diagnosis Category
+        Code: '11479873'
+        Value: Diagnosis Disease or Disorder ICD-10-CM Code
       - Origin: NCIt
         Code: 'C2991'
         Value: Disease or Disorder 
@@ -3562,7 +3562,11 @@ PropDefinitions:
     Private: false
     Key: true
   clinical_trial_arm:
-    Desc: ARM of the clinical trial.
+    Desc: The treatment arm of the clinical trial.
+    Term:
+      - Origin: caDSR
+        Code: 11524548
+        Value: Clinical Study Protocol Treatment Arm Text
     Type: string
     Req: false
     Private: false

@@ -3431,8 +3431,11 @@ PropDefinitions:
     Req: false
     Private: false 
   number_of_participants:
-    Desc: The number of participants in the study for a disease, disorder, condition, or problem.
+    Desc: The number of participant instances associated with systematic investigation into a subject.
     Term:
+      - Origin: caDSR
+        Code: '11555662'
+        Value: Research Activity Number of Cases Count
       - Origin: NCIt
         Code: 'C175885'
         Value: Number of Cases
@@ -3440,8 +3443,11 @@ PropDefinitions:
     Req: false
     Private: false
   number_of_samples:
-    Desc: The number of samples in the study, often used as a subset of a larger population, selected for investigation to draw conclusions or make estimates about the larger population. 
+    Desc: The number of samples associated with a subset of a larger population  associated with systematic investigation into a subject. 
     Term:
+      - Origin: caDSR
+        Code: '11555663'
+        Value: Research Activity Sample Size Count
       - Origin: NCIt
         Code: 'C53190'
         Value: Sample Size
@@ -3461,11 +3467,11 @@ PropDefinitions:
     Req: false
     Private: false
   study_data_types:
-    Desc: The field of study(s) associated with the data collection.
+    Desc: A classification of the study based upon the primary intent of the study’s activities.
     Term:
       - Origin: caDSR
-        Code: '6944407'
-        Value: Data Collection Discipline Occupation or Discipline Type
+        Code: '11160683'
+        Value: Study Primary Purpose Type
       - Origin: NCIt
         Code: 'C175886'
         Value: Scientific Data Type
@@ -3513,8 +3519,11 @@ PropDefinitions:
     Req: true
     Private: false
   adult_or_childhood_study: # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
-    Desc: Specifies whether a study is using adults and/or children as subjects. 
+    Desc: The identifiable class of the study participant based upon their age. 
     Term:
+      - Origin: caDSR
+        Code: '11524549'
+        Value: Study Subject Legal Adult Or Pediatric Participant Type
       - Origin: NCIt
         Code: 'C175884'
         Value: Adult and/or Child Study Indicator
@@ -3529,8 +3538,11 @@ PropDefinitions:
     Req: false
     Private: false
   file_types_and_format: # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
-    Desc: Specific kind of files in the dataset that will be uploaded to the study.
+    Desc: A defined organization or layout representing and structuring data in a computer file.
     Term:
+      - Origin: caDSR
+        Code: '11416926'
+        Value: Electronic Data File Format Type
       - Origin: NCIt
         Code: 'C171252'
         Value: Electronic File Format 
@@ -3560,8 +3572,11 @@ PropDefinitions:
 #    Private: false    
   # study_funding
   funding_agency: # 0 or many per study
-    Desc: An organization/Sponsor that underwrites financial support for projects of a particular type. Typically, they process applications and award funds to the chosen qualified applicants.
+    Desc: The name of the funding source organization or sponsor.
     Term:
+      - Origin: caDSR
+        Code: '11524545'
+        Value: Funding Agency Organization Name Text
       - Origin: NCIt
         Code: 'C39409'
         Value: Funding Agency 
@@ -3597,13 +3612,20 @@ PropDefinitions:
     Req: true
     Private: false
   clinical_trial_repository:
-    Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
+    Desc: The name of the organization that provides the clinical trial identifier.
+    Term:
+      - Origin: caDSR
+        Code: '11524547'
+        Value: Digital Data Repository Owning Organization Name Text
     Type: string
     Req: false
     Private: false    
   funding_source_program_name:
-    Desc: The name of the program that is providing funding.
+    Desc: The name of the program within the funding agency.
     Term:
+      - Origin: caDSR
+        Code: '11524546'
+        Value: Funding Agency Program Name Text
       - Origin: NCIt
         Code: 'C166274'
         Value: Program Name 

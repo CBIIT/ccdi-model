@@ -30,11 +30,11 @@ PropDefinitions:
     Private: false
     Key: true
   primary_diagnosis:
-    Desc: Text term used to describe the patient's histologic diagnosis, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+    Desc: An alphanumeric value from the 2022 extension of the tenth version of the International Classification of Disease (ICD-10-CM, the disease code subset of ICD-10) used to identify the diagnosis in humans.
     Term:
       - Origin: caDSR
-        Code: '6161032'
-        Value: ICD-O Primary Disease Diagnosis Type
+        Code: '11479873'
+        Value: Diagnosis Disease or Disorder ICD-10-CM Code
     Type: string
     Req: true
     Private: false
@@ -749,7 +749,7 @@ PropDefinitions:
         Value: New Neoplasm Event Post Initial Therapy Indicator
     Enum:
       - 'No'
-      - Unknown
+      - 'Unknown'
       - 'Yes'
     Req: false
     Private: false    
@@ -1265,11 +1265,8 @@ PropDefinitions:
     Req: true
     Private: false
 #  vital_status:
-#    Desc: The survival state of the person registered on the protocol.
+#    Desc: The response to a question that describes a participant's survival status.
 #    Term:
-#      - Origin: caDSR
-#        Code: '5'
-#        Value: Patient Vital Status
 #      - Origin: caDSR
 #        Code: '2847330'
 #        Value: Participant Vital Status
@@ -1341,11 +1338,11 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
   disease_type:
-    Desc: An alphanumeric value from the 2023 extension of the tenth version of the International Classification of Disease (ICD-10-CM, the disease code subset of ICD-10) used to identify the diagnosis in humans.
+    Desc: The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Term:
       - Origin: caDSR
-        Code: '11479873'
-        Value: Diagnosis Disease or Disorder ICD-10-CM Code
+        Code: '6161017'
+        Value: ICD-O Disease Diagnosis Category
       - Origin: NCIt
         Code: 'C2991'
         Value: Disease or Disorder 
@@ -1759,11 +1756,11 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
   tumor_grade:
-    Desc: A text term to express the degree of abnormality of cancer cells as a measure of differentiation and aggressiveness.
+    Desc: Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.
     Term:
       - Origin: caDSR
-        Code: '11325685'
-        Value: Diagnosis Tumor Grade
+        Code: '2785839'
+        Value: Specimen Histologic Grade Grading System Name Histologic Grade
     Enum:
       - "G1"
       - "G2"
@@ -1871,11 +1868,11 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   tumor_morphology:
-    Desc: Code that represents the histology of the disease using the third edition of the International Classification of Diseases for Oncology, published in 2000, used principally in tumor and cancer registries for coding the site (topography) and the histology (morphology) of neoplasms.
+    Desc: The coded result of analyzing the microscopic anatomy of normal and abnormal cells and tissues of the specimen by examining a thin slice (section) under a light (optical) or electron microscope. The code represents the histology of the disease using the third edition of the International Classification of Diseases for Oncology.
     Term:
       - Origin: caDSR
-        Code: '3226275'
-        Value: International Classification of Diseases for Oncology, Third Edition ICD-O-3 Histology Code
+        Code: '11326261'
+        Value: Specimen Tumor Tissue ICD-O-3 Morphology Code
     Enum:
       - 8000/0
       - 8000/1
@@ -3287,8 +3284,11 @@ PropDefinitions:
     Req: false
     Private: false
   number_of_reads:
-    Desc: Count of the number of reads in the data. Please count each read only once if using secondary alignments.
+    Desc: The number of sequencing reaction results that were pooled to assemble a sequence for a genomic region of interest. Please count each read only once if using secondary alignments.
     Term:
+      - Origin: caDSR
+        Code: '11529035'
+        Value: Sequencing Library Sequence Read Count
       - Origin: NCIt
         Code: 'C172300'
         Value: Read Pair Number 
@@ -3296,8 +3296,7 @@ PropDefinitions:
     Req: false
     Private: false
   avg_read_length:
-    Desc: The number of nucleotides successfully ordered from each side of a
-      nucleic acid fragment obtained after the completion of a sequencing process.
+    Desc: The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.
     Term:
       - Origin: caDSR
         Code: '6380354'
@@ -3306,13 +3305,20 @@ PropDefinitions:
     Req: false
     Private: false
   coverage:
-    Desc: Depth of coverage on assembly used. Found by (Unique Aligned Basecalls)/(Reference Length).
+    Desc: The number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.
+    Term:
+      - Origin: caDSR
+        Code: '11556322'
+        Value: Genome Assembly Sequence Depth of Coverage Number
     Type: string
     Req: false
     Private: false
   reference_genome_assembly:
     Desc: A published genetic sequence that is used as a reference sequence against which other sequences are compared. This is only if you are submitting a bam file aligned against a NCBI assembly.
     Term:
+      - Origin: caDSR
+        Code: '11529031'
+        Value: Sequencing Library Genetic Reference Sequence Text
       - Origin: NCIt
         Code: 'C164388'
         Value: Genetic Reference Sequence 
@@ -3320,13 +3326,20 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
   custom_assembly_fasta_file_for_alignment:
-    Desc: The name of the custom assembly fasta file used during alignment.
+    Desc: The name of the custom assembly fasta file used during sequence alignment.
+    Term:
+      - Origin: caDSR
+        Code: '11636299'
+        Value: Sequence Alignment Custom Genome Assembly FASTA Format Name
     Type: string
     Req: false
     Private: false    
   sequence_alignment_software:
     Desc: The name of the software program used to align nucleotide sequencing data. 
     Term:
+      - Origin: caDSR
+        Code: '11529072'
+        Value: Nucleotide Sequence Alignment Software Name Text
       - Origin: NCIt
         Code: 'C175896'
         Value: Sequence Alignment Software Name 

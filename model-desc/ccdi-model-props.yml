@@ -3098,8 +3098,11 @@ PropDefinitions:
     Private: false      
   # sequencing_file props
   library_id: # per dbGaP, library_id can be == sample_id if there is only 1 seq file per sample
-    Desc: Short unique identifier for the sequencing library.
+    Desc: A short unique identifier assigned to a nucleotide sequencing library.
     Term:
+      - Origin: caDSR
+        Code: '11555660'
+        Value: Sequencing Library Unique Identifier Text
       - Origin: NCIt
         Code: 'C175893'
         Value: Sequencing Library Unique Identifier 
@@ -3234,8 +3237,11 @@ PropDefinitions:
     Req: true
     Private: false    
   library_layout: 
-    Desc: Paired-end or Single
+    Desc: The read strategy or method that was used for sequencing and analysis of a nucleotide library. (Paired-end or Single)
     Term:
+      - Origin: caDSR
+        Code: '11527735'
+        Value: Sequencing Library Read Layout Type
       - Origin: NCIt
         Code: 'C175894'
         Value: Sequencing Library Read Layout Indicator 

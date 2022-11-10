@@ -1264,24 +1264,24 @@ PropDefinitions:
       - "Unknown" 
     Req: true
     Private: false
-#  vital_status:
-#    Desc: The response to a question that describes a participant's survival status.
-#    Term:
-#      - Origin: caDSR
-#        Code: '2847330'
-#        Value: Participant Vital Status
-#    Enum:
-#      - "Alive"
-#      - "Dead"
-#      - "Death"
-#      - "Lost to Follow-up"
-#      - "Not Reported"
-#      - "Subject decided to withdraw from study"
-#      - "Unknown"
-#      - "Unspecified"
-#    Req: true
-#    Private: false 
- # sample
+  vital_status:
+    Desc: The response to a question that describes a participant's survival status.
+    Term:
+      - Origin: caDSR
+        Code: '2847330'
+        Value: Participant Vital Status
+    Enum:
+      - "Alive"
+      - "Dead"
+      - "Death"
+      - "Lost to Follow-up"
+      - "Not Reported"
+      - "Subject decided to withdraw from study"
+      - "Unknown"
+      - "Unspecified"
+    Req: true
+    Private: false 
+# sample
   sample_id:
     Desc: A unique sequence of alphanumeric characters used to identify the specimen at it's point of origin.
     Term:

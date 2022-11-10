@@ -1101,9 +1101,6 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6115804'
         Value: File Occurrence Name
-      - Origin: caDSR
-        Code: '7787681'
-        Value: Raw Data Electronic File Name
     Type: string
     Req: true
     Private: false
@@ -1113,9 +1110,6 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6983162'
         Value: File Type Descriptive Text
-      - Origin: caDSR
-        Code: '7797710'
-        Value: Raw Data File Format
     Type: string
     Req: true
     Private: false
@@ -1137,16 +1131,20 @@ PropDefinitions:
     Req: true
     Private: false
   md5sum:
-    Desc: md5 hash.
+    Desc: A 32-character hexadecimal number that is computed on a file.
+    Term:
+      - Origin: caDSR
+        Code: '11556150'
+        Value: File MD5 Checksum Text
     Type: string
     Req: true
     Private: false
   checksum_value:
-    Desc: A small-sized block of data derived from a file for the purpose of detecting errors that may have been introduced during file transmission and/or storage and used to verify data integrity.
+    Desc: One or more characters using a irreversible unique number generated from a string of text to identify a set of related electronic records.
     Term:
       - Origin: caDSR
-        Code: '11480133'
-        Value: Electronic Data File Checksum Value
+        Code: '6115805'
+        Value: File Hash Value Identifier
     Type: string
     Req: false
     Private: false
@@ -1160,8 +1158,11 @@ PropDefinitions:
     Req: false
     Private: false    
   file_url_in_cds:
-    Desc: Location of the file on the CDS Cloud, using AWS S3 protocol.
+    Desc: The specification of a node (file or directory) in a hierarchical file system where an electronic file is located. (Location of the file on the CDS Cloud, using AWS S3 protocol.)
     Term:
+      - Origin: caDSR
+        Code: '11556141'
+        Value: Electronic File Pathname Text
       - Origin: NCIt
         Code: 'C47922'
         Value: Pathname
@@ -1285,17 +1286,21 @@ PropDefinitions:
 #    Private: false 
  # sample
   sample_id:
-    Desc: A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.
+    Desc: A unique sequence of alphanumeric characters used to identify the specimen at it's point of origin.
+    Term:
+      - Origin: caDSR
+        Code: '6921892'
+        Value: Biospecimen Source Laboratory Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   sample_type: 
-    Desc: Text term to describe the source of a biospecimen used for a laboratory test.
+    Desc: The kind of material that forms the sample.
     Term:
       - Origin: caDSR
-        Code: '3111302'
-        Value: Specimen Type Collection Biospecimen Type
+        Code: '11253427'
+        Value: Specimen Type Text
     Enum: 
       - "Ascites"
       - "Blood"
@@ -1407,11 +1412,11 @@ PropDefinitions:
     Req: true
     Private: false
   sample_anatomic_site:
-    Desc: The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+    Desc: Text term that represents the name of the primary disease site of the submitted tumor sample.
     Term:
       - Origin: caDSR
-        Code: '6161035'
-        Value: ICD-O Origin of Disease Anatomic Site
+        Code: '4742851'
+        Value: Submitted Tumor Sample Primary Anatomic Site
     Enum:
       - "Abdomen, NOS"
       - "Abdominal esophagus"
@@ -3053,18 +3058,15 @@ PropDefinitions:
 #      - Origin: caDSR
 #        Code: '5581201'
 #        Value: Parent Specimen Label Identifier
-#      - Origin: caDSR
-#        Code: '5220155'
-#        Value: Conceptual Parent Biospecimen Investigational Key Barcode
 #    Type: string
 #    Req: false
 #    Private: false  
 #  sample_age_at_collection:
-#    Desc: Time interval from the date of biospecimen collection to the date of initial pathologic diagnosis, represented as a calculated number of days.
+#    Desc: The number of days from the date a sample was collected to the date of the initial pathologic diagnosis.
 #    Term:
 #      - Origin: caDSR
-#        Code: '3008340'
-#        Value: Biospecimen Collection Date Less Initial Pathologic Diagnosis Date Calculated Day Value
+#        Code: '11253404'
+#        Value: Specimen Collection To Initial Pathologic Diagnosis Day Count
 #    Type: string
 #    Req: false
 #    Private: false
@@ -3074,9 +3076,6 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2003907'
         Value: Sample Description Text
-      - Origin: caDSR
-        Code: '5432687'
-        Value: Tissue Sample Description
     Type: string
     Req: false
     Private: false

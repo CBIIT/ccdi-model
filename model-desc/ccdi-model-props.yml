@@ -3233,6 +3233,15 @@ PropDefinitions:
       - "Unknown"
     Req: true
     Private: false    
+  design_description:
+    Desc: A written description of the materials and methods used to create the sequencing library.
+    Term:
+      - Origin: caDSR
+        Code: '11529028'
+        Value: Sequencing Library Design Description Text
+    Type: string
+    Req: False
+    Private: False
   library_layout: 
     Desc: The read strategy or method that was used for sequencing and analysis of a nucleotide library. (Paired-end or Single)
     Term:

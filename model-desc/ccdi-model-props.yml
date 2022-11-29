@@ -3624,7 +3624,7 @@ PropDefinitions:
     Desc: The treatment arm of the clinical trial.
     Term:
       - Origin: caDSR
-        Code: 11524548
+        Code: '11524548'
         Value: Clinical Study Protocol Treatment Arm Text
     Type: string
     Req: false

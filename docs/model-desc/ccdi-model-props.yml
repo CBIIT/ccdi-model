@@ -7,12 +7,12 @@ PropDefinitions:
     Private: false
   #synonym
   synonym_id:
-    Desc: TBD.
+    Desc: The synonym of the id that is found in a different repository.
     Type: string
     Req: true
     Private: false
   repository_of_synonym_id:
-    Desc: TBD.
+    Desc: The repository of the synonym.
     Type: string
     Req: true
     Private: false
@@ -24,7 +24,7 @@ PropDefinitions:
     Private: false
   # diagnosis: 
   diagnosis_id:
-    Desc: TBD.
+    Desc: A unique sequence of alphanumeric characters used to identify the diagnosis in the investigation or study, which is used for linking metadata.
     Type: string
     Req: true
     Private: false
@@ -1120,7 +1120,7 @@ PropDefinitions:
     Req: true
     Private: false
   file_description:
-    Desc: TBD.
+    Desc: A freeform description of the file.
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -1165,7 +1165,7 @@ PropDefinitions:
     Req: true
     Private: false
   dcf_indexd_guid:
-    Desc: TBD.
+    Desc: An assigned globally unique identifier (GUID) that is assigned for the indexing process, making files available. This is usually not supplied by the submitter, but created in the ingestion process.
     Type: string
     Req: true
     Private: false
@@ -1180,7 +1180,7 @@ PropDefinitions:
     Private: false    
   # imaging file props
   image_modality:
-    Desc: TBD.
+    Desc: The method in which the images are generated.
     Type: string
     Req: true
     Private: false
@@ -1195,7 +1195,7 @@ PropDefinitions:
     Req: true
     Private: false    
   software_package:
-    Desc: TBD.
+    Desc: The name of the software package that was used.
     Type: string
     Req: true
     Private: false
@@ -1745,7 +1745,7 @@ PropDefinitions:
     Req: true
     Private: false
   participant_age_at_collection: # aka sample_collection_study_day (i.e. study day for the subject when sample collected) , it might be helpful to also have sample_collection_event (i.e. index event for collection day enum: enrollment, diagnosis, treatment,) 
-    Desc: TBD.
+    Desc: The age of the participant (in years) at the time of sample collection.
     Type: string  # 01/26/2022 adeforge, all ages are integers!! 28feb22 pdunn
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -3023,7 +3023,7 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
   tumor_incidence_type: # primary, metastatic, recurrence, progression
-    Desc: TBD.
+    Desc: The tumor type of the sample.
     Enum:
       - "primary" 
       - "metastatic"
@@ -3401,12 +3401,12 @@ PropDefinitions:
     Req: true
     Private: false
   study_description:
-    Desc: TBD.
+    Desc: The long form description of the study.
     Type: string
     Req: true
     Private: false
   external_url:
-    Desc: TBD.
+    Desc: The url of the study (often a dbGaP study page).
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -3479,7 +3479,7 @@ PropDefinitions:
     Private: false       
   # study_admin
   study_admin_id:
-    Desc: TBD.
+    Desc: A unique sequence of alphanumeric characters used to identify the admin in the investigation or study, which is used for linking metadata.
     Type: string
     Req: true
     Private: false
@@ -3510,7 +3510,7 @@ PropDefinitions:
     Req: true
     Private: false
   data_types: # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
-    Desc: TBD.
+    Desc: The types of data files that can be found in the study.
     Type: string
     Req: false
     Private: false
@@ -3591,18 +3591,18 @@ PropDefinitions:
     Private: false    
   # study_personnel
   study_personnel_id:  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
-    Desc: TBD.
+    Desc: A unique sequence of alphanumeric characters used to identify the personnel in the investigation or study, which is used for linking metadata.
     Type: string
     Req: true
     Private: false
     Key: true
   personnel_name:
-    Desc: TBD.
+    Desc: The name of personnel who is an organizer in the study.
     Type: string
     Req: true
     Private: false
   personnel_type: #enum: PI, Co-PI, Data Submitter, etc
-    Desc: TBD.
+    Desc: The role of personnel in the study.
     Enum:
       - "PI"
       - "Co-PI"
@@ -3611,12 +3611,12 @@ PropDefinitions:
     Req: true
     Private: false
   email_address:
-    Desc: TBD.
+    Desc: The email address of the personnel.
     Type: string
     Req: true
     Private: false
   institution:
-    Desc: TBD.
+    Desc: The institution of the personnel.
     Type: string
     Req: true  # 28feb22 pdunn
     Private: false
@@ -8239,7 +8239,7 @@ PropDefinitions:
     Req: false
     Private: false
   treatment_id:
-    Desc: TBD.
+    Desc: A unique sequence of alphanumeric characters used to identify the treatment in the investigation or study, which is used for linking metadata.
     Type: string
     Req: true
     Private: false

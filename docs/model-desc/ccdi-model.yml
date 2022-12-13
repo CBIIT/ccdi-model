@@ -28,7 +28,6 @@ Nodes:
      - tissue_or_organ_of_origin
      - days_to_last_followup
      - progression_or_recurrence
-     - site_of_resection_or_biopsy
   imaging_file: # 01.03.22 pdunn
     Props:
       - file_name

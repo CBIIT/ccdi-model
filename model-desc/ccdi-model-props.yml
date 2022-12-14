@@ -136,7 +136,7 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C156420'
         Value: Age at Diagnosis 
-    Type: string
+    Type: integer
     Req: true
     Private: false
   days_to_recurrence:

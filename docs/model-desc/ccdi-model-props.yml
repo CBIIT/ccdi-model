@@ -5,6 +5,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   #synonym
   synonym_id:
     Desc: The synonym of the id that is found in a different repository.
@@ -3234,6 +3235,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   clinical_trial_repository:
     Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
     Type: string

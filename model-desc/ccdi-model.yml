@@ -63,6 +63,8 @@ Nodes:
       - race       
       - gender
       - ethnicity
+      - consent
+      - consent_shorthand
       # - dbgap_subject_id : store in synonym
   publication: # 09.20.22 pd
      Props:

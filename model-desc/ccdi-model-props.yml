@@ -3039,6 +3039,11 @@ PropDefinitions:
       - Unspecified
     Req: true
     Private: false    
+  design_description:
+    Desc: Free-form description of the methods used to create the sequencing library; a brief 'materials and methods' section.
+    Type: string
+    Req: true
+    Private: false
   # study
   phs_accession:
     Desc: A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP). 

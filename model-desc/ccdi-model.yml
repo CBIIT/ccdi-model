@@ -99,6 +99,7 @@ Nodes:
       - library_source  # sra req'd # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
       - number_of_bp  # sra req'd
       - number_of_reads  # sra req'd
+      - design_description
       - platform
       - instrument_model
       - avg_read_length # sra req'd

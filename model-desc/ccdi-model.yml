@@ -195,7 +195,7 @@ Relationships:
         Dst: participant
   of_sample_diagnosis: 
     Props: null
-    Mul: many_to_one
+    Mul: one_to_one
     Ends:
       - Src: sample_diagnosis
         Dst: sample        

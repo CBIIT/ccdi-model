@@ -136,7 +136,7 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C156420'
         Value: Age at Diagnosis 
-    Type: string
+    Type: integer
     Req: true
     Private: false
   days_to_recurrence:
@@ -145,7 +145,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6154731'
         Value: Index Date To Recurrence Day Count
-    Type: string
+    Type: integer
     Req: false
     Private: false     
   last_known_disease_status:
@@ -173,7 +173,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3008273'
         Value: Last Communication Contact Less Initial Pathologic Diagnosis Date Calculated Day Value
-    Type: string
+    Type: integer
     Req: false
     Private: false  
   tissue_or_organ_of_origin:
@@ -739,7 +739,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3008273'
         Value: Last Communication Contact Less Initial Pathologic Diagnosis Date Calculated Day Value
-    Type: string
+    Type: integer
     Req: false
     Private: false    
   progression_or_recurrence:
@@ -2934,7 +2934,7 @@ PropDefinitions:
     Private: false
   number_of_bp:
     Desc: Count of unique basecalls present in the data. Please count each base only once if using secondary alignments.
-    Type: string
+    Type: integer
     Req: false
     Private: false
   number_of_reads:
@@ -2943,7 +2943,7 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C172300'
         Value: Read Pair Number 
-    Type: string
+    Type: integer
     Req: false
     Private: false
   avg_read_length:
@@ -2953,12 +2953,12 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6380354'
         Value: Nucleotide Sequence Read Length Number
-    Type: string
+    Type: number
     Req: false
     Private: false
   coverage:
     Desc: Depth of coverage on assembly used. Found by (Unique Aligned Basecalls)/(Reference Length).
-    Type: string
+    Type: number
     Req: false
     Private: false
   reference_genome_assembly:
@@ -3039,6 +3039,11 @@ PropDefinitions:
       - Unspecified
     Req: true
     Private: false    
+  design_description:
+    Desc: Free-form description of the methods used to create the sequencing library; a brief 'materials and methods' section.
+    Type: string
+    Req: true
+    Private: false
   # study
   phs_accession:
     Desc: A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP). 
@@ -3085,7 +3090,7 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C175885'
         Value: Number of Cases
-    Type: string
+    Type: integer
     Req: false
     Private: false
   number_of_samples:
@@ -3094,7 +3099,7 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C53190'
         Value: Sample Size
-    Type: string
+    Type: integer
     Req: false
     Private: false    
   size_of_data_being_uploaded:
@@ -7896,7 +7901,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6154726'
         Value: Index Date To Treatment Start Day Count
-    Type: string
+    Type: integer
     Req: false
     Private: false
   treatment_id:

@@ -14,9 +14,9 @@ Nodes:
       - checksum_value
       - file_mapping_level
       - participant_list
-  participant_diagnosis: #09.20.22 pd
+  diagnosis: #09.20.22 pd
     Props:
-     - participant_diagnosis_id
+     - diagnosis_id
      - disease_type
      - primary_diagnosis
      - primary_diagnosis_reference_source
@@ -187,11 +187,11 @@ Relationships:
     Ends:
       - Src: clinical_measure_file
         Dst: participant
-  of_participant_diagnosis: 
+  of_diagnosis: 
     Props: null
     Mul: one_to_one
     Ends:
-      - Src: participant_diagnosis
+      - Src: diagnosis
         Dst: participant
   of_sample_diagnosis: 
     Props: null

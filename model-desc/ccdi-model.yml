@@ -187,13 +187,13 @@ Relationships:
     Ends:
       - Src: clinical_measure_file
         Dst: participant
-  of_diagnosis: 
+  of_participant_diagnosis: 
     Props: null
     Mul: one_to_one
     Ends:
       - Src: participant_diagnosis
         Dst: participant
-  of_diagnosis: 
+  of_sample_diagnosis: 
     Props: null
     Mul: many_to_one
     Ends:

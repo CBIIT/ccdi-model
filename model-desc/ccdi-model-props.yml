@@ -24,7 +24,7 @@ PropDefinitions:
     Reg: false
     Private: false
   # diagnosis: 
-  participant_diagnosis_id:
+  diagnosis_id:
     Desc: A unique sequence of alphanumeric characters used to identify the participant diagnosis in the investigation or study, which is used for linking metadata.
     Type: string
     Req: true

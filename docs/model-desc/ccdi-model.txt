@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit edeef71
+commit 2168c41
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -2376,6 +2376,704 @@ sample	tumor_stage_clinical_t	Tis
 sample	tumor_stage_clinical_t	Tis (DCIS)
 sample	tumor_stage_clinical_t	Tis (LCIS)
 sample	tumor_stage_clinical_t	Tis (Paget's)
+sample_diagnosis	age_at_diagnosis	INTEGER
+sample_diagnosis	days_to_last_followup	INTEGER
+sample_diagnosis	days_to_last_known_disease_status	INTEGER
+sample_diagnosis	days_to_recurrence	INTEGER
+sample_diagnosis	disease_type	Acinar Cell Neoplasms
+sample_diagnosis	disease_type	Adenomas and Adenocarcinomas
+sample_diagnosis	disease_type	Adnexal and Skin Appendage Neoplasms
+sample_diagnosis	disease_type	Basal Cell Neoplasms
+sample_diagnosis	disease_type	Blood Vessel Tumors
+sample_diagnosis	disease_type	Chronic Myeloproliferative Disorders
+sample_diagnosis	disease_type	Complex Epithelial Neoplasm
+sample_diagnosis	disease_type	Complex Mixed and Stromal Neoplasms
+sample_diagnosis	disease_type	Cystic, Mucinous and Serous Neoplasms
+sample_diagnosis	disease_type	Ductal and Lobular Neoplasms
+sample_diagnosis	disease_type	Epithelial Neoplasms, NOS
+sample_diagnosis	disease_type	Fibroepithelial Neoplasms
+sample_diagnosis	disease_type	Fibromatous Neoplasms
+sample_diagnosis	disease_type	Germ Cell Neoplasms
+sample_diagnosis	disease_type	Giant Cell Tumors
+sample_diagnosis	disease_type	Gliomas
+sample_diagnosis	disease_type	Granular Cell Tumors and Alveolar Soft Part Sarcomas
+sample_diagnosis	disease_type	Hodgkin Lymphoma
+sample_diagnosis	disease_type	Immunoproliferative Diseases
+sample_diagnosis	disease_type	Leukemias, NOS
+sample_diagnosis	disease_type	Lipomatous Neoplasms
+sample_diagnosis	disease_type	Lymphatic Vessel Tumors
+sample_diagnosis	disease_type	Lymphoid Leukemias
+sample_diagnosis	disease_type	Malignant Lymphomas, NOS or Diffuse
+sample_diagnosis	disease_type	Mast Cell Tumors
+sample_diagnosis	disease_type	Mature B-Cell Lymphomas
+sample_diagnosis	disease_type	Mature T- and NK-Cell Lymphomas
+sample_diagnosis	disease_type	Meningiomas
+sample_diagnosis	disease_type	Mesonephromas
+sample_diagnosis	disease_type	Mesothelial Neoplasms
+sample_diagnosis	disease_type	Miscellaneous Bone Tumors
+sample_diagnosis	disease_type	Miscellaneous Tumors
+sample_diagnosis	disease_type	Mucoepidermoid Neoplasms
+sample_diagnosis	disease_type	Myelodysplastic Syndromes
+sample_diagnosis	disease_type	Myeloid Leukemias
+sample_diagnosis	disease_type	Myomatous Neoplasms
+sample_diagnosis	disease_type	Myxomatous Neoplasms
+sample_diagnosis	disease_type	Neoplasms of Histiocytes and Accessory Lymphoid Cells
+sample_diagnosis	disease_type	Neoplasms, NOS
+sample_diagnosis	disease_type	Nerve Sheath Tumors
+sample_diagnosis	disease_type	Neuroepitheliomatous Neoplasms
+sample_diagnosis	disease_type	Nevi and Melanomas
+sample_diagnosis	disease_type	Not Applicable
+sample_diagnosis	disease_type	Not Reported
+sample_diagnosis	disease_type	Odontogenic Tumors
+sample_diagnosis	disease_type	Osseous and Chondromatous Neoplasms
+sample_diagnosis	disease_type	Other Hematologic Disorders
+sample_diagnosis	disease_type	Other Leukemias
+sample_diagnosis	disease_type	Paragangliomas and Glomus Tumors
+sample_diagnosis	disease_type	Plasma Cell Tumors
+sample_diagnosis	disease_type	Precursor Cell Lymphoblastic Lymphoma
+sample_diagnosis	disease_type	Soft Tissue Tumors and Sarcomas, NOS
+sample_diagnosis	disease_type	Specialized Gonadal Neoplasms
+sample_diagnosis	disease_type	Squamous Cell Neoplasms
+sample_diagnosis	disease_type	Synovial-like Neoplasms
+sample_diagnosis	disease_type	Thymic Epithelial Neoplasms
+sample_diagnosis	disease_type	Transitional Cell Papillomas and Carcinomas
+sample_diagnosis	disease_type	Trophoblastic neoplasms
+sample_diagnosis	disease_type	Unknown
+sample_diagnosis	last_known_disease_status	Biochemical evidence of disease without structural correlate
+sample_diagnosis	last_known_disease_status	Distant met recurrence/progression
+sample_diagnosis	last_known_disease_status	Loco-regional recurrence/progression
+sample_diagnosis	last_known_disease_status	Never Tumor Free
+sample_diagnosis	last_known_disease_status	New Tumor Event (remission/relapse)
+sample_diagnosis	last_known_disease_status	Tumor Free at Follow-up
+sample_diagnosis	last_known_disease_status	Tumor free
+sample_diagnosis	last_known_disease_status	Unknown
+sample_diagnosis	last_known_disease_status	Unknown tumor status
+sample_diagnosis	last_known_disease_status	With tumor
+sample_diagnosis	primary_diagnosis	STRING
+sample_diagnosis	primary_diagnosis_reference_source	STRING
+sample_diagnosis	primary_site	Accessory sinuses
+sample_diagnosis	primary_site	Adrenal gland
+sample_diagnosis	primary_site	Anus and anal canal
+sample_diagnosis	primary_site	Base of tongue
+sample_diagnosis	primary_site	Bladder
+sample_diagnosis	primary_site	Bones, joints and articular cartilage of limbs
+sample_diagnosis	primary_site	Bones, joints and articular cartilage of other and unspecified sites
+sample_diagnosis	primary_site	Brain
+sample_diagnosis	primary_site	Breast
+sample_diagnosis	primary_site	Bronchus and lung
+sample_diagnosis	primary_site	Cervix uteri
+sample_diagnosis	primary_site	Colon
+sample_diagnosis	primary_site	Connective, subcutaneous and other soft tissues
+sample_diagnosis	primary_site	Corpus uteri
+sample_diagnosis	primary_site	Esophagus
+sample_diagnosis	primary_site	Eye and adnexa
+sample_diagnosis	primary_site	Floor of Mouth
+sample_diagnosis	primary_site	Gallbladder
+sample_diagnosis	primary_site	Gum
+sample_diagnosis	primary_site	Heart, mediastinum, and pleura
+sample_diagnosis	primary_site	Hematopoietic and reticuloendothelial systems
+sample_diagnosis	primary_site	Hypopharynx
+sample_diagnosis	primary_site	Kidney
+sample_diagnosis	primary_site	Larynx
+sample_diagnosis	primary_site	Lip
+sample_diagnosis	primary_site	Liver and intrahepatic bile ducts
+sample_diagnosis	primary_site	Lymph nodes
+sample_diagnosis	primary_site	Meninges
+sample_diagnosis	primary_site	Nasal cavity and middle ear
+sample_diagnosis	primary_site	Nasopharynx
+sample_diagnosis	primary_site	Not Reported
+sample_diagnosis	primary_site	Oropharynx
+sample_diagnosis	primary_site	Other and ill-defined digestive organs
+sample_diagnosis	primary_site	Other and ill-defined sites
+sample_diagnosis	primary_site	Other and ill-defined sites in lip, oral cavity and pharynx
+sample_diagnosis	primary_site	Other and ill-defined sites within respiratory system and intrathoracic organs
+sample_diagnosis	primary_site	Other and unspecified female genital organs
+sample_diagnosis	primary_site	Other and unspecified major salivary glands
+sample_diagnosis	primary_site	Other and unspecified male genital organs
+sample_diagnosis	primary_site	Other and unspecified parts of biliary tract
+sample_diagnosis	primary_site	Other and unspecified parts of mouth
+sample_diagnosis	primary_site	Other and unspecified parts of tongue
+sample_diagnosis	primary_site	Other and unspecified urinary organs
+sample_diagnosis	primary_site	Other endocrine glands and related structures
+sample_diagnosis	primary_site	Ovary
+sample_diagnosis	primary_site	Palate
+sample_diagnosis	primary_site	Pancreas
+sample_diagnosis	primary_site	Parotid gland
+sample_diagnosis	primary_site	Penis
+sample_diagnosis	primary_site	Peripheral nerves and autonomic nervous system
+sample_diagnosis	primary_site	Placenta
+sample_diagnosis	primary_site	Prostate gland
+sample_diagnosis	primary_site	Pyriform sinus
+sample_diagnosis	primary_site	Rectosigmoid junction
+sample_diagnosis	primary_site	Rectum
+sample_diagnosis	primary_site	Renal pelvis
+sample_diagnosis	primary_site	Retroperitoneum and peritoneum
+sample_diagnosis	primary_site	Skin
+sample_diagnosis	primary_site	Small intestine
+sample_diagnosis	primary_site	Spinal cord, cranial nerves, and other parts of central nervous system
+sample_diagnosis	primary_site	Stomach
+sample_diagnosis	primary_site	Testis
+sample_diagnosis	primary_site	Thymus
+sample_diagnosis	primary_site	Thyroid gland
+sample_diagnosis	primary_site	Tonsil
+sample_diagnosis	primary_site	Trachea
+sample_diagnosis	primary_site	Unknown
+sample_diagnosis	primary_site	Ureter
+sample_diagnosis	primary_site	Uterus, NOS
+sample_diagnosis	primary_site	Vagina
+sample_diagnosis	primary_site	Vulva
+sample_diagnosis	progression_or_recurrence	No
+sample_diagnosis	progression_or_recurrence	Unknown
+sample_diagnosis	progression_or_recurrence	Yes
+sample_diagnosis	sample_diagnosis_id	STRING
+sample_diagnosis	tissue_or_organ_of_origin	Abdomen
+sample_diagnosis	tissue_or_organ_of_origin	Abdomen, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Abdominal Esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Abdominal esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Accessory sinus, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Acoustic nerve
+sample_diagnosis	tissue_or_organ_of_origin	Adrenal Cortex
+sample_diagnosis	tissue_or_organ_of_origin	Adrenal Gland
+sample_diagnosis	tissue_or_organ_of_origin	Adrenal Medulla
+sample_diagnosis	tissue_or_organ_of_origin	Adrenal gland, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Ampulla of Vater
+sample_diagnosis	tissue_or_organ_of_origin	Anal Canal
+sample_diagnosis	tissue_or_organ_of_origin	Anal Transitional Zone
+sample_diagnosis	tissue_or_organ_of_origin	Anal canal
+sample_diagnosis	tissue_or_organ_of_origin	Anterior 2/3 of tongue, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Anterior Mediastinum
+sample_diagnosis	tissue_or_organ_of_origin	Anterior Surface of the Epiglottis
+sample_diagnosis	tissue_or_organ_of_origin	Anterior Wall of the Bladder
+sample_diagnosis	tissue_or_organ_of_origin	Anterior Wall of the Nasopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Anterior floor of mouth
+sample_diagnosis	tissue_or_organ_of_origin	Anterior mediastinum
+sample_diagnosis	tissue_or_organ_of_origin	Anterior surface of epiglottis
+sample_diagnosis	tissue_or_organ_of_origin	Anterior wall of bladder
+sample_diagnosis	tissue_or_organ_of_origin	Anterior wall of nasopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Antrum Pylori
+sample_diagnosis	tissue_or_organ_of_origin	Anus
+sample_diagnosis	tissue_or_organ_of_origin	Anus, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Aortic body and other paraganglia
+sample_diagnosis	tissue_or_organ_of_origin	Appendage of the Uterus
+sample_diagnosis	tissue_or_organ_of_origin	Appendix
+sample_diagnosis	tissue_or_organ_of_origin	Ascending Colon
+sample_diagnosis	tissue_or_organ_of_origin	Ascending colon
+sample_diagnosis	tissue_or_organ_of_origin	Autonomic Nervous System
+sample_diagnosis	tissue_or_organ_of_origin	Autonomic nervous system, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Axillary Lymph Node
+sample_diagnosis	tissue_or_organ_of_origin	Axillary Tail of the Breast
+sample_diagnosis	tissue_or_organ_of_origin	Axillary tail of breast
+sample_diagnosis	tissue_or_organ_of_origin	Base of the Tongue
+sample_diagnosis	tissue_or_organ_of_origin	Base of tongue, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Biliary Tract
+sample_diagnosis	tissue_or_organ_of_origin	Biliary tract, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Bladder
+sample_diagnosis	tissue_or_organ_of_origin	Bladder Neck
+sample_diagnosis	tissue_or_organ_of_origin	Bladder Trigone
+sample_diagnosis	tissue_or_organ_of_origin	Bladder neck
+sample_diagnosis	tissue_or_organ_of_origin	Bladder, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Blood
+sample_diagnosis	tissue_or_organ_of_origin	Body of Stomach
+sample_diagnosis	tissue_or_organ_of_origin	Body of pancreas
+sample_diagnosis	tissue_or_organ_of_origin	Body of penis
+sample_diagnosis	tissue_or_organ_of_origin	Body of stomach
+sample_diagnosis	tissue_or_organ_of_origin	Body of the Pancreas
+sample_diagnosis	tissue_or_organ_of_origin	Body of the Penis
+sample_diagnosis	tissue_or_organ_of_origin	Bone
+sample_diagnosis	tissue_or_organ_of_origin	Bone Marrow
+sample_diagnosis	tissue_or_organ_of_origin	Bone marrow
+sample_diagnosis	tissue_or_organ_of_origin	Bone of limb, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Bone of the Extremity
+sample_diagnosis	tissue_or_organ_of_origin	Bone, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Bones of skull and face and associated joints
+sample_diagnosis	tissue_or_organ_of_origin	Border of tongue
+sample_diagnosis	tissue_or_organ_of_origin	Brain
+sample_diagnosis	tissue_or_organ_of_origin	Brain Stem
+sample_diagnosis	tissue_or_organ_of_origin	Brain Ventricle
+sample_diagnosis	tissue_or_organ_of_origin	Brain stem
+sample_diagnosis	tissue_or_organ_of_origin	Brain, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Branchial Cleft Remnant
+sample_diagnosis	tissue_or_organ_of_origin	Branchial cleft
+sample_diagnosis	tissue_or_organ_of_origin	Breast
+sample_diagnosis	tissue_or_organ_of_origin	Breast, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Broad Ligament
+sample_diagnosis	tissue_or_organ_of_origin	Broad ligament
+sample_diagnosis	tissue_or_organ_of_origin	Buccal Mucosa
+sample_diagnosis	tissue_or_organ_of_origin	Cardia, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Carotid Body
+sample_diagnosis	tissue_or_organ_of_origin	Carotid body
+sample_diagnosis	tissue_or_organ_of_origin	Cauda Equina
+sample_diagnosis	tissue_or_organ_of_origin	Cauda equina
+sample_diagnosis	tissue_or_organ_of_origin	Cecum
+sample_diagnosis	tissue_or_organ_of_origin	Central Portion of the Breast
+sample_diagnosis	tissue_or_organ_of_origin	Central portion of breast
+sample_diagnosis	tissue_or_organ_of_origin	Cerebellum
+sample_diagnosis	tissue_or_organ_of_origin	Cerebellum, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Cerebral Hemisphere
+sample_diagnosis	tissue_or_organ_of_origin	Cerebral Meninges
+sample_diagnosis	tissue_or_organ_of_origin	Cerebral meninges
+sample_diagnosis	tissue_or_organ_of_origin	Cerebrum
+sample_diagnosis	tissue_or_organ_of_origin	Cervical Esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Cervical esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Cervix Uteri
+sample_diagnosis	tissue_or_organ_of_origin	Cervix uteri
+sample_diagnosis	tissue_or_organ_of_origin	Cheek mucosa
+sample_diagnosis	tissue_or_organ_of_origin	Choroid
+sample_diagnosis	tissue_or_organ_of_origin	Ciliary Body
+sample_diagnosis	tissue_or_organ_of_origin	Ciliary body
+sample_diagnosis	tissue_or_organ_of_origin	Clitoris
+sample_diagnosis	tissue_or_organ_of_origin	Cloacogenic zone
+sample_diagnosis	tissue_or_organ_of_origin	Cochlear Nerve
+sample_diagnosis	tissue_or_organ_of_origin	Colon
+sample_diagnosis	tissue_or_organ_of_origin	Colon, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Commissure of lip
+sample_diagnosis	tissue_or_organ_of_origin	Commissure of the Lip
+sample_diagnosis	tissue_or_organ_of_origin	Conjunctiva
+sample_diagnosis	tissue_or_organ_of_origin	Connective, subcutaneous and other soft tissues of abdomen
+sample_diagnosis	tissue_or_organ_of_origin	Connective, subcutaneous and other soft tissues of head, face, and neck
+sample_diagnosis	tissue_or_organ_of_origin	Connective, subcutaneous and other soft tissues of lower limb and hip
+sample_diagnosis	tissue_or_organ_of_origin	Connective, subcutaneous and other soft tissues of pelvis
+sample_diagnosis	tissue_or_organ_of_origin	Connective, subcutaneous and other soft tissues of thorax
+sample_diagnosis	tissue_or_organ_of_origin	Connective, subcutaneous and other soft tissues of trunk, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Connective, subcutaneous and other soft tissues of upper limb and shoulder
+sample_diagnosis	tissue_or_organ_of_origin	Connective, subcutaneous and other soft tissues, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Cornea
+sample_diagnosis	tissue_or_organ_of_origin	Cornea, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Corpus Uteri
+sample_diagnosis	tissue_or_organ_of_origin	Corpus uteri
+sample_diagnosis	tissue_or_organ_of_origin	Cortex of adrenal gland
+sample_diagnosis	tissue_or_organ_of_origin	Cranial Nerve
+sample_diagnosis	tissue_or_organ_of_origin	Cranial nerve, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Craniopharyngeal Duct
+sample_diagnosis	tissue_or_organ_of_origin	Craniopharyngeal duct
+sample_diagnosis	tissue_or_organ_of_origin	Descended testis
+sample_diagnosis	tissue_or_organ_of_origin	Descending Colon
+sample_diagnosis	tissue_or_organ_of_origin	Descending colon
+sample_diagnosis	tissue_or_organ_of_origin	Dome of bladder
+sample_diagnosis	tissue_or_organ_of_origin	Dome of the Bladder
+sample_diagnosis	tissue_or_organ_of_origin	Dorsal surface of tongue, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Duodenum
+sample_diagnosis	tissue_or_organ_of_origin	Ectocervix
+sample_diagnosis	tissue_or_organ_of_origin	Endocervix
+sample_diagnosis	tissue_or_organ_of_origin	Endocrine Gland
+sample_diagnosis	tissue_or_organ_of_origin	Endocrine gland, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Endometrium
+sample_diagnosis	tissue_or_organ_of_origin	Epididymis
+sample_diagnosis	tissue_or_organ_of_origin	Esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Esophagus, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Ethmoid Sinus
+sample_diagnosis	tissue_or_organ_of_origin	Ethmoid sinus
+sample_diagnosis	tissue_or_organ_of_origin	Exocervix
+sample_diagnosis	tissue_or_organ_of_origin	External Ear
+sample_diagnosis	tissue_or_organ_of_origin	External Lip
+sample_diagnosis	tissue_or_organ_of_origin	External Lower Lip
+sample_diagnosis	tissue_or_organ_of_origin	External Upper Lip
+sample_diagnosis	tissue_or_organ_of_origin	External ear
+sample_diagnosis	tissue_or_organ_of_origin	External lip, NOS
+sample_diagnosis	tissue_or_organ_of_origin	External lower lip
+sample_diagnosis	tissue_or_organ_of_origin	External upper lip
+sample_diagnosis	tissue_or_organ_of_origin	Extrahepatic Bile Duct
+sample_diagnosis	tissue_or_organ_of_origin	Extrahepatic bile duct
+sample_diagnosis	tissue_or_organ_of_origin	Eye
+sample_diagnosis	tissue_or_organ_of_origin	Eye, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Eyelid
+sample_diagnosis	tissue_or_organ_of_origin	Fallopian Tube
+sample_diagnosis	tissue_or_organ_of_origin	Fallopian tube
+sample_diagnosis	tissue_or_organ_of_origin	Female Genitalia
+sample_diagnosis	tissue_or_organ_of_origin	Female genital tract, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Floor of Mouth
+sample_diagnosis	tissue_or_organ_of_origin	Floor of mouth, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Frontal Lobe
+sample_diagnosis	tissue_or_organ_of_origin	Frontal Sinus
+sample_diagnosis	tissue_or_organ_of_origin	Frontal lobe
+sample_diagnosis	tissue_or_organ_of_origin	Frontal sinus
+sample_diagnosis	tissue_or_organ_of_origin	Fundus Uteri
+sample_diagnosis	tissue_or_organ_of_origin	Fundus of stomach
+sample_diagnosis	tissue_or_organ_of_origin	Fundus of the Stomach
+sample_diagnosis	tissue_or_organ_of_origin	Fundus uteri
+sample_diagnosis	tissue_or_organ_of_origin	Gallbladder
+sample_diagnosis	tissue_or_organ_of_origin	Gastric Cardia
+sample_diagnosis	tissue_or_organ_of_origin	Gastric antrum
+sample_diagnosis	tissue_or_organ_of_origin	Gastrointestinal Tract
+sample_diagnosis	tissue_or_organ_of_origin	Gastrointestinal tract, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Gingiva
+sample_diagnosis	tissue_or_organ_of_origin	Glans Penis
+sample_diagnosis	tissue_or_organ_of_origin	Glans penis
+sample_diagnosis	tissue_or_organ_of_origin	Glottis
+sample_diagnosis	tissue_or_organ_of_origin	Greater Curvature of the Stomach
+sample_diagnosis	tissue_or_organ_of_origin	Greater curvature of stomach, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Gum, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Hard Palate
+sample_diagnosis	tissue_or_organ_of_origin	Hard palate
+sample_diagnosis	tissue_or_organ_of_origin	Head and Neck Lymph Node
+sample_diagnosis	tissue_or_organ_of_origin	Head of pancreas
+sample_diagnosis	tissue_or_organ_of_origin	Head of the Pancreas
+sample_diagnosis	tissue_or_organ_of_origin	Head, face or neck, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Heart
+sample_diagnosis	tissue_or_organ_of_origin	Hematopoietic System
+sample_diagnosis	tissue_or_organ_of_origin	Hematopoietic system, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Hepatic Flexure
+sample_diagnosis	tissue_or_organ_of_origin	Hepatic flexure of colon
+sample_diagnosis	tissue_or_organ_of_origin	Hypopharyngeal aspect of aryepiglottic fold
+sample_diagnosis	tissue_or_organ_of_origin	Hypopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Hypopharynx, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Ileum
+sample_diagnosis	tissue_or_organ_of_origin	Ill-Defined Anatomic Site
+sample_diagnosis	tissue_or_organ_of_origin	Ill-defined sites within respiratory system
+sample_diagnosis	tissue_or_organ_of_origin	Intestinal tract, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Intestine
+sample_diagnosis	tissue_or_organ_of_origin	Intra-Abdominal Lymph Node
+sample_diagnosis	tissue_or_organ_of_origin	Intra-abdominal lymph nodes
+sample_diagnosis	tissue_or_organ_of_origin	Intrahepatic Bile Duct
+sample_diagnosis	tissue_or_organ_of_origin	Intrahepatic bile duct
+sample_diagnosis	tissue_or_organ_of_origin	Intrathoracic Lymph Node
+sample_diagnosis	tissue_or_organ_of_origin	Intrathoracic lymph nodes
+sample_diagnosis	tissue_or_organ_of_origin	Islet of Langerhans
+sample_diagnosis	tissue_or_organ_of_origin	Islets of Langerhans
+sample_diagnosis	tissue_or_organ_of_origin	Isthmus Uteri
+sample_diagnosis	tissue_or_organ_of_origin	Isthmus uteri
+sample_diagnosis	tissue_or_organ_of_origin	Jejunum
+sample_diagnosis	tissue_or_organ_of_origin	Kidney
+sample_diagnosis	tissue_or_organ_of_origin	Kidney, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Labium Majus
+sample_diagnosis	tissue_or_organ_of_origin	Labium Minus
+sample_diagnosis	tissue_or_organ_of_origin	Labium majus
+sample_diagnosis	tissue_or_organ_of_origin	Labium minus
+sample_diagnosis	tissue_or_organ_of_origin	Lacrimal Gland
+sample_diagnosis	tissue_or_organ_of_origin	Lacrimal gland
+sample_diagnosis	tissue_or_organ_of_origin	Laryngeal Cartilage
+sample_diagnosis	tissue_or_organ_of_origin	Laryngeal cartilage
+sample_diagnosis	tissue_or_organ_of_origin	Laryngeal commissure
+sample_diagnosis	tissue_or_organ_of_origin	Larynx
+sample_diagnosis	tissue_or_organ_of_origin	Larynx, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Lateral Wall of the Bladder
+sample_diagnosis	tissue_or_organ_of_origin	Lateral Wall of the Nasopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Lateral Wall of the Oropharynx
+sample_diagnosis	tissue_or_organ_of_origin	Lateral floor of mouth
+sample_diagnosis	tissue_or_organ_of_origin	Lateral wall of bladder
+sample_diagnosis	tissue_or_organ_of_origin	Lateral wall of nasopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Lateral wall of oropharynx
+sample_diagnosis	tissue_or_organ_of_origin	Lesser Curvature of the Stomach
+sample_diagnosis	tissue_or_organ_of_origin	Lesser curvature of stomach, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Lingual Tonsil
+sample_diagnosis	tissue_or_organ_of_origin	Lingual tonsil
+sample_diagnosis	tissue_or_organ_of_origin	Lip
+sample_diagnosis	tissue_or_organ_of_origin	Lip, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Liver
+sample_diagnosis	tissue_or_organ_of_origin	Long bones of lower limb and associated joints
+sample_diagnosis	tissue_or_organ_of_origin	Long bones of upper limb, scapula and associated joints
+sample_diagnosis	tissue_or_organ_of_origin	Lower Extremity
+sample_diagnosis	tissue_or_organ_of_origin	Lower Gingiva
+sample_diagnosis	tissue_or_organ_of_origin	Lower Lobe of the Lung
+sample_diagnosis	tissue_or_organ_of_origin	Lower Third of the Esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Lower gum
+sample_diagnosis	tissue_or_organ_of_origin	Lower limb, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Lower lobe, lung
+sample_diagnosis	tissue_or_organ_of_origin	Lower third of esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Lower-Inner Quadrant of the Breast
+sample_diagnosis	tissue_or_organ_of_origin	Lower-Outer Quadrant of the Breast
+sample_diagnosis	tissue_or_organ_of_origin	Lower-inner quadrant of breast
+sample_diagnosis	tissue_or_organ_of_origin	Lower-outer quadrant of breast
+sample_diagnosis	tissue_or_organ_of_origin	Lung
+sample_diagnosis	tissue_or_organ_of_origin	Lung, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Lymph Node
+sample_diagnosis	tissue_or_organ_of_origin	Lymph Node of Inguinal Region or Leg
+sample_diagnosis	tissue_or_organ_of_origin	Lymph node, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Lymph nodes of axilla or arm
+sample_diagnosis	tissue_or_organ_of_origin	Lymph nodes of head, face and neck
+sample_diagnosis	tissue_or_organ_of_origin	Lymph nodes of inguinal region or leg
+sample_diagnosis	tissue_or_organ_of_origin	Lymph nodes of multiple regions
+sample_diagnosis	tissue_or_organ_of_origin	Main Bronchus
+sample_diagnosis	tissue_or_organ_of_origin	Main bronchus
+sample_diagnosis	tissue_or_organ_of_origin	Major salivary gland, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Male Genitalia
+sample_diagnosis	tissue_or_organ_of_origin	Male genital organs, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Mandible
+sample_diagnosis	tissue_or_organ_of_origin	Maxillary Sinus
+sample_diagnosis	tissue_or_organ_of_origin	Maxillary sinus
+sample_diagnosis	tissue_or_organ_of_origin	Meckel Diverticulum
+sample_diagnosis	tissue_or_organ_of_origin	Meckel diverticulum
+sample_diagnosis	tissue_or_organ_of_origin	Mediastinum
+sample_diagnosis	tissue_or_organ_of_origin	Mediastinum, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Medulla of adrenal gland
+sample_diagnosis	tissue_or_organ_of_origin	Meninges
+sample_diagnosis	tissue_or_organ_of_origin	Meninges, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Middle Ear
+sample_diagnosis	tissue_or_organ_of_origin	Middle Lobe of the Right Lung
+sample_diagnosis	tissue_or_organ_of_origin	Middle Third of the Esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Middle ear
+sample_diagnosis	tissue_or_organ_of_origin	Middle lobe, lung
+sample_diagnosis	tissue_or_organ_of_origin	Middle third of esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Mouth, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Mucosa of lip, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Mucosa of lower lip
+sample_diagnosis	tissue_or_organ_of_origin	Mucosa of the Lip
+sample_diagnosis	tissue_or_organ_of_origin	Mucosa of the Lower Lip
+sample_diagnosis	tissue_or_organ_of_origin	Mucosa of the Upper Lip
+sample_diagnosis	tissue_or_organ_of_origin	Mucosa of upper lip
+sample_diagnosis	tissue_or_organ_of_origin	Myometrium
+sample_diagnosis	tissue_or_organ_of_origin	Nasal Cavity
+sample_diagnosis	tissue_or_organ_of_origin	Nasal cavity
+sample_diagnosis	tissue_or_organ_of_origin	Nasopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Nasopharynx, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Nervous System
+sample_diagnosis	tissue_or_organ_of_origin	Nervous system, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Nipple
+sample_diagnosis	tissue_or_organ_of_origin	Not Reported
+sample_diagnosis	tissue_or_organ_of_origin	Occipital Lobe
+sample_diagnosis	tissue_or_organ_of_origin	Occipital lobe
+sample_diagnosis	tissue_or_organ_of_origin	Olfactory Nerve
+sample_diagnosis	tissue_or_organ_of_origin	Olfactory nerve
+sample_diagnosis	tissue_or_organ_of_origin	Optic Nerve
+sample_diagnosis	tissue_or_organ_of_origin	Optic nerve
+sample_diagnosis	tissue_or_organ_of_origin	Oral Cavity
+sample_diagnosis	tissue_or_organ_of_origin	Orbit
+sample_diagnosis	tissue_or_organ_of_origin	Orbit, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Oropharynx
+sample_diagnosis	tissue_or_organ_of_origin	Oropharynx, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Other Specified Parts of Pancreas
+sample_diagnosis	tissue_or_organ_of_origin	Other and Ill-Defined Sites within Respiratory System and Intrathoracic Organs ICD-O-3
+sample_diagnosis	tissue_or_organ_of_origin	Other and Unspecified Female Genital Organs ICD-O-3
+sample_diagnosis	tissue_or_organ_of_origin	Other and Unspecified Male Genital Organs ICD-O-3
+sample_diagnosis	tissue_or_organ_of_origin	Other ill-defined sites
+sample_diagnosis	tissue_or_organ_of_origin	Other specified parts of female genital organs
+sample_diagnosis	tissue_or_organ_of_origin	Other specified parts of male genital organs
+sample_diagnosis	tissue_or_organ_of_origin	Other specified parts of pancreas
+sample_diagnosis	tissue_or_organ_of_origin	Ovary
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of accessory sinuses
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of biliary tract
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of bladder
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of bones, joints and articular cartilage
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of bones, joints and articular cartilage of limbs
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of brain
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of brain and central nervous system
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of breast
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of cervix uteri
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of colon
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of connective, subcutaneous and other soft tissues
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of corpus uteri
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of digestive system
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of endocrine glands and related structures
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of eye and adnexa
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of female genital organs
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of floor of mouth
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of heart, mediastinum and pleura
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of hypopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of ill-defined sites
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of larynx
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of lip
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of lip, oral cavity and pharynx
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of lung
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of major salivary glands
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of male genital organs
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of nasopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of other and unspecified parts of mouth
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of palate
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of pancreas
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of penis
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of peripheral nerves and autonomic nervous system
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of rectum, anus and anal canal
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of respiratory system and intrathoracic organs
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of retroperitoneum and peritoneum
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of skin
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of small intestine
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of stomach
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of tongue
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of tonsil
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of urinary organs
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesion of vulva
+sample_diagnosis	tissue_or_organ_of_origin	Overlapping lesions of oropharynx
+sample_diagnosis	tissue_or_organ_of_origin	Palate
+sample_diagnosis	tissue_or_organ_of_origin	Palate, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Palatine Tonsil
+sample_diagnosis	tissue_or_organ_of_origin	Pancreas
+sample_diagnosis	tissue_or_organ_of_origin	Pancreas, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Pancreatic Duct
+sample_diagnosis	tissue_or_organ_of_origin	Pancreatic duct
+sample_diagnosis	tissue_or_organ_of_origin	Parametrium
+sample_diagnosis	tissue_or_organ_of_origin	Paranasal Sinus
+sample_diagnosis	tissue_or_organ_of_origin	Parathyroid Gland
+sample_diagnosis	tissue_or_organ_of_origin	Parathyroid gland
+sample_diagnosis	tissue_or_organ_of_origin	Paraurethral gland
+sample_diagnosis	tissue_or_organ_of_origin	Parietal Lobe
+sample_diagnosis	tissue_or_organ_of_origin	Parietal lobe
+sample_diagnosis	tissue_or_organ_of_origin	Parotid Gland
+sample_diagnosis	tissue_or_organ_of_origin	Parotid gland
+sample_diagnosis	tissue_or_organ_of_origin	Pelvic Lymph Node
+sample_diagnosis	tissue_or_organ_of_origin	Pelvic bones, sacrum, coccyx and associated joints
+sample_diagnosis	tissue_or_organ_of_origin	Pelvic lymph nodes
+sample_diagnosis	tissue_or_organ_of_origin	Pelvis
+sample_diagnosis	tissue_or_organ_of_origin	Pelvis, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Penis
+sample_diagnosis	tissue_or_organ_of_origin	Penis, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Peripheral nerves and autonomic nervous system of abdomen
+sample_diagnosis	tissue_or_organ_of_origin	Peripheral nerves and autonomic nervous system of head, face, and neck
+sample_diagnosis	tissue_or_organ_of_origin	Peripheral nerves and autonomic nervous system of lower limb and hip
+sample_diagnosis	tissue_or_organ_of_origin	Peripheral nerves and autonomic nervous system of pelvis
+sample_diagnosis	tissue_or_organ_of_origin	Peripheral nerves and autonomic nervous system of thorax
+sample_diagnosis	tissue_or_organ_of_origin	Peripheral nerves and autonomic nervous system of trunk, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Peripheral nerves and autonomic nervous system of upper limb and shoulder
+sample_diagnosis	tissue_or_organ_of_origin	Peritoneum
+sample_diagnosis	tissue_or_organ_of_origin	Peritoneum, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Pharynx
+sample_diagnosis	tissue_or_organ_of_origin	Pharynx, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Pineal Gland
+sample_diagnosis	tissue_or_organ_of_origin	Pineal gland
+sample_diagnosis	tissue_or_organ_of_origin	Pituitary Gland
+sample_diagnosis	tissue_or_organ_of_origin	Pituitary gland
+sample_diagnosis	tissue_or_organ_of_origin	Placenta
+sample_diagnosis	tissue_or_organ_of_origin	Pleura
+sample_diagnosis	tissue_or_organ_of_origin	Pleura, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Postcricoid Region
+sample_diagnosis	tissue_or_organ_of_origin	Postcricoid region
+sample_diagnosis	tissue_or_organ_of_origin	Posterior Mediastinum
+sample_diagnosis	tissue_or_organ_of_origin	Posterior Wall of the Bladder
+sample_diagnosis	tissue_or_organ_of_origin	Posterior Wall of the Hypopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Posterior Wall of the Nasopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Posterior Wall of the Oropharynx
+sample_diagnosis	tissue_or_organ_of_origin	Posterior mediastinum
+sample_diagnosis	tissue_or_organ_of_origin	Posterior wall of bladder
+sample_diagnosis	tissue_or_organ_of_origin	Posterior wall of hypopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Posterior wall of nasopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Posterior wall of oropharynx
+sample_diagnosis	tissue_or_organ_of_origin	Prepuce
+sample_diagnosis	tissue_or_organ_of_origin	Primary Site Unknown
+sample_diagnosis	tissue_or_organ_of_origin	Prostate Gland
+sample_diagnosis	tissue_or_organ_of_origin	Prostate gland
+sample_diagnosis	tissue_or_organ_of_origin	Pylorus
+sample_diagnosis	tissue_or_organ_of_origin	Pyriform Sinus
+sample_diagnosis	tissue_or_organ_of_origin	Pyriform sinus
+sample_diagnosis	tissue_or_organ_of_origin	Rectosigmoid Region
+sample_diagnosis	tissue_or_organ_of_origin	Rectosigmoid junction
+sample_diagnosis	tissue_or_organ_of_origin	Rectum
+sample_diagnosis	tissue_or_organ_of_origin	Rectum, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Renal Pelvis
+sample_diagnosis	tissue_or_organ_of_origin	Renal pelvis
+sample_diagnosis	tissue_or_organ_of_origin	Reticuloendothelial System
+sample_diagnosis	tissue_or_organ_of_origin	Reticuloendothelial system, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Retina
+sample_diagnosis	tissue_or_organ_of_origin	Retromolar Trigone
+sample_diagnosis	tissue_or_organ_of_origin	Retromolar area
+sample_diagnosis	tissue_or_organ_of_origin	Retroperitoneum
+sample_diagnosis	tissue_or_organ_of_origin	Rib, sternum, clavicle and associated joints
+sample_diagnosis	tissue_or_organ_of_origin	Round Ligament
+sample_diagnosis	tissue_or_organ_of_origin	Round ligament
+sample_diagnosis	tissue_or_organ_of_origin	Salivary Gland
+sample_diagnosis	tissue_or_organ_of_origin	Scrotum
+sample_diagnosis	tissue_or_organ_of_origin	Scrotum, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Short bones of lower limb and associated joints
+sample_diagnosis	tissue_or_organ_of_origin	Short bones of upper limb and associated joints
+sample_diagnosis	tissue_or_organ_of_origin	Sigmoid Colon
+sample_diagnosis	tissue_or_organ_of_origin	Sigmoid colon
+sample_diagnosis	tissue_or_organ_of_origin	Skene Gland
+sample_diagnosis	tissue_or_organ_of_origin	Skin
+sample_diagnosis	tissue_or_organ_of_origin	Skin of lip, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Skin of lower limb and hip
+sample_diagnosis	tissue_or_organ_of_origin	Skin of other and unspecified parts of face
+sample_diagnosis	tissue_or_organ_of_origin	Skin of scalp and neck
+sample_diagnosis	tissue_or_organ_of_origin	Skin of the Face
+sample_diagnosis	tissue_or_organ_of_origin	Skin of the Lip
+sample_diagnosis	tissue_or_organ_of_origin	Skin of the Lower Limb and Hip
+sample_diagnosis	tissue_or_organ_of_origin	Skin of the Scalp and Neck
+sample_diagnosis	tissue_or_organ_of_origin	Skin of the Trunk
+sample_diagnosis	tissue_or_organ_of_origin	Skin of the Upper Limb and Shoulder
+sample_diagnosis	tissue_or_organ_of_origin	Skin of trunk
+sample_diagnosis	tissue_or_organ_of_origin	Skin of upper limb and shoulder
+sample_diagnosis	tissue_or_organ_of_origin	Skin, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Small Intestine
+sample_diagnosis	tissue_or_organ_of_origin	Small intestine, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Soft Palate
+sample_diagnosis	tissue_or_organ_of_origin	Soft palate, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Specified parts of peritoneum
+sample_diagnosis	tissue_or_organ_of_origin	Spermatic Cord
+sample_diagnosis	tissue_or_organ_of_origin	Spermatic cord
+sample_diagnosis	tissue_or_organ_of_origin	Sphenoid Sinus
+sample_diagnosis	tissue_or_organ_of_origin	Sphenoid sinus
+sample_diagnosis	tissue_or_organ_of_origin	Spinal Cord
+sample_diagnosis	tissue_or_organ_of_origin	Spinal Meninges
+sample_diagnosis	tissue_or_organ_of_origin	Spinal cord
+sample_diagnosis	tissue_or_organ_of_origin	Spinal meninges
+sample_diagnosis	tissue_or_organ_of_origin	Spleen
+sample_diagnosis	tissue_or_organ_of_origin	Splenic Flexure
+sample_diagnosis	tissue_or_organ_of_origin	Splenic flexure of colon
+sample_diagnosis	tissue_or_organ_of_origin	Stomach
+sample_diagnosis	tissue_or_organ_of_origin	Stomach, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Subglottis
+sample_diagnosis	tissue_or_organ_of_origin	Sublingual Salivary Gland
+sample_diagnosis	tissue_or_organ_of_origin	Sublingual gland
+sample_diagnosis	tissue_or_organ_of_origin	Submandibular Gland
+sample_diagnosis	tissue_or_organ_of_origin	Submandibular gland
+sample_diagnosis	tissue_or_organ_of_origin	Superior Wall of the Nasopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Superior wall of nasopharynx
+sample_diagnosis	tissue_or_organ_of_origin	Supraglottis
+sample_diagnosis	tissue_or_organ_of_origin	Tail of pancreas
+sample_diagnosis	tissue_or_organ_of_origin	Tail of the Pancreas
+sample_diagnosis	tissue_or_organ_of_origin	Temporal Lobe
+sample_diagnosis	tissue_or_organ_of_origin	Temporal lobe
+sample_diagnosis	tissue_or_organ_of_origin	Testis
+sample_diagnosis	tissue_or_organ_of_origin	Testis, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Thoracic Esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Thoracic esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Thorax
+sample_diagnosis	tissue_or_organ_of_origin	Thorax, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Thymus
+sample_diagnosis	tissue_or_organ_of_origin	Thymus Gland
+sample_diagnosis	tissue_or_organ_of_origin	Thyroid Gland
+sample_diagnosis	tissue_or_organ_of_origin	Thyroid gland
+sample_diagnosis	tissue_or_organ_of_origin	Tongue
+sample_diagnosis	tissue_or_organ_of_origin	Tongue, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Tonsil, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Tonsillar Fossa
+sample_diagnosis	tissue_or_organ_of_origin	Tonsillar Pillar
+sample_diagnosis	tissue_or_organ_of_origin	Tonsillar fossa
+sample_diagnosis	tissue_or_organ_of_origin	Tonsillar pillar
+sample_diagnosis	tissue_or_organ_of_origin	Trachea
+sample_diagnosis	tissue_or_organ_of_origin	Transverse Colon
+sample_diagnosis	tissue_or_organ_of_origin	Transverse colon
+sample_diagnosis	tissue_or_organ_of_origin	Trigone of bladder
+sample_diagnosis	tissue_or_organ_of_origin	Undescended Testes
+sample_diagnosis	tissue_or_organ_of_origin	Undescended testis
+sample_diagnosis	tissue_or_organ_of_origin	Unknown
+sample_diagnosis	tissue_or_organ_of_origin	Unknown primary site
+sample_diagnosis	tissue_or_organ_of_origin	Upper Extremity
+sample_diagnosis	tissue_or_organ_of_origin	Upper Gingiva
+sample_diagnosis	tissue_or_organ_of_origin	Upper Gum
+sample_diagnosis	tissue_or_organ_of_origin	Upper Lobe of the Lung
+sample_diagnosis	tissue_or_organ_of_origin	Upper Respiratory System
+sample_diagnosis	tissue_or_organ_of_origin	Upper Third of the Esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Upper limb, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Upper lobe, lung
+sample_diagnosis	tissue_or_organ_of_origin	Upper respiratory tract, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Upper third of esophagus
+sample_diagnosis	tissue_or_organ_of_origin	Upper-Inner Quadrant of the Breast
+sample_diagnosis	tissue_or_organ_of_origin	Upper-Outer Quadrant of the Breast
+sample_diagnosis	tissue_or_organ_of_origin	Upper-inner quadrant of breast
+sample_diagnosis	tissue_or_organ_of_origin	Upper-outer quadrant of breast
+sample_diagnosis	tissue_or_organ_of_origin	Urachus
+sample_diagnosis	tissue_or_organ_of_origin	Ureter
+sample_diagnosis	tissue_or_organ_of_origin	Ureteric Orifice
+sample_diagnosis	tissue_or_organ_of_origin	Ureteric orifice
+sample_diagnosis	tissue_or_organ_of_origin	Urethra
+sample_diagnosis	tissue_or_organ_of_origin	Urinary System
+sample_diagnosis	tissue_or_organ_of_origin	Urinary system, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Uterine adnexa
+sample_diagnosis	tissue_or_organ_of_origin	Uterus
+sample_diagnosis	tissue_or_organ_of_origin	Uterus, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Uvula
+sample_diagnosis	tissue_or_organ_of_origin	Vagina
+sample_diagnosis	tissue_or_organ_of_origin	Vagina, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Vallecula
+sample_diagnosis	tissue_or_organ_of_origin	Ventral surface of tongue, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Ventricle, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Vertebral Column
+sample_diagnosis	tissue_or_organ_of_origin	Vertebral column
+sample_diagnosis	tissue_or_organ_of_origin	Vestibule of Mouth
+sample_diagnosis	tissue_or_organ_of_origin	Vestibule of mouth
+sample_diagnosis	tissue_or_organ_of_origin	Vulva
+sample_diagnosis	tissue_or_organ_of_origin	Vulva, NOS
+sample_diagnosis	tissue_or_organ_of_origin	Waldeyer Ring
+sample_diagnosis	tissue_or_organ_of_origin	Waldeyer ring
 sequencing_file	avg_read_length	NUMBER
 sequencing_file	checksum_algorithm	STRING
 sequencing_file	checksum_value	STRING
@@ -7192,18 +7890,19 @@ of_clinical_measure_file_participant	clinical_measure_file	participant	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
 of_imaging_file	imaging_file	sample	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
-of_participant	participant	study_arm	NA	NA
 of_participant	participant	study	NA	NA
+of_participant	participant	study_arm	NA	NA
 of_publication	publication	study	NA	NA
-of_sample	sample	participant	NA	NA
 of_sample	sample	study	NA	NA
+of_sample	sample	participant	NA	NA
+of_sample_diagnosis	sample_diagnosis	sample	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	sample	NA	NA
+of_synonym	synonym	study	NA	NA
 of_synonym	synonym	participant	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
@@ -7226,7 +7925,7 @@ days_to_recurrence	Number of days between the date used for index and the date t
 days_to_treatment	Number of days between the date used for index and the date the treatment started.
 dcf_indexd_guid	An assigned globally unique identifier (GUID) that is assigned for the indexing process, making files available. This is usually not supplied by the submitter, but created in the ingestion process.
 design_description	Free-form description of the methods used to create the sequencing library; a brief 'materials and methods' section.
-diagnosis_id	A unique sequence of alphanumeric characters used to identify the diagnosis in the investigation or study, which is used for linking metadata.
+diagnosis_id	A unique sequence of alphanumeric characters used to identify the participant diagnosis in the investigation or study, which is used for linking metadata.
 disease_type	The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
 email_address	The email address of the personnel.
 ethnicity	The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
@@ -7279,6 +7978,7 @@ reporter_label	The class of tags used in the methylation experiment.
 repository_of_synonym_id	The repository of the synonym.
 sample_anatomic_site	The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
 sample_description	Text description of a sample or specimen.
+sample_diagnosis_id	A unique sequence of alphanumeric characters used to identify the sample diagnosis in the investigation or study, which is used for linking metadata.
 sample_id	A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.
 sample_tumor_status	Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue.
 sample_type	Text term to describe the source of a biospecimen used for a laboratory test.

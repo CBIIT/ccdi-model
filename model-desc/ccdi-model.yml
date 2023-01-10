@@ -21,11 +21,12 @@ Nodes:
       - primary_diagnosis
       - primary_diagnosis_reference_source
       - primary_site
+      - tissue_or_organ_of_origin
+      - site_of_resection_or_biopsy
       - age_at_diagnosis
       - days_to_recurrence
       - last_known_disease_status
       - days_to_last_known_disease_status
-      - tissue_or_organ_of_origin
       - days_to_last_followup
       - progression_or_recurrence
   sample_diagnosis:
@@ -35,11 +36,12 @@ Nodes:
       - primary_diagnosis
       - primary_diagnosis_reference_source
       - primary_site
+      - tissue_or_organ_of_origin
+      - site_of_resection_or_biopsy
       - age_at_diagnosis
       - days_to_recurrence
       - last_known_disease_status
       - days_to_last_known_disease_status
-      - tissue_or_organ_of_origin
       - days_to_last_followup
       - progression_or_recurrence   
       - tumor_grade
@@ -48,7 +50,6 @@ Nodes:
       - tumor_stage_clinical_m
       - tumor_morphology
       - tumor_incidence_type # primary, metastatic, recurrence, progression
-      - sample_description
   imaging_file: # 01.03.22 pdunn
     Props:
       - file_name
@@ -96,6 +97,7 @@ Nodes:
       - sample_anatomic_site
       - participant_age_at_collection # 28.02.22 pdunn
       - sample_tumor_status
+      - sample_description
   sequencing_file: # 01.03.22 pdunn
     Props:
       # - file_id #system generated GUID/PK

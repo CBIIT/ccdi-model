@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit b40a339
+commit 0d9936c
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -164,6 +164,338 @@ diagnosis	primary_site	Vulva
 diagnosis	progression_or_recurrence	No
 diagnosis	progression_or_recurrence	Unknown
 diagnosis	progression_or_recurrence	Yes
+diagnosis	site_of_resection_or_biopsy	Abdomen, NOS
+diagnosis	site_of_resection_or_biopsy	Abdominal esophagus
+diagnosis	site_of_resection_or_biopsy	Accessory sinus, NOS
+diagnosis	site_of_resection_or_biopsy	Acoustic nerve
+diagnosis	site_of_resection_or_biopsy	Adrenal gland, NOS
+diagnosis	site_of_resection_or_biopsy	Ampulla of Vater
+diagnosis	site_of_resection_or_biopsy	Anal canal
+diagnosis	site_of_resection_or_biopsy	Anterior 2/3 of tongue, NOS
+diagnosis	site_of_resection_or_biopsy	Anterior floor of mouth
+diagnosis	site_of_resection_or_biopsy	Anterior mediastinum
+diagnosis	site_of_resection_or_biopsy	Anterior surface of epiglottis
+diagnosis	site_of_resection_or_biopsy	Anterior wall of bladder
+diagnosis	site_of_resection_or_biopsy	Anterior wall of nasopharynx
+diagnosis	site_of_resection_or_biopsy	Anus, NOS
+diagnosis	site_of_resection_or_biopsy	Aortic body and other paraganglia
+diagnosis	site_of_resection_or_biopsy	Appendix
+diagnosis	site_of_resection_or_biopsy	Ascending colon
+diagnosis	site_of_resection_or_biopsy	Autonomic nervous system, NOS
+diagnosis	site_of_resection_or_biopsy	Axillary tail of breast
+diagnosis	site_of_resection_or_biopsy	Base of tongue, NOS
+diagnosis	site_of_resection_or_biopsy	Biliary tract, NOS
+diagnosis	site_of_resection_or_biopsy	Bladder neck
+diagnosis	site_of_resection_or_biopsy	Bladder, NOS
+diagnosis	site_of_resection_or_biopsy	Blood
+diagnosis	site_of_resection_or_biopsy	Body of pancreas
+diagnosis	site_of_resection_or_biopsy	Body of penis
+diagnosis	site_of_resection_or_biopsy	Body of stomach
+diagnosis	site_of_resection_or_biopsy	Bone marrow
+diagnosis	site_of_resection_or_biopsy	Bone of limb, NOS
+diagnosis	site_of_resection_or_biopsy	Bone, NOS
+diagnosis	site_of_resection_or_biopsy	Bones of skull and face and associated joints
+diagnosis	site_of_resection_or_biopsy	Border of tongue
+diagnosis	site_of_resection_or_biopsy	Brain stem
+diagnosis	site_of_resection_or_biopsy	Brain, NOS
+diagnosis	site_of_resection_or_biopsy	Branchial cleft
+diagnosis	site_of_resection_or_biopsy	Breast, NOS
+diagnosis	site_of_resection_or_biopsy	Broad ligament
+diagnosis	site_of_resection_or_biopsy	Cardia, NOS
+diagnosis	site_of_resection_or_biopsy	Carotid body
+diagnosis	site_of_resection_or_biopsy	Cauda equina
+diagnosis	site_of_resection_or_biopsy	Cecum
+diagnosis	site_of_resection_or_biopsy	Central portion of breast
+diagnosis	site_of_resection_or_biopsy	Cerebellum, NOS
+diagnosis	site_of_resection_or_biopsy	Cerebral meninges
+diagnosis	site_of_resection_or_biopsy	Cerebrum
+diagnosis	site_of_resection_or_biopsy	Cervical esophagus
+diagnosis	site_of_resection_or_biopsy	Cervix uteri
+diagnosis	site_of_resection_or_biopsy	Cheek mucosa
+diagnosis	site_of_resection_or_biopsy	Choroid
+diagnosis	site_of_resection_or_biopsy	Ciliary body
+diagnosis	site_of_resection_or_biopsy	Clitoris
+diagnosis	site_of_resection_or_biopsy	Cloacogenic zone
+diagnosis	site_of_resection_or_biopsy	Colon, NOS
+diagnosis	site_of_resection_or_biopsy	Commissure of lip
+diagnosis	site_of_resection_or_biopsy	Conjunctiva
+diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of abdomen
+diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of head, face, and neck
+diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of lower limb and hip
+diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of pelvis
+diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of thorax
+diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of trunk, NOS
+diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of upper limb and shoulder
+diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues, NOS
+diagnosis	site_of_resection_or_biopsy	Cornea, NOS
+diagnosis	site_of_resection_or_biopsy	Corpus uteri
+diagnosis	site_of_resection_or_biopsy	Cortex of adrenal gland
+diagnosis	site_of_resection_or_biopsy	Cranial nerve, NOS
+diagnosis	site_of_resection_or_biopsy	Craniopharyngeal duct
+diagnosis	site_of_resection_or_biopsy	Descended testis
+diagnosis	site_of_resection_or_biopsy	Descending colon
+diagnosis	site_of_resection_or_biopsy	Dome of bladder
+diagnosis	site_of_resection_or_biopsy	Dorsal surface of tongue, NOS
+diagnosis	site_of_resection_or_biopsy	Duodenum
+diagnosis	site_of_resection_or_biopsy	Endocervix
+diagnosis	site_of_resection_or_biopsy	Endocrine gland, NOS
+diagnosis	site_of_resection_or_biopsy	Endometrium
+diagnosis	site_of_resection_or_biopsy	Epididymis
+diagnosis	site_of_resection_or_biopsy	Esophagus, NOS
+diagnosis	site_of_resection_or_biopsy	Ethmoid sinus
+diagnosis	site_of_resection_or_biopsy	Exocervix
+diagnosis	site_of_resection_or_biopsy	External ear
+diagnosis	site_of_resection_or_biopsy	External lip, NOS
+diagnosis	site_of_resection_or_biopsy	External lower lip
+diagnosis	site_of_resection_or_biopsy	External upper lip
+diagnosis	site_of_resection_or_biopsy	Extrahepatic bile duct
+diagnosis	site_of_resection_or_biopsy	Eye, NOS
+diagnosis	site_of_resection_or_biopsy	Eyelid
+diagnosis	site_of_resection_or_biopsy	Fallopian tube
+diagnosis	site_of_resection_or_biopsy	Female genital tract, NOS
+diagnosis	site_of_resection_or_biopsy	Floor of mouth, NOS
+diagnosis	site_of_resection_or_biopsy	Frontal lobe
+diagnosis	site_of_resection_or_biopsy	Frontal sinus
+diagnosis	site_of_resection_or_biopsy	Fundus of stomach
+diagnosis	site_of_resection_or_biopsy	Fundus uteri
+diagnosis	site_of_resection_or_biopsy	Gallbladder
+diagnosis	site_of_resection_or_biopsy	Gastric antrum
+diagnosis	site_of_resection_or_biopsy	Gastrointestinal tract, NOS
+diagnosis	site_of_resection_or_biopsy	Glans penis
+diagnosis	site_of_resection_or_biopsy	Glottis
+diagnosis	site_of_resection_or_biopsy	Greater curvature of stomach, NOS
+diagnosis	site_of_resection_or_biopsy	Gum, NOS
+diagnosis	site_of_resection_or_biopsy	Hard palate
+diagnosis	site_of_resection_or_biopsy	Head of pancreas
+diagnosis	site_of_resection_or_biopsy	Head, face or neck, NOS
+diagnosis	site_of_resection_or_biopsy	Heart
+diagnosis	site_of_resection_or_biopsy	Hematopoietic system, NOS
+diagnosis	site_of_resection_or_biopsy	Hepatic flexure of colon
+diagnosis	site_of_resection_or_biopsy	Hypopharyngeal aspect of aryepiglottic fold
+diagnosis	site_of_resection_or_biopsy	Hypopharynx, NOS
+diagnosis	site_of_resection_or_biopsy	Ileum
+diagnosis	site_of_resection_or_biopsy	Ill-defined sites within respiratory system
+diagnosis	site_of_resection_or_biopsy	Intestinal tract, NOS
+diagnosis	site_of_resection_or_biopsy	Intra-abdominal lymph nodes
+diagnosis	site_of_resection_or_biopsy	Intrahepatic bile duct
+diagnosis	site_of_resection_or_biopsy	Intrathoracic lymph nodes
+diagnosis	site_of_resection_or_biopsy	Islets of Langerhans
+diagnosis	site_of_resection_or_biopsy	Isthmus uteri
+diagnosis	site_of_resection_or_biopsy	Jejunum
+diagnosis	site_of_resection_or_biopsy	Kidney, NOS
+diagnosis	site_of_resection_or_biopsy	Labium majus
+diagnosis	site_of_resection_or_biopsy	Labium minus
+diagnosis	site_of_resection_or_biopsy	Lacrimal gland
+diagnosis	site_of_resection_or_biopsy	Laryngeal cartilage
+diagnosis	site_of_resection_or_biopsy	Larynx, NOS
+diagnosis	site_of_resection_or_biopsy	Lateral floor of mouth
+diagnosis	site_of_resection_or_biopsy	Lateral wall of bladder
+diagnosis	site_of_resection_or_biopsy	Lateral wall of nasopharynx
+diagnosis	site_of_resection_or_biopsy	Lateral wall of oropharynx
+diagnosis	site_of_resection_or_biopsy	Lesser curvature of stomach, NOS
+diagnosis	site_of_resection_or_biopsy	Lingual tonsil
+diagnosis	site_of_resection_or_biopsy	Lip, NOS
+diagnosis	site_of_resection_or_biopsy	Liver
+diagnosis	site_of_resection_or_biopsy	Long bones of lower limb and associated joints
+diagnosis	site_of_resection_or_biopsy	Long bones of upper limb, scapula and associated joints
+diagnosis	site_of_resection_or_biopsy	Lower gum
+diagnosis	site_of_resection_or_biopsy	Lower limb, NOS
+diagnosis	site_of_resection_or_biopsy	Lower lobe, lung
+diagnosis	site_of_resection_or_biopsy	Lower third of esophagus
+diagnosis	site_of_resection_or_biopsy	Lower-inner quadrant of breast
+diagnosis	site_of_resection_or_biopsy	Lower-outer quadrant of breast
+diagnosis	site_of_resection_or_biopsy	Lung, NOS
+diagnosis	site_of_resection_or_biopsy	Lymph node, NOS
+diagnosis	site_of_resection_or_biopsy	Lymph nodes of axilla or arm
+diagnosis	site_of_resection_or_biopsy	Lymph nodes of head, face and neck
+diagnosis	site_of_resection_or_biopsy	Lymph nodes of inguinal region or leg
+diagnosis	site_of_resection_or_biopsy	Lymph nodes of multiple regions
+diagnosis	site_of_resection_or_biopsy	Main bronchus
+diagnosis	site_of_resection_or_biopsy	Major salivary gland, NOS
+diagnosis	site_of_resection_or_biopsy	Male genital organs, NOS
+diagnosis	site_of_resection_or_biopsy	Mandible
+diagnosis	site_of_resection_or_biopsy	Maxillary sinus
+diagnosis	site_of_resection_or_biopsy	Meckel diverticulum
+diagnosis	site_of_resection_or_biopsy	Mediastinum, NOS
+diagnosis	site_of_resection_or_biopsy	Medulla of adrenal gland
+diagnosis	site_of_resection_or_biopsy	Meninges, NOS
+diagnosis	site_of_resection_or_biopsy	Middle ear
+diagnosis	site_of_resection_or_biopsy	Middle lobe, lung
+diagnosis	site_of_resection_or_biopsy	Middle third of esophagus
+diagnosis	site_of_resection_or_biopsy	Mouth, NOS
+diagnosis	site_of_resection_or_biopsy	Mucosa of lip, NOS
+diagnosis	site_of_resection_or_biopsy	Mucosa of lower lip
+diagnosis	site_of_resection_or_biopsy	Mucosa of upper lip
+diagnosis	site_of_resection_or_biopsy	Myometrium
+diagnosis	site_of_resection_or_biopsy	Nasal cavity
+diagnosis	site_of_resection_or_biopsy	Nasopharynx, NOS
+diagnosis	site_of_resection_or_biopsy	Nervous system, NOS
+diagnosis	site_of_resection_or_biopsy	Nipple
+diagnosis	site_of_resection_or_biopsy	Not Reported
+diagnosis	site_of_resection_or_biopsy	Occipital lobe
+diagnosis	site_of_resection_or_biopsy	Olfactory nerve
+diagnosis	site_of_resection_or_biopsy	Optic nerve
+diagnosis	site_of_resection_or_biopsy	Orbit, NOS
+diagnosis	site_of_resection_or_biopsy	Oropharynx, NOS
+diagnosis	site_of_resection_or_biopsy	Other ill-defined sites
+diagnosis	site_of_resection_or_biopsy	Other specified parts of female genital organs
+diagnosis	site_of_resection_or_biopsy	Other specified parts of male genital organs
+diagnosis	site_of_resection_or_biopsy	Other specified parts of pancreas
+diagnosis	site_of_resection_or_biopsy	Ovary
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of accessory sinuses
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of biliary tract
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of bladder
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of bones, joints and articular cartilage
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of bones, joints and articular cartilage of limbs
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of brain
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of brain and central nervous system
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of breast
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of cervix uteri
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of colon
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of connective, subcutaneous and other soft tissues
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of corpus uteri
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of digestive system
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of endocrine glands and related structures
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of esophagus
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of eye and adnexa
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of female genital organs
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of floor of mouth
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of heart, mediastinum and pleura
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of hypopharynx
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of ill-defined sites
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of larynx
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of lip
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of lip, oral cavity and pharynx
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of lung
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of major salivary glands
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of male genital organs
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of nasopharynx
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of other and unspecified parts of mouth
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of palate
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of pancreas
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of penis
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of peripheral nerves and autonomic nervous system
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of rectum, anus and anal canal
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of respiratory system and intrathoracic organs
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of retroperitoneum and peritoneum
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of skin
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of small intestine
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of stomach
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of tongue
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of tonsil
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of urinary organs
+diagnosis	site_of_resection_or_biopsy	Overlapping lesion of vulva
+diagnosis	site_of_resection_or_biopsy	Overlapping lesions of oropharynx
+diagnosis	site_of_resection_or_biopsy	Palate, NOS
+diagnosis	site_of_resection_or_biopsy	Pancreas, NOS
+diagnosis	site_of_resection_or_biopsy	Pancreatic duct
+diagnosis	site_of_resection_or_biopsy	Parametrium
+diagnosis	site_of_resection_or_biopsy	Parathyroid gland
+diagnosis	site_of_resection_or_biopsy	Paraurethral gland
+diagnosis	site_of_resection_or_biopsy	Parietal lobe
+diagnosis	site_of_resection_or_biopsy	Parotid gland
+diagnosis	site_of_resection_or_biopsy	Pelvic bones, sacrum, coccyx and associated joints
+diagnosis	site_of_resection_or_biopsy	Pelvic lymph nodes
+diagnosis	site_of_resection_or_biopsy	Pelvis, NOS
+diagnosis	site_of_resection_or_biopsy	Penis, NOS
+diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of abdomen
+diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of head, face, and neck
+diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of lower limb and hip
+diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of pelvis
+diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of thorax
+diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of trunk, NOS
+diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of upper limb and shoulder
+diagnosis	site_of_resection_or_biopsy	Peritoneum, NOS
+diagnosis	site_of_resection_or_biopsy	Pharynx, NOS
+diagnosis	site_of_resection_or_biopsy	Pineal gland
+diagnosis	site_of_resection_or_biopsy	Pituitary gland
+diagnosis	site_of_resection_or_biopsy	Placenta
+diagnosis	site_of_resection_or_biopsy	Pleura, NOS
+diagnosis	site_of_resection_or_biopsy	Postcricoid region
+diagnosis	site_of_resection_or_biopsy	Posterior mediastinum
+diagnosis	site_of_resection_or_biopsy	Posterior wall of bladder
+diagnosis	site_of_resection_or_biopsy	Posterior wall of hypopharynx
+diagnosis	site_of_resection_or_biopsy	Posterior wall of nasopharynx
+diagnosis	site_of_resection_or_biopsy	Posterior wall of oropharynx
+diagnosis	site_of_resection_or_biopsy	Prepuce
+diagnosis	site_of_resection_or_biopsy	Prostate gland
+diagnosis	site_of_resection_or_biopsy	Pylorus
+diagnosis	site_of_resection_or_biopsy	Pyriform sinus
+diagnosis	site_of_resection_or_biopsy	Rectosigmoid junction
+diagnosis	site_of_resection_or_biopsy	Rectum, NOS
+diagnosis	site_of_resection_or_biopsy	Renal pelvis
+diagnosis	site_of_resection_or_biopsy	Reticuloendothelial system, NOS
+diagnosis	site_of_resection_or_biopsy	Retina
+diagnosis	site_of_resection_or_biopsy	Retromolar area
+diagnosis	site_of_resection_or_biopsy	Retroperitoneum
+diagnosis	site_of_resection_or_biopsy	Rib, sternum, clavicle and associated joints
+diagnosis	site_of_resection_or_biopsy	Round ligament
+diagnosis	site_of_resection_or_biopsy	Scrotum, NOS
+diagnosis	site_of_resection_or_biopsy	Short bones of lower limb and associated joints
+diagnosis	site_of_resection_or_biopsy	Short bones of upper limb and associated joints
+diagnosis	site_of_resection_or_biopsy	Sigmoid colon
+diagnosis	site_of_resection_or_biopsy	Skin of lip, NOS
+diagnosis	site_of_resection_or_biopsy	Skin of lower limb and hip
+diagnosis	site_of_resection_or_biopsy	Skin of other and unspecified parts of face
+diagnosis	site_of_resection_or_biopsy	Skin of scalp and neck
+diagnosis	site_of_resection_or_biopsy	Skin of trunk
+diagnosis	site_of_resection_or_biopsy	Skin of upper limb and shoulder
+diagnosis	site_of_resection_or_biopsy	Skin, NOS
+diagnosis	site_of_resection_or_biopsy	Small intestine, NOS
+diagnosis	site_of_resection_or_biopsy	Soft palate, NOS
+diagnosis	site_of_resection_or_biopsy	Specified parts of peritoneum
+diagnosis	site_of_resection_or_biopsy	Spermatic cord
+diagnosis	site_of_resection_or_biopsy	Sphenoid sinus
+diagnosis	site_of_resection_or_biopsy	Spinal cord
+diagnosis	site_of_resection_or_biopsy	Spinal meninges
+diagnosis	site_of_resection_or_biopsy	Spleen
+diagnosis	site_of_resection_or_biopsy	Splenic flexure of colon
+diagnosis	site_of_resection_or_biopsy	Stomach, NOS
+diagnosis	site_of_resection_or_biopsy	Subglottis
+diagnosis	site_of_resection_or_biopsy	Sublingual gland
+diagnosis	site_of_resection_or_biopsy	Submandibular gland
+diagnosis	site_of_resection_or_biopsy	Superior wall of nasopharynx
+diagnosis	site_of_resection_or_biopsy	Supraglottis
+diagnosis	site_of_resection_or_biopsy	Tail of pancreas
+diagnosis	site_of_resection_or_biopsy	Temporal lobe
+diagnosis	site_of_resection_or_biopsy	Testis, NOS
+diagnosis	site_of_resection_or_biopsy	Thoracic esophagus
+diagnosis	site_of_resection_or_biopsy	Thorax, NOS
+diagnosis	site_of_resection_or_biopsy	Thymus
+diagnosis	site_of_resection_or_biopsy	Thyroid gland
+diagnosis	site_of_resection_or_biopsy	Tongue, NOS
+diagnosis	site_of_resection_or_biopsy	Tonsil, NOS
+diagnosis	site_of_resection_or_biopsy	Tonsillar fossa
+diagnosis	site_of_resection_or_biopsy	Tonsillar pillar
+diagnosis	site_of_resection_or_biopsy	Trachea
+diagnosis	site_of_resection_or_biopsy	Transverse colon
+diagnosis	site_of_resection_or_biopsy	Trigone of bladder
+diagnosis	site_of_resection_or_biopsy	Undescended testis
+diagnosis	site_of_resection_or_biopsy	Unknown
+diagnosis	site_of_resection_or_biopsy	Unknown primary site
+diagnosis	site_of_resection_or_biopsy	Upper gum
+diagnosis	site_of_resection_or_biopsy	Upper limb, NOS
+diagnosis	site_of_resection_or_biopsy	Upper lobe, lung
+diagnosis	site_of_resection_or_biopsy	Upper respiratory tract, NOS
+diagnosis	site_of_resection_or_biopsy	Upper third of esophagus
+diagnosis	site_of_resection_or_biopsy	Upper-inner quadrant of breast
+diagnosis	site_of_resection_or_biopsy	Upper-outer quadrant of breast
+diagnosis	site_of_resection_or_biopsy	Urachus
+diagnosis	site_of_resection_or_biopsy	Ureter
+diagnosis	site_of_resection_or_biopsy	Ureteric orifice
+diagnosis	site_of_resection_or_biopsy	Urethra
+diagnosis	site_of_resection_or_biopsy	Urinary system, NOS
+diagnosis	site_of_resection_or_biopsy	Uterine adnexa
+diagnosis	site_of_resection_or_biopsy	Uterus, NOS
+diagnosis	site_of_resection_or_biopsy	Uvula
+diagnosis	site_of_resection_or_biopsy	Vagina, NOS
+diagnosis	site_of_resection_or_biopsy	Vallecula
+diagnosis	site_of_resection_or_biopsy	Ventral surface of tongue, NOS
+diagnosis	site_of_resection_or_biopsy	Ventricle, NOS
+diagnosis	site_of_resection_or_biopsy	Vertebral column
+diagnosis	site_of_resection_or_biopsy	Vestibule of mouth
+diagnosis	site_of_resection_or_biopsy	Vulva, NOS
+diagnosis	site_of_resection_or_biopsy	Waldeyer ring
 diagnosis	tissue_or_organ_of_origin	Abdomen
 diagnosis	tissue_or_organ_of_origin	Abdomen, NOS
 diagnosis	tissue_or_organ_of_origin	Abdominal Esophagus
@@ -1144,1238 +1476,6 @@ sample	sample_type	Tumor
 sample	sample_type	Unspecified
 sample	sample_type	Urine
 sample	sample_type	Urine Pellet
-sample	tumor_grade	G1
-sample	tumor_grade	G2
-sample	tumor_grade	G3
-sample	tumor_grade	G4
-sample	tumor_grade	GB
-sample	tumor_grade	GX
-sample	tumor_grade	High Grade
-sample	tumor_grade	Intermediate Grade
-sample	tumor_grade	Low Grade
-sample	tumor_grade	Not Applicable
-sample	tumor_incidence_type	metastatic
-sample	tumor_incidence_type	primary
-sample	tumor_incidence_type	progression
-sample	tumor_incidence_type	recurrence
-sample	tumor_morphology	8000/0
-sample	tumor_morphology	8000/1
-sample	tumor_morphology	8000/3
-sample	tumor_morphology	8000/6
-sample	tumor_morphology	8000/9
-sample	tumor_morphology	8001/0
-sample	tumor_morphology	8001/1
-sample	tumor_morphology	8001/3
-sample	tumor_morphology	8002/3
-sample	tumor_morphology	8003/3
-sample	tumor_morphology	8004/3
-sample	tumor_morphology	8005/0
-sample	tumor_morphology	8005/3
-sample	tumor_morphology	8010/0
-sample	tumor_morphology	8010/2
-sample	tumor_morphology	8010/3
-sample	tumor_morphology	8010/6
-sample	tumor_morphology	8010/9
-sample	tumor_morphology	8011/0
-sample	tumor_morphology	8011/3
-sample	tumor_morphology	8012/3
-sample	tumor_morphology	8013/3
-sample	tumor_morphology	8014/3
-sample	tumor_morphology	8015/3
-sample	tumor_morphology	8020/3
-sample	tumor_morphology	8020/6
-sample	tumor_morphology	8021/3
-sample	tumor_morphology	8022/3
-sample	tumor_morphology	8023/3
-sample	tumor_morphology	8030/3
-sample	tumor_morphology	8031/3
-sample	tumor_morphology	8032/3
-sample	tumor_morphology	8033/3
-sample	tumor_morphology	8034/3
-sample	tumor_morphology	8035/3
-sample	tumor_morphology	8040/0
-sample	tumor_morphology	8040/1
-sample	tumor_morphology	8040/3
-sample	tumor_morphology	8041/3
-sample	tumor_morphology	8041/34
-sample	tumor_morphology	8041/6
-sample	tumor_morphology	8042/3
-sample	tumor_morphology	8043/3
-sample	tumor_morphology	8044/3
-sample	tumor_morphology	8045/3
-sample	tumor_morphology	8046/3
-sample	tumor_morphology	8046/6
-sample	tumor_morphology	8050/0
-sample	tumor_morphology	8050/2
-sample	tumor_morphology	8050/3
-sample	tumor_morphology	8051/0
-sample	tumor_morphology	8051/3
-sample	tumor_morphology	8052/0
-sample	tumor_morphology	8052/2
-sample	tumor_morphology	8052/3
-sample	tumor_morphology	8053/0
-sample	tumor_morphology	8060/0
-sample	tumor_morphology	8070/2
-sample	tumor_morphology	8070/3
-sample	tumor_morphology	8070/33
-sample	tumor_morphology	8070/6
-sample	tumor_morphology	8071/2
-sample	tumor_morphology	8071/3
-sample	tumor_morphology	8072/3
-sample	tumor_morphology	8073/3
-sample	tumor_morphology	8074/3
-sample	tumor_morphology	8075/3
-sample	tumor_morphology	8076/2
-sample	tumor_morphology	8076/3
-sample	tumor_morphology	8077/0
-sample	tumor_morphology	8077/2
-sample	tumor_morphology	8078/3
-sample	tumor_morphology	8080/2
-sample	tumor_morphology	8081/2
-sample	tumor_morphology	8082/3
-sample	tumor_morphology	8083/3
-sample	tumor_morphology	8084/3
-sample	tumor_morphology	8085/3
-sample	tumor_morphology	8086/3
-sample	tumor_morphology	8090/1
-sample	tumor_morphology	8090/3
-sample	tumor_morphology	8091/3
-sample	tumor_morphology	8092/3
-sample	tumor_morphology	8093/3
-sample	tumor_morphology	8094/3
-sample	tumor_morphology	8095/3
-sample	tumor_morphology	8096/0
-sample	tumor_morphology	8097/3
-sample	tumor_morphology	8098/3
-sample	tumor_morphology	8100/0
-sample	tumor_morphology	8101/0
-sample	tumor_morphology	8102/0
-sample	tumor_morphology	8102/3
-sample	tumor_morphology	8103/0
-sample	tumor_morphology	8110/0
-sample	tumor_morphology	8110/3
-sample	tumor_morphology	8120/0
-sample	tumor_morphology	8120/1
-sample	tumor_morphology	8120/2
-sample	tumor_morphology	8120/3
-sample	tumor_morphology	8121/0
-sample	tumor_morphology	8121/1
-sample	tumor_morphology	8121/3
-sample	tumor_morphology	8122/3
-sample	tumor_morphology	8123/3
-sample	tumor_morphology	8124/3
-sample	tumor_morphology	8130/1
-sample	tumor_morphology	8130/2
-sample	tumor_morphology	8130/3
-sample	tumor_morphology	8131/3
-sample	tumor_morphology	8140/0
-sample	tumor_morphology	8140/1
-sample	tumor_morphology	8140/2
-sample	tumor_morphology	8140/3
-sample	tumor_morphology	8140/33
-sample	tumor_morphology	8140/6
-sample	tumor_morphology	8141/3
-sample	tumor_morphology	8142/3
-sample	tumor_morphology	8143/3
-sample	tumor_morphology	8144/3
-sample	tumor_morphology	8145/3
-sample	tumor_morphology	8146/0
-sample	tumor_morphology	8147/0
-sample	tumor_morphology	8147/3
-sample	tumor_morphology	8148/0
-sample	tumor_morphology	8148/2
-sample	tumor_morphology	8149/0
-sample	tumor_morphology	8150/0
-sample	tumor_morphology	8150/1
-sample	tumor_morphology	8150/3
-sample	tumor_morphology	8151/0
-sample	tumor_morphology	8151/3
-sample	tumor_morphology	8152/1
-sample	tumor_morphology	8152/3
-sample	tumor_morphology	8153/1
-sample	tumor_morphology	8153/3
-sample	tumor_morphology	8154/3
-sample	tumor_morphology	8155/1
-sample	tumor_morphology	8155/3
-sample	tumor_morphology	8156/1
-sample	tumor_morphology	8156/3
-sample	tumor_morphology	8158/1
-sample	tumor_morphology	8160/0
-sample	tumor_morphology	8160/3
-sample	tumor_morphology	8161/0
-sample	tumor_morphology	8161/3
-sample	tumor_morphology	8162/3
-sample	tumor_morphology	8163/0
-sample	tumor_morphology	8163/2
-sample	tumor_morphology	8163/3
-sample	tumor_morphology	8170/0
-sample	tumor_morphology	8170/3
-sample	tumor_morphology	8171/3
-sample	tumor_morphology	8172/3
-sample	tumor_morphology	8173/3
-sample	tumor_morphology	8174/3
-sample	tumor_morphology	8175/3
-sample	tumor_morphology	8180/3
-sample	tumor_morphology	8190/0
-sample	tumor_morphology	8190/3
-sample	tumor_morphology	8191/0
-sample	tumor_morphology	8200/0
-sample	tumor_morphology	8200/3
-sample	tumor_morphology	8201/2
-sample	tumor_morphology	8201/3
-sample	tumor_morphology	8202/0
-sample	tumor_morphology	8204/0
-sample	tumor_morphology	8210/0
-sample	tumor_morphology	8210/2
-sample	tumor_morphology	8210/3
-sample	tumor_morphology	8211/0
-sample	tumor_morphology	8211/3
-sample	tumor_morphology	8212/0
-sample	tumor_morphology	8213/0
-sample	tumor_morphology	8213/3
-sample	tumor_morphology	8214/3
-sample	tumor_morphology	8215/3
-sample	tumor_morphology	8220/0
-sample	tumor_morphology	8220/3
-sample	tumor_morphology	8221/0
-sample	tumor_morphology	8221/3
-sample	tumor_morphology	8230/2
-sample	tumor_morphology	8230/3
-sample	tumor_morphology	8231/3
-sample	tumor_morphology	8240/1
-sample	tumor_morphology	8240/3
-sample	tumor_morphology	8240/6
-sample	tumor_morphology	8241/3
-sample	tumor_morphology	8242/1
-sample	tumor_morphology	8242/3
-sample	tumor_morphology	8243/3
-sample	tumor_morphology	8244/3
-sample	tumor_morphology	8245/1
-sample	tumor_morphology	8245/3
-sample	tumor_morphology	8246/3
-sample	tumor_morphology	8246/6
-sample	tumor_morphology	8247/3
-sample	tumor_morphology	8248/1
-sample	tumor_morphology	8249/3
-sample	tumor_morphology	8249/6
-sample	tumor_morphology	8250/1
-sample	tumor_morphology	8250/2
-sample	tumor_morphology	8250/3
-sample	tumor_morphology	8251/0
-sample	tumor_morphology	8251/3
-sample	tumor_morphology	8252/3
-sample	tumor_morphology	8253/3
-sample	tumor_morphology	8254/3
-sample	tumor_morphology	8255/3
-sample	tumor_morphology	8256/3
-sample	tumor_morphology	8257/3
-sample	tumor_morphology	8260/0
-sample	tumor_morphology	8260/3
-sample	tumor_morphology	8261/0
-sample	tumor_morphology	8261/2
-sample	tumor_morphology	8261/3
-sample	tumor_morphology	8262/3
-sample	tumor_morphology	8263/0
-sample	tumor_morphology	8263/2
-sample	tumor_morphology	8263/3
-sample	tumor_morphology	8264/0
-sample	tumor_morphology	8265/3
-sample	tumor_morphology	8270/0
-sample	tumor_morphology	8270/3
-sample	tumor_morphology	8271/0
-sample	tumor_morphology	8272/0
-sample	tumor_morphology	8272/3
-sample	tumor_morphology	8280/0
-sample	tumor_morphology	8280/3
-sample	tumor_morphology	8281/0
-sample	tumor_morphology	8281/3
-sample	tumor_morphology	8290/0
-sample	tumor_morphology	8290/3
-sample	tumor_morphology	8300/0
-sample	tumor_morphology	8300/3
-sample	tumor_morphology	8310/0
-sample	tumor_morphology	8310/3
-sample	tumor_morphology	8310/6
-sample	tumor_morphology	8311/1
-sample	tumor_morphology	8311/3
-sample	tumor_morphology	8311/6
-sample	tumor_morphology	8312/3
-sample	tumor_morphology	8313/0
-sample	tumor_morphology	8313/1
-sample	tumor_morphology	8313/3
-sample	tumor_morphology	8314/3
-sample	tumor_morphology	8315/3
-sample	tumor_morphology	8316/3
-sample	tumor_morphology	8317/3
-sample	tumor_morphology	8318/3
-sample	tumor_morphology	8319/3
-sample	tumor_morphology	8320/3
-sample	tumor_morphology	8321/0
-sample	tumor_morphology	8322/0
-sample	tumor_morphology	8322/3
-sample	tumor_morphology	8323/0
-sample	tumor_morphology	8323/3
-sample	tumor_morphology	8324/0
-sample	tumor_morphology	8325/0
-sample	tumor_morphology	8330/0
-sample	tumor_morphology	8330/1
-sample	tumor_morphology	8330/3
-sample	tumor_morphology	8331/3
-sample	tumor_morphology	8332/3
-sample	tumor_morphology	8333/0
-sample	tumor_morphology	8333/3
-sample	tumor_morphology	8334/0
-sample	tumor_morphology	8335/3
-sample	tumor_morphology	8336/0
-sample	tumor_morphology	8337/3
-sample	tumor_morphology	8339/3
-sample	tumor_morphology	8340/3
-sample	tumor_morphology	8341/3
-sample	tumor_morphology	8342/3
-sample	tumor_morphology	8343/2
-sample	tumor_morphology	8343/3
-sample	tumor_morphology	8344/3
-sample	tumor_morphology	8345/3
-sample	tumor_morphology	8346/3
-sample	tumor_morphology	8347/3
-sample	tumor_morphology	8350/3
-sample	tumor_morphology	8360/1
-sample	tumor_morphology	8361/0
-sample	tumor_morphology	8370/0
-sample	tumor_morphology	8370/1
-sample	tumor_morphology	8370/3
-sample	tumor_morphology	8371/0
-sample	tumor_morphology	8372/0
-sample	tumor_morphology	8373/0
-sample	tumor_morphology	8374/0
-sample	tumor_morphology	8375/0
-sample	tumor_morphology	8380/0
-sample	tumor_morphology	8380/1
-sample	tumor_morphology	8380/2
-sample	tumor_morphology	8380/3
-sample	tumor_morphology	8380/6
-sample	tumor_morphology	8381/0
-sample	tumor_morphology	8381/1
-sample	tumor_morphology	8381/3
-sample	tumor_morphology	8382/3
-sample	tumor_morphology	8383/3
-sample	tumor_morphology	8384/3
-sample	tumor_morphology	8390/0
-sample	tumor_morphology	8390/3
-sample	tumor_morphology	8391/0
-sample	tumor_morphology	8392/0
-sample	tumor_morphology	8400/0
-sample	tumor_morphology	8400/1
-sample	tumor_morphology	8400/3
-sample	tumor_morphology	8401/0
-sample	tumor_morphology	8401/3
-sample	tumor_morphology	8402/0
-sample	tumor_morphology	8402/3
-sample	tumor_morphology	8403/0
-sample	tumor_morphology	8403/3
-sample	tumor_morphology	8404/0
-sample	tumor_morphology	8405/0
-sample	tumor_morphology	8406/0
-sample	tumor_morphology	8407/0
-sample	tumor_morphology	8407/3
-sample	tumor_morphology	8408/0
-sample	tumor_morphology	8408/1
-sample	tumor_morphology	8408/3
-sample	tumor_morphology	8409/0
-sample	tumor_morphology	8409/3
-sample	tumor_morphology	8410/0
-sample	tumor_morphology	8410/3
-sample	tumor_morphology	8413/3
-sample	tumor_morphology	8420/0
-sample	tumor_morphology	8420/3
-sample	tumor_morphology	8430/1
-sample	tumor_morphology	8430/3
-sample	tumor_morphology	8440/0
-sample	tumor_morphology	8440/3
-sample	tumor_morphology	8441/0
-sample	tumor_morphology	8441/2
-sample	tumor_morphology	8441/3
-sample	tumor_morphology	8441/6
-sample	tumor_morphology	8442/1
-sample	tumor_morphology	8443/0
-sample	tumor_morphology	8444/1
-sample	tumor_morphology	8450/0
-sample	tumor_morphology	8450/3
-sample	tumor_morphology	8451/1
-sample	tumor_morphology	8452/1
-sample	tumor_morphology	8452/3
-sample	tumor_morphology	8453/0
-sample	tumor_morphology	8453/2
-sample	tumor_morphology	8453/3
-sample	tumor_morphology	8454/0
-sample	tumor_morphology	8460/0
-sample	tumor_morphology	8460/2
-sample	tumor_morphology	8460/3
-sample	tumor_morphology	8461/0
-sample	tumor_morphology	8461/3
-sample	tumor_morphology	8461/6
-sample	tumor_morphology	8462/1
-sample	tumor_morphology	8463/1
-sample	tumor_morphology	8470/0
-sample	tumor_morphology	8470/2
-sample	tumor_morphology	8470/3
-sample	tumor_morphology	8471/0
-sample	tumor_morphology	8471/1
-sample	tumor_morphology	8471/3
-sample	tumor_morphology	8472/1
-sample	tumor_morphology	8473/1
-sample	tumor_morphology	8474/1
-sample	tumor_morphology	8474/3
-sample	tumor_morphology	8480/0
-sample	tumor_morphology	8480/1
-sample	tumor_morphology	8480/3
-sample	tumor_morphology	8480/6
-sample	tumor_morphology	8481/3
-sample	tumor_morphology	8482/3
-sample	tumor_morphology	8482/6
-sample	tumor_morphology	8490/3
-sample	tumor_morphology	8490/6
-sample	tumor_morphology	8500/2
-sample	tumor_morphology	8500/3
-sample	tumor_morphology	8500/6
-sample	tumor_morphology	8501/2
-sample	tumor_morphology	8501/3
-sample	tumor_morphology	8502/3
-sample	tumor_morphology	8503/0
-sample	tumor_morphology	8503/2
-sample	tumor_morphology	8503/3
-sample	tumor_morphology	8504/0
-sample	tumor_morphology	8504/2
-sample	tumor_morphology	8504/3
-sample	tumor_morphology	8505/0
-sample	tumor_morphology	8506/0
-sample	tumor_morphology	8507/2
-sample	tumor_morphology	8507/3
-sample	tumor_morphology	8508/3
-sample	tumor_morphology	8509/2
-sample	tumor_morphology	8509/3
-sample	tumor_morphology	8510/3
-sample	tumor_morphology	8512/3
-sample	tumor_morphology	8513/3
-sample	tumor_morphology	8514/3
-sample	tumor_morphology	8519/2
-sample	tumor_morphology	8520/2
-sample	tumor_morphology	8520/3
-sample	tumor_morphology	8521/1
-sample	tumor_morphology	8521/3
-sample	tumor_morphology	8522/1
-sample	tumor_morphology	8522/2
-sample	tumor_morphology	8522/3
-sample	tumor_morphology	8522/6
-sample	tumor_morphology	8523/3
-sample	tumor_morphology	8524/3
-sample	tumor_morphology	8525/3
-sample	tumor_morphology	8530/3
-sample	tumor_morphology	8540/3
-sample	tumor_morphology	8541/3
-sample	tumor_morphology	8542/3
-sample	tumor_morphology	8543/3
-sample	tumor_morphology	8550/0
-sample	tumor_morphology	8550/1
-sample	tumor_morphology	8550/3
-sample	tumor_morphology	8551/3
-sample	tumor_morphology	8552/3
-sample	tumor_morphology	8560/0
-sample	tumor_morphology	8560/3
-sample	tumor_morphology	8561/0
-sample	tumor_morphology	8562/3
-sample	tumor_morphology	8570/3
-sample	tumor_morphology	8571/3
-sample	tumor_morphology	8572/3
-sample	tumor_morphology	8573/3
-sample	tumor_morphology	8574/3
-sample	tumor_morphology	8575/3
-sample	tumor_morphology	8576/3
-sample	tumor_morphology	8580/0
-sample	tumor_morphology	8580/1
-sample	tumor_morphology	8580/3
-sample	tumor_morphology	8581/1
-sample	tumor_morphology	8581/3
-sample	tumor_morphology	8582/1
-sample	tumor_morphology	8582/3
-sample	tumor_morphology	8583/1
-sample	tumor_morphology	8583/3
-sample	tumor_morphology	8584/1
-sample	tumor_morphology	8584/3
-sample	tumor_morphology	8585/1
-sample	tumor_morphology	8585/3
-sample	tumor_morphology	8586/3
-sample	tumor_morphology	8587/0
-sample	tumor_morphology	8588/3
-sample	tumor_morphology	8589/3
-sample	tumor_morphology	8590/1
-sample	tumor_morphology	8591/1
-sample	tumor_morphology	8592/1
-sample	tumor_morphology	8593/1
-sample	tumor_morphology	8594/1
-sample	tumor_morphology	8600/0
-sample	tumor_morphology	8600/3
-sample	tumor_morphology	8601/0
-sample	tumor_morphology	8602/0
-sample	tumor_morphology	8610/0
-sample	tumor_morphology	8620/1
-sample	tumor_morphology	8620/3
-sample	tumor_morphology	8621/1
-sample	tumor_morphology	8622/1
-sample	tumor_morphology	8623/1
-sample	tumor_morphology	8630/0
-sample	tumor_morphology	8630/1
-sample	tumor_morphology	8630/3
-sample	tumor_morphology	8631/0
-sample	tumor_morphology	8631/1
-sample	tumor_morphology	8631/3
-sample	tumor_morphology	8632/1
-sample	tumor_morphology	8633/1
-sample	tumor_morphology	8634/1
-sample	tumor_morphology	8634/3
-sample	tumor_morphology	8640/1
-sample	tumor_morphology	8640/3
-sample	tumor_morphology	8641/0
-sample	tumor_morphology	8642/1
-sample	tumor_morphology	8650/0
-sample	tumor_morphology	8650/1
-sample	tumor_morphology	8650/3
-sample	tumor_morphology	8660/0
-sample	tumor_morphology	8670/0
-sample	tumor_morphology	8670/3
-sample	tumor_morphology	8671/0
-sample	tumor_morphology	8680/0
-sample	tumor_morphology	8680/1
-sample	tumor_morphology	8680/3
-sample	tumor_morphology	8681/1
-sample	tumor_morphology	8682/1
-sample	tumor_morphology	8683/0
-sample	tumor_morphology	8690/1
-sample	tumor_morphology	8691/1
-sample	tumor_morphology	8692/1
-sample	tumor_morphology	8693/1
-sample	tumor_morphology	8693/3
-sample	tumor_morphology	8700/0
-sample	tumor_morphology	8700/3
-sample	tumor_morphology	8710/3
-sample	tumor_morphology	8711/0
-sample	tumor_morphology	8711/3
-sample	tumor_morphology	8712/0
-sample	tumor_morphology	8713/0
-sample	tumor_morphology	8714/3
-sample	tumor_morphology	8720/0
-sample	tumor_morphology	8720/2
-sample	tumor_morphology	8720/3
-sample	tumor_morphology	8720/6
-sample	tumor_morphology	8721/3
-sample	tumor_morphology	8722/0
-sample	tumor_morphology	8722/3
-sample	tumor_morphology	8723/0
-sample	tumor_morphology	8723/3
-sample	tumor_morphology	8725/0
-sample	tumor_morphology	8726/0
-sample	tumor_morphology	8727/0
-sample	tumor_morphology	8728/0
-sample	tumor_morphology	8728/1
-sample	tumor_morphology	8728/3
-sample	tumor_morphology	8730/0
-sample	tumor_morphology	8730/3
-sample	tumor_morphology	8740/0
-sample	tumor_morphology	8740/3
-sample	tumor_morphology	8741/2
-sample	tumor_morphology	8741/3
-sample	tumor_morphology	8742/2
-sample	tumor_morphology	8742/3
-sample	tumor_morphology	8743/3
-sample	tumor_morphology	8744/3
-sample	tumor_morphology	8745/3
-sample	tumor_morphology	8746/3
-sample	tumor_morphology	8750/0
-sample	tumor_morphology	8760/0
-sample	tumor_morphology	8761/0
-sample	tumor_morphology	8761/1
-sample	tumor_morphology	8761/3
-sample	tumor_morphology	8762/1
-sample	tumor_morphology	8770/0
-sample	tumor_morphology	8770/3
-sample	tumor_morphology	8771/0
-sample	tumor_morphology	8771/3
-sample	tumor_morphology	8772/0
-sample	tumor_morphology	8772/3
-sample	tumor_morphology	8773/3
-sample	tumor_morphology	8774/3
-sample	tumor_morphology	8780/0
-sample	tumor_morphology	8780/3
-sample	tumor_morphology	8790/0
-sample	tumor_morphology	8800/0
-sample	tumor_morphology	8800/3
-sample	tumor_morphology	8800/6
-sample	tumor_morphology	8800/9
-sample	tumor_morphology	8801/3
-sample	tumor_morphology	8801/6
-sample	tumor_morphology	8802/3
-sample	tumor_morphology	8803/3
-sample	tumor_morphology	8804/3
-sample	tumor_morphology	8804/6
-sample	tumor_morphology	8805/3
-sample	tumor_morphology	8806/3
-sample	tumor_morphology	8806/6
-sample	tumor_morphology	8810/0
-sample	tumor_morphology	8810/1
-sample	tumor_morphology	8810/3
-sample	tumor_morphology	8811/0
-sample	tumor_morphology	8811/1
-sample	tumor_morphology	8811/3
-sample	tumor_morphology	8812/0
-sample	tumor_morphology	8812/3
-sample	tumor_morphology	8813/0
-sample	tumor_morphology	8813/3
-sample	tumor_morphology	8814/3
-sample	tumor_morphology	8815/0
-sample	tumor_morphology	8815/1
-sample	tumor_morphology	8815/3
-sample	tumor_morphology	8820/0
-sample	tumor_morphology	8821/1
-sample	tumor_morphology	8822/1
-sample	tumor_morphology	8823/0
-sample	tumor_morphology	8824/0
-sample	tumor_morphology	8824/1
-sample	tumor_morphology	8825/0
-sample	tumor_morphology	8825/1
-sample	tumor_morphology	8825/3
-sample	tumor_morphology	8826/0
-sample	tumor_morphology	8827/1
-sample	tumor_morphology	8830/0
-sample	tumor_morphology	8830/1
-sample	tumor_morphology	8830/3
-sample	tumor_morphology	8831/0
-sample	tumor_morphology	8832/0
-sample	tumor_morphology	8832/3
-sample	tumor_morphology	8833/3
-sample	tumor_morphology	8834/1
-sample	tumor_morphology	8835/1
-sample	tumor_morphology	8836/1
-sample	tumor_morphology	8840/0
-sample	tumor_morphology	8840/3
-sample	tumor_morphology	8841/1
-sample	tumor_morphology	8842/0
-sample	tumor_morphology	8842/3
-sample	tumor_morphology	8850/0
-sample	tumor_morphology	8850/1
-sample	tumor_morphology	8850/3
-sample	tumor_morphology	8851/0
-sample	tumor_morphology	8851/3
-sample	tumor_morphology	8852/0
-sample	tumor_morphology	8852/3
-sample	tumor_morphology	8853/3
-sample	tumor_morphology	8854/0
-sample	tumor_morphology	8854/3
-sample	tumor_morphology	8855/3
-sample	tumor_morphology	8856/0
-sample	tumor_morphology	8857/0
-sample	tumor_morphology	8857/3
-sample	tumor_morphology	8858/3
-sample	tumor_morphology	8860/0
-sample	tumor_morphology	8861/0
-sample	tumor_morphology	8862/0
-sample	tumor_morphology	8870/0
-sample	tumor_morphology	8880/0
-sample	tumor_morphology	8881/0
-sample	tumor_morphology	8890/0
-sample	tumor_morphology	8890/1
-sample	tumor_morphology	8890/3
-sample	tumor_morphology	8891/0
-sample	tumor_morphology	8891/3
-sample	tumor_morphology	8892/0
-sample	tumor_morphology	8893/0
-sample	tumor_morphology	8894/0
-sample	tumor_morphology	8894/3
-sample	tumor_morphology	8895/0
-sample	tumor_morphology	8895/3
-sample	tumor_morphology	8896/3
-sample	tumor_morphology	8897/1
-sample	tumor_morphology	8898/1
-sample	tumor_morphology	8900/0
-sample	tumor_morphology	8900/3
-sample	tumor_morphology	8901/3
-sample	tumor_morphology	8902/3
-sample	tumor_morphology	8903/0
-sample	tumor_morphology	8904/0
-sample	tumor_morphology	8905/0
-sample	tumor_morphology	8910/3
-sample	tumor_morphology	8912/3
-sample	tumor_morphology	8920/3
-sample	tumor_morphology	8920/6
-sample	tumor_morphology	8921/3
-sample	tumor_morphology	8930/0
-sample	tumor_morphology	8930/3
-sample	tumor_morphology	8931/3
-sample	tumor_morphology	8932/0
-sample	tumor_morphology	8933/3
-sample	tumor_morphology	8934/3
-sample	tumor_morphology	8935/0
-sample	tumor_morphology	8935/1
-sample	tumor_morphology	8935/3
-sample	tumor_morphology	8936/0
-sample	tumor_morphology	8936/1
-sample	tumor_morphology	8936/3
-sample	tumor_morphology	8940/0
-sample	tumor_morphology	8940/3
-sample	tumor_morphology	8941/3
-sample	tumor_morphology	8950/3
-sample	tumor_morphology	8950/6
-sample	tumor_morphology	8951/3
-sample	tumor_morphology	8959/0
-sample	tumor_morphology	8959/1
-sample	tumor_morphology	8959/3
-sample	tumor_morphology	8960/1
-sample	tumor_morphology	8960/3
-sample	tumor_morphology	8963/3
-sample	tumor_morphology	8964/3
-sample	tumor_morphology	8965/0
-sample	tumor_morphology	8966/0
-sample	tumor_morphology	8967/0
-sample	tumor_morphology	8970/3
-sample	tumor_morphology	8971/3
-sample	tumor_morphology	8972/3
-sample	tumor_morphology	8973/3
-sample	tumor_morphology	8974/1
-sample	tumor_morphology	8975/1
-sample	tumor_morphology	8980/3
-sample	tumor_morphology	8981/3
-sample	tumor_morphology	8982/0
-sample	tumor_morphology	8982/3
-sample	tumor_morphology	8983/0
-sample	tumor_morphology	8983/3
-sample	tumor_morphology	8990/0
-sample	tumor_morphology	8990/1
-sample	tumor_morphology	8990/3
-sample	tumor_morphology	8991/3
-sample	tumor_morphology	9000/0
-sample	tumor_morphology	9000/1
-sample	tumor_morphology	9000/3
-sample	tumor_morphology	9010/0
-sample	tumor_morphology	9011/0
-sample	tumor_morphology	9012/0
-sample	tumor_morphology	9013/0
-sample	tumor_morphology	9014/0
-sample	tumor_morphology	9014/1
-sample	tumor_morphology	9014/3
-sample	tumor_morphology	9015/0
-sample	tumor_morphology	9015/1
-sample	tumor_morphology	9015/3
-sample	tumor_morphology	9016/0
-sample	tumor_morphology	9020/0
-sample	tumor_morphology	9020/1
-sample	tumor_morphology	9020/3
-sample	tumor_morphology	9030/0
-sample	tumor_morphology	9040/0
-sample	tumor_morphology	9040/3
-sample	tumor_morphology	9041/3
-sample	tumor_morphology	9042/3
-sample	tumor_morphology	9043/3
-sample	tumor_morphology	9044/3
-sample	tumor_morphology	9045/3
-sample	tumor_morphology	9050/0
-sample	tumor_morphology	9050/3
-sample	tumor_morphology	9051/0
-sample	tumor_morphology	9051/3
-sample	tumor_morphology	9052/0
-sample	tumor_morphology	9052/3
-sample	tumor_morphology	9053/3
-sample	tumor_morphology	9054/0
-sample	tumor_morphology	9055/0
-sample	tumor_morphology	9055/1
-sample	tumor_morphology	9060/3
-sample	tumor_morphology	9061/3
-sample	tumor_morphology	9062/3
-sample	tumor_morphology	9063/3
-sample	tumor_morphology	9064/2
-sample	tumor_morphology	9064/3
-sample	tumor_morphology	9065/3
-sample	tumor_morphology	9070/3
-sample	tumor_morphology	9071/3
-sample	tumor_morphology	9072/3
-sample	tumor_morphology	9073/1
-sample	tumor_morphology	9080/0
-sample	tumor_morphology	9080/1
-sample	tumor_morphology	9080/3
-sample	tumor_morphology	9081/3
-sample	tumor_morphology	9082/3
-sample	tumor_morphology	9083/3
-sample	tumor_morphology	9084/0
-sample	tumor_morphology	9084/3
-sample	tumor_morphology	9085/3
-sample	tumor_morphology	9086/3
-sample	tumor_morphology	9090/0
-sample	tumor_morphology	9090/3
-sample	tumor_morphology	9091/1
-sample	tumor_morphology	9100/0
-sample	tumor_morphology	9100/1
-sample	tumor_morphology	9100/3
-sample	tumor_morphology	9101/3
-sample	tumor_morphology	9102/3
-sample	tumor_morphology	9103/0
-sample	tumor_morphology	9104/1
-sample	tumor_morphology	9105/3
-sample	tumor_morphology	9110/0
-sample	tumor_morphology	9110/1
-sample	tumor_morphology	9110/3
-sample	tumor_morphology	9120/0
-sample	tumor_morphology	9120/3
-sample	tumor_morphology	9121/0
-sample	tumor_morphology	9122/0
-sample	tumor_morphology	9123/0
-sample	tumor_morphology	9124/3
-sample	tumor_morphology	9125/0
-sample	tumor_morphology	9130/0
-sample	tumor_morphology	9130/1
-sample	tumor_morphology	9130/3
-sample	tumor_morphology	9131/0
-sample	tumor_morphology	9132/0
-sample	tumor_morphology	9133/1
-sample	tumor_morphology	9133/3
-sample	tumor_morphology	9135/1
-sample	tumor_morphology	9136/1
-sample	tumor_morphology	9137/3
-sample	tumor_morphology	9140/3
-sample	tumor_morphology	9141/0
-sample	tumor_morphology	9142/0
-sample	tumor_morphology	9150/0
-sample	tumor_morphology	9150/1
-sample	tumor_morphology	9150/3
-sample	tumor_morphology	9160/0
-sample	tumor_morphology	9161/0
-sample	tumor_morphology	9161/1
-sample	tumor_morphology	9170/0
-sample	tumor_morphology	9170/3
-sample	tumor_morphology	9171/0
-sample	tumor_morphology	9172/0
-sample	tumor_morphology	9173/0
-sample	tumor_morphology	9174/0
-sample	tumor_morphology	9174/1
-sample	tumor_morphology	9175/0
-sample	tumor_morphology	9180/0
-sample	tumor_morphology	9180/3
-sample	tumor_morphology	9180/6
-sample	tumor_morphology	9181/3
-sample	tumor_morphology	9182/3
-sample	tumor_morphology	9183/3
-sample	tumor_morphology	9184/3
-sample	tumor_morphology	9185/3
-sample	tumor_morphology	9186/3
-sample	tumor_morphology	9187/3
-sample	tumor_morphology	9191/0
-sample	tumor_morphology	9192/3
-sample	tumor_morphology	9193/3
-sample	tumor_morphology	9194/3
-sample	tumor_morphology	9195/3
-sample	tumor_morphology	9200/0
-sample	tumor_morphology	9200/1
-sample	tumor_morphology	9210/0
-sample	tumor_morphology	9210/1
-sample	tumor_morphology	9220/0
-sample	tumor_morphology	9220/1
-sample	tumor_morphology	9220/3
-sample	tumor_morphology	9221/0
-sample	tumor_morphology	9221/3
-sample	tumor_morphology	9230/0
-sample	tumor_morphology	9230/3
-sample	tumor_morphology	9231/3
-sample	tumor_morphology	9240/3
-sample	tumor_morphology	9241/0
-sample	tumor_morphology	9242/3
-sample	tumor_morphology	9243/3
-sample	tumor_morphology	9250/1
-sample	tumor_morphology	9250/3
-sample	tumor_morphology	9251/1
-sample	tumor_morphology	9251/3
-sample	tumor_morphology	9252/0
-sample	tumor_morphology	9252/3
-sample	tumor_morphology	9260/3
-sample	tumor_morphology	9261/3
-sample	tumor_morphology	9262/0
-sample	tumor_morphology	9270/0
-sample	tumor_morphology	9270/1
-sample	tumor_morphology	9270/3
-sample	tumor_morphology	9271/0
-sample	tumor_morphology	9272/0
-sample	tumor_morphology	9273/0
-sample	tumor_morphology	9274/0
-sample	tumor_morphology	9275/0
-sample	tumor_morphology	9280/0
-sample	tumor_morphology	9281/0
-sample	tumor_morphology	9282/0
-sample	tumor_morphology	9290/0
-sample	tumor_morphology	9290/3
-sample	tumor_morphology	9300/0
-sample	tumor_morphology	9301/0
-sample	tumor_morphology	9302/0
-sample	tumor_morphology	9302/3
-sample	tumor_morphology	9310/0
-sample	tumor_morphology	9310/3
-sample	tumor_morphology	9311/0
-sample	tumor_morphology	9312/0
-sample	tumor_morphology	9320/0
-sample	tumor_morphology	9321/0
-sample	tumor_morphology	9322/0
-sample	tumor_morphology	9330/0
-sample	tumor_morphology	9330/3
-sample	tumor_morphology	9340/0
-sample	tumor_morphology	9341/1
-sample	tumor_morphology	9341/3
-sample	tumor_morphology	9342/3
-sample	tumor_morphology	9350/1
-sample	tumor_morphology	9351/1
-sample	tumor_morphology	9352/1
-sample	tumor_morphology	9360/1
-sample	tumor_morphology	9361/1
-sample	tumor_morphology	9362/3
-sample	tumor_morphology	9363/0
-sample	tumor_morphology	9364/3
-sample	tumor_morphology	9365/3
-sample	tumor_morphology	9370/3
-sample	tumor_morphology	9371/3
-sample	tumor_morphology	9372/3
-sample	tumor_morphology	9373/0
-sample	tumor_morphology	9380/3
-sample	tumor_morphology	9381/3
-sample	tumor_morphology	9382/3
-sample	tumor_morphology	9383/1
-sample	tumor_morphology	9384/1
-sample	tumor_morphology	9385/3
-sample	tumor_morphology	9390/0
-sample	tumor_morphology	9390/1
-sample	tumor_morphology	9390/3
-sample	tumor_morphology	9391/3
-sample	tumor_morphology	9392/3
-sample	tumor_morphology	9393/3
-sample	tumor_morphology	9394/1
-sample	tumor_morphology	9395/3
-sample	tumor_morphology	9396/3
-sample	tumor_morphology	9400/3
-sample	tumor_morphology	9401/3
-sample	tumor_morphology	9410/3
-sample	tumor_morphology	9411/3
-sample	tumor_morphology	9412/1
-sample	tumor_morphology	9413/0
-sample	tumor_morphology	9420/3
-sample	tumor_morphology	9421/1
-sample	tumor_morphology	9423/3
-sample	tumor_morphology	9424/3
-sample	tumor_morphology	9425/3
-sample	tumor_morphology	9430/3
-sample	tumor_morphology	9431/1
-sample	tumor_morphology	9432/1
-sample	tumor_morphology	9440/3
-sample	tumor_morphology	9440/6
-sample	tumor_morphology	9441/3
-sample	tumor_morphology	9442/1
-sample	tumor_morphology	9442/3
-sample	tumor_morphology	9444/1
-sample	tumor_morphology	9445/3
-sample	tumor_morphology	9450/3
-sample	tumor_morphology	9451/3
-sample	tumor_morphology	9460/3
-sample	tumor_morphology	9470/3
-sample	tumor_morphology	9471/3
-sample	tumor_morphology	9472/3
-sample	tumor_morphology	9473/3
-sample	tumor_morphology	9474/3
-sample	tumor_morphology	9475/3
-sample	tumor_morphology	9476/3
-sample	tumor_morphology	9477/3
-sample	tumor_morphology	9478/3
-sample	tumor_morphology	9480/3
-sample	tumor_morphology	9490/0
-sample	tumor_morphology	9490/3
-sample	tumor_morphology	9491/0
-sample	tumor_morphology	9492/0
-sample	tumor_morphology	9493/0
-sample	tumor_morphology	9500/3
-sample	tumor_morphology	9501/0
-sample	tumor_morphology	9501/3
-sample	tumor_morphology	9502/0
-sample	tumor_morphology	9502/3
-sample	tumor_morphology	9503/3
-sample	tumor_morphology	9504/3
-sample	tumor_morphology	9505/1
-sample	tumor_morphology	9505/3
-sample	tumor_morphology	9506/1
-sample	tumor_morphology	9507/0
-sample	tumor_morphology	9508/3
-sample	tumor_morphology	9509/1
-sample	tumor_morphology	9510/0
-sample	tumor_morphology	9510/3
-sample	tumor_morphology	9511/3
-sample	tumor_morphology	9512/3
-sample	tumor_morphology	9513/3
-sample	tumor_morphology	9514/1
-sample	tumor_morphology	9520/3
-sample	tumor_morphology	9521/3
-sample	tumor_morphology	9522/3
-sample	tumor_morphology	9523/3
-sample	tumor_morphology	9530/0
-sample	tumor_morphology	9530/1
-sample	tumor_morphology	9530/3
-sample	tumor_morphology	9531/0
-sample	tumor_morphology	9532/0
-sample	tumor_morphology	9533/0
-sample	tumor_morphology	9534/0
-sample	tumor_morphology	9535/0
-sample	tumor_morphology	9537/0
-sample	tumor_morphology	9538/1
-sample	tumor_morphology	9538/3
-sample	tumor_morphology	9539/1
-sample	tumor_morphology	9539/3
-sample	tumor_morphology	9540/0
-sample	tumor_morphology	9540/1
-sample	tumor_morphology	9540/3
-sample	tumor_morphology	9541/0
-sample	tumor_morphology	9542/3
-sample	tumor_morphology	9550/0
-sample	tumor_morphology	9560/0
-sample	tumor_morphology	9560/1
-sample	tumor_morphology	9560/3
-sample	tumor_morphology	9561/3
-sample	tumor_morphology	9562/0
-sample	tumor_morphology	9570/0
-sample	tumor_morphology	9571/0
-sample	tumor_morphology	9571/3
-sample	tumor_morphology	9580/0
-sample	tumor_morphology	9580/3
-sample	tumor_morphology	9581/3
-sample	tumor_morphology	9582/0
-sample	tumor_morphology	9590/3
-sample	tumor_morphology	9591/3
-sample	tumor_morphology	9596/3
-sample	tumor_morphology	9597/3
-sample	tumor_morphology	9650/3
-sample	tumor_morphology	9651/3
-sample	tumor_morphology	9652/3
-sample	tumor_morphology	9653/3
-sample	tumor_morphology	9654/3
-sample	tumor_morphology	9655/3
-sample	tumor_morphology	9659/3
-sample	tumor_morphology	9661/3
-sample	tumor_morphology	9662/3
-sample	tumor_morphology	9663/3
-sample	tumor_morphology	9664/3
-sample	tumor_morphology	9665/3
-sample	tumor_morphology	9667/3
-sample	tumor_morphology	9670/3
-sample	tumor_morphology	9671/3
-sample	tumor_morphology	9673/3
-sample	tumor_morphology	9675/3
-sample	tumor_morphology	9678/3
-sample	tumor_morphology	9679/3
-sample	tumor_morphology	9680/3
-sample	tumor_morphology	9684/3
-sample	tumor_morphology	9687/3
-sample	tumor_morphology	9688/3
-sample	tumor_morphology	9689/3
-sample	tumor_morphology	9690/3
-sample	tumor_morphology	9691/3
-sample	tumor_morphology	9695/3
-sample	tumor_morphology	9698/3
-sample	tumor_morphology	9699/3
-sample	tumor_morphology	9700/3
-sample	tumor_morphology	9701/3
-sample	tumor_morphology	9702/3
-sample	tumor_morphology	9705/3
-sample	tumor_morphology	9708/3
-sample	tumor_morphology	9709/3
-sample	tumor_morphology	9712/3
-sample	tumor_morphology	9714/3
-sample	tumor_morphology	9716/3
-sample	tumor_morphology	9717/3
-sample	tumor_morphology	9718/3
-sample	tumor_morphology	9719/3
-sample	tumor_morphology	9724/3
-sample	tumor_morphology	9725/3
-sample	tumor_morphology	9726/3
-sample	tumor_morphology	9727/3
-sample	tumor_morphology	9728/3
-sample	tumor_morphology	9729/3
-sample	tumor_morphology	9731/3
-sample	tumor_morphology	9732/3
-sample	tumor_morphology	9733/3
-sample	tumor_morphology	9734/3
-sample	tumor_morphology	9735/3
-sample	tumor_morphology	9737/3
-sample	tumor_morphology	9738/3
-sample	tumor_morphology	9740/1
-sample	tumor_morphology	9740/3
-sample	tumor_morphology	9741/1
-sample	tumor_morphology	9741/3
-sample	tumor_morphology	9742/3
-sample	tumor_morphology	9750/3
-sample	tumor_morphology	9751/1
-sample	tumor_morphology	9751/3
-sample	tumor_morphology	9752/1
-sample	tumor_morphology	9753/1
-sample	tumor_morphology	9754/3
-sample	tumor_morphology	9755/3
-sample	tumor_morphology	9756/3
-sample	tumor_morphology	9757/3
-sample	tumor_morphology	9758/3
-sample	tumor_morphology	9759/3
-sample	tumor_morphology	9760/3
-sample	tumor_morphology	9761/3
-sample	tumor_morphology	9762/3
-sample	tumor_morphology	9764/3
-sample	tumor_morphology	9765/1
-sample	tumor_morphology	9766/1
-sample	tumor_morphology	9767/1
-sample	tumor_morphology	9768/1
-sample	tumor_morphology	9769/1
-sample	tumor_morphology	9800/3
-sample	tumor_morphology	9801/3
-sample	tumor_morphology	9805/3
-sample	tumor_morphology	9806/3
-sample	tumor_morphology	9807/3
-sample	tumor_morphology	9808/3
-sample	tumor_morphology	9809/3
-sample	tumor_morphology	9811/3
-sample	tumor_morphology	9812/3
-sample	tumor_morphology	9813/3
-sample	tumor_morphology	9814/3
-sample	tumor_morphology	9815/3
-sample	tumor_morphology	9816/3
-sample	tumor_morphology	9817/3
-sample	tumor_morphology	9818/3
-sample	tumor_morphology	9820/3
-sample	tumor_morphology	9823/3
-sample	tumor_morphology	9826/3
-sample	tumor_morphology	9827/3
-sample	tumor_morphology	9831/3
-sample	tumor_morphology	9832/3
-sample	tumor_morphology	9833/3
-sample	tumor_morphology	9834/3
-sample	tumor_morphology	9835/3
-sample	tumor_morphology	9836/3
-sample	tumor_morphology	9837/3
-sample	tumor_morphology	9840/3
-sample	tumor_morphology	9860/3
-sample	tumor_morphology	9861/3
-sample	tumor_morphology	9863/3
-sample	tumor_morphology	9865/3
-sample	tumor_morphology	9866/3
-sample	tumor_morphology	9867/3
-sample	tumor_morphology	9869/3
-sample	tumor_morphology	9870/3
-sample	tumor_morphology	9871/3
-sample	tumor_morphology	9872/3
-sample	tumor_morphology	9873/3
-sample	tumor_morphology	9874/3
-sample	tumor_morphology	9875/3
-sample	tumor_morphology	9876/3
-sample	tumor_morphology	9891/3
-sample	tumor_morphology	9895/3
-sample	tumor_morphology	9896/3
-sample	tumor_morphology	9897/3
-sample	tumor_morphology	9898/1
-sample	tumor_morphology	9898/3
-sample	tumor_morphology	9910/3
-sample	tumor_morphology	9911/3
-sample	tumor_morphology	9920/3
-sample	tumor_morphology	9930/3
-sample	tumor_morphology	9931/3
-sample	tumor_morphology	9940/3
-sample	tumor_morphology	9945/3
-sample	tumor_morphology	9946/3
-sample	tumor_morphology	9948/3
-sample	tumor_morphology	9950/3
-sample	tumor_morphology	9960/3
-sample	tumor_morphology	9961/3
-sample	tumor_morphology	9962/3
-sample	tumor_morphology	9963/3
-sample	tumor_morphology	9964/3
-sample	tumor_morphology	9965/3
-sample	tumor_morphology	9966/3
-sample	tumor_morphology	9967/3
-sample	tumor_morphology	9970/1
-sample	tumor_morphology	9971/1
-sample	tumor_morphology	9971/3
-sample	tumor_morphology	9975/3
-sample	tumor_morphology	9980/3
-sample	tumor_morphology	9982/3
-sample	tumor_morphology	9983/3
-sample	tumor_morphology	9984/3
-sample	tumor_morphology	9985/3
-sample	tumor_morphology	9986/3
-sample	tumor_morphology	9987/3
-sample	tumor_morphology	9989/3
-sample	tumor_morphology	9991/3
-sample	tumor_morphology	9992/3
-sample	tumor_morphology	Not Reported
-sample	tumor_morphology	Unknown
-sample	tumor_stage_clinical_m	M0
-sample	tumor_stage_clinical_m	M1
-sample	tumor_stage_clinical_m	M1a
-sample	tumor_stage_clinical_m	M1b
-sample	tumor_stage_clinical_m	M1c
-sample	tumor_stage_clinical_m	MX
-sample	tumor_stage_clinical_m	cM0 (i+)
-sample	tumor_stage_clinical_n	N0
-sample	tumor_stage_clinical_n	N0 (i+)
-sample	tumor_stage_clinical_n	N0 (i-)
-sample	tumor_stage_clinical_n	N0 (mol+)
-sample	tumor_stage_clinical_n	N0 (mol-)
-sample	tumor_stage_clinical_n	N1
-sample	tumor_stage_clinical_n	N1a
-sample	tumor_stage_clinical_n	N1b
-sample	tumor_stage_clinical_n	N1bI
-sample	tumor_stage_clinical_n	N1bII
-sample	tumor_stage_clinical_n	N1bIII
-sample	tumor_stage_clinical_n	N1bIV
-sample	tumor_stage_clinical_n	N1c
-sample	tumor_stage_clinical_n	N1mi
-sample	tumor_stage_clinical_n	N2
-sample	tumor_stage_clinical_n	N2a
-sample	tumor_stage_clinical_n	N2b
-sample	tumor_stage_clinical_n	N2c
-sample	tumor_stage_clinical_n	N3
-sample	tumor_stage_clinical_n	N3a
-sample	tumor_stage_clinical_n	N3b
-sample	tumor_stage_clinical_n	N3c
-sample	tumor_stage_clinical_n	N4
-sample	tumor_stage_clinical_n	NX
-sample	tumor_stage_clinical_t	T0
-sample	tumor_stage_clinical_t	T1
-sample	tumor_stage_clinical_t	T1a
-sample	tumor_stage_clinical_t	T1a1
-sample	tumor_stage_clinical_t	T1a2
-sample	tumor_stage_clinical_t	T1b
-sample	tumor_stage_clinical_t	T1b1
-sample	tumor_stage_clinical_t	T1b2
-sample	tumor_stage_clinical_t	T1c
-sample	tumor_stage_clinical_t	T1mi
-sample	tumor_stage_clinical_t	T2
-sample	tumor_stage_clinical_t	T2a
-sample	tumor_stage_clinical_t	T2a1
-sample	tumor_stage_clinical_t	T2a2
-sample	tumor_stage_clinical_t	T2b
-sample	tumor_stage_clinical_t	T2c
-sample	tumor_stage_clinical_t	T2d
-sample	tumor_stage_clinical_t	T3
-sample	tumor_stage_clinical_t	T3a
-sample	tumor_stage_clinical_t	T3b
-sample	tumor_stage_clinical_t	T3c
-sample	tumor_stage_clinical_t	T3d
-sample	tumor_stage_clinical_t	T4
-sample	tumor_stage_clinical_t	T4a
-sample	tumor_stage_clinical_t	T4b
-sample	tumor_stage_clinical_t	T4c
-sample	tumor_stage_clinical_t	T4d
-sample	tumor_stage_clinical_t	T4e
-sample	tumor_stage_clinical_t	T5
-sample	tumor_stage_clinical_t	TX
-sample	tumor_stage_clinical_t	Ta
-sample	tumor_stage_clinical_t	Tis
-sample	tumor_stage_clinical_t	Tis (DCIS)
-sample	tumor_stage_clinical_t	Tis (LCIS)
-sample	tumor_stage_clinical_t	Tis (Paget's)
 sample_diagnosis	age_at_diagnosis	INTEGER
 sample_diagnosis	days_to_last_followup	INTEGER
 sample_diagnosis	days_to_last_known_disease_status	INTEGER
@@ -2526,6 +1626,338 @@ sample_diagnosis	progression_or_recurrence	No
 sample_diagnosis	progression_or_recurrence	Unknown
 sample_diagnosis	progression_or_recurrence	Yes
 sample_diagnosis	sample_diagnosis_id	STRING
+sample_diagnosis	site_of_resection_or_biopsy	Abdomen, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Abdominal esophagus
+sample_diagnosis	site_of_resection_or_biopsy	Accessory sinus, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Acoustic nerve
+sample_diagnosis	site_of_resection_or_biopsy	Adrenal gland, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Ampulla of Vater
+sample_diagnosis	site_of_resection_or_biopsy	Anal canal
+sample_diagnosis	site_of_resection_or_biopsy	Anterior 2/3 of tongue, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Anterior floor of mouth
+sample_diagnosis	site_of_resection_or_biopsy	Anterior mediastinum
+sample_diagnosis	site_of_resection_or_biopsy	Anterior surface of epiglottis
+sample_diagnosis	site_of_resection_or_biopsy	Anterior wall of bladder
+sample_diagnosis	site_of_resection_or_biopsy	Anterior wall of nasopharynx
+sample_diagnosis	site_of_resection_or_biopsy	Anus, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Aortic body and other paraganglia
+sample_diagnosis	site_of_resection_or_biopsy	Appendix
+sample_diagnosis	site_of_resection_or_biopsy	Ascending colon
+sample_diagnosis	site_of_resection_or_biopsy	Autonomic nervous system, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Axillary tail of breast
+sample_diagnosis	site_of_resection_or_biopsy	Base of tongue, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Biliary tract, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Bladder neck
+sample_diagnosis	site_of_resection_or_biopsy	Bladder, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Blood
+sample_diagnosis	site_of_resection_or_biopsy	Body of pancreas
+sample_diagnosis	site_of_resection_or_biopsy	Body of penis
+sample_diagnosis	site_of_resection_or_biopsy	Body of stomach
+sample_diagnosis	site_of_resection_or_biopsy	Bone marrow
+sample_diagnosis	site_of_resection_or_biopsy	Bone of limb, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Bone, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Bones of skull and face and associated joints
+sample_diagnosis	site_of_resection_or_biopsy	Border of tongue
+sample_diagnosis	site_of_resection_or_biopsy	Brain stem
+sample_diagnosis	site_of_resection_or_biopsy	Brain, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Branchial cleft
+sample_diagnosis	site_of_resection_or_biopsy	Breast, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Broad ligament
+sample_diagnosis	site_of_resection_or_biopsy	Cardia, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Carotid body
+sample_diagnosis	site_of_resection_or_biopsy	Cauda equina
+sample_diagnosis	site_of_resection_or_biopsy	Cecum
+sample_diagnosis	site_of_resection_or_biopsy	Central portion of breast
+sample_diagnosis	site_of_resection_or_biopsy	Cerebellum, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Cerebral meninges
+sample_diagnosis	site_of_resection_or_biopsy	Cerebrum
+sample_diagnosis	site_of_resection_or_biopsy	Cervical esophagus
+sample_diagnosis	site_of_resection_or_biopsy	Cervix uteri
+sample_diagnosis	site_of_resection_or_biopsy	Cheek mucosa
+sample_diagnosis	site_of_resection_or_biopsy	Choroid
+sample_diagnosis	site_of_resection_or_biopsy	Ciliary body
+sample_diagnosis	site_of_resection_or_biopsy	Clitoris
+sample_diagnosis	site_of_resection_or_biopsy	Cloacogenic zone
+sample_diagnosis	site_of_resection_or_biopsy	Colon, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Commissure of lip
+sample_diagnosis	site_of_resection_or_biopsy	Conjunctiva
+sample_diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of abdomen
+sample_diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of head, face, and neck
+sample_diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of lower limb and hip
+sample_diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of pelvis
+sample_diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of thorax
+sample_diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of trunk, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues of upper limb and shoulder
+sample_diagnosis	site_of_resection_or_biopsy	Connective, subcutaneous and other soft tissues, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Cornea, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Corpus uteri
+sample_diagnosis	site_of_resection_or_biopsy	Cortex of adrenal gland
+sample_diagnosis	site_of_resection_or_biopsy	Cranial nerve, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Craniopharyngeal duct
+sample_diagnosis	site_of_resection_or_biopsy	Descended testis
+sample_diagnosis	site_of_resection_or_biopsy	Descending colon
+sample_diagnosis	site_of_resection_or_biopsy	Dome of bladder
+sample_diagnosis	site_of_resection_or_biopsy	Dorsal surface of tongue, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Duodenum
+sample_diagnosis	site_of_resection_or_biopsy	Endocervix
+sample_diagnosis	site_of_resection_or_biopsy	Endocrine gland, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Endometrium
+sample_diagnosis	site_of_resection_or_biopsy	Epididymis
+sample_diagnosis	site_of_resection_or_biopsy	Esophagus, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Ethmoid sinus
+sample_diagnosis	site_of_resection_or_biopsy	Exocervix
+sample_diagnosis	site_of_resection_or_biopsy	External ear
+sample_diagnosis	site_of_resection_or_biopsy	External lip, NOS
+sample_diagnosis	site_of_resection_or_biopsy	External lower lip
+sample_diagnosis	site_of_resection_or_biopsy	External upper lip
+sample_diagnosis	site_of_resection_or_biopsy	Extrahepatic bile duct
+sample_diagnosis	site_of_resection_or_biopsy	Eye, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Eyelid
+sample_diagnosis	site_of_resection_or_biopsy	Fallopian tube
+sample_diagnosis	site_of_resection_or_biopsy	Female genital tract, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Floor of mouth, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Frontal lobe
+sample_diagnosis	site_of_resection_or_biopsy	Frontal sinus
+sample_diagnosis	site_of_resection_or_biopsy	Fundus of stomach
+sample_diagnosis	site_of_resection_or_biopsy	Fundus uteri
+sample_diagnosis	site_of_resection_or_biopsy	Gallbladder
+sample_diagnosis	site_of_resection_or_biopsy	Gastric antrum
+sample_diagnosis	site_of_resection_or_biopsy	Gastrointestinal tract, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Glans penis
+sample_diagnosis	site_of_resection_or_biopsy	Glottis
+sample_diagnosis	site_of_resection_or_biopsy	Greater curvature of stomach, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Gum, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Hard palate
+sample_diagnosis	site_of_resection_or_biopsy	Head of pancreas
+sample_diagnosis	site_of_resection_or_biopsy	Head, face or neck, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Heart
+sample_diagnosis	site_of_resection_or_biopsy	Hematopoietic system, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Hepatic flexure of colon
+sample_diagnosis	site_of_resection_or_biopsy	Hypopharyngeal aspect of aryepiglottic fold
+sample_diagnosis	site_of_resection_or_biopsy	Hypopharynx, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Ileum
+sample_diagnosis	site_of_resection_or_biopsy	Ill-defined sites within respiratory system
+sample_diagnosis	site_of_resection_or_biopsy	Intestinal tract, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Intra-abdominal lymph nodes
+sample_diagnosis	site_of_resection_or_biopsy	Intrahepatic bile duct
+sample_diagnosis	site_of_resection_or_biopsy	Intrathoracic lymph nodes
+sample_diagnosis	site_of_resection_or_biopsy	Islets of Langerhans
+sample_diagnosis	site_of_resection_or_biopsy	Isthmus uteri
+sample_diagnosis	site_of_resection_or_biopsy	Jejunum
+sample_diagnosis	site_of_resection_or_biopsy	Kidney, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Labium majus
+sample_diagnosis	site_of_resection_or_biopsy	Labium minus
+sample_diagnosis	site_of_resection_or_biopsy	Lacrimal gland
+sample_diagnosis	site_of_resection_or_biopsy	Laryngeal cartilage
+sample_diagnosis	site_of_resection_or_biopsy	Larynx, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Lateral floor of mouth
+sample_diagnosis	site_of_resection_or_biopsy	Lateral wall of bladder
+sample_diagnosis	site_of_resection_or_biopsy	Lateral wall of nasopharynx
+sample_diagnosis	site_of_resection_or_biopsy	Lateral wall of oropharynx
+sample_diagnosis	site_of_resection_or_biopsy	Lesser curvature of stomach, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Lingual tonsil
+sample_diagnosis	site_of_resection_or_biopsy	Lip, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Liver
+sample_diagnosis	site_of_resection_or_biopsy	Long bones of lower limb and associated joints
+sample_diagnosis	site_of_resection_or_biopsy	Long bones of upper limb, scapula and associated joints
+sample_diagnosis	site_of_resection_or_biopsy	Lower gum
+sample_diagnosis	site_of_resection_or_biopsy	Lower limb, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Lower lobe, lung
+sample_diagnosis	site_of_resection_or_biopsy	Lower third of esophagus
+sample_diagnosis	site_of_resection_or_biopsy	Lower-inner quadrant of breast
+sample_diagnosis	site_of_resection_or_biopsy	Lower-outer quadrant of breast
+sample_diagnosis	site_of_resection_or_biopsy	Lung, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Lymph node, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Lymph nodes of axilla or arm
+sample_diagnosis	site_of_resection_or_biopsy	Lymph nodes of head, face and neck
+sample_diagnosis	site_of_resection_or_biopsy	Lymph nodes of inguinal region or leg
+sample_diagnosis	site_of_resection_or_biopsy	Lymph nodes of multiple regions
+sample_diagnosis	site_of_resection_or_biopsy	Main bronchus
+sample_diagnosis	site_of_resection_or_biopsy	Major salivary gland, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Male genital organs, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Mandible
+sample_diagnosis	site_of_resection_or_biopsy	Maxillary sinus
+sample_diagnosis	site_of_resection_or_biopsy	Meckel diverticulum
+sample_diagnosis	site_of_resection_or_biopsy	Mediastinum, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Medulla of adrenal gland
+sample_diagnosis	site_of_resection_or_biopsy	Meninges, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Middle ear
+sample_diagnosis	site_of_resection_or_biopsy	Middle lobe, lung
+sample_diagnosis	site_of_resection_or_biopsy	Middle third of esophagus
+sample_diagnosis	site_of_resection_or_biopsy	Mouth, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Mucosa of lip, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Mucosa of lower lip
+sample_diagnosis	site_of_resection_or_biopsy	Mucosa of upper lip
+sample_diagnosis	site_of_resection_or_biopsy	Myometrium
+sample_diagnosis	site_of_resection_or_biopsy	Nasal cavity
+sample_diagnosis	site_of_resection_or_biopsy	Nasopharynx, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Nervous system, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Nipple
+sample_diagnosis	site_of_resection_or_biopsy	Not Reported
+sample_diagnosis	site_of_resection_or_biopsy	Occipital lobe
+sample_diagnosis	site_of_resection_or_biopsy	Olfactory nerve
+sample_diagnosis	site_of_resection_or_biopsy	Optic nerve
+sample_diagnosis	site_of_resection_or_biopsy	Orbit, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Oropharynx, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Other ill-defined sites
+sample_diagnosis	site_of_resection_or_biopsy	Other specified parts of female genital organs
+sample_diagnosis	site_of_resection_or_biopsy	Other specified parts of male genital organs
+sample_diagnosis	site_of_resection_or_biopsy	Other specified parts of pancreas
+sample_diagnosis	site_of_resection_or_biopsy	Ovary
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of accessory sinuses
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of biliary tract
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of bladder
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of bones, joints and articular cartilage
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of bones, joints and articular cartilage of limbs
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of brain
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of brain and central nervous system
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of breast
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of cervix uteri
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of colon
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of connective, subcutaneous and other soft tissues
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of corpus uteri
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of digestive system
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of endocrine glands and related structures
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of esophagus
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of eye and adnexa
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of female genital organs
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of floor of mouth
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of heart, mediastinum and pleura
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of hypopharynx
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of ill-defined sites
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of larynx
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of lip
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of lip, oral cavity and pharynx
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of lung
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of major salivary glands
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of male genital organs
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of nasopharynx
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of other and unspecified parts of mouth
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of palate
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of pancreas
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of penis
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of peripheral nerves and autonomic nervous system
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of rectum, anus and anal canal
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of respiratory system and intrathoracic organs
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of retroperitoneum and peritoneum
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of skin
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of small intestine
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of stomach
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of tongue
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of tonsil
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of urinary organs
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesion of vulva
+sample_diagnosis	site_of_resection_or_biopsy	Overlapping lesions of oropharynx
+sample_diagnosis	site_of_resection_or_biopsy	Palate, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Pancreas, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Pancreatic duct
+sample_diagnosis	site_of_resection_or_biopsy	Parametrium
+sample_diagnosis	site_of_resection_or_biopsy	Parathyroid gland
+sample_diagnosis	site_of_resection_or_biopsy	Paraurethral gland
+sample_diagnosis	site_of_resection_or_biopsy	Parietal lobe
+sample_diagnosis	site_of_resection_or_biopsy	Parotid gland
+sample_diagnosis	site_of_resection_or_biopsy	Pelvic bones, sacrum, coccyx and associated joints
+sample_diagnosis	site_of_resection_or_biopsy	Pelvic lymph nodes
+sample_diagnosis	site_of_resection_or_biopsy	Pelvis, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Penis, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of abdomen
+sample_diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of head, face, and neck
+sample_diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of lower limb and hip
+sample_diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of pelvis
+sample_diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of thorax
+sample_diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of trunk, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Peripheral nerves and autonomic nervous system of upper limb and shoulder
+sample_diagnosis	site_of_resection_or_biopsy	Peritoneum, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Pharynx, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Pineal gland
+sample_diagnosis	site_of_resection_or_biopsy	Pituitary gland
+sample_diagnosis	site_of_resection_or_biopsy	Placenta
+sample_diagnosis	site_of_resection_or_biopsy	Pleura, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Postcricoid region
+sample_diagnosis	site_of_resection_or_biopsy	Posterior mediastinum
+sample_diagnosis	site_of_resection_or_biopsy	Posterior wall of bladder
+sample_diagnosis	site_of_resection_or_biopsy	Posterior wall of hypopharynx
+sample_diagnosis	site_of_resection_or_biopsy	Posterior wall of nasopharynx
+sample_diagnosis	site_of_resection_or_biopsy	Posterior wall of oropharynx
+sample_diagnosis	site_of_resection_or_biopsy	Prepuce
+sample_diagnosis	site_of_resection_or_biopsy	Prostate gland
+sample_diagnosis	site_of_resection_or_biopsy	Pylorus
+sample_diagnosis	site_of_resection_or_biopsy	Pyriform sinus
+sample_diagnosis	site_of_resection_or_biopsy	Rectosigmoid junction
+sample_diagnosis	site_of_resection_or_biopsy	Rectum, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Renal pelvis
+sample_diagnosis	site_of_resection_or_biopsy	Reticuloendothelial system, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Retina
+sample_diagnosis	site_of_resection_or_biopsy	Retromolar area
+sample_diagnosis	site_of_resection_or_biopsy	Retroperitoneum
+sample_diagnosis	site_of_resection_or_biopsy	Rib, sternum, clavicle and associated joints
+sample_diagnosis	site_of_resection_or_biopsy	Round ligament
+sample_diagnosis	site_of_resection_or_biopsy	Scrotum, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Short bones of lower limb and associated joints
+sample_diagnosis	site_of_resection_or_biopsy	Short bones of upper limb and associated joints
+sample_diagnosis	site_of_resection_or_biopsy	Sigmoid colon
+sample_diagnosis	site_of_resection_or_biopsy	Skin of lip, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Skin of lower limb and hip
+sample_diagnosis	site_of_resection_or_biopsy	Skin of other and unspecified parts of face
+sample_diagnosis	site_of_resection_or_biopsy	Skin of scalp and neck
+sample_diagnosis	site_of_resection_or_biopsy	Skin of trunk
+sample_diagnosis	site_of_resection_or_biopsy	Skin of upper limb and shoulder
+sample_diagnosis	site_of_resection_or_biopsy	Skin, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Small intestine, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Soft palate, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Specified parts of peritoneum
+sample_diagnosis	site_of_resection_or_biopsy	Spermatic cord
+sample_diagnosis	site_of_resection_or_biopsy	Sphenoid sinus
+sample_diagnosis	site_of_resection_or_biopsy	Spinal cord
+sample_diagnosis	site_of_resection_or_biopsy	Spinal meninges
+sample_diagnosis	site_of_resection_or_biopsy	Spleen
+sample_diagnosis	site_of_resection_or_biopsy	Splenic flexure of colon
+sample_diagnosis	site_of_resection_or_biopsy	Stomach, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Subglottis
+sample_diagnosis	site_of_resection_or_biopsy	Sublingual gland
+sample_diagnosis	site_of_resection_or_biopsy	Submandibular gland
+sample_diagnosis	site_of_resection_or_biopsy	Superior wall of nasopharynx
+sample_diagnosis	site_of_resection_or_biopsy	Supraglottis
+sample_diagnosis	site_of_resection_or_biopsy	Tail of pancreas
+sample_diagnosis	site_of_resection_or_biopsy	Temporal lobe
+sample_diagnosis	site_of_resection_or_biopsy	Testis, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Thoracic esophagus
+sample_diagnosis	site_of_resection_or_biopsy	Thorax, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Thymus
+sample_diagnosis	site_of_resection_or_biopsy	Thyroid gland
+sample_diagnosis	site_of_resection_or_biopsy	Tongue, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Tonsil, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Tonsillar fossa
+sample_diagnosis	site_of_resection_or_biopsy	Tonsillar pillar
+sample_diagnosis	site_of_resection_or_biopsy	Trachea
+sample_diagnosis	site_of_resection_or_biopsy	Transverse colon
+sample_diagnosis	site_of_resection_or_biopsy	Trigone of bladder
+sample_diagnosis	site_of_resection_or_biopsy	Undescended testis
+sample_diagnosis	site_of_resection_or_biopsy	Unknown
+sample_diagnosis	site_of_resection_or_biopsy	Unknown primary site
+sample_diagnosis	site_of_resection_or_biopsy	Upper gum
+sample_diagnosis	site_of_resection_or_biopsy	Upper limb, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Upper lobe, lung
+sample_diagnosis	site_of_resection_or_biopsy	Upper respiratory tract, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Upper third of esophagus
+sample_diagnosis	site_of_resection_or_biopsy	Upper-inner quadrant of breast
+sample_diagnosis	site_of_resection_or_biopsy	Upper-outer quadrant of breast
+sample_diagnosis	site_of_resection_or_biopsy	Urachus
+sample_diagnosis	site_of_resection_or_biopsy	Ureter
+sample_diagnosis	site_of_resection_or_biopsy	Ureteric orifice
+sample_diagnosis	site_of_resection_or_biopsy	Urethra
+sample_diagnosis	site_of_resection_or_biopsy	Urinary system, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Uterine adnexa
+sample_diagnosis	site_of_resection_or_biopsy	Uterus, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Uvula
+sample_diagnosis	site_of_resection_or_biopsy	Vagina, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Vallecula
+sample_diagnosis	site_of_resection_or_biopsy	Ventral surface of tongue, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Ventricle, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Vertebral column
+sample_diagnosis	site_of_resection_or_biopsy	Vestibule of mouth
+sample_diagnosis	site_of_resection_or_biopsy	Vulva, NOS
+sample_diagnosis	site_of_resection_or_biopsy	Waldeyer ring
 sample_diagnosis	tissue_or_organ_of_origin	Abdomen
 sample_diagnosis	tissue_or_organ_of_origin	Abdomen, NOS
 sample_diagnosis	tissue_or_organ_of_origin	Abdominal Esophagus
@@ -3074,6 +2506,1238 @@ sample_diagnosis	tissue_or_organ_of_origin	Vulva
 sample_diagnosis	tissue_or_organ_of_origin	Vulva, NOS
 sample_diagnosis	tissue_or_organ_of_origin	Waldeyer Ring
 sample_diagnosis	tissue_or_organ_of_origin	Waldeyer ring
+sample_diagnosis	tumor_grade	G1
+sample_diagnosis	tumor_grade	G2
+sample_diagnosis	tumor_grade	G3
+sample_diagnosis	tumor_grade	G4
+sample_diagnosis	tumor_grade	GB
+sample_diagnosis	tumor_grade	GX
+sample_diagnosis	tumor_grade	High Grade
+sample_diagnosis	tumor_grade	Intermediate Grade
+sample_diagnosis	tumor_grade	Low Grade
+sample_diagnosis	tumor_grade	Not Applicable
+sample_diagnosis	tumor_incidence_type	metastatic
+sample_diagnosis	tumor_incidence_type	primary
+sample_diagnosis	tumor_incidence_type	progression
+sample_diagnosis	tumor_incidence_type	recurrence
+sample_diagnosis	tumor_morphology	8000/0
+sample_diagnosis	tumor_morphology	8000/1
+sample_diagnosis	tumor_morphology	8000/3
+sample_diagnosis	tumor_morphology	8000/6
+sample_diagnosis	tumor_morphology	8000/9
+sample_diagnosis	tumor_morphology	8001/0
+sample_diagnosis	tumor_morphology	8001/1
+sample_diagnosis	tumor_morphology	8001/3
+sample_diagnosis	tumor_morphology	8002/3
+sample_diagnosis	tumor_morphology	8003/3
+sample_diagnosis	tumor_morphology	8004/3
+sample_diagnosis	tumor_morphology	8005/0
+sample_diagnosis	tumor_morphology	8005/3
+sample_diagnosis	tumor_morphology	8010/0
+sample_diagnosis	tumor_morphology	8010/2
+sample_diagnosis	tumor_morphology	8010/3
+sample_diagnosis	tumor_morphology	8010/6
+sample_diagnosis	tumor_morphology	8010/9
+sample_diagnosis	tumor_morphology	8011/0
+sample_diagnosis	tumor_morphology	8011/3
+sample_diagnosis	tumor_morphology	8012/3
+sample_diagnosis	tumor_morphology	8013/3
+sample_diagnosis	tumor_morphology	8014/3
+sample_diagnosis	tumor_morphology	8015/3
+sample_diagnosis	tumor_morphology	8020/3
+sample_diagnosis	tumor_morphology	8020/6
+sample_diagnosis	tumor_morphology	8021/3
+sample_diagnosis	tumor_morphology	8022/3
+sample_diagnosis	tumor_morphology	8023/3
+sample_diagnosis	tumor_morphology	8030/3
+sample_diagnosis	tumor_morphology	8031/3
+sample_diagnosis	tumor_morphology	8032/3
+sample_diagnosis	tumor_morphology	8033/3
+sample_diagnosis	tumor_morphology	8034/3
+sample_diagnosis	tumor_morphology	8035/3
+sample_diagnosis	tumor_morphology	8040/0
+sample_diagnosis	tumor_morphology	8040/1
+sample_diagnosis	tumor_morphology	8040/3
+sample_diagnosis	tumor_morphology	8041/3
+sample_diagnosis	tumor_morphology	8041/34
+sample_diagnosis	tumor_morphology	8041/6
+sample_diagnosis	tumor_morphology	8042/3
+sample_diagnosis	tumor_morphology	8043/3
+sample_diagnosis	tumor_morphology	8044/3
+sample_diagnosis	tumor_morphology	8045/3
+sample_diagnosis	tumor_morphology	8046/3
+sample_diagnosis	tumor_morphology	8046/6
+sample_diagnosis	tumor_morphology	8050/0
+sample_diagnosis	tumor_morphology	8050/2
+sample_diagnosis	tumor_morphology	8050/3
+sample_diagnosis	tumor_morphology	8051/0
+sample_diagnosis	tumor_morphology	8051/3
+sample_diagnosis	tumor_morphology	8052/0
+sample_diagnosis	tumor_morphology	8052/2
+sample_diagnosis	tumor_morphology	8052/3
+sample_diagnosis	tumor_morphology	8053/0
+sample_diagnosis	tumor_morphology	8060/0
+sample_diagnosis	tumor_morphology	8070/2
+sample_diagnosis	tumor_morphology	8070/3
+sample_diagnosis	tumor_morphology	8070/33
+sample_diagnosis	tumor_morphology	8070/6
+sample_diagnosis	tumor_morphology	8071/2
+sample_diagnosis	tumor_morphology	8071/3
+sample_diagnosis	tumor_morphology	8072/3
+sample_diagnosis	tumor_morphology	8073/3
+sample_diagnosis	tumor_morphology	8074/3
+sample_diagnosis	tumor_morphology	8075/3
+sample_diagnosis	tumor_morphology	8076/2
+sample_diagnosis	tumor_morphology	8076/3
+sample_diagnosis	tumor_morphology	8077/0
+sample_diagnosis	tumor_morphology	8077/2
+sample_diagnosis	tumor_morphology	8078/3
+sample_diagnosis	tumor_morphology	8080/2
+sample_diagnosis	tumor_morphology	8081/2
+sample_diagnosis	tumor_morphology	8082/3
+sample_diagnosis	tumor_morphology	8083/3
+sample_diagnosis	tumor_morphology	8084/3
+sample_diagnosis	tumor_morphology	8085/3
+sample_diagnosis	tumor_morphology	8086/3
+sample_diagnosis	tumor_morphology	8090/1
+sample_diagnosis	tumor_morphology	8090/3
+sample_diagnosis	tumor_morphology	8091/3
+sample_diagnosis	tumor_morphology	8092/3
+sample_diagnosis	tumor_morphology	8093/3
+sample_diagnosis	tumor_morphology	8094/3
+sample_diagnosis	tumor_morphology	8095/3
+sample_diagnosis	tumor_morphology	8096/0
+sample_diagnosis	tumor_morphology	8097/3
+sample_diagnosis	tumor_morphology	8098/3
+sample_diagnosis	tumor_morphology	8100/0
+sample_diagnosis	tumor_morphology	8101/0
+sample_diagnosis	tumor_morphology	8102/0
+sample_diagnosis	tumor_morphology	8102/3
+sample_diagnosis	tumor_morphology	8103/0
+sample_diagnosis	tumor_morphology	8110/0
+sample_diagnosis	tumor_morphology	8110/3
+sample_diagnosis	tumor_morphology	8120/0
+sample_diagnosis	tumor_morphology	8120/1
+sample_diagnosis	tumor_morphology	8120/2
+sample_diagnosis	tumor_morphology	8120/3
+sample_diagnosis	tumor_morphology	8121/0
+sample_diagnosis	tumor_morphology	8121/1
+sample_diagnosis	tumor_morphology	8121/3
+sample_diagnosis	tumor_morphology	8122/3
+sample_diagnosis	tumor_morphology	8123/3
+sample_diagnosis	tumor_morphology	8124/3
+sample_diagnosis	tumor_morphology	8130/1
+sample_diagnosis	tumor_morphology	8130/2
+sample_diagnosis	tumor_morphology	8130/3
+sample_diagnosis	tumor_morphology	8131/3
+sample_diagnosis	tumor_morphology	8140/0
+sample_diagnosis	tumor_morphology	8140/1
+sample_diagnosis	tumor_morphology	8140/2
+sample_diagnosis	tumor_morphology	8140/3
+sample_diagnosis	tumor_morphology	8140/33
+sample_diagnosis	tumor_morphology	8140/6
+sample_diagnosis	tumor_morphology	8141/3
+sample_diagnosis	tumor_morphology	8142/3
+sample_diagnosis	tumor_morphology	8143/3
+sample_diagnosis	tumor_morphology	8144/3
+sample_diagnosis	tumor_morphology	8145/3
+sample_diagnosis	tumor_morphology	8146/0
+sample_diagnosis	tumor_morphology	8147/0
+sample_diagnosis	tumor_morphology	8147/3
+sample_diagnosis	tumor_morphology	8148/0
+sample_diagnosis	tumor_morphology	8148/2
+sample_diagnosis	tumor_morphology	8149/0
+sample_diagnosis	tumor_morphology	8150/0
+sample_diagnosis	tumor_morphology	8150/1
+sample_diagnosis	tumor_morphology	8150/3
+sample_diagnosis	tumor_morphology	8151/0
+sample_diagnosis	tumor_morphology	8151/3
+sample_diagnosis	tumor_morphology	8152/1
+sample_diagnosis	tumor_morphology	8152/3
+sample_diagnosis	tumor_morphology	8153/1
+sample_diagnosis	tumor_morphology	8153/3
+sample_diagnosis	tumor_morphology	8154/3
+sample_diagnosis	tumor_morphology	8155/1
+sample_diagnosis	tumor_morphology	8155/3
+sample_diagnosis	tumor_morphology	8156/1
+sample_diagnosis	tumor_morphology	8156/3
+sample_diagnosis	tumor_morphology	8158/1
+sample_diagnosis	tumor_morphology	8160/0
+sample_diagnosis	tumor_morphology	8160/3
+sample_diagnosis	tumor_morphology	8161/0
+sample_diagnosis	tumor_morphology	8161/3
+sample_diagnosis	tumor_morphology	8162/3
+sample_diagnosis	tumor_morphology	8163/0
+sample_diagnosis	tumor_morphology	8163/2
+sample_diagnosis	tumor_morphology	8163/3
+sample_diagnosis	tumor_morphology	8170/0
+sample_diagnosis	tumor_morphology	8170/3
+sample_diagnosis	tumor_morphology	8171/3
+sample_diagnosis	tumor_morphology	8172/3
+sample_diagnosis	tumor_morphology	8173/3
+sample_diagnosis	tumor_morphology	8174/3
+sample_diagnosis	tumor_morphology	8175/3
+sample_diagnosis	tumor_morphology	8180/3
+sample_diagnosis	tumor_morphology	8190/0
+sample_diagnosis	tumor_morphology	8190/3
+sample_diagnosis	tumor_morphology	8191/0
+sample_diagnosis	tumor_morphology	8200/0
+sample_diagnosis	tumor_morphology	8200/3
+sample_diagnosis	tumor_morphology	8201/2
+sample_diagnosis	tumor_morphology	8201/3
+sample_diagnosis	tumor_morphology	8202/0
+sample_diagnosis	tumor_morphology	8204/0
+sample_diagnosis	tumor_morphology	8210/0
+sample_diagnosis	tumor_morphology	8210/2
+sample_diagnosis	tumor_morphology	8210/3
+sample_diagnosis	tumor_morphology	8211/0
+sample_diagnosis	tumor_morphology	8211/3
+sample_diagnosis	tumor_morphology	8212/0
+sample_diagnosis	tumor_morphology	8213/0
+sample_diagnosis	tumor_morphology	8213/3
+sample_diagnosis	tumor_morphology	8214/3
+sample_diagnosis	tumor_morphology	8215/3
+sample_diagnosis	tumor_morphology	8220/0
+sample_diagnosis	tumor_morphology	8220/3
+sample_diagnosis	tumor_morphology	8221/0
+sample_diagnosis	tumor_morphology	8221/3
+sample_diagnosis	tumor_morphology	8230/2
+sample_diagnosis	tumor_morphology	8230/3
+sample_diagnosis	tumor_morphology	8231/3
+sample_diagnosis	tumor_morphology	8240/1
+sample_diagnosis	tumor_morphology	8240/3
+sample_diagnosis	tumor_morphology	8240/6
+sample_diagnosis	tumor_morphology	8241/3
+sample_diagnosis	tumor_morphology	8242/1
+sample_diagnosis	tumor_morphology	8242/3
+sample_diagnosis	tumor_morphology	8243/3
+sample_diagnosis	tumor_morphology	8244/3
+sample_diagnosis	tumor_morphology	8245/1
+sample_diagnosis	tumor_morphology	8245/3
+sample_diagnosis	tumor_morphology	8246/3
+sample_diagnosis	tumor_morphology	8246/6
+sample_diagnosis	tumor_morphology	8247/3
+sample_diagnosis	tumor_morphology	8248/1
+sample_diagnosis	tumor_morphology	8249/3
+sample_diagnosis	tumor_morphology	8249/6
+sample_diagnosis	tumor_morphology	8250/1
+sample_diagnosis	tumor_morphology	8250/2
+sample_diagnosis	tumor_morphology	8250/3
+sample_diagnosis	tumor_morphology	8251/0
+sample_diagnosis	tumor_morphology	8251/3
+sample_diagnosis	tumor_morphology	8252/3
+sample_diagnosis	tumor_morphology	8253/3
+sample_diagnosis	tumor_morphology	8254/3
+sample_diagnosis	tumor_morphology	8255/3
+sample_diagnosis	tumor_morphology	8256/3
+sample_diagnosis	tumor_morphology	8257/3
+sample_diagnosis	tumor_morphology	8260/0
+sample_diagnosis	tumor_morphology	8260/3
+sample_diagnosis	tumor_morphology	8261/0
+sample_diagnosis	tumor_morphology	8261/2
+sample_diagnosis	tumor_morphology	8261/3
+sample_diagnosis	tumor_morphology	8262/3
+sample_diagnosis	tumor_morphology	8263/0
+sample_diagnosis	tumor_morphology	8263/2
+sample_diagnosis	tumor_morphology	8263/3
+sample_diagnosis	tumor_morphology	8264/0
+sample_diagnosis	tumor_morphology	8265/3
+sample_diagnosis	tumor_morphology	8270/0
+sample_diagnosis	tumor_morphology	8270/3
+sample_diagnosis	tumor_morphology	8271/0
+sample_diagnosis	tumor_morphology	8272/0
+sample_diagnosis	tumor_morphology	8272/3
+sample_diagnosis	tumor_morphology	8280/0
+sample_diagnosis	tumor_morphology	8280/3
+sample_diagnosis	tumor_morphology	8281/0
+sample_diagnosis	tumor_morphology	8281/3
+sample_diagnosis	tumor_morphology	8290/0
+sample_diagnosis	tumor_morphology	8290/3
+sample_diagnosis	tumor_morphology	8300/0
+sample_diagnosis	tumor_morphology	8300/3
+sample_diagnosis	tumor_morphology	8310/0
+sample_diagnosis	tumor_morphology	8310/3
+sample_diagnosis	tumor_morphology	8310/6
+sample_diagnosis	tumor_morphology	8311/1
+sample_diagnosis	tumor_morphology	8311/3
+sample_diagnosis	tumor_morphology	8311/6
+sample_diagnosis	tumor_morphology	8312/3
+sample_diagnosis	tumor_morphology	8313/0
+sample_diagnosis	tumor_morphology	8313/1
+sample_diagnosis	tumor_morphology	8313/3
+sample_diagnosis	tumor_morphology	8314/3
+sample_diagnosis	tumor_morphology	8315/3
+sample_diagnosis	tumor_morphology	8316/3
+sample_diagnosis	tumor_morphology	8317/3
+sample_diagnosis	tumor_morphology	8318/3
+sample_diagnosis	tumor_morphology	8319/3
+sample_diagnosis	tumor_morphology	8320/3
+sample_diagnosis	tumor_morphology	8321/0
+sample_diagnosis	tumor_morphology	8322/0
+sample_diagnosis	tumor_morphology	8322/3
+sample_diagnosis	tumor_morphology	8323/0
+sample_diagnosis	tumor_morphology	8323/3
+sample_diagnosis	tumor_morphology	8324/0
+sample_diagnosis	tumor_morphology	8325/0
+sample_diagnosis	tumor_morphology	8330/0
+sample_diagnosis	tumor_morphology	8330/1
+sample_diagnosis	tumor_morphology	8330/3
+sample_diagnosis	tumor_morphology	8331/3
+sample_diagnosis	tumor_morphology	8332/3
+sample_diagnosis	tumor_morphology	8333/0
+sample_diagnosis	tumor_morphology	8333/3
+sample_diagnosis	tumor_morphology	8334/0
+sample_diagnosis	tumor_morphology	8335/3
+sample_diagnosis	tumor_morphology	8336/0
+sample_diagnosis	tumor_morphology	8337/3
+sample_diagnosis	tumor_morphology	8339/3
+sample_diagnosis	tumor_morphology	8340/3
+sample_diagnosis	tumor_morphology	8341/3
+sample_diagnosis	tumor_morphology	8342/3
+sample_diagnosis	tumor_morphology	8343/2
+sample_diagnosis	tumor_morphology	8343/3
+sample_diagnosis	tumor_morphology	8344/3
+sample_diagnosis	tumor_morphology	8345/3
+sample_diagnosis	tumor_morphology	8346/3
+sample_diagnosis	tumor_morphology	8347/3
+sample_diagnosis	tumor_morphology	8350/3
+sample_diagnosis	tumor_morphology	8360/1
+sample_diagnosis	tumor_morphology	8361/0
+sample_diagnosis	tumor_morphology	8370/0
+sample_diagnosis	tumor_morphology	8370/1
+sample_diagnosis	tumor_morphology	8370/3
+sample_diagnosis	tumor_morphology	8371/0
+sample_diagnosis	tumor_morphology	8372/0
+sample_diagnosis	tumor_morphology	8373/0
+sample_diagnosis	tumor_morphology	8374/0
+sample_diagnosis	tumor_morphology	8375/0
+sample_diagnosis	tumor_morphology	8380/0
+sample_diagnosis	tumor_morphology	8380/1
+sample_diagnosis	tumor_morphology	8380/2
+sample_diagnosis	tumor_morphology	8380/3
+sample_diagnosis	tumor_morphology	8380/6
+sample_diagnosis	tumor_morphology	8381/0
+sample_diagnosis	tumor_morphology	8381/1
+sample_diagnosis	tumor_morphology	8381/3
+sample_diagnosis	tumor_morphology	8382/3
+sample_diagnosis	tumor_morphology	8383/3
+sample_diagnosis	tumor_morphology	8384/3
+sample_diagnosis	tumor_morphology	8390/0
+sample_diagnosis	tumor_morphology	8390/3
+sample_diagnosis	tumor_morphology	8391/0
+sample_diagnosis	tumor_morphology	8392/0
+sample_diagnosis	tumor_morphology	8400/0
+sample_diagnosis	tumor_morphology	8400/1
+sample_diagnosis	tumor_morphology	8400/3
+sample_diagnosis	tumor_morphology	8401/0
+sample_diagnosis	tumor_morphology	8401/3
+sample_diagnosis	tumor_morphology	8402/0
+sample_diagnosis	tumor_morphology	8402/3
+sample_diagnosis	tumor_morphology	8403/0
+sample_diagnosis	tumor_morphology	8403/3
+sample_diagnosis	tumor_morphology	8404/0
+sample_diagnosis	tumor_morphology	8405/0
+sample_diagnosis	tumor_morphology	8406/0
+sample_diagnosis	tumor_morphology	8407/0
+sample_diagnosis	tumor_morphology	8407/3
+sample_diagnosis	tumor_morphology	8408/0
+sample_diagnosis	tumor_morphology	8408/1
+sample_diagnosis	tumor_morphology	8408/3
+sample_diagnosis	tumor_morphology	8409/0
+sample_diagnosis	tumor_morphology	8409/3
+sample_diagnosis	tumor_morphology	8410/0
+sample_diagnosis	tumor_morphology	8410/3
+sample_diagnosis	tumor_morphology	8413/3
+sample_diagnosis	tumor_morphology	8420/0
+sample_diagnosis	tumor_morphology	8420/3
+sample_diagnosis	tumor_morphology	8430/1
+sample_diagnosis	tumor_morphology	8430/3
+sample_diagnosis	tumor_morphology	8440/0
+sample_diagnosis	tumor_morphology	8440/3
+sample_diagnosis	tumor_morphology	8441/0
+sample_diagnosis	tumor_morphology	8441/2
+sample_diagnosis	tumor_morphology	8441/3
+sample_diagnosis	tumor_morphology	8441/6
+sample_diagnosis	tumor_morphology	8442/1
+sample_diagnosis	tumor_morphology	8443/0
+sample_diagnosis	tumor_morphology	8444/1
+sample_diagnosis	tumor_morphology	8450/0
+sample_diagnosis	tumor_morphology	8450/3
+sample_diagnosis	tumor_morphology	8451/1
+sample_diagnosis	tumor_morphology	8452/1
+sample_diagnosis	tumor_morphology	8452/3
+sample_diagnosis	tumor_morphology	8453/0
+sample_diagnosis	tumor_morphology	8453/2
+sample_diagnosis	tumor_morphology	8453/3
+sample_diagnosis	tumor_morphology	8454/0
+sample_diagnosis	tumor_morphology	8460/0
+sample_diagnosis	tumor_morphology	8460/2
+sample_diagnosis	tumor_morphology	8460/3
+sample_diagnosis	tumor_morphology	8461/0
+sample_diagnosis	tumor_morphology	8461/3
+sample_diagnosis	tumor_morphology	8461/6
+sample_diagnosis	tumor_morphology	8462/1
+sample_diagnosis	tumor_morphology	8463/1
+sample_diagnosis	tumor_morphology	8470/0
+sample_diagnosis	tumor_morphology	8470/2
+sample_diagnosis	tumor_morphology	8470/3
+sample_diagnosis	tumor_morphology	8471/0
+sample_diagnosis	tumor_morphology	8471/1
+sample_diagnosis	tumor_morphology	8471/3
+sample_diagnosis	tumor_morphology	8472/1
+sample_diagnosis	tumor_morphology	8473/1
+sample_diagnosis	tumor_morphology	8474/1
+sample_diagnosis	tumor_morphology	8474/3
+sample_diagnosis	tumor_morphology	8480/0
+sample_diagnosis	tumor_morphology	8480/1
+sample_diagnosis	tumor_morphology	8480/3
+sample_diagnosis	tumor_morphology	8480/6
+sample_diagnosis	tumor_morphology	8481/3
+sample_diagnosis	tumor_morphology	8482/3
+sample_diagnosis	tumor_morphology	8482/6
+sample_diagnosis	tumor_morphology	8490/3
+sample_diagnosis	tumor_morphology	8490/6
+sample_diagnosis	tumor_morphology	8500/2
+sample_diagnosis	tumor_morphology	8500/3
+sample_diagnosis	tumor_morphology	8500/6
+sample_diagnosis	tumor_morphology	8501/2
+sample_diagnosis	tumor_morphology	8501/3
+sample_diagnosis	tumor_morphology	8502/3
+sample_diagnosis	tumor_morphology	8503/0
+sample_diagnosis	tumor_morphology	8503/2
+sample_diagnosis	tumor_morphology	8503/3
+sample_diagnosis	tumor_morphology	8504/0
+sample_diagnosis	tumor_morphology	8504/2
+sample_diagnosis	tumor_morphology	8504/3
+sample_diagnosis	tumor_morphology	8505/0
+sample_diagnosis	tumor_morphology	8506/0
+sample_diagnosis	tumor_morphology	8507/2
+sample_diagnosis	tumor_morphology	8507/3
+sample_diagnosis	tumor_morphology	8508/3
+sample_diagnosis	tumor_morphology	8509/2
+sample_diagnosis	tumor_morphology	8509/3
+sample_diagnosis	tumor_morphology	8510/3
+sample_diagnosis	tumor_morphology	8512/3
+sample_diagnosis	tumor_morphology	8513/3
+sample_diagnosis	tumor_morphology	8514/3
+sample_diagnosis	tumor_morphology	8519/2
+sample_diagnosis	tumor_morphology	8520/2
+sample_diagnosis	tumor_morphology	8520/3
+sample_diagnosis	tumor_morphology	8521/1
+sample_diagnosis	tumor_morphology	8521/3
+sample_diagnosis	tumor_morphology	8522/1
+sample_diagnosis	tumor_morphology	8522/2
+sample_diagnosis	tumor_morphology	8522/3
+sample_diagnosis	tumor_morphology	8522/6
+sample_diagnosis	tumor_morphology	8523/3
+sample_diagnosis	tumor_morphology	8524/3
+sample_diagnosis	tumor_morphology	8525/3
+sample_diagnosis	tumor_morphology	8530/3
+sample_diagnosis	tumor_morphology	8540/3
+sample_diagnosis	tumor_morphology	8541/3
+sample_diagnosis	tumor_morphology	8542/3
+sample_diagnosis	tumor_morphology	8543/3
+sample_diagnosis	tumor_morphology	8550/0
+sample_diagnosis	tumor_morphology	8550/1
+sample_diagnosis	tumor_morphology	8550/3
+sample_diagnosis	tumor_morphology	8551/3
+sample_diagnosis	tumor_morphology	8552/3
+sample_diagnosis	tumor_morphology	8560/0
+sample_diagnosis	tumor_morphology	8560/3
+sample_diagnosis	tumor_morphology	8561/0
+sample_diagnosis	tumor_morphology	8562/3
+sample_diagnosis	tumor_morphology	8570/3
+sample_diagnosis	tumor_morphology	8571/3
+sample_diagnosis	tumor_morphology	8572/3
+sample_diagnosis	tumor_morphology	8573/3
+sample_diagnosis	tumor_morphology	8574/3
+sample_diagnosis	tumor_morphology	8575/3
+sample_diagnosis	tumor_morphology	8576/3
+sample_diagnosis	tumor_morphology	8580/0
+sample_diagnosis	tumor_morphology	8580/1
+sample_diagnosis	tumor_morphology	8580/3
+sample_diagnosis	tumor_morphology	8581/1
+sample_diagnosis	tumor_morphology	8581/3
+sample_diagnosis	tumor_morphology	8582/1
+sample_diagnosis	tumor_morphology	8582/3
+sample_diagnosis	tumor_morphology	8583/1
+sample_diagnosis	tumor_morphology	8583/3
+sample_diagnosis	tumor_morphology	8584/1
+sample_diagnosis	tumor_morphology	8584/3
+sample_diagnosis	tumor_morphology	8585/1
+sample_diagnosis	tumor_morphology	8585/3
+sample_diagnosis	tumor_morphology	8586/3
+sample_diagnosis	tumor_morphology	8587/0
+sample_diagnosis	tumor_morphology	8588/3
+sample_diagnosis	tumor_morphology	8589/3
+sample_diagnosis	tumor_morphology	8590/1
+sample_diagnosis	tumor_morphology	8591/1
+sample_diagnosis	tumor_morphology	8592/1
+sample_diagnosis	tumor_morphology	8593/1
+sample_diagnosis	tumor_morphology	8594/1
+sample_diagnosis	tumor_morphology	8600/0
+sample_diagnosis	tumor_morphology	8600/3
+sample_diagnosis	tumor_morphology	8601/0
+sample_diagnosis	tumor_morphology	8602/0
+sample_diagnosis	tumor_morphology	8610/0
+sample_diagnosis	tumor_morphology	8620/1
+sample_diagnosis	tumor_morphology	8620/3
+sample_diagnosis	tumor_morphology	8621/1
+sample_diagnosis	tumor_morphology	8622/1
+sample_diagnosis	tumor_morphology	8623/1
+sample_diagnosis	tumor_morphology	8630/0
+sample_diagnosis	tumor_morphology	8630/1
+sample_diagnosis	tumor_morphology	8630/3
+sample_diagnosis	tumor_morphology	8631/0
+sample_diagnosis	tumor_morphology	8631/1
+sample_diagnosis	tumor_morphology	8631/3
+sample_diagnosis	tumor_morphology	8632/1
+sample_diagnosis	tumor_morphology	8633/1
+sample_diagnosis	tumor_morphology	8634/1
+sample_diagnosis	tumor_morphology	8634/3
+sample_diagnosis	tumor_morphology	8640/1
+sample_diagnosis	tumor_morphology	8640/3
+sample_diagnosis	tumor_morphology	8641/0
+sample_diagnosis	tumor_morphology	8642/1
+sample_diagnosis	tumor_morphology	8650/0
+sample_diagnosis	tumor_morphology	8650/1
+sample_diagnosis	tumor_morphology	8650/3
+sample_diagnosis	tumor_morphology	8660/0
+sample_diagnosis	tumor_morphology	8670/0
+sample_diagnosis	tumor_morphology	8670/3
+sample_diagnosis	tumor_morphology	8671/0
+sample_diagnosis	tumor_morphology	8680/0
+sample_diagnosis	tumor_morphology	8680/1
+sample_diagnosis	tumor_morphology	8680/3
+sample_diagnosis	tumor_morphology	8681/1
+sample_diagnosis	tumor_morphology	8682/1
+sample_diagnosis	tumor_morphology	8683/0
+sample_diagnosis	tumor_morphology	8690/1
+sample_diagnosis	tumor_morphology	8691/1
+sample_diagnosis	tumor_morphology	8692/1
+sample_diagnosis	tumor_morphology	8693/1
+sample_diagnosis	tumor_morphology	8693/3
+sample_diagnosis	tumor_morphology	8700/0
+sample_diagnosis	tumor_morphology	8700/3
+sample_diagnosis	tumor_morphology	8710/3
+sample_diagnosis	tumor_morphology	8711/0
+sample_diagnosis	tumor_morphology	8711/3
+sample_diagnosis	tumor_morphology	8712/0
+sample_diagnosis	tumor_morphology	8713/0
+sample_diagnosis	tumor_morphology	8714/3
+sample_diagnosis	tumor_morphology	8720/0
+sample_diagnosis	tumor_morphology	8720/2
+sample_diagnosis	tumor_morphology	8720/3
+sample_diagnosis	tumor_morphology	8720/6
+sample_diagnosis	tumor_morphology	8721/3
+sample_diagnosis	tumor_morphology	8722/0
+sample_diagnosis	tumor_morphology	8722/3
+sample_diagnosis	tumor_morphology	8723/0
+sample_diagnosis	tumor_morphology	8723/3
+sample_diagnosis	tumor_morphology	8725/0
+sample_diagnosis	tumor_morphology	8726/0
+sample_diagnosis	tumor_morphology	8727/0
+sample_diagnosis	tumor_morphology	8728/0
+sample_diagnosis	tumor_morphology	8728/1
+sample_diagnosis	tumor_morphology	8728/3
+sample_diagnosis	tumor_morphology	8730/0
+sample_diagnosis	tumor_morphology	8730/3
+sample_diagnosis	tumor_morphology	8740/0
+sample_diagnosis	tumor_morphology	8740/3
+sample_diagnosis	tumor_morphology	8741/2
+sample_diagnosis	tumor_morphology	8741/3
+sample_diagnosis	tumor_morphology	8742/2
+sample_diagnosis	tumor_morphology	8742/3
+sample_diagnosis	tumor_morphology	8743/3
+sample_diagnosis	tumor_morphology	8744/3
+sample_diagnosis	tumor_morphology	8745/3
+sample_diagnosis	tumor_morphology	8746/3
+sample_diagnosis	tumor_morphology	8750/0
+sample_diagnosis	tumor_morphology	8760/0
+sample_diagnosis	tumor_morphology	8761/0
+sample_diagnosis	tumor_morphology	8761/1
+sample_diagnosis	tumor_morphology	8761/3
+sample_diagnosis	tumor_morphology	8762/1
+sample_diagnosis	tumor_morphology	8770/0
+sample_diagnosis	tumor_morphology	8770/3
+sample_diagnosis	tumor_morphology	8771/0
+sample_diagnosis	tumor_morphology	8771/3
+sample_diagnosis	tumor_morphology	8772/0
+sample_diagnosis	tumor_morphology	8772/3
+sample_diagnosis	tumor_morphology	8773/3
+sample_diagnosis	tumor_morphology	8774/3
+sample_diagnosis	tumor_morphology	8780/0
+sample_diagnosis	tumor_morphology	8780/3
+sample_diagnosis	tumor_morphology	8790/0
+sample_diagnosis	tumor_morphology	8800/0
+sample_diagnosis	tumor_morphology	8800/3
+sample_diagnosis	tumor_morphology	8800/6
+sample_diagnosis	tumor_morphology	8800/9
+sample_diagnosis	tumor_morphology	8801/3
+sample_diagnosis	tumor_morphology	8801/6
+sample_diagnosis	tumor_morphology	8802/3
+sample_diagnosis	tumor_morphology	8803/3
+sample_diagnosis	tumor_morphology	8804/3
+sample_diagnosis	tumor_morphology	8804/6
+sample_diagnosis	tumor_morphology	8805/3
+sample_diagnosis	tumor_morphology	8806/3
+sample_diagnosis	tumor_morphology	8806/6
+sample_diagnosis	tumor_morphology	8810/0
+sample_diagnosis	tumor_morphology	8810/1
+sample_diagnosis	tumor_morphology	8810/3
+sample_diagnosis	tumor_morphology	8811/0
+sample_diagnosis	tumor_morphology	8811/1
+sample_diagnosis	tumor_morphology	8811/3
+sample_diagnosis	tumor_morphology	8812/0
+sample_diagnosis	tumor_morphology	8812/3
+sample_diagnosis	tumor_morphology	8813/0
+sample_diagnosis	tumor_morphology	8813/3
+sample_diagnosis	tumor_morphology	8814/3
+sample_diagnosis	tumor_morphology	8815/0
+sample_diagnosis	tumor_morphology	8815/1
+sample_diagnosis	tumor_morphology	8815/3
+sample_diagnosis	tumor_morphology	8820/0
+sample_diagnosis	tumor_morphology	8821/1
+sample_diagnosis	tumor_morphology	8822/1
+sample_diagnosis	tumor_morphology	8823/0
+sample_diagnosis	tumor_morphology	8824/0
+sample_diagnosis	tumor_morphology	8824/1
+sample_diagnosis	tumor_morphology	8825/0
+sample_diagnosis	tumor_morphology	8825/1
+sample_diagnosis	tumor_morphology	8825/3
+sample_diagnosis	tumor_morphology	8826/0
+sample_diagnosis	tumor_morphology	8827/1
+sample_diagnosis	tumor_morphology	8830/0
+sample_diagnosis	tumor_morphology	8830/1
+sample_diagnosis	tumor_morphology	8830/3
+sample_diagnosis	tumor_morphology	8831/0
+sample_diagnosis	tumor_morphology	8832/0
+sample_diagnosis	tumor_morphology	8832/3
+sample_diagnosis	tumor_morphology	8833/3
+sample_diagnosis	tumor_morphology	8834/1
+sample_diagnosis	tumor_morphology	8835/1
+sample_diagnosis	tumor_morphology	8836/1
+sample_diagnosis	tumor_morphology	8840/0
+sample_diagnosis	tumor_morphology	8840/3
+sample_diagnosis	tumor_morphology	8841/1
+sample_diagnosis	tumor_morphology	8842/0
+sample_diagnosis	tumor_morphology	8842/3
+sample_diagnosis	tumor_morphology	8850/0
+sample_diagnosis	tumor_morphology	8850/1
+sample_diagnosis	tumor_morphology	8850/3
+sample_diagnosis	tumor_morphology	8851/0
+sample_diagnosis	tumor_morphology	8851/3
+sample_diagnosis	tumor_morphology	8852/0
+sample_diagnosis	tumor_morphology	8852/3
+sample_diagnosis	tumor_morphology	8853/3
+sample_diagnosis	tumor_morphology	8854/0
+sample_diagnosis	tumor_morphology	8854/3
+sample_diagnosis	tumor_morphology	8855/3
+sample_diagnosis	tumor_morphology	8856/0
+sample_diagnosis	tumor_morphology	8857/0
+sample_diagnosis	tumor_morphology	8857/3
+sample_diagnosis	tumor_morphology	8858/3
+sample_diagnosis	tumor_morphology	8860/0
+sample_diagnosis	tumor_morphology	8861/0
+sample_diagnosis	tumor_morphology	8862/0
+sample_diagnosis	tumor_morphology	8870/0
+sample_diagnosis	tumor_morphology	8880/0
+sample_diagnosis	tumor_morphology	8881/0
+sample_diagnosis	tumor_morphology	8890/0
+sample_diagnosis	tumor_morphology	8890/1
+sample_diagnosis	tumor_morphology	8890/3
+sample_diagnosis	tumor_morphology	8891/0
+sample_diagnosis	tumor_morphology	8891/3
+sample_diagnosis	tumor_morphology	8892/0
+sample_diagnosis	tumor_morphology	8893/0
+sample_diagnosis	tumor_morphology	8894/0
+sample_diagnosis	tumor_morphology	8894/3
+sample_diagnosis	tumor_morphology	8895/0
+sample_diagnosis	tumor_morphology	8895/3
+sample_diagnosis	tumor_morphology	8896/3
+sample_diagnosis	tumor_morphology	8897/1
+sample_diagnosis	tumor_morphology	8898/1
+sample_diagnosis	tumor_morphology	8900/0
+sample_diagnosis	tumor_morphology	8900/3
+sample_diagnosis	tumor_morphology	8901/3
+sample_diagnosis	tumor_morphology	8902/3
+sample_diagnosis	tumor_morphology	8903/0
+sample_diagnosis	tumor_morphology	8904/0
+sample_diagnosis	tumor_morphology	8905/0
+sample_diagnosis	tumor_morphology	8910/3
+sample_diagnosis	tumor_morphology	8912/3
+sample_diagnosis	tumor_morphology	8920/3
+sample_diagnosis	tumor_morphology	8920/6
+sample_diagnosis	tumor_morphology	8921/3
+sample_diagnosis	tumor_morphology	8930/0
+sample_diagnosis	tumor_morphology	8930/3
+sample_diagnosis	tumor_morphology	8931/3
+sample_diagnosis	tumor_morphology	8932/0
+sample_diagnosis	tumor_morphology	8933/3
+sample_diagnosis	tumor_morphology	8934/3
+sample_diagnosis	tumor_morphology	8935/0
+sample_diagnosis	tumor_morphology	8935/1
+sample_diagnosis	tumor_morphology	8935/3
+sample_diagnosis	tumor_morphology	8936/0
+sample_diagnosis	tumor_morphology	8936/1
+sample_diagnosis	tumor_morphology	8936/3
+sample_diagnosis	tumor_morphology	8940/0
+sample_diagnosis	tumor_morphology	8940/3
+sample_diagnosis	tumor_morphology	8941/3
+sample_diagnosis	tumor_morphology	8950/3
+sample_diagnosis	tumor_morphology	8950/6
+sample_diagnosis	tumor_morphology	8951/3
+sample_diagnosis	tumor_morphology	8959/0
+sample_diagnosis	tumor_morphology	8959/1
+sample_diagnosis	tumor_morphology	8959/3
+sample_diagnosis	tumor_morphology	8960/1
+sample_diagnosis	tumor_morphology	8960/3
+sample_diagnosis	tumor_morphology	8963/3
+sample_diagnosis	tumor_morphology	8964/3
+sample_diagnosis	tumor_morphology	8965/0
+sample_diagnosis	tumor_morphology	8966/0
+sample_diagnosis	tumor_morphology	8967/0
+sample_diagnosis	tumor_morphology	8970/3
+sample_diagnosis	tumor_morphology	8971/3
+sample_diagnosis	tumor_morphology	8972/3
+sample_diagnosis	tumor_morphology	8973/3
+sample_diagnosis	tumor_morphology	8974/1
+sample_diagnosis	tumor_morphology	8975/1
+sample_diagnosis	tumor_morphology	8980/3
+sample_diagnosis	tumor_morphology	8981/3
+sample_diagnosis	tumor_morphology	8982/0
+sample_diagnosis	tumor_morphology	8982/3
+sample_diagnosis	tumor_morphology	8983/0
+sample_diagnosis	tumor_morphology	8983/3
+sample_diagnosis	tumor_morphology	8990/0
+sample_diagnosis	tumor_morphology	8990/1
+sample_diagnosis	tumor_morphology	8990/3
+sample_diagnosis	tumor_morphology	8991/3
+sample_diagnosis	tumor_morphology	9000/0
+sample_diagnosis	tumor_morphology	9000/1
+sample_diagnosis	tumor_morphology	9000/3
+sample_diagnosis	tumor_morphology	9010/0
+sample_diagnosis	tumor_morphology	9011/0
+sample_diagnosis	tumor_morphology	9012/0
+sample_diagnosis	tumor_morphology	9013/0
+sample_diagnosis	tumor_morphology	9014/0
+sample_diagnosis	tumor_morphology	9014/1
+sample_diagnosis	tumor_morphology	9014/3
+sample_diagnosis	tumor_morphology	9015/0
+sample_diagnosis	tumor_morphology	9015/1
+sample_diagnosis	tumor_morphology	9015/3
+sample_diagnosis	tumor_morphology	9016/0
+sample_diagnosis	tumor_morphology	9020/0
+sample_diagnosis	tumor_morphology	9020/1
+sample_diagnosis	tumor_morphology	9020/3
+sample_diagnosis	tumor_morphology	9030/0
+sample_diagnosis	tumor_morphology	9040/0
+sample_diagnosis	tumor_morphology	9040/3
+sample_diagnosis	tumor_morphology	9041/3
+sample_diagnosis	tumor_morphology	9042/3
+sample_diagnosis	tumor_morphology	9043/3
+sample_diagnosis	tumor_morphology	9044/3
+sample_diagnosis	tumor_morphology	9045/3
+sample_diagnosis	tumor_morphology	9050/0
+sample_diagnosis	tumor_morphology	9050/3
+sample_diagnosis	tumor_morphology	9051/0
+sample_diagnosis	tumor_morphology	9051/3
+sample_diagnosis	tumor_morphology	9052/0
+sample_diagnosis	tumor_morphology	9052/3
+sample_diagnosis	tumor_morphology	9053/3
+sample_diagnosis	tumor_morphology	9054/0
+sample_diagnosis	tumor_morphology	9055/0
+sample_diagnosis	tumor_morphology	9055/1
+sample_diagnosis	tumor_morphology	9060/3
+sample_diagnosis	tumor_morphology	9061/3
+sample_diagnosis	tumor_morphology	9062/3
+sample_diagnosis	tumor_morphology	9063/3
+sample_diagnosis	tumor_morphology	9064/2
+sample_diagnosis	tumor_morphology	9064/3
+sample_diagnosis	tumor_morphology	9065/3
+sample_diagnosis	tumor_morphology	9070/3
+sample_diagnosis	tumor_morphology	9071/3
+sample_diagnosis	tumor_morphology	9072/3
+sample_diagnosis	tumor_morphology	9073/1
+sample_diagnosis	tumor_morphology	9080/0
+sample_diagnosis	tumor_morphology	9080/1
+sample_diagnosis	tumor_morphology	9080/3
+sample_diagnosis	tumor_morphology	9081/3
+sample_diagnosis	tumor_morphology	9082/3
+sample_diagnosis	tumor_morphology	9083/3
+sample_diagnosis	tumor_morphology	9084/0
+sample_diagnosis	tumor_morphology	9084/3
+sample_diagnosis	tumor_morphology	9085/3
+sample_diagnosis	tumor_morphology	9086/3
+sample_diagnosis	tumor_morphology	9090/0
+sample_diagnosis	tumor_morphology	9090/3
+sample_diagnosis	tumor_morphology	9091/1
+sample_diagnosis	tumor_morphology	9100/0
+sample_diagnosis	tumor_morphology	9100/1
+sample_diagnosis	tumor_morphology	9100/3
+sample_diagnosis	tumor_morphology	9101/3
+sample_diagnosis	tumor_morphology	9102/3
+sample_diagnosis	tumor_morphology	9103/0
+sample_diagnosis	tumor_morphology	9104/1
+sample_diagnosis	tumor_morphology	9105/3
+sample_diagnosis	tumor_morphology	9110/0
+sample_diagnosis	tumor_morphology	9110/1
+sample_diagnosis	tumor_morphology	9110/3
+sample_diagnosis	tumor_morphology	9120/0
+sample_diagnosis	tumor_morphology	9120/3
+sample_diagnosis	tumor_morphology	9121/0
+sample_diagnosis	tumor_morphology	9122/0
+sample_diagnosis	tumor_morphology	9123/0
+sample_diagnosis	tumor_morphology	9124/3
+sample_diagnosis	tumor_morphology	9125/0
+sample_diagnosis	tumor_morphology	9130/0
+sample_diagnosis	tumor_morphology	9130/1
+sample_diagnosis	tumor_morphology	9130/3
+sample_diagnosis	tumor_morphology	9131/0
+sample_diagnosis	tumor_morphology	9132/0
+sample_diagnosis	tumor_morphology	9133/1
+sample_diagnosis	tumor_morphology	9133/3
+sample_diagnosis	tumor_morphology	9135/1
+sample_diagnosis	tumor_morphology	9136/1
+sample_diagnosis	tumor_morphology	9137/3
+sample_diagnosis	tumor_morphology	9140/3
+sample_diagnosis	tumor_morphology	9141/0
+sample_diagnosis	tumor_morphology	9142/0
+sample_diagnosis	tumor_morphology	9150/0
+sample_diagnosis	tumor_morphology	9150/1
+sample_diagnosis	tumor_morphology	9150/3
+sample_diagnosis	tumor_morphology	9160/0
+sample_diagnosis	tumor_morphology	9161/0
+sample_diagnosis	tumor_morphology	9161/1
+sample_diagnosis	tumor_morphology	9170/0
+sample_diagnosis	tumor_morphology	9170/3
+sample_diagnosis	tumor_morphology	9171/0
+sample_diagnosis	tumor_morphology	9172/0
+sample_diagnosis	tumor_morphology	9173/0
+sample_diagnosis	tumor_morphology	9174/0
+sample_diagnosis	tumor_morphology	9174/1
+sample_diagnosis	tumor_morphology	9175/0
+sample_diagnosis	tumor_morphology	9180/0
+sample_diagnosis	tumor_morphology	9180/3
+sample_diagnosis	tumor_morphology	9180/6
+sample_diagnosis	tumor_morphology	9181/3
+sample_diagnosis	tumor_morphology	9182/3
+sample_diagnosis	tumor_morphology	9183/3
+sample_diagnosis	tumor_morphology	9184/3
+sample_diagnosis	tumor_morphology	9185/3
+sample_diagnosis	tumor_morphology	9186/3
+sample_diagnosis	tumor_morphology	9187/3
+sample_diagnosis	tumor_morphology	9191/0
+sample_diagnosis	tumor_morphology	9192/3
+sample_diagnosis	tumor_morphology	9193/3
+sample_diagnosis	tumor_morphology	9194/3
+sample_diagnosis	tumor_morphology	9195/3
+sample_diagnosis	tumor_morphology	9200/0
+sample_diagnosis	tumor_morphology	9200/1
+sample_diagnosis	tumor_morphology	9210/0
+sample_diagnosis	tumor_morphology	9210/1
+sample_diagnosis	tumor_morphology	9220/0
+sample_diagnosis	tumor_morphology	9220/1
+sample_diagnosis	tumor_morphology	9220/3
+sample_diagnosis	tumor_morphology	9221/0
+sample_diagnosis	tumor_morphology	9221/3
+sample_diagnosis	tumor_morphology	9230/0
+sample_diagnosis	tumor_morphology	9230/3
+sample_diagnosis	tumor_morphology	9231/3
+sample_diagnosis	tumor_morphology	9240/3
+sample_diagnosis	tumor_morphology	9241/0
+sample_diagnosis	tumor_morphology	9242/3
+sample_diagnosis	tumor_morphology	9243/3
+sample_diagnosis	tumor_morphology	9250/1
+sample_diagnosis	tumor_morphology	9250/3
+sample_diagnosis	tumor_morphology	9251/1
+sample_diagnosis	tumor_morphology	9251/3
+sample_diagnosis	tumor_morphology	9252/0
+sample_diagnosis	tumor_morphology	9252/3
+sample_diagnosis	tumor_morphology	9260/3
+sample_diagnosis	tumor_morphology	9261/3
+sample_diagnosis	tumor_morphology	9262/0
+sample_diagnosis	tumor_morphology	9270/0
+sample_diagnosis	tumor_morphology	9270/1
+sample_diagnosis	tumor_morphology	9270/3
+sample_diagnosis	tumor_morphology	9271/0
+sample_diagnosis	tumor_morphology	9272/0
+sample_diagnosis	tumor_morphology	9273/0
+sample_diagnosis	tumor_morphology	9274/0
+sample_diagnosis	tumor_morphology	9275/0
+sample_diagnosis	tumor_morphology	9280/0
+sample_diagnosis	tumor_morphology	9281/0
+sample_diagnosis	tumor_morphology	9282/0
+sample_diagnosis	tumor_morphology	9290/0
+sample_diagnosis	tumor_morphology	9290/3
+sample_diagnosis	tumor_morphology	9300/0
+sample_diagnosis	tumor_morphology	9301/0
+sample_diagnosis	tumor_morphology	9302/0
+sample_diagnosis	tumor_morphology	9302/3
+sample_diagnosis	tumor_morphology	9310/0
+sample_diagnosis	tumor_morphology	9310/3
+sample_diagnosis	tumor_morphology	9311/0
+sample_diagnosis	tumor_morphology	9312/0
+sample_diagnosis	tumor_morphology	9320/0
+sample_diagnosis	tumor_morphology	9321/0
+sample_diagnosis	tumor_morphology	9322/0
+sample_diagnosis	tumor_morphology	9330/0
+sample_diagnosis	tumor_morphology	9330/3
+sample_diagnosis	tumor_morphology	9340/0
+sample_diagnosis	tumor_morphology	9341/1
+sample_diagnosis	tumor_morphology	9341/3
+sample_diagnosis	tumor_morphology	9342/3
+sample_diagnosis	tumor_morphology	9350/1
+sample_diagnosis	tumor_morphology	9351/1
+sample_diagnosis	tumor_morphology	9352/1
+sample_diagnosis	tumor_morphology	9360/1
+sample_diagnosis	tumor_morphology	9361/1
+sample_diagnosis	tumor_morphology	9362/3
+sample_diagnosis	tumor_morphology	9363/0
+sample_diagnosis	tumor_morphology	9364/3
+sample_diagnosis	tumor_morphology	9365/3
+sample_diagnosis	tumor_morphology	9370/3
+sample_diagnosis	tumor_morphology	9371/3
+sample_diagnosis	tumor_morphology	9372/3
+sample_diagnosis	tumor_morphology	9373/0
+sample_diagnosis	tumor_morphology	9380/3
+sample_diagnosis	tumor_morphology	9381/3
+sample_diagnosis	tumor_morphology	9382/3
+sample_diagnosis	tumor_morphology	9383/1
+sample_diagnosis	tumor_morphology	9384/1
+sample_diagnosis	tumor_morphology	9385/3
+sample_diagnosis	tumor_morphology	9390/0
+sample_diagnosis	tumor_morphology	9390/1
+sample_diagnosis	tumor_morphology	9390/3
+sample_diagnosis	tumor_morphology	9391/3
+sample_diagnosis	tumor_morphology	9392/3
+sample_diagnosis	tumor_morphology	9393/3
+sample_diagnosis	tumor_morphology	9394/1
+sample_diagnosis	tumor_morphology	9395/3
+sample_diagnosis	tumor_morphology	9396/3
+sample_diagnosis	tumor_morphology	9400/3
+sample_diagnosis	tumor_morphology	9401/3
+sample_diagnosis	tumor_morphology	9410/3
+sample_diagnosis	tumor_morphology	9411/3
+sample_diagnosis	tumor_morphology	9412/1
+sample_diagnosis	tumor_morphology	9413/0
+sample_diagnosis	tumor_morphology	9420/3
+sample_diagnosis	tumor_morphology	9421/1
+sample_diagnosis	tumor_morphology	9423/3
+sample_diagnosis	tumor_morphology	9424/3
+sample_diagnosis	tumor_morphology	9425/3
+sample_diagnosis	tumor_morphology	9430/3
+sample_diagnosis	tumor_morphology	9431/1
+sample_diagnosis	tumor_morphology	9432/1
+sample_diagnosis	tumor_morphology	9440/3
+sample_diagnosis	tumor_morphology	9440/6
+sample_diagnosis	tumor_morphology	9441/3
+sample_diagnosis	tumor_morphology	9442/1
+sample_diagnosis	tumor_morphology	9442/3
+sample_diagnosis	tumor_morphology	9444/1
+sample_diagnosis	tumor_morphology	9445/3
+sample_diagnosis	tumor_morphology	9450/3
+sample_diagnosis	tumor_morphology	9451/3
+sample_diagnosis	tumor_morphology	9460/3
+sample_diagnosis	tumor_morphology	9470/3
+sample_diagnosis	tumor_morphology	9471/3
+sample_diagnosis	tumor_morphology	9472/3
+sample_diagnosis	tumor_morphology	9473/3
+sample_diagnosis	tumor_morphology	9474/3
+sample_diagnosis	tumor_morphology	9475/3
+sample_diagnosis	tumor_morphology	9476/3
+sample_diagnosis	tumor_morphology	9477/3
+sample_diagnosis	tumor_morphology	9478/3
+sample_diagnosis	tumor_morphology	9480/3
+sample_diagnosis	tumor_morphology	9490/0
+sample_diagnosis	tumor_morphology	9490/3
+sample_diagnosis	tumor_morphology	9491/0
+sample_diagnosis	tumor_morphology	9492/0
+sample_diagnosis	tumor_morphology	9493/0
+sample_diagnosis	tumor_morphology	9500/3
+sample_diagnosis	tumor_morphology	9501/0
+sample_diagnosis	tumor_morphology	9501/3
+sample_diagnosis	tumor_morphology	9502/0
+sample_diagnosis	tumor_morphology	9502/3
+sample_diagnosis	tumor_morphology	9503/3
+sample_diagnosis	tumor_morphology	9504/3
+sample_diagnosis	tumor_morphology	9505/1
+sample_diagnosis	tumor_morphology	9505/3
+sample_diagnosis	tumor_morphology	9506/1
+sample_diagnosis	tumor_morphology	9507/0
+sample_diagnosis	tumor_morphology	9508/3
+sample_diagnosis	tumor_morphology	9509/1
+sample_diagnosis	tumor_morphology	9510/0
+sample_diagnosis	tumor_morphology	9510/3
+sample_diagnosis	tumor_morphology	9511/3
+sample_diagnosis	tumor_morphology	9512/3
+sample_diagnosis	tumor_morphology	9513/3
+sample_diagnosis	tumor_morphology	9514/1
+sample_diagnosis	tumor_morphology	9520/3
+sample_diagnosis	tumor_morphology	9521/3
+sample_diagnosis	tumor_morphology	9522/3
+sample_diagnosis	tumor_morphology	9523/3
+sample_diagnosis	tumor_morphology	9530/0
+sample_diagnosis	tumor_morphology	9530/1
+sample_diagnosis	tumor_morphology	9530/3
+sample_diagnosis	tumor_morphology	9531/0
+sample_diagnosis	tumor_morphology	9532/0
+sample_diagnosis	tumor_morphology	9533/0
+sample_diagnosis	tumor_morphology	9534/0
+sample_diagnosis	tumor_morphology	9535/0
+sample_diagnosis	tumor_morphology	9537/0
+sample_diagnosis	tumor_morphology	9538/1
+sample_diagnosis	tumor_morphology	9538/3
+sample_diagnosis	tumor_morphology	9539/1
+sample_diagnosis	tumor_morphology	9539/3
+sample_diagnosis	tumor_morphology	9540/0
+sample_diagnosis	tumor_morphology	9540/1
+sample_diagnosis	tumor_morphology	9540/3
+sample_diagnosis	tumor_morphology	9541/0
+sample_diagnosis	tumor_morphology	9542/3
+sample_diagnosis	tumor_morphology	9550/0
+sample_diagnosis	tumor_morphology	9560/0
+sample_diagnosis	tumor_morphology	9560/1
+sample_diagnosis	tumor_morphology	9560/3
+sample_diagnosis	tumor_morphology	9561/3
+sample_diagnosis	tumor_morphology	9562/0
+sample_diagnosis	tumor_morphology	9570/0
+sample_diagnosis	tumor_morphology	9571/0
+sample_diagnosis	tumor_morphology	9571/3
+sample_diagnosis	tumor_morphology	9580/0
+sample_diagnosis	tumor_morphology	9580/3
+sample_diagnosis	tumor_morphology	9581/3
+sample_diagnosis	tumor_morphology	9582/0
+sample_diagnosis	tumor_morphology	9590/3
+sample_diagnosis	tumor_morphology	9591/3
+sample_diagnosis	tumor_morphology	9596/3
+sample_diagnosis	tumor_morphology	9597/3
+sample_diagnosis	tumor_morphology	9650/3
+sample_diagnosis	tumor_morphology	9651/3
+sample_diagnosis	tumor_morphology	9652/3
+sample_diagnosis	tumor_morphology	9653/3
+sample_diagnosis	tumor_morphology	9654/3
+sample_diagnosis	tumor_morphology	9655/3
+sample_diagnosis	tumor_morphology	9659/3
+sample_diagnosis	tumor_morphology	9661/3
+sample_diagnosis	tumor_morphology	9662/3
+sample_diagnosis	tumor_morphology	9663/3
+sample_diagnosis	tumor_morphology	9664/3
+sample_diagnosis	tumor_morphology	9665/3
+sample_diagnosis	tumor_morphology	9667/3
+sample_diagnosis	tumor_morphology	9670/3
+sample_diagnosis	tumor_morphology	9671/3
+sample_diagnosis	tumor_morphology	9673/3
+sample_diagnosis	tumor_morphology	9675/3
+sample_diagnosis	tumor_morphology	9678/3
+sample_diagnosis	tumor_morphology	9679/3
+sample_diagnosis	tumor_morphology	9680/3
+sample_diagnosis	tumor_morphology	9684/3
+sample_diagnosis	tumor_morphology	9687/3
+sample_diagnosis	tumor_morphology	9688/3
+sample_diagnosis	tumor_morphology	9689/3
+sample_diagnosis	tumor_morphology	9690/3
+sample_diagnosis	tumor_morphology	9691/3
+sample_diagnosis	tumor_morphology	9695/3
+sample_diagnosis	tumor_morphology	9698/3
+sample_diagnosis	tumor_morphology	9699/3
+sample_diagnosis	tumor_morphology	9700/3
+sample_diagnosis	tumor_morphology	9701/3
+sample_diagnosis	tumor_morphology	9702/3
+sample_diagnosis	tumor_morphology	9705/3
+sample_diagnosis	tumor_morphology	9708/3
+sample_diagnosis	tumor_morphology	9709/3
+sample_diagnosis	tumor_morphology	9712/3
+sample_diagnosis	tumor_morphology	9714/3
+sample_diagnosis	tumor_morphology	9716/3
+sample_diagnosis	tumor_morphology	9717/3
+sample_diagnosis	tumor_morphology	9718/3
+sample_diagnosis	tumor_morphology	9719/3
+sample_diagnosis	tumor_morphology	9724/3
+sample_diagnosis	tumor_morphology	9725/3
+sample_diagnosis	tumor_morphology	9726/3
+sample_diagnosis	tumor_morphology	9727/3
+sample_diagnosis	tumor_morphology	9728/3
+sample_diagnosis	tumor_morphology	9729/3
+sample_diagnosis	tumor_morphology	9731/3
+sample_diagnosis	tumor_morphology	9732/3
+sample_diagnosis	tumor_morphology	9733/3
+sample_diagnosis	tumor_morphology	9734/3
+sample_diagnosis	tumor_morphology	9735/3
+sample_diagnosis	tumor_morphology	9737/3
+sample_diagnosis	tumor_morphology	9738/3
+sample_diagnosis	tumor_morphology	9740/1
+sample_diagnosis	tumor_morphology	9740/3
+sample_diagnosis	tumor_morphology	9741/1
+sample_diagnosis	tumor_morphology	9741/3
+sample_diagnosis	tumor_morphology	9742/3
+sample_diagnosis	tumor_morphology	9750/3
+sample_diagnosis	tumor_morphology	9751/1
+sample_diagnosis	tumor_morphology	9751/3
+sample_diagnosis	tumor_morphology	9752/1
+sample_diagnosis	tumor_morphology	9753/1
+sample_diagnosis	tumor_morphology	9754/3
+sample_diagnosis	tumor_morphology	9755/3
+sample_diagnosis	tumor_morphology	9756/3
+sample_diagnosis	tumor_morphology	9757/3
+sample_diagnosis	tumor_morphology	9758/3
+sample_diagnosis	tumor_morphology	9759/3
+sample_diagnosis	tumor_morphology	9760/3
+sample_diagnosis	tumor_morphology	9761/3
+sample_diagnosis	tumor_morphology	9762/3
+sample_diagnosis	tumor_morphology	9764/3
+sample_diagnosis	tumor_morphology	9765/1
+sample_diagnosis	tumor_morphology	9766/1
+sample_diagnosis	tumor_morphology	9767/1
+sample_diagnosis	tumor_morphology	9768/1
+sample_diagnosis	tumor_morphology	9769/1
+sample_diagnosis	tumor_morphology	9800/3
+sample_diagnosis	tumor_morphology	9801/3
+sample_diagnosis	tumor_morphology	9805/3
+sample_diagnosis	tumor_morphology	9806/3
+sample_diagnosis	tumor_morphology	9807/3
+sample_diagnosis	tumor_morphology	9808/3
+sample_diagnosis	tumor_morphology	9809/3
+sample_diagnosis	tumor_morphology	9811/3
+sample_diagnosis	tumor_morphology	9812/3
+sample_diagnosis	tumor_morphology	9813/3
+sample_diagnosis	tumor_morphology	9814/3
+sample_diagnosis	tumor_morphology	9815/3
+sample_diagnosis	tumor_morphology	9816/3
+sample_diagnosis	tumor_morphology	9817/3
+sample_diagnosis	tumor_morphology	9818/3
+sample_diagnosis	tumor_morphology	9820/3
+sample_diagnosis	tumor_morphology	9823/3
+sample_diagnosis	tumor_morphology	9826/3
+sample_diagnosis	tumor_morphology	9827/3
+sample_diagnosis	tumor_morphology	9831/3
+sample_diagnosis	tumor_morphology	9832/3
+sample_diagnosis	tumor_morphology	9833/3
+sample_diagnosis	tumor_morphology	9834/3
+sample_diagnosis	tumor_morphology	9835/3
+sample_diagnosis	tumor_morphology	9836/3
+sample_diagnosis	tumor_morphology	9837/3
+sample_diagnosis	tumor_morphology	9840/3
+sample_diagnosis	tumor_morphology	9860/3
+sample_diagnosis	tumor_morphology	9861/3
+sample_diagnosis	tumor_morphology	9863/3
+sample_diagnosis	tumor_morphology	9865/3
+sample_diagnosis	tumor_morphology	9866/3
+sample_diagnosis	tumor_morphology	9867/3
+sample_diagnosis	tumor_morphology	9869/3
+sample_diagnosis	tumor_morphology	9870/3
+sample_diagnosis	tumor_morphology	9871/3
+sample_diagnosis	tumor_morphology	9872/3
+sample_diagnosis	tumor_morphology	9873/3
+sample_diagnosis	tumor_morphology	9874/3
+sample_diagnosis	tumor_morphology	9875/3
+sample_diagnosis	tumor_morphology	9876/3
+sample_diagnosis	tumor_morphology	9891/3
+sample_diagnosis	tumor_morphology	9895/3
+sample_diagnosis	tumor_morphology	9896/3
+sample_diagnosis	tumor_morphology	9897/3
+sample_diagnosis	tumor_morphology	9898/1
+sample_diagnosis	tumor_morphology	9898/3
+sample_diagnosis	tumor_morphology	9910/3
+sample_diagnosis	tumor_morphology	9911/3
+sample_diagnosis	tumor_morphology	9920/3
+sample_diagnosis	tumor_morphology	9930/3
+sample_diagnosis	tumor_morphology	9931/3
+sample_diagnosis	tumor_morphology	9940/3
+sample_diagnosis	tumor_morphology	9945/3
+sample_diagnosis	tumor_morphology	9946/3
+sample_diagnosis	tumor_morphology	9948/3
+sample_diagnosis	tumor_morphology	9950/3
+sample_diagnosis	tumor_morphology	9960/3
+sample_diagnosis	tumor_morphology	9961/3
+sample_diagnosis	tumor_morphology	9962/3
+sample_diagnosis	tumor_morphology	9963/3
+sample_diagnosis	tumor_morphology	9964/3
+sample_diagnosis	tumor_morphology	9965/3
+sample_diagnosis	tumor_morphology	9966/3
+sample_diagnosis	tumor_morphology	9967/3
+sample_diagnosis	tumor_morphology	9970/1
+sample_diagnosis	tumor_morphology	9971/1
+sample_diagnosis	tumor_morphology	9971/3
+sample_diagnosis	tumor_morphology	9975/3
+sample_diagnosis	tumor_morphology	9980/3
+sample_diagnosis	tumor_morphology	9982/3
+sample_diagnosis	tumor_morphology	9983/3
+sample_diagnosis	tumor_morphology	9984/3
+sample_diagnosis	tumor_morphology	9985/3
+sample_diagnosis	tumor_morphology	9986/3
+sample_diagnosis	tumor_morphology	9987/3
+sample_diagnosis	tumor_morphology	9989/3
+sample_diagnosis	tumor_morphology	9991/3
+sample_diagnosis	tumor_morphology	9992/3
+sample_diagnosis	tumor_morphology	Not Reported
+sample_diagnosis	tumor_morphology	Unknown
+sample_diagnosis	tumor_stage_clinical_m	M0
+sample_diagnosis	tumor_stage_clinical_m	M1
+sample_diagnosis	tumor_stage_clinical_m	M1a
+sample_diagnosis	tumor_stage_clinical_m	M1b
+sample_diagnosis	tumor_stage_clinical_m	M1c
+sample_diagnosis	tumor_stage_clinical_m	MX
+sample_diagnosis	tumor_stage_clinical_m	cM0 (i+)
+sample_diagnosis	tumor_stage_clinical_n	N0
+sample_diagnosis	tumor_stage_clinical_n	N0 (i+)
+sample_diagnosis	tumor_stage_clinical_n	N0 (i-)
+sample_diagnosis	tumor_stage_clinical_n	N0 (mol+)
+sample_diagnosis	tumor_stage_clinical_n	N0 (mol-)
+sample_diagnosis	tumor_stage_clinical_n	N1
+sample_diagnosis	tumor_stage_clinical_n	N1a
+sample_diagnosis	tumor_stage_clinical_n	N1b
+sample_diagnosis	tumor_stage_clinical_n	N1bI
+sample_diagnosis	tumor_stage_clinical_n	N1bII
+sample_diagnosis	tumor_stage_clinical_n	N1bIII
+sample_diagnosis	tumor_stage_clinical_n	N1bIV
+sample_diagnosis	tumor_stage_clinical_n	N1c
+sample_diagnosis	tumor_stage_clinical_n	N1mi
+sample_diagnosis	tumor_stage_clinical_n	N2
+sample_diagnosis	tumor_stage_clinical_n	N2a
+sample_diagnosis	tumor_stage_clinical_n	N2b
+sample_diagnosis	tumor_stage_clinical_n	N2c
+sample_diagnosis	tumor_stage_clinical_n	N3
+sample_diagnosis	tumor_stage_clinical_n	N3a
+sample_diagnosis	tumor_stage_clinical_n	N3b
+sample_diagnosis	tumor_stage_clinical_n	N3c
+sample_diagnosis	tumor_stage_clinical_n	N4
+sample_diagnosis	tumor_stage_clinical_n	NX
+sample_diagnosis	tumor_stage_clinical_t	T0
+sample_diagnosis	tumor_stage_clinical_t	T1
+sample_diagnosis	tumor_stage_clinical_t	T1a
+sample_diagnosis	tumor_stage_clinical_t	T1a1
+sample_diagnosis	tumor_stage_clinical_t	T1a2
+sample_diagnosis	tumor_stage_clinical_t	T1b
+sample_diagnosis	tumor_stage_clinical_t	T1b1
+sample_diagnosis	tumor_stage_clinical_t	T1b2
+sample_diagnosis	tumor_stage_clinical_t	T1c
+sample_diagnosis	tumor_stage_clinical_t	T1mi
+sample_diagnosis	tumor_stage_clinical_t	T2
+sample_diagnosis	tumor_stage_clinical_t	T2a
+sample_diagnosis	tumor_stage_clinical_t	T2a1
+sample_diagnosis	tumor_stage_clinical_t	T2a2
+sample_diagnosis	tumor_stage_clinical_t	T2b
+sample_diagnosis	tumor_stage_clinical_t	T2c
+sample_diagnosis	tumor_stage_clinical_t	T2d
+sample_diagnosis	tumor_stage_clinical_t	T3
+sample_diagnosis	tumor_stage_clinical_t	T3a
+sample_diagnosis	tumor_stage_clinical_t	T3b
+sample_diagnosis	tumor_stage_clinical_t	T3c
+sample_diagnosis	tumor_stage_clinical_t	T3d
+sample_diagnosis	tumor_stage_clinical_t	T4
+sample_diagnosis	tumor_stage_clinical_t	T4a
+sample_diagnosis	tumor_stage_clinical_t	T4b
+sample_diagnosis	tumor_stage_clinical_t	T4c
+sample_diagnosis	tumor_stage_clinical_t	T4d
+sample_diagnosis	tumor_stage_clinical_t	T4e
+sample_diagnosis	tumor_stage_clinical_t	T5
+sample_diagnosis	tumor_stage_clinical_t	TX
+sample_diagnosis	tumor_stage_clinical_t	Ta
+sample_diagnosis	tumor_stage_clinical_t	Tis
+sample_diagnosis	tumor_stage_clinical_t	Tis (DCIS)
+sample_diagnosis	tumor_stage_clinical_t	Tis (LCIS)
+sample_diagnosis	tumor_stage_clinical_t	Tis (Paget's)
 sequencing_file	avg_read_length	NUMBER
 sequencing_file	checksum_algorithm	STRING
 sequencing_file	checksum_value	STRING
@@ -7901,9 +8565,9 @@ of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	sample	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	participant	NA	NA
+of_synonym	synonym	study	NA	NA
+of_synonym	synonym	sample	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
@@ -7983,6 +8647,7 @@ sample_id	A unique sequence of alphanumeric characters used to identify the samp
 sample_tumor_status	Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue.
 sample_type	Text term to describe the source of a biospecimen used for a laboratory test.
 sequence_alignment_software	The name of the software program used to align nucleotide sequencing data.
+site_of_resection_or_biopsy	The text term used to describe the anatomic site of the resection or biopsy of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
 size_of_data_being_uploaded	The numerical quantity documenting the physical magnitude of a set of related electronic records.
 software_package	The name of the software package that was used.
 study_acronym	A one word acronym to represent the study.

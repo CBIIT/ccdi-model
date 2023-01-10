@@ -16,32 +16,40 @@ Nodes:
       - participant_list
   diagnosis: #09.20.22 pd
     Props:
-     - diagnosis_id
-     - disease_type
-     - primary_diagnosis
-     - primary_diagnosis_reference_source
-     - primary_site
-     - age_at_diagnosis
-     - days_to_recurrence
-     - last_known_disease_status
-     - days_to_last_known_disease_status
-     - tissue_or_organ_of_origin
-     - days_to_last_followup
-     - progression_or_recurrence
+      - diagnosis_id
+      - disease_type
+      - primary_diagnosis
+      - primary_diagnosis_reference_source
+      - primary_site
+      - tissue_or_organ_of_origin
+      - site_of_resection_or_biopsy
+      - age_at_diagnosis
+      - days_to_recurrence
+      - last_known_disease_status
+      - days_to_last_known_disease_status
+      - days_to_last_followup
+      - progression_or_recurrence
   sample_diagnosis:
     Props:
-     - sample_diagnosis_id
-     - disease_type
-     - primary_diagnosis
-     - primary_diagnosis_reference_source
-     - primary_site
-     - age_at_diagnosis
-     - days_to_recurrence
-     - last_known_disease_status
-     - days_to_last_known_disease_status
-     - tissue_or_organ_of_origin
-     - days_to_last_followup
-     - progression_or_recurrence   
+      - sample_diagnosis_id
+      - disease_type
+      - primary_diagnosis
+      - primary_diagnosis_reference_source
+      - primary_site
+      - tissue_or_organ_of_origin
+      - site_of_resection_or_biopsy
+      - age_at_diagnosis
+      - days_to_recurrence
+      - last_known_disease_status
+      - days_to_last_known_disease_status
+      - days_to_last_followup
+      - progression_or_recurrence   
+      - tumor_grade
+      - tumor_stage_clinical_t
+      - tumor_stage_clinical_n
+      - tumor_stage_clinical_m
+      - tumor_morphology
+      - tumor_incidence_type # primary, metastatic, recurrence, progression
   imaging_file: # 01.03.22 pdunn
     Props:
       - file_name
@@ -88,14 +96,8 @@ Nodes:
       - sample_type 
       - sample_anatomic_site
       - participant_age_at_collection # 28.02.22 pdunn
-      - tumor_grade
-      - tumor_stage_clinical_t
-      - tumor_stage_clinical_n
-      - tumor_stage_clinical_m
-      - tumor_morphology
-      - tumor_incidence_type # primary, metastatic, recurrence, progression
-      - sample_description
       - sample_tumor_status
+      - sample_description
   sequencing_file: # 01.03.22 pdunn
     Props:
       # - file_id #system generated GUID/PK

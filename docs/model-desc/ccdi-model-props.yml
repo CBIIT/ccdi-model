@@ -3035,6 +3035,7 @@ PropDefinitions:
       - "primary" 
       - "metastatic"
       - "recurrence"
+      - "relapse"
       - "progression" # new properties for new model 01/25/2022 adeforge
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false

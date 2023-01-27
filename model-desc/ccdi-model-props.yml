@@ -1217,6 +1217,16 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
+  alternate_participant_id:
+    Desc: A synonymous or alternate ID for a participant that is stored in another study or repository.
+    Term:
+      - Origin: caDSR
+        Code: '6867052'
+        Value: Biospecimen Source Subject Identifier
+    Type: string
+    Req: false
+    Private: false
+    Key: false
   race: 
     Desc: The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
     Term:
@@ -1293,6 +1303,12 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
+  alternate_sample_id:
+    Desc: A synonymous or alternate ID for a sample that is stored in another study or repository.
+    Type: string
+    Req: false
+    Private: false
+    Key: false
   sample_type: 
     Desc: Text term to describe the source of a biospecimen used for a laboratory test.
     Term:

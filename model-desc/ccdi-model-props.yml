@@ -1,11 +1,63 @@
 PropDefinitions:
-  #publication
-  pubmed_id: # string, the node in CDS schema
-    Desc: The accession number used in PubMed.
+  #pdx
+  model_id: # PDX model
+    Desc: The PDX model identifier.
     Type: string
     Req: true
     Private: false
     Key: true
+  model_type:  
+    Desc: The type of PDX model. May become an enum if terms are provided.
+    Type: string
+    Req: true
+    Private: false
+    Key: true
+  mouse_strain:  
+    Desc: The host mouse strain to which the tumor is engrafted. May become an enum if terms are provided.
+    Type: string
+    Req: true
+    Private: false
+    Key: true
+  strain_immune_system_humanized: 
+    Desc: Was the mouse host humanized?
+    Enum:
+      - "Yes"
+      - "No"
+    Req: true
+    Private: false
+    Key: true
+  type_of__humanization:
+    Desc: How the mouse host was humanized.
+    Type: string
+    Req: false
+    Private: false
+    Key: true
+  tumor_preparation:
+    Desc: How the tumor was prepared for grafting.
+    Type: string
+    Req: false
+    Private: false
+    Key: true  
+  injection_type_and_site:
+    Desc: Where the tumor was grafted in the mouse host. May become an enum if terms are provided.
+    Type: string
+    Req: false
+    Private: false
+    Key: true   
+  tumor_characterization_method:
+    Desc: How the tumor was evaluated in the mouse host. May become an enum if terms are provided.
+    Type: string
+    Req: false
+    Private: false
+    Key: true     
+  #publication
+  pubmed_id: # string, the node in CDS schema
+    Desc: The accession number used in PubMed.
+    Type: string
+    Req: false
+    Private: false
+    Key: true
+   tumor_not_mus_or_ebv_origin: 
   #synonym
   synonym_id:
     Desc: The synonym of the id that is found in a different repository.

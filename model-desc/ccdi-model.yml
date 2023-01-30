@@ -6,7 +6,7 @@ Nodes:
       - model_type
       - mouse_strain
       - strain_immune_system_humanized
-      - type_of__humanization
+      - type_of_humanization
       - tumor_preparation
       - injection_type_and_site
       - tumor_characterization_method

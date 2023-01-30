@@ -26,7 +26,7 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  type_of__humanization:
+  type_of_humanization:
     Desc: How the mouse host was humanized.
     Type: string
     Req: false
@@ -60,7 +60,7 @@ PropDefinitions:
   pubmed_id: # string, the node in CDS schema
     Desc: The accession number used in PubMed.
     Type: string
-    Req: false
+    Req: true
     Private: false
     Key: true
   #synonym

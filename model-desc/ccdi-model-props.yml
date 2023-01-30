@@ -50,6 +50,12 @@ PropDefinitions:
     Req: false
     Private: false
     Key: true     
+  tumor_not_mus_or_ebv_origin: 
+    Desc: Was tumor evaluated for having a mouse or EBV orgin?
+    Type: string
+    Req: false
+    Private: false
+    Key: true    
   #publication
   pubmed_id: # string, the node in CDS schema
     Desc: The accession number used in PubMed.
@@ -57,7 +63,6 @@ PropDefinitions:
     Req: false
     Private: false
     Key: true
-   tumor_not_mus_or_ebv_origin: 
   #synonym
   synonym_id:
     Desc: The synonym of the id that is found in a different repository.

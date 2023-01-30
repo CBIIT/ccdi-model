@@ -1,12 +1,12 @@
 PropDefinitions:
   #pdx
-  model_id: # PDX model
+  model_id:
     Desc: The PDX model identifier.
     Type: string
     Req: true
     Private: false
   model_type:  
-    Desc: #The type of PDX model. May become an enum if terms are provided.
+    Desc: The type of PDX model. May become an enum if terms are provided.
     Type: string
     Req: true
     Private: false
@@ -48,7 +48,7 @@ PropDefinitions:
     Req: false
     Private: false  
   #publication
-  pubmed_id: # string, the node in CDS schema
+  pubmed_id:
     Desc: The accession number used in PubMed.
     Type: string
     Req: true

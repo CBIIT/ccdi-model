@@ -3471,14 +3471,16 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C175886'
         Value: Scientific Data Type
-    Enum:
-      - Genomic
-      - Proteomic
-      - Imaging
-      - Genomics
-      - Pathology
-      - Proteomics
-      - Radiology
+    Type: array
+    Items:
+      Enum:
+        - Genomic
+        - Proteomic
+        - Imaging
+        - Genomics
+        - Pathology
+        - Proteomics
+        - Radiology
     Req: false
     Private: false
   study_name:

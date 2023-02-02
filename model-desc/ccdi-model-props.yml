@@ -33,8 +33,8 @@ PropDefinitions:
         Code: 'PMC5738926'
         Value: PDX-MI: Minimal Information for Patient-Derived Tumor Xenograft Models
     Enum:
-      - "Yes"
-      - "No"
+      - Yes
+      - No
     Req: true
     Private: false
   type_of_humanization:

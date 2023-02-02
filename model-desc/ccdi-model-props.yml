@@ -6,6 +6,7 @@ PropDefinitions:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI: Minimal Information for Patient-Derived Tumor Xenograft Models
+    Type: string
     Req: true
     Private: false
   model_type:  

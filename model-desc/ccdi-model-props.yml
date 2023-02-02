@@ -89,6 +89,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   #synonym
   synonym_id:
     Desc: The synonym of the id that is found in a different repository.

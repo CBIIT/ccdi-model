@@ -5,7 +5,7 @@ PropDefinitions:
     Term:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
-        Value: PDX-MI: Minimal Information for Patient-Derived Tumor Xenograft Models
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
     Type: string
     Req: true
     Private: false
@@ -14,7 +14,7 @@ PropDefinitions:
     Term:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
-        Value: PDX-MI: Minimal Information for Patient-Derived Tumor Xenograft Models
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
     Type: string
     Req: true
     Private: false
@@ -23,7 +23,7 @@ PropDefinitions:
     Term:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
-        Value: PDX-MI: Minimal Information for Patient-Derived Tumor Xenograft Models
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
     Type: string
     Req: true
     Private: false
@@ -32,7 +32,7 @@ PropDefinitions:
     Term:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
-        Value: PDX-MI: Minimal Information for Patient-Derived Tumor Xenograft Models
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
     Enum:
       - Yes
       - No
@@ -43,7 +43,7 @@ PropDefinitions:
     Term:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
-        Value: PDX-MI: Minimal Information for Patient-Derived Tumor Xenograft Models
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
     Type: string
     Req: false
     Private: false
@@ -52,7 +52,7 @@ PropDefinitions:
     Term:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
-        Value: PDX-MI: Minimal Information for Patient-Derived Tumor Xenograft Models
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
     Type: string
     Req: false
     Private: false
@@ -61,7 +61,7 @@ PropDefinitions:
     Term:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
-        Value: PDX-MI: Minimal Information for Patient-Derived Tumor Xenograft Models
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
     Type: string
     Req: false
     Private: false
@@ -70,7 +70,7 @@ PropDefinitions:
     Term:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
-        Value: PDX-MI: Minimal Information for Patient-Derived Tumor Xenograft Models
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
     Type: string
     Req: false
     Private: false 
@@ -79,7 +79,7 @@ PropDefinitions:
     Term:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
-        Value: PDX-MI: Minimal Information for Patient-Derived Tumor Xenograft Models
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
     Type: string
     Req: false
     Private: false  

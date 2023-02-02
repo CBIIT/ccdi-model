@@ -1730,10 +1730,14 @@ PropDefinitions:
       - "Waldeyer ring"
     Req: true
     Private: false
-  participant_age_at_collection: # aka sample_collection_study_day (i.e. study day for the subject when sample collected) , it might be helpful to also have sample_collection_event (i.e. index event for collection day enum: enrollment, diagnosis, treatment,) 
+  participant_age_at_collection:     
     Desc: The age of the participant (in years) at the time of sample collection.
-    Type: string  # 01/26/2022 adeforge, all ages are integers!! 28feb22 pdunn
-    Req: false  # 02/22/2022 adeforge, not required?
+    Term:
+      - Origin: caDSR
+        Code: '10609539'
+        Value: Subject Age at Diagnosis Integer
+    Type: integer
+    Req: true  
     Private: false
   tumor_grade:
     Desc: Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.
@@ -8229,7 +8233,7 @@ PropDefinitions:
         Code: '6154726'
         Value: Index Date To Treatment Start Day Count
     Type: integer
-    Req: false
+    Req: true
     Private: false
   treatment_id:
     Desc: A unique sequence of alphanumeric characters used to identify the treatment in the investigation or study, which is used for linking metadata.

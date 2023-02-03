@@ -90,17 +90,18 @@ Nodes:
       - file_mapping_level
       - methylation_platform
       - reporter_label
-  participant: # 02.28.22 pdunn
+  participant:
     Props:
       - participant_id
       - race       
       - gender
       - ethnicity
+      - alternate_participant_id
       # - dbgap_subject_id : store in synonym
   publication: # 09.20.22 pd
      Props:
       - pubmed_id
-  sample: #09.20.22 pd
+  sample:
     Props:
       - sample_id
       # - biosample_accession captured in synonym
@@ -109,6 +110,7 @@ Nodes:
       - participant_age_at_collection # 28.02.22 pdunn
       - sample_tumor_status
       - sample_description
+      - alternate_sample_id
   sequencing_file: # 01.03.22 pdunn
     Props:
       # - file_id #system generated GUID/PK

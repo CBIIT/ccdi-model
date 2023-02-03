@@ -2462,7 +2462,6 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-    Key: false
   race: 
     Desc: The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
     Term:
@@ -2544,7 +2543,6 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-    Key: false
   sample_type: 
     Desc: Text term to describe the source of a biospecimen used for a laboratory test.
     Term:

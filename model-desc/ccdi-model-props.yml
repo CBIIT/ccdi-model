@@ -2561,6 +2561,7 @@ PropDefinitions:
       - "Cell"
       - "Cryopreserved Cells"
       - "CSF"
+      - "Eyebrow hair"
       - "Feces"
       - "FFPE Scrolls"
       - "Granulocytes"
@@ -2572,6 +2573,7 @@ PropDefinitions:
       - "None"
       - "Normal"
       - "Normal Tissue"
+      - "Oral rinse"
       - "Other"
       - "Overnight urine"
       - "PBMCs"
@@ -2588,6 +2590,7 @@ PropDefinitions:
       - "Unspecified"
       - "Urine"
       - "Urine Pellet"
+      - "Vaginal swab"
     Req: true
     Private: false
   sample_anatomic_site:
@@ -4692,8 +4695,10 @@ PropDefinitions:
         Code: 'C14250'
         Value: Organism 
     Enum:
-      - Human
-      - Mouse
+      - 'Canine'
+      - 'Cell Line'
+      - 'Human'
+      - 'Mouse'
     Req: true
     Private: false
   adult_or_childhood_study: # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age

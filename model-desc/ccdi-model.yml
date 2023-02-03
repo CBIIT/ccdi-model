@@ -1,5 +1,16 @@
 Handle: CDA
 Nodes:
+  pdx: #27 jan 2023 pdunn
+    Props: 
+      - model_id
+      - model_type
+      - mouse_strain
+      - strain_immune_system_humanized
+      - type_of_humanization
+      - tumor_preparation
+      - injection_type_and_site
+      - tumor_characterization_method
+      - tumor_not_mus_or_ebv_origin
   clinical_measure_file: # 09.20.22 pdunn
     Props:
       # - file_id #system generated GUID/PK
@@ -177,6 +188,12 @@ Nodes:
       - treatment_type
       - treatment_id
 Relationships:
+  of_pdx: #27jan2023 pd
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: pdx
+        Dst: sample
   of_clinical_measure_file: # #09.20.22 pd
     Props: null
     Mul: many_to_one 
@@ -191,13 +208,13 @@ Relationships:
         Dst: participant
   of_diagnosis: 
     Props: null
-    Mul: one_to_one
+    Mul: many_to_one
     Ends:
       - Src: diagnosis
         Dst: participant
   of_sample_diagnosis: 
     Props: null
-    Mul: one_to_one
+    Mul: many_to_one
     Ends:
       - Src: sample_diagnosis
         Dst: sample        

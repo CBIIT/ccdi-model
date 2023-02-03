@@ -1,6 +1,90 @@
 PropDefinitions:
+  #pdx
+  model_id:
+    Desc: The PDX model identifier.
+    Term:
+      - Origin: PubMedCentral
+        Code: 'PMC5738926'
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+    Type: string
+    Req: true
+    Private: false
+  model_type:  
+    Desc: The type of PDX model. May become an enum if terms are provided.
+    Term:
+      - Origin: PubMedCentral
+        Code: 'PMC5738926'
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+    Type: string
+    Req: true
+    Private: false
+  mouse_strain:  
+    Desc: The host mouse strain to which the tumor is engrafted. May become an enum if terms are provided.
+    Term:
+      - Origin: PubMedCentral
+        Code: 'PMC5738926'
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+    Type: string
+    Req: true
+    Private: false
+  strain_immune_system_humanized: 
+    Desc: Was the mouse host humanized?
+    Term:
+      - Origin: PubMedCentral
+        Code: 'PMC5738926'
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+    Enum:
+      - Yes
+      - No
+    Req: true
+    Private: false
+  type_of_humanization:
+    Desc: How the mouse host was humanized.
+    Term:
+      - Origin: PubMedCentral
+        Code: 'PMC5738926'
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+    Type: string
+    Req: false
+    Private: false
+  tumor_preparation:
+    Desc: How the tumor was prepared for grafting.
+    Term:
+      - Origin: PubMedCentral
+        Code: 'PMC5738926'
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+    Type: string
+    Req: false
+    Private: false
+  injection_type_and_site:
+    Desc: Where the tumor was grafted in the mouse host. May become an enum if terms are provided.
+    Term:
+      - Origin: PubMedCentral
+        Code: 'PMC5738926'
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+    Type: string
+    Req: false
+    Private: false
+  tumor_characterization_method:
+    Desc: How the tumor was evaluated in the mouse host. May become an enum if terms are provided.
+    Term:
+      - Origin: PubMedCentral
+        Code: 'PMC5738926'
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+    Type: string
+    Req: false
+    Private: false 
+  tumor_not_mus_or_ebv_origin: 
+    Desc: Was tumor evaluated for having a mouse or EBV orgin?
+    Term:
+      - Origin: PubMedCentral
+        Code: 'PMC5738926'
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+    Type: string
+    Req: false
+    Private: false  
   #publication
-  pubmed_id: # string, the node in CDS schema
+  pubmed_id:
     Desc: The accession number used in PubMed.
     Type: string
     Req: true

@@ -28,9 +28,9 @@ Nodes:
   diagnosis: #09.20.22 pd
     Props:
       - diagnosis_id
-      - disease_type
-      - primary_diagnosis
-      - primary_diagnosis_reference_source
+      - diagnosis_icd_o
+      - diagnosis_icd_cm
+      - diagnosis_finer_resolution
       - primary_site
       - tissue_or_organ_of_origin
       - site_of_resection_or_biopsy
@@ -40,12 +40,18 @@ Nodes:
       - days_to_last_known_disease_status
       - days_to_last_followup
       - progression_or_recurrence
+      - tumor_grade
+      - tumor_stage_clinical_t
+      - tumor_stage_clinical_n
+      - tumor_stage_clinical_m
+      - tumor_morphology
+      - tumor_incidence_type # primary, metastatic, recurrence, progression
   sample_diagnosis:
     Props:
       - sample_diagnosis_id
-      - disease_type
-      - primary_diagnosis
-      - primary_diagnosis_reference_source
+      - diagnosis_icd_o
+      - diagnosis_icd_cm
+      - diagnosis_finer_resolution
       - primary_site
       - tissue_or_organ_of_origin
       - site_of_resection_or_biopsy

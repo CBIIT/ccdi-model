@@ -28,8 +28,8 @@ Nodes:
   diagnosis: #09.20.22 pd
     Props:
       - diagnosis_id
-      - diagnosis_icd_o_3
-      - diagnosis_icd_10_cm
+      - diagnosis_icd_o
+      - diagnosis_icd_cm
       - diagnosis_finer_resolution
       - primary_site
       - tissue_or_organ_of_origin
@@ -49,8 +49,8 @@ Nodes:
   sample_diagnosis:
     Props:
       - sample_diagnosis_id
-      - diagnosis_icd_o_3
-      - diagnosis_icd_10_cm
+      - diagnosis_icd_o
+      - diagnosis_icd_cm
       - diagnosis_finer_resolution
       - primary_site
       - tissue_or_organ_of_origin

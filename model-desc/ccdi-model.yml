@@ -154,8 +154,8 @@ Nodes:
       - study_description
       - external_url
       - experimental_strategy_and_data_subtype
-      - size_of_data_being_uploaded
       - study_data_types
+      - size_of_data_being_uploaded
       # - bioproject_accession : store in synonym
   study_admin:
     Props:
@@ -190,11 +190,11 @@ Nodes:
       - repository_of_synonym_id #the name of the other repo
   therapeutic_procedure:
     Props:
+      - treatment_id
       - days_to_treatment
       - therapeutic_agents
       - treatment_outcome
       - treatment_type
-      - treatment_id
 Relationships:
   of_pdx: #27jan2023 pd
     Props: null
@@ -243,9 +243,9 @@ Relationships:
     Mul: many_to_one #will need to mod this to many_to_many if a participant is in >1 study
     Ends:
       - Src: participant
-        Dst: study
-      - Src: participant
         Dst: study_arm
+      - Src: participant
+        Dst: study
   of_publication: # 09.20.22 pd
     Props: null
     Mul: many_to_one

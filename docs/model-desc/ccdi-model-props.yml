@@ -1279,7 +1279,7 @@ PropDefinitions:
        - '9987/3 : Therapy-related myelodysplastic syndrome, NOS'
        - '9989/3 : Myelodysplastic syndrome, NOS'
        - '9993/3 : Myelodysplastic syndrome with ring sideroblasts and multilineage dysplasia'
-    Req: false
+    Req: true
     Private: false    
   diagnosis_finer_resolution:
     Desc: Text term used to dprovide finer resolution diagnosis than available in ICD-O or ICD-10-CM. 

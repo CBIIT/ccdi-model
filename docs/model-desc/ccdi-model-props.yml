@@ -2355,11 +2355,41 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6983162'
-        Value: File Type Descriptive Text
+        Value: File Type Descriptive Text # no PVs
       - Origin: caDSR
-        Code: '7797710'
+        Code: '7797710' #caDSR PVs are csv, bam, fastq, txt
         Value: Raw Data File Format
-    Type: string
+    Enum:
+      - "bam"
+      - "bam_index"
+      - "bcf"
+      - "bed"
+      - "cram"
+      - "cram_index"
+      - "csv"
+      - "dicom"
+      - "docx"
+      - "fasta"
+      - "fastq"
+      - "jpg"
+      - "json"
+      - "maf"
+      - "pdf"
+      - "png"
+      - "rda"
+      - "rdata"
+      - "rds"
+      - "sas7bdat"
+      - "svg"
+      - "tbi"
+      - "tsv"
+      - "tiff"
+      - "txt"
+      - "vcf"
+      - "vcf_index"
+      - "xls"
+      - "xlsx"
+      - "xml"
     Req: true
     Private: false
   file_description:

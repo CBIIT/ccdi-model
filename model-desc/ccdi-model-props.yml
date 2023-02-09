@@ -2360,41 +2360,38 @@ PropDefinitions:
         Code: '7797710' #caDSR PVs are csv, bam, fastq, txt
         Value: Raw Data File Format
     oneOf:
-      - 
-        Enum:
-          - "bam"
-          - "bam_index"
-          - "bcf"
-          - "bed"
-          - "cram"
-          - "cram_index"
-          - "csv"
-          - "dicom"
-          - "docx"
-          - "fasta"
-          - "fastq"
-          - "jpg"
-          - "json"
-          - "maf"
-          - "pdf"
-          - "png"
-          - "rda"
-          - "rdata"
-          - "rds"
-          - "sas7bdat"
-          - "svg"
-          - "tbi"
-          - "tsv"
-          - "tiff"
-          - "txt"
-          - "vcf"
-          - "vcf_index"
-          - "xls"
-          - "xlsx"
-          - "xml"
-      - 
-        Type: 
-          string
+      - Enum:
+        - "bam"
+        - "bam_index"
+        - "bcf"
+        - "bed"
+        - "cram"
+        - "cram_index"
+        - "csv"
+        - "dicom"
+        - "docx"
+        - "fasta"
+        - "fastq"
+        - "jpg"
+        - "json"
+        - "maf"
+        - "pdf"
+        - "png"
+        - "rda"
+        - "rdata"
+        - "rds"
+        - "sas7bdat"
+        - "svg"
+        - "tbi"
+        - "tsv"
+        - "tiff"
+        - "txt"
+        - "vcf"
+        - "vcf_index"
+        - "xls"
+        - "xlsx"
+        - "xml"
+      - Type: string
     Req: true
     Private: false
   file_description:

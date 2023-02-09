@@ -2361,7 +2361,6 @@ PropDefinitions:
         Value: Raw Data File Format
     oneOf:
       - Type:
-        Enum:
           - "bam"
           - "bam_index"
           - "bcf"

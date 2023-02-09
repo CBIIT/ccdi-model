@@ -2360,7 +2360,7 @@ PropDefinitions:
         Code: '7797710' #caDSR PVs are csv, bam, fastq, txt
         Value: Raw Data File Format
     oneOf:
-        Type:
+      - Type:
           - string
           -
             - "bam"

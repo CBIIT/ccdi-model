@@ -9,8 +9,8 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  model_type:  
-    Desc: The type of PDX model. May become an enum if terms are provided.
+  injection_type_and_site:
+    Desc: Where the tumor was grafted in the mouse host. May become an enum if terms are provided.
     Term:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
@@ -56,15 +56,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  injection_type_and_site:
-    Desc: Where the tumor was grafted in the mouse host. May become an enum if terms are provided.
-    Term:
-      - Origin: PubMedCentral
-        Code: 'PMC5738926'
-        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
-    Type: string
-    Req: false
-    Private: false
+
   tumor_characterization_method:
     Desc: How the tumor was evaluated in the mouse host. May become an enum if terms are provided.
     Term:

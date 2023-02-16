@@ -28,8 +28,8 @@ PropDefinitions:
      Desc: Anatomic site of xenograft.
     Term:
       - Origin: caDSR
-        Code: '11326261'
-        Value: Specimen Tumor Tissue ICD-O-3 Morphology Code
+        Code: '12083894'
+        Value: Specimen Original Anatomic Site Uberon Name
     Type: string
      Req: true
      Private: false

@@ -9,15 +9,30 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  injection_type_and_site:
-    Desc: Where the tumor was grafted in the mouse host. May become an enum if terms are provided.
+  injection_type:
+    Desc: How the xenograft was introduced into host.
     Term:
-      - Origin: PubMedCentral
-        Code: 'PMC5738926'
-        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
-    Type: string
+      - Origin: caDSR
+        Code: '2003586'
+        Value: Access Route of Administration Text Code
+    Type: enum
+    Enum:
+      - 'intravenous (IV)'
+      - 'intramuscular (IM)'
+      - 'subcutaneous (SC)'
+      - 'intradermal (ID)'
+      - 'intraosseous (IO)'
     Req: true
     Private: false
+  injection_site:
+     Desc: Anatomic site of xenograft.
+    Term:
+      - Origin: caDSR
+        Code: '11326261'
+        Value: Specimen Tumor Tissue ICD-O-3 Morphology Code
+    Type: string
+     Req: true
+     Private: false
   mouse_strain:  
     Desc: The host mouse strain to which the tumor is engrafted. May become an enum if terms are provided.
     Term:

@@ -28,7 +28,7 @@ PropDefinitions:
      Desc: Anatomic site of xenograft.
     Term:
       - Origin: caDSR
-        Code: '12083894'
+        Code: '12299653'
         Value: Specimen Original Anatomic Site Uberon Name
     Type: string
      Req: true

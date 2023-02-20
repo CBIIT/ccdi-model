@@ -219,6 +219,12 @@ Terms:
     Code: 3225640
     Version: '2'
     Value: Patient Diagnosis Age Day Value
+  alive:
+    Origin: caDSR
+    Definition: 'Life; the organic phenomenon that distinguishes living organisms from nonliving ones.'
+    Code: 2580948
+    Version: '1'
+    Value: alive
   alternate_participant_id:
     Origin: caDSR
     Definition: A unique sequence of alphanumeric characters used to identify the
@@ -1203,6 +1209,12 @@ Terms:
     Code: 6154726
     Version: '1'
     Value: Index Date To Treatment Start Day Count
+  dead:
+    Origin: caDSR
+    Definition: 'The absence of life or state of being dead.'
+    Code: 2847328
+    Version: '1'
+    Value: dead   
   Descended testis:
     Origin: caDSR
     Definition: 'To travel downward.: Either of the paired male reproductive glands
@@ -3192,6 +3204,12 @@ Terms:
     Code: 4592313
     Version: '1'
     Value: No Measureable Tumor or Tumor Markers
+  not reported:
+    Origin: caDSR
+    Definition: 'Not provided or available.'
+    Code: 2572231
+    Version: '1'
+    Value: not reported
   No Response:
     Origin: caDSR
     Definition: No apparent change or worsening in tumor staging classification.
@@ -5796,12 +5814,12 @@ Terms:
     Code: 7701743
     Version: '1'
     Value: Undescended Testes
-  Unknown:
+  unknown:
     Origin: caDSR
     Definition: Not known, not observed, not recorded, or refused.
-    Code: 5682953
+    Code: 2575365
     Version: '1'
-    Value: Unknown
+    Value: unknown
   Unknown primary site:
     Origin: caDSR
     Definition: Referring to the fact that the original site of growth of a metastatic
@@ -5822,12 +5840,12 @@ Terms:
     Code: 3623802
     Version: '1'
     Value: Tumor Unknown Status
-  Unspecified:
+  unspecified:
     Origin: caDSR
     Definition: Not stated explicitly or in detail.
     Code: 2573360
     Version: '1'
-    Value: Unspecified
+    Value: unspecified
   Upper Gum:
     Origin: caDSR
     Definition: The gingiva covering the maxillary alveolar bone.

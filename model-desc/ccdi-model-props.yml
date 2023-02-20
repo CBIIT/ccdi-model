@@ -1381,6 +1381,20 @@ PropDefinitions:
     Type: integer
     Req: true
     Private: false
+  vital_status:
+    Desc: Participant vital status
+    Term:
+      - Origin: caDSR
+        Code: '2847330'
+        Value: Participant Vital Status Type
+    Enum:
+      - 'Alive'
+      - 'Dead'
+      - 'Not reported'
+      - 'Unknown'
+      - 'Unspecified'
+    Req: true
+    Private: false
   days_to_recurrence:
     Desc: Number of days between the date used for index and the date the patient's disease recurred.
     Term:

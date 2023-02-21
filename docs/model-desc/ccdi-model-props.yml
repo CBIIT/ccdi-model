@@ -1381,6 +1381,20 @@ PropDefinitions:
     Type: integer
     Req: true
     Private: false
+  vital_status:
+    Desc: Participant vital status
+    Term:
+      - Origin: caDSR
+        Code: '2847330'
+        Value: Participant Vital Status Type
+    Enum:
+      - 'Alive'
+      - 'Dead'
+      - 'Not reported'
+      - 'Unknown'
+      - 'Unspecified'
+    Req: true
+    Private: false
   days_to_recurrence:
     Desc: Number of days between the date used for index and the date the patient's disease recurred.
     Term:
@@ -2543,26 +2557,6 @@ PropDefinitions:
       - "Unknown" 
     Req: true
     Private: false
-#  vital_status:
-#    Desc: The survival state of the person registered on the protocol.
-#    Term:
-#      - Origin: caDSR
-#        Code: '5'
-#        Value: Patient Vital Status
-#      - Origin: caDSR
-#        Code: '2847330'
-#        Value: Participant Vital Status
-#    Enum:
-#      - "Alive"
-#      - "Dead"
-#      - "Death"
-#      - "Lost to Follow-up"
-#      - "Not Reported"
-#      - "Subject decided to withdraw from study"
-#      - "Unknown"
-#      - "Unspecified"
-#    Req: true
-#    Private: false 
  # sample
   sample_id:
     Desc: A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.

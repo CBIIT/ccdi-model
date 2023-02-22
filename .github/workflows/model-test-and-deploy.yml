@@ -9,7 +9,10 @@ on:
 
 jobs:
   validate-and-build:
-    uses: CBIIT/bento-workflows/.github/workflows/model-test-and-deploy.yml@v1.1.4.2
+    permissions:
+      packages: read
+      contents: write
+    uses: CBIIT/bento-workflows/.github/workflows/model-test-and-deploy.yml@v2.1.2
     with:
       model_files: |
         ccdi-model.yml ccdi-model-props.yml

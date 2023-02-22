@@ -1,5 +1,16 @@
 Handle: CDA
 Nodes:
+  pdx: #27 jan 2023 pdunn
+    Props: 
+      - model_id
+      - model_type
+      - mouse_strain
+      - strain_immune_system_humanized
+      - type_of_humanization
+      - tumor_preparation
+      - injection_type_and_site
+      - tumor_characterization_method
+      - tumor_not_mus_or_ebv_origin
   clinical_measure_file: # 09.20.22 pdunn
     Props:
       # - file_id #system generated GUID/PK
@@ -16,18 +27,47 @@ Nodes:
       - participant_list
   diagnosis: #09.20.22 pd
     Props:
-     - diagnosis_id
-     - disease_type
-     - primary_diagnosis
-     - primary_diagnosis_reference_source
-     - primary_site
-     - age_at_diagnosis
-     - days_to_recurrence
-     - last_known_disease_status
-     - days_to_last_known_disease_status
-     - tissue_or_organ_of_origin
-     - days_to_last_followup
-     - progression_or_recurrence
+      - diagnosis_id
+      - diagnosis_icd_o
+      - diagnosis_icd_cm
+      - diagnosis_finer_resolution
+      - primary_site
+      - tissue_or_organ_of_origin
+      - site_of_resection_or_biopsy
+      - age_at_diagnosis
+      - vital_status
+      - days_to_recurrence
+      - last_known_disease_status
+      - days_to_last_known_disease_status
+      - days_to_last_followup
+      - progression_or_recurrence
+      - tumor_grade
+      - tumor_stage_clinical_t
+      - tumor_stage_clinical_n
+      - tumor_stage_clinical_m
+      - tumor_morphology
+      - tumor_incidence_type # primary, metastatic, recurrence, progression
+  sample_diagnosis:
+    Props:
+      - sample_diagnosis_id
+      - diagnosis_icd_o
+      - diagnosis_icd_cm
+      - diagnosis_finer_resolution
+      - primary_site
+      - tissue_or_organ_of_origin
+      - site_of_resection_or_biopsy
+      - age_at_diagnosis
+      - days_to_recurrence
+      - last_known_disease_status
+      - days_to_last_known_disease_status
+      - days_to_last_followup
+      - progression_or_recurrence   
+      - tumor_grade
+      - tumor_stage_clinical_t
+      - tumor_stage_clinical_n
+      - tumor_stage_clinical_m
+      - tumor_morphology
+      - tumor_incidence_type # primary, metastatic, recurrence, progression
   imaging_file: # 01.03.22 pdunn
     Props:
       - file_name
@@ -57,31 +97,27 @@ Nodes:
       - file_mapping_level
       - methylation_platform
       - reporter_label
-  participant: # 02.28.22 pdunn
+  participant:
     Props:
       - participant_id
       - race       
       - gender
       - ethnicity
+      - alternate_participant_id
       # - dbgap_subject_id : store in synonym
   publication: # 09.20.22 pd
      Props:
       - pubmed_id
-  sample: #09.20.22 pd
+  sample:
     Props:
       - sample_id
       # - biosample_accession captured in synonym
       - sample_type 
       - sample_anatomic_site
       - participant_age_at_collection # 28.02.22 pdunn
-      - tumor_grade
-      - tumor_stage_clinical_t
-      - tumor_stage_clinical_n
-      - tumor_stage_clinical_m
-      - tumor_morphology
-      - tumor_incidence_type # primary, metastatic, recurrence, progression
-      - sample_description
       - sample_tumor_status
+      - sample_description
+      - alternate_sample_id
   sequencing_file: # 01.03.22 pdunn
     Props:
       # - file_id #system generated GUID/PK
@@ -99,6 +135,7 @@ Nodes:
       - library_source  # sra req'd # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
       - number_of_bp  # sra req'd
       - number_of_reads  # sra req'd
+      - design_description
       - platform
       - instrument_model
       - avg_read_length # sra req'd
@@ -120,8 +157,8 @@ Nodes:
       - consent_shorthand
       - external_url
       - experimental_strategy_and_data_subtype
-      - size_of_data_being_uploaded
       - study_data_types
+      - size_of_data_being_uploaded
       # - bioproject_accession : store in synonym
   study_admin:
     Props:
@@ -156,12 +193,18 @@ Nodes:
       - repository_of_synonym_id #the name of the other repo
   therapeutic_procedure:
     Props:
+      - treatment_id
       - days_to_treatment
       - therapeutic_agents
       - treatment_outcome
       - treatment_type
-      - treatment_id
 Relationships:
+  of_pdx: #27jan2023 pd
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: pdx
+        Dst: sample
   of_clinical_measure_file: # #09.20.22 pd
     Props: null
     Mul: many_to_one 
@@ -180,6 +223,12 @@ Relationships:
     Ends:
       - Src: diagnosis
         Dst: participant
+  of_sample_diagnosis: 
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: sample_diagnosis
+        Dst: sample        
   of_imaging_file: #09.20.22 pd
     Props: null
     Mul: many_to_one
@@ -197,9 +246,9 @@ Relationships:
     Mul: many_to_one #will need to mod this to many_to_many if a participant is in >1 study
     Ends:
       - Src: participant
-        Dst: study
-      - Src: participant
         Dst: study_arm
+      - Src: participant
+        Dst: study
   of_publication: # 09.20.22 pd
     Props: null
     Mul: many_to_one

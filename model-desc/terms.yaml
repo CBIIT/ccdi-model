@@ -2105,6 +2105,12 @@ Terms:
     Code: 6352164
     Version: 1
     Value: Sequencing Library Platform Model Name
+  Initial_Diagnosis:
+    Origin: caDSR
+    Definition: The first diagnosis of the individual's condition.    
+    Code: 8002761
+    Version: 1
+    Value: 8002761
   Intermediate Grade:
     Origin: caDSR
     Definition: A term referring to the degree of differentiation of a malignant neoplasm
@@ -4397,6 +4403,12 @@ Terms:
     Code: 6161019
     Version: 1
     Value: ICD-O Primary Anatomic Site Category
+  Progression:
+    Origin: caDSR
+    Definition: The worsening of a disease over time
+    Code: 2816916
+    Version: 1
+    Value: Progression
   progression_or_recurrence:
     Origin: caDSR
     Definition: Yes/No/Unknown indicator to identify whether a patient has had a new
@@ -4604,6 +4616,24 @@ Terms:
     Code: 6287908
     Version: 1
     Value: Reduced Representation
+  Refractory:
+    Origin: caDSR
+    Definition: Not responding to treatment.
+    Code: 2566882
+    Version: 1
+    Value: Refractory
+  Relapse:
+    Origin: caDSR
+    Definition: The return of a disease after a period of remission.
+    Code: 3828963
+    Version: 1
+    Value: Relapse
+  Relapse/Progression:
+    Origin: caDSR
+    Definition: Either the return of the disease or the progression of the disease.
+    Code: 12217248
+    Version: 1
+    Value: Relapse/Progression
   Renal pelvis:
     Origin: caDSR
     Definition: The area at the center of the kidney. Urine collects here and is funneled

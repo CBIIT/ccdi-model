@@ -9,28 +9,35 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  injection_type:
+  implantation_type:
     Desc: How the xenograft was introduced into host.
     Term:
-      - Origin: caDSR
-        Code: '2003586'
-        Value: Access Route of Administration Text Code
+      - Origin: EMBL OLS OBI
+        Code: 'OBI_0000426'
+        Value: process which aims at introducing a compound or a mixture into a material entity (either biological entity or instrument) by relying on devices such as syringe or injector connection, attached or forced into a vascular system (veins of an organism or tubes of a machine) or in a tissue
     Type: enum
     Enum:
-      - 'intravenous (IV)'
-      - 'intramuscular (IM)'
-      - 'subcutaneous (SC)'
-      - 'intradermal (ID)'
-      - 'intraosseous (IO)'
+      - 'injection'
+      - 'trocar'
+      - 'surgical'
+      - 'orthotopic'
     Req: true
     Private: false
-  injection_site:
+  implantation_site:
      Desc: Anatomic site of xenograft.
     Term:
       - Origin: caDSR
         Code: '12299653'
         Value: Specimen Original Anatomic Site Uberon Name
-    Type: string
+    Type: enum
+    Enum:
+      - 'tail vein'
+      - 'subcutaneous'
+      - 'renal capsule'
+      - 'subrenal capsule'
+      - 'muscle'
+      - 'mammary fat pad'
+      - 'intra peritoneal cavity'
      Req: true
      Private: false
   mouse_strain:  

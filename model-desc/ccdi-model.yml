@@ -63,8 +63,6 @@ Nodes:
       - race       
       - gender
       - ethnicity
-      - consent
-      - consent_shorthand
       # - dbgap_subject_id : store in synonym
   publication: # 09.20.22 pd
      Props:
@@ -118,6 +116,8 @@ Nodes:
       - study_short_title
       - study_acronym
       - study_description
+      - consent
+      - consent_shorthand
       - external_url
       - experimental_strategy_and_data_subtype
       - size_of_data_being_uploaded

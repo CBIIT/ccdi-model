@@ -2684,8 +2684,8 @@ Terms:
     Value: Metagenomic
   Metastatic:
     Origin: NCIt  
-    Definition:A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.
-    Code: C14174
+    Definition: A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.
+    Code: 5189148
     Version: 1
     Value: Metastatic
   Metastatic Tumor:
@@ -4396,9 +4396,9 @@ Terms:
     Version: 1
     Value: Prepuce
   Primary:
-    Origin: NCIt
+    Origin: caDSR
     Definition: A tumor at the original site of origin.
-    Code: C8509
+    Code: 5189150
     Value: Primary
   Primary Tumor:
     Origin: caDSR
@@ -4633,6 +4633,12 @@ Terms:
     Code: 2566882
     Version: 1
     Value: Refractory
+  Regional:
+    Origin: caDSR
+    Definition: A disease or condition that extends beyond the site and spreads into adjacent tissues and regional lymph nodes.
+    Code: 2971661
+    Version: 1
+    Value: Regional
   Relapse:
     Origin: caDSR
     Definition: The return of a disease after a period of remission.

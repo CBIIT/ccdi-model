@@ -2557,6 +2557,16 @@ PropDefinitions:
       - "Unknown" 
     Req: true
     Private: false
+  consent:
+    Desc: The numeric value of the consent group as designated by dbGaP full accession identifier, phs######.v#.p#.c#.
+    Type: string
+    Req: true
+    Private: false 
+  consent_shorthand:
+    Desc: The human readable value of the consent group as designated by dbGaP, examples GRU, HMB, IRB, NPU, etc.
+    Type: string
+    Req: true
+    Private: false     
  # sample
   sample_id:
     Desc: A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.

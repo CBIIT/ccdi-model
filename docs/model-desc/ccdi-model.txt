@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 5de707b
+commit 529dc70
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -10,7 +10,7 @@ clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
 clinical_measure_file	file_size	STRING
-clinical_measure_file	file_type	ARRAY(0x55f4a47da3e0)
+clinical_measure_file	file_type	ARRAY(0x55f8c2220a20)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
@@ -3376,7 +3376,7 @@ imaging_file	file_mapping_level	Sample
 imaging_file	file_mapping_level	Study
 imaging_file	file_name	STRING
 imaging_file	file_size	STRING
-imaging_file	file_type	ARRAY(0x55f4a47da3e0)
+imaging_file	file_type	ARRAY(0x55f8c2220a20)
 imaging_file	file_type	string
 imaging_file	file_url_in_cds	STRING
 imaging_file	image_modality	STRING
@@ -3391,7 +3391,7 @@ methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
 methylation_array_file	file_size	STRING
-methylation_array_file	file_type	ARRAY(0x55f4a47da3e0)
+methylation_array_file	file_type	ARRAY(0x55f8c2220a20)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
@@ -7176,7 +7176,7 @@ sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
 sequencing_file	file_size	STRING
-sequencing_file	file_type	ARRAY(0x55f4a47da3e0)
+sequencing_file	file_type	ARRAY(0x55f8c2220a20)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -7349,6 +7349,8 @@ sequencing_file	platform	Oxford Nanopore
 sequencing_file	platform	PacBio SMRT
 sequencing_file	reference_genome_assembly	STRING
 sequencing_file	sequence_alignment_software	STRING
+study	consent	STRING
+study	consent_shorthand	STRING
 study	experimental_strategy_and_data_subtype	STRING
 study	external_url	STRING
 study	phs_accession	STRING
@@ -11986,8 +11988,8 @@ of_participant	participant	study	NA	NA
 of_participant	participant	study_arm	NA	NA
 of_pdx	pdx	sample	NA	NA
 of_publication	publication	study	NA	NA
-of_sample	sample	participant	NA	NA
 of_sample	sample	study	NA	NA
+of_sample	sample	participant	NA	NA
 of_sample_diagnosis	sample_diagnosis	sample	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
@@ -11995,8 +11997,8 @@ of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
 of_synonym	synonym	participant	NA	NA
-of_synonym	synonym	sample	NA	NA
 of_synonym	synonym	study	NA	NA
+of_synonym	synonym	sample	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
@@ -12011,6 +12013,8 @@ checksum_value	One or more characters using a irreversible unique number generat
 clinical_trial_arm	ARM of the clinical trial.
 clinical_trial_identifier	Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
 clinical_trial_repository	The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
+consent	The numeric value of the consent group as designated by dbGaP full accession identifier, phs######.v#.p#.c#.
+consent_shorthand	The human readable value of the consent group as designated by dbGaP, examples GRU, HMB, IRB, NPU, etc.
 coverage	Depth of coverage on assembly used. Found by (Unique Aligned Basecalls)/(Reference Length).
 custom_assembly_fasta_file_for_alignment	The name of the custom assembly fasta file used during alignment.
 data_types	The types of data files that can be found in the study.

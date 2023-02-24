@@ -4273,8 +4273,8 @@ PropDefinitions:
        - 'Disease Relapse/Progression'
        - 'Unknown'
        - 'Not Reported'
-    Req: true  
-    Private: false
+     Req: true  
+     Private: false
    tumor_classification:
      Desc: 'The classification of a tumor based primarily on histopathological characteristics.'
      Term:

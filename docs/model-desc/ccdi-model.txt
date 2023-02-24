@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 2f511b0
+commit 4694af8
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -10,7 +10,7 @@ clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
 clinical_measure_file	file_size	STRING
-clinical_measure_file	file_type	ARRAY(0x55a800fb0380)
+clinical_measure_file	file_type	ARRAY(0x55c21b2a75e8)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
@@ -1165,6 +1165,13 @@ diagnosis	diagnosis_icd_o	9987/3 : Therapy-related myelodysplastic syndrome, NOS
 diagnosis	diagnosis_icd_o	9989/3 : Myelodysplastic syndrome, NOS
 diagnosis	diagnosis_icd_o	9993/3 : Myelodysplastic syndrome with ring sideroblasts and multilineage dysplasia
 diagnosis	diagnosis_id	STRING
+diagnosis	disease_phase	Disease Progression
+diagnosis	disease_phase	Disease Relapse/Progression
+diagnosis	disease_phase	Initial Diagnosis
+diagnosis	disease_phase	Not Reported
+diagnosis	disease_phase	Recurrent Disease
+diagnosis	disease_phase	Refractory
+diagnosis	disease_phase	Unknown
 diagnosis	last_known_disease_status	Biochemical evidence of disease without structural correlate
 diagnosis	last_known_disease_status	Distant met recurrence/progression
 diagnosis	last_known_disease_status	Loco-regional recurrence/progression
@@ -2139,11 +2146,6 @@ diagnosis	tumor_grade	High Grade
 diagnosis	tumor_grade	Intermediate Grade
 diagnosis	tumor_grade	Low Grade
 diagnosis	tumor_grade	Not Applicable
-diagnosis	tumor_incidence_type	metastatic
-diagnosis	tumor_incidence_type	primary
-diagnosis	tumor_incidence_type	progression
-diagnosis	tumor_incidence_type	recurrence
-diagnosis	tumor_incidence_type	relapse
 diagnosis	tumor_morphology	8000/0
 diagnosis	tumor_morphology	8000/1
 diagnosis	tumor_morphology	8000/3
@@ -3376,7 +3378,7 @@ imaging_file	file_mapping_level	Sample
 imaging_file	file_mapping_level	Study
 imaging_file	file_name	STRING
 imaging_file	file_size	STRING
-imaging_file	file_type	ARRAY(0x55a800fb0380)
+imaging_file	file_type	ARRAY(0x55c21b2a75e8)
 imaging_file	file_type	string
 imaging_file	file_url_in_cds	STRING
 imaging_file	image_modality	STRING
@@ -3391,7 +3393,7 @@ methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
 methylation_array_file	file_size	STRING
-methylation_array_file	file_type	ARRAY(0x55a800fb0380)
+methylation_array_file	file_type	ARRAY(0x55c21b2a75e8)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
@@ -5939,6 +5941,7 @@ sample_diagnosis	tissue_or_organ_of_origin	Vulva
 sample_diagnosis	tissue_or_organ_of_origin	Vulva, NOS
 sample_diagnosis	tissue_or_organ_of_origin	Waldeyer Ring
 sample_diagnosis	tissue_or_organ_of_origin	Waldeyer ring
+sample_diagnosis	tumor_classfication	NA
 sample_diagnosis	tumor_grade	G1
 sample_diagnosis	tumor_grade	G2
 sample_diagnosis	tumor_grade	G3
@@ -5949,11 +5952,6 @@ sample_diagnosis	tumor_grade	High Grade
 sample_diagnosis	tumor_grade	Intermediate Grade
 sample_diagnosis	tumor_grade	Low Grade
 sample_diagnosis	tumor_grade	Not Applicable
-sample_diagnosis	tumor_incidence_type	metastatic
-sample_diagnosis	tumor_incidence_type	primary
-sample_diagnosis	tumor_incidence_type	progression
-sample_diagnosis	tumor_incidence_type	recurrence
-sample_diagnosis	tumor_incidence_type	relapse
 sample_diagnosis	tumor_morphology	8000/0
 sample_diagnosis	tumor_morphology	8000/1
 sample_diagnosis	tumor_morphology	8000/3
@@ -7185,7 +7183,7 @@ sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
 sequencing_file	file_size	STRING
-sequencing_file	file_type	ARRAY(0x55a800fb0380)
+sequencing_file	file_type	ARRAY(0x55c21b2a75e8)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -11993,8 +11991,8 @@ of_clinical_measure_file_participant	clinical_measure_file	participant	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
 of_imaging_file	imaging_file	sample	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
-of_participant	participant	study	NA	NA
 of_participant	participant	study_arm	NA	NA
+of_participant	participant	study	NA	NA
 of_pdx	pdx	sample	NA	NA
 of_publication	publication	study	NA	NA
 of_sample	sample	study	NA	NA
@@ -12005,8 +12003,8 @@ of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	participant	NA	NA
+of_synonym	synonym	study	NA	NA
 of_synonym	synonym	sample	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
@@ -12037,6 +12035,7 @@ diagnosis_finer_resolution	Text term used to dprovide finer resolution diagnosis
 diagnosis_icd_cm	The diagnosis, in humans, as captured in the 2022 extension of the tenth version of the International Classification of Disease (ICD-10-CM, the disease code subset of ICD-10). Examples - C80.1, C44.510, D14.3-, D49.89.
 diagnosis_icd_o	The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
 diagnosis_id	A unique sequence of alphanumeric characters used to identify the participant diagnosis in the investigation or study, which is used for linking metadata.
+disease_phase	The stage or period of an individual's treatment process during which relevant observations were recorded.
 email_address	The email address of the personnel.
 ethnicity	The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
 experimental_strategy_and_data_subtype	The experimental strategy used for the study or the data subtypes that exist in the study.
@@ -12112,8 +12111,8 @@ treatment_id	A unique sequence of alphanumeric characters used to identify the t
 treatment_outcome	Text term that describes the patient's final outcome after the treatment was administered.
 treatment_type	Text term that describes the kind of treatment administered.
 tumor_characterization_method	How the tumor was evaluated in the mouse host. May become an enum if terms are provided.
+tumor_classification	The classification of a tumor based primarily on histopathological characteristics.
 tumor_grade	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.
-tumor_incidence_type	The tumor type of the sample.
 tumor_morphology	Code that represents the histology of the disease using the third edition of the International Classification of Diseases for Oncology, published in 2000, used principally in tumor and cancer registries for coding the site (topography) and the histology (morphology) of neoplasms.
 tumor_preparation	How the tumor was prepared for grafting.
 tumor_stage_clinical_m	Extent of the distant metastasis for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.

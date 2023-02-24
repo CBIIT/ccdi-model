@@ -25,12 +25,13 @@ Nodes:
       - checksum_value
       - file_mapping_level
       - participant_list
-  diagnosis: #09.20.22 pd
+  diagnosis:
     Props:
       - diagnosis_id
       - diagnosis_icd_o
       - diagnosis_icd_cm
       - diagnosis_finer_resolution
+      - disease_phase
       - primary_site
       - tissue_or_organ_of_origin
       - site_of_resection_or_biopsy
@@ -46,13 +47,14 @@ Nodes:
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m
       - tumor_morphology
-      - tumor_incidence_type # primary, metastatic, recurrence, progression
+     # - tumor_incidence_type # primary, metastatic, recurrence, progression
   sample_diagnosis:
     Props:
       - sample_diagnosis_id
       - diagnosis_icd_o
       - diagnosis_icd_cm
       - diagnosis_finer_resolution
+      - tumor_classfication
       - primary_site
       - tissue_or_organ_of_origin
       - site_of_resection_or_biopsy
@@ -67,7 +69,7 @@ Nodes:
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m
       - tumor_morphology
-      - tumor_incidence_type # primary, metastatic, recurrence, progression
+      #- tumor_incidence_type # primary, metastatic, recurrence, progression
   imaging_file: # 01.03.22 pdunn
     Props:
       - file_name

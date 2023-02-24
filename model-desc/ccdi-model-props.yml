@@ -36,8 +36,8 @@ PropDefinitions:
       - 'muscle'
       - 'mammary fat pad'
       - 'intra peritoneal cavity'
-     Req: true
-     Private: false
+    Req: true
+    Private: false
   mouse_strain:  
     Desc: The host mouse strain to which the tumor is engrafted. May become an enum if terms are provided.
     Term:

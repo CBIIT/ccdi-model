@@ -23,7 +23,7 @@ PropDefinitions:
     Req: true
     Private: false
   implantation_site:
-     Desc: Anatomic site of xenograft.
+    Desc: Anatomic site of xenograft.
     Term:
       - Origin: caDSR
         Code: '12299653'

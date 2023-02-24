@@ -76,7 +76,6 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-
   tumor_characterization_method:
     Desc: How the tumor was evaluated in the mouse host. May become an enum if terms are provided.
     Term:

@@ -3,12 +3,12 @@ Nodes:
   pdx: #27 jan 2023 pdunn
     Props: 
       - model_id
-      - model_type
       - mouse_strain
       - strain_immune_system_humanized
+      - implantation_type
+      - implantation_site
       - type_of_humanization
       - tumor_preparation
-      - injection_type_and_site
       - tumor_characterization_method
       - tumor_not_mus_or_ebv_origin
   clinical_measure_file: # 09.20.22 pdunn

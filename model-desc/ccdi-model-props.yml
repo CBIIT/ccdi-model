@@ -9,13 +9,33 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  model_type:  
-    Desc: The type of PDX model. May become an enum if terms are provided.
+  implantation_type:
+    Desc: How the xenograft was introduced into host.
     Term:
-      - Origin: PubMedCentral
-        Code: 'PMC5738926'
-        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
-    Type: string
+      - Origin: 'EMBL OLS OBI'
+        Code: 'OBI_0000426'
+        Value: Process which aims at introducing a compound or a mixture into a material entity (either biological entity or instrument) by relying on devices such as syringe or injector connection, attached or forced into a vascular system (veins of an organism or tubes of a machine) or in a tissue
+    Enum:
+      - 'injection'
+      - 'trocar'
+      - 'surgical'
+      - 'orthotopic'
+    Req: true
+    Private: false
+  implantation_site:
+    Desc: Anatomic site of xenograft.
+    Term:
+      - Origin: caDSR
+        Code: '12299653'
+        Value: Specimen Original Anatomic Site Uberon Name
+    Enum:
+      - 'tail vein'
+      - 'subcutaneous'
+      - 'renal capsule'
+      - 'subrenal capsule'
+      - 'muscle'
+      - 'mammary fat pad'
+      - 'intra peritoneal cavity'
     Req: true
     Private: false
   mouse_strain:  
@@ -49,15 +69,6 @@ PropDefinitions:
     Private: false
   tumor_preparation:
     Desc: How the tumor was prepared for grafting.
-    Term:
-      - Origin: PubMedCentral
-        Code: 'PMC5738926'
-        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
-    Type: string
-    Req: false
-    Private: false
-  injection_type_and_site:
-    Desc: Where the tumor was grafted in the mouse host. May become an enum if terms are provided.
     Term:
       - Origin: PubMedCentral
         Code: 'PMC5738926'

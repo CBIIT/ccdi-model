@@ -4259,36 +4259,36 @@ PropDefinitions:
       - Not Reported
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
-   disease_phase: 
-     Desc: 'The stage or period of an individual's treatment process during which relevant observations were recorded.'
-     Term:
-       - Origin: caDSR
+  disease_phase: 
+    Desc: 'The stage or period of an individual's treatment process during which relevant observations were recorded.'
+    Term:
+      - Origin: caDSR
         Code: '12217251'
         Value: Disease Phase Timepoint Category
-     Enum: 
-       - 'Initial Diagnosis'
-       - 'Disease Progression'
-       - 'Refractory'
-       - 'Recurrent Disease'
-       - 'Disease Relapse/Progression'
-       - 'Unknown'
-       - 'Not Reported'
-     Req: true  
-     Private: false
-   tumor_classification:
-     Desc: 'The classification of a tumor based primarily on histopathological characteristics.'
-     Term:
-       - Origin: caDSR
+    Enum: 
+      - 'Initial Diagnosis'
+      - 'Disease Progression'
+      - 'Refractory'
+      - 'Recurrent Disease'
+      - 'Disease Relapse/Progression'
+      - 'Unknown'
+      - 'Not Reported'
+    Req: true  
+    Private: false
+  tumor_classification:
+    Desc: 'The classification of a tumor based primarily on histopathological characteristics.'
+    Term:
+      - Origin: caDSR
         Code: ''
         Value: Disease Phase Timepoint Category
-     Enum: 
-       - 'Primary'
-       - 'Regional'
-       - 'Metastatic'
-       - 'Unknown'
-       - 'Not Reported'
-     Req: true  
-     Private: false
+    Enum: 
+      - 'Primary'
+      - 'Regional'
+      - 'Metastatic'
+      - 'Unknown'
+      - 'Not Reported'
+    Req: true  
+    Private: false
 #  tumor_incidence_type: # primary, metastatic, recurrence, progression
 #    Desc: The tumor type of the sample.
 #    Enum:

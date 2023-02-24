@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 529dc70
+commit 2f511b0
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -10,7 +10,7 @@ clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
 clinical_measure_file	file_size	STRING
-clinical_measure_file	file_type	ARRAY(0x55f8c2220a20)
+clinical_measure_file	file_type	ARRAY(0x55a800fb0380)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
@@ -3376,7 +3376,7 @@ imaging_file	file_mapping_level	Sample
 imaging_file	file_mapping_level	Study
 imaging_file	file_name	STRING
 imaging_file	file_size	STRING
-imaging_file	file_type	ARRAY(0x55f8c2220a20)
+imaging_file	file_type	ARRAY(0x55a800fb0380)
 imaging_file	file_type	string
 imaging_file	file_url_in_cds	STRING
 imaging_file	image_modality	STRING
@@ -3391,7 +3391,7 @@ methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
 methylation_array_file	file_size	STRING
-methylation_array_file	file_type	ARRAY(0x55f8c2220a20)
+methylation_array_file	file_type	ARRAY(0x55a800fb0380)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
@@ -3421,9 +3421,18 @@ participant	race	Not Reported
 participant	race	Not allowed to collect
 participant	race	Unknown
 participant	race	White
-pdx	injection_type_and_site	STRING
+pdx	implantation_site	intra peritoneal cavity
+pdx	implantation_site	mammary fat pad
+pdx	implantation_site	muscle
+pdx	implantation_site	renal capsule
+pdx	implantation_site	subcutaneous
+pdx	implantation_site	subrenal capsule
+pdx	implantation_site	tail vein
+pdx	implantation_type	injection
+pdx	implantation_type	orthotopic
+pdx	implantation_type	surgical
+pdx	implantation_type	trocar
 pdx	model_id	STRING
-pdx	model_type	STRING
 pdx	mouse_strain	STRING
 pdx	strain_immune_system_humanized	No
 pdx	strain_immune_system_humanized	Yes
@@ -7176,7 +7185,7 @@ sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
 sequencing_file	file_size	STRING
-sequencing_file	file_type	ARRAY(0x55f8c2220a20)
+sequencing_file	file_type	ARRAY(0x55a800fb0380)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -11996,8 +12005,8 @@ of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	participant	NA	NA
 of_synonym	synonym	study	NA	NA
+of_synonym	synonym	participant	NA	NA
 of_synonym	synonym	sample	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
@@ -12046,7 +12055,8 @@ grant_id	Unique alphanumeric Identifier of a grant funding resource used to trea
 image_modality	The method in which the images are generated.
 imaging_instrument_model	The words used to describe the specific model of the instrument used to carry out an imaging experiment.
 imaging_platform	The words used to describe the instrument used to carry out an imaging experiment.
-injection_type_and_site	Where the tumor was grafted in the mouse host. May become an enum if terms are provided.
+implantation_site	Anatomic site of xenograft.
+implantation_type	How the xenograft was introduced into host.
 institution	The institution of the personnel.
 instrument_model	The words used to describe the specific model of the instrument used to carry out a high-throughput sequencing experiment.
 last_known_disease_status	Text term that describes the last known state or condition of an individual's neoplasm.
@@ -12058,7 +12068,6 @@ library_strategy	The overall strategy for the collection of double stranded DNA 
 md5sum	md5 hash.
 methylation_platform	The words used to describe the instrument used to carry out a methylation experiment.
 model_id	The PDX model identifier.
-model_type	The type of PDX model. May become an enum if terms are provided.
 mouse_strain	The host mouse strain to which the tumor is engrafted. May become an enum if terms are provided.
 number_of_bp	Count of unique basecalls present in the data. Please count each base only once if using secondary alignments.
 number_of_participants	The number of participants in the study for a disease, disorder, condition, or problem.

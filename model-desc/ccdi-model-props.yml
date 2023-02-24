@@ -12,9 +12,9 @@ PropDefinitions:
   implantation_type:
     Desc: How the xenograft was introduced into host.
     Term:
-      - Origin: EMBL OLS OBI
+      - Origin: 'EMBL OLS OBI'
         Code: 'OBI_0000426'
-        Value: process which aims at introducing a compound or a mixture into a material entity (either biological entity or instrument) by relying on devices such as syringe or injector connection, attached or forced into a vascular system (veins of an organism or tubes of a machine) or in a tissue
+        Value: Process which aims at introducing a compound or a mixture into a material entity (either biological entity or instrument) by relying on devices such as syringe or injector connection, attached or forced into a vascular system (veins of an organism or tubes of a machine) or in a tissue
     Enum:
       - 'injection'
       - 'trocar'

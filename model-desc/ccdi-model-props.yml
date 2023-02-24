@@ -4279,7 +4279,7 @@ PropDefinitions:
     Desc: 'The classification of a tumor based primarily on histopathological characteristics.'
     Term:
       - Origin: caDSR
-        Code: ''
+        #Code: ''
         Value: Disease Phase Timepoint Category
     Enum: 
       - 'Primary'

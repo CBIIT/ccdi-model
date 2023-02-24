@@ -4259,8 +4259,8 @@ PropDefinitions:
       - Not Reported
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
-  disease_phase: 
-    Desc: 'The stage or period of an individual's treatment process during which relevant observations were recorded.'
+  disease_phase:
+    Desc: The stage or period of an individual's treatment process during which relevant observations were recorded.
     Term:
       - Origin: caDSR
         Code: '12217251'
@@ -4276,7 +4276,7 @@ PropDefinitions:
     Req: true  
     Private: false
   tumor_classification:
-    Desc: 'The classification of a tumor based primarily on histopathological characteristics.'
+    Desc: The classification of a tumor based primarily on histopathological characteristics.
     Term:
       - Origin: caDSR
         Code: 'TBD'

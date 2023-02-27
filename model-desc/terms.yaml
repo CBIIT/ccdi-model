@@ -1246,6 +1246,12 @@ Terms:
     Code: 11326261
     Version: '1'
     Value: Specimen Tumor Tissue ICD-O-3 Morphology Code
+  disease_phase:
+    Origin: caDSR
+    Definition: The stage or period of an individual's treatment process during which relevant observations were recorded.
+    Code: 12217251
+    Version: '1'
+    Value: Disease Phase
   Distant met recurrence/progression:
     Origin: caDSR
     Definition: 'Refers to cancer that has spread from the original (primary) tumor
@@ -5763,6 +5769,12 @@ Terms:
     Code: 3071117
     Version: '1'
     Value: Neoplasm
+  tumor_classification:
+    Origin: caDSR
+    Definition: The classification of a tumor based primarily on histopathological characteristics.
+    Code: 12922545
+    Version: '1'
+    Value: Tumor Classification Type
   Tumor free:
     Origin: caDSR
     Definition: 'A benign or malignant tissue growth resulting from uncontrolled cell
@@ -6092,6 +6104,12 @@ Terms:
     Code: 6273402
     Version: '1'
     Value: Viral Small RNA
+  vital_status:
+    Origin: caDSR
+    Definition: The response to a question that describes a participant's survival status.
+    Code: 2847330
+    Version: '1'
+    Value: Vital Status
   Vulva:
     Origin: caDSR
     Definition: The external female genital organs, including the clitoris, vaginal

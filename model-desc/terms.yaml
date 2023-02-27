@@ -2121,7 +2121,7 @@ Terms:
     Origin: caDSR
     Definition: The first diagnosis of the individual's condition.    
     Code: 8002761
-    Version: 1
+    Version: '1
     Value: 8002761
   Intermediate Grade:
     Origin: caDSR
@@ -2695,10 +2695,10 @@ Terms:
     Version: '1'
     Value: Metagenomic
   Metastatic:
-    Origin: NCIt  
+    Origin: caDSR  
     Definition: A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.
     Code: 5189148
-    Version: 1
+    Version: '1'
     Value: Metastatic
   Metastatic Tumor:
     Origin: caDSR
@@ -4417,6 +4417,7 @@ Terms:
     Origin: caDSR
     Definition: A tumor at the original site of origin.
     Code: 5189150
+    Version: '1'
     Value: Primary
   Primary Tumor:
     Origin: caDSR
@@ -4436,7 +4437,7 @@ Terms:
     Origin: caDSR
     Definition: The worsening of a disease over time
     Code: 2816916
-    Version: 1
+    Version: '1'
     Value: Progression
   progression_or_recurrence:
     Origin: caDSR
@@ -4649,25 +4650,25 @@ Terms:
     Origin: caDSR
     Definition: Not responding to treatment.
     Code: 2566882
-    Version: 1
+    Version: '1'
     Value: Refractory
   Regional:
     Origin: caDSR
     Definition: A disease or condition that extends beyond the site and spreads into adjacent tissues and regional lymph nodes.
     Code: 2971661
-    Version: 1
+    Version: '1'
     Value: Regional
   Relapse:
     Origin: caDSR
     Definition: The return of a disease after a period of remission.
     Code: 3828963
-    Version: 1
+    Version: '1'
     Value: Relapse
   Relapse/Progression:
     Origin: caDSR
     Definition: Either the return of the disease or the progression of the disease.
     Code: 12217248
-    Version: 1
+    Version: '1'
     Value: Relapse/Progression
   Renal pelvis:
     Origin: caDSR

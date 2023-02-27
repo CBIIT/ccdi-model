@@ -4282,7 +4282,7 @@ PropDefinitions:
     Desc: The classification of a tumor based primarily on histopathological characteristics.
     Term:
       - Origin: caDSR
-        Code: 'TBD'
+        Code: '12922545'
         Value: Disease Phase Timepoint Category
     Enum: 
       - 'Primary'

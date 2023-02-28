@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 324abe1
+commit fae1949
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -10,7 +10,7 @@ clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
 clinical_measure_file	file_size	STRING
-clinical_measure_file	file_type	ARRAY(0x55a7d885b3c8)
+clinical_measure_file	file_type	ARRAY(0x55b947ef1d70)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
@@ -3378,7 +3378,7 @@ imaging_file	file_mapping_level	Sample
 imaging_file	file_mapping_level	Study
 imaging_file	file_name	STRING
 imaging_file	file_size	STRING
-imaging_file	file_type	ARRAY(0x55a7d885b3c8)
+imaging_file	file_type	ARRAY(0x55b947ef1d70)
 imaging_file	file_type	string
 imaging_file	file_url_in_cds	STRING
 imaging_file	image_modality	STRING
@@ -3393,7 +3393,7 @@ methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
 methylation_array_file	file_size	STRING
-methylation_array_file	file_type	ARRAY(0x55a7d885b3c8)
+methylation_array_file	file_type	ARRAY(0x55b947ef1d70)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
@@ -5941,7 +5941,11 @@ sample_diagnosis	tissue_or_organ_of_origin	Vulva
 sample_diagnosis	tissue_or_organ_of_origin	Vulva, NOS
 sample_diagnosis	tissue_or_organ_of_origin	Waldeyer Ring
 sample_diagnosis	tissue_or_organ_of_origin	Waldeyer ring
-sample_diagnosis	tumor_classfication	NA
+sample_diagnosis	tumor_classification	Metastatic
+sample_diagnosis	tumor_classification	Not Reported
+sample_diagnosis	tumor_classification	Primary
+sample_diagnosis	tumor_classification	Regional
+sample_diagnosis	tumor_classification	Unknown
 sample_diagnosis	tumor_grade	G1
 sample_diagnosis	tumor_grade	G2
 sample_diagnosis	tumor_grade	G3
@@ -7183,7 +7187,7 @@ sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
 sequencing_file	file_size	STRING
-sequencing_file	file_type	ARRAY(0x55a7d885b3c8)
+sequencing_file	file_type	ARRAY(0x55b947ef1d70)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -7356,6 +7360,7 @@ sequencing_file	platform	Oxford Nanopore
 sequencing_file	platform	PacBio SMRT
 sequencing_file	reference_genome_assembly	STRING
 sequencing_file	sequence_alignment_software	STRING
+study	acl	STRING
 study	consent	STRING
 study	consent_shorthand	STRING
 study	experimental_strategy_and_data_subtype	STRING
@@ -7373,7 +7378,6 @@ study	study_data_types	Radiology
 study	study_description	STRING
 study	study_name	STRING
 study	study_short_title	STRING
-study_admin	acl	STRING
 study_admin	adult_or_childhood_study	Adult
 study_admin	adult_or_childhood_study	Pediatric
 study_admin	data_types	STRING
@@ -12004,8 +12008,8 @@ of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
 of_synonym	synonym	study	NA	NA
-of_synonym	synonym	participant	NA	NA
 of_synonym	synonym	sample	NA	NA
+of_synonym	synonym	participant	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description

@@ -54,7 +54,7 @@ Nodes:
       - diagnosis_icd_o
       - diagnosis_icd_cm
       - diagnosis_finer_resolution
-      - tumor_classfication
+      - tumor_classification
       - primary_site
       - tissue_or_organ_of_origin
       - site_of_resection_or_biopsy
@@ -151,6 +151,7 @@ Nodes:
   study:
     Props:
       - phs_accession #dbGaP accession
+      - acl
       - study_name
       - study_short_title
       - study_acronym
@@ -169,7 +170,6 @@ Nodes:
       - adult_or_childhood_study # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
       - data_types # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
       - file_types_and_format # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
-      - acl
       - number_of_participants
       - number_of_samples
   study_arm: # 09.21.22 pd

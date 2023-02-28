@@ -1246,6 +1246,12 @@ Terms:
     Code: 11326261
     Version: '1'
     Value: Specimen Tumor Tissue ICD-O-3 Morphology Code
+  disease_phase:
+    Origin: caDSR
+    Definition: The stage or period of an individual's treatment process during which relevant observations were recorded.
+    Code: 12217251
+    Version: '1'
+    Value: Disease Phase
   Distant met recurrence/progression:
     Origin: caDSR
     Definition: 'Refers to cancer that has spread from the original (primary) tumor
@@ -2121,7 +2127,7 @@ Terms:
     Origin: caDSR
     Definition: The first diagnosis of the individual's condition.    
     Code: 8002761
-    Version: 1
+    Version: '1'
     Value: 8002761
   Intermediate Grade:
     Origin: caDSR
@@ -2695,10 +2701,10 @@ Terms:
     Version: '1'
     Value: Metagenomic
   Metastatic:
-    Origin: NCIt  
+    Origin: caDSR  
     Definition: A term referring to the clinical or pathologic observation of a tumor extension from its original site of growth to another anatomic site.
     Code: 5189148
-    Version: 1
+    Version: '1'
     Value: Metastatic
   Metastatic Tumor:
     Origin: caDSR
@@ -4417,6 +4423,7 @@ Terms:
     Origin: caDSR
     Definition: A tumor at the original site of origin.
     Code: 5189150
+    Version: '1'
     Value: Primary
   Primary Tumor:
     Origin: caDSR
@@ -4436,7 +4443,7 @@ Terms:
     Origin: caDSR
     Definition: The worsening of a disease over time
     Code: 2816916
-    Version: 1
+    Version: '1'
     Value: Progression
   progression_or_recurrence:
     Origin: caDSR
@@ -4649,25 +4656,25 @@ Terms:
     Origin: caDSR
     Definition: Not responding to treatment.
     Code: 2566882
-    Version: 1
+    Version: '1'
     Value: Refractory
   Regional:
     Origin: caDSR
     Definition: A disease or condition that extends beyond the site and spreads into adjacent tissues and regional lymph nodes.
     Code: 2971661
-    Version: 1
+    Version: '1'
     Value: Regional
   Relapse:
     Origin: caDSR
     Definition: The return of a disease after a period of remission.
     Code: 3828963
-    Version: 1
+    Version: '1'
     Value: Relapse
   Relapse/Progression:
     Origin: caDSR
     Definition: Either the return of the disease or the progression of the disease.
     Code: 12217248
-    Version: 1
+    Version: '1'
     Value: Relapse/Progression
   Renal pelvis:
     Origin: caDSR
@@ -5762,6 +5769,12 @@ Terms:
     Code: 3071117
     Version: '1'
     Value: Neoplasm
+  tumor_classification:
+    Origin: caDSR
+    Definition: The classification of a tumor based primarily on histopathological characteristics.
+    Code: 12922545
+    Version: '1'
+    Value: Tumor Classification Type
   Tumor free:
     Origin: caDSR
     Definition: 'A benign or malignant tissue growth resulting from uncontrolled cell
@@ -6091,6 +6104,12 @@ Terms:
     Code: 6273402
     Version: '1'
     Value: Viral Small RNA
+  vital_status:
+    Origin: caDSR
+    Definition: The response to a question that describes a participant's survival status.
+    Code: 2847330
+    Version: '1'
+    Value: Vital Status
   Vulva:
     Origin: caDSR
     Definition: The external female genital organs, including the clitoris, vaginal

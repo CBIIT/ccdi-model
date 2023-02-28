@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit fae1949
+commit b0e09cf
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -10,7 +10,7 @@ clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
 clinical_measure_file	file_size	STRING
-clinical_measure_file	file_type	ARRAY(0x55b947ef1d70)
+clinical_measure_file	file_type	ARRAY(0x564ac5914d18)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
@@ -3378,7 +3378,7 @@ imaging_file	file_mapping_level	Sample
 imaging_file	file_mapping_level	Study
 imaging_file	file_name	STRING
 imaging_file	file_size	STRING
-imaging_file	file_type	ARRAY(0x55b947ef1d70)
+imaging_file	file_type	ARRAY(0x564ac5914d18)
 imaging_file	file_type	string
 imaging_file	file_url_in_cds	STRING
 imaging_file	image_modality	STRING
@@ -3393,7 +3393,7 @@ methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
 methylation_array_file	file_size	STRING
-methylation_array_file	file_type	ARRAY(0x55b947ef1d70)
+methylation_array_file	file_type	ARRAY(0x564ac5914d18)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
@@ -7187,7 +7187,7 @@ sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
 sequencing_file	file_size	STRING
-sequencing_file	file_type	ARRAY(0x55b947ef1d70)
+sequencing_file	file_type	ARRAY(0x564ac5914d18)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -12007,9 +12007,9 @@ of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
+of_synonym	synonym	participant	NA	NA
 of_synonym	synonym	study	NA	NA
 of_synonym	synonym	sample	NA	NA
-of_synonym	synonym	participant	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description

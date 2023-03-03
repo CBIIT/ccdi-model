@@ -32,22 +32,22 @@ Nodes:
       - diagnosis_icd_cm
       - diagnosis_finer_resolution
       - disease_phase
-      - primary_site
-      - tissue_or_organ_of_origin
-      - site_of_resection_or_biopsy
+      - anatomic_site
       - age_at_diagnosis
       - vital_status
       - days_to_recurrence
       - last_known_disease_status
       - days_to_last_known_disease_status
       - days_to_last_followup
-      - progression_or_recurrence
       - tumor_grade
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m
-      - tumor_morphology
+     # - tumor_morphology
      # - tumor_incidence_type # primary, metastatic, recurrence, progression
+     # - progression_or_recurrence
+     # - tissue_or_organ_of_origin
+     # - site_of_resection_or_biopsy
   sample_diagnosis:
     Props:
       - sample_diagnosis_id
@@ -55,21 +55,21 @@ Nodes:
       - diagnosis_icd_cm
       - diagnosis_finer_resolution
       - tumor_classification
-      - primary_site
-      - tissue_or_organ_of_origin
-      - site_of_resection_or_biopsy
       - age_at_diagnosis
       - days_to_recurrence
       - last_known_disease_status
       - days_to_last_known_disease_status
       - days_to_last_followup
-      - progression_or_recurrence   
       - tumor_grade
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m
-      - tumor_morphology
+      #- tumor_morphology
       #- tumor_incidence_type # primary, metastatic, recurrence, progression
+      # - primary_site
+      # - tissue_or_organ_of_origin
+      # - site_of_resection_or_biopsy
+      # - progression_or_recurrence 
   imaging_file: # 01.03.22 pdunn
     Props:
       - file_name
@@ -115,7 +115,7 @@ Nodes:
       - sample_id
       # - biosample_accession captured in synonym
       - sample_type 
-      - sample_anatomic_site
+      - anatomic_site
       - participant_age_at_collection # 28.02.22 pdunn
       - sample_tumor_status
       - sample_description

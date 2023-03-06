@@ -4810,7 +4810,7 @@ Terms:
     Code: 3192162
     Version: '1'
     Value: Saliva
-  sample_anatomic_site:
+  anatomic_site:
     Origin: caDSR
     Definition: The text term used to describe the anatomic site of origin, of the
       patient's malignant disease, as described by the World Health Organization's

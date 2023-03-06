@@ -4431,14 +4431,14 @@ Terms:
     Code: 2938142
     Version: '1'
     Value: Primary Neoplasm
-  primary_site:
-    Origin: caDSR
-    Definition: The text term used to describe the general location of the malignant
+  #primary_site:
+    #Origin: caDSR
+    #Definition: The text term used to describe the general location of the malignant
       disease, as categorized by the World Health Organization's (WHO) International
       Classification of Diseases for Oncology (ICD-O).
-    Code: 6161019
-    Version: '1'
-    Value: ICD-O Primary Anatomic Site Category
+    #Code: 6161019
+    #Version: '1'
+    #Value: ICD-O Primary Anatomic Site Category
   Progression:
     Origin: caDSR
     Definition: The worsening of a disease over time
@@ -4901,14 +4901,14 @@ Terms:
     Code: 7592126
     Version: '1'
     Value: Single Nucleus Specimen
-  site_of_resection_or_biopsy:
-    Origin: caDSR
-    Definition: The text term used to describe the anatomic site of the resection
+  #site_of_resection_or_biopsy:
+    #Origin: caDSR
+    #Definition: The text term used to describe the anatomic site of the resection
       or biopsy of the patient's malignant disease, as described by the World Health
       Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
-    Code: 6161034
-    Version: '1'
-    Value: ICD-O Resection or Biopsy Anatomic Site Code
+    #Code: 6161034
+    #Version: '1'
+    #Value: ICD-O Resection or Biopsy Anatomic Site Code
   Size fractionation:
     Origin: caDSR
     Definition: Physical selection of size appropriate targets
@@ -5650,14 +5650,14 @@ Terms:
     Code: 2567371
     Version: '1'
     Value: Tissue
-  tissue_or_organ_of_origin:
-    Origin: caDSR
-    Definition: The text term used to describe the anatomic site of origin, of the
-      patient's malignant disease, as described by the World Health Organization's
+  #tissue_or_organ_of_origin:
+   # Origin: caDSR
+    #Definition: The text term used to describe the anatomic site of origin, of the
+      #patient's malignant disease, as described by the World Health Organization's
       (WHO) International Classification of Diseases for Oncology (ICD-O).
-    Code: 6161035
-    Version: '1'
-    Value: ICD-O Origin of Disease Anatomic Site
+    #Code: 6161035
+    #Version: '1'
+    #Value: ICD-O Origin of Disease Anatomic Site
   Tn-Seq:
     Origin: caDSR
     Definition: Sequencing from transposon insertion sites.

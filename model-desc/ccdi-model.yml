@@ -37,6 +37,7 @@ Nodes:
       - site_of_resection_or_biopsy
       - age_at_diagnosis
       - vital_status
+      - toronto_childhood_cancer_staging
       - days_to_recurrence
       - last_known_disease_status
       - days_to_last_known_disease_status

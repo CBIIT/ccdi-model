@@ -5,7 +5,7 @@ Nodes:
       - participant_id
       - related_to_participant_id
       - relationship
-  pdx: #27 jan 2023 pdunn
+  pdx: #27jan2023 pdunn
     Props: 
       - model_id
       - mouse_strain

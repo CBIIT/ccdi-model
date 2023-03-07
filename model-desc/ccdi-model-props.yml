@@ -1,4 +1,23 @@
 PropDefinitions:
+  #family_relationship
+  related_to_participant_id:
+    Desc: Participant related to another participant
+    Term:
+      - Origin: caDSR
+        Code: '6867052'
+        Value: Biospecimen Source Subject Identifier
+    Type: string
+    Req: true
+    Private: false
+  relationship:
+    Desc: How is a participant related to another participant
+    Term: 
+      - Origin: caDSR
+        Code: 2690165
+        Value: Family Member Relationship Type
+    Type: string
+    Req: true
+    Private: false
   #pdx
   model_id:
     Desc: The PDX model identifier.

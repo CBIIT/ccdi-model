@@ -4434,8 +4434,8 @@ Terms:
   #primary_site:
     #Origin: caDSR
     #Definition: The text term used to describe the general location of the malignant
-      disease, as categorized by the World Health Organization's (WHO) International
-      Classification of Diseases for Oncology (ICD-O).
+    #  disease, as categorized by the World Health Organization's (WHO) International
+    #  Classification of Diseases for Oncology (ICD-O).
     #Code: 6161019
     #Version: '1'
     #Value: ICD-O Primary Anatomic Site Category
@@ -4904,8 +4904,8 @@ Terms:
   #site_of_resection_or_biopsy:
     #Origin: caDSR
     #Definition: The text term used to describe the anatomic site of the resection
-      or biopsy of the patient's malignant disease, as described by the World Health
-      Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+    #  or biopsy of the patient's malignant disease, as described by the World Health
+    #  Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     #Code: 6161034
     #Version: '1'
     #Value: ICD-O Resection or Biopsy Anatomic Site Code
@@ -5654,7 +5654,7 @@ Terms:
    # Origin: caDSR
     #Definition: The text term used to describe the anatomic site of origin, of the
       #patient's malignant disease, as described by the World Health Organization's
-      (WHO) International Classification of Diseases for Oncology (ICD-O).
+      #(WHO) International Classification of Diseases for Oncology (ICD-O).
     #Code: 6161035
     #Version: '1'
     #Value: ICD-O Origin of Disease Anatomic Site

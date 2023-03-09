@@ -694,7 +694,7 @@ Terms:
     Code: 2575609
     Version: '1'
     Value: Bronchus and Lung
-  Buccal Mucosa:
+  Buccal mucosa:
     Origin: caDSR
     Definition: The mucosal membranes located on the inside of the cheek, in the buccal
       cavity.
@@ -829,6 +829,12 @@ Terms:
     Code: 2581524
     Version: '1'
     Value: Cerebral Meninges
+  Cerebrospinal fluid:
+    Origin: NCIt
+    Definition: The fluid that is contained within the brain ventricles, the subarachnoid space and the central canal of the spinal cord.
+    Code: C12692
+    Version: '1'
+    Value: Cerebrospinal Fluid
   Cerebrum:
     Origin: caDSR
     Definition: The part of the brain that controls muscle functions and also controls

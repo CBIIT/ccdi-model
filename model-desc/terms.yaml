@@ -5053,14 +5053,6 @@ Terms:
     Code: 6160803
     Version: '1'
     Value: Spinal Cord Cranial Nerve and Other Central Nervous System
-  Spinal fluid:
-    Origin: caDSR
-    Definition: The elongated, approximately cylindrical part of the central nervous
-      system of vertebrates that lies in the vertebral canal and from which the spinal
-      nerves emerge.
-    Code: 4289604
-    Version: '1'
-    Value: Cerebrospinal Fluid Ventricular Collection Site
   Spinal meninges:
     Origin: caDSR
     Definition: Connective tissue membranes that surround and support the spinal cord

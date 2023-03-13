@@ -7362,7 +7362,7 @@ PropDefinitions:
       - Unknown
     Req: true
     Private: false
-  days_to_treatment:
+  days_to_treatment_start:
     Desc: Number of days between the date used for index and the date the treatment started.
     Term:
       - Origin: caDSR

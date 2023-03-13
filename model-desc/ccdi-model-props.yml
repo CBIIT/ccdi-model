@@ -1515,8 +1515,8 @@ PropDefinitions:
       - "Ependymoma_M2"
       - "Ependymoma_M3"
       - "Ependymoma_M4"
-     Req: false
-     Private: false
+    Req: false
+    Private: false
   days_to_recurrence:
     Desc: Number of days between the date used for index and the date the patient's disease recurred.
     Term:

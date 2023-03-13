@@ -207,12 +207,6 @@ Nodes:
       - treatment_outcome
       - treatment_type
 Relationships:
-  of_pdx: #27jan2023 pd
-    Props: null
-    Mul: many_to_one
-    Ends:
-      - Src: pdx
-        Dst: sample
   of_clinical_measure_file: # #09.20.22 pd
     Props: null
     Mul: many_to_one 
@@ -231,12 +225,12 @@ Relationships:
     Ends:
       - Src: diagnosis
         Dst: participant
-  of_sample_diagnosis: 
+  of_family_relationship:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: sample_diagnosis
-        Dst: sample        
+      - Src: family_relationship
+        Dst: participant      
   of_imaging_file: #09.20.22 pd
     Props: null
     Mul: many_to_one
@@ -257,6 +251,12 @@ Relationships:
         Dst: study_arm
       - Src: participant
         Dst: study
+  of_pdx: #27jan2023 pd
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: pdx
+        Dst: sample
   of_publication: # 09.20.22 pd
     Props: null
     Mul: many_to_one
@@ -271,6 +271,12 @@ Relationships:
         Dst: participant
       - Src: sample
         Dst: study
+  of_sample_diagnosis: 
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: sample_diagnosis
+        Dst: sample  
   of_sequencing_file: #09.20.22 pd
     Props: null
     Mul: many_to_one

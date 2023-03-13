@@ -1426,11 +1426,11 @@ PropDefinitions:
         Code: '2847330'
         Value: Participant Vital Status Type
     Enum:
-      - 'Alive'
-      - 'Dead'
-      - 'Not reported'
-      - 'Unknown'
-      - 'Unspecified'
+      - "Alive"
+      - "Dead"
+      - "Not reported"
+      - "Unknown"
+      - "Unspecified'
     Req: true
     Private: false
   toronto_childhood_cancer_staging:
@@ -1439,7 +1439,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: ''
         Value: Toronto Childhood Cancer Staging
-     Enum:
+    Enum:
       - "Acute lymphoblastic leukaemia_CNS1"
       - "Acute lymphoblastic leukaemia_CNS2"
       - "Acute lymphoblastic leukaemia_CNS2"

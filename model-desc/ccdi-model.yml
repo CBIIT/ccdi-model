@@ -196,10 +196,10 @@ Nodes:
   therapeutic_procedure:
     Props:
       - treatment_id
-      - days_to_treatment
-      - therapeutic_agents
+      - days_to_treatment_start
       - treatment_outcome
       - treatment_type
+      - therapeutic_agents
 Relationships:
   of_pdx: #27jan2023 pd
     Props: null

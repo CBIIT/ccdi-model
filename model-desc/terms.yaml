@@ -694,7 +694,7 @@ Terms:
     Code: 2575609
     Version: '1'
     Value: Bronchus and Lung
-  Buccal Mucosa:
+  Buccal mucosa:
     Origin: caDSR
     Definition: The mucosal membranes located on the inside of the cheek, in the buccal
       cavity.
@@ -829,6 +829,12 @@ Terms:
     Code: 2581524
     Version: '1'
     Value: Cerebral Meninges
+  Cerebrospinal fluid:
+    Origin: NCIt
+    Definition: The fluid that is contained within the brain ventricles, the subarachnoid space and the central canal of the spinal cord.
+    Code: C12692
+    Version: '1'
+    Value: Cerebrospinal Fluid
   Cerebrum:
     Origin: caDSR
     Definition: The part of the brain that controls muscle functions and also controls
@@ -1491,6 +1497,12 @@ Terms:
     Code: 6356232
     Version: '1'
     Value: FASTQ Format
+  Father
+    Origin: caDSR
+    Definition: Father; a male parent.
+    Code: 2565678
+    Version: '1'
+    Value: Father
   Feces:
     Origin: caDSR
     Definition: The material discharged from the bowel during defecation.  It consists
@@ -2790,6 +2802,12 @@ Terms:
     Code: 5446316
     Version: '1'
     Value: Bone Marrow Derivation Mononucleated Blood Cell
+ Mother
+    Origin: caDSR
+    Definition: Mother; a female parent.
+    Code: 2567344
+    Version: '1'
+    Value: Mother
   Mouse:
     Origin: caDSR
     Definition: Any of numerous species of small rodents belonging to the genus Mus
@@ -3254,7 +3272,7 @@ Terms:
   None:
     Origin: caDSR
     Definition: No person or thing, nobody, not any.
-    Code: 2577064
+    Code: 2574138
     Version: '1'
     Value: None
   Normal:
@@ -4431,14 +4449,14 @@ Terms:
     Code: 2938142
     Version: '1'
     Value: Primary Neoplasm
-  primary_site:
-    Origin: caDSR
-    Definition: The text term used to describe the general location of the malignant
-      disease, as categorized by the World Health Organization's (WHO) International
-      Classification of Diseases for Oncology (ICD-O).
-    Code: 6161019
-    Version: '1'
-    Value: ICD-O Primary Anatomic Site Category
+  #primary_site:
+    #Origin: caDSR
+    #Definition: The text term used to describe the general location of the malignant
+    #  disease, as categorized by the World Health Organization's (WHO) International
+    #  Classification of Diseases for Oncology (ICD-O).
+    #Code: 6161019
+    #Version: '1'
+    #Value: ICD-O Primary Anatomic Site Category
   Progression:
     Origin: caDSR
     Definition: The worsening of a disease over time
@@ -4810,7 +4828,7 @@ Terms:
     Code: 3192162
     Version: '1'
     Value: Saliva
-  sample_anatomic_site:
+  anatomic_site:
     Origin: caDSR
     Definition: The text term used to describe the anatomic site of origin, of the
       patient's malignant disease, as described by the World Health Organization's
@@ -4888,7 +4906,13 @@ Terms:
       and the rectum below.
     Code: 2581640
     Version: '1'
-    Value: Sigmoid Colon 
+    Value: Sigmoid Colon
+  Sibling
+    Origin: caDSR
+    Definition: Sibling; a person's brother or sister.
+    Code: 2717664
+    Version: '1'
+    Value: Sibling 
   Single-cells:
     Origin: caDSR
     Definition: A biospecimen that contains the contents of a single cell.
@@ -4901,14 +4925,14 @@ Terms:
     Code: 7592126
     Version: '1'
     Value: Single Nucleus Specimen
-  site_of_resection_or_biopsy:
-    Origin: caDSR
-    Definition: The text term used to describe the anatomic site of the resection
-      or biopsy of the patient's malignant disease, as described by the World Health
-      Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
-    Code: 6161034
-    Version: '1'
-    Value: ICD-O Resection or Biopsy Anatomic Site Code
+  #site_of_resection_or_biopsy:
+    #Origin: caDSR
+    #Definition: The text term used to describe the anatomic site of the resection
+    #  or biopsy of the patient's malignant disease, as described by the World Health
+    #  Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+    #Code: 6161034
+    #Version: '1'
+    #Value: ICD-O Resection or Biopsy Anatomic Site Code
   Size fractionation:
     Origin: caDSR
     Definition: Physical selection of size appropriate targets
@@ -5642,14 +5666,14 @@ Terms:
     Code: 2567371
     Version: '1'
     Value: Tissue
-  tissue_or_organ_of_origin:
-    Origin: caDSR
-    Definition: The text term used to describe the anatomic site of origin, of the
-      patient's malignant disease, as described by the World Health Organization's
-      (WHO) International Classification of Diseases for Oncology (ICD-O).
-    Code: 6161035
-    Version: '1'
-    Value: ICD-O Origin of Disease Anatomic Site
+  #tissue_or_organ_of_origin:
+   # Origin: caDSR
+    #Definition: The text term used to describe the anatomic site of origin, of the
+      #patient's malignant disease, as described by the World Health Organization's
+      #(WHO) International Classification of Diseases for Oncology (ICD-O).
+    #Code: 6161035
+    #Version: '1'
+    #Value: ICD-O Origin of Disease Anatomic Site
   Tn-Seq:
     Origin: caDSR
     Definition: Sequencing from transposon insertion sites.

@@ -1358,7 +1358,6 @@ PropDefinitions:
     Enum:
       - "Acute lymphoblastic leukaemia_CNS1"
       - "Acute lymphoblastic leukaemia_CNS2"
-      - "Acute lymphoblastic leukaemia_CNS2"
       - "Acute lymphoblastic leukaemia_CNS3"
       - "Hodgkin lymphoma_Stage I"
       - "Hodgkin lymphoma_Stage II"

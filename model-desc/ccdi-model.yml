@@ -4,6 +4,7 @@ Nodes:
     Props:
       - related_to_participant_id
       - relationship
+      - family_id
   pdx: #27jan2023 pdunn
     Props: 
       - model_id

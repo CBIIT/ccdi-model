@@ -16,7 +16,7 @@ Terms:
     Definition: The 454 GS FLX is a model type of the LS454 sequencing library platform.
     Code: 6298122
     Version: '1'
-    Value: 454 GS FLX
+    Value: 454 GS FLXF
   454 GS FLX Titanium:
     Origin: caDSR
     Definition: The 454 GS FLX Titanium is a model type of the LS454 sequencing library
@@ -2802,7 +2802,7 @@ Terms:
     Code: 5446316
     Version: '1'
     Value: Bone Marrow Derivation Mononucleated Blood Cell
- Mother
+ Mother:
     Origin: caDSR
     Definition: Mother; a female parent.
     Code: 2567344

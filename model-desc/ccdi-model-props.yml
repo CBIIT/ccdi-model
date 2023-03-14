@@ -6,14 +6,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6867052'
         Value: Biospecimen Source Subject Identifier
-    Type:
-      - string
-      -
-        - "Mother"
-        - "Father"
-        - "Sibling"
-        - "Other"
-        - "None at all"
+    Type: string
     Req: true
     Private: false
   relationship:
@@ -22,8 +15,14 @@ PropDefinitions:
       - Origin: caDSR
         Code: 2690165
         Value: Family Member Relationship Type
-    Type: string
-          -
+    Type:
+      - string
+      -
+        - "Mother"
+        - "Father"
+        - "Sibling"
+        - "Other"
+        - "None at all"
     Req: true
     Private: false
   #pdx

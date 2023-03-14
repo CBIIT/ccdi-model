@@ -2,7 +2,6 @@ Handle: CDA
 Nodes:
   family_relationship:
     Props:
-      - participant_id
       - related_to_participant_id
       - relationship
   pdx: #27jan2023 pdunn

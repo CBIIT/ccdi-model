@@ -13,7 +13,7 @@ PropDefinitions:
     Desc: How is a participant related to another participant
     Term: 
       - Origin: caDSR
-        Code: 2690165
+        Code: '2690165'
         Value: Family Member Relationship Type
     Type:
       - string

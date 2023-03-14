@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 969c4b8
+commit 7451de9
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -10,7 +10,7 @@ clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
 clinical_measure_file	file_size	STRING
-clinical_measure_file	file_type	ARRAY(0x55d939834708)
+clinical_measure_file	file_type	ARRAY(0x55d733958dd8)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
@@ -1673,7 +1673,7 @@ diagnosis	vital_status	Not reported
 diagnosis	vital_status	Unknown
 diagnosis	vital_status	Unspecified
 family_relationship	related_to_participant_id	STRING
-family_relationship	relationship	ARRAY(0x55d93982a530)
+family_relationship	relationship	ARRAY(0x55d73395bd48)
 family_relationship	relationship	string
 imaging_file	checksum_algorithm	STRING
 imaging_file	checksum_value	STRING
@@ -1684,7 +1684,7 @@ imaging_file	file_mapping_level	Sample
 imaging_file	file_mapping_level	Study
 imaging_file	file_name	STRING
 imaging_file	file_size	STRING
-imaging_file	file_type	ARRAY(0x55d939834708)
+imaging_file	file_type	ARRAY(0x55d733958dd8)
 imaging_file	file_type	string
 imaging_file	file_url_in_cds	STRING
 imaging_file	image_modality	STRING
@@ -1699,7 +1699,7 @@ methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
 methylation_array_file	file_size	STRING
-methylation_array_file	file_type	ARRAY(0x55d939834708)
+methylation_array_file	file_type	ARRAY(0x55d733958dd8)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
@@ -3390,7 +3390,7 @@ sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
 sequencing_file	file_size	STRING
-sequencing_file	file_type	ARRAY(0x55d939834708)
+sequencing_file	file_type	ARRAY(0x55d733958dd8)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -8211,9 +8211,9 @@ of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
+of_synonym	synonym	sample	NA	NA
 of_synonym	synonym	participant	NA	NA
 of_synonym	synonym	study	NA	NA
-of_synonym	synonym	sample	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description

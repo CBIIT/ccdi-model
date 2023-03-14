@@ -1497,7 +1497,7 @@ Terms:
     Code: 6356232
     Version: '1'
     Value: FASTQ Format
-  Father
+  Father:
     Origin: caDSR
     Definition: Father; a male parent.
     Code: 2565678

@@ -1491,6 +1491,12 @@ Terms:
     Code: 6356232
     Version: '1'
     Value: FASTQ Format
+  Father
+    Origin: caDSR
+    Definition: Father; a male parent.
+    Code: 2565678
+    Version: '1'
+    Value: Father
   Feces:
     Origin: caDSR
     Definition: The material discharged from the bowel during defecation.  It consists
@@ -2790,6 +2796,12 @@ Terms:
     Code: 5446316
     Version: '1'
     Value: Bone Marrow Derivation Mononucleated Blood Cell
+ Mother
+    Origin: caDSR
+    Definition: Mother; a female parent.
+    Code: 2567344
+    Version: '1'
+    Value: Mother
   Mouse:
     Origin: caDSR
     Definition: Any of numerous species of small rodents belonging to the genus Mus
@@ -3254,7 +3266,7 @@ Terms:
   None:
     Origin: caDSR
     Definition: No person or thing, nobody, not any.
-    Code: 2577064
+    Code: 2574138
     Version: '1'
     Value: None
   Normal:
@@ -4889,6 +4901,12 @@ Terms:
     Code: 2581640
     Version: '1'
     Value: Sigmoid Colon
+  Sibling
+    Origin: caDSR
+    Definition: Sibling; a person's brother or sister.
+    Code: 2717664
+    Version: '1'
+    Value: Sibling 
   Single-cells:
     Origin: caDSR
     Definition: A biospecimen that contains the contents of a single cell.

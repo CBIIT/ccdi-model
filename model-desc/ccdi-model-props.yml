@@ -1324,7 +1324,7 @@ PropDefinitions:
     Req: false
     Private: false    
   primary_site:
-    Desc: The text term used to describe the general location of the malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+    Desc: "The text term used to describe the general location of the malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O)."
     Term:
       - Origin: caDSR
         Code: '6161019'

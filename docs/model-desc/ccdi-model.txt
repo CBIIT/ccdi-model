@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit f26a338
+commit cc0281d
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -10,7 +10,7 @@ clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
 clinical_measure_file	file_size	STRING
-clinical_measure_file	file_type	ARRAY(0x563e11d0c360)
+clinical_measure_file	file_type	ARRAY(0x5648fff41ed8)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
@@ -1518,6 +1518,79 @@ diagnosis	last_known_disease_status	Tumor free
 diagnosis	last_known_disease_status	Unknown
 diagnosis	last_known_disease_status	Unknown tumor status
 diagnosis	last_known_disease_status	With tumor
+diagnosis	toronto_childhood_cancer_staging	Acute lymphoblastic leukaemia_CNS1
+diagnosis	toronto_childhood_cancer_staging	Acute lymphoblastic leukaemia_CNS2
+diagnosis	toronto_childhood_cancer_staging	Acute lymphoblastic leukaemia_CNS3
+diagnosis	toronto_childhood_cancer_staging	Astrocytomas_Localised
+diagnosis	toronto_childhood_cancer_staging	Astrocytomas_Metastatic
+diagnosis	toronto_childhood_cancer_staging	Ependymoma_M0
+diagnosis	toronto_childhood_cancer_staging	Ependymoma_M1
+diagnosis	toronto_childhood_cancer_staging	Ependymoma_M2
+diagnosis	toronto_childhood_cancer_staging	Ependymoma_M3
+diagnosis	toronto_childhood_cancer_staging	Ependymoma_M4
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT I
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT II
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT III
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT IV
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT I
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT II
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT III
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT IV
+diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage I
+diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage II
+diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage III
+diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage IV
+diagnosis	toronto_childhood_cancer_staging	Malignant bone tumours_Distant metastases present
+diagnosis	toronto_childhood_cancer_staging	Malignant bone tumours_Localised
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma_M0
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma_M1
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma_M2
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma_M3
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma_M4
+diagnosis	toronto_childhood_cancer_staging	Neuroblastoma_Stage L1
+diagnosis	toronto_childhood_cancer_staging	Neuroblastoma_Stage L2 
+diagnosis	toronto_childhood_cancer_staging	Neuroblastoma_Stage M 
+diagnosis	toronto_childhood_cancer_staging	Neuroblastoma_Stage MS
+diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage I
+diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage II
+diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage III
+diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage IV
+diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage I
+diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage II
+diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage III
+diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage IV
+diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage I
+diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage II
+diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage III
+diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage IV 
+diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage I
+diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage II
+diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage III
+diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage IV
+diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage y-I
+diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage y-II
+diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage y-III
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma_Stage 0
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma_Stage I
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma_Stage II
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma_Stage III
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma_Stage IV
+diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage I
+diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage II
+diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage III
+diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage IV
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage I
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IA
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IB
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage II
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIA
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIB
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIC
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage III
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIIA
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIIB
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIIC
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IS
 diagnosis	tumor_grade	G1
 diagnosis	tumor_grade	G2
 diagnosis	tumor_grade	G3
@@ -1599,6 +1672,9 @@ diagnosis	vital_status	Dead
 diagnosis	vital_status	Not reported
 diagnosis	vital_status	Unknown
 diagnosis	vital_status	Unspecified
+family_relationship	related_to_participant_id	STRING
+family_relationship	relationship	ARRAY(0x5648fffb1f80)
+family_relationship	relationship	string
 imaging_file	checksum_algorithm	STRING
 imaging_file	checksum_value	STRING
 imaging_file	dcf_indexd_guid	STRING
@@ -1608,7 +1684,7 @@ imaging_file	file_mapping_level	Sample
 imaging_file	file_mapping_level	Study
 imaging_file	file_name	STRING
 imaging_file	file_size	STRING
-imaging_file	file_type	ARRAY(0x563e11d0c360)
+imaging_file	file_type	ARRAY(0x5648fff41ed8)
 imaging_file	file_type	string
 imaging_file	file_url_in_cds	STRING
 imaging_file	image_modality	STRING
@@ -1623,7 +1699,7 @@ methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
 methylation_array_file	file_size	STRING
-methylation_array_file	file_type	ARRAY(0x563e11d0c360)
+methylation_array_file	file_type	ARRAY(0x5648fff41ed8)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
@@ -3314,7 +3390,7 @@ sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
 sequencing_file	file_size	STRING
-sequencing_file	file_type	ARRAY(0x563e11d0c360)
+sequencing_file	file_type	ARRAY(0x5648fff41ed8)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -8120,14 +8196,15 @@ relationship	source_node	destination_node	property	value_or_TYPE
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_clinical_measure_file_participant	clinical_measure_file	participant	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
+of_family_relationship	family_relationship	participant	NA	NA
 of_imaging_file	imaging_file	sample	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
 of_participant	participant	study	NA	NA
 of_participant	participant	study_arm	NA	NA
 of_pdx	pdx	sample	NA	NA
 of_publication	publication	study	NA	NA
-of_sample	sample	participant	NA	NA
 of_sample	sample	study	NA	NA
+of_sample	sample	participant	NA	NA
 of_sample_diagnosis	sample_diagnosis	sample	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
@@ -8135,8 +8212,8 @@ of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
 of_synonym	synonym	participant	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	sample	NA	NA
+of_synonym	synonym	study	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
@@ -8215,6 +8292,8 @@ platform	The words used to describe the instrument used to carry out a high-thro
 pubmed_id	The accession number used in PubMed.
 race	The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
 reference_genome_assembly	A published genetic sequence that is used as a reference sequence against which other sequences are compared. This is only if you are submitting a bam file aligned against a NCBI assembly.
+related_to_participant_id	Participant related to another participant
+relationship	How is a participant related to another participant
 reporter_label	The class of tags used in the methylation experiment.
 repository_of_synonym_id	The repository of the synonym.
 sample_description	Text description of a sample or specimen.
@@ -8234,6 +8313,7 @@ study_personnel_id	A unique sequence of alphanumeric characters used to identify
 study_short_title	The succinct version of the study title if it exists.
 synonym_id	The synonym of the id that is found in a different repository.
 therapeutic_agents	Text identification of the individual agent(s) used as part of a prior treatment regimen.
+toronto_childhood_cancer_staging	For many of the malignancies that occur in childhood, TNM-based systems that document extent of disease at diagnosis are either inadequate or do not exist at all. Consensus guidelines for use by population cancer registries for staging childhood cancers (the Toronto Childhood Cancer Stage Guidelines) have been developed.
 treatment_id	A unique sequence of alphanumeric characters used to identify the treatment in the investigation or study, which is used for linking metadata.
 treatment_outcome	Text term that describes the patient's final outcome after the treatment was administered.
 treatment_type	Text term that describes the kind of treatment administered.

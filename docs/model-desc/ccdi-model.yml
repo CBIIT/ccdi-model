@@ -201,10 +201,10 @@ Nodes:
   therapeutic_procedure:
     Props:
       - treatment_id
-      - days_to_treatment
-      - therapeutic_agents
+      - days_to_treatment_start
       - treatment_outcome
       - treatment_type
+      - therapeutic_agents
 Relationships:
   of_clinical_measure_file: # #09.20.22 pd
     Props: null

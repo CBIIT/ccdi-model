@@ -7352,29 +7352,29 @@ PropDefinitions:
         Code: '5102383'
         Value: Treatment Outcome Type
     Enum:
+      - Complete Remission/Response
       - Complete Response
+      - Elevated Tumor Markers and Residual Mass
+      - First Course Treatment Still in Progress
       - Mixed Response
       - No Measurable Disease
+      - No Measureable Tumor or Tumor Markers
       - No Response
+      - Normalization of Tumor Markers, but Residual Tumor Mass
+      - Not Applicable
+      - Not Reported
+      - Other
+      - Partial Remission/Response
       - Partial Response
       - Persistent Disease
       - Progressive Disease
+      - Progressive Tumor Mass and Tumor Markers
       - Stable Disease
       - Treatment Ongoing
       - Treatment Stopped Due to Toxicity
-      - Very Good Partial Response
       - Unknown
-      - Not Reported
-      - Complete Remission/Response
-      - Elevated Tumor Markers and Residual Mass
-      - First Course Treatment Still in Progress
-      - No Measureable Tumor or Tumor Markers
-      - Normalization of Tumor Markers, but Residual Tumor Mass
-      - Not Applicable
-      - Other
-      - Partial Remission/Response
-      - Progressive Tumor Mass and Tumor Markers
-    Req: false
+      - Very Good Partial Response
+    Req: true
     Private: false
   treatment_type:
     Desc: Text term that describes the kind of treatment administered.
@@ -7401,39 +7401,56 @@ PropDefinitions:
       - Chemotherapy
       - Concurrent Chemoradiation
       - Cryoablation
+      - Cytotoxic chemotherapy
       - Embolization
       - Ethanol Injection Ablation
       - External Beam Radiation
+      - External Radiation
       - Hormone Therapy
       - I-131 Radiation Therapy
+      - Immunotherapy
       - Immunotherapy (Including Vaccines)
       - Internal Radiation
       - Isolated Limb Perfusion (ILP)
+      - No Treatment
+      - Not Reported
       - Organ Transplantation
       - Other
+      - Other Treatment Type
+      - Palliative Care
+      - Pharmaceutical Therapy
       - Pharmaceutical Therapy, NOS
       - Pleurodesis
-      - Pleurodesis, Talc
       - Pleurodesis, NOS
+      - Pleurodesis, Talc
+      - Radiation (NOS)
+      - Radiation Therapy
       - Radiation Therapy, NOS
+      - Radiation therapy, NOS
       - Radiation, 2D Conventional
       - Radiation, 3D Conformal
+      - Radiation, 3D conformal
       - Radiation, Combination
       - Radiation, Cyberknife
       - Radiation, External Beam
       - Radiation, Hypofractionated
       - Radiation, Implants
       - Radiation, Intensity-Modulated Radiotherapy
+      - Radiation, intensity-modulated radiotherapy
       - Radiation, Internal
       - Radiation, Mixed Photon Beam
       - Radiation, Photon Beam
       - Radiation, Proton Beam
+      - Radiation, proton beam
       - Radiation, Radioisotope
+      - Radiation, stereotactic body
       - Radiation, Stereotactic/Gamma Knife/SRS
       - Radiation, Systemic
+      - Radiation, whole brain radiation therapy
       - Radioactive Iodine Therapy
       - Radioembolization
       - Radiosensitizing Agent
+      - Stem Cell Transplant
       - Stem Cell Transplantation, Allogeneic
       - Stem Cell Transplantation, Autologous
       - Stem Cell Transplantation, Double Autologous
@@ -7443,33 +7460,16 @@ PropDefinitions:
       - Stem Cell Transplantation, Syngenic
       - Stem Cell Treatment
       - Stereotactic Radiosurgery
+      - Stereotactic radiosurgery
       - Steroid Therapy
       - Surgery
-      - Targeted Molecular Therapy
-      - Unknown
-      - Not Reported
-      - Cytotoxic chemotherapy
-      - External Radiation
-      - Immunotherapy
-      - No Treatment
-      - Other Treatment Type
-      - Palliative Care
-      - Pharmaceutical Therapy
-      - Radiation (NOS)
-      - Radiation Therapy
-      - Radiation therapy, NOS
-      - Radiation, 3D conformal
-      - Radiation, intensity-modulated radiotherapy
-      - Radiation, proton beam
-      - Radiation, stereotactic body
-      - Radiation, whole brain radiation therapy
-      - Stem Cell Transplant
-      - Stereotactic radiosurgery
       - Surgery Only
       - Systemic Radiation
-    Req: false
+      - Targeted Molecular Therapy
+      - Unknown
+    Req: true
     Private: false
-  days_to_treatment:
+  days_to_treatment_start:
     Desc: Number of days between the date used for index and the date the treatment started.
     Term:
       - Origin: caDSR

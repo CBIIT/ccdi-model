@@ -7,7 +7,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Cell Barcode
     Type: string
-    Req: true
+    Req: false
     Private: false
   Cryopreserved Cells in Sample:
     Desc: Indicate if library preparation was based on revived frozen cells.
@@ -16,7 +16,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Cryopreserved Cells in Sample
     Type: string
-    Req: true
+    Req: false
     Private: false
   Dissociation Method:
     Desc: The tissue dissociation method used for scRNASeq assays
@@ -25,7 +25,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Dissociation Method
     Type: string
-    Req: true
+    Req: false
     Private: false
   End Bias:
     Desc: The end of the cDNA molecule that is preferentially sequenced, e.g. 3/5 prime tag/end or the full length transcript
@@ -34,7 +34,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: End Bias
     Type: string
-    Req: true
+    Req: false
     Private: false
   Input Cells and Nuclei:
     Desc: Number of cells and number of nuclei input
@@ -43,7 +43,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Input Cells and Nuclei
     Type: string
-    Req: true
+    Req: false
     Private: false
   Library Construction Method:
     Desc: Process which results in the creation of a library from fragments of DNA using cloning vectors or oligonucleotides with the role of adaptors [OBI_0000711]
@@ -52,7 +52,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Library Construction Method
     Type: string
-    Req: true
+    Req: false
     Private: false
   Library Preparation Date:
     Desc: The date that the libraries were prepared for sequencing
@@ -61,7 +61,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Library Preparation Date
     Type: string
-    Req: true
+    Req: false
     Private: false
   Nucleic Acid Capture Date:
     Desc: Date of nucleic acid capture part of library construction
@@ -70,7 +70,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Nucleic Acid Capture Date
     Type: string
-    Req: true
+    Req: false
     Private: false
   Paired End:
     Desc: A library layout type
@@ -79,7 +79,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Paired End
     Type: string
-    Req: true
+    Req: false
     Private: false
   Protocols  Link:
     Desc: Protocols.io ID  or DOI link to a free/open protocol resource describing in detail the assay protocol (e.g. surface markers used in Smart-seq, dissociation duration,  lot/batch numbers for key reagents such as primers, sequencing reagent kits, etc.).
@@ -88,7 +88,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Protocols  Link
     Type: string
-    Req: true
+    Req: false
     Private: false
   Read1:
     Desc: Read 1 content description
@@ -97,7 +97,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Read1
     Type: string
-    Req: true
+    Req: false
     Private: false
   Read2:
     Desc: Read 2 content description
@@ -106,34 +106,34 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Read2
     Type: string
-    Req: true
+    Req: false
     Private: false
-  Reverse Transcription Primer:
+  Reverse Transcription Primer Oligo-dT, Poly-dT:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: Reverse Transcription Primer
+        Value: Reverse Transcription Primer Oligo-dT, Poly-dT
     Type: string
-    Req: true
+    Req: false
     Private: false
-  Reverse Transcription Primer:
+  Reverse Transcription Primer Feature barcoding:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: Reverse Transcription Primer
+        Value: Reverse Transcription Primer Feature barcoding
     Type: string
-    Req: true
+    Req: false
     Private: false
-  Reverse Transcription Primer:
+  Reverse Transcription Primer Random:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: Reverse Transcription Primer
+        Value: Reverse Transcription Primer Random
     Type: string
-    Req: true
+    Req: false
     Private: false
   Sequencing Library Construction Date:
     Desc: Date of sequencing library construction part of library construction
@@ -142,7 +142,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Sequencing Library Construction Date
     Type: string
-    Req: true
+    Req: false
     Private: false
   Single Cell Dissociation Date:
     Desc: The date when the sample was dissociated and cells were isolated
@@ -151,7 +151,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Single Cell Dissociation Date
     Type: string
-    Req: true
+    Req: false
     Private: false
   Single Cell Isolation Method:
     Desc: The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)
@@ -160,7 +160,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Single Cell Isolation Method
     Type: string
-    Req: true
+    Req: false
     Private: false
   Spike In:
     Desc: A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
@@ -169,7 +169,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Spike In
     Type: string
-    Req: true
+    Req: false
     Private: false
   Total Number of Input Cells:
     Desc: Number of cells loaded/placed on plates
@@ -178,7 +178,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Total Number of Input Cells
     Type: string
-    Req: true
+    Req: false
     Private: false
   UMI:
     Desc: Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
@@ -187,7 +187,7 @@ PropDefinitions:
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: UMI
     Type: string
-    Req: true
+    Req: false
     Private: false
   #family_relationship
   related_to_participant_id:

@@ -233,6 +233,15 @@ PropDefinitions:
         - "None at all"
     Req: true
     Private: false
+  family_id:
+    Desc: Identifer of a family of a group of participants.
+    Term: 
+      - Origin: caDSR
+        Code: '6867052'
+        Value: Biospecimen Source Subject Identifier
+    Type: string
+    Req: true
+    Private: false
   #pdx
   model_id:
     Desc: The PDX model identifier.

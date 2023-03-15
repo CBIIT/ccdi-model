@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 9b56f1e
+commit 2c518df
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -10,7 +10,7 @@ clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
 clinical_measure_file	file_size	STRING
-clinical_measure_file	file_type	ARRAY(0x55f99db2e4f0)
+clinical_measure_file	file_type	ARRAY(0x5613833a67a0)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
@@ -1672,8 +1672,9 @@ diagnosis	vital_status	Dead
 diagnosis	vital_status	Not reported
 diagnosis	vital_status	Unknown
 diagnosis	vital_status	Unspecified
+family_relationship	family_id	STRING
 family_relationship	related_to_participant_id	STRING
-family_relationship	relationship	ARRAY(0x55f99db3f5d0)
+family_relationship	relationship	ARRAY(0x561383375018)
 family_relationship	relationship	string
 imaging_file	checksum_algorithm	STRING
 imaging_file	checksum_value	STRING
@@ -1684,7 +1685,7 @@ imaging_file	file_mapping_level	Sample
 imaging_file	file_mapping_level	Study
 imaging_file	file_name	STRING
 imaging_file	file_size	STRING
-imaging_file	file_type	ARRAY(0x55f99db2e4f0)
+imaging_file	file_type	ARRAY(0x5613833a67a0)
 imaging_file	file_type	string
 imaging_file	file_url_in_cds	STRING
 imaging_file	image_modality	STRING
@@ -1699,7 +1700,7 @@ methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
 methylation_array_file	file_size	STRING
-methylation_array_file	file_type	ARRAY(0x55f99db2e4f0)
+methylation_array_file	file_type	ARRAY(0x5613833a67a0)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
@@ -3390,7 +3391,7 @@ sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
 sequencing_file	file_size	STRING
-sequencing_file	file_type	ARRAY(0x55f99db2e4f0)
+sequencing_file	file_type	ARRAY(0x5613833a67a0)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -3563,6 +3564,215 @@ sequencing_file	platform	Oxford Nanopore
 sequencing_file	platform	PacBio SMRT
 sequencing_file	reference_genome_assembly	STRING
 sequencing_file	sequence_alignment_software	STRING
+single_cell_sequencing_file	Cell_Barcode	STRING
+single_cell_sequencing_file	Cryopreserved_Cells_in_Sample	STRING
+single_cell_sequencing_file	Dissociation_Method	STRING
+single_cell_sequencing_file	End_Bias	STRING
+single_cell_sequencing_file	Input_Cells_and_Nuclei	STRING
+single_cell_sequencing_file	Library_Construction_Method	STRING
+single_cell_sequencing_file	Library_Preparation_Date	STRING
+single_cell_sequencing_file	Nucleic_Acid_Capture_Date	STRING
+single_cell_sequencing_file	Paired_End	STRING
+single_cell_sequencing_file	Protocols_Link	STRING
+single_cell_sequencing_file	Read1	STRING
+single_cell_sequencing_file	Read2	STRING
+single_cell_sequencing_file	Reverse_Transcription_Primer_Feature_barcoding	STRING
+single_cell_sequencing_file	Reverse_Transcription_Primer_Oligo_dT_Poly_dT	STRING
+single_cell_sequencing_file	Reverse_Transcription_Primer_Random	STRING
+single_cell_sequencing_file	Sequencing_Library_Construction_Date	STRING
+single_cell_sequencing_file	Single_Cell_Dissociation_Date	STRING
+single_cell_sequencing_file	Single_Cell_Isolation_Method	STRING
+single_cell_sequencing_file	Spike_In	STRING
+single_cell_sequencing_file	Total_Number_of_Input_Cells	STRING
+single_cell_sequencing_file	UMI	STRING
+single_cell_sequencing_file	avg_read_length	NUMBER
+single_cell_sequencing_file	cDNA_Length	STRING
+single_cell_sequencing_file	cDNA_Offset	STRING
+single_cell_sequencing_file	checksum_algorithm	STRING
+single_cell_sequencing_file	checksum_value	STRING
+single_cell_sequencing_file	coverage	NUMBER
+single_cell_sequencing_file	custom_assembly_fasta_file_for_alignment	STRING
+single_cell_sequencing_file	dcf_indexd_guid	STRING
+single_cell_sequencing_file	design_description	STRING
+single_cell_sequencing_file	file_description	STRING
+single_cell_sequencing_file	file_mapping_level	Participiant
+single_cell_sequencing_file	file_mapping_level	Sample
+single_cell_sequencing_file	file_mapping_level	Study
+single_cell_sequencing_file	file_name	STRING
+single_cell_sequencing_file	file_size	STRING
+single_cell_sequencing_file	file_type	ARRAY(0x5613833a67a0)
+single_cell_sequencing_file	file_type	string
+single_cell_sequencing_file	file_url_in_cds	STRING
+single_cell_sequencing_file	instrument_model	454 GS
+single_cell_sequencing_file	instrument_model	454 GS 20
+single_cell_sequencing_file	instrument_model	454 GS FLX
+single_cell_sequencing_file	instrument_model	454 GS FLX Titanium
+single_cell_sequencing_file	instrument_model	454 GS FLX+
+single_cell_sequencing_file	instrument_model	454 GS Junior
+single_cell_sequencing_file	instrument_model	AB 310 Genetic Analyzer
+single_cell_sequencing_file	instrument_model	AB 3130 Genetic Analyzer
+single_cell_sequencing_file	instrument_model	AB 3130xL Genetic Analyzer
+single_cell_sequencing_file	instrument_model	AB 3500 Genetic Analyzer
+single_cell_sequencing_file	instrument_model	AB 3500xL Genetic Analyzer
+single_cell_sequencing_file	instrument_model	AB 3730 Genetic Analyzer
+single_cell_sequencing_file	instrument_model	AB 3730xL Genetic Analyzer
+single_cell_sequencing_file	instrument_model	AB SOLiD 2
+single_cell_sequencing_file	instrument_model	AB SOLiD 3
+single_cell_sequencing_file	instrument_model	AB SOLiD 4
+single_cell_sequencing_file	instrument_model	BGISEQ-500
+single_cell_sequencing_file	instrument_model	Complete Genomics
+single_cell_sequencing_file	instrument_model	GridION
+single_cell_sequencing_file	instrument_model	HeliScope
+single_cell_sequencing_file	instrument_model	HiSeq X Five
+single_cell_sequencing_file	instrument_model	HiSeq X Ten
+single_cell_sequencing_file	instrument_model	Illumina Genome Analyzer
+single_cell_sequencing_file	instrument_model	Illumina Genome Analyzer II
+single_cell_sequencing_file	instrument_model	Illumina Genome Analyzer IIx
+single_cell_sequencing_file	instrument_model	Illumina HiScanSQ
+single_cell_sequencing_file	instrument_model	Illumina HiSeq 1000
+single_cell_sequencing_file	instrument_model	Illumina HiSeq 1500
+single_cell_sequencing_file	instrument_model	Illumina HiSeq 2000
+single_cell_sequencing_file	instrument_model	Illumina HiSeq 2500
+single_cell_sequencing_file	instrument_model	Illumina HiSeq 3000
+single_cell_sequencing_file	instrument_model	Illumina HiSeq 4000
+single_cell_sequencing_file	instrument_model	Illumina HiSeq X Five
+single_cell_sequencing_file	instrument_model	Illumina HiSeq X Ten
+single_cell_sequencing_file	instrument_model	Illumina MiSeq
+single_cell_sequencing_file	instrument_model	Illumina MiniSeq
+single_cell_sequencing_file	instrument_model	Illumina NextSeq
+single_cell_sequencing_file	instrument_model	Illumina NovaSeq
+single_cell_sequencing_file	instrument_model	Ion Torrent PGM
+single_cell_sequencing_file	instrument_model	Ion Torrent Proton
+single_cell_sequencing_file	instrument_model	Ion Torrent S5
+single_cell_sequencing_file	instrument_model	Ion Torrent S5 XL
+single_cell_sequencing_file	instrument_model	MinION
+single_cell_sequencing_file	instrument_model	NextSeq 500
+single_cell_sequencing_file	instrument_model	NextSeq 550
+single_cell_sequencing_file	instrument_model	Not Reported
+single_cell_sequencing_file	instrument_model	Other
+single_cell_sequencing_file	instrument_model	PacBio RS
+single_cell_sequencing_file	instrument_model	PacBio RS II
+single_cell_sequencing_file	instrument_model	PromethION
+single_cell_sequencing_file	instrument_model	Unknown
+single_cell_sequencing_file	library_id	STRING
+single_cell_sequencing_file	library_layout	NA
+single_cell_sequencing_file	library_layout	Paired end
+single_cell_sequencing_file	library_layout	Single end
+single_cell_sequencing_file	library_selection	5-methylcytidine antibody
+single_cell_sequencing_file	library_selection	Affinity Enrichment
+single_cell_sequencing_file	library_selection	CAGE
+single_cell_sequencing_file	library_selection	CF-H
+single_cell_sequencing_file	library_selection	CF-M
+single_cell_sequencing_file	library_selection	CF-S
+single_cell_sequencing_file	library_selection	CF-T
+single_cell_sequencing_file	library_selection	ChIP
+single_cell_sequencing_file	library_selection	DNAse
+single_cell_sequencing_file	library_selection	HMPR
+single_cell_sequencing_file	library_selection	Hybrid Selection
+single_cell_sequencing_file	library_selection	Inverse rRNA
+single_cell_sequencing_file	library_selection	MBD2 protein methyl-CpG binding domain
+single_cell_sequencing_file	library_selection	MDA
+single_cell_sequencing_file	library_selection	MF
+single_cell_sequencing_file	library_selection	MNase
+single_cell_sequencing_file	library_selection	MSLL
+single_cell_sequencing_file	library_selection	Not applicable
+single_cell_sequencing_file	library_selection	Oligo-dT
+single_cell_sequencing_file	library_selection	Other
+single_cell_sequencing_file	library_selection	PCR
+single_cell_sequencing_file	library_selection	Padlock probes capture method
+single_cell_sequencing_file	library_selection	Poly-T Enrichment
+single_cell_sequencing_file	library_selection	PolyA
+single_cell_sequencing_file	library_selection	RACE
+single_cell_sequencing_file	library_selection	RANDOM
+single_cell_sequencing_file	library_selection	RANDOM PCR
+single_cell_sequencing_file	library_selection	RT-PCR
+single_cell_sequencing_file	library_selection	Random
+single_cell_sequencing_file	library_selection	Random PCR
+single_cell_sequencing_file	library_selection	Reduced Representation
+single_cell_sequencing_file	library_selection	Repeat fractionation
+single_cell_sequencing_file	library_selection	Restriction Digest
+single_cell_sequencing_file	library_selection	Size fractionation
+single_cell_sequencing_file	library_selection	Unspecified
+single_cell_sequencing_file	library_selection	cDNA
+single_cell_sequencing_file	library_selection	cDNA oligo_dT
+single_cell_sequencing_file	library_selection	cDNA random priming
+single_cell_sequencing_file	library_selection	cDNA_oligo_dT
+single_cell_sequencing_file	library_selection	cDNA_randomPriming
+single_cell_sequencing_file	library_selection	miRNA Size Fractionation
+single_cell_sequencing_file	library_selection	other
+single_cell_sequencing_file	library_selection	rRNA Depletion
+single_cell_sequencing_file	library_selection	repeat fractionation
+single_cell_sequencing_file	library_selection	size fractionation
+single_cell_sequencing_file	library_selection	unspecified
+single_cell_sequencing_file	library_source	Bulk cells
+single_cell_sequencing_file	library_source	Bulk nuclei
+single_cell_sequencing_file	library_source	Bulk tissue
+single_cell_sequencing_file	library_source	DNA
+single_cell_sequencing_file	library_source	Genomic
+single_cell_sequencing_file	library_source	Genomic Single Cell
+single_cell_sequencing_file	library_source	Metagenomic
+single_cell_sequencing_file	library_source	Metatranscriptomic
+single_cell_sequencing_file	library_source	NA
+single_cell_sequencing_file	library_source	Other
+single_cell_sequencing_file	library_source	RNA
+single_cell_sequencing_file	library_source	Single-cells
+single_cell_sequencing_file	library_source	Single-nuclei
+single_cell_sequencing_file	library_source	Synthetic
+single_cell_sequencing_file	library_source	Transcriptomic
+single_cell_sequencing_file	library_source	Transcriptomic Single Cell
+single_cell_sequencing_file	library_source	Viral
+single_cell_sequencing_file	library_source	Viral RNA
+single_cell_sequencing_file	library_strategy	AMPLICON
+single_cell_sequencing_file	library_strategy	ATAC-seq
+single_cell_sequencing_file	library_strategy	Bisulfite-Seq
+single_cell_sequencing_file	library_strategy	CLONE
+single_cell_sequencing_file	library_strategy	CLONEEND
+single_cell_sequencing_file	library_strategy	CTS
+single_cell_sequencing_file	library_strategy	ChIA-PET
+single_cell_sequencing_file	library_strategy	ChIP-Seq
+single_cell_sequencing_file	library_strategy	DNase-Hypersensitivity
+single_cell_sequencing_file	library_strategy	EST
+single_cell_sequencing_file	library_strategy	FAIRE-seq
+single_cell_sequencing_file	library_strategy	FINISHING
+single_cell_sequencing_file	library_strategy	FL-cDNA
+single_cell_sequencing_file	library_strategy	Hi-C
+single_cell_sequencing_file	library_strategy	MBD-Seq
+single_cell_sequencing_file	library_strategy	MNase-Seq
+single_cell_sequencing_file	library_strategy	MRE-Seq
+single_cell_sequencing_file	library_strategy	MeDIP-Seq
+single_cell_sequencing_file	library_strategy	Other
+single_cell_sequencing_file	library_strategy	POOLCLONE
+single_cell_sequencing_file	library_strategy	RAD-Seq
+single_cell_sequencing_file	library_strategy	RIP-Seq
+single_cell_sequencing_file	library_strategy	RNA-Seq
+single_cell_sequencing_file	library_strategy	SELEX
+single_cell_sequencing_file	library_strategy	Synthetic-Long-Read
+single_cell_sequencing_file	library_strategy	Targeted-Capture
+single_cell_sequencing_file	library_strategy	Tethered Chromatin Conformation Capture
+single_cell_sequencing_file	library_strategy	Tn-Seq
+single_cell_sequencing_file	library_strategy	Validation
+single_cell_sequencing_file	library_strategy	WCS
+single_cell_sequencing_file	library_strategy	WGA
+single_cell_sequencing_file	library_strategy	WGS
+single_cell_sequencing_file	library_strategy	WXS
+single_cell_sequencing_file	library_strategy	miRNA-Seq
+single_cell_sequencing_file	library_strategy	ncRNA-Seq
+single_cell_sequencing_file	library_strategy	ssRNA-seq
+single_cell_sequencing_file	md5sum	STRING
+single_cell_sequencing_file	number_of_bp	INTEGER
+single_cell_sequencing_file	number_of_reads	INTEGER
+single_cell_sequencing_file	platform	AB Capillary
+single_cell_sequencing_file	platform	ABI Solid
+single_cell_sequencing_file	platform	BGISEQ
+single_cell_sequencing_file	platform	Complete Genomics
+single_cell_sequencing_file	platform	Helicos
+single_cell_sequencing_file	platform	Illumina
+single_cell_sequencing_file	platform	Ion Torrent
+single_cell_sequencing_file	platform	LS 454
+single_cell_sequencing_file	platform	Oxford Nanopore
+single_cell_sequencing_file	platform	PacBio SMRT
+single_cell_sequencing_file	reference_genome_assembly	STRING
+single_cell_sequencing_file	sequence_alignment_software	STRING
 study	acl	STRING
 study	consent	STRING
 study	consent_shorthand	STRING
@@ -8199,24 +8409,46 @@ of_diagnosis	diagnosis	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
 of_imaging_file	imaging_file	sample	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
-of_participant	participant	study_arm	NA	NA
 of_participant	participant	study	NA	NA
+of_participant	participant	study_arm	NA	NA
 of_pdx	pdx	sample	NA	NA
 of_publication	publication	study	NA	NA
-of_sample	sample	study	NA	NA
 of_sample	sample	participant	NA	NA
+of_sample	sample	study	NA	NA
 of_sample_diagnosis	sample_diagnosis	sample	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
+of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
 of_synonym	synonym	participant	NA	NA
-of_synonym	synonym	sample	NA	NA
 of_synonym	synonym	study	NA	NA
+of_synonym	synonym	sample	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
+Cell_Barcode	Unique cell identifier. Determines which cell the read originated from
+Cryopreserved_Cells_in_Sample	Indicate if library preparation was based on revived frozen cells.
+Dissociation_Method	The tissue dissociation method used for scRNASeq assays
+End_Bias	The end of the cDNA molecule that is preferentially sequenced, e.g. 3/5 prime tag/end or the full length transcript
+Input_Cells_and_Nuclei	Number of cells and number of nuclei input
+Library_Construction_Method	Process which results in the creation of a library from fragments of DNA using cloning vectors or oligonucleotides with the role of adaptors [OBI_0000711]
+Library_Preparation_Date	The date that the libraries were prepared for sequencing
+Nucleic_Acid_Capture_Date	Date of nucleic acid capture part of library construction
+Paired_End	A library layout type
+Protocols_Link	Protocols.io ID  or DOI link to a free/open protocol resource describing in detail the assay protocol (e.g. surface markers used in Smart-seq, dissociation duration,  lot/batch numbers for key reagents such as primers, sequencing reagent kits, etc.).
+Read1	Read 1 content description
+Read2	Read 2 content description
+Reverse_Transcription_Primer_Feature_barcoding	An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
+Reverse_Transcription_Primer_Oligo_dT_Poly_dT	An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
+Reverse_Transcription_Primer_Random	An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
+Sequencing_Library_Construction_Date	Date of sequencing library construction part of library construction
+Single_Cell_Dissociation_Date	The date when the sample was dissociated and cells were isolated
+Single_Cell_Isolation_Method	The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)
+Spike_In	A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
+Total_Number_of_Input_Cells	Number of cells loaded/placed on plates
+UMI	Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
 acl	Specifies whether the data in a repository is open access or controlled access.
 adult_or_childhood_study	Specifies whether a study is using adults and/or children as subjects.
 age_at_diagnosis	Age at the time of diagnosis expressed in number of days since birth.
@@ -8224,6 +8456,8 @@ alternate_participant_id	A synonymous or alternate ID for a participant that is 
 alternate_sample_id	A synonymous or alternate ID for a sample that is stored in another study or repository.
 anatomic_site	The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
 avg_read_length	The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.
+cDNA_Length	cDNA Length
+cDNA_Offset	cDNA Offset
 checksum_algorithm	Cryptographic checksum algorithm used for 'checksum_value' field. Available for use of something other than md5.
 checksum_value	One or more characters using a irreversible unique number generated from a string of text to identify a set of related electronic records.
 clinical_trial_arm	ARM of the clinical trial.
@@ -8249,6 +8483,7 @@ email_address	The email address of the personnel.
 ethnicity	The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
 experimental_strategy_and_data_subtype	The experimental strategy used for the study or the data subtypes that exist in the study.
 external_url	The url of the study (often a dbGaP study page).
+family_id	Identifer of a family of a group of participants.
 file_description	A freeform description of the file.
 file_mapping_level	Describes if the file belongs to a Participant, a Sample, or a Study.
 file_name	The name by which a set of related records (either written or electronic) are known.

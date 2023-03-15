@@ -1,6 +1,24 @@
 PropDefinitions:
   #single_cell_sequencing_file
-  Cell Barcode:
+  cDNA_Offset:
+    Desc: cDNA Offset
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: cDNA Offset
+    Type: string
+    Req: false
+    Private: false
+  cDNA_Length:
+    Desc: cDNA Length
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: cDNA Length
+    Type: string
+    Req: false
+    Private: false
+  Cell_Barcode:
     Desc: Unique cell identifier. Determines which cell the read originated from
     Term:
       - Origin: HTAN
@@ -9,7 +27,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Cryopreserved Cells in Sample:
+  Cryopreserved_Cells_in_Sample:
     Desc: Indicate if library preparation was based on revived frozen cells.
     Term:
       - Origin: HTAN
@@ -18,7 +36,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Dissociation Method:
+  Dissociation_Method:
     Desc: The tissue dissociation method used for scRNASeq assays
     Term:
       - Origin: HTAN
@@ -27,7 +45,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  End Bias:
+  End_Bias:
     Desc: The end of the cDNA molecule that is preferentially sequenced, e.g. 3/5 prime tag/end or the full length transcript
     Term:
       - Origin: HTAN
@@ -36,7 +54,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Input Cells and Nuclei:
+  Input_Cells_and_Nuclei:
     Desc: Number of cells and number of nuclei input
     Term:
       - Origin: HTAN
@@ -45,7 +63,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Library Construction Method:
+  Library_Construction_Method:
     Desc: Process which results in the creation of a library from fragments of DNA using cloning vectors or oligonucleotides with the role of adaptors [OBI_0000711]
     Term:
       - Origin: HTAN
@@ -54,7 +72,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Library Preparation Date:
+  Library_Preparation_Date:
     Desc: The date that the libraries were prepared for sequencing
     Term:
       - Origin: HTAN
@@ -63,7 +81,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Nucleic Acid Capture Date:
+  Nucleic_Acid_Capture_Date:
     Desc: Date of nucleic acid capture part of library construction
     Term:
       - Origin: HTAN
@@ -72,7 +90,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Paired End:
+  Paired_End:
     Desc: A library layout type
     Term:
       - Origin: HTAN
@@ -81,7 +99,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Protocols  Link:
+  Protocols_Link:
     Desc: Protocols.io ID  or DOI link to a free/open protocol resource describing in detail the assay protocol (e.g. surface markers used in Smart-seq, dissociation duration,  lot/batch numbers for key reagents such as primers, sequencing reagent kits, etc.).
     Term:
       - Origin: HTAN
@@ -108,7 +126,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Reverse Transcription Primer Oligo-dT, Poly-dT:
+  Reverse_Transcription_Primer_Oligo-dT,Poly-dT:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
       - Origin: HTAN
@@ -117,7 +135,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Reverse Transcription Primer Feature barcoding:
+  Reverse_Transcription_Primer_Feature_barcoding:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
       - Origin: HTAN
@@ -126,7 +144,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Reverse Transcription Primer Random:
+  Reverse_Transcription_Primer_Random:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
       - Origin: HTAN
@@ -135,7 +153,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Sequencing Library Construction Date:
+  Sequencing_Library_Construction_Date:
     Desc: Date of sequencing library construction part of library construction
     Term:
       - Origin: HTAN
@@ -144,7 +162,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Single Cell Dissociation Date:
+  Single_Cell_Dissociation_Date:
     Desc: The date when the sample was dissociated and cells were isolated
     Term:
       - Origin: HTAN
@@ -153,7 +171,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Single Cell Isolation Method:
+  Single_Cell_Isolation_Method:
     Desc: The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)
     Term:
       - Origin: HTAN
@@ -162,7 +180,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Spike In:
+  Spike_In:
     Desc: A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
     Term:
       - Origin: HTAN
@@ -171,7 +189,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Total Number of Input Cells:
+  Total_Number_of_Input_Cells:
     Desc: Number of cells loaded/placed on plates
     Term:
       - Origin: HTAN

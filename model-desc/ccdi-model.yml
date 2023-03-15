@@ -125,6 +125,57 @@ Nodes:
       - sample_tumor_status
       - sample_description
       - alternate_sample_id
+  single_cell_sequencing_file:
+    Props:
+      # - file_id #system generated GUID/PK
+      - file_name
+      - file_type
+      - file_description
+      - file_size
+      - md5sum
+      - file_url_in_cds
+      - dcf_indexd_guid
+      - library_id # sra req'd
+      - library_selection # sra req'd
+      - library_strategy  # sra req'd
+      - library_layout  # sra req'd # paired end, single, moved from submission
+      - library_source  # sra req'd # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
+      - number_of_bp  # sra req'd
+      - number_of_reads  # sra req'd
+      - design_description
+      - platform
+      - instrument_model
+      - avg_read_length # sra req'd
+      - coverage  # sra req'd
+      - reference_genome_assembly  # sra req'd
+      - checksum_algorithm
+      - checksum_value
+      - custom_assembly_fasta_file_for_alignment
+      - file_mapping_level
+      - sequence_alignment_software
+      - cDNA_Offset
+      - cDNA_Length
+      - Cell_Barcode
+      - Cryopreserved_Cells_in_Sample
+      - Dissociation_Method
+      - End_Bias
+      - Input_Cells_and_Nuclei
+      - Library_Construction_Method
+      - Library_Preparation_Date
+      - Nucleic_Acid_Capture_Date
+      - Paired_End
+      - Protocols_Link
+      - Read1
+      - Read2
+      - Reverse_Transcription_Primer_Oligo_dT_Poly_dT
+      - Reverse_Transcription_Primer_Feature_barcoding
+      - Reverse_Transcription_Primer_Random
+      - Sequencing_Library_Construction_Date
+      - Single_Cell_Dissociation_Date
+      - Single_Cell_Isolation_Method
+      - Spike_In
+      - Total_Number_of_Input_Cells
+      - UMI
   sequencing_file: # 01.03.22 pdunn
     Props:
       # - file_id #system generated GUID/PK
@@ -281,6 +332,12 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: sequencing_file
+        Dst: sample
+  of_single_cell_sequencing_file:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: single_cell_sequencing_file
         Dst: sample
   of_study_admin: 
     Props: null

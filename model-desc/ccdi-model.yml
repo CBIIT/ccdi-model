@@ -125,6 +125,57 @@ Nodes:
       - sample_tumor_status
       - sample_description
       - alternate_sample_id
+  single_cell_sequencing_file:
+    Props:
+      # - file_id #system generated GUID/PK
+      - file_name
+      - file_type
+      - file_description
+      - file_size
+      - md5sum
+      - file_url_in_cds
+      - dcf_indexd_guid
+      - library_id # sra req'd
+      - library_selection # sra req'd
+      - library_strategy  # sra req'd
+      - library_layout  # sra req'd # paired end, single, moved from submission
+      - library_source  # sra req'd # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
+      - number_of_bp  # sra req'd
+      - number_of_reads  # sra req'd
+      - design_description
+      - platform
+      - instrument_model
+      - avg_read_length # sra req'd
+      - coverage  # sra req'd
+      - reference_genome_assembly  # sra req'd
+      - checksum_algorithm
+      - checksum_value
+      - custom_assembly_fasta_file_for_alignment
+      - file_mapping_level
+      - sequence_alignment_software
+      - cDNA Offset
+      - cDNA Length
+      - Cell Barcode
+      - Cryopreserved Cells in Sample
+      - Dissociation Method
+      - End Bias
+      - Input Cells and Nuclei
+      - Library Construction Method
+      - Library Preparation Date
+      - Nucleic Acid Capture Date
+      - Paired End
+      - Protocols  Link
+      - Read1
+      - Read2
+      - Reverse Transcription Primer
+      - Reverse Transcription Primer
+      - Reverse Transcription Primer
+      - Sequencing Library Construction Date
+      - Single Cell Dissociation Date
+      - Single Cell Isolation Method
+      - Spike In
+      - Total Number of Input Cells
+      - UMI
   sequencing_file: # 01.03.22 pdunn
     Props:
       # - file_id #system generated GUID/PK

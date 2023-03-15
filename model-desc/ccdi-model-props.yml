@@ -1,4 +1,194 @@
 PropDefinitions:
+  #single_cell_sequencing_file
+  Cell Barcode:
+    Desc: Unique cell identifier. Determines which cell the read originated from
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Cell Barcode
+    Type: string
+    Req: true
+    Private: false
+  Cryopreserved Cells in Sample:
+    Desc: Indicate if library preparation was based on revived frozen cells.
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Cryopreserved Cells in Sample
+    Type: string
+    Req: true
+    Private: false
+  Dissociation Method:
+    Desc: The tissue dissociation method used for scRNASeq assays
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Dissociation Method
+    Type: string
+    Req: true
+    Private: false
+  End Bias:
+    Desc: The end of the cDNA molecule that is preferentially sequenced, e.g. 3/5 prime tag/end or the full length transcript
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: End Bias
+    Type: string
+    Req: true
+    Private: false
+  Input Cells and Nuclei:
+    Desc: Number of cells and number of nuclei input
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Input Cells and Nuclei
+    Type: string
+    Req: true
+    Private: false
+  Library Construction Method:
+    Desc: Process which results in the creation of a library from fragments of DNA using cloning vectors or oligonucleotides with the role of adaptors [OBI_0000711]
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Library Construction Method
+    Type: string
+    Req: true
+    Private: false
+  Library Preparation Date:
+    Desc: The date that the libraries were prepared for sequencing
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Library Preparation Date
+    Type: string
+    Req: true
+    Private: false
+  Nucleic Acid Capture Date:
+    Desc: Date of nucleic acid capture part of library construction
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Nucleic Acid Capture Date
+    Type: string
+    Req: true
+    Private: false
+  Paired End:
+    Desc: A library layout type
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Paired End
+    Type: string
+    Req: true
+    Private: false
+  Protocols  Link:
+    Desc: Protocols.io ID  or DOI link to a free/open protocol resource describing in detail the assay protocol (e.g. surface markers used in Smart-seq, dissociation duration,  lot/batch numbers for key reagents such as primers, sequencing reagent kits, etc.).
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Protocols  Link
+    Type: string
+    Req: true
+    Private: false
+  Read1:
+    Desc: Read 1 content description
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Read1
+    Type: string
+    Req: true
+    Private: false
+  Read2:
+    Desc: Read 2 content description
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Read2
+    Type: string
+    Req: true
+    Private: false
+  Reverse Transcription Primer:
+    Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Reverse Transcription Primer
+    Type: string
+    Req: true
+    Private: false
+  Reverse Transcription Primer:
+    Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Reverse Transcription Primer
+    Type: string
+    Req: true
+    Private: false
+  Reverse Transcription Primer:
+    Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Reverse Transcription Primer
+    Type: string
+    Req: true
+    Private: false
+  Sequencing Library Construction Date:
+    Desc: Date of sequencing library construction part of library construction
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Sequencing Library Construction Date
+    Type: string
+    Req: true
+    Private: false
+  Single Cell Dissociation Date:
+    Desc: The date when the sample was dissociated and cells were isolated
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Single Cell Dissociation Date
+    Type: string
+    Req: true
+    Private: false
+  Single Cell Isolation Method:
+    Desc: The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Single Cell Isolation Method
+    Type: string
+    Req: true
+    Private: false
+  Spike In:
+    Desc: A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Spike In
+    Type: string
+    Req: true
+    Private: false
+  Total Number of Input Cells:
+    Desc: Number of cells loaded/placed on plates
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: Total Number of Input Cells
+    Type: string
+    Req: true
+    Private: false
+  UMI:
+    Desc: Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
+    Term:
+      - Origin: HTAN
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Value: UMI
+    Type: string
+    Req: true
+    Private: false
   #family_relationship
   related_to_participant_id:
     Desc: Participant related to another participant

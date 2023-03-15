@@ -167,9 +167,9 @@ Nodes:
       - Protocols  Link
       - Read1
       - Read2
-      - Reverse Transcription Primer
-      - Reverse Transcription Primer
-      - Reverse Transcription Primer
+      - Reverse Transcription Primer Oligo-dT, Poly-dT
+      - Reverse Transcription Primer Feature barcoding
+      - Reverse Transcription Primer Random
       - Sequencing Library Construction Date
       - Single Cell Dissociation Date
       - Single Cell Isolation Method

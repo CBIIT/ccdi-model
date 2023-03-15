@@ -126,7 +126,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Reverse_Transcription_Primer_Oligo-dT,Poly-dT:
+  Reverse_Transcription_Primer_Oligo-dT_Poly-dT:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
       - Origin: HTAN

@@ -1,5 +1,11 @@
 PropDefinitions:
   #follow_up
+  follow_up_id:
+    Desc: A unique sequence of alphanumeric characters used to identify the follow up event.
+    Type: string
+    Req: true
+    Private: false  
+    Key: true
   days_to_follow_up:
     Desc: Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact.
     Term:
@@ -22,7 +28,7 @@ PropDefinitions:
       - risk_factor
       - other
     Req: true
-    Prvate: false
+    Private: false
   adverse_event:
     Desc: Common Terminology Criteria for Adverse Events Version 4.0 Low Level Term Name
     Term:

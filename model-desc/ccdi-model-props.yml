@@ -4,7 +4,7 @@ PropDefinitions:
     Desc: Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact.
     Term:
       - Origin: caDSR
-        Code: 6154727
+        Code: '6154727'
         Value: days_to_follow_up
     Type: integer
     Req: true
@@ -13,7 +13,7 @@ PropDefinitions:
     Desc: NCI-GLOSS Definition:  Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends
     Term:
       - Origin: caDSR
-        Code: 3119787
+        Code: '3119787'
         Value: Patient Follow-up Type
     Enum:
       - adverse_event
@@ -826,7 +826,7 @@ PropDefinitions:
     Desc: The text term used to describe a comorbidity disease, which coexists with the patient's malignant disease.
     Term:
       - Origin: caDSR
-        Code: 2970715
+        Code: '2970715'
         Value: Person Comorbidity Condition Name
     Enum:
       - "Acute Renal Failure"
@@ -978,7 +978,7 @@ PropDefinitions:
     Desc: The text term used to describe the method used to diagnose the patient's comorbidity disease.
     Term: 
       - Origin: caDSR
-        Code: 6142386
+        Code: '6142386'
         Value: Comorbidity Disease Diagnosis Method Type
     Enum:
       - "Histology"
@@ -992,7 +992,7 @@ PropDefinitions:
     Desc: Code assigned to describe the patient's response or outcome to the disease.
     Term:
       - Origin: caDSR
-        Code: 5750671
+        Code: '5750671'
         Value: Disease Response Code
     Enum:
       - "AJ-Adjuvant Therapy"
@@ -1034,7 +1034,7 @@ PropDefinitions:
     Desc: The text term used to describe a risk factor the patient had at the time of or prior to their diagnosis.
     Term:
       - Origin: caDSR
-        Code: 6142389
+        Code: '6142389'
         Value: Risk Factor 
     Enum:
       - "Alcohol Consumption"
@@ -1136,7 +1136,7 @@ PropDefinitions:
     Desc: NCI-GLOSS Definition:  Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends
     Term: 
       - Origin: caDSR
-        Code: 3119787
+        Code: '3119787'
         Value: Follow Up
     Enum:
       - "barretts_esophagus_goblet_cells_present"

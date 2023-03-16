@@ -1,4 +1,14 @@
 PropDefinitions:
+  #follow_up
+  days_to_follow_up:
+    Desc: Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact.
+    Term:
+      - Origin: caDSR
+        Code: 6154727
+        Value: days_to_follow_up
+    Type: integer
+    Req: true
+    Private: false
   #single_cell_sequencing_file
   cDNA_Offset:
     Desc: cDNA Offset

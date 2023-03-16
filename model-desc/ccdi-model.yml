@@ -3,7 +3,7 @@ Nodes:
   follow_up:
     Props:
       - days_to_follow_up 
-      - follow_up_categoy
+      - follow_up_category
       - adverse_event
       - comorbidity
       - comorbidity_method_of_diagnosis

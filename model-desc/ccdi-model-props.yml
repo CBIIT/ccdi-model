@@ -29,7 +29,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3125302'
         Value: adverse event
-     Enum:
+    Enum:
       - "Abdominal Distension"
       - "Abdominal Infection"
       - "Abdominal Pain"

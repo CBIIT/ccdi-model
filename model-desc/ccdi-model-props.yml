@@ -819,7 +819,7 @@ PropDefinitions:
       - "Wound Complication"
       - "Wound Dehiscence"
       - "Wound Infection"
-      - "Wrist Fracture
+      - "Wrist Fracture"
     Req: false
     Private: false
   comorbidity:
@@ -971,7 +971,7 @@ PropDefinitions:
       - "Ulcerative Colitis"
       - "Wagr Syndrome"
       - "Unknown"
-      - "Not Reported
+      - "Not Reported"
     Req: false
     Private: false          
   comorbidity_method_of_diagnosis:

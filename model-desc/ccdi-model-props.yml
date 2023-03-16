@@ -1133,7 +1133,7 @@ PropDefinitions:
     Req: false
     Private: false  
   follow_up_other:
-    Desc: NCI-GLOSS Definition:  Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends
+    Desc: NCI-GLOSS Definition  Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends
     Term: 
       - Origin: caDSR
         Code: '3119787'

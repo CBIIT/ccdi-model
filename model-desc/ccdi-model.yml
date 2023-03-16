@@ -1,5 +1,15 @@
 Handle: CDA
 Nodes:
+  follow_up:
+    Props:
+      - days_to_follow_up 
+      - follow_up_categoy
+      - adverse_event
+      - comorbidity
+      - comorbidity_method_of_diagnosis
+      - disease_response
+      - risk_factor
+      - follow_up_other
   family_relationship:
     Props:
       - related_to_participant_id

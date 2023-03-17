@@ -1,21 +1,5 @@
 Handle: CDA
 Nodes:
-  family_relationship:
-    Props:
-      - related_to_participant_id
-      - relationship
-      - family_id
-  pdx: #27jan2023 pdunn
-    Props: 
-      - model_id
-      - mouse_strain
-      - strain_immune_system_humanized
-      - implantation_type
-      - implantation_site
-      - type_of_humanization
-      - tumor_preparation
-      - tumor_characterization_method
-      - tumor_not_mus_or_ebv_origin
   clinical_measure_file: # 09.20.22 pdunn
     Props:
       # - file_id #system generated GUID/PK
@@ -54,28 +38,11 @@ Nodes:
      # - progression_or_recurrence
      # - tissue_or_organ_of_origin
      # - site_of_resection_or_biopsy
-  sample_diagnosis:
+  family_relationship:
     Props:
-      - sample_diagnosis_id
-      - diagnosis_icd_o
-      - diagnosis_icd_cm
-      - diagnosis_finer_resolution
-      - tumor_classification
-      - age_at_diagnosis
-      - days_to_recurrence
-      - last_known_disease_status
-      - days_to_last_known_disease_status
-      - days_to_last_followup
-      - tumor_grade
-      - tumor_stage_clinical_t
-      - tumor_stage_clinical_n
-      - tumor_stage_clinical_m
-      #- tumor_morphology
-      #- tumor_incidence_type # primary, metastatic, recurrence, progression
-      # - primary_site
-      # - tissue_or_organ_of_origin
-      # - site_of_resection_or_biopsy
-      # - progression_or_recurrence 
+      - related_to_participant_id
+      - relationship
+      - family_id
   imaging_file: # 01.03.22 pdunn
     Props:
       - file_name
@@ -93,6 +60,44 @@ Nodes:
       - checksum_algorithm
       - checksum_value
       - file_mapping_level
+  molecular_test:
+    Props:
+      - molecular_test_id
+      - start_days_from_index
+      - gene_symbol
+      - molecular_analysis_method
+      - test_result
+      - aa_change
+      - antigen
+      - biospecimen_type
+      - blood_test_normal_range_upper
+      - blood_test_normal_range_lower
+      - cell_count
+      - chromosome
+      - copy_number
+      - cytoband
+      - exon
+      - histone_family
+      - histone_variant
+      - intron
+      - laboratory_test
+      - loci_abnormal_count
+      - loci_count
+      - locus
+      - mismatch_repair_mutation
+      - molecular_consequence
+      - pathogenicity
+      - ploidy
+      - second_exon
+      - second_gene_symbol
+      - specialized_molecular_test
+      - test_analyte_type
+      - test_units
+      - test_value
+      - transcript
+      - variant_origin
+      - variant_type
+      - zygosity  
   methylation_array_file: # 09.20.22 pd
     Props:
       - file_name
@@ -113,6 +118,17 @@ Nodes:
       - ethnicity
       - alternate_participant_id
       # - dbgap_subject_id : store in synonym
+  pdx: #27jan2023 pdunn
+    Props: 
+      - model_id
+      - mouse_strain
+      - strain_immune_system_humanized
+      - implantation_type
+      - implantation_site
+      - type_of_humanization
+      - tumor_preparation
+      - tumor_characterization_method
+      - tumor_not_mus_or_ebv_origin
   publication: # 09.20.22 pd
      Props:
       - pubmed_id
@@ -126,6 +142,22 @@ Nodes:
       - sample_tumor_status
       - sample_description
       - alternate_sample_id
+  sample_diagnosis:
+    Props:
+      - sample_diagnosis_id
+      - diagnosis_icd_o
+      - diagnosis_icd_cm
+      - diagnosis_finer_resolution
+      - tumor_classification
+      - age_at_diagnosis
+      - days_to_recurrence
+      - last_known_disease_status
+      - days_to_last_known_disease_status
+      - days_to_last_followup
+      - tumor_grade
+      - tumor_stage_clinical_t
+      - tumor_stage_clinical_n
+      - tumor_stage_clinical_m
   single_cell_sequencing_file:
     Props:
       # - file_id #system generated GUID/PK
@@ -294,6 +326,12 @@ Relationships:
     Ends:
       - Src: methylation_array_file
         Dst: sample
+  of_molecular_test:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: molecular_test
+        Dst: participant
   of_participant: #09.20.22 pd
     Props: null
     Mul: many_to_one #will need to mod this to many_to_many if a participant is in >1 study

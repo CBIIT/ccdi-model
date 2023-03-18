@@ -1,6 +1,6 @@
 PropDefinitions:
-    #exposure_id
-    exposure_id:
+  #exposure
+  exposure_id:
     Desc: An internal or external identifier such as specimen identifier.
     Term:
       - Origin: caDSR

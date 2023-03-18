@@ -10,15 +10,6 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  start_days_from_index:
-    Desc: Number of days from the date of birth (index date) to the date of an event (e.g. exposure to environmental factors, treatment start, etc.).
-    Term:
-      - Origin: caDSR
-        Code: '8035915'
-        Value: start_days_from_index
-    Type: integer
-    Req: false
-    Private: false
   pack_years_smoked:
     Desc: Numeric computed value to represent lifetime tobacco exposure defined as number of cigarettes smoked per day x number of years smoked divided by 20.
     Term:

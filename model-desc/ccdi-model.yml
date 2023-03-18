@@ -331,6 +331,12 @@ Relationships:
     Ends:
       - Src: diagnosis
         Dst: participant
+  of_exposure:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: exposure
+        Dst: participant
   of_family_relationship:
     Props: null
     Mul: many_to_one

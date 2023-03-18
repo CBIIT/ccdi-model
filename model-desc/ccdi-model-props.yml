@@ -113,7 +113,7 @@ PropDefinitions:
     Req: false
     Private: false
   aa_change:
-    Desc: Alphanumeric value used to describe the amino acid change for a specific genetic variant. Example: R116Q.
+    Desc: Alphanumeric value used to describe the amino acid change for a specific genetic variant. Example R116Q.
     Term:
       - Origin: caDSR
         Code: '6142508'

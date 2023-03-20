@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit caf56c5
+commit d0c469c
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -10,7 +10,7 @@ clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
 clinical_measure_file	file_size	STRING
-clinical_measure_file	file_type	ARRAY(0x5585f924ca40)
+clinical_measure_file	file_type	ARRAY(0x563db93a7dd8)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
@@ -1674,7 +1674,7 @@ diagnosis	vital_status	Unknown
 diagnosis	vital_status	Unspecified
 family_relationship	family_id	STRING
 family_relationship	related_to_participant_id	STRING
-family_relationship	relationship	ARRAY(0x5585f9258320)
+family_relationship	relationship	ARRAY(0x563db9339578)
 family_relationship	relationship	string
 follow_up	adverse_event	Abdominal Distension
 follow_up	adverse_event	Abdominal Infection
@@ -2768,7 +2768,7 @@ imaging_file	file_mapping_level	Sample
 imaging_file	file_mapping_level	Study
 imaging_file	file_name	STRING
 imaging_file	file_size	STRING
-imaging_file	file_type	ARRAY(0x5585f924ca40)
+imaging_file	file_type	ARRAY(0x563db93a7dd8)
 imaging_file	file_type	string
 imaging_file	file_url_in_cds	STRING
 imaging_file	image_modality	STRING
@@ -2783,12 +2783,117 @@ methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
 methylation_array_file	file_size	STRING
-methylation_array_file	file_type	ARRAY(0x5585f924ca40)
+methylation_array_file	file_type	ARRAY(0x563db93a7dd8)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
 methylation_array_file	methylation_platform	STRING
 methylation_array_file	reporter_label	STRING
+molecular_test	aa_change	STRING
+molecular_test	antigen	ARRAY(0x563db9389c50)
+molecular_test	antigen	string
+molecular_test	biospecimen_type	ARRAY(0x563db93bb768)
+molecular_test	biospecimen_type	string
+molecular_test	blood_test_normal_range_lower	INTEGER
+molecular_test	blood_test_normal_range_upper	INTEGER
+molecular_test	cell_count	INTEGER
+molecular_test	chromosome	Not Reported
+molecular_test	chromosome	Unknown
+molecular_test	chromosome	chr1
+molecular_test	chromosome	chr10
+molecular_test	chromosome	chr11
+molecular_test	chromosome	chr12
+molecular_test	chromosome	chr13
+molecular_test	chromosome	chr14
+molecular_test	chromosome	chr15
+molecular_test	chromosome	chr16
+molecular_test	chromosome	chr17
+molecular_test	chromosome	chr18
+molecular_test	chromosome	chr19
+molecular_test	chromosome	chr2
+molecular_test	chromosome	chr20
+molecular_test	chromosome	chr21
+molecular_test	chromosome	chr22
+molecular_test	chromosome	chr23
+molecular_test	chromosome	chr3
+molecular_test	chromosome	chr4
+molecular_test	chromosome	chr5
+molecular_test	chromosome	chr6
+molecular_test	chromosome	chr7
+molecular_test	chromosome	chr8
+molecular_test	chromosome	chr9
+molecular_test	chromosome	chrM
+molecular_test	chromosome	chrX
+molecular_test	chromosome	chrY
+molecular_test	copy_number	INTEGER
+molecular_test	cytoband	STRING
+molecular_test	exon	STRING
+molecular_test	gene_symbol	STRING
+molecular_test	histone_family	H1
+molecular_test	histone_family	H2A
+molecular_test	histone_family	H2B
+molecular_test	histone_family	H3
+molecular_test	histone_family	H4
+molecular_test	histone_family	Not Reported
+molecular_test	histone_family	Unknown
+molecular_test	histone_variant	CENP-A
+molecular_test	histone_variant	H2A-Bbd
+molecular_test	histone_variant	H2A.X
+molecular_test	histone_variant	H2A.Z
+molecular_test	histone_variant	H2A.Z.1
+molecular_test	histone_variant	H2A.Z.2
+molecular_test	histone_variant	H2A.Z.2.2
+molecular_test	histone_variant	H3.1
+molecular_test	histone_variant	H3.2
+molecular_test	histone_variant	H3.3
+molecular_test	histone_variant	H3.5
+molecular_test	histone_variant	H3.X
+molecular_test	histone_variant	H3.Y
+molecular_test	histone_variant	H3t (H3.4)
+molecular_test	histone_variant	mH2A
+molecular_test	histone_variant	mH2A.1
+molecular_test	histone_variant	mH2A.2
+molecular_test	intron	STRING
+molecular_test	laboratory_test	ARRAY(0x563db9357388)
+molecular_test	laboratory_test	string
+molecular_test	loci_abnormal_count	INTEGER
+molecular_test	loci_count	INTEGER
+molecular_test	locus	STRING
+molecular_test	mismatch_repair_mutation	NA
+molecular_test	molecular_analysis_method	ARRAY(0x563db93bccd8)
+molecular_test	molecular_analysis_method	string
+molecular_test	molecular_consequence	NA
+molecular_test	molecular_test_id	STRING
+molecular_test	pathogenicity	NA
+molecular_test	ploidy	No
+molecular_test	ploidy	Yes
+molecular_test	second_exon	STRING
+molecular_test	second_gene_symbol	STRING
+molecular_test	specialized_molecular_test	STRING
+molecular_test	start_days_from_index	INTEGER
+molecular_test	test_analyte_type	DNA
+molecular_test	test_analyte_type	Not Reported
+molecular_test	test_analyte_type	Protein
+molecular_test	test_analyte_type	Total RNA
+molecular_test	test_analyte_type	Unknown
+molecular_test	test_analyte_type	mRNA
+molecular_test	test_analyte_type	miRNA
+molecular_test	test_result	ARRAY(0x563db935e870)
+molecular_test	test_result	string
+molecular_test	test_units	STRING
+molecular_test	test_value	STRING
+molecular_test	transcript	STRING
+molecular_test	variant_origin	Germline
+molecular_test	variant_origin	Somatic
+molecular_test	variant_origin	Unknown
+molecular_test	variant_type	ARRAY(0x563db93ff020)
+molecular_test	variant_type	string
+molecular_test	zygosity	Hemizygous
+molecular_test	zygosity	Heterozygous
+molecular_test	zygosity	Homozygous
+molecular_test	zygosity	Not Reported
+molecular_test	zygosity	Nullizygous
+molecular_test	zygosity	Unknown
 participant	alternate_participant_id	STRING
 participant	ethnicity	Hispanic or Latino
 participant	ethnicity	Not Hispanic or Latino
@@ -4474,7 +4579,7 @@ sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
 sequencing_file	file_size	STRING
-sequencing_file	file_type	ARRAY(0x5585f924ca40)
+sequencing_file	file_type	ARRAY(0x563db93a7dd8)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -4683,7 +4788,7 @@ single_cell_sequencing_file	file_mapping_level	Sample
 single_cell_sequencing_file	file_mapping_level	Study
 single_cell_sequencing_file	file_name	STRING
 single_cell_sequencing_file	file_size	STRING
-single_cell_sequencing_file	file_type	ARRAY(0x5585f924ca40)
+single_cell_sequencing_file	file_type	ARRAY(0x563db93a7dd8)
 single_cell_sequencing_file	file_type	string
 single_cell_sequencing_file	file_url_in_cds	STRING
 single_cell_sequencing_file	instrument_model	454 GS
@@ -9493,8 +9598,9 @@ of_family_relationship	family_relationship	participant	NA	NA
 of_follow_up	follow_up	participant	NA	NA
 of_imaging_file	imaging_file	sample	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
-of_participant	participant	study	NA	NA
+of_molecular_test	molecular_test	participant	NA	NA
 of_participant	participant	study_arm	NA	NA
+of_participant	participant	study	NA	NA
 of_pdx	pdx	sample	NA	NA
 of_publication	publication	study	NA	NA
 of_sample	sample	study	NA	NA
@@ -9507,8 +9613,8 @@ of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
 of_synonym	synonym	sample	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	participant	NA	NA
+of_synonym	synonym	study	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
@@ -9533,6 +9639,7 @@ Single_Cell_Isolation_Method	The method by which cells are isolated into individ
 Spike_In	A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
 Total_Number_of_Input_Cells	Number of cells loaded/placed on plates
 UMI	Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
+aa_change	Alphanumeric value used to describe the amino acid change for a specific genetic variant. Example R116Q.
 acl	Specifies whether the data in a repository is open access or controlled access.
 adult_or_childhood_study	Specifies whether a study is using adults and/or children as subjects.
 adverse_event	Common Terminology Criteria for Adverse Events Version 4.0 Low Level Term Name
@@ -9540,11 +9647,17 @@ age_at_diagnosis	Age at the time of diagnosis expressed in number of days since 
 alternate_participant_id	A synonymous or alternate ID for a participant that is stored in another study or repository.
 alternate_sample_id	A synonymous or alternate ID for a sample that is stored in another study or repository.
 anatomic_site	The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+antigen	The text term used to describe an antigen included in molecular testing.
 avg_read_length	The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.
+biospecimen_type	The text term used to describe the biological material used for testing, diagnostic, treatment or research purposes.
+blood_test_normal_range_lower	Numeric value used to describe the lower limit of the normal range used to describe a healthy individual at the institution where the test was completed.
+blood_test_normal_range_upper	Numeric value used to describe the upper limit of the normal range used to describe a healthy individual at the institution where the test was completed.
 cDNA_Length	cDNA Length
 cDNA_Offset	cDNA Offset
+cell_count	Numeric value used to describe the number of cells used for molecular testing.
 checksum_algorithm	Cryptographic checksum algorithm used for 'checksum_value' field. Available for use of something other than md5.
 checksum_value	One or more characters using a irreversible unique number generated from a string of text to identify a set of related electronic records.
+chromosome	The text term used to describe a chromosome targeted or included in molecular testing. If a specific genetic variant is being reported, this property can be used to capture the chromosome where that variant is located.
 clinical_trial_arm	ARM of the clinical trial.
 clinical_trial_identifier	Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
 clinical_trial_repository	The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
@@ -9552,8 +9665,10 @@ comorbidity	The text term used to describe a comorbidity disease, which coexists
 comorbidity_method_of_diagnosis	The text term used to describe the method used to diagnose the patient's comorbidity disease.
 consent	The numeric value of the consent group as designated by dbGaP full accession identifier, phs######.v#.p#.c#.
 consent_shorthand	The human readable value of the consent group as designated by dbGaP, examples GRU, HMB, IRB, NPU, etc.
+copy_number	Numeric value used to describe the number of times a section of the genome is repeated or copied within an insertion, duplication or deletion variant.
 coverage	Depth of coverage on assembly used. Found by (Unique Aligned Basecalls)/(Reference Length).
 custom_assembly_fasta_file_for_alignment	The name of the custom assembly fasta file used during alignment.
+cytoband	Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the cytoband where the variant is located. Format [chromosome][chromosome arm].[band+sub-bands]. Example 17p13.1.
 data_types	The types of data files that can be found in the study.
 days_to_follow_up	Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact.
 days_to_last_followup	Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
@@ -9570,6 +9685,7 @@ disease_phase	The stage or period of an individual's treatment process during wh
 disease_response	Code assigned to describe the patient's response or outcome to the disease.
 email_address	The email address of the personnel.
 ethnicity	The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
+exon	Exon number targeted or included in a molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located.
 experimental_strategy_and_data_subtype	The experimental strategy used for the study or the data subtypes that exist in the study.
 external_url	The url of the study (often a dbGaP study page).
 family_id	Identifer of a family of a group of participants.
@@ -9586,7 +9702,10 @@ follow_up_other	NCI-GLOSS Definition  Monitoring a person's health over time aft
 funding_agency	An organization/Sponsor that underwrites financial support for projects of a particular type. Typically, they process applications and award funds to the chosen qualified applicants.
 funding_source_program_name	The name of the program that is providing funding.
 gender	Text designations that identify gender. Gender is described as the assemblage of properties that distinguish people on the basis of their societal roles. [Explanatory Comment 1 Identification of gender is based upon self-report and may come from a form, questionnaire, interview, etc.]
+gene_symbol	The text term used to describe a gene targeted or included in molecular analysis. For rearrangements, this is shold be used to represent the reference gene.
 grant_id	Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
+histone_family	The text term used to describe the family, or classification of a group of basic proteins found in chromatin, called histones.
+histone_variant	The text term used to describe a specific histone variants, which are proteins that substitute for the core canonical histones.
 image_modality	The method in which the images are generated.
 imaging_instrument_model	The words used to describe the specific model of the instrument used to carry out an imaging experiment.
 imaging_platform	The words used to describe the instrument used to carry out an imaging experiment.
@@ -9594,15 +9713,24 @@ implantation_site	Anatomic site of xenograft.
 implantation_type	How the xenograft was introduced into host.
 institution	The institution of the personnel.
 instrument_model	The words used to describe the specific model of the instrument used to carry out a high-throughput sequencing experiment.
+intron	Intron number targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the intron where that variant is located.
+laboratory_test	The text term used to describe the medical testing used to diagnose, treat or further understand a patient's disease.
 last_known_disease_status	Text term that describes the last known state or condition of an individual's neoplasm.
 library_id	Short unique identifier for the sequencing library.
 library_layout	Paired-end or Single
 library_selection	The type of systematic actions performed to select or enrich DNA fragments used in analysis by high-throughput sequencing.
 library_source	The source of a sample collection of double stranded DNA fragments analyzed by high-throughput sequencing.
 library_strategy	The overall strategy for the collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
+loci_abnormal_count	Numeric value used to describe the number of loci determined to be abnormal.
+loci_count	Numeric value used to describe the number of loci tested.
+locus	Alphanumeric value used to describe the locus of a specific genetic variant. Example NM_001126114.
 md5sum	md5 hash.
 methylation_platform	The words used to describe the instrument used to carry out a methylation experiment.
+mismatch_repair_mutation	The yes/no/unknown indicator used to describe whether the mutation included in molecular testing was known to have an affect on the mismatch repair process.
 model_id	The PDX model identifier.
+molecular_analysis_method	The text term used to describe the method used for molecular analysis.
+molecular_consequence	The text term used to describe the molecular consequence of genetic variation.
+molecular_test_id	An internal or external identifier such as specimen identifier.
 mouse_strain	The host mouse strain to which the tumor is engrafted. May become an enum if terms are provided.
 number_of_bp	Count of unique basecalls present in the data. Please count each base only once if using secondary alignments.
 number_of_participants	The number of participants in the study for a disease, disorder, condition, or problem.
@@ -9612,10 +9740,12 @@ organism_species	The organism from which the sample is derived or originated.
 participant_age_at_collection	The age of the participant (in years) at the time of sample collection.
 participant_id	A unique sequence of alphanumeric characters used to identify the participant, in the investigation or study, of the specimen at it's point of origin.
 participant_list	The list of participant ids that are found in this clinical file. This is often used for files that have a large number of participants referenced within the file.
+pathogenicity	The text used to describe a variant's level of involvement in the cause of the patient's disease according to the standards outlined by the American College of Medical Genetics and Genomics (ACMG).
 personnel_name	The name of personnel who is an organizer in the study.
 personnel_type	The role of personnel in the study.
 phs_accession	A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP).
 platform	The words used to describe the instrument used to carry out a high-throughput sequencing experiment.
+ploidy	Text term used to describe the number of sets of homologous chromosomes.
 pubmed_id	The accession number used in PubMed.
 race	The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
 reference_genome_assembly	A published genetic sequence that is used as a reference sequence against which other sequences are compared. This is only if you are submitting a bam file aligned against a NCBI assembly.
@@ -9629,9 +9759,13 @@ sample_diagnosis_id	A unique sequence of alphanumeric characters used to identif
 sample_id	A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.
 sample_tumor_status	Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue.
 sample_type	Text term to describe the source of a biospecimen used for a laboratory test.
+second_exon	The second exon number involved in molecular variation. If a specific genetic variant is being reported, this property can be used to capture the second exon where that variant is located. This property is typically used for a translocation where two different locations are involved in the variation.
+second_gene_symbol	The text term used to describe a secondary gene targeted or included in molecular analysis. For rearrangements, this is should represent the location of the variant.
 sequence_alignment_software	The name of the software program used to align nucleotide sequencing data.
 size_of_data_being_uploaded	The numerical quantity documenting the physical magnitude of a set of related electronic records.
 software_package	The name of the software package that was used.
+specialized_molecular_test	Text term used to describe a specific test that is not covered in the list of molecular analysis methods.
+start_days_from_index	Number of days from the date of birth (index date) to the date of an event (test, test result).
 study_acronym	A one word acronym to represent the study.
 study_admin_id	A unique sequence of alphanumeric characters used to identify the admin in the investigation or study, which is used for linking metadata.
 study_data_types	The field of study(s) associated with the data collection.
@@ -9640,8 +9774,13 @@ study_name	The name applied to an investigational project, also known as Study T
 study_personnel_id	A unique sequence of alphanumeric characters used to identify the personnel in the investigation or study, which is used for linking metadata.
 study_short_title	The succinct version of the study title if it exists.
 synonym_id	The synonym of the id that is found in a different repository.
+test_analyte_type	The text term used to describe the type of analyte used for molecular testing.
+test_result	The text term used to describe the result of the molecular test. If the test result was a numeric value see test_value.
+test_units	The text term used to describe the units of the test value for a molecular test. This property is used in conjunction with test_value.
+test_value	The text term or numeric value used to describe a specific result of a molecular test.
 therapeutic_agents	Text identification of the individual agent(s) used as part of a prior treatment regimen.
 toronto_childhood_cancer_staging	For many of the malignancies that occur in childhood, TNM-based systems that document extent of disease at diagnosis are either inadequate or do not exist at all. Consensus guidelines for use by population cancer registries for staging childhood cancers (the Toronto Childhood Cancer Stage Guidelines) have been developed.
+transcript	Alphanumeric value used to describe the transcript of a specific genetic variant.
 treatment_id	A unique sequence of alphanumeric characters used to identify the treatment in the investigation or study, which is used for linking metadata.
 treatment_outcome	Text term that describes the patient's final outcome after the treatment was administered.
 treatment_type	Text term that describes the kind of treatment administered.
@@ -9653,4 +9792,7 @@ tumor_stage_clinical_m	Extent of the distant metastasis for the cancer based on 
 tumor_stage_clinical_n	Extent of the regional lymph node involvement for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
 tumor_stage_clinical_t	Extent of the primary cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
 type_of_humanization	How the mouse host was humanized.
+variant_origin	The text term used to describe the biological origin of a specific genetic variant.
+variant_type	The text term used to describe the type of genetic variation.
 vital_status	Participant vital status
+zygosity	The text term used to describe the zygosity of a specific genetic variant.

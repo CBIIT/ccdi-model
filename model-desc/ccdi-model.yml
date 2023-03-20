@@ -189,7 +189,7 @@ Nodes:
       - diagnosis_finer_resolution
       - tumor_classification
       #- age_at_diagnosis
-      - days_to_recurrence
+      #- days_to_recurrence
       - last_known_disease_status
       - days_to_last_known_disease_status
       - days_to_last_followup

@@ -375,8 +375,8 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
-      Src: medical_history
-      Dst: participant
+      - Src: medical_history
+        Dst: participant
   of_methylation_array_file: # 09.20.22 pd
     Props: null
     Mul: many_to_one

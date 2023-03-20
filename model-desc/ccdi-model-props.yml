@@ -11,7 +11,7 @@ PropDefinitions:
     Private: false
     Key: true
   medical_history_category:
-    Desc: The type of relevant condition from the subject's medical history.
+    Desc: "The type of relevant condition from the subject's medical history."
     Term: 
       - Origin: caDSR
         Code: '6413031'

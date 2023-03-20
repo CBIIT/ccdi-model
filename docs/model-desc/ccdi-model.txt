@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 3ebf6b6
+commit caf56c5
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -10,7 +10,7 @@ clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
 clinical_measure_file	file_size	STRING
-clinical_measure_file	file_type	ARRAY(0x556f2e845c80)
+clinical_measure_file	file_type	ARRAY(0x5585f924ca40)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
@@ -1674,8 +1674,1091 @@ diagnosis	vital_status	Unknown
 diagnosis	vital_status	Unspecified
 family_relationship	family_id	STRING
 family_relationship	related_to_participant_id	STRING
-family_relationship	relationship	ARRAY(0x556f2e7c1298)
+family_relationship	relationship	ARRAY(0x5585f9258320)
 family_relationship	relationship	string
+follow_up	adverse_event	Abdominal Distension
+follow_up	adverse_event	Abdominal Infection
+follow_up	adverse_event	Abdominal Pain
+follow_up	adverse_event	Abdominal Soft Tissue Necrosis
+follow_up	adverse_event	Abducens Nerve Disorder
+follow_up	adverse_event	Accessory Nerve Disorder
+follow_up	adverse_event	Acidosis
+follow_up	adverse_event	Acoustic Nerve Disorder NOS
+follow_up	adverse_event	Activated Partial Thromboplastin Time Prolonged
+follow_up	adverse_event	Acute Coronary Syndrome
+follow_up	adverse_event	Acute Kidney Injury
+follow_up	adverse_event	Adrenal Insufficiency
+follow_up	adverse_event	Adult Respiratory Distress Syndrome
+follow_up	adverse_event	Agitation
+follow_up	adverse_event	Akathisia
+follow_up	adverse_event	Alanine Aminotransferase Increased
+follow_up	adverse_event	Alcohol Intolerance
+follow_up	adverse_event	Alkaline Phosphatase Increased
+follow_up	adverse_event	Alkalosis
+follow_up	adverse_event	Allergic Reaction
+follow_up	adverse_event	Allergic Rhinitis
+follow_up	adverse_event	Alopecia
+follow_up	adverse_event	Amnesia
+follow_up	adverse_event	Anal Fistula
+follow_up	adverse_event	Anal Hemorrhage
+follow_up	adverse_event	Anal Mucositis
+follow_up	adverse_event	Anal Necrosis
+follow_up	adverse_event	Anal Pain
+follow_up	adverse_event	Anal Stenosis
+follow_up	adverse_event	Anal Ulcer
+follow_up	adverse_event	Anaphylaxis
+follow_up	adverse_event	Anemia
+follow_up	adverse_event	Ankle Fracture
+follow_up	adverse_event	Anorectal Infection
+follow_up	adverse_event	Anorexia
+follow_up	adverse_event	Anorgasmia
+follow_up	adverse_event	Anxiety
+follow_up	adverse_event	Aortic Injury
+follow_up	adverse_event	Aortic Valve Disease
+follow_up	adverse_event	Aphonia
+follow_up	adverse_event	Apnea
+follow_up	adverse_event	Appendicitis
+follow_up	adverse_event	Appendicitis Perforated
+follow_up	adverse_event	Arachnoiditis
+follow_up	adverse_event	Arterial Injury
+follow_up	adverse_event	Arteritis Infective
+follow_up	adverse_event	Arthralgia
+follow_up	adverse_event	Arthritis
+follow_up	adverse_event	Ascites
+follow_up	adverse_event	Aspartate Aminotransferase Increased
+follow_up	adverse_event	Aspiration
+follow_up	adverse_event	Asystole
+follow_up	adverse_event	Ataxia
+follow_up	adverse_event	Atelectasis
+follow_up	adverse_event	Atrial Fibrillation
+follow_up	adverse_event	Atrial Flutter
+follow_up	adverse_event	Atrioventricular Block Complete
+follow_up	adverse_event	Atrioventricular Block First Degree
+follow_up	adverse_event	Autoimmune Disorder
+follow_up	adverse_event	Avascular Necrosis
+follow_up	adverse_event	Azoospermia
+follow_up	adverse_event	Back Pain
+follow_up	adverse_event	Bile Duct Stenosis
+follow_up	adverse_event	Biliary Anastomotic Leak
+follow_up	adverse_event	Biliary Fistula
+follow_up	adverse_event	Biliary Tract Infection
+follow_up	adverse_event	Bladder Anastomotic Leak
+follow_up	adverse_event	Bladder Infection
+follow_up	adverse_event	Bladder Perforation
+follow_up	adverse_event	Bladder Spasm
+follow_up	adverse_event	Bloating
+follow_up	adverse_event	Blood Antidiuretic Hormone Abnormal
+follow_up	adverse_event	Blood Bilirubin Increased
+follow_up	adverse_event	Blood Corticotrophin Decreased
+follow_up	adverse_event	Blood Gonadotrophin Abnormal
+follow_up	adverse_event	Blood Prolactin Abnormal
+follow_up	adverse_event	Blood and Lymphatic System Disorders - Other
+follow_up	adverse_event	Blurred Vision
+follow_up	adverse_event	Body Odor
+follow_up	adverse_event	Bone Infection
+follow_up	adverse_event	Bone Marrow Hypocellular
+follow_up	adverse_event	Bone Pain
+follow_up	adverse_event	Brachial Plexopathy
+follow_up	adverse_event	Breast Atrophy
+follow_up	adverse_event	Breast Infection
+follow_up	adverse_event	Breast Pain
+follow_up	adverse_event	Bronchial Fistula
+follow_up	adverse_event	Bronchial Infection
+follow_up	adverse_event	Bronchial Obstruction
+follow_up	adverse_event	Bronchial Stricture
+follow_up	adverse_event	Bronchopleural Fistula
+follow_up	adverse_event	Bronchopulmonary Hemorrhage
+follow_up	adverse_event	Bronchospasm
+follow_up	adverse_event	Bruising
+follow_up	adverse_event	Bullous Dermatitis
+follow_up	adverse_event	Burn
+follow_up	adverse_event	Buttock Pain
+follow_up	adverse_event	CD4 Lymphocytes Decreased
+follow_up	adverse_event	CPK Increased
+follow_up	adverse_event	Capillary Leak Syndrome
+follow_up	adverse_event	Carbon Monoxide Diffusing Capacity Decreased
+follow_up	adverse_event	Cardiac Arrest
+follow_up	adverse_event	Cardiac Disorders - Other
+follow_up	adverse_event	Cardiac Troponin I Increased
+follow_up	adverse_event	Cardiac Troponin T Increased
+follow_up	adverse_event	Cataract
+follow_up	adverse_event	Catheter Related Infection
+follow_up	adverse_event	Cecal Hemorrhage
+follow_up	adverse_event	Cecal Infection
+follow_up	adverse_event	Central Nervous System Necrosis
+follow_up	adverse_event	Cerebrospinal Fluid Leakage
+follow_up	adverse_event	Cervicitis Infection
+follow_up	adverse_event	Cheilitis
+follow_up	adverse_event	Chest Pain - Cardiac
+follow_up	adverse_event	Chest Wall Pain
+follow_up	adverse_event	Chills
+follow_up	adverse_event	Cholecystitis
+follow_up	adverse_event	Cholesterol High
+follow_up	adverse_event	Chronic Kidney Disease
+follow_up	adverse_event	Chylothorax
+follow_up	adverse_event	Cognitive Disturbance
+follow_up	adverse_event	Colitis
+follow_up	adverse_event	Colonic Fistula
+follow_up	adverse_event	Colonic Hemorrhage
+follow_up	adverse_event	Colonic Obstruction
+follow_up	adverse_event	Colonic Perforation
+follow_up	adverse_event	Colonic Stenosis
+follow_up	adverse_event	Colonic Ulcer
+follow_up	adverse_event	Concentration Impairment
+follow_up	adverse_event	Conduction Disorder
+follow_up	adverse_event	Confusion
+follow_up	adverse_event	Congenital, Familial and Genetic Disorders - Other
+follow_up	adverse_event	Conjunctivitis
+follow_up	adverse_event	Conjunctivitis Infective
+follow_up	adverse_event	Constipation
+follow_up	adverse_event	Constrictive Pericarditis
+follow_up	adverse_event	Corneal Infection
+follow_up	adverse_event	Corneal Ulcer
+follow_up	adverse_event	Cough
+follow_up	adverse_event	Cranial Nerve Infection
+follow_up	adverse_event	Creatinine Increased
+follow_up	adverse_event	Cushingoid
+follow_up	adverse_event	Cystitis Noninfective
+follow_up	adverse_event	Cytokine Release Syndrome
+follow_up	adverse_event	Death NOS
+follow_up	adverse_event	Death Neonatal
+follow_up	adverse_event	Dehydration
+follow_up	adverse_event	Delayed Orgasm
+follow_up	adverse_event	Delayed Puberty
+follow_up	adverse_event	Delirium
+follow_up	adverse_event	Delusions
+follow_up	adverse_event	Dental Caries
+follow_up	adverse_event	Depressed Level of Consciousness
+follow_up	adverse_event	Depression
+follow_up	adverse_event	Dermatitis Radiation
+follow_up	adverse_event	Device Related Infection
+follow_up	adverse_event	Diarrhea
+follow_up	adverse_event	Disseminated Intravascular Coagulation
+follow_up	adverse_event	Dizziness
+follow_up	adverse_event	Dry Eye
+follow_up	adverse_event	Dry Mouth
+follow_up	adverse_event	Dry Skin
+follow_up	adverse_event	Duodenal Fistula
+follow_up	adverse_event	Duodenal Hemorrhage
+follow_up	adverse_event	Duodenal Infection
+follow_up	adverse_event	Duodenal Obstruction
+follow_up	adverse_event	Duodenal Perforation
+follow_up	adverse_event	Duodenal Stenosis
+follow_up	adverse_event	Duodenal Ulcer
+follow_up	adverse_event	Dysarthria
+follow_up	adverse_event	Dysesthesia
+follow_up	adverse_event	Dysgeusia
+follow_up	adverse_event	Dysmenorrhea
+follow_up	adverse_event	Dyspareunia
+follow_up	adverse_event	Dyspepsia
+follow_up	adverse_event	Dysphagia
+follow_up	adverse_event	Dysphasia
+follow_up	adverse_event	Dyspnea
+follow_up	adverse_event	Ear Pain
+follow_up	adverse_event	Ear and Labyrinth Disorders - Other
+follow_up	adverse_event	Edema Cerebral
+follow_up	adverse_event	Edema Face
+follow_up	adverse_event	Edema Limbs
+follow_up	adverse_event	Edema Trunk
+follow_up	adverse_event	Ejaculation Disorder
+follow_up	adverse_event	Ejection Fraction Decreased
+follow_up	adverse_event	Electrocardiogram QT Corrected Interval Prolonged
+follow_up	adverse_event	Encephalitis Infection
+follow_up	adverse_event	Encephalomyelitis Infection
+follow_up	adverse_event	Encephalopathy
+follow_up	adverse_event	Endocarditis Infective
+follow_up	adverse_event	Endocrine Disorders - Other
+follow_up	adverse_event	Endophthalmitis
+follow_up	adverse_event	Enterocolitis
+follow_up	adverse_event	Enterocolitis Infectious
+follow_up	adverse_event	Enterovesical Fistula
+follow_up	adverse_event	Epistaxis
+follow_up	adverse_event	Erectile Dysfunction
+follow_up	adverse_event	Erythema Multiforme
+follow_up	adverse_event	Erythroderma
+follow_up	adverse_event	Esophageal Anastomotic Leak
+follow_up	adverse_event	Esophageal Fistula
+follow_up	adverse_event	Esophageal Hemorrhage
+follow_up	adverse_event	Esophageal Infection
+follow_up	adverse_event	Esophageal Necrosis
+follow_up	adverse_event	Esophageal Obstruction
+follow_up	adverse_event	Esophageal Pain
+follow_up	adverse_event	Esophageal Perforation
+follow_up	adverse_event	Esophageal Stenosis
+follow_up	adverse_event	Esophageal Ulcer
+follow_up	adverse_event	Esophageal Varices Hemorrhage
+follow_up	adverse_event	Esophagitis
+follow_up	adverse_event	Euphoria
+follow_up	adverse_event	Exostosis
+follow_up	adverse_event	External Ear Inflammation
+follow_up	adverse_event	External Ear Pain
+follow_up	adverse_event	Extraocular Muscle Paresis
+follow_up	adverse_event	Extrapyramidal Disorder
+follow_up	adverse_event	Eye Disorders - Other
+follow_up	adverse_event	Eye Infection
+follow_up	adverse_event	Eye Pain
+follow_up	adverse_event	Eyelid Function Disorder
+follow_up	adverse_event	Facial Muscle Weakness
+follow_up	adverse_event	Facial Nerve Disorder
+follow_up	adverse_event	Facial Pain
+follow_up	adverse_event	Fall
+follow_up	adverse_event	Fallopian Tube Anastomotic Leak
+follow_up	adverse_event	Fallopian Tube Obstruction
+follow_up	adverse_event	Fallopian Tube Perforation
+follow_up	adverse_event	Fallopian Tube Stenosis
+follow_up	adverse_event	Fat Atrophy
+follow_up	adverse_event	Fatigue
+follow_up	adverse_event	Febrile Neutropenia
+follow_up	adverse_event	Fecal Incontinence
+follow_up	adverse_event	Female Genital Tract Fistula
+follow_up	adverse_event	Feminization Acquired
+follow_up	adverse_event	Fetal Death
+follow_up	adverse_event	Fetal Growth Retardation
+follow_up	adverse_event	Fever
+follow_up	adverse_event	Fibrinogen Decreased
+follow_up	adverse_event	Fibrosis Deep Connective Tissue
+follow_up	adverse_event	Flank Pain
+follow_up	adverse_event	Flashing Lights
+follow_up	adverse_event	Flatulence
+follow_up	adverse_event	Floaters
+follow_up	adverse_event	Flu Like Symptoms
+follow_up	adverse_event	Flushing
+follow_up	adverse_event	Forced Expiratory Volume Decreased
+follow_up	adverse_event	Fracture
+follow_up	adverse_event	GGT Increased
+follow_up	adverse_event	Gait Disturbance
+follow_up	adverse_event	Gallbladder Fistula
+follow_up	adverse_event	Gallbladder Infection
+follow_up	adverse_event	Gallbladder Necrosis
+follow_up	adverse_event	Gallbladder Obstruction
+follow_up	adverse_event	Gallbladder Pain
+follow_up	adverse_event	Gallbladder Perforation
+follow_up	adverse_event	Gastric Anastomotic Leak
+follow_up	adverse_event	Gastric Fistula
+follow_up	adverse_event	Gastric Hemorrhage
+follow_up	adverse_event	Gastric Necrosis
+follow_up	adverse_event	Gastric Perforation
+follow_up	adverse_event	Gastric Stenosis
+follow_up	adverse_event	Gastric Ulcer
+follow_up	adverse_event	Gastritis
+follow_up	adverse_event	Gastroesophageal Reflux Disease
+follow_up	adverse_event	Gastrointestinal Anastomotic Leak
+follow_up	adverse_event	Gastrointestinal Disorders - Other
+follow_up	adverse_event	Gastrointestinal Fistula
+follow_up	adverse_event	Gastrointestinal Pain
+follow_up	adverse_event	Gastrointestinal Stoma Necrosis
+follow_up	adverse_event	Gastroparesis
+follow_up	adverse_event	General Disorders and Administration Site Conditions - Other
+follow_up	adverse_event	Generalized Muscle Weakness
+follow_up	adverse_event	Genital Edema
+follow_up	adverse_event	Gingival Pain
+follow_up	adverse_event	Glaucoma
+follow_up	adverse_event	Glossopharyngeal Nerve Disorder
+follow_up	adverse_event	Glucose Intolerance
+follow_up	adverse_event	Growth Accelerated
+follow_up	adverse_event	Growth Hormone Abnormal
+follow_up	adverse_event	Growth Suppression
+follow_up	adverse_event	Gum Infection
+follow_up	adverse_event	Gynecomastia
+follow_up	adverse_event	Hallucinations
+follow_up	adverse_event	Haptoglobin Decreased
+follow_up	adverse_event	Head Soft Tissue Necrosis
+follow_up	adverse_event	Headache
+follow_up	adverse_event	Hearing Impaired
+follow_up	adverse_event	Heart Failure
+follow_up	adverse_event	Hematoma
+follow_up	adverse_event	Hematosalpinx
+follow_up	adverse_event	Hematuria
+follow_up	adverse_event	Hemoglobin Increased
+follow_up	adverse_event	Hemoglobinuria
+follow_up	adverse_event	Hemolysis
+follow_up	adverse_event	Hemolytic Uremic Syndrome
+follow_up	adverse_event	Hemorrhoidal Hemorrhage
+follow_up	adverse_event	Hemorrhoids
+follow_up	adverse_event	Hepatic Failure
+follow_up	adverse_event	Hepatic Hemorrhage
+follow_up	adverse_event	Hepatic Infection
+follow_up	adverse_event	Hepatic Necrosis
+follow_up	adverse_event	Hepatic Pain
+follow_up	adverse_event	Hepatitis Viral
+follow_up	adverse_event	Hepatobiliary Disorders - Other
+follow_up	adverse_event	Hiccups
+follow_up	adverse_event	Hip Fracture
+follow_up	adverse_event	Hirsutism
+follow_up	adverse_event	Hoarseness
+follow_up	adverse_event	Hot Flashes
+follow_up	adverse_event	Hydrocephalus
+follow_up	adverse_event	Hypercalcemia
+follow_up	adverse_event	Hyperglycemia
+follow_up	adverse_event	Hyperhidrosis
+follow_up	adverse_event	Hyperkalemia
+follow_up	adverse_event	Hypermagnesemia
+follow_up	adverse_event	Hypernatremia
+follow_up	adverse_event	Hyperparathyroidism
+follow_up	adverse_event	Hypersomnia
+follow_up	adverse_event	Hypertension
+follow_up	adverse_event	Hyperthyroidism
+follow_up	adverse_event	Hypertrichosis
+follow_up	adverse_event	Hypertriglyceridemia
+follow_up	adverse_event	Hyperuricemia
+follow_up	adverse_event	Hypoalbuminemia
+follow_up	adverse_event	Hypocalcemia
+follow_up	adverse_event	Hypoglossal Nerve Disorder
+follow_up	adverse_event	Hypoglycemia
+follow_up	adverse_event	Hypohidrosis
+follow_up	adverse_event	Hypokalemia
+follow_up	adverse_event	Hypomagnesemia
+follow_up	adverse_event	Hyponatremia
+follow_up	adverse_event	Hypoparathyroidism
+follow_up	adverse_event	Hypophosphatemia
+follow_up	adverse_event	Hypotension
+follow_up	adverse_event	Hypothermia
+follow_up	adverse_event	Hypothyroidism
+follow_up	adverse_event	Hypoxia
+follow_up	adverse_event	INR Increased
+follow_up	adverse_event	IVth Nerve Disorder
+follow_up	adverse_event	Ileal Fistula
+follow_up	adverse_event	Ileal Hemorrhage
+follow_up	adverse_event	Ileal Obstruction
+follow_up	adverse_event	Ileal Perforation
+follow_up	adverse_event	Ileal Stenosis
+follow_up	adverse_event	Ileal Ulcer
+follow_up	adverse_event	Ileus
+follow_up	adverse_event	Immune System Disorders - Other
+follow_up	adverse_event	Infections and Infestations - Other
+follow_up	adverse_event	Infective Myositis
+follow_up	adverse_event	Infusion Related Reaction
+follow_up	adverse_event	Infusion Site Extravasation
+follow_up	adverse_event	Injection Site Reaction
+follow_up	adverse_event	Injury to Carotid Artery
+follow_up	adverse_event	Injury to Inferior Vena Cava
+follow_up	adverse_event	Injury to Jugular Vein
+follow_up	adverse_event	Injury to Superior Vena Cava
+follow_up	adverse_event	Injury, Poisoning and Procedural Complications - Other
+follow_up	adverse_event	Insomnia
+follow_up	adverse_event	Intestinal Stoma Leak
+follow_up	adverse_event	Intestinal Stoma Obstruction
+follow_up	adverse_event	Intestinal Stoma Site Bleeding
+follow_up	adverse_event	Intra-Abdominal Hemorrhage
+follow_up	adverse_event	Intracranial Hemorrhage
+follow_up	adverse_event	Intraoperative Arterial Injury
+follow_up	adverse_event	Intraoperative Breast Injury
+follow_up	adverse_event	Intraoperative Cardiac Injury
+follow_up	adverse_event	Intraoperative Ear Injury
+follow_up	adverse_event	Intraoperative Endocrine Injury
+follow_up	adverse_event	Intraoperative Gastrointestinal Injury
+follow_up	adverse_event	Intraoperative Head and Neck Injury
+follow_up	adverse_event	Intraoperative Hemorrhage
+follow_up	adverse_event	Intraoperative Hepatobiliary Injury
+follow_up	adverse_event	Intraoperative Musculoskeletal Injury
+follow_up	adverse_event	Intraoperative Neurological Injury
+follow_up	adverse_event	Intraoperative Ocular Injury
+follow_up	adverse_event	Intraoperative Renal Injury
+follow_up	adverse_event	Intraoperative Reproductive Tract Injury
+follow_up	adverse_event	Intraoperative Respiratory Injury
+follow_up	adverse_event	Intraoperative Skin Injury
+follow_up	adverse_event	Intraoperative Splenic Injury
+follow_up	adverse_event	Intraoperative Urinary Injury
+follow_up	adverse_event	Intraoperative Venous Injury
+follow_up	adverse_event	Investigations - Other
+follow_up	adverse_event	Iron Overload
+follow_up	adverse_event	Irregular Menstruation
+follow_up	adverse_event	Irritability
+follow_up	adverse_event	Ischemia Cerebrovascular
+follow_up	adverse_event	Jejunal Fistula
+follow_up	adverse_event	Jejunal Hemorrhage
+follow_up	adverse_event	Jejunal Obstruction
+follow_up	adverse_event	Jejunal Perforation
+follow_up	adverse_event	Jejunal Stenosis
+follow_up	adverse_event	Jejunal Ulcer
+follow_up	adverse_event	Joint Effusion
+follow_up	adverse_event	Joint Infection
+follow_up	adverse_event	Joint Range of Motion Decreased
+follow_up	adverse_event	Joint Range of Motion Decreased Cervical Spine
+follow_up	adverse_event	Joint Range of Motion Decreased Lumbar Spine
+follow_up	adverse_event	Keratitis
+follow_up	adverse_event	Kidney Anastomotic Leak
+follow_up	adverse_event	Kidney Infection
+follow_up	adverse_event	Kyphosis
+follow_up	adverse_event	Lactation Disorder
+follow_up	adverse_event	Large Intestinal Anastomotic Leak
+follow_up	adverse_event	Laryngeal Edema
+follow_up	adverse_event	Laryngeal Fistula
+follow_up	adverse_event	Laryngeal Hemorrhage
+follow_up	adverse_event	Laryngeal Inflammation
+follow_up	adverse_event	Laryngeal Mucositis
+follow_up	adverse_event	Laryngeal Obstruction
+follow_up	adverse_event	Laryngeal Stenosis
+follow_up	adverse_event	Laryngitis
+follow_up	adverse_event	Laryngopharyngeal Dysesthesia
+follow_up	adverse_event	Laryngospasm
+follow_up	adverse_event	Left Ventricular Systolic Dysfunction
+follow_up	adverse_event	Lethargy
+follow_up	adverse_event	Leukemia Secondary to Oncology Chemotherapy
+follow_up	adverse_event	Leukocytosis
+follow_up	adverse_event	Leukoencephalopathy
+follow_up	adverse_event	Libido Decreased
+follow_up	adverse_event	Libido Increased
+follow_up	adverse_event	Lip Infection
+follow_up	adverse_event	Lip Pain
+follow_up	adverse_event	Lipase Increased
+follow_up	adverse_event	Lipohypertrophy
+follow_up	adverse_event	Localized Edema
+follow_up	adverse_event	Lordosis
+follow_up	adverse_event	Lower Gastrointestinal Hemorrhage
+follow_up	adverse_event	Lung Infection
+follow_up	adverse_event	Lymph Gland Infection
+follow_up	adverse_event	Lymph Leakage
+follow_up	adverse_event	Lymph Node Pain
+follow_up	adverse_event	Lymphedema
+follow_up	adverse_event	Lymphocele
+follow_up	adverse_event	Lymphocyte Count Decreased
+follow_up	adverse_event	Lymphocyte Count Increased
+follow_up	adverse_event	Malabsorption
+follow_up	adverse_event	Malaise
+follow_up	adverse_event	Mania
+follow_up	adverse_event	Mediastinal Hemorrhage
+follow_up	adverse_event	Mediastinal Infection
+follow_up	adverse_event	Memory Impairment
+follow_up	adverse_event	Meningismus
+follow_up	adverse_event	Meningitis
+follow_up	adverse_event	Menopause
+follow_up	adverse_event	Menorrhagia
+follow_up	adverse_event	Metabolism and Nutrition Disorders - Other
+follow_up	adverse_event	Middle Ear Inflammation
+follow_up	adverse_event	Mitral Valve Disease
+follow_up	adverse_event	Mobitz (Type) II Atrioventricular Block
+follow_up	adverse_event	Mobitz Type I
+follow_up	adverse_event	Movements Involuntary
+follow_up	adverse_event	Mucosal Infection
+follow_up	adverse_event	Mucositis Oral
+follow_up	adverse_event	Multi-Organ Failure
+follow_up	adverse_event	Muscle Weakness Left-Sided
+follow_up	adverse_event	Muscle Weakness Lower Limb
+follow_up	adverse_event	Muscle Weakness Right-Sided
+follow_up	adverse_event	Muscle Weakness Trunk
+follow_up	adverse_event	Muscle Weakness Upper Limb
+follow_up	adverse_event	Musculoskeletal Deformity
+follow_up	adverse_event	Musculoskeletal and Connective Tissue Disorders - Other
+follow_up	adverse_event	Myalgia
+follow_up	adverse_event	Myelitis
+follow_up	adverse_event	Myelodysplastic Syndrome
+follow_up	adverse_event	Myocardial Infarction
+follow_up	adverse_event	Myocarditis
+follow_up	adverse_event	Myositis
+follow_up	adverse_event	Nail Discoloration
+follow_up	adverse_event	Nail Infection
+follow_up	adverse_event	Nail Loss
+follow_up	adverse_event	Nail Ridging
+follow_up	adverse_event	Nasal Congestion
+follow_up	adverse_event	Nausea
+follow_up	adverse_event	Neck Edema
+follow_up	adverse_event	Neck Pain
+follow_up	adverse_event	Neck Soft Tissue Necrosis
+follow_up	adverse_event	Neoplasms Benign, Malignant and Unspecified (Incl Cysts and Polyps) - Other
+follow_up	adverse_event	Nervous System Disorders - Other
+follow_up	adverse_event	Neuralgia
+follow_up	adverse_event	Neutrophil Count Decreased
+follow_up	adverse_event	Night Blindness
+follow_up	adverse_event	Nipple Deformity
+follow_up	adverse_event	Non-Cardiac Chest Pain
+follow_up	adverse_event	Nystagmus
+follow_up	adverse_event	Obesity
+follow_up	adverse_event	Obstruction Gastric
+follow_up	adverse_event	Oculomotor Nerve Disorder
+follow_up	adverse_event	Olfactory Nerve Disorder
+follow_up	adverse_event	Oligospermia
+follow_up	adverse_event	Optic Nerve Disorder
+follow_up	adverse_event	Oral Cavity Fistula
+follow_up	adverse_event	Oral Dysesthesia
+follow_up	adverse_event	Oral Hemorrhage
+follow_up	adverse_event	Oral Pain
+follow_up	adverse_event	Osteonecrosis of Jaw
+follow_up	adverse_event	Osteoporosis
+follow_up	adverse_event	Otitis Externa
+follow_up	adverse_event	Otitis Media
+follow_up	adverse_event	Ovarian Hemorrhage
+follow_up	adverse_event	Ovarian Infection
+follow_up	adverse_event	Ovarian Rupture
+follow_up	adverse_event	Ovulation Pain
+follow_up	adverse_event	Pain
+follow_up	adverse_event	Pain in Extremity
+follow_up	adverse_event	Pain of Skin
+follow_up	adverse_event	Palmar-Plantar Erythrodysesthesia Syndrome
+follow_up	adverse_event	Palpitations
+follow_up	adverse_event	Pancreas Infection
+follow_up	adverse_event	Pancreatic Anastomotic Leak
+follow_up	adverse_event	Pancreatic Duct Stenosis
+follow_up	adverse_event	Pancreatic Enzymes Decreased
+follow_up	adverse_event	Pancreatic Fistula
+follow_up	adverse_event	Pancreatic Hemorrhage
+follow_up	adverse_event	Pancreatic Necrosis
+follow_up	adverse_event	Pancreatitis
+follow_up	adverse_event	Papilledema
+follow_up	adverse_event	Papulopustular Rash
+follow_up	adverse_event	Paresthesia
+follow_up	adverse_event	Paronychia
+follow_up	adverse_event	Paroxysmal Atrial Tachycardia
+follow_up	adverse_event	Pelvic Floor Muscle Weakness
+follow_up	adverse_event	Pelvic Infection
+follow_up	adverse_event	Pelvic Pain
+follow_up	adverse_event	Pelvic Soft Tissue Necrosis
+follow_up	adverse_event	Penile Infection
+follow_up	adverse_event	Penile Pain
+follow_up	adverse_event	Perforation Bile Duct
+follow_up	adverse_event	Pericardial Effusion
+follow_up	adverse_event	Pericardial Tamponade
+follow_up	adverse_event	Pericarditis
+follow_up	adverse_event	Perineal Pain
+follow_up	adverse_event	Periodontal Disease
+follow_up	adverse_event	Periorbital Edema
+follow_up	adverse_event	Periorbital Infection
+follow_up	adverse_event	Peripheral Ischemia
+follow_up	adverse_event	Peripheral Motor Neuropathy
+follow_up	adverse_event	Peripheral Nerve Infection
+follow_up	adverse_event	Peripheral Sensory Neuropathy
+follow_up	adverse_event	Peritoneal Infection
+follow_up	adverse_event	Peritoneal Necrosis
+follow_up	adverse_event	Personality Change
+follow_up	adverse_event	Phantom Pain
+follow_up	adverse_event	Pharyngeal Anastomotic Leak
+follow_up	adverse_event	Pharyngeal Fistula
+follow_up	adverse_event	Pharyngeal Hemorrhage
+follow_up	adverse_event	Pharyngeal Mucositis
+follow_up	adverse_event	Pharyngeal Necrosis
+follow_up	adverse_event	Pharyngeal Stenosis
+follow_up	adverse_event	Pharyngitis
+follow_up	adverse_event	Pharyngolaryngeal Pain
+follow_up	adverse_event	Phlebitis
+follow_up	adverse_event	Phlebitis Infective
+follow_up	adverse_event	Photophobia
+follow_up	adverse_event	Photosensitivity
+follow_up	adverse_event	Platelet Count Decreased
+follow_up	adverse_event	Pleural Effusion
+follow_up	adverse_event	Pleural Hemorrhage
+follow_up	adverse_event	Pleural Infection
+follow_up	adverse_event	Pleuritic Pain
+follow_up	adverse_event	Pneumonitis
+follow_up	adverse_event	Pneumothorax
+follow_up	adverse_event	Portal Hypertension
+follow_up	adverse_event	Portal Vein Thrombosis
+follow_up	adverse_event	Postnasal Drip
+follow_up	adverse_event	Postoperative Hemorrhage
+follow_up	adverse_event	Postoperative Thoracic Procedure Complication
+follow_up	adverse_event	Precocious Puberty
+follow_up	adverse_event	Pregnancy, Puerperium and Perinatal Conditions - Other
+follow_up	adverse_event	Premature Delivery
+follow_up	adverse_event	Premature Menopause
+follow_up	adverse_event	Presyncope
+follow_up	adverse_event	Proctitis
+follow_up	adverse_event	Productive Cough
+follow_up	adverse_event	Prolapse of Intestinal Stoma
+follow_up	adverse_event	Prolapse of Urostomy
+follow_up	adverse_event	Prostate Infection
+follow_up	adverse_event	Prostatic Hemorrhage
+follow_up	adverse_event	Prostatic Obstruction
+follow_up	adverse_event	Prostatic Pain
+follow_up	adverse_event	Proteinuria
+follow_up	adverse_event	Pruritus
+follow_up	adverse_event	Psychiatric Disorders - Other
+follow_up	adverse_event	Psychosis
+follow_up	adverse_event	Pulmonary Edema
+follow_up	adverse_event	Pulmonary Fibrosis
+follow_up	adverse_event	Pulmonary Fistula
+follow_up	adverse_event	Pulmonary Hypertension
+follow_up	adverse_event	Pulmonary Valve Disease
+follow_up	adverse_event	Purpura
+follow_up	adverse_event	Pyramidal Tract Syndrome
+follow_up	adverse_event	Radiation Recall Reaction (Dermatologic)
+follow_up	adverse_event	Radiculitis
+follow_up	adverse_event	Rash Acneiform
+follow_up	adverse_event	Rash Maculo-Papular
+follow_up	adverse_event	Rash Pustular
+follow_up	adverse_event	Rectal Anastomotic Leak
+follow_up	adverse_event	Rectal Fistula
+follow_up	adverse_event	Rectal Hemorrhage
+follow_up	adverse_event	Rectal Mucositis
+follow_up	adverse_event	Rectal Necrosis
+follow_up	adverse_event	Rectal Obstruction
+follow_up	adverse_event	Rectal Pain
+follow_up	adverse_event	Rectal Perforation
+follow_up	adverse_event	Rectal Stenosis
+follow_up	adverse_event	Rectal Ulcer
+follow_up	adverse_event	Recurrent Laryngeal Nerve Palsy
+follow_up	adverse_event	Renal Calculi
+follow_up	adverse_event	Renal Colic
+follow_up	adverse_event	Renal Hemorrhage
+follow_up	adverse_event	Renal and Urinary Disorders - Other
+follow_up	adverse_event	Reproductive System and Breast Disorders - Other
+follow_up	adverse_event	Respiratory Failure
+follow_up	adverse_event	Respiratory, Thoracic and Mediastinal Disorders - Other
+follow_up	adverse_event	Restlessness
+follow_up	adverse_event	Restrictive Cardiomyopathy
+follow_up	adverse_event	Retinal Detachment
+follow_up	adverse_event	Retinal Tear
+follow_up	adverse_event	Retinal Vascular Disorder
+follow_up	adverse_event	Retinoic Acid Syndrome
+follow_up	adverse_event	Retinopathy
+follow_up	adverse_event	Retroperitoneal Hemorrhage
+follow_up	adverse_event	Reversible Posterior Leukoencephalopathy Syndrome
+follow_up	adverse_event	Rhinitis Infective
+follow_up	adverse_event	Right Ventricular Dysfunction
+follow_up	adverse_event	Salivary Duct Inflammation
+follow_up	adverse_event	Salivary Gland Fistula
+follow_up	adverse_event	Salivary Gland Infection
+follow_up	adverse_event	Scalp Pain
+follow_up	adverse_event	Scleral Disorder
+follow_up	adverse_event	Scoliosis
+follow_up	adverse_event	Scrotal Infection
+follow_up	adverse_event	Scrotal Pain
+follow_up	adverse_event	Seizure
+follow_up	adverse_event	Sepsis
+follow_up	adverse_event	Seroma
+follow_up	adverse_event	Serum Amylase Increased
+follow_up	adverse_event	Serum Sickness
+follow_up	adverse_event	Sick Sinus Syndrome
+follow_up	adverse_event	Sinus Bradycardia
+follow_up	adverse_event	Sinus Disorder
+follow_up	adverse_event	Sinus Pain
+follow_up	adverse_event	Sinus Tachycardia
+follow_up	adverse_event	Sinusitis
+follow_up	adverse_event	Skin Atrophy
+follow_up	adverse_event	Skin Hyperpigmentation
+follow_up	adverse_event	Skin Hypopigmentation
+follow_up	adverse_event	Skin Induration
+follow_up	adverse_event	Skin Infection
+follow_up	adverse_event	Skin Ulceration
+follow_up	adverse_event	Skin and Subcutaneous Tissue Disorders - Other
+follow_up	adverse_event	Sleep Apnea
+follow_up	adverse_event	Small Intestinal Anastomotic Leak
+follow_up	adverse_event	Small Intestinal Mucositis
+follow_up	adverse_event	Small Intestinal Obstruction
+follow_up	adverse_event	Small Intestinal Perforation
+follow_up	adverse_event	Small Intestinal Stenosis
+follow_up	adverse_event	Small Intestine Infection
+follow_up	adverse_event	Small Intestine Ulcer
+follow_up	adverse_event	Sneezing
+follow_up	adverse_event	Social Circumstances - Other
+follow_up	adverse_event	Soft Tissue Infection
+follow_up	adverse_event	Soft Tissue Necrosis Lower Limb
+follow_up	adverse_event	Soft Tissue Necrosis Upper Limb
+follow_up	adverse_event	Somnolence
+follow_up	adverse_event	Sore Throat
+follow_up	adverse_event	Spasticity
+follow_up	adverse_event	Spermatic Cord Anastomotic Leak
+follow_up	adverse_event	Spermatic Cord Hemorrhage
+follow_up	adverse_event	Spermatic Cord Obstruction
+follow_up	adverse_event	Spinal Fracture
+follow_up	adverse_event	Spleen Disorder
+follow_up	adverse_event	Splenic Infection
+follow_up	adverse_event	Stenosis of Gastrointestinal Stoma
+follow_up	adverse_event	Stevens-Johnson Syndrome
+follow_up	adverse_event	Stoma Site Infection
+follow_up	adverse_event	Stomach Pain
+follow_up	adverse_event	Stomal Ulcer
+follow_up	adverse_event	Stridor
+follow_up	adverse_event	Stroke
+follow_up	adverse_event	Sudden Death NOS
+follow_up	adverse_event	Suicidal Ideation
+follow_up	adverse_event	Suicide Attempt
+follow_up	adverse_event	Superficial Soft Tissue Fibrosis
+follow_up	adverse_event	Superficial Thrombophlebitis
+follow_up	adverse_event	Superior Vena Cava Syndrome
+follow_up	adverse_event	Supraventricular Tachycardia
+follow_up	adverse_event	Surgical and Medical Procedures - Other
+follow_up	adverse_event	Syncope
+follow_up	adverse_event	Telangiectasia
+follow_up	adverse_event	Testicular Disorder
+follow_up	adverse_event	Testicular Hemorrhage
+follow_up	adverse_event	Testicular Pain
+follow_up	adverse_event	Thromboembolic Event
+follow_up	adverse_event	Thrombotic Thrombocytopenic Purpura
+follow_up	adverse_event	Tinnitus
+follow_up	adverse_event	Tooth Development Disorder
+follow_up	adverse_event	Tooth Discoloration
+follow_up	adverse_event	Tooth Infection
+follow_up	adverse_event	Toothache
+follow_up	adverse_event	Toxic Epidermal Necrolysis
+follow_up	adverse_event	Tracheal Fistula
+follow_up	adverse_event	Tracheal Hemorrhage
+follow_up	adverse_event	Tracheal Mucositis
+follow_up	adverse_event	Tracheal Obstruction
+follow_up	adverse_event	Tracheal Stenosis
+follow_up	adverse_event	Tracheitis
+follow_up	adverse_event	Tracheostomy Site Bleeding
+follow_up	adverse_event	Transient Ischemic Attacks
+follow_up	adverse_event	Treatment Related Secondary Malignancy
+follow_up	adverse_event	Tremor
+follow_up	adverse_event	Tricuspid Valve Disease
+follow_up	adverse_event	Trigeminal Nerve Disorder
+follow_up	adverse_event	Trismus
+follow_up	adverse_event	Tumor Lysis Syndrome
+follow_up	adverse_event	Tumor Pain
+follow_up	adverse_event	Typhlitis
+follow_up	adverse_event	Unequal Limb Length
+follow_up	adverse_event	Unintended Pregnancy
+follow_up	adverse_event	Upper Gastrointestinal Hemorrhage
+follow_up	adverse_event	Upper Respiratory Infection
+follow_up	adverse_event	Ureteric Anastomotic Leak
+follow_up	adverse_event	Urethral Anastomotic Leak
+follow_up	adverse_event	Urethral Infection
+follow_up	adverse_event	Urinary Fistula
+follow_up	adverse_event	Urinary Frequency
+follow_up	adverse_event	Urinary Incontinence
+follow_up	adverse_event	Urinary Retention
+follow_up	adverse_event	Urinary Tract Infection
+follow_up	adverse_event	Urinary Tract Obstruction
+follow_up	adverse_event	Urinary Tract Pain
+follow_up	adverse_event	Urinary Urgency
+follow_up	adverse_event	Urine Discoloration
+follow_up	adverse_event	Urine Output Decreased
+follow_up	adverse_event	Urostomy Leak
+follow_up	adverse_event	Urostomy Obstruction
+follow_up	adverse_event	Urostomy Site Bleeding
+follow_up	adverse_event	Urostomy Stenosis
+follow_up	adverse_event	Urticaria
+follow_up	adverse_event	Uterine Anastomotic Leak
+follow_up	adverse_event	Uterine Fistula
+follow_up	adverse_event	Uterine Hemorrhage
+follow_up	adverse_event	Uterine Infection
+follow_up	adverse_event	Uterine Obstruction
+follow_up	adverse_event	Uterine Pain
+follow_up	adverse_event	Uterine Perforation
+follow_up	adverse_event	Uveitis
+follow_up	adverse_event	Vaginal Anastomotic Leak
+follow_up	adverse_event	Vaginal Discharge
+follow_up	adverse_event	Vaginal Dryness
+follow_up	adverse_event	Vaginal Fistula
+follow_up	adverse_event	Vaginal Hemorrhage
+follow_up	adverse_event	Vaginal Infection
+follow_up	adverse_event	Vaginal Inflammation
+follow_up	adverse_event	Vaginal Obstruction
+follow_up	adverse_event	Vaginal Pain
+follow_up	adverse_event	Vaginal Perforation
+follow_up	adverse_event	Vaginal Stricture
+follow_up	adverse_event	Vaginismus
+follow_up	adverse_event	Vagus Nerve Disorder
+follow_up	adverse_event	Vas Deferens Anastomotic Leak
+follow_up	adverse_event	Vascular Access Complication
+follow_up	adverse_event	Vascular Disorders - Other
+follow_up	adverse_event	Vasculitis
+follow_up	adverse_event	Vasovagal Reaction
+follow_up	adverse_event	Venous Injury
+follow_up	adverse_event	Ventricular Arrhythmia
+follow_up	adverse_event	Ventricular Fibrillation
+follow_up	adverse_event	Ventricular Tachycardia
+follow_up	adverse_event	Vertigo
+follow_up	adverse_event	Vestibular Disorder
+follow_up	adverse_event	Virilization
+follow_up	adverse_event	Visceral Arterial Ischemia
+follow_up	adverse_event	Vital Capacity Abnormal
+follow_up	adverse_event	Vitreous Hemorrhage
+follow_up	adverse_event	Voice Alteration
+follow_up	adverse_event	Vomiting
+follow_up	adverse_event	Vulval Infection
+follow_up	adverse_event	Watering Eyes
+follow_up	adverse_event	Weight Gain
+follow_up	adverse_event	Weight Loss
+follow_up	adverse_event	Wheezing
+follow_up	adverse_event	White Blood Cell Decreased
+follow_up	adverse_event	Wolff-Parkinson-White Syndrome
+follow_up	adverse_event	Wound Complication
+follow_up	adverse_event	Wound Dehiscence
+follow_up	adverse_event	Wound Infection
+follow_up	adverse_event	Wrist Fracture
+follow_up	comorbidity	Acute Renal Failure
+follow_up	comorbidity	Adenocarcinoma
+follow_up	comorbidity	Adenomatous Polyposis Coli
+follow_up	comorbidity	Adrenocortical Insufficiency
+follow_up	comorbidity	Allergies
+follow_up	comorbidity	Alpha-1 Antitrypsin
+follow_up	comorbidity	Anemia
+follow_up	comorbidity	Anxiety
+follow_up	comorbidity	Arrhythmia
+follow_up	comorbidity	Arthritis
+follow_up	comorbidity	Asthma
+follow_up	comorbidity	Atrial Fibrillation
+follow_up	comorbidity	Avascular Necrosis
+follow_up	comorbidity	Barrett's Esophagus
+follow_up	comorbidity	Basal Cell Carcinoma
+follow_up	comorbidity	Beckwith-Wiedemann
+follow_up	comorbidity	Behcet's Disease
+follow_up	comorbidity	Biliary Disorder
+follow_up	comorbidity	Blood Clots
+follow_up	comorbidity	Bone Fracture(s)
+follow_up	comorbidity	Bronchitis
+follow_up	comorbidity	COPD
+follow_up	comorbidity	Calcium Channel Blockers
+follow_up	comorbidity	Cancer
+follow_up	comorbidity	Cataracts
+follow_up	comorbidity	Celiac Disease
+follow_up	comorbidity	Cerebrovascular Disease
+follow_up	comorbidity	Cholelithiasis
+follow_up	comorbidity	Chronic Renal Failure
+follow_up	comorbidity	Cirrhosis, Unknown Etiology
+follow_up	comorbidity	Colon Polyps
+follow_up	comorbidity	Common Variable Immunodeficiency
+follow_up	comorbidity	Congestive Heart Failure (CHF)
+follow_up	comorbidity	Connective Tissue Disorder
+follow_up	comorbidity	Coronary Artery Disease
+follow_up	comorbidity	Crohn's Disease
+follow_up	comorbidity	Cryptogenic Organizing Pneumonia
+follow_up	comorbidity	DVT/PE
+follow_up	comorbidity	Deep Vein Thrombosis / Thromboembolism
+follow_up	comorbidity	Denys-Drash Syndrome
+follow_up	comorbidity	Depression
+follow_up	comorbidity	Diabetes
+follow_up	comorbidity	Diabetes, Type II
+follow_up	comorbidity	Diabetic Neuropathy
+follow_up	comorbidity	Diet Controlled Diabetes
+follow_up	comorbidity	Diverticulitis
+follow_up	comorbidity	Dyslipidemia
+follow_up	comorbidity	Eczema
+follow_up	comorbidity	Epilepsy
+follow_up	comorbidity	Epstein-Barr Virus
+follow_up	comorbidity	Familial Adenomatous Polyposis
+follow_up	comorbidity	Fanconi Anemia
+follow_up	comorbidity	Fibrosis
+follow_up	comorbidity	GERD
+follow_up	comorbidity	Gastroesophageal Reflux Disease
+follow_up	comorbidity	Glaucoma
+follow_up	comorbidity	Glycogen Storage Disease
+follow_up	comorbidity	Gonadal Dysfunction
+follow_up	comorbidity	Gorlin Syndrome
+follow_up	comorbidity	Gout
+follow_up	comorbidity	H. pylori Infection
+follow_up	comorbidity	HIV / AIDS
+follow_up	comorbidity	HUS/TTP
+follow_up	comorbidity	Hashimoto's Thyroiditis
+follow_up	comorbidity	Headache
+follow_up	comorbidity	Heart Disease
+follow_up	comorbidity	Hemihypertrophy
+follow_up	comorbidity	Hemorrhagic Cystitis
+follow_up	comorbidity	Hepatitis
+follow_up	comorbidity	Hepatitis A Infection
+follow_up	comorbidity	Hepatitis B Infection
+follow_up	comorbidity	Hepatitis C Infection
+follow_up	comorbidity	Hepatitis, Chronic
+follow_up	comorbidity	Hereditary Non-polyposis Colon Cancer
+follow_up	comorbidity	Herpes
+follow_up	comorbidity	High Grade Liver Dysplastic Nodule
+follow_up	comorbidity	Human Papillomavirus Infection
+follow_up	comorbidity	Hypercalcemia
+follow_up	comorbidity	Hypercholesterolemia
+follow_up	comorbidity	Hyperglycemia
+follow_up	comorbidity	Hyperlipidemia
+follow_up	comorbidity	Hypertension
+follow_up	comorbidity	Hypospadias
+follow_up	comorbidity	Hypothyroidism
+follow_up	comorbidity	ITP
+follow_up	comorbidity	Inflammatory Bowel Disease
+follow_up	comorbidity	Insulin Controlled Diabetes
+follow_up	comorbidity	Interstitial Pneumontis or ARDS
+follow_up	comorbidity	Intraductal Papillary Mucinous Neoplasm
+follow_up	comorbidity	Iron Overload
+follow_up	comorbidity	Ischemic Heart Disease
+follow_up	comorbidity	Joint Replacement
+follow_up	comorbidity	Kidney Disease
+follow_up	comorbidity	Li-Fraumeni Syndrome
+follow_up	comorbidity	Liver Cirrhosis (Liver Disease)
+follow_up	comorbidity	Liver Toxicity (Non-Infectious)
+follow_up	comorbidity	Low Grade Liver Dysplastic Nodule
+follow_up	comorbidity	Lupus
+follow_up	comorbidity	Lynch Syndrome
+follow_up	comorbidity	MAI
+follow_up	comorbidity	Myasthenia Gravis
+follow_up	comorbidity	Myocardial Infarction
+follow_up	comorbidity	Neuroendocrine Tumor
+follow_up	comorbidity	Nonalcoholic Steatohepatitis
+follow_up	comorbidity	Not Reported
+follow_up	comorbidity	Obesity
+follow_up	comorbidity	Organ transplant (site)
+follow_up	comorbidity	Osteoarthritis
+follow_up	comorbidity	Osteoporosis or Osteopenia
+follow_up	comorbidity	Other
+follow_up	comorbidity	Other Cancer Within 5 Years
+follow_up	comorbidity	Other Nonmalignant Systemic Disease
+follow_up	comorbidity	Other Pulmonary Complications
+follow_up	comorbidity	Pain (Various)
+follow_up	comorbidity	Pancreatitis
+follow_up	comorbidity	Peptic Ulcer (Ulcer)
+follow_up	comorbidity	Peripheral Neuropathy
+follow_up	comorbidity	Peripheral Vascular Disease
+follow_up	comorbidity	Peutz-Jeghers Disease
+follow_up	comorbidity	Pregnancy in Patient or Partner
+follow_up	comorbidity	Primary Sclerosing Cholangitis
+follow_up	comorbidity	Psoriasis
+follow_up	comorbidity	Pulmonary Fibrosis
+follow_up	comorbidity	Pulmonary Hemorrhage
+follow_up	comorbidity	Renal Dialysis
+follow_up	comorbidity	Renal Failure (Requiring Dialysis)
+follow_up	comorbidity	Renal Insufficiency
+follow_up	comorbidity	Rheumatoid Arthritis
+follow_up	comorbidity	Rheumatologic Disease
+follow_up	comorbidity	Rubinstein-Taybi Syndrome
+follow_up	comorbidity	Sarcoidosis
+follow_up	comorbidity	Seizure
+follow_up	comorbidity	Sleep apnea
+follow_up	comorbidity	Smoking
+follow_up	comorbidity	Steatosis
+follow_up	comorbidity	Stroke
+follow_up	comorbidity	Transient Ischemic Attack
+follow_up	comorbidity	Tuberculosis
+follow_up	comorbidity	Turcot Syndrome
+follow_up	comorbidity	Tyrosinemia
+follow_up	comorbidity	Ulcerative Colitis
+follow_up	comorbidity	Unknown
+follow_up	comorbidity	Wagr Syndrome
+follow_up	comorbidity_method_of_diagnosis	Histology
+follow_up	comorbidity_method_of_diagnosis	Not Reported
+follow_up	comorbidity_method_of_diagnosis	Pathology
+follow_up	comorbidity_method_of_diagnosis	Radiology
+follow_up	comorbidity_method_of_diagnosis	Unknown
+follow_up	days_to_follow_up	INTEGER
+follow_up	disease_response	AJ-Adjuvant Therapy
+follow_up	disease_response	BED-Biochemical Evidence of Disease
+follow_up	disease_response	CPD-Clinical Progression
+follow_up	disease_response	CR-Complete Response
+follow_up	disease_response	CRU-Complete Response Unconfirmed
+follow_up	disease_response	DU-Disease Unchanged
+follow_up	disease_response	IMR-Immunoresponse
+follow_up	disease_response	IPD-Immunoprogression
+follow_up	disease_response	MR-Minimal/Marginal response
+follow_up	disease_response	MX-Mixed Response
+follow_up	disease_response	NPB-No Palliative Benefit
+follow_up	disease_response	NR-No Response
+follow_up	disease_response	Non-CR/Non-PD-Non-CR/Non-PD
+follow_up	disease_response	Not Reported
+follow_up	disease_response	PA-Palliative Therapy
+follow_up	disease_response	PB-Palliative Benefit
+follow_up	disease_response	PD-Progressive Disease
+follow_up	disease_response	PDM-Persistent Distant Metastasis
+follow_up	disease_response	PLD-Persistent Locoregional Disease
+follow_up	disease_response	PPD-Pseudoprogression
+follow_up	disease_response	PR-Partial Response
+follow_up	disease_response	PSR-Pseudoresponse
+follow_up	disease_response	RD-Responsive Disease
+follow_up	disease_response	RP-Response
+follow_up	disease_response	RPD-Radiographic Progressive Disease
+follow_up	disease_response	SD-Stable Disease
+follow_up	disease_response	SPD-Surgical Progression
+follow_up	disease_response	TE-Too Early
+follow_up	disease_response	TF-Tumor Free
+follow_up	disease_response	Unknown
+follow_up	disease_response	VGPR-Very Good Partial Response
+follow_up	disease_response	WT-With Tumor
+follow_up	disease_response	sCR-Stringent Complete Response
+follow_up	follow_up_category	adverse_event
+follow_up	follow_up_category	comorbidity
+follow_up	follow_up_category	disease_response
+follow_up	follow_up_category	other
+follow_up	follow_up_category	risk_factor
+follow_up	follow_up_id	STRING
+follow_up	follow_up_other	barretts_esophagus_goblet_cells_present
+follow_up	follow_up_other	bmi
+follow_up	follow_up_other	cause_of_response
+follow_up	follow_up_other	diabetes_treatment_type
+follow_up	follow_up_other	dlco_ref_predictive_percent
+follow_up	follow_up_other	ecog_performance_status
+follow_up	follow_up_other	fev1_fvc_post_bronch_percent
+follow_up	follow_up_other	fev1_fvc_pre_bronch_percent
+follow_up	follow_up_other	fev1_ref_post_bronch_percent
+follow_up	follow_up_other	fev1_ref_pre_bronch_percent
+follow_up	follow_up_other	height
+follow_up	follow_up_other	hepatitis_sustained_virological_response
+follow_up	risk_factor	Alcohol Consumption
+follow_up	risk_factor	Alcoholic Liver Disease
+follow_up	risk_factor	Allergy, Animal, NOS
+follow_up	risk_factor	Allergy, Ant
+follow_up	risk_factor	Allergy, Bee
+follow_up	risk_factor	Allergy, Cat
+follow_up	risk_factor	Allergy, Dairy or Lactose
+follow_up	risk_factor	Allergy, Dog
+follow_up	risk_factor	Allergy, Eggs
+follow_up	risk_factor	Allergy, Food, NOS
+follow_up	risk_factor	Allergy, Fruit
+follow_up	risk_factor	Allergy, Meat
+follow_up	risk_factor	Allergy, Mold or Dust
+follow_up	risk_factor	Allergy, Nuts
+follow_up	risk_factor	Allergy, Processed Foods
+follow_up	risk_factor	Allergy, Seafood
+follow_up	risk_factor	Allergy, Wasp
+follow_up	risk_factor	Alpha-1 Antitrypsin Deficiency
+follow_up	risk_factor	Autoimmune Atrophic Chronic Gastritis
+follow_up	risk_factor	Barrett's Esophagus
+follow_up	risk_factor	Beckwith-Wiedemann
+follow_up	risk_factor	Behcet's Disease
+follow_up	risk_factor	Cancer
+follow_up	risk_factor	Cholelithiasis
+follow_up	risk_factor	Chronic Hepatitis
+follow_up	risk_factor	Cirrhosis
+follow_up	risk_factor	Colon Polyps
+follow_up	risk_factor	Common variable immune deficiency (CVID)
+follow_up	risk_factor	Denys-Drash Syndrome
+follow_up	risk_factor	Diabetes, NOS
+follow_up	risk_factor	Diabetes, Type I
+follow_up	risk_factor	Diabetes, Type II
+follow_up	risk_factor	Diet
+follow_up	risk_factor	Diverticulitis
+follow_up	risk_factor	Eczema
+follow_up	risk_factor	Endometriosis
+follow_up	risk_factor	Endosalpingiosis
+follow_up	risk_factor	Epstein-Barr Virus
+follow_up	risk_factor	Familial Adenomatous Polyposis
+follow_up	risk_factor	Fanconi Anemia
+follow_up	risk_factor	Fibrosis
+follow_up	risk_factor	Gastric Polyp(s)
+follow_up	risk_factor	Gilbert's Syndrome
+follow_up	risk_factor	Gorlin Syndrome
+follow_up	risk_factor	HIV
+follow_up	risk_factor	Hashimoto's Thyroiditis
+follow_up	risk_factor	Hay Fever
+follow_up	risk_factor	Headache
+follow_up	risk_factor	Helicobacter Pylori-Associated Gastritis
+follow_up	risk_factor	Hematologic Disorder, NOS
+follow_up	risk_factor	Hemihypertrophy
+follow_up	risk_factor	Hemochromatosis
+follow_up	risk_factor	Hepatic Encephalopathy
+follow_up	risk_factor	Hepatitis B Infection
+follow_up	risk_factor	Hepatitis C Infection
+follow_up	risk_factor	Hepatitis, NOS
+follow_up	risk_factor	High Grade Dysplasia
+follow_up	risk_factor	Human Papillomavirus Infection
+follow_up	risk_factor	Hypospadias
+follow_up	risk_factor	Intestinal Metaplasia
+follow_up	risk_factor	Iron Overload
+follow_up	risk_factor	Li-Fraumeni Syndrome
+follow_up	risk_factor	Low Grade Dysplasia
+follow_up	risk_factor	Lymphocytic Thyroiditis
+follow_up	risk_factor	Lynch Syndrome
+follow_up	risk_factor	Myasthenia Gravis
+follow_up	risk_factor	Nonalcoholic Fatty Liver Disease
+follow_up	risk_factor	Nonalcoholic Steatohepatitis
+follow_up	risk_factor	Not Reported
+follow_up	risk_factor	Obesity
+follow_up	risk_factor	Oral Contraceptives
+follow_up	risk_factor	Pancreatitis
+follow_up	risk_factor	Parasitic Disease of Biliary Tract
+follow_up	risk_factor	Primary Sclerosing Cholangitis
+follow_up	risk_factor	Recurrent Pyogenic Cholangitis
+follow_up	risk_factor	Reflux Disease
+follow_up	risk_factor	Rheumatoid Arthritis
+follow_up	risk_factor	Rubinstein-Taybi Syndrome
+follow_up	risk_factor	Sarcoidosis
+follow_up	risk_factor	Seizure
+follow_up	risk_factor	Sensory Changes
+follow_up	risk_factor	Serous tubal intraepithelial carcinoma (STIC)
+follow_up	risk_factor	Steatosis
+follow_up	risk_factor	Tattoo
+follow_up	risk_factor	Thyroid Nodular Hyperplasia
+follow_up	risk_factor	Tobacco, NOS
+follow_up	risk_factor	Tobacco, Smokeless
+follow_up	risk_factor	Tobacco, Smoking
+follow_up	risk_factor	Turcot Syndrome
+follow_up	risk_factor	Undescended Testis
+follow_up	risk_factor	Unknown
+follow_up	risk_factor	Vision Changes
+follow_up	risk_factor	Wagr Syndrome
 imaging_file	checksum_algorithm	STRING
 imaging_file	checksum_value	STRING
 imaging_file	dcf_indexd_guid	STRING
@@ -1685,7 +2768,7 @@ imaging_file	file_mapping_level	Sample
 imaging_file	file_mapping_level	Study
 imaging_file	file_name	STRING
 imaging_file	file_size	STRING
-imaging_file	file_type	ARRAY(0x556f2e845c80)
+imaging_file	file_type	ARRAY(0x5585f924ca40)
 imaging_file	file_type	string
 imaging_file	file_url_in_cds	STRING
 imaging_file	image_modality	STRING
@@ -1700,7 +2783,7 @@ methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
 methylation_array_file	file_size	STRING
-methylation_array_file	file_type	ARRAY(0x556f2e845c80)
+methylation_array_file	file_type	ARRAY(0x5585f924ca40)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
@@ -3391,7 +4474,7 @@ sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
 sequencing_file	file_size	STRING
-sequencing_file	file_type	ARRAY(0x556f2e845c80)
+sequencing_file	file_type	ARRAY(0x5585f924ca40)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -3600,7 +4683,7 @@ single_cell_sequencing_file	file_mapping_level	Sample
 single_cell_sequencing_file	file_mapping_level	Study
 single_cell_sequencing_file	file_name	STRING
 single_cell_sequencing_file	file_size	STRING
-single_cell_sequencing_file	file_type	ARRAY(0x556f2e845c80)
+single_cell_sequencing_file	file_type	ARRAY(0x5585f924ca40)
 single_cell_sequencing_file	file_type	string
 single_cell_sequencing_file	file_url_in_cds	STRING
 single_cell_sequencing_file	instrument_model	454 GS
@@ -8407,14 +9490,15 @@ of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_clinical_measure_file_participant	clinical_measure_file	participant	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
+of_follow_up	follow_up	participant	NA	NA
 of_imaging_file	imaging_file	sample	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
-of_participant	participant	study_arm	NA	NA
 of_participant	participant	study	NA	NA
+of_participant	participant	study_arm	NA	NA
 of_pdx	pdx	sample	NA	NA
 of_publication	publication	study	NA	NA
-of_sample	sample	participant	NA	NA
 of_sample	sample	study	NA	NA
+of_sample	sample	participant	NA	NA
 of_sample_diagnosis	sample_diagnosis	sample	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
@@ -8423,8 +9507,8 @@ of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
 of_synonym	synonym	sample	NA	NA
-of_synonym	synonym	participant	NA	NA
 of_synonym	synonym	study	NA	NA
+of_synonym	synonym	participant	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
@@ -8451,6 +9535,7 @@ Total_Number_of_Input_Cells	Number of cells loaded/placed on plates
 UMI	Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
 acl	Specifies whether the data in a repository is open access or controlled access.
 adult_or_childhood_study	Specifies whether a study is using adults and/or children as subjects.
+adverse_event	Common Terminology Criteria for Adverse Events Version 4.0 Low Level Term Name
 age_at_diagnosis	Age at the time of diagnosis expressed in number of days since birth.
 alternate_participant_id	A synonymous or alternate ID for a participant that is stored in another study or repository.
 alternate_sample_id	A synonymous or alternate ID for a sample that is stored in another study or repository.
@@ -8463,11 +9548,14 @@ checksum_value	One or more characters using a irreversible unique number generat
 clinical_trial_arm	ARM of the clinical trial.
 clinical_trial_identifier	Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
 clinical_trial_repository	The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
+comorbidity	The text term used to describe a comorbidity disease, which coexists with the patient's malignant disease.
+comorbidity_method_of_diagnosis	The text term used to describe the method used to diagnose the patient's comorbidity disease.
 consent	The numeric value of the consent group as designated by dbGaP full accession identifier, phs######.v#.p#.c#.
 consent_shorthand	The human readable value of the consent group as designated by dbGaP, examples GRU, HMB, IRB, NPU, etc.
 coverage	Depth of coverage on assembly used. Found by (Unique Aligned Basecalls)/(Reference Length).
 custom_assembly_fasta_file_for_alignment	The name of the custom assembly fasta file used during alignment.
 data_types	The types of data files that can be found in the study.
+days_to_follow_up	Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact.
 days_to_last_followup	Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
 days_to_last_known_disease_status	Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
 days_to_recurrence	Number of days between the date used for index and the date the patient's disease recurred.
@@ -8479,6 +9567,7 @@ diagnosis_icd_cm	The diagnosis, in humans, as captured in the 2022 extension of 
 diagnosis_icd_o	The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
 diagnosis_id	A unique sequence of alphanumeric characters used to identify the participant diagnosis in the investigation or study, which is used for linking metadata.
 disease_phase	The stage or period of an individual's treatment process during which relevant observations were recorded.
+disease_response	Code assigned to describe the patient's response or outcome to the disease.
 email_address	The email address of the personnel.
 ethnicity	The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
 experimental_strategy_and_data_subtype	The experimental strategy used for the study or the data subtypes that exist in the study.
@@ -8491,6 +9580,9 @@ file_size	The numerical quantity documenting the physical magnitude of a set of 
 file_type	Text that provides a description of a particular kind of set of related records.
 file_types_and_format	Specific kind of files in the dataset that will be uploaded to the study.
 file_url_in_cds	Location of the file on the CDS Cloud, using AWS S3 protocol.
+follow_up_category	NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends.
+follow_up_id	A unique sequence of alphanumeric characters used to identify the follow up event.
+follow_up_other	NCI-GLOSS Definition  Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends
 funding_agency	An organization/Sponsor that underwrites financial support for projects of a particular type. Typically, they process applications and award funds to the chosen qualified applicants.
 funding_source_program_name	The name of the program that is providing funding.
 gender	Text designations that identify gender. Gender is described as the assemblage of properties that distinguish people on the basis of their societal roles. [Explanatory Comment 1 Identification of gender is based upon self-report and may come from a form, questionnaire, interview, etc.]
@@ -8531,6 +9623,7 @@ related_to_participant_id	Participant related to another participant
 relationship	How is a participant related to another participant
 reporter_label	The class of tags used in the methylation experiment.
 repository_of_synonym_id	The repository of the synonym.
+risk_factor	The text term used to describe a risk factor the patient had at the time of or prior to their diagnosis.
 sample_description	Text description of a sample or specimen.
 sample_diagnosis_id	A unique sequence of alphanumeric characters used to identify the sample diagnosis in the investigation or study, which is used for linking metadata.
 sample_id	A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.

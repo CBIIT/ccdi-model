@@ -1,5 +1,32 @@
 Handle: CDA
 Nodes:
+  follow_up:
+    Props:
+      - follow_up_id
+      - days_to_follow_up 
+      - follow_up_category
+      - adverse_event
+      - comorbidity
+      - comorbidity_method_of_diagnosis
+      - disease_response
+      - risk_factor
+      - follow_up_other
+  family_relationship:
+    Props:
+      - related_to_participant_id
+      - relationship
+      - family_id
+  pdx: #27jan2023 pdunn
+    Props: 
+      - model_id
+      - mouse_strain
+      - strain_immune_system_humanized
+      - implantation_type
+      - implantation_site
+      - type_of_humanization
+      - tumor_preparation
+      - tumor_characterization_method
+      - tumor_not_mus_or_ebv_origin
   clinical_measure_file: # 09.20.22 pdunn
     Props:
       # - file_id #system generated GUID/PK
@@ -314,6 +341,12 @@ Relationships:
     Ends:
       - Src: family_relationship
         Dst: participant      
+  of_follow_up:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: follow_up
+        Dst: participant
   of_imaging_file: #09.20.22 pd
     Props: null
     Mul: many_to_one

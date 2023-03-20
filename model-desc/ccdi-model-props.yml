@@ -5202,11 +5202,11 @@ PropDefinitions:
     Private: false
   #study_arm
   study_arm_id:
-    Desc: Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
+    Desc: Unique alphanumeric Identifier of a study arm.
     Term:
       - Origin: caDSR
         Code: '6380045'
-        Value: Study Identifier
+        Value: Study Arm Identifier
     Type: string
     Req: true
     Private: false 

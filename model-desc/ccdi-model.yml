@@ -49,6 +49,29 @@ Nodes:
      # - progression_or_recurrence
      # - tissue_or_organ_of_origin
      # - site_of_resection_or_biopsy
+  exposure:
+    Props:
+      - exposure_id
+      - start_days_from_index
+      - pack_years_smoked
+      - years_smoked
+      - alcohol_days_per_week
+      - alcohol_drinks_per_day
+      - alcohol_history
+      - alcohol_intensity
+      - asbestos_exposure
+      - cigarettes_per_day
+      - coal_dust_exposure
+      - environmental_tobacco_smoke_exposure
+      - radon_exposure
+      - respirable_crystalline_silica_exposure
+      - smoking_frequency
+      - time_between_waking_and_first_smoke
+      - tobacco_smoking_onset_year
+      - tobacco_smoking_quit_year
+      - tobacco_smoking_status
+      - type_of_smoke_exposure
+      - type_of_tobacco_used
   family_relationship:
     Props:
       - related_to_participant_id
@@ -318,6 +341,12 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: diagnosis
+        Dst: participant
+  of_exposure:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: exposure
         Dst: participant
   of_family_relationship:
     Props: null

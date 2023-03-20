@@ -34,7 +34,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6421489'
         Value: Medical History Event Reported Term
-                Type:
+        Type:
           - string
           -
             - "13q Syndrome"

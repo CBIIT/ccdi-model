@@ -28,7 +28,7 @@ PropDefinitions:
         - "Unknown"
     Req: true
     Private: false
-  condition:
+  medical_history_condition:
     Desc: The reported or pre-specified name of the medical condition or event.
     Term:
       - Origin: caDSR

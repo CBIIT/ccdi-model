@@ -94,6 +94,11 @@ Nodes:
       - checksum_algorithm
       - checksum_value
       - file_mapping_level
+  medical_history:
+    Props:
+      - medical_history_id
+      - medical_history_type
+      - medical_history_condition
   molecular_test:
     Props:
       - molecular_test_id
@@ -366,6 +371,12 @@ Relationships:
     Ends:
       - Src: imaging_file
         Dst: sample
+  of_medical_history:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      Src: medical_history
+      Dst: participant
   of_methylation_array_file: # 09.20.22 pd
     Props: null
     Mul: many_to_one

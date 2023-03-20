@@ -97,7 +97,7 @@ Nodes:
   medical_history:
     Props:
       - medical_history_id
-      - medical_history_type
+      - medical_history_category
       - medical_history_condition
   molecular_test:
     Props:

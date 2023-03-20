@@ -74,6 +74,7 @@ Nodes:
       - type_of_tobacco_used
   family_relationship:
     Props:
+      - family_relationship_id
       - related_to_participant_id
       - relationship
       - family_id
@@ -278,6 +279,7 @@ Nodes:
       - sequence_alignment_software
   study:
     Props:
+      - study_id
       - phs_accession #dbGaP accession
       - acl
       - study_name
@@ -302,11 +304,13 @@ Nodes:
       - number_of_samples
   study_arm: # 09.21.22 pd
     Props:
+      - study_arm_id
       - clinical_trial_arm
       - clinical_trial_identifier
       - clinical_trial_repository
   study_funding: # 0 or many grant or contract IDs
     Props: 
+      -study_funding_id
       - funding_agency # 0 or many per study
       - grant_id #grant or contract ID, NIH or other
       - funding_source_program_name

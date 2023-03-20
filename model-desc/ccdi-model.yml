@@ -310,7 +310,7 @@ Nodes:
       - clinical_trial_repository
   study_funding: # 0 or many grant or contract IDs
     Props: 
-      -study_funding_id
+      - study_funding_id
       - funding_agency # 0 or many per study
       - grant_id #grant or contract ID, NIH or other
       - funding_source_program_name

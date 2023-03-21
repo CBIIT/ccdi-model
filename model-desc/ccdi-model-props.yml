@@ -745,7 +745,8 @@ PropDefinitions:
     Req: true
     Private: false  
     Key: true
-  #follow_updays_to_follow_up:
+  #follow_up
+  days_to_follow_up:
     Desc: Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact.
     Term:
       - Origin: caDSR
@@ -754,7 +755,8 @@ PropDefinitions:
     Type: integer
     Req: true
     Private: false
-  #follow_upfollow_up_category:
+  #follow_up
+  follow_up_category:
     Desc: NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends.
     Term:
       - Origin: caDSR

@@ -2354,6 +2354,16 @@ PropDefinitions:
     Req: false
     Private: false
   #family_relationship
+  family_relationship_id:
+    Desc: A unique identifier for a family relationship record or entry.
+    Term:
+      - Origin: caDSR
+        Code: '6380045'
+        Value: Family Relationship Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
   related_to_participant_id:
     Desc: Participant related to another participant
     Term:
@@ -4980,6 +4990,16 @@ PropDefinitions:
     Req: true
     Private: false
   # study
+  study_id: 
+    Desc: A unique identifier for a study.
+    Term:
+      - Origin: caDSR
+        Code: '6380045'
+        Value: Study Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
   phs_accession:
     Desc: A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP). 
     Term:
@@ -4987,9 +5007,8 @@ PropDefinitions:
         Code: 'C173940'
         Value: dbGaP Accession Number 
     Type: string
-    Req: true
+    Req: false
     Private: false
-    Key: true
   study_short_title:
     Desc: The succinct version of the study title if it exists.
     Type: string
@@ -5144,6 +5163,16 @@ PropDefinitions:
 #    Req: false
 #    Private: false    
   # study_funding
+  study_funding_id:
+    Desc: A unique identifier for a study funding.
+    Term:
+      - Origin: caDSR
+        Code: '6380045'
+        Value: Study Funding Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
   funding_agency: # 0 or many per study
     Desc: An organization/Sponsor that underwrites financial support for projects of a particular type. Typically, they process applications and award funds to the chosen qualified applicants.
     Term:
@@ -5152,6 +5181,15 @@ PropDefinitions:
         Value: Funding Agency 
     Type: string
     Req: true
+    Private: false
+  funding_source_program_name:
+    Desc: The name of the program that is providing funding.
+    Term:
+      - Origin: NCIt
+        Code: 'C166274'
+        Value: Program Name 
+    Type: string
+    Req: false
     Private: false
   grant_id: #grant or contract ID, NIH or other
     Desc: Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
@@ -5162,6 +5200,16 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+  #study_arm
+  study_arm_id:
+    Desc: Unique alphanumeric Identifier of a study arm.
+    Term:
+      - Origin: caDSR
+        Code: '6380045'
+        Value: Study Arm Identifier
+    Type: string
+    Req: true
+    Private: false 
     Key: true
   clinical_trial_arm:
     Desc: ARM of the clinical trial.
@@ -5177,21 +5225,11 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-    Key: true
   clinical_trial_repository:
     Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
     Type: string
     Req: false
-    Private: false    
-  funding_source_program_name:
-    Desc: The name of the program that is providing funding.
-    Term:
-      - Origin: NCIt
-        Code: 'C166274'
-        Value: Program Name 
-    Type: string
-    Req: false
-    Private: false    
+    Private: false        
   # study_personnel
   study_personnel_id:  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
     Desc: A unique sequence of alphanumeric characters used to identify the personnel in the investigation or study, which is used for linking metadata.

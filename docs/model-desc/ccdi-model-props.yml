@@ -10,6 +10,7 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
+  #medical_history
   medical_history_category:
     Desc: "The type of relevant condition from the subject's medical history."
     Term: 
@@ -28,6 +29,7 @@ PropDefinitions:
         - "Unknown"
     Req: true
     Private: false
+  #medical_history
   medical_history_condition:
     Desc: The reported or pre-specified name of the medical condition or event.
     Term:
@@ -112,6 +114,7 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
+  #exposure
   pack_years_smoked:
     Desc: Numeric computed value to represent lifetime tobacco exposure defined as number of cigarettes smoked per day x number of years smoked divided by 20.
     Term:
@@ -121,6 +124,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false
+  #exposure
   years_smoked:
     Desc: Numeric value (or unknown) to represent the number of years a person has been smoking.
     Term:
@@ -130,6 +134,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false
+  #exposure
   alcohol_days_per_week:
     Desc: Numeric value used to describe the average number of days each week that a person consumes an alcoholic beverage.
     Term:
@@ -9746,6 +9751,7 @@ PropDefinitions:
       - Not Reported
     Req: false
     Private: false
+  #therapeutic_procedure
   treatment_outcome:
     Desc: Text term that describes the patient's final outcome after the treatment was administered.
     Term:
@@ -9777,6 +9783,7 @@ PropDefinitions:
       - Very Good Partial Response
     Req: true
     Private: false
+  #therapeutic_procedure
   treatment_type:
     Desc: Text term that describes the kind of treatment administered.
     Term:
@@ -9870,26 +9877,40 @@ PropDefinitions:
       - Unknown
     Req: true
     Private: false
+  #therapeutic_procedure
   days_to_treatment_start:
-    Desc: Number of days between the date used for index and the date the treatment started.
+    Desc: Subject Age in Days at Start of Treatment Course Day Count
     Term:
       - Origin: caDSR
-        Code: '6154726'
-        Value: Index Date To Treatment Start Day Count
+        Code: '12304720'
+        Value: AGE_AT_COURSE_START
     Type: integer
     Req: true
     Private: false
+  #therapeutic_procedure
+  days_to_treatment_end:
+    Desc: Subject Age in Days at End of Treatment Course Day Count
+    Term:
+      - Origin: caDSR
+        Code: '12304723'
+        Value: AGE_AT_COURSE_END
+    Type: integer
+    Req: true
+    Private: false  
+  #therapeutic_procedure
   treatment_id:
     Desc: A unique sequence of alphanumeric characters used to identify the treatment in the investigation or study, which is used for linking metadata.
     Type: string
     Req: true
     Private: false
     Key: true
+  #methylation_array_file
   methylation_platform:
     Desc: The words used to describe the instrument used to carry out a methylation experiment.
     Type: string
     Req: true
     Private: false
+  #methylation_array_file
   reporter_label:
     Desc: The class of tags used in the methylation experiment.
     Type: string

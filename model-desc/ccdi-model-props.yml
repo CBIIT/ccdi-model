@@ -4114,6 +4114,7 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
+  #participant
   alternate_participant_id:
     Desc: A synonymous or alternate ID for a participant that is stored in another study or repository.
     Term:
@@ -4123,6 +4124,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #participant
   race: 
     Desc: The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
     Term:
@@ -4140,6 +4142,7 @@ PropDefinitions:
       - "White"
     Req: true
     Private: false
+  #participant
   gender:
     Desc: Text designations that identify gender. Gender is described as the assemblage of properties that distinguish people on the basis of their societal roles. [Explanatory Comment 1 Identification of gender is based upon self-report and may come from a form, questionnaire, interview, etc.]
     Term:
@@ -4158,6 +4161,7 @@ PropDefinitions:
       - "Unspecified" 
     Req: true
     Private: false
+  #participant
   ethnicity:
     Desc: The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
     Term:
@@ -4172,11 +4176,17 @@ PropDefinitions:
       - "Unknown" 
     Req: true
     Private: false
+  #study
   consent:
     Desc: The numeric value of the consent group as designated by dbGaP full accession identifier, phs######.v#.p#.c#.
+    Term:
+      - Origin: caDSR
+        Code: '7218861'
+        Value: Consent Form Comment Text
     Type: string
     Req: true
     Private: false 
+  #study
   consent_shorthand:
     Desc: The human readable value of the consent group as designated by dbGaP, examples GRU, HMB, IRB, NPU, etc.
     Type: string
@@ -4193,6 +4203,7 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
+  # sample
   alternate_sample_id:
     Desc: A synonymous or alternate ID for a sample that is stored in another study or repository.
     Term:
@@ -4202,6 +4213,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  # sample
   sample_type: 
     Desc: Text term to describe the source of a biospecimen used for a laboratory test.
     Term:
@@ -4250,6 +4262,7 @@ PropDefinitions:
       - "Vaginal swab"
     Req: true
     Private: false
+  # sample
   anatomic_site:
     Desc: The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Term:
@@ -4595,6 +4608,7 @@ PropDefinitions:
       - "Waldeyer ring"
     Req: true
     Private: false
+  # sample
   participant_age_at_collection:     
     Desc: The age of the participant (in years) at the time of sample collection.
     Term:
@@ -4604,6 +4618,7 @@ PropDefinitions:
     Type: integer
     Req: true  
     Private: false
+  # sample
   tumor_grade:
     Desc: Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.
     Term:
@@ -4623,6 +4638,7 @@ PropDefinitions:
       - "Not Applicable"
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
+  # sample
   tumor_stage_clinical_t: 
     Desc: Extent of the primary cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
     Term:
@@ -4667,6 +4683,7 @@ PropDefinitions:
       - "TX"
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
+  # sample
   tumor_stage_clinical_n:
     Desc: Extent of the regional lymph node involvement for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
     Term:
@@ -4700,6 +4717,7 @@ PropDefinitions:
       - "NX"
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
+  # sample
   tumor_stage_clinical_m:
     Desc: Extent of the distant metastasis for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
     Term:
@@ -4717,6 +4735,7 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
 # tumor_morphology: CCDIDC-360
+  #diagnosis
   disease_phase:
     Desc: The stage or period of an individual's treatment process during which relevant observations were recorded.
     Term:
@@ -4733,6 +4752,7 @@ PropDefinitions:
       - 'Not Reported'
     Req: true  
     Private: false
+  #diagnosis
   tumor_classification:
     Desc: The classification of a tumor based primarily on histopathological characteristics.
     Term:

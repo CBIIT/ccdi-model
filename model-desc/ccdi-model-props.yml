@@ -2180,6 +2180,17 @@ PropDefinitions:
     Req: false
     Private: false  
   #single_cell_sequencing_file
+  single_cell_sequencing_file_id: 
+    Desc: A unique identifier for a single cell sequencing file.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
+  #single_cell_sequencing_file
   cDNA_Offset:
     Desc: cDNA Offset
     Term:
@@ -2189,7 +2200,8 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_filecDNA_Length:
+  #single_cell_sequencing_file  
+  cDNA_Length:
     Desc: cDNA Length
     Term:
       - Origin: HTAN
@@ -2198,7 +2210,8 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_fileCell_Barcode:
+  #single_cell_sequencing_file  
+  Cell_Barcode:
     Desc: Unique cell identifier. Determines which cell the read originated from
     Term:
       - Origin: HTAN
@@ -2453,6 +2466,17 @@ PropDefinitions:
     Req: true
     Private: false
   #pdx
+  pdx_id: 
+    Desc: A unique identifier for a pdx.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
+  #pdx
   model_id:
     Desc: The PDX model identifier.
     Term:
@@ -2465,7 +2489,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  #pdx
+  #pdx  
   implantation_type:
     Desc: How the xenograft was introduced into host.
     Term:
@@ -2479,7 +2503,7 @@ PropDefinitions:
       - 'orthotopic'
     Req: true
     Private: false
-  #pdx
+  #pdx  
   implantation_site:
     Desc: Anatomic site of xenograft.
     Term:
@@ -2496,7 +2520,7 @@ PropDefinitions:
       - 'intra peritoneal cavity'
     Req: true
     Private: false
-  #pdx
+  #pdx  
   mouse_strain:  
     Desc: The host mouse strain to which the tumor is engrafted. May become an enum if terms are provided.
     Term:
@@ -2506,7 +2530,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  #pdx
+  #pdx  
   strain_immune_system_humanized: 
     Desc: Was the mouse host humanized?
     Term:
@@ -2518,7 +2542,7 @@ PropDefinitions:
       - No
     Req: true
     Private: false
-  #pdx
+  #pdx  
   type_of_humanization:
     Desc: How the mouse host was humanized.
     Term:
@@ -2559,6 +2583,17 @@ PropDefinitions:
     Req: false
     Private: false  
   #publication
+  publication_id: 
+    Desc: A unique identifier for a publication.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
+  #publication
   pubmed_id:
     Desc: The accession number used in PubMed.
     Term:
@@ -2568,7 +2603,6 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-    Key: true
   #synonym
   synonym_id:
     Desc: The synonym of the ID that is found in a different repository.
@@ -2599,6 +2633,17 @@ PropDefinitions:
     Type: string
     Reg: false
     Private: false
+  # clinical_measure_file
+  clinical_measure_file_id: 
+    Desc: A unique identifier for a clinical measure file.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
   # diagnosis
   diagnosis_id:
     Desc: A unique sequence of alphanumeric characters used to identify the participant diagnosis in the investigation or study, which is used for linking metadata.
@@ -4073,7 +4118,6 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-    Key: true
   file_mapping_level:
     Desc: Describes if the file belongs to a Participant, a Sample, or a Study.
     Enum:
@@ -4083,21 +4127,35 @@ PropDefinitions:
     Req: false
     Private: false    
   # imaging file props
+  imaging_file_id: 
+    Desc: A unique identifier for a imaging file.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
+  # imaging file props
   image_modality:
     Desc: The method in which the images are generated.
     Type: string
     Req: true
     Private: false
+  # imaging file props  
   imaging_platform:
     Desc: The words used to describe the instrument used to carry out an imaging experiment.
     Type: String
     Req: false
     Private: false
+  # imaging file props  
   imaging_instrument_model:
     Desc: The words used to describe the specific model of the instrument used to carry out an imaging experiment.
     Type: string
     Req: true
     Private: false    
+  # imaging file props
   software_package:
     Desc: The name of the software package that was used.
     Type: string
@@ -4842,6 +4900,17 @@ PropDefinitions:
     Req: true
     Private: false      
   # sequencing_file props
+  sequencing_file_id: 
+    Desc: A unique identifier for a sequencing file.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
+  # sequencing_file props
   library_id: # per dbGaP, library_id can be == sample_id if there is only 1 seq file per sample
     Desc: Short unique identifier for the sequencing library.
     Term:
@@ -5354,8 +5423,8 @@ PropDefinitions:
     Desc: A unique identifier for a study funding.
     Term:
       - Origin: caDSR
-        Code: '6380045'
-        Value: Study Funding Identifier
+        Code: '2534569'
+        Value: Additional Finding Identifier
     Type: string
     Req: true
     Private: false
@@ -10091,8 +10160,19 @@ PropDefinitions:
     Req: true
     Private: false  
   #therapeutic_procedure
-  therapeutic_procedure_id:
-    Desc: A unique sequence of alphanumeric characters used to identify the treatment in the investigation or study, which is used for linking metadata.
+  therapeutic_procedure_id: 
+    Desc: A unique identifier for a therapeutic procedure.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
+  #methylation_array_file
+  methylation_array_file_id: 
+    Desc: A unique identifier for a methylation array file.
     Term:
       - Origin: caDSR
         Code: '2534569'

@@ -13,7 +13,7 @@ Nodes:
       - follow_up_other
   clinical_measure_file: # 09.20.22 pdunn
     Props:
-      # - file_id #system generated GUID/PK
+      - clinical_measure_file_id
       - file_name
       - file_type
       - file_description
@@ -80,6 +80,7 @@ Nodes:
       - family_id
   imaging_file: # 01.03.22 pdunn
     Props:
+      - imaging_file_id
       - file_name
       - file_type
       - file_description
@@ -140,6 +141,7 @@ Nodes:
       - zygosity  
   methylation_array_file: # 09.20.22 pd
     Props:
+      - methylation_array_file_id
       - file_name
       - file_type
       - file_description
@@ -160,6 +162,7 @@ Nodes:
       # - dbgap_subject_id : store in synonym
   pdx: #27jan2023 pdunn
     Props: 
+      - pdx_id
       - model_id
       - mouse_strain
       - strain_immune_system_humanized
@@ -171,6 +174,7 @@ Nodes:
       - tumor_not_mus_or_ebv_origin
   publication: # 09.20.22 pd
      Props:
+      - publication_id
       - pubmed_id
   sample:
     Props:
@@ -200,7 +204,7 @@ Nodes:
       - tumor_stage_clinical_m
   single_cell_sequencing_file:
     Props:
-      # - file_id #system generated GUID/PK
+      - single_cell_sequencing_file_id
       - file_name
       - file_type
       - file_description
@@ -251,7 +255,7 @@ Nodes:
       - UMI
   sequencing_file: # 01.03.22 pdunn
     Props:
-      # - file_id #system generated GUID/PK
+      - sequencing_file_id
       - file_name
       - file_type
       - file_description
@@ -327,7 +331,7 @@ Nodes:
       - repository_of_synonym_id #the name of the other repo
   therapeutic_procedure:
     Props:
-      - treatment_id
+      - therapeutic_procedure_id
       - days_to_treatment_start
       - days_to_treatment_end
       - treatment_outcome

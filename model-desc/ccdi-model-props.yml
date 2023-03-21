@@ -4113,7 +4113,7 @@ PropDefinitions:
     Desc: An assigned globally unique identifier (GUID) that is assigned for the indexing process, making files available. This is usually not supplied by the submitter, but created in the ingestion process.
     Term:
       - Origin: caDSR
-        Code:'6584918'
+        Code: '6584918'
         Value: unique universal identifier
     Type: string
     Req: true

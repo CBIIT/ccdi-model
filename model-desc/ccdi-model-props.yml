@@ -3957,7 +3957,7 @@ PropDefinitions:
     Req: false
     Private: false     
    #diagnosis, sample_diagnosis
-   last_known_disease_status:
+  last_known_disease_status:
     Desc: Text term that describes the last known state or condition of an individual's neoplasm.
     Term:
       - Origin: caDSR

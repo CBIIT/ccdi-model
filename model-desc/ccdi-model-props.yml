@@ -5005,30 +5005,35 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
+  # study
   phs_accession:
     Desc: A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP). 
     Term:
-      - Origin: NCIt
-        Code: 'C173940'
+      - Origin: caDSR
+        Code: '11524544'
         Value: dbGaP Accession Number 
     Type: string
     Req: false
     Private: false
+  # study
   study_short_title:
     Desc: The succinct version of the study title if it exists.
     Type: string
     Req: true
     Private: false
+  # study
   study_acronym:
     Desc: A one word acronym to represent the study.
     Type: string
     Req: true
     Private: false
+  # study
   study_description:
     Desc: The long form description of the study.
     Type: string
     Req: true
     Private: false
+  # study
   external_url:
     Desc: The url of the study (often a dbGaP study page).
     Type: string

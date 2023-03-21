@@ -737,11 +737,15 @@ PropDefinitions:
   #follow_up
   follow_up_id:
     Desc: A unique sequence of alphanumeric characters used to identify the follow up event.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
     Type: string
     Req: true
     Private: false  
     Key: true
-  days_to_follow_up:
+  #follow_updays_to_follow_up:
     Desc: Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact.
     Term:
       - Origin: caDSR
@@ -750,7 +754,7 @@ PropDefinitions:
     Type: integer
     Req: true
     Private: false
-  follow_up_category:
+  #follow_upfollow_up_category:
     Desc: NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends.
     Term:
       - Origin: caDSR
@@ -764,6 +768,7 @@ PropDefinitions:
       - other
     Req: true
     Private: false
+  #follow_up
   adverse_event:
     Desc: Common Terminology Criteria for Adverse Events Version 4.0 Low Level Term Name
     Term:
@@ -1563,6 +1568,7 @@ PropDefinitions:
       - "Wrist Fracture"
     Req: false
     Private: false
+  #follow_up
   comorbidity:
     Desc: The text term used to describe a comorbidity disease, which coexists with the patient's malignant disease.
     Term:
@@ -1715,6 +1721,7 @@ PropDefinitions:
       - "Not Reported"
     Req: false
     Private: false          
+  #follow_up
   comorbidity_method_of_diagnosis:
     Desc: The text term used to describe the method used to diagnose the patient's comorbidity disease.
     Term: 
@@ -1729,6 +1736,7 @@ PropDefinitions:
       - "Not Reported"
     Req: false
     Private: false
+  #molecular_test
   intron:
     Desc: Intron number targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the intron where that variant is located.
     Term:
@@ -1738,6 +1746,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #molecular_test
   laboratory_test:
     Desc: The text term used to describe the medical testing used to diagnose, treat or further understand a patient's disease.
     Term:
@@ -1790,6 +1799,7 @@ PropDefinitions:
         - "Not Reported"
     Req: false
     Private: false
+  #molecular_test
   loci_abnormal_count:
     Desc: Numeric value used to describe the number of loci determined to be abnormal.
     Term:
@@ -1799,6 +1809,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false
+  #molecular_test
   loci_count:
     Desc: Numeric value used to describe the number of loci tested.
     Term:
@@ -1808,6 +1819,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false
+  #molecular_test
   locus:
     Desc: Alphanumeric value used to describe the locus of a specific genetic variant. Example NM_001126114.
     Term:
@@ -1817,6 +1829,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #molecular_test
   mismatch_repair_mutation:
     Desc: The yes/no/unknown indicator used to describe whether the mutation included in molecular testing was known to have an affect on the mismatch repair process.
     Term:
@@ -1826,6 +1839,7 @@ PropDefinitions:
     Enum:
     Req: false
     Private: false
+  #molecular_test
   molecular_consequence:
     Desc: The text term used to describe the molecular consequence of genetic variation.
     Term:
@@ -1835,6 +1849,7 @@ PropDefinitions:
     Enum:
     Req: false
     Private: false
+  #molecular_test
   pathogenicity:
     Desc: The text used to describe a variant's level of involvement in the cause of the patient's disease according to the standards outlined by the American College of Medical Genetics and Genomics (ACMG).
     Term:
@@ -1844,6 +1859,7 @@ PropDefinitions:
     Enum:
     Req: false
     Private: false
+  #molecular_test
   ploidy:
     Desc: Text term used to describe the number of sets of homologous chromosomes.
     Term:
@@ -1853,6 +1869,7 @@ PropDefinitions:
     Enum:
       - "Yes"
       - "No"
+  #follow_up
   disease_response:
     Desc: Code assigned to describe the patient's response or outcome to the disease.
     Term:
@@ -1895,6 +1912,7 @@ PropDefinitions:
       - "Not Reported"
     Req: false
     Private: false
+  #molecular_test
   second_exon:
     Desc: The second exon number involved in molecular variation. If a specific genetic variant is being reported, this property can be used to capture the second exon where that variant is located. This property is typically used for a translocation where two different locations are involved in the variation.
     Term:
@@ -1904,6 +1922,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #molecular_test
   second_gene_symbol:
     Desc: The text term used to describe a secondary gene targeted or included in molecular analysis. For rearrangements, this is should represent the location of the variant.
     Term:
@@ -1913,6 +1932,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #molecular_test
   specialized_molecular_test:
     Desc: Text term used to describe a specific test that is not covered in the list of molecular analysis methods.
     Term:
@@ -1922,6 +1942,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #molecular_test
   test_analyte_type:
     Desc: The text term used to describe the type of analyte used for molecular testing.
     Term:
@@ -1938,6 +1959,7 @@ PropDefinitions:
       - "Not Reported"
     Req: false
     Private: false
+  #molecular_test
   test_units:
     Desc: The text term used to describe the units of the test value for a molecular test. This property is used in conjunction with test_value.
     Term:
@@ -1947,6 +1969,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #molecular_test
   test_value:
     Desc: The text term or numeric value used to describe a specific result of a molecular test.
     Term:
@@ -1956,6 +1979,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #molecular_test
   transcript:
     Desc: Alphanumeric value used to describe the transcript of a specific genetic variant.
     Term:
@@ -1965,6 +1989,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #molecular_test
   variant_origin:
     Desc: The text term used to describe the biological origin of a specific genetic variant.
     Term:
@@ -1977,6 +2002,7 @@ PropDefinitions:
       - Unknown
     Req: false
     Private: false
+  #molecular_test
   variant_type:
     Desc: The text term used to describe the type of genetic variation.
     Term:
@@ -2012,6 +2038,7 @@ PropDefinitions:
         - "Not Reported"
     Req: false
     Private: false
+  #molecular_test
   zygosity:
     Desc: The text term used to describe the zygosity of a specific genetic variant.
     Term:
@@ -2027,6 +2054,7 @@ PropDefinitions:
       - "Not Reported"
     Req: false
     Private: false
+  #follow_up
   risk_factor:
     Desc: The text term used to describe a risk factor the patient had at the time of or prior to their diagnosis.
     Term:
@@ -2129,6 +2157,7 @@ PropDefinitions:
       - "Not Reported"
     Req: false
     Private: false  
+  #follow_up
   follow_up_other:
     Desc: NCI-GLOSS Definition  Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends
     Term: 
@@ -2160,7 +2189,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  cDNA_Length:
+  #single_cell_sequencing_filecDNA_Length:
     Desc: cDNA Length
     Term:
       - Origin: HTAN
@@ -2169,7 +2198,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  Cell_Barcode:
+  #single_cell_sequencing_fileCell_Barcode:
     Desc: Unique cell identifier. Determines which cell the read originated from
     Term:
       - Origin: HTAN
@@ -2178,6 +2207,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Cryopreserved_Cells_in_Sample:
     Desc: Indicate if library preparation was based on revived frozen cells.
     Term:
@@ -2187,6 +2217,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Dissociation_Method:
     Desc: The tissue dissociation method used for scRNASeq assays
     Term:
@@ -2196,6 +2227,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   End_Bias:
     Desc: The end of the cDNA molecule that is preferentially sequenced, e.g. 3/5 prime tag/end or the full length transcript
     Term:
@@ -2205,6 +2237,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Input_Cells_and_Nuclei:
     Desc: Number of cells and number of nuclei input
     Term:
@@ -2214,6 +2247,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Library_Construction_Method:
     Desc: Process which results in the creation of a library from fragments of DNA using cloning vectors or oligonucleotides with the role of adaptors [OBI_0000711]
     Term:
@@ -2223,6 +2257,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Library_Preparation_Date:
     Desc: The date that the libraries were prepared for sequencing
     Term:
@@ -2232,6 +2267,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Nucleic_Acid_Capture_Date:
     Desc: Date of nucleic acid capture part of library construction
     Term:
@@ -2241,6 +2277,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Paired_End:
     Desc: A library layout type
     Term:
@@ -2250,6 +2287,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Protocols_Link:
     Desc: Protocols.io ID  or DOI link to a free/open protocol resource describing in detail the assay protocol (e.g. surface markers used in Smart-seq, dissociation duration,  lot/batch numbers for key reagents such as primers, sequencing reagent kits, etc.).
     Term:
@@ -2259,6 +2297,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Read1:
     Desc: Read 1 content description
     Term:
@@ -2268,6 +2307,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Read2:
     Desc: Read 2 content description
     Term:
@@ -2277,6 +2317,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Reverse_Transcription_Primer_Oligo_dT_Poly_dT:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
@@ -2286,6 +2327,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Reverse_Transcription_Primer_Feature_barcoding:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
@@ -2295,6 +2337,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Reverse_Transcription_Primer_Random:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
@@ -2304,6 +2347,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Sequencing_Library_Construction_Date:
     Desc: Date of sequencing library construction part of library construction
     Term:
@@ -2313,6 +2357,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Single_Cell_Dissociation_Date:
     Desc: The date when the sample was dissociated and cells were isolated
     Term:
@@ -2322,6 +2367,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Single_Cell_Isolation_Method:
     Desc: The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)
     Term:
@@ -2331,6 +2377,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Spike_In:
     Desc: A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
     Term:
@@ -2340,6 +2387,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   Total_Number_of_Input_Cells:
     Desc: Number of cells loaded/placed on plates
     Term:
@@ -2349,6 +2397,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
   UMI:
     Desc: Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
     Term:
@@ -2363,8 +2412,8 @@ PropDefinitions:
     Desc: A unique identifier for a family relationship record or entry.
     Term:
       - Origin: caDSR
-        Code: '6380045'
-        Value: Family Relationship Identifier
+        Code: '2534569'
+        Value: Additional Finding Identifier
     Type: string
     Req: true
     Private: false
@@ -2407,12 +2456,16 @@ PropDefinitions:
   model_id:
     Desc: The PDX model identifier.
     Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
     Type: string
     Req: true
     Private: false
+  #pdx
   implantation_type:
     Desc: How the xenograft was introduced into host.
     Term:
@@ -2426,6 +2479,7 @@ PropDefinitions:
       - 'orthotopic'
     Req: true
     Private: false
+  #pdx
   implantation_site:
     Desc: Anatomic site of xenograft.
     Term:
@@ -2442,6 +2496,7 @@ PropDefinitions:
       - 'intra peritoneal cavity'
     Req: true
     Private: false
+  #pdx
   mouse_strain:  
     Desc: The host mouse strain to which the tumor is engrafted. May become an enum if terms are provided.
     Term:
@@ -2451,6 +2506,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+  #pdx
   strain_immune_system_humanized: 
     Desc: Was the mouse host humanized?
     Term:
@@ -2462,6 +2518,7 @@ PropDefinitions:
       - No
     Req: true
     Private: false
+  #pdx
   type_of_humanization:
     Desc: How the mouse host was humanized.
     Term:
@@ -2471,6 +2528,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #pdx
   tumor_preparation:
     Desc: How the tumor was prepared for grafting.
     Term:
@@ -2480,6 +2538,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #pdx
   tumor_characterization_method:
     Desc: How the tumor was evaluated in the mouse host. May become an enum if terms are provided.
     Term:
@@ -2489,6 +2548,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false 
+  #pdx
   tumor_not_mus_or_ebv_origin: 
     Desc: Was tumor evaluated for having a mouse or EBV orgin?
     Term:
@@ -2501,40 +2561,67 @@ PropDefinitions:
   #publication
   pubmed_id:
     Desc: The accession number used in PubMed.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   #synonym
   synonym_id:
-    Desc: The synonym of the id that is found in a different repository.
+    Desc: The synonym of the ID that is found in a different repository.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
     Type: string
     Req: true
     Private: false
+  #synonym
   repository_of_synonym_id:
     Desc: The repository of the synonym.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
     Type: string
     Req: true
     Private: false
   # clinical_measure_file
   participant_list:
     Desc: The list of participant ids that are found in this clinical file. This is often used for files that have a large number of participants referenced within the file.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
     Type: string
     Reg: false
     Private: false
   # diagnosis
   diagnosis_id:
     Desc: A unique sequence of alphanumeric characters used to identify the participant diagnosis in the investigation or study, which is used for linking metadata.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
     Type: string
     Req: true
     Private: false
     Key: true
+  #sample_diagnosis
   sample_diagnosis_id:
     Desc: A unique sequence of alphanumeric characters used to identify the sample diagnosis in the investigation or study, which is used for linking metadata.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
     Type: string
     Req: true
     Private: false
     Key: true  
+  #diagnosis, sample_diagnosis
   diagnosis_icd_cm:
     Desc: The diagnosis, in humans, as captured in the 2022 extension of the tenth version of the International Classification of Disease (ICD-10-CM, the disease code subset of ICD-10). Examples - C80.1, C44.510, D14.3-, D49.89.
     Term:
@@ -2544,6 +2631,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #diagnosis, sample_diagnosis
   diagnosis_icd_o:
     Desc: The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
     Term:
@@ -3696,11 +3784,13 @@ PropDefinitions:
       - "9993/3 : Myelodysplastic syndrome with ring sideroblasts and multilineage dysplasia"
     Req: true
     Private: false    
+  #diagnosis, sample_diagnosis
   diagnosis_finer_resolution:
     Desc: Text term used to dprovide finer resolution diagnosis than available in ICD-O or ICD-10-CM. 
     Type: string
     Req: false
     Private: false    
+  #diagnosis
   age_at_diagnosis:
     Desc: Age at the time of diagnosis expressed in number of days since birth.
     Term:
@@ -3713,6 +3803,7 @@ PropDefinitions:
     Type: integer
     Req: true
     Private: false
+  #diagnosis
   vital_status:
     Desc: Participant vital status
     Term:
@@ -3727,6 +3818,7 @@ PropDefinitions:
       - "Unspecified"
     Req: true
     Private: false
+  #diagnosis, sample_diagnosis
   toronto_childhood_cancer_staging:
     Desc: For many of the malignancies that occur in childhood, TNM-based systems that document extent of disease at diagnosis are either inadequate or do not exist at all. Consensus guidelines for use by population cancer registries for staging childhood cancers (the Toronto Childhood Cancer Stage Guidelines) have been developed.
     Term: 
@@ -3809,6 +3901,7 @@ PropDefinitions:
       - "Ependymoma_M4"
     Req: false
     Private: false
+  #diagnosis
   days_to_recurrence:
     Desc: Number of days between the date used for index and the date the patient's disease recurred.
     Term:
@@ -3818,7 +3911,8 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false     
-  last_known_disease_status:
+   #diagnosis, sample_diagnosis
+   last_known_disease_status:
     Desc: Text term that describes the last known state or condition of an individual's neoplasm.
     Term:
       - Origin: caDSR
@@ -3837,6 +3931,7 @@ PropDefinitions:
       - "With tumor"
     Req: false
     Private: false     
+  #diagnosis, sample_diagnosis
   days_to_last_known_disease_status:
     Desc: Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
     Term:
@@ -3858,7 +3953,7 @@ PropDefinitions:
     Private: false    
   # progression_or_recurrence:    CCDIDC-360
   # site_of_resection_or_biopsy:     CCDIDC-360
-  # common file props
+  #sequencing_file, imaging_file, clinical_measure_file
   file_name:
     Desc: The name by which a set of related records (either written or electronic) are known.
     Term:
@@ -3871,6 +3966,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+  #sequencing_file, imaging_file, clinical_measure_file
   file_type:
     Desc: Text that provides a description of a particular kind of set of related records.
     Term:
@@ -3915,11 +4011,13 @@ PropDefinitions:
         - "xml"
     Req: true
     Private: false
+  #sequencing_file, imaging_file, clinical_measure_file
   file_description:
     Desc: A freeform description of the file.
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
+  #sequencing_file, imaging_file, clinical_measure_file
   file_size:
     Desc: The numerical quantity documenting the physical magnitude of a set of related electronic records.
     Term:
@@ -3932,11 +4030,17 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+  #sequencing_file, imaging_file, clinical_measure_file
   md5sum:
-    Desc: md5 hash.
+    Desc: md5 hash
+    Term:
+      - Origin: caDSR
+        Code: '6115805'
+        Value: File Hash Value Identifier
     Type: string
     Req: true
     Private: false
+  #sequencing_file, imaging_file, clinical_measure_file  
   checksum_value:
     Desc: One or more characters using a irreversible unique number generated from a string of text to identify a set of related electronic records.
     Term:
@@ -3962,6 +4066,10 @@ PropDefinitions:
     Private: false
   dcf_indexd_guid:
     Desc: An assigned globally unique identifier (GUID) that is assigned for the indexing process, making files available. This is usually not supplied by the submitter, but created in the ingestion process.
+    Term:
+      - Origin: caDSR
+        Code:'6584918'
+        Value: unique universal identifier
     Type: string
     Req: true
     Private: false
@@ -4074,15 +4182,23 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false     
- # sample
+  # sample
   sample_id:
     Desc: A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.
+    Term:
+      - Origin: caDSR
+        Code: '2003904'
+        Value: Sample ID
     Type: string
     Req: true
     Private: false
     Key: true
   alternate_sample_id:
     Desc: A synonymous or alternate ID for a sample that is stored in another study or repository.
+    Term:
+      - Origin: caDSR
+        Code: '2003904'
+        Value: Sample ID
     Type: string
     Req: false
     Private: false
@@ -4674,6 +4790,7 @@ PropDefinitions:
 #    Type: string
 #    Req: false
 #    Private: false
+  #sample
   sample_description:
     Desc: Text description of a sample or specimen.
     Term:
@@ -4686,6 +4803,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #sample
   sample_tumor_status:
     Desc: Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue.
     Term:
@@ -4707,12 +4825,16 @@ PropDefinitions:
   library_id: # per dbGaP, library_id can be == sample_id if there is only 1 seq file per sample
     Desc: Short unique identifier for the sequencing library.
     Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
       - Origin: NCIt
         Code: 'C175893'
         Value: Sequencing Library Unique Identifier 
     Type: string
     Req: true
     Private: false
+  #sequencing_file
   library_strategy: 
     Desc: The overall strategy for the collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
     Term:
@@ -4758,6 +4880,7 @@ PropDefinitions:
       - "WXS"
     Req: true
     Private: false
+  #sequencing_file
   platform:
     Desc: The words used to describe the instrument used to carry out a high-throughput sequencing experiment.
     Term:
@@ -4780,6 +4903,7 @@ PropDefinitions:
       - "PacBio SMRT"
     Req: true
     Private: false    
+  #sequencing_file
   instrument_model:
     Desc: The words used to describe the specific model of the instrument used to carry out a high-throughput sequencing experiment.
     Term:
@@ -4840,6 +4964,7 @@ PropDefinitions:
       - "Unknown"
     Req: true
     Private: false    
+  #sequencing_file
   library_layout: 
     Desc: Paired-end or Single
     Term:
@@ -4852,6 +4977,7 @@ PropDefinitions:
       - "NA"  # 02/10/2022 adeforge, added this just to get past the loading error to see what happens next, will remove
     Req: true
     Private: false
+  #sequencing_file
   library_source: # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
     Desc: The source of a sample collection of double stranded DNA fragments analyzed by high-throughput sequencing.
     Term:
@@ -4882,11 +5008,13 @@ PropDefinitions:
       - "NA"  # 02/10/2022 adeforge, added this just to get past the loading error to see what happens next, will remove
     Req: true
     Private: false
+  #sequencing_file
   number_of_bp:
     Desc: Count of unique basecalls present in the data. Please count each base only once if using secondary alignments.
     Type: integer
     Req: false
     Private: false
+  #sequencing_file
   number_of_reads:
     Desc: Count of the number of reads in the data. Please count each read only once if using secondary alignments.
     Term:
@@ -4896,6 +5024,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false
+  #sequencing_file
   avg_read_length:
     Desc: The number of nucleotides successfully ordered from each side of a
       nucleic acid fragment obtained after the completion of a sequencing process.
@@ -4906,11 +5035,13 @@ PropDefinitions:
     Type: number
     Req: false
     Private: false
+  #sequencing_file
   coverage:
     Desc: Depth of coverage on assembly used. Found by (Unique Aligned Basecalls)/(Reference Length).
     Type: number
     Req: false
     Private: false
+  #seqeuncing_file
   reference_genome_assembly:
     Desc: A published genetic sequence that is used as a reference sequence against which other sequences are compared. This is only if you are submitting a bam file aligned against a NCBI assembly.
     Term:
@@ -4920,11 +5051,13 @@ PropDefinitions:
     Type: string
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Private: false
+  #sequencing_file
   custom_assembly_fasta_file_for_alignment:
     Desc: The name of the custom assembly fasta file used during alignment.
     Type: string
     Req: false
     Private: false    
+  #sequencing_file
   sequence_alignment_software:
     Desc: The name of the software program used to align nucleotide sequencing data. 
     Term:
@@ -4934,6 +5067,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false    
+  #sequencing_file
   library_selection:
     Desc: The type of systematic actions performed to select or enrich DNA fragments used in analysis by high-throughput sequencing.
     Term:
@@ -4989,6 +5123,7 @@ PropDefinitions:
       - Unspecified
     Req: true
     Private: false    
+  #seqeuncing_file
   design_description:
     Desc: Free-form description of the methods used to create the sequencing library; a brief 'materials and methods' section.
     Type: string
@@ -5018,6 +5153,10 @@ PropDefinitions:
   # study
   study_short_title:
     Desc: The succinct version of the study title if it exists.
+    Term:
+      - Origin: caDSR
+        Code: '3443999'
+        Value: Study Research Identification Title Text
     Type: string
     Req: true
     Private: false
@@ -5030,6 +5169,10 @@ PropDefinitions:
   # study
   study_description:
     Desc: The long form description of the study.
+    Term:
+      - Origin: caDSR
+        Code: '3444002'
+        Value: Study Research Identification Descriptive Text
     Type: string
     Req: true
     Private: false
@@ -5039,6 +5182,7 @@ PropDefinitions:
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
+  # study
   experimental_strategy_and_data_subtype:
     Desc: The experimental strategy used for the study or the data subtypes that exist in the study.
     Term:
@@ -5048,6 +5192,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false 
+  #study_admin
   number_of_participants:
     Desc: The number of participants in the study for a disease, disorder, condition, or problem.
     Term:
@@ -5057,6 +5202,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false
+  #study_admin
   number_of_samples:
     Desc: The number of samples in the study, often used as a subset of a larger population, selected for investigation to draw conclusions or make estimates about the larger population. 
     Term:
@@ -5066,6 +5212,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false    
+  #study_admin
   size_of_data_being_uploaded:
     Desc: The numerical quantity documenting the physical magnitude of a set of related electronic records.
     Term:
@@ -5078,6 +5225,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #study_admin
   study_data_types:
     Desc: The field of study(s) associated with the data collection.
     Term:
@@ -5097,22 +5245,28 @@ PropDefinitions:
       - Radiology
     Req: false
     Private: false
+  #study_admin
   study_name:
     Desc: The name applied to an investigational project, also known as Study Title.
     Term:
-      - Origin: NCIt
-        Code: 'C165056'
-        Value: Project Name
+      - Origin: caDSR
+        Code: '3443999'
+        Value: Study Research Identification Title Text
     Type: string
     Req: false
     Private: false       
   # study_admin
   study_admin_id:
     Desc: A unique sequence of alphanumeric characters used to identify the admin in the investigation or study, which is used for linking metadata.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
     Type: string
     Req: true
     Private: false
     Key: true
+  # study_admin
   organism_species:
     Desc: The organism from which the sample is derived or originated.
     Term:
@@ -5129,6 +5283,7 @@ PropDefinitions:
       - 'Mouse'
     Req: true
     Private: false
+  # study_admin
   adult_or_childhood_study: # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
     Desc: Specifies whether a study is using adults and/or children as subjects. 
     Term:
@@ -5140,11 +5295,13 @@ PropDefinitions:
       - "Pediatric"
     Req: true
     Private: false
+  # study_admin
   data_types: # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
     Desc: The types of data files that can be found in the study.
     Type: string
     Req: false
     Private: false
+  # study_admin
   file_types_and_format: # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
     Desc: Specific kind of files in the dataset that will be uploaded to the study.
     Term:
@@ -5221,11 +5378,13 @@ PropDefinitions:
     Req: true
     Private: false 
     Key: true
+  #study_arm
   clinical_trial_arm:
     Desc: ARM of the clinical trial.
     Type: string
     Req: false
     Private: false
+  #study_arm
   clinical_trial_identifier:
     Desc: Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
     Term:
@@ -5235,6 +5394,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+  #study_arm
   clinical_trial_repository:
     Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
     Type: string
@@ -5243,15 +5403,21 @@ PropDefinitions:
   # study_personnel
   study_personnel_id:  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
     Desc: A unique sequence of alphanumeric characters used to identify the personnel in the investigation or study, which is used for linking metadata.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
     Type: string
     Req: true
     Private: false
     Key: true
+  # study_personnel
   personnel_name:
     Desc: The name of personnel who is an organizer in the study.
     Type: string
     Req: true
     Private: false
+  # study_personnel
   personnel_type: #enum: PI, Co-PI, Data Submitter, etc
     Desc: The role of personnel in the study.
     Enum:
@@ -5261,11 +5427,13 @@ PropDefinitions:
       - "Data Manager"  # 02/22/2022 adeforge, is this different from a 'Data Submitter'?
     Req: true
     Private: false
+  # study_personnel
   email_address:
     Desc: The email address of the personnel.
     Type: string
     Req: true
     Private: false
+  # study_personnel
   institution:
     Desc: The institution of the personnel.
     Type: string
@@ -9903,8 +10071,12 @@ PropDefinitions:
     Req: true
     Private: false  
   #therapeutic_procedure
-  treatment_id:
+  therapeutic_procedure_id:
     Desc: A unique sequence of alphanumeric characters used to identify the treatment in the investigation or study, which is used for linking metadata.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
     Type: string
     Req: true
     Private: false

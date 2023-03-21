@@ -188,8 +188,8 @@ Nodes:
       - diagnosis_icd_cm
       - diagnosis_finer_resolution
       - tumor_classification
-      - age_at_diagnosis
-      - days_to_recurrence
+      #- age_at_diagnosis
+      #- days_to_recurrence
       - last_known_disease_status
       - days_to_last_known_disease_status
       - days_to_last_followup
@@ -463,6 +463,8 @@ Relationships:
     Props: null
     Mul: many_to_many
     Ends:
+      - Src: therapeutic_procedure
+        Dst: sample
       - Src: therapeutic_procedure
         Dst: participant
   of_synonym: # 09.20.22 pd

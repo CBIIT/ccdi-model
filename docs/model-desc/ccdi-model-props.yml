@@ -2615,6 +2615,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+    Key: true
   #synonym
   repository_of_synonym_id:
     Desc: The repository of the synonym.

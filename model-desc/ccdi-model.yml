@@ -98,7 +98,7 @@ Nodes:
       - file_mapping_level
       - fixation_embedding_method
       - staining_method
-      - de-identification_method 
+      - deidentification_method 
   medical_history:
     Props:
       - medical_history_id

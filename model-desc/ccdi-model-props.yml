@@ -31,7 +31,7 @@ PropDefinitions:
     Req: true
     Private: false   
   #imaging_file
-  de-identification_method:
+  deidentification_method:
     Desc: Patient Deidentification
     Term:
       - Origin: caDSR

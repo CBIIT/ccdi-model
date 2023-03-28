@@ -398,12 +398,12 @@ Relationships:
     Ends:
       - Src: molecular_test
         Dst: participant
-  of_participant: #09.20.22 pd
+  of_participant:
     Props: null
     Mul: many_to_one #will need to mod this to many_to_many if a participant is in >1 study
     Ends:
-      - Src: participant
-        Dst: study_arm
+      #- Src: participant
+      #  Dst: study_arm
       - Src: participant
         Dst: study
   of_pdx: #27jan2023 pd
@@ -424,8 +424,8 @@ Relationships:
     Ends:
       - Src: sample
         Dst: participant
-      - Src: sample
-        Dst: study
+     # - Src: sample
+     #   Dst: study
   of_sample_diagnosis: 
     Props: null
     Mul: many_to_one
@@ -472,8 +472,6 @@ Relationships:
     Props: null
     Mul: many_to_many
     Ends:
-      - Src: therapeutic_procedure
-        Dst: sample
       - Src: therapeutic_procedure
         Dst: participant
   of_synonym: # 09.20.22 pd

@@ -36,7 +36,13 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '2475579'
-    Type: string
+    Type:
+      - string
+      -
+        - "manual"
+        - "semiautomatic"
+        - "automatic"
+        - "Not applicable"
     Req: true
     Private: false      
   #medical_history

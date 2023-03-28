@@ -36,6 +36,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '2475579'
+        Value: Removal of text elements that would make data individually identifiable.
     Type:
       - string
       -

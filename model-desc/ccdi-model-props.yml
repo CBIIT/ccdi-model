@@ -1,4 +1,44 @@
 PropDefinitions:
+  #imaging_file
+  fixation_embedding_method: 
+    Desc: Any of the steps that convert a fresh tissue to a specimen ready for microscopy.
+    Term:
+      - Origin: NCIt
+        Code: 'C49337'
+        Value: Tissue Preparation or Processing Technique
+    Type:
+      - string
+      -
+        - "Embedding"
+        - "Fixation"
+        - "Formalin-Fixed Paraffin-Embedded"
+        - "Fresh Dissociated Tissue Preparation"
+        - "Thick Smear Technique"
+        - "Thin Smear Technique"
+    Req: true
+    Private: false
+  #imaging_file
+  staining_method:
+    Desc: Any of the various methods that use a dye, reagent, or other material for producing coloration in tissues or microorganisms for microscopic examination.
+    Term:
+      - Origin: NCIt
+        Code: 'C23010'
+        Value: Staining Method
+    Type: 
+      - string
+      -
+        - "Hematoxylin and Eosin Staining Method"
+    Req: true
+    Private: false   
+  #imaging_file
+  de-identification_method:
+    Desc: Patient Deidentification
+    Term:
+      - Origin: caDSR
+        Code: '2475579'
+    Type: string
+    Req: true
+    Private: false      
   #medical_history
   medical_history_id: 
     Desc: An internal or external identifier such as medical or clinical history record or identifier.

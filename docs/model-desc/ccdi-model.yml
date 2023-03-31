@@ -1,16 +1,5 @@
 Handle: CDA
 Nodes:
-  follow_up:
-    Props:
-      - follow_up_id
-      - days_to_follow_up 
-      - follow_up_category
-      - adverse_event
-      - comorbidity
-      - comorbidity_method_of_diagnosis
-      - disease_response
-      - risk_factor
-      - follow_up_other
   clinical_measure_file: # 09.20.22 pdunn
     Props:
       - clinical_measure_file_id
@@ -78,6 +67,17 @@ Nodes:
       - related_to_participant_id
       - relationship
       - family_id
+  follow_up:
+    Props:
+      - follow_up_id
+      - days_to_follow_up 
+      - follow_up_category
+      - adverse_event
+      - comorbidity
+      - comorbidity_method_of_diagnosis
+      - disease_response
+      - risk_factor
+      - follow_up_other
   imaging_file: # 01.03.22 pdunn
     Props:
       - imaging_file_id
@@ -89,13 +89,17 @@ Nodes:
       - file_url_in_cds
       - dcf_indexd_guid
       - image_modality
-      # - platform redundant with imaging_platform
       - imaging_instrument_model
       - software_package
       - imaging_platform
-      - checksum_algorithm
-      - checksum_value
+      - magnification
+      - fixation_embedding_method
+      - staining_method
+      - deidentification_method
       - file_mapping_level
+      # - checksum_algorithm
+      # - checksum_value
+      # - platform redundant with imaging_platform
   medical_history:
     Props:
       - medical_history_id

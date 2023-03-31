@@ -89,16 +89,17 @@ Nodes:
       - file_url_in_cds
       - dcf_indexd_guid
       - image_modality
-      # - platform redundant with imaging_platform
       - imaging_instrument_model
       - software_package
       - imaging_platform
-      - checksum_algorithm
-      - checksum_value
-      - file_mapping_level
+      - magnification
       - fixation_embedding_method
       - staining_method
-      - deidentification_method 
+      - deidentification_method
+      - file_mapping_level
+      # - checksum_algorithm
+      # - checksum_value
+      # - platform redundant with imaging_platform
   medical_history:
     Props:
       - medical_history_id

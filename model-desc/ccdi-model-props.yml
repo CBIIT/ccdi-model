@@ -1,5 +1,16 @@
 PropDefinitions:
   #imaging_file
+  magnification:
+    Desc: The amount or degree of visual enlargement used during image acquisition.
+    Term: 
+      - Origin: caDSR
+        Code: '7788940'
+        Value: A floating point numerical value describing the nominal magnification of an optical instrument using a combination of lenses to produce an image.
+    Type:
+      - string
+    Req: true
+    Private: false
+  #imaging_file
   fixation_embedding_method: 
     Desc: Any of the steps that convert a fresh tissue to a specimen ready for microscopy.
     Term:

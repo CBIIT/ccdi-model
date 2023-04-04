@@ -295,7 +295,7 @@ Nodes:
       - study_acronym
       - study_description
       - consent
-      - consent_shorthand
+      - consent_number
       - external_url
       - experimental_strategy_and_data_subtype
       - study_data_types

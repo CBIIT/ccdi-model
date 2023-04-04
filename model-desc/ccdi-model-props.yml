@@ -4297,7 +4297,7 @@ PropDefinitions:
     Private: false
   #study
   consent:
-    Desc: The numeric value of the consent group as designated by dbGaP full accession identifier, phs######.v#.p#.c#.
+    Desc: The human readable value of the consent group as designated by dbGaP, examples GRU, HMB, IRB, NPU, etc.
     Term:
       - Origin: caDSR
         Code: '7218861'
@@ -4306,9 +4306,9 @@ PropDefinitions:
     Req: true
     Private: false 
   #study
-  consent_shorthand:
-    Desc: The human readable value of the consent group as designated by dbGaP, examples GRU, HMB, IRB, NPU, etc.
-    Type: string
+  consent_number:
+    Desc: The numeric value of the consent group as designated by dbGaP full accession identifier, phs######.v#.p#.c#.
+    Type: integer
     Req: true
     Private: false     
   # sample

@@ -4878,6 +4878,7 @@ PropDefinitions:
         - 'Recurrent Disease'
         - 'Disease Relapse/Progression'
         - 'Complete Remission'
+        - 'Post-treatment'
         - 'Unknown'
         - 'Not Reported'
     Req: true  

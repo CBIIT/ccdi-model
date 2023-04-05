@@ -1896,7 +1896,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142534'
         Value: mismatch_repair_mutation
-    Enum:
+    Type: string
     Req: false
     Private: false
   #molecular_test
@@ -1906,7 +1906,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142403'
         Value: molecular_consequence
-    Enum:
+    Type: string
     Req: false
     Private: false
   #molecular_test
@@ -1916,7 +1916,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: 'N/A'
         Value: pathogenicity
-    Enum:
+    Type: string
     Req: false
     Private: false
   #molecular_test
@@ -1926,9 +1926,9 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142527'
         Value: ploidy
-    Enum:
-      - "Yes"
-      - "No"
+    Type: string
+    Req: false
+    Private: false
   #follow_up
   disease_response:
     Desc: Code assigned to describe the patient's response or outcome to the disease.

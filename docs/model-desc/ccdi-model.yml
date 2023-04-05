@@ -164,7 +164,7 @@ Nodes:
       - ethnicity
       - alternate_participant_id
       # - dbgap_subject_id : store in synonym
-  pdx: #27jan2023 pdunn
+  pdx:
     Props: 
       - pdx_id
       - model_id
@@ -176,7 +176,7 @@ Nodes:
       - tumor_preparation
       - tumor_characterization_method
       - tumor_not_mus_or_ebv_origin
-  publication: # 09.20.22 pd
+  publication:
      Props:
       - publication_id
       - pubmed_id

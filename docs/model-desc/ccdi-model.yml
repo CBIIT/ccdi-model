@@ -196,6 +196,7 @@ Nodes:
       - diagnosis_icd_o
       - diagnosis_icd_cm
       - diagnosis_finer_resolution
+      - disease_phase
       - tumor_classification
       #- age_at_diagnosis
       #- days_to_recurrence

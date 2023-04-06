@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit df5b1b1
+commit 3a0d7e8
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -10,8 +10,8 @@ clinical_measure_file	file_mapping_level	Participiant
 clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
-clinical_measure_file	file_size	STRING
-clinical_measure_file	file_type	ARRAY(0x55d3eb5eae60)
+clinical_measure_file	file_size	INTEGER
+clinical_measure_file	file_type	ARRAY(0x56448f403978)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
@@ -1502,13 +1502,7 @@ diagnosis	diagnosis_icd_o	9987/3 : Therapy-related myelodysplastic syndrome, NOS
 diagnosis	diagnosis_icd_o	9989/3 : Myelodysplastic syndrome, NOS
 diagnosis	diagnosis_icd_o	9993/3 : Myelodysplastic syndrome with ring sideroblasts and multilineage dysplasia
 diagnosis	diagnosis_id	STRING
-diagnosis	disease_phase	Disease Progression
-diagnosis	disease_phase	Disease Relapse/Progression
-diagnosis	disease_phase	Initial Diagnosis
-diagnosis	disease_phase	Not Reported
-diagnosis	disease_phase	Recurrent Disease
-diagnosis	disease_phase	Refractory
-diagnosis	disease_phase	Unknown
+diagnosis	disease_phase	-STRING - - 'INITIAL DIAGNOSIS' - 'DISEASE PROGRESSION' - 'REFRACTORY' - 'RECURRENT DISEASE' - 'DISEASE RELAPSE/PROGRESSION' - 'COMPLETE REMISSION' - 'POST-TREATMENT' - 'UNKNOWN' - 'NOT REPORTED'
 diagnosis	last_known_disease_status	Biochemical evidence of disease without structural correlate
 diagnosis	last_known_disease_status	Distant met recurrence/progression
 diagnosis	last_known_disease_status	Loco-regional recurrence/progression
@@ -1675,24 +1669,24 @@ diagnosis	vital_status	Unknown
 diagnosis	vital_status	Unspecified
 exposure	alcohol_days_per_week	INTEGER
 exposure	alcohol_drinks_per_day	INTEGER
-exposure	alcohol_history	ARRAY(0x55d3eb5c9a00)
+exposure	alcohol_history	ARRAY(0x56448f4b2c20)
 exposure	alcohol_history	string
-exposure	alcohol_intensity	ARRAY(0x55d3eb68cf50)
+exposure	alcohol_intensity	ARRAY(0x56448f4e4d50)
 exposure	alcohol_intensity	string
-exposure	asbestos_exposure	ARRAY(0x55d3eb5c02b0)
+exposure	asbestos_exposure	ARRAY(0x56448f4a2af8)
 exposure	asbestos_exposure	string
 exposure	cigarettes_per_day	INTEGER
-exposure	coal_dust_exposure	ARRAY(0x55d3eb628088)
+exposure	coal_dust_exposure	ARRAY(0x56448f4a3590)
 exposure	coal_dust_exposure	string
-exposure	environmental_tobacco_smoke_exposure	ARRAY(0x55d3eb5bdd20)
+exposure	environmental_tobacco_smoke_exposure	ARRAY(0x56448f4b4ff8)
 exposure	environmental_tobacco_smoke_exposure	string
 exposure	exposure_id	STRING
 exposure	pack_years_smoked	INTEGER
-exposure	radon_exposure	ARRAY(0x55d3eb5b6388)
+exposure	radon_exposure	ARRAY(0x56448f3ec8a0)
 exposure	radon_exposure	string
-exposure	respirable_crystalline_silica_exposure	ARRAY(0x55d3eb60d3a0)
+exposure	respirable_crystalline_silica_exposure	ARRAY(0x56448f4d5300)
 exposure	respirable_crystalline_silica_exposure	string
-exposure	smoking_frequency	ARRAY(0x55d3eb63e180)
+exposure	smoking_frequency	ARRAY(0x56448f3e9230)
 exposure	smoking_frequency	string
 exposure	start_days_from_index	INTEGER
 exposure	time_between_waking_and_first_smoke	31-60 Minutes
@@ -1769,7 +1763,7 @@ exposure	years_smoked	INTEGER
 family_relationship	family_id	STRING
 family_relationship	family_relationship_id	STRING
 family_relationship	related_to_participant_id	STRING
-family_relationship	relationship	ARRAY(0x55d3eb5b3c60)
+family_relationship	relationship	ARRAY(0x56448f494100)
 family_relationship	relationship	string
 follow_up	adverse_event	Abdominal Distension
 follow_up	adverse_event	Abdominal Infection
@@ -2855,18 +2849,18 @@ follow_up	risk_factor	Unknown
 follow_up	risk_factor	Vision Changes
 follow_up	risk_factor	Wagr Syndrome
 imaging_file	dcf_indexd_guid	STRING
-imaging_file	deidentification_method	ARRAY(0x55d3eb62af20)
+imaging_file	deidentification_method	ARRAY(0x56448f4c70e8)
 imaging_file	deidentification_method	string
 imaging_file	file_description	STRING
 imaging_file	file_mapping_level	Participiant
 imaging_file	file_mapping_level	Sample
 imaging_file	file_mapping_level	Study
 imaging_file	file_name	STRING
-imaging_file	file_size	STRING
-imaging_file	file_type	ARRAY(0x55d3eb5eae60)
+imaging_file	file_size	INTEGER
+imaging_file	file_type	ARRAY(0x56448f403978)
 imaging_file	file_type	string
 imaging_file	file_url_in_cds	STRING
-imaging_file	fixation_embedding_method	ARRAY(0x55d3eb5c66d0)
+imaging_file	fixation_embedding_method	ARRAY(0x56448f49fcf0)
 imaging_file	fixation_embedding_method	string
 imaging_file	image_modality	STRING
 imaging_file	imaging_file_id	STRING
@@ -2875,11 +2869,11 @@ imaging_file	imaging_platform	STRING
 imaging_file	magnification	string
 imaging_file	md5sum	STRING
 imaging_file	software_package	STRING
-imaging_file	staining_method	ARRAY(0x55d3eb631120)
+imaging_file	staining_method	ARRAY(0x56448f49feb8)
 imaging_file	staining_method	string
-medical_history	medical_history_category	ARRAY(0x55d3eb5bdcf0)
+medical_history	medical_history_category	ARRAY(0x56448f49e2d8)
 medical_history	medical_history_category	string
-medical_history	medical_history_condition	ARRAY(0x55d3eb5ed7f0)
+medical_history	medical_history_condition	ARRAY(0x56448f3d7ba8)
 medical_history	medical_history_condition	string
 medical_history	medical_history_id	STRING
 methylation_array_file	dcf_indexd_guid	STRING
@@ -2888,8 +2882,8 @@ methylation_array_file	file_mapping_level	Participiant
 methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
-methylation_array_file	file_size	STRING
-methylation_array_file	file_type	ARRAY(0x55d3eb5eae60)
+methylation_array_file	file_size	INTEGER
+methylation_array_file	file_type	ARRAY(0x56448f403978)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
@@ -2897,9 +2891,9 @@ methylation_array_file	methylation_array_file_id	STRING
 methylation_array_file	methylation_platform	STRING
 methylation_array_file	reporter_label	STRING
 molecular_test	aa_change	STRING
-molecular_test	antigen	ARRAY(0x55d3eb601460)
+molecular_test	antigen	ARRAY(0x56448f3ec078)
 molecular_test	antigen	string
-molecular_test	biospecimen_type	ARRAY(0x55d3eb5fe0b0)
+molecular_test	biospecimen_type	ARRAY(0x56448f499340)
 molecular_test	biospecimen_type	string
 molecular_test	blood_test_normal_range_lower	INTEGER
 molecular_test	blood_test_normal_range_upper	INTEGER
@@ -2961,13 +2955,13 @@ molecular_test	histone_variant	mH2A
 molecular_test	histone_variant	mH2A.1
 molecular_test	histone_variant	mH2A.2
 molecular_test	intron	STRING
-molecular_test	laboratory_test	ARRAY(0x55d3eb5cbe38)
+molecular_test	laboratory_test	ARRAY(0x56448f4d52e8)
 molecular_test	laboratory_test	string
 molecular_test	loci_abnormal_count	INTEGER
 molecular_test	loci_count	INTEGER
 molecular_test	locus	STRING
 molecular_test	mismatch_repair_mutation	STRING
-molecular_test	molecular_analysis_method	ARRAY(0x55d3eb5b5ae8)
+molecular_test	molecular_analysis_method	ARRAY(0x56448f48dbd8)
 molecular_test	molecular_analysis_method	string
 molecular_test	molecular_consequence	STRING
 molecular_test	molecular_test_id	STRING
@@ -2984,7 +2978,7 @@ molecular_test	test_analyte_type	Total RNA
 molecular_test	test_analyte_type	Unknown
 molecular_test	test_analyte_type	mRNA
 molecular_test	test_analyte_type	miRNA
-molecular_test	test_result	ARRAY(0x55d3eb5f5ab8)
+molecular_test	test_result	ARRAY(0x56448f3e9038)
 molecular_test	test_result	string
 molecular_test	test_units	STRING
 molecular_test	test_value	STRING
@@ -2992,7 +2986,7 @@ molecular_test	transcript	STRING
 molecular_test	variant_origin	Germline
 molecular_test	variant_origin	Somatic
 molecular_test	variant_origin	Unknown
-molecular_test	variant_type	ARRAY(0x55d3eb62e770)
+molecular_test	variant_type	ARRAY(0x56448f4bf110)
 molecular_test	variant_type	string
 molecular_test	zygosity	Hemizygous
 molecular_test	zygosity	Heterozygous
@@ -3006,35 +3000,15 @@ participant	ethnicity	Not Hispanic or Latino
 participant	ethnicity	Not allowed to collect
 participant	ethnicity	Not reported
 participant	ethnicity	Unknown
-participant	gender	Female
-participant	gender	Female Gender
-participant	gender	Intersex
-participant	gender	Male
-participant	gender	Male Gender
-participant	gender	Not Reported
-participant	gender	Not Specified
-participant	gender	Unknown
-participant	gender	Unspecified
+participant	gender	ARRAY(0x56448f406b08)
+participant	gender	string
 participant	participant_id	STRING
-participant	race	American Indian or Alaska Native
-participant	race	Asian
-participant	race	Black or African American
-participant	race	Native Hawaiian or other Pacific Islander
-participant	race	Not Reported
-participant	race	Not allowed to collect
-participant	race	Unknown
-participant	race	White
-pdx	implantation_site	intra peritoneal cavity
-pdx	implantation_site	mammary fat pad
-pdx	implantation_site	muscle
-pdx	implantation_site	renal capsule
-pdx	implantation_site	subcutaneous
-pdx	implantation_site	subrenal capsule
-pdx	implantation_site	tail vein
-pdx	implantation_type	injection
-pdx	implantation_type	orthotopic
-pdx	implantation_type	surgical
-pdx	implantation_type	trocar
+participant	race	ARRAY(0x56448f492428)
+participant	race	string
+pdx	implantation_site	ARRAY(0x56448f3ff070)
+pdx	implantation_site	string
+pdx	implantation_type	ARRAY(0x56448f4c4690)
+pdx	implantation_type	string
 pdx	model_id	STRING
 pdx	mouse_strain	STRING
 pdx	pdx_id	STRING
@@ -3386,14 +3360,8 @@ sample	anatomic_site	Waldeyer ring
 sample	participant_age_at_collection	INTEGER
 sample	sample_description	STRING
 sample	sample_id	STRING
-sample	sample_tumor_status	Abnormal
-sample	sample_tumor_status	Non-neoplastic
-sample	sample_tumor_status	Normal
-sample	sample_tumor_status	Peritumoral
-sample	sample_tumor_status	Tumor
-sample	sample_tumor_status	Unavailable
-sample	sample_tumor_status	Unknown
-sample	sample_tumor_status	Unspecified
+sample	sample_tumor_status	ARRAY(0x56448f403498)
+sample	sample_tumor_status	string
 sample	sample_type	Ascites
 sample	sample_type	Blood
 sample	sample_type	Blood Derived
@@ -4591,11 +4559,7 @@ sample_diagnosis	last_known_disease_status	Unknown
 sample_diagnosis	last_known_disease_status	Unknown tumor status
 sample_diagnosis	last_known_disease_status	With tumor
 sample_diagnosis	sample_diagnosis_id	STRING
-sample_diagnosis	tumor_classification	Metastatic
-sample_diagnosis	tumor_classification	Not Reported
-sample_diagnosis	tumor_classification	Primary
-sample_diagnosis	tumor_classification	Regional
-sample_diagnosis	tumor_classification	Unknown
+sample_diagnosis	tumor_classification	STRING - STRING - - 'PRIMARY' - 'REGIONAL' - 'METASTATIC' - 'UNKNOWN' - 'NOT REPORTED'
 sample_diagnosis	tumor_grade	G1
 sample_diagnosis	tumor_grade	G2
 sample_diagnosis	tumor_grade	G3
@@ -4684,8 +4648,8 @@ sequencing_file	file_mapping_level	Participiant
 sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
-sequencing_file	file_size	STRING
-sequencing_file	file_type	ARRAY(0x55d3eb5eae60)
+sequencing_file	file_size	INTEGER
+sequencing_file	file_type	ARRAY(0x56448f403978)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -4894,8 +4858,8 @@ single_cell_sequencing_file	file_mapping_level	Participiant
 single_cell_sequencing_file	file_mapping_level	Sample
 single_cell_sequencing_file	file_mapping_level	Study
 single_cell_sequencing_file	file_name	STRING
-single_cell_sequencing_file	file_size	STRING
-single_cell_sequencing_file	file_type	ARRAY(0x55d3eb5eae60)
+single_cell_sequencing_file	file_size	INTEGER
+single_cell_sequencing_file	file_type	ARRAY(0x56448f403978)
 single_cell_sequencing_file	file_type	string
 single_cell_sequencing_file	file_url_in_cds	STRING
 single_cell_sequencing_file	instrument_model	454 GS

@@ -2556,11 +2556,13 @@ PropDefinitions:
       - Origin: 'EMBL OLS OBI'
         Code: 'OBI_0000426'
         Value: Process which aims at introducing a compound or a mixture into a material entity (either biological entity or instrument) by relying on devices such as syringe or injector connection, attached or forced into a vascular system (veins of an organism or tubes of a machine) or in a tissue
-    Enum:
-      - 'injection'
-      - 'trocar'
-      - 'surgical'
-      - 'orthotopic'
+    Type:
+      - string
+      -
+        - 'injection'
+        - 'trocar'
+        - 'surgical'
+        - 'orthotopic'
     Req: true
     Private: false
   #pdx  
@@ -2570,14 +2572,16 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12299653'
         Value: Specimen Original Anatomic Site Uberon Name
-    Enum:
-      - 'tail vein'
-      - 'subcutaneous'
-      - 'renal capsule'
-      - 'subrenal capsule'
-      - 'muscle'
-      - 'mammary fat pad'
-      - 'intra peritoneal cavity'
+    Type:
+      - string
+      -
+        - 'tail vein'
+        - 'subcutaneous'
+        - 'renal capsule'
+        - 'subrenal capsule'
+        - 'muscle'
+        - 'mammary fat pad'
+        - 'intra peritoneal cavity'
     Req: true
     Private: false
   #pdx  
@@ -4133,7 +4137,7 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C171276'
         Value: MD5 Checksum 
-    Type: string
+    Type: integer
     Req: true
     Private: false
   #sequencing_file, imaging_file, clinical_measure_file
@@ -4250,15 +4254,17 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2192199'
         Value: Race Category Text
-    Enum: 
-      - "American Indian or Alaska Native"
-      - "Asian"
-      - "Black or African American"
-      - "Native Hawaiian or other Pacific Islander"
-      - "Not allowed to collect"
-      - "Not Reported"
-      - "Unknown"
-      - "White"
+    Type: 
+      - string
+      - 
+        - "American Indian or Alaska Native"
+        - "Asian"
+        - "Black or African American"
+        - "Native Hawaiian or other Pacific Islander"
+        - "Not allowed to collect"
+        - "Not Reported"
+        - "Unknown"
+        - "White"
     Req: true
     Private: false
   #participant
@@ -4268,16 +4274,18 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2200604'
         Value: Person Gender Text Type
-    Enum: 
-      - "Female"
-      - "Female Gender"
-      - "Intersex"
-      - "Male"
-      - "Male Gender"
-      - "Not Reported"
-      - "Not Specified"
-      - "Unknown"
-      - "Unspecified" 
+    Type:
+      - string
+      - 
+        - "Female"
+        - "Female Gender"
+        - "Intersex"
+        - "Male"
+        - "Male Gender"
+        - "Not Reported"
+        - "Not Specified"
+        - "Unknown"
+        - "Unspecified" 
     Req: true
     Private: false
   #participant
@@ -4861,14 +4869,18 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12217251'
         Value: Disease Phase Timepoint Category
-    Enum: 
-      - 'Initial Diagnosis'
-      - 'Disease Progression'
-      - 'Refractory'
-      - 'Recurrent Disease'
-      - 'Disease Relapse/Progression'
-      - 'Unknown'
-      - 'Not Reported'
+    Type:
+      -string
+      - 
+        - 'Initial Diagnosis'
+        - 'Disease Progression'
+        - 'Refractory'
+        - 'Recurrent Disease'
+        - 'Disease Relapse/Progression'
+        - 'Complete Remission'
+        - 'Post-treatment'
+        - 'Unknown'
+        - 'Not Reported'
     Req: true  
     Private: false
   #diagnosis
@@ -4877,13 +4889,15 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '12922545'
-        Value: Disease Phase Timepoint Category
-    Enum: 
-      - 'Primary'
-      - 'Regional'
-      - 'Metastatic'
-      - 'Unknown'
-      - 'Not Reported'
+        Value: Tumor Classification Type
+    Type: string
+      - string
+      - 
+        - 'Primary'
+        - 'Regional'
+        - 'Metastatic'
+        - 'Unknown'
+        - 'Not Reported'
     Req: true  
     Private: false
 #  tumor_incidence_type: # primary, metastatic, recurrence, progression
@@ -4949,15 +4963,17 @@ PropDefinitions:
       - Origin: caDSR
         Code: '5432687'
         Value: Tissue Sample Description Category
-    Enum:
-      - Abnormal
-      - Non-neoplastic
-      - Normal
-      - Peritumoral
-      - Tumor
-      - Unavailable
-      - Unknown
-      - Unspecified
+    Type:
+      - string
+      -
+        - 'Abnormal'
+        - 'Non-neoplastic'
+        - 'Normal'
+        - 'Peritumoral'
+        - 'Tumor'
+        - 'Unavailable'
+        - 'Unknown'
+        - 'Unspecified'
     Req: true
     Private: false      
   # sequencing_file props

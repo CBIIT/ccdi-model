@@ -39,6 +39,7 @@ PropDefinitions:
       - string
       -
         - "Hematoxylin and Eosin Staining Method"
+        - "Immunohistochemical Staining"
     Req: true
     Private: false   
   #imaging_file
@@ -272,7 +273,7 @@ PropDefinitions:
     Desc: The yes/no/unknown indicator used to describe whether a patient was exposed to fine powder derived by the crushing of coal.
     Term:
       - Origin: caDSR
-        Code: 'N/A'
+        Code: 'NA'
         Value: coal_dust_exposure
     Type:
       - string
@@ -287,7 +288,7 @@ PropDefinitions:
     Desc: The yes/no/unknown indicator used to describe whether a patient was exposed to smoke that is emitted from burning tobacco, including cigarettes, pipes, and cigars. This includes tobacco smoke exhaled by smokers.
     Term:
       - Origin: caDSR
-        Code: 'N/A'
+        Code: 'NA'
         Value: environmental_tobacco_smoke_exposure
     Type:
       - string
@@ -317,7 +318,7 @@ PropDefinitions:
     Desc: The yes/no/unknown indicator used to describe whether a patient was exposured to respirable crystalline silica, a widespread, naturally occurring, crystalline metal oxide that consists of different forms including quartz, cristobalite, tridymite, tripoli, ganister, chert and novaculite.
     Term:
       - Origin: caDSR
-        Code: 'N/A'
+        Code: 'NA'
         Value: respirable_crystalline_silica_exposure
     Type:
       - string
@@ -332,7 +333,7 @@ PropDefinitions:
     Desc: The text term used to generally decribe how often the patient smokes.
     Term:
       - Origin: caDSR
-        Code: 'N/A'
+        Code: 'NA'
         Value: smoking_frequency
     Type:
       - string
@@ -395,7 +396,7 @@ PropDefinitions:
     Desc: The text term used to describe the patient's specific type of smoke exposure.
     Term:
       - Origin: caDSR
-        Code: 'N/A'
+        Code: 'NA'
         Value: type_of_smoke_exposure
     Enum:
       - "Accidental building fire smoke"
@@ -453,7 +454,7 @@ PropDefinitions:
     Desc: The text term used to describe the specific type of tobacco used by the patient.
     Term:
       - Origin: caDSR
-        Code: 'N/A'
+        Code: 'NA'
         Value: type_of_tobacco_used
     Enum:
       - "Cigarettes"
@@ -1811,7 +1812,7 @@ PropDefinitions:
     Desc: The text term used to describe the medical testing used to diagnose, treat or further understand a patient's disease.
     Term:
       - Origin: caDSR
-        Code: 'N/A'
+        Code: 'NA'
         Value: laboratory_test
     Type:
       - string
@@ -1914,7 +1915,7 @@ PropDefinitions:
     Desc: The text used to describe a variant's level of involvement in the cause of the patient's disease according to the standards outlined by the American College of Medical Genetics and Genomics (ACMG).
     Term:
       - Origin: caDSR
-        Code: 'N/A'
+        Code: 'NA'
         Value: pathogenicity
     Type: string
     Req: false
@@ -1977,7 +1978,7 @@ PropDefinitions:
     Desc: The second exon number involved in molecular variation. If a specific genetic variant is being reported, this property can be used to capture the second exon where that variant is located. This property is typically used for a translocation where two different locations are involved in the variation.
     Term:
       - Origin: caDSR
-        Code: 'N/A'
+        Code: 'NA'
         Value: second_exon
     Type: string
     Req: false
@@ -2054,7 +2055,7 @@ PropDefinitions:
     Desc: The text term used to describe the biological origin of a specific genetic variant.
     Term:
       - Origin: caDSR
-        Code: 'N/A'
+        Code: 'NA'
         Value: variant_origin
     Enum:
       - Germline

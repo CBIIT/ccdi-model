@@ -4870,7 +4870,7 @@ PropDefinitions:
         Code: '12217251'
         Value: Disease Phase Timepoint Category
     Type:
-      -string
+      - string
       - 
         - 'Initial Diagnosis'
         - 'Disease Progression'
@@ -4890,7 +4890,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12922545'
         Value: Tumor Classification Type
-    Type: string
+    Type:
       - string
       - 
         - 'Primary'

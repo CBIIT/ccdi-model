@@ -203,7 +203,6 @@ Nodes:
   #   - biosample_accession captured in synonym 
   #   - disease_phase
   #   - days_to_last_followup
-  #sample_diagnosis:
   single_cell_sequencing_file:
     Props:
       - single_cell_sequencing_file_id

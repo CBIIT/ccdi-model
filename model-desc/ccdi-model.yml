@@ -183,30 +183,27 @@ Nodes:
   sample:
     Props:
       - sample_id
-      # - biosample_accession captured in synonym
-      - sample_type 
       - anatomic_site
       - participant_age_at_collection # 28.02.22 pdunn
+      - diagnosis_icd_o
+      - diagnosis_finer_resolution
       - sample_tumor_status
+      - tumor_classification
       - sample_description
       - alternate_sample_id
-  sample_diagnosis:
-    Props:
-      - sample_diagnosis_id
-      - diagnosis_icd_o
-      - diagnosis_icd_cm
-      - diagnosis_finer_resolution
-      - disease_phase
-      - tumor_classification
-      #- age_at_diagnosis
-      #- days_to_recurrence
       - last_known_disease_status
       - days_to_last_known_disease_status
-      - days_to_last_followup
+      - toronto_childhood_cancer_staging
       - tumor_grade
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m
+      - diagnosis_icd_cm
+  #   - sample_type
+  #   - biosample_accession captured in synonym 
+  #   - disease_phase
+  #   - days_to_last_followup
+  #sample_diagnosis:
   single_cell_sequencing_file:
     Props:
       - single_cell_sequencing_file_id
@@ -431,12 +428,7 @@ Relationships:
         Dst: participant
      # - Src: sample
      #   Dst: study
-  of_sample_diagnosis: 
-    Props: null
-    Mul: many_to_one
-    Ends:
-      - Src: sample_diagnosis
-        Dst: sample  
+  #of_sample_diagnosis: 
   of_sequencing_file: #09.20.22 pd
     Props: null
     Mul: many_to_one

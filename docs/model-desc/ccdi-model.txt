@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit dc69c2e
+commit e93ce2f
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -11,7 +11,7 @@ clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
 clinical_measure_file	file_size	INTEGER
-clinical_measure_file	file_type	ARRAY(0x5604a6125f78)
+clinical_measure_file	file_type	ARRAY(0x562bcbebd748)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
@@ -1502,7 +1502,7 @@ diagnosis	diagnosis_icd_o	9987/3 : Therapy-related myelodysplastic syndrome, NOS
 diagnosis	diagnosis_icd_o	9989/3 : Myelodysplastic syndrome, NOS
 diagnosis	diagnosis_icd_o	9993/3 : Myelodysplastic syndrome with ring sideroblasts and multilineage dysplasia
 diagnosis	diagnosis_id	STRING
-diagnosis	disease_phase	ARRAY(0x5604a61b19e0)
+diagnosis	disease_phase	ARRAY(0x562bcbdcdc68)
 diagnosis	disease_phase	string
 diagnosis	last_known_disease_status	Biochemical evidence of disease without structural correlate
 diagnosis	last_known_disease_status	Distant met recurrence/progression
@@ -1670,24 +1670,24 @@ diagnosis	vital_status	Unknown
 diagnosis	vital_status	Unspecified
 exposure	alcohol_days_per_week	INTEGER
 exposure	alcohol_drinks_per_day	INTEGER
-exposure	alcohol_history	ARRAY(0x5604a6125678)
+exposure	alcohol_history	ARRAY(0x562bcbebd4a8)
 exposure	alcohol_history	string
-exposure	alcohol_intensity	ARRAY(0x5604a61c52d8)
+exposure	alcohol_intensity	ARRAY(0x562bcbdd0db0)
 exposure	alcohol_intensity	string
-exposure	asbestos_exposure	ARRAY(0x5604a60c4eb0)
+exposure	asbestos_exposure	ARRAY(0x562bcbde10d0)
 exposure	asbestos_exposure	string
 exposure	cigarettes_per_day	INTEGER
-exposure	coal_dust_exposure	ARRAY(0x5604a61c17e8)
+exposure	coal_dust_exposure	ARRAY(0x562bcbe88d68)
 exposure	coal_dust_exposure	string
-exposure	environmental_tobacco_smoke_exposure	ARRAY(0x5604a61c0ae0)
+exposure	environmental_tobacco_smoke_exposure	ARRAY(0x562bcbddb748)
 exposure	environmental_tobacco_smoke_exposure	string
 exposure	exposure_id	STRING
 exposure	pack_years_smoked	INTEGER
-exposure	radon_exposure	ARRAY(0x5604a60d1ec0)
+exposure	radon_exposure	ARRAY(0x562bcbde8818)
 exposure	radon_exposure	string
-exposure	respirable_crystalline_silica_exposure	ARRAY(0x5604a60c1a68)
+exposure	respirable_crystalline_silica_exposure	ARRAY(0x562bcbde4248)
 exposure	respirable_crystalline_silica_exposure	string
-exposure	smoking_frequency	ARRAY(0x5604a6104ef0)
+exposure	smoking_frequency	ARRAY(0x562bcbdb6898)
 exposure	smoking_frequency	string
 exposure	start_days_from_index	INTEGER
 exposure	time_between_waking_and_first_smoke	31-60 Minutes
@@ -1764,7 +1764,7 @@ exposure	years_smoked	INTEGER
 family_relationship	family_id	STRING
 family_relationship	family_relationship_id	STRING
 family_relationship	related_to_participant_id	STRING
-family_relationship	relationship	ARRAY(0x5604a60da730)
+family_relationship	relationship	ARRAY(0x562bcbeaf0f0)
 family_relationship	relationship	string
 follow_up	adverse_event	Abdominal Distension
 follow_up	adverse_event	Abdominal Infection
@@ -2850,7 +2850,7 @@ follow_up	risk_factor	Unknown
 follow_up	risk_factor	Vision Changes
 follow_up	risk_factor	Wagr Syndrome
 imaging_file	dcf_indexd_guid	STRING
-imaging_file	deidentification_method	ARRAY(0x5604a60cfb20)
+imaging_file	deidentification_method	ARRAY(0x562bcbe88360)
 imaging_file	deidentification_method	string
 imaging_file	file_description	STRING
 imaging_file	file_mapping_level	Participiant
@@ -2858,10 +2858,10 @@ imaging_file	file_mapping_level	Sample
 imaging_file	file_mapping_level	Study
 imaging_file	file_name	STRING
 imaging_file	file_size	INTEGER
-imaging_file	file_type	ARRAY(0x5604a6125f78)
+imaging_file	file_type	ARRAY(0x562bcbebd748)
 imaging_file	file_type	string
 imaging_file	file_url_in_cds	STRING
-imaging_file	fixation_embedding_method	ARRAY(0x5604a61c90c0)
+imaging_file	fixation_embedding_method	ARRAY(0x562bcbe86178)
 imaging_file	fixation_embedding_method	string
 imaging_file	image_modality	STRING
 imaging_file	imaging_file_id	STRING
@@ -2870,11 +2870,11 @@ imaging_file	imaging_platform	STRING
 imaging_file	magnification	string
 imaging_file	md5sum	STRING
 imaging_file	software_package	STRING
-imaging_file	staining_method	ARRAY(0x5604a619c0c0)
+imaging_file	staining_method	ARRAY(0x562bcbe86be0)
 imaging_file	staining_method	string
-medical_history	medical_history_category	ARRAY(0x5604a60c7e08)
+medical_history	medical_history_category	ARRAY(0x562bcbdf2d10)
 medical_history	medical_history_category	string
-medical_history	medical_history_condition	ARRAY(0x5604a60fc7c0)
+medical_history	medical_history_condition	ARRAY(0x562bcbe8ce00)
 medical_history	medical_history_condition	string
 medical_history	medical_history_id	STRING
 methylation_array_file	dcf_indexd_guid	STRING
@@ -2884,7 +2884,7 @@ methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
 methylation_array_file	file_size	INTEGER
-methylation_array_file	file_type	ARRAY(0x5604a6125f78)
+methylation_array_file	file_type	ARRAY(0x562bcbebd748)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
@@ -2892,9 +2892,9 @@ methylation_array_file	methylation_array_file_id	STRING
 methylation_array_file	methylation_platform	STRING
 methylation_array_file	reporter_label	STRING
 molecular_test	aa_change	STRING
-molecular_test	antigen	ARRAY(0x5604a6121e38)
+molecular_test	antigen	ARRAY(0x562bcbebdc40)
 molecular_test	antigen	string
-molecular_test	biospecimen_type	ARRAY(0x5604a61c5410)
+molecular_test	biospecimen_type	ARRAY(0x562bcbde1dd8)
 molecular_test	biospecimen_type	string
 molecular_test	blood_test_normal_range_lower	INTEGER
 molecular_test	blood_test_normal_range_upper	INTEGER
@@ -2956,13 +2956,13 @@ molecular_test	histone_variant	mH2A
 molecular_test	histone_variant	mH2A.1
 molecular_test	histone_variant	mH2A.2
 molecular_test	intron	STRING
-molecular_test	laboratory_test	ARRAY(0x5604a60d7758)
+molecular_test	laboratory_test	ARRAY(0x562bcbdc52c0)
 molecular_test	laboratory_test	string
 molecular_test	loci_abnormal_count	INTEGER
 molecular_test	loci_count	INTEGER
 molecular_test	locus	STRING
 molecular_test	mismatch_repair_mutation	STRING
-molecular_test	molecular_analysis_method	ARRAY(0x5604a61724a8)
+molecular_test	molecular_analysis_method	ARRAY(0x562bcbde4ab8)
 molecular_test	molecular_analysis_method	string
 molecular_test	molecular_consequence	STRING
 molecular_test	molecular_test_id	STRING
@@ -2979,7 +2979,7 @@ molecular_test	test_analyte_type	Total RNA
 molecular_test	test_analyte_type	Unknown
 molecular_test	test_analyte_type	mRNA
 molecular_test	test_analyte_type	miRNA
-molecular_test	test_result	ARRAY(0x5604a60cef98)
+molecular_test	test_result	ARRAY(0x562bcbea93c8)
 molecular_test	test_result	string
 molecular_test	test_units	STRING
 molecular_test	test_value	STRING
@@ -2987,7 +2987,7 @@ molecular_test	transcript	STRING
 molecular_test	variant_origin	Germline
 molecular_test	variant_origin	Somatic
 molecular_test	variant_origin	Unknown
-molecular_test	variant_type	ARRAY(0x5604a61d7958)
+molecular_test	variant_type	ARRAY(0x562bcbddb0d0)
 molecular_test	variant_type	string
 molecular_test	zygosity	Hemizygous
 molecular_test	zygosity	Heterozygous
@@ -3001,14 +3001,14 @@ participant	ethnicity	Not Hispanic or Latino
 participant	ethnicity	Not allowed to collect
 participant	ethnicity	Not reported
 participant	ethnicity	Unknown
-participant	gender	ARRAY(0x5604a61c9078)
+participant	gender	ARRAY(0x562bcbdebb18)
 participant	gender	string
 participant	participant_id	STRING
-participant	race	ARRAY(0x5604a61bede0)
+participant	race	ARRAY(0x562bcbddeea8)
 participant	race	string
-pdx	implantation_site	ARRAY(0x5604a617fab0)
+pdx	implantation_site	ARRAY(0x562bcbdc7d98)
 pdx	implantation_site	string
-pdx	implantation_type	ARRAY(0x5604a60f4528)
+pdx	implantation_type	ARRAY(0x562bcbdd3668)
 pdx	implantation_type	string
 pdx	model_id	STRING
 pdx	mouse_strain	STRING
@@ -3358,1288 +3358,1318 @@ sample	anatomic_site	Vertebral column
 sample	anatomic_site	Vestibule of mouth
 sample	anatomic_site	Vulva, NOS
 sample	anatomic_site	Waldeyer ring
+sample	days_to_last_known_disease_status	INTEGER
+sample	diagnosis_finer_resolution	STRING
+sample	diagnosis_icd_cm	STRING
+sample	diagnosis_icd_o	8000/0 : Neoplasm, benign
+sample	diagnosis_icd_o	8000/1 : Neoplasm, uncertain whether benign or malignant
+sample	diagnosis_icd_o	8000/3 : Neoplasm, malignant
+sample	diagnosis_icd_o	8000/6 : Neoplasm, metastatic
+sample	diagnosis_icd_o	8000/9 : Neoplasm, malignant, uncertain whether primary or metastatic
+sample	diagnosis_icd_o	8001/0 : Tumor cells, benign
+sample	diagnosis_icd_o	8001/1 : Tumor cells, uncertain whether benign or malignant
+sample	diagnosis_icd_o	8001/3 : Tumor cells, malignant
+sample	diagnosis_icd_o	8002/3 : Malignant tumor, small cell type
+sample	diagnosis_icd_o	8003/3 : Malignant tumor, giant cell type
+sample	diagnosis_icd_o	8004/3 : Malignant tumor, spindle cell type
+sample	diagnosis_icd_o	8005/0 : Clear cell tumor, NOS
+sample	diagnosis_icd_o	8005/3 : Malignant tumor, clear cell type
+sample	diagnosis_icd_o	8010/0 : Epithelial tumor, benign
+sample	diagnosis_icd_o	8010/2 : Carcinoma in situ, NOS
+sample	diagnosis_icd_o	8010/3 : Carcinoma, NOS
+sample	diagnosis_icd_o	8010/6 : Carcinoma, metastatic, NOS
+sample	diagnosis_icd_o	8010/9 : Carcinomatosis
+sample	diagnosis_icd_o	8011/0 : Epithelioma, benign
+sample	diagnosis_icd_o	8011/3 : Epithelioma, malignant
+sample	diagnosis_icd_o	8012/3 : Large cell carcinoma, NOS
+sample	diagnosis_icd_o	8013/3 : Large cell neuroendocrine carcinoma
+sample	diagnosis_icd_o	8014/3 : Large cell carcinoma with rhabdoid phenotype
+sample	diagnosis_icd_o	8015/3 : Glassy cell carcinoma
+sample	diagnosis_icd_o	8020/3 : Carcinoma, undifferentiated, NOS
+sample	diagnosis_icd_o	8021/3 : Carcinoma, anaplastic, NOS
+sample	diagnosis_icd_o	8022/3 : Pleomorphic carcinoma
+sample	diagnosis_icd_o	8023/3 : Nuclear protein in testis (NUT) associated carcinoma
+sample	diagnosis_icd_o	8030/3 : Giant cell and spindle cell carcinoma
+sample	diagnosis_icd_o	8031/3 : Giant cell carcinoma
+sample	diagnosis_icd_o	8032/3 : Spindle cell carcinoma, NOS
+sample	diagnosis_icd_o	8033/3 : Pseudosarcomatous carcinoma
+sample	diagnosis_icd_o	8034/3 : Polygonal cell carcinoma
+sample	diagnosis_icd_o	8035/3 : Carcinoma with osteoclast-like giant cells
+sample	diagnosis_icd_o	8040/0 : Tumorlet, benign
+sample	diagnosis_icd_o	8040/1 : Tumorlet, NOS
+sample	diagnosis_icd_o	8041/3 : Small cell carcinoma, NOS
+sample	diagnosis_icd_o	8042/3 : Oat cell carcinoma
+sample	diagnosis_icd_o	8043/3 : Small cell carcinoma, fusiform cell
+sample	diagnosis_icd_o	8044/3 : Small cell carcinoma, intermediate cell
+sample	diagnosis_icd_o	8045/3 : Combined small cell carcinoma
+sample	diagnosis_icd_o	8046/3 : Non-small cell carcinoma
+sample	diagnosis_icd_o	8050/0 : Papilloma, NOS
+sample	diagnosis_icd_o	8050/2 : Papillary carcinoma in situ
+sample	diagnosis_icd_o	8050/3 : Papillary carcinoma, NOS
+sample	diagnosis_icd_o	8051/0 : Verrucous papilloma
+sample	diagnosis_icd_o	8051/3 : Verrucous carcinoma, NOS
+sample	diagnosis_icd_o	8052/0 : Squamous cell papilloma, NOS
+sample	diagnosis_icd_o	8052/2 : Papillary squamous cell carcinoma, non-invasive
+sample	diagnosis_icd_o	8052/3 : Papillary squamous cell carcinoma
+sample	diagnosis_icd_o	8053/0 : Squamous cell papilloma, inverted
+sample	diagnosis_icd_o	8054/0 : Warty dyskeratoma
+sample	diagnosis_icd_o	8054/3 : Warty carcinoma
+sample	diagnosis_icd_o	8060/0 : Squamous papillomatosis
+sample	diagnosis_icd_o	8070/0 : Actinic keratosis
+sample	diagnosis_icd_o	8070/2 : Squamous cell carcinoma in situ, NOS
+sample	diagnosis_icd_o	8070/3 : Squamous cell carcinoma, NOS
+sample	diagnosis_icd_o	8070/6 : Squamous cell carcinoma, metastatic, NOS
+sample	diagnosis_icd_o	8071/2 : Differentiated intraepithelial neoplasia
+sample	diagnosis_icd_o	8071/3 : Squamous cell carcinoma, keratinizing, NOS
+sample	diagnosis_icd_o	8072/0 : Large cell acanthoma
+sample	diagnosis_icd_o	8072/3 : Squamous cell carcinoma, large cell, nonkeratinizing, NOS
+sample	diagnosis_icd_o	8073/3 : Squamous cell carcinoma, small cell, nonkeratinizing
+sample	diagnosis_icd_o	8074/3 : Squamous cell carcinoma, spindle cell
+sample	diagnosis_icd_o	8075/3 : Squamous cell carcinoma, adenoid
+sample	diagnosis_icd_o	8076/2 : Squamous cell carcinoma in situ with questionable stromal invasion
+sample	diagnosis_icd_o	8076/3 : Squamous cell carcinoma, microinvasive
+sample	diagnosis_icd_o	8077/0 : Squamous intraepithelial neoplasia, low grade
+sample	diagnosis_icd_o	8077/2 : Squamous intraepithelial neoplasia, high grade
+sample	diagnosis_icd_o	8078/3 : Squamous cell carcinoma with horn formation
+sample	diagnosis_icd_o	8080/2 : Queyrat erythroplasia
+sample	diagnosis_icd_o	8081/2 : Bowen disease
+sample	diagnosis_icd_o	8082/3 : Lymphoepithelial carcinoma
+sample	diagnosis_icd_o	8083/3 : Basaloid squamous cell carcinoma
+sample	diagnosis_icd_o	8084/0 : Clear cell acanthoma
+sample	diagnosis_icd_o	8084/3 : Squamous cell carcinoma, clear cell type
+sample	diagnosis_icd_o	8085/3 : Squamous cell carcinoma, HPV-positive
+sample	diagnosis_icd_o	8086/3 : Squamous cell carcinoma, HPV-negative
+sample	diagnosis_icd_o	8090/1 : Basal cell tumor
+sample	diagnosis_icd_o	8090/3 : Basal cell carcinoma, NOS
+sample	diagnosis_icd_o	8091/3 : Superficial basal cell carcinoma
+sample	diagnosis_icd_o	8092/3 : Infiltrating basal cell carcinoma, NOS
+sample	diagnosis_icd_o	8093/3 : Basal cell carcinoma, fibroepithelial
+sample	diagnosis_icd_o	8094/3 : Basosquamous carcinoma
+sample	diagnosis_icd_o	8095/3 : Metatypical carcinoma
+sample	diagnosis_icd_o	8096/0 : Intraepidermal epithelioma of Jadassohn
+sample	diagnosis_icd_o	8097/3 : Basal cell carcinoma, nodular
+sample	diagnosis_icd_o	8098/3 : Adenoid basal carcinoma
+sample	diagnosis_icd_o	8100/0 : Trichoepithelioma
+sample	diagnosis_icd_o	8100/3 : Trichoblastic carcinoma
+sample	diagnosis_icd_o	8101/0 : Trichofolliculoma
+sample	diagnosis_icd_o	8102/0 : Trichilemmoma
+sample	diagnosis_icd_o	8102/3 : Trichilemmocarcinoma
+sample	diagnosis_icd_o	8103/0 : Pilar tumor
+sample	diagnosis_icd_o	8103/1 : Proliferating trichilemmal cyst
+sample	diagnosis_icd_o	8104/0 : Pilar sheath acanthoma
+sample	diagnosis_icd_o	8110/0 : Pilomatricoma, NOS
+sample	diagnosis_icd_o	8110/3 : Pilomatrical carcinoma
+sample	diagnosis_icd_o	8120/0 : Urothelial papilloma, NOS
+sample	diagnosis_icd_o	8120/2 : Urothelial carcinoma in situ
+sample	diagnosis_icd_o	8120/3 : Transitional cell carcinoma, NOS
+sample	diagnosis_icd_o	8121/0 : Sinonasal papilloma, exophytic
+sample	diagnosis_icd_o	8121/1 : Sinonasal papilloma, inverted
+sample	diagnosis_icd_o	8121/3 : Schneiderian carcinoma
+sample	diagnosis_icd_o	8122/3 : Urothelial carcinoma, sarcomatoid 
+sample	diagnosis_icd_o	8123/3 : Basaloid carcinoma
+sample	diagnosis_icd_o	8124/3 : Cloacogenic carcinoma
+sample	diagnosis_icd_o	8130/1 : Papillary urothelial neoplasm of low malignant potential
+sample	diagnosis_icd_o	8130/2 : Papillary urothelial carcinoma, non-invasive
+sample	diagnosis_icd_o	8130/3 : Papillary transitional cell carcinoma
+sample	diagnosis_icd_o	8131/3 : Urothelial carcinoma, micropapillary
+sample	diagnosis_icd_o	8140/0 : Adenoma, NOS
+sample	diagnosis_icd_o	8140/1 : Atypical adenoma
+sample	diagnosis_icd_o	8140/2 : Adenocarcinoma in situ, NOS
+sample	diagnosis_icd_o	8140/3 : Adenocarcinoma, NOS
+sample	diagnosis_icd_o	8140/6 : Adenocarcinoma, metastatic, NOS
+sample	diagnosis_icd_o	8141/3 : Scirrhous adenocarcinoma
+sample	diagnosis_icd_o	8142/3 : Linitis plastica
+sample	diagnosis_icd_o	8143/3 : Superficial spreading adenocarcinoma
+sample	diagnosis_icd_o	8144/0 : Adenoma, intestinal type
+sample	diagnosis_icd_o	8144/3 : Adenocarcinoma, intestinal type
+sample	diagnosis_icd_o	8145/3 : Carcinoma, diffuse type
+sample	diagnosis_icd_o	8146/0 : Monomorphic adenoma
+sample	diagnosis_icd_o	8147/0 : Basal cell adenoma
+sample	diagnosis_icd_o	8147/3 : Basal cell adenocarcinoma
+sample	diagnosis_icd_o	8148/0 : Glandular intraepithelial neoplasia, low grade
+sample	diagnosis_icd_o	8148/2 : Glandular intraepithelial neoplasia, high grade
+sample	diagnosis_icd_o	8149/0 : Canalicular adenoma
+sample	diagnosis_icd_o	8150/0 : Pancreatic neuroendocrine microadenoma
+sample	diagnosis_icd_o	8150/3 : Pancreatic neuroendocrine tumor, nonfunctioning
+sample	diagnosis_icd_o	8151/3 : Insulinoma, NOS
+sample	diagnosis_icd_o	8152/3 : Glucagonoma, NOS
+sample	diagnosis_icd_o	8153/3 : Gastrinoma, NOS
+sample	diagnosis_icd_o	8154/3 : Mixed neuroendocrine non-neuroendocrine neoplasm (MiNEN)
+sample	diagnosis_icd_o	8155/3 : Vipoma, NOS
+sample	diagnosis_icd_o	8156/3 : Somatostatinoma, NOS
+sample	diagnosis_icd_o	8158/3 : ACTH-producing tumor
+sample	diagnosis_icd_o	8160/0 : Bile duct adenoma
+sample	diagnosis_icd_o	8160/3 : Cholangiocarcinoma
+sample	diagnosis_icd_o	8161/0 : Bile duct cystadenoma
+sample	diagnosis_icd_o	8161/3 : Bile duct cystadenocarcinoma
+sample	diagnosis_icd_o	8162/3 : Klatskin tumor
+sample	diagnosis_icd_o	8163/0 : Pancreatobiliary neoplasm, non-invasive
+sample	diagnosis_icd_o	8163/2 : Papillary neoplasm, pancreatobiliary type, with high grade intraepithelial neoplasia
+sample	diagnosis_icd_o	8163/3 : Pancreatobiliary type carcinoma
+sample	diagnosis_icd_o	8170/0 : Liver cell adenoma
+sample	diagnosis_icd_o	8170/3 : Hepatocellular carcinoma, NOS
+sample	diagnosis_icd_o	8171/3 : Hepatocellular carcinoma, fibrolamellar
+sample	diagnosis_icd_o	8172/3 : Hepatocellular carcinoma, scirrhous
+sample	diagnosis_icd_o	8173/3 : Hepatocellular carcinoma, spindle cell variant
+sample	diagnosis_icd_o	8174/3 : Hepatocellular carcinoma, clear cell type
+sample	diagnosis_icd_o	8175/3 : Hepatocellular carcinoma, pleomorphic type
+sample	diagnosis_icd_o	8180/3 : Combined hepatocellular carcinoma and cholangiocarcinoma
+sample	diagnosis_icd_o	8190/0 : Trabecular adenoma
+sample	diagnosis_icd_o	8190/3 : Trabecular adenocarcinoma
+sample	diagnosis_icd_o	8191/0 : Embryonal adenoma
+sample	diagnosis_icd_o	8200/0 : Eccrine dermal cylindroma
+sample	diagnosis_icd_o	8200/3 : Adenoid cystic carcinoma
+sample	diagnosis_icd_o	8201/2 : Cribriform carcinoma in situ
+sample	diagnosis_icd_o	8201/3 : Cribriform carcinoma, NOS
+sample	diagnosis_icd_o	8202/0 : Microcystic adenoma
+sample	diagnosis_icd_o	8204/0 : Lactating adenoma
+sample	diagnosis_icd_o	8210/0 : Adenomatous polyp, NOS
+sample	diagnosis_icd_o	8210/2 : Adenocarcinoma in situ in adenomatous polyp
+sample	diagnosis_icd_o	8210/3 : Adenocarcinoma in adenomatous polyp
+sample	diagnosis_icd_o	8211/0 : Tubular adenoma, NOS
+sample	diagnosis_icd_o	8211/3 : Tubular adenocarcinoma
+sample	diagnosis_icd_o	8212/0 : Flat adenoma
+sample	diagnosis_icd_o	8213/0 : Serrated adenoma, NOS
+sample	diagnosis_icd_o	8213/3 : Serrated adenocarcinoma
+sample	diagnosis_icd_o	8214/3 : Parietal cell carcinoma
+sample	diagnosis_icd_o	8215/3 : Adenocarcinoma of anal glands
+sample	diagnosis_icd_o	8220/0 : Adenomatous polyposis coli
+sample	diagnosis_icd_o	8220/3 : Adenocarcinoma in adenomatous polyposis coli
+sample	diagnosis_icd_o	8221/0 : Multiple adenomatous polyps
+sample	diagnosis_icd_o	8221/3 : Adenocarcinoma in multiple adenomatous polyps
+sample	diagnosis_icd_o	8230/2 : Ductal carcinoma in situ, solid type
+sample	diagnosis_icd_o	8230/3 : Solid carcinoma, NOS
+sample	diagnosis_icd_o	8231/3 : Carcinoma simplex
+sample	diagnosis_icd_o	8240/3 : Neuroendocrine tumor, NOS
+sample	diagnosis_icd_o	8241/3 : Enterochromaffin cell carcinoid
+sample	diagnosis_icd_o	8242/3 : Enterochromaffin-like cell tumor, malignant
+sample	diagnosis_icd_o	8243/3 : Goblet cell carcinoid
+sample	diagnosis_icd_o	8244/3 : Mixed adenoneuroendocrine carcinoma
+sample	diagnosis_icd_o	8245/1 : Tubular carcinoid
+sample	diagnosis_icd_o	8245/3 : Adenocarcinoid tumor
+sample	diagnosis_icd_o	8246/3 : Neuroendocrine carcinoma, NOS
+sample	diagnosis_icd_o	8247/3 : Merkel cell carcinoma
+sample	diagnosis_icd_o	8248/1 : Apudoma
+sample	diagnosis_icd_o	8249/3 : Neuroendocrine tumor, grade 2
+sample	diagnosis_icd_o	8250/0 : Atypical adenomatous hyperplasia
+sample	diagnosis_icd_o	8250/1 : Pulmonary adenomatosis
+sample	diagnosis_icd_o	8250/2 : Adenocarcinoma in situ of the lung, non-mucinous
+sample	diagnosis_icd_o	8250/3 : Lepidic adenocarcinoma
+sample	diagnosis_icd_o	8251/0 : Alveolar adenoma
+sample	diagnosis_icd_o	8251/3 : Alveolar adenocarcinoma
+sample	diagnosis_icd_o	8252/3 : Bronchiolo-alveolar carcinoma, non-mucinous
+sample	diagnosis_icd_o	8253/2 : Adenocarcinoma in situ of the lung, mucinous
+sample	diagnosis_icd_o	8253/3 : Adenocarcinoma of the lung, mucinous
+sample	diagnosis_icd_o	8254/3 : Adenocarcinoma of the lung, mixed mucinous and non-mucinous
+sample	diagnosis_icd_o	8255/3 : Adenocarcinoma with mixed subtypes
+sample	diagnosis_icd_o	8256/3 : Minimally invasive adenocarcinoma, non-mucinous
+sample	diagnosis_icd_o	8257/3 : Minimally invasive adenocarcinoma, mucinous
+sample	diagnosis_icd_o	8260/0 : Papillary adenoma, NOS
+sample	diagnosis_icd_o	8260/1 : Aggressive papillary tumor
+sample	diagnosis_icd_o	8260/3 : Papillary adenocarcinoma, NOS
+sample	diagnosis_icd_o	8261/0 : Villous adenoma, NOS
+sample	diagnosis_icd_o	8261/2 : Adenocarcinoma in situ in villous adenoma
+sample	diagnosis_icd_o	8261/3 : Adenocarcinoma in villous adenoma
+sample	diagnosis_icd_o	8262/3 : Villous adenocarcinoma
+sample	diagnosis_icd_o	8263/0 : Tubulovillous adenoma, NOS
+sample	diagnosis_icd_o	8263/2 : Adenocarcinoma in situ in tubulovillous adenoma
+sample	diagnosis_icd_o	8263/3 : Adenocarcinoma in tubulovillous adenoma
+sample	diagnosis_icd_o	8264/0 : Papillomatosis, glandular
+sample	diagnosis_icd_o	8265/3 : Micropapillary carcinoma, NOS
+sample	diagnosis_icd_o	8270/0 : Chromophobe adenoma
+sample	diagnosis_icd_o	8270/3 : Chromophobe carcinoma
+sample	diagnosis_icd_o	8271/0 : Lactotroph adenoma
+sample	diagnosis_icd_o	8272/0 : Pituitary adenoma, NOS
+sample	diagnosis_icd_o	8272/3 : Pituitary carcinoma, NOS
+sample	diagnosis_icd_o	8273/3 : Pituitary blastoma
+sample	diagnosis_icd_o	8280/0 : Acidophil adenoma
+sample	diagnosis_icd_o	8280/3 : Acidophil carcinoma
+sample	diagnosis_icd_o	8281/0 : Mixed acidophil-basophil adenoma
+sample	diagnosis_icd_o	8281/3 : Mixed acidophil-basophil carcinoma
+sample	diagnosis_icd_o	8290/0 : Oxyphilic adenoma
+sample	diagnosis_icd_o	8290/3 : Oxyphilic adenocarcinoma
+sample	diagnosis_icd_o	8300/0 : Basophil adenoma
+sample	diagnosis_icd_o	8300/3 : Basophil carcinoma
+sample	diagnosis_icd_o	8310/0 : Clear cell adenoma
+sample	diagnosis_icd_o	8310/3 : Clear cell adenocarcinoma, NOS
+sample	diagnosis_icd_o	8311/1 : Hypernephroid tumor
+sample	diagnosis_icd_o	8311/3 : Hereditary leiomyomatosis and renal cell carcinoma (HRCC)-associated renal cell carcinoma
+sample	diagnosis_icd_o	8312/3 : Renal cell carcinoma, NOS
+sample	diagnosis_icd_o	8313/0 : Clear cell adenofibroma
+sample	diagnosis_icd_o	8313/1 : Clear cell borderline tumor
+sample	diagnosis_icd_o	8313/3 : Clear cell adenocarcinofibroma
+sample	diagnosis_icd_o	8314/3 : Lipid-rich carcinoma
+sample	diagnosis_icd_o	8315/3 : Glycogen-rich carcinoma
+sample	diagnosis_icd_o	8316/1 : Multilocular cystic renal neoplasm of low malignant potential 
+sample	diagnosis_icd_o	8316/3 : Cyst-associated renal cell carcinoma
+sample	diagnosis_icd_o	8317/3 : Renal cell carcinoma, chromophobe type
+sample	diagnosis_icd_o	8318/3 : Renal cell carcinoma, sarcomatoid
+sample	diagnosis_icd_o	8319/3 : Collecting duct carcinoma
+sample	diagnosis_icd_o	8320/3 : Granular cell carcinoma
+sample	diagnosis_icd_o	8321/0 : Chief cell adenoma
+sample	diagnosis_icd_o	8322/0 : Water-clear cell adenoma
+sample	diagnosis_icd_o	8322/3 : Water-clear cell adenocarcinoma
+sample	diagnosis_icd_o	8323/0 : Mixed cell adenoma
+sample	diagnosis_icd_o	8323/1 : Clear cell papillary renal cell carcinoma
+sample	diagnosis_icd_o	8323/3 : Mixed cell adenocarcinoma
+sample	diagnosis_icd_o	8324/0 : Lipoadenoma
+sample	diagnosis_icd_o	8325/0 : Metanephric adenoma
+sample	diagnosis_icd_o	8330/0 : Follicular adenoma, NOS
+sample	diagnosis_icd_o	8330/1 : Atypical follicular adenoma
+sample	diagnosis_icd_o	8330/3 : Follicular carcinoma, NOS
+sample	diagnosis_icd_o	8331/3 : Follicular adenocarcinoma, well differentiated
+sample	diagnosis_icd_o	8332/3 : Follicular adenocarcinoma, trabecular
+sample	diagnosis_icd_o	8333/0 : Microfollicular adenoma, NOS
+sample	diagnosis_icd_o	8333/3 : Fetal adenocarcinoma
+sample	diagnosis_icd_o	8334/0 : Macrofollicular adenoma
+sample	diagnosis_icd_o	8335/1 : Follicular tumor of uncertain malignant potential
+sample	diagnosis_icd_o	8335/3 : Follicular carcinoma, minimally invasive
+sample	diagnosis_icd_o	8336/1 : Hyalinizing trabecular tumor
+sample	diagnosis_icd_o	8337/3 : Poorly differentiated thyroid carcinoma
+sample	diagnosis_icd_o	8339/3 : Follicular carcinoma, encapsulated, angioinvasive
+sample	diagnosis_icd_o	8340/3 : Papillary carcinoma, follicular variant
+sample	diagnosis_icd_o	8341/3 : Papillary microcarcinoma
+sample	diagnosis_icd_o	8342/3 : Papillary carcinoma, oncocytic variant
+sample	diagnosis_icd_o	8343/3 : Papillary carcinoma, encapsulated of thyroid
+sample	diagnosis_icd_o	8344/3 : Papillary carcinoma, columnar cell
+sample	diagnosis_icd_o	8345/3 : Medullary thyroid carcinoma
+sample	diagnosis_icd_o	8346/3 : Mixed medullary-follicular carcinoma
+sample	diagnosis_icd_o	8347/3 : Mixed medullary-papillary carcinoma
+sample	diagnosis_icd_o	8348/1 : Well differentiated tumor of uncertain malignant potential
+sample	diagnosis_icd_o	8349/1 : Non-invasive follicular thyroid neoplasm with papillary-like nuclear features (NIFTP)
+sample	diagnosis_icd_o	8350/3 : Nonencapsulated sclerosing carcinoma
+sample	diagnosis_icd_o	8360/1 : Multiple endocrine adenomas
+sample	diagnosis_icd_o	8361/0 : Juxtaglomerular tumor
+sample	diagnosis_icd_o	8370/0 : Adrenal cortical adenoma, NOS
+sample	diagnosis_icd_o	8370/3 : Adrenal cortical carcinoma
+sample	diagnosis_icd_o	8371/0 : Adrenal cortical adenoma, compact cell
+sample	diagnosis_icd_o	8372/0 : Adrenal cortical adenoma, pigmented
+sample	diagnosis_icd_o	8373/0 : Adrenal cortical adenoma, clear cell
+sample	diagnosis_icd_o	8374/0 : Adrenal cortical adenoma, glomerulosa cell
+sample	diagnosis_icd_o	8375/0 : Adrenal cortical adenoma, mixed cell
+sample	diagnosis_icd_o	8380/0 : Endometrioid adenoma, NOS
+sample	diagnosis_icd_o	8380/1 : Endometrioid adenoma, borderline malignancy
+sample	diagnosis_icd_o	8380/2 : Endometrioid intraepithelial neoplasia
+sample	diagnosis_icd_o	8380/3 : Endometrioid adenocarcinoma, NOS
+sample	diagnosis_icd_o	8381/0 : Endometrioid adenofibroma, NOS
+sample	diagnosis_icd_o	8381/1 : Endometrioid adenofibroma, borderline malignancy
+sample	diagnosis_icd_o	8381/3 : Endometrioid adenofibroma, malignant
+sample	diagnosis_icd_o	8382/3 : Endometrioid adenocarcinoma, secretory variant
+sample	diagnosis_icd_o	8383/3 : Endometrioid adenocarcinoma, ciliated cell variant
+sample	diagnosis_icd_o	8384/3 : Adenocarcinoma, endocervical type
+sample	diagnosis_icd_o	8390/0 : Skin appendage adenoma
+sample	diagnosis_icd_o	8390/3 : Adnexal adenocarcinoma, NOS
+sample	diagnosis_icd_o	8391/0 : Follicular fibroma
+sample	diagnosis_icd_o	8392/0 : Syringofibroadenoma
+sample	diagnosis_icd_o	8400/0 : Sweat gland adenoma
+sample	diagnosis_icd_o	8400/1 : Sweat gland tumor, NOS
+sample	diagnosis_icd_o	8400/3 : Sweat gland adenocarcinoma
+sample	diagnosis_icd_o	8401/0 : Apocrine adenoma
+sample	diagnosis_icd_o	8401/3 : Apocrine adenocarcinoma
+sample	diagnosis_icd_o	8402/0 : Hidradenoma, NOS
+sample	diagnosis_icd_o	8402/3 : Hidradenocarcinoma
+sample	diagnosis_icd_o	8403/0 : Spiradenoma, NOS
+sample	diagnosis_icd_o	8403/3 : Malignant eccrine spiradenoma
+sample	diagnosis_icd_o	8404/0 : Hidrocystoma
+sample	diagnosis_icd_o	8405/0 : Papillary hidradenoma
+sample	diagnosis_icd_o	8406/0 : Syringocystadenoma papilliferum
+sample	diagnosis_icd_o	8406/3 : Syringocystadenocarcinoma papilliferum
+sample	diagnosis_icd_o	8407/0 : Syringoma, NOS
+sample	diagnosis_icd_o	8407/3 : Microcystic adnexal carcinoma
+sample	diagnosis_icd_o	8408/0 : Eccrine papillary adenoma
+sample	diagnosis_icd_o	8408/3 : Digital papillary adenocarcinoma
+sample	diagnosis_icd_o	8409/0 : Poroma, NOS
+sample	diagnosis_icd_o	8409/2 : Porocarcinoma in situ
+sample	diagnosis_icd_o	8409/3 : Porocarcinoma, NOS
+sample	diagnosis_icd_o	8410/0 : Sebaceoma
+sample	diagnosis_icd_o	8410/3 : Sebaceous carcinoma
+sample	diagnosis_icd_o	8413/3 : Eccrine adenocarcinoma
+sample	diagnosis_icd_o	8420/0 : Ceruminous adenoma
+sample	diagnosis_icd_o	8420/3 : Ceruminous adenocarcinoma
+sample	diagnosis_icd_o	8430/1 : Mucoepidermoid tumor
+sample	diagnosis_icd_o	8430/3 : Mucoepidermoid carcinoma
+sample	diagnosis_icd_o	8440/0 : Cystadenoma, NOS
+sample	diagnosis_icd_o	8440/3 : Cystadenocarcinoma, NOS
+sample	diagnosis_icd_o	8441/0 : Serous cystadenoma, NOS
+sample	diagnosis_icd_o	8441/2 : Serous intraepithelial carcinoma
+sample	diagnosis_icd_o	8441/3 : Serous carcinoma, NOS
+sample	diagnosis_icd_o	8442/1 : Serous borderline tumor, NOS
+sample	diagnosis_icd_o	8443/0 : Clear cell cystadenoma
+sample	diagnosis_icd_o	8450/0 : Papillary cystadenoma, NOS
+sample	diagnosis_icd_o	8450/3 : Papillary cystadenocarcinoma, NOS
+sample	diagnosis_icd_o	8451/1 : Papillary cystadenoma, borderline malignancy
+sample	diagnosis_icd_o	8452/1 : Solid pseudopapillary tumor of ovary
+sample	diagnosis_icd_o	8452/3 : Solid pseudopapillary neoplasm of the pancreas
+sample	diagnosis_icd_o	8453/0 : Intraductal Papillary mucinous adenoma
+sample	diagnosis_icd_o	8453/2 : Intraductal Papillary mucinous neoplasm with high grade dysplasia
+sample	diagnosis_icd_o	8453/3 : Intraductal Papillary mucinous neoplasm with an associated invasive carcinoma
+sample	diagnosis_icd_o	8454/0 : Cystic tumor of atrio-ventricular node
+sample	diagnosis_icd_o	8460/2 : Serous borderline tumor, micropapillary variant
+sample	diagnosis_icd_o	8460/3 : Low grade serous carcinoma
+sample	diagnosis_icd_o	8461/0 : Serous surface papilloma
+sample	diagnosis_icd_o	8461/3 : High grade serous carcinoma
+sample	diagnosis_icd_o	8470/0 : Mucinous cystadenoma, NOS
+sample	diagnosis_icd_o	8470/2 : Mucinous cystic neoplasm with high grade dysplasia
+sample	diagnosis_icd_o	8470/3 : Mucinous cystadenocarcinoma, NOS
+sample	diagnosis_icd_o	8472/1 : Mucinous cystic tumor of borderline malignancy
+sample	diagnosis_icd_o	8474/0 : Seromucinous cystadenoma
+sample	diagnosis_icd_o	8474/1 : Seromucinous borderline tumor
+sample	diagnosis_icd_o	8474/3 : Seromucinous carcinoma
+sample	diagnosis_icd_o	8480/0 : Mucinous adenoma
+sample	diagnosis_icd_o	8480/1 : Low grade appendiceal mucinous neoplasm
+sample	diagnosis_icd_o	8480/3 : Mucinous adenocarcinoma
+sample	diagnosis_icd_o	8480/6 : Pseudomyxoma peritonei
+sample	diagnosis_icd_o	8481/3 : Mucin-producing adenocarcinoma
+sample	diagnosis_icd_o	8482/3 : Mucinous carcinoma, gastric type
+sample	diagnosis_icd_o	8490/3 : Signet ring cell carcinoma
+sample	diagnosis_icd_o	8490/6 : Metastatic signet ring cell carcinoma
+sample	diagnosis_icd_o	8500/2 : Intraductal carcinoma, noninfiltrating, NOS
+sample	diagnosis_icd_o	8500/3 : Infiltrating duct carcinoma, NOS
+sample	diagnosis_icd_o	8501/2 : Comedocarcinoma, noninfiltrating
+sample	diagnosis_icd_o	8501/3 : Comedocarcinoma, NOS
+sample	diagnosis_icd_o	8502/3 : Secretory carcinoma
+sample	diagnosis_icd_o	8503/0 : Intraductal papilloma
+sample	diagnosis_icd_o	8503/2 : Noninfiltrating intraductal papillary adenocarcinoma
+sample	diagnosis_icd_o	8503/3 : Intraductal papillary adenocarcinoma with invasion
+sample	diagnosis_icd_o	8504/0 : Intracystic papillary adenoma
+sample	diagnosis_icd_o	8504/2 : Encapsulated papillary carcinoma
+sample	diagnosis_icd_o	8504/3 : Encapsulated papillary carcinoma with invasion
+sample	diagnosis_icd_o	8505/0 : Intraductal papillomatosis, NOS
+sample	diagnosis_icd_o	8506/0 : Adenoma of nipple
+sample	diagnosis_icd_o	8507/2 : Intraductal micropapillary carcinoma
+sample	diagnosis_icd_o	8507/3 : Invasive micropapillary carcinoma of breast
+sample	diagnosis_icd_o	8508/3 : Cystic hypersecretory carcinoma
+sample	diagnosis_icd_o	8509/2 : Solid papillary carcinoma in situ
+sample	diagnosis_icd_o	8509/3 : Solid papillary carcinoma with invasion
+sample	diagnosis_icd_o	8510/3 : Medullary carcinoma, NOS
+sample	diagnosis_icd_o	8512/3 : Medullary carcinoma with lymphoid stroma
+sample	diagnosis_icd_o	8513/3 : Atypical medullary carcinoma
+sample	diagnosis_icd_o	8514/3 : Duct carcinoma, desmoplastic type
+sample	diagnosis_icd_o	8519/2 : Lobular carcinoma in situ, pleomorphic
+sample	diagnosis_icd_o	8520/2 : Lobular carcinoma in situ, NOS
+sample	diagnosis_icd_o	8520/3 : Lobular carcinoma, NOS
+sample	diagnosis_icd_o	8521/3 : Infiltrating ductular carcinoma
+sample	diagnosis_icd_o	8522/2 : Intraductal carcinoma and lobular carcinoma in situ
+sample	diagnosis_icd_o	8522/3 : Infiltrating duct and lobular carcinoma
+sample	diagnosis_icd_o	8523/3 : Infiltrating duct mixed with other types of carcinoma
+sample	diagnosis_icd_o	8524/3 : Infiltrating lobular mixed with other types of carcinoma
+sample	diagnosis_icd_o	8525/3 : Polymorphous adenocarcinoma
+sample	diagnosis_icd_o	8530/3 : Inflammatory carcinoma
+sample	diagnosis_icd_o	8540/3 : Paget disease, mammary
+sample	diagnosis_icd_o	8541/3 : Paget disease and infiltrating duct carcinoma of breast
+sample	diagnosis_icd_o	8542/3 : Paget disease, extramammary
+sample	diagnosis_icd_o	8543/3 : Paget disease and intraductal carcinoma of breast
+sample	diagnosis_icd_o	8550/0 : Acinar cell adenoma
+sample	diagnosis_icd_o	8550/1 : Acinar cell tumor
+sample	diagnosis_icd_o	8550/3 : Acinar cell carcinoma
+sample	diagnosis_icd_o	8551/3 : Acinar cell cystadenocarcinoma
+sample	diagnosis_icd_o	8552/3 : Mixed acinar-ductal carcinoma
+sample	diagnosis_icd_o	8560/0 : Mixed squamous cell and glandular papilloma
+sample	diagnosis_icd_o	8560/3 : Adenosquamous carcinoma
+sample	diagnosis_icd_o	8561/0 : Adenolymphoma
+sample	diagnosis_icd_o	8562/3 : Epithelial-myoepithelial carcinoma
+sample	diagnosis_icd_o	8563/0 : Lymphadenoma
+sample	diagnosis_icd_o	8570/3 : Adenocarcinoma with squamous metaplasia
+sample	diagnosis_icd_o	8571/3 : Adenocarcinoma with cartilaginous and osseous metaplasia
+sample	diagnosis_icd_o	8572/3 : Adenocarcinoma with spindle cell metaplasia
+sample	diagnosis_icd_o	8573/3 : Adenocarcinoma with apocrine metaplasia
+sample	diagnosis_icd_o	8574/3 : Adenocarcinoma with neuroendocrine differentiation
+sample	diagnosis_icd_o	8575/3 : Metaplastic carcinoma, NOS
+sample	diagnosis_icd_o	8576/3 : Hepatoid adenocarcinoma
+sample	diagnosis_icd_o	8580/0 : Microscopic thymoma
+sample	diagnosis_icd_o	8580/1 : Micronodular thymoma with lymphoid stroma
+sample	diagnosis_icd_o	8580/3 : Thymoma, NOS
+sample	diagnosis_icd_o	8581/3 : Thymoma, type A
+sample	diagnosis_icd_o	8582/3 : Thymoma, type AB
+sample	diagnosis_icd_o	8583/3 : Thymoma, type B1
+sample	diagnosis_icd_o	8584/3 : Thymoma, type B2
+sample	diagnosis_icd_o	8585/3 : Thymoma, type B3
+sample	diagnosis_icd_o	8586/3 : Thymic carcinoma, NOS
+sample	diagnosis_icd_o	8587/0 : Ectopic hamartomatous thymoma
+sample	diagnosis_icd_o	8588/3 : Spindle epithelial tumor with thymus-like element
+sample	diagnosis_icd_o	8589/3 : Intrathyroid thymic carcinoma
+sample	diagnosis_icd_o	8590/0 : Sex cord-stromal tumor, benign
+sample	diagnosis_icd_o	8590/1 : Sex cord-gonadal stromal tumor, NOS
+sample	diagnosis_icd_o	8591/1 : Sex cord-gonadal stromal tumor, incompletely differentiated
+sample	diagnosis_icd_o	8592/1 : Sex cord-gonadal stromal tumor, mixed forms
+sample	diagnosis_icd_o	8593/1 : Stromal tumor with minor sex cord elements
+sample	diagnosis_icd_o	8594/1 : Mixed germ cell-sex cord-stromal tumor, NOS
+sample	diagnosis_icd_o	8600/0 : Thecoma, NOS
+sample	diagnosis_icd_o	8600/3 : Thecoma, malignant
+sample	diagnosis_icd_o	8601/0 : Thecoma, luteinized
+sample	diagnosis_icd_o	8602/0 : Sclerosing stromal tumor
+sample	diagnosis_icd_o	8610/0 : Luteoma, NOS
+sample	diagnosis_icd_o	8620/1 : Adult granulosa cell tumor of testis
+sample	diagnosis_icd_o	8620/3 : Adult granulosa cell tumor of ovary
+sample	diagnosis_icd_o	8621/1 : Granulosa cell-theca cell tumor
+sample	diagnosis_icd_o	8622/0 : Granulosa cell tumor of the testis, juvenile
+sample	diagnosis_icd_o	8622/1 : Granulosa cell tumor, juvenile
+sample	diagnosis_icd_o	8623/1 : Sex cord tumor with annular tubules
+sample	diagnosis_icd_o	8630/0 : Androblastoma, benign
+sample	diagnosis_icd_o	8630/1 : Androblastoma, NOS
+sample	diagnosis_icd_o	8630/3 : Androblastoma, malignant
+sample	diagnosis_icd_o	8631/0 : Sertoli-Leydig cell tumor, well differentiated
+sample	diagnosis_icd_o	8631/1 : Sertoli-Leydig cell tumor of intermediate differentiation
+sample	diagnosis_icd_o	8631/3 : Sertoli-Leydig cell tumor, poorly differentiated
+sample	diagnosis_icd_o	8632/1 : Gynandroblastoma
+sample	diagnosis_icd_o	8633/1 : Sertoli-Leydig cell tumor, retiform
+sample	diagnosis_icd_o	8634/1 : Sertoli-Leydig cell tumor, intermediate differentiation, with heterologous elements
+sample	diagnosis_icd_o	8634/3 : Sertoli-Leydig cell tumor, poorly differentiated, with heterologous elements
+sample	diagnosis_icd_o	8640/1 : Sertoli cell tumor, NOS
+sample	diagnosis_icd_o	8640/3 : Sertoli cell carcinoma
+sample	diagnosis_icd_o	8641/0 : Sertoli cell tumor with lipid storage
+sample	diagnosis_icd_o	8642/1 : Large cell calcifying Sertoli cell tumor
+sample	diagnosis_icd_o	8643/1 : Intratubular large cell hyalinizing Sertoli cell neoplasia
+sample	diagnosis_icd_o	8650/0 : Leydig cell tumor of the ovary, NOS
+sample	diagnosis_icd_o	8650/1 : Leydig cell tumor of the testis, NOS
+sample	diagnosis_icd_o	8650/3 : Leydig cell tumor, malignant
+sample	diagnosis_icd_o	8660/0 : Hilus cell tumor
+sample	diagnosis_icd_o	8670/0 : Lipid cell tumor of ovary
+sample	diagnosis_icd_o	8670/3 : Steroid cell tumor, malignant
+sample	diagnosis_icd_o	8671/0 : Adrenal rest tumor
+sample	diagnosis_icd_o	8680/3 : Paraganglioma, NOS
+sample	diagnosis_icd_o	8681/3 : Sympathetic paraganglioma
+sample	diagnosis_icd_o	8682/3 : Parasympathetic paraganglioma
+sample	diagnosis_icd_o	8683/0 : Gangliocytic paraganglioma
+sample	diagnosis_icd_o	8690/3 : Middle ear paraganglioma
+sample	diagnosis_icd_o	8691/3 : Aortic body tumor
+sample	diagnosis_icd_o	8692/3 : Carotid body paraganglioma
+sample	diagnosis_icd_o	8693/3 : Extra-adrenal paraganglioma, NOS
+sample	diagnosis_icd_o	8700/3 : Pheochromocytoma, NOS
+sample	diagnosis_icd_o	8710/3 : Glomangiosarcoma
+sample	diagnosis_icd_o	8711/0 : Glomus tumor, NOS
+sample	diagnosis_icd_o	8711/1 : Glomangiomatosis
+sample	diagnosis_icd_o	8711/3 : Glomus tumor, malignant
+sample	diagnosis_icd_o	8712/0 : Glomangioma
+sample	diagnosis_icd_o	8713/0 : Glomangiomyoma
+sample	diagnosis_icd_o	8714/0 : Perivascular epithelioid tumor, benign
+sample	diagnosis_icd_o	8714/3 : Perivascular epithelioid tumor, malignant
+sample	diagnosis_icd_o	8720/0 : Pigmented nevus, NOS
+sample	diagnosis_icd_o	8720/2 : Melanoma in situ
+sample	diagnosis_icd_o	8720/3 : Malignant melanoma, NOS
+sample	diagnosis_icd_o	8721/3 : Nodular melanoma
+sample	diagnosis_icd_o	8722/0 : Balloon cell nevus
+sample	diagnosis_icd_o	8722/3 : Balloon cell melanoma
+sample	diagnosis_icd_o	8723/0 : Halo nevus
+sample	diagnosis_icd_o	8723/3 : Malignant melanoma, regressing
+sample	diagnosis_icd_o	8725/0 : Neuronevus
+sample	diagnosis_icd_o	8726/0 : Magnocellular nevus
+sample	diagnosis_icd_o	8727/0 : Dysplastic nevus
+sample	diagnosis_icd_o	8728/0 : Meningeal melanocytosis
+sample	diagnosis_icd_o	8728/1 : Meningeal melanocytoma
+sample	diagnosis_icd_o	8728/3 : Meningeal melanomatosis
+sample	diagnosis_icd_o	8730/0 : Nonpigmented nevus
+sample	diagnosis_icd_o	8730/3 : Amelanotic melanoma
+sample	diagnosis_icd_o	8740/0 : Junctional nevus, NOS
+sample	diagnosis_icd_o	8740/3 : Malignant melanoma in junctional nevus
+sample	diagnosis_icd_o	8741/2 : Precancerous melanosis, NOS
+sample	diagnosis_icd_o	8741/3 : Malignant melanoma in precancerous melanosis
+sample	diagnosis_icd_o	8742/0 : Lentiginous melanocytic nevus
+sample	diagnosis_icd_o	8742/2 : Lentigo maligna
+sample	diagnosis_icd_o	8742/3 : Lentigo maligna melanoma
+sample	diagnosis_icd_o	8743/3 : Low cumulative sun damage melanoma
+sample	diagnosis_icd_o	8744/0 : Acral nevus
+sample	diagnosis_icd_o	8744/3 : Acral melanoma
+sample	diagnosis_icd_o	8745/3 : Desmoplastic melanoma
+sample	diagnosis_icd_o	8746/3 : Mucosal lentiginous melanoma
+sample	diagnosis_icd_o	8750/0 : Dermal nevus
+sample	diagnosis_icd_o	8760/0 : Compound nevus
+sample	diagnosis_icd_o	8761/0 : Congenital melanocytic nevus, NOS
+sample	diagnosis_icd_o	8761/1 : Giant pigmented nevus, NOS
+sample	diagnosis_icd_o	8761/3 : Malignant melanoma arising in giant congenital nevus
+sample	diagnosis_icd_o	8762/1 : Proliferative dermal lesion in congenital nevus
+sample	diagnosis_icd_o	8770/0 : Epithelioid and spindle cell nevus
+sample	diagnosis_icd_o	8770/3 : Malignant Spitz tumor
+sample	diagnosis_icd_o	8771/0 : Epithelioid cell nevus
+sample	diagnosis_icd_o	8771/3 : Epithelioid cell melanoma
+sample	diagnosis_icd_o	8772/0 : Spindle cell nevus, NOS
+sample	diagnosis_icd_o	8772/3 : Spindle cell melanoma, NOS
+sample	diagnosis_icd_o	8773/3 : Spindle cell melanoma, type A
+sample	diagnosis_icd_o	8774/3 : Spindle cell melanoma, type B
+sample	diagnosis_icd_o	8780/0 : Blue nevus, NOS
+sample	diagnosis_icd_o	8780/1 : Pigmented epithelioid melanocytoma
+sample	diagnosis_icd_o	8780/3 : Blue nevus, malignant
+sample	diagnosis_icd_o	8790/0 : Cellular blue nevus
+sample	diagnosis_icd_o	8800/0 : Soft tissue tumor, benign
+sample	diagnosis_icd_o	8800/3 : Sarcoma, NOS
+sample	diagnosis_icd_o	8800/9 : Sarcomatosis, NOS
+sample	diagnosis_icd_o	8801/3 : Spindle cell sarcoma
+sample	diagnosis_icd_o	8802/1 : Pleomorphic hyalinizing angiectatic tumor
+sample	diagnosis_icd_o	8802/3 : Giant cell sarcoma
+sample	diagnosis_icd_o	8803/3 : Small cell sarcoma
+sample	diagnosis_icd_o	8804/3 : Epithelioid sarcoma
+sample	diagnosis_icd_o	8805/3 : Undifferentiated sarcoma
+sample	diagnosis_icd_o	8806/3 : Desmoplastic small round cell tumor
+sample	diagnosis_icd_o	8810/0 : Fibroma, NOS
+sample	diagnosis_icd_o	8810/1 : Cellular fibroma
+sample	diagnosis_icd_o	8810/3 : Fibrosarcoma, NOS
+sample	diagnosis_icd_o	8811/0 : Fibromyxoma, NOS
+sample	diagnosis_icd_o	8811/1 : Myxoinflammatory fibroblastic sarcoma
+sample	diagnosis_icd_o	8811/3 : Myxofibrosarcoma
+sample	diagnosis_icd_o	8812/0 : Periosteal fibroma
+sample	diagnosis_icd_o	8812/3 : Periosteal fibrosarcoma
+sample	diagnosis_icd_o	8813/0 : Fibroma of tendon sheath
+sample	diagnosis_icd_o	8813/1 : Palmar/plantar type fibromatosis
+sample	diagnosis_icd_o	8813/3 : Fascial fibrosarcoma
+sample	diagnosis_icd_o	8814/3 : Infantile fibrosarcoma
+sample	diagnosis_icd_o	8815/0 : Solitary fibrous tumor/Hemangiopericytoma, grade 1
+sample	diagnosis_icd_o	8815/1 : Solitary fibrous tumor, NOS
+sample	diagnosis_icd_o	8815/3 : Solitary fibrous tumor, malignant
+sample	diagnosis_icd_o	8816/0 : Calcifying aponeurotic fibroma
+sample	diagnosis_icd_o	8817/0 : Calcifying fibrous tumor
+sample	diagnosis_icd_o	8818/0 : Fibrous dysplasia
+sample	diagnosis_icd_o	8820/0 : Elastofibroma
+sample	diagnosis_icd_o	8821/1 : Aggressive fibromatosis
+sample	diagnosis_icd_o	8822/1 : Abdominal fibromatosis
+sample	diagnosis_icd_o	8823/0 : Sclerotic fibroma
+sample	diagnosis_icd_o	8823/1 : Desmoplastic fibroma
+sample	diagnosis_icd_o	8824/0 : Myofibroma
+sample	diagnosis_icd_o	8824/1 : Myofibromatosis
+sample	diagnosis_icd_o	8825/0 : Myofibroblastoma
+sample	diagnosis_icd_o	8825/1 : Myofibroblastic tumor, NOS
+sample	diagnosis_icd_o	8825/3 : Myofibroblastic sarcoma
+sample	diagnosis_icd_o	8826/0 : Angiomyofibroblastoma
+sample	diagnosis_icd_o	8827/1 : Myofibroblastic tumor, peribronchial
+sample	diagnosis_icd_o	8828/0 : Nodular fasciitis
+sample	diagnosis_icd_o	8830/0 : Benign fibrous histiocytoma, NOS
+sample	diagnosis_icd_o	8830/1 : Atypical fibrous histiocytoma
+sample	diagnosis_icd_o	8830/3 : Malignant fibrous histiocytoma
+sample	diagnosis_icd_o	8831/0 : Histiocytoma, NOS
+sample	diagnosis_icd_o	8832/0 : Dermatofibroma, NOS
+sample	diagnosis_icd_o	8832/1 : Dermatofibrosarcoma protuberans, NOS
+sample	diagnosis_icd_o	8832/3 : Dermatofibrosarcoma protuberans, fibrosarcomatous
+sample	diagnosis_icd_o	8833/1 : Pigmented dermatofibrosarcoma protuberans
+sample	diagnosis_icd_o	8834/1 : Giant cell fibroblastoma
+sample	diagnosis_icd_o	8835/1 : Plexiform fibrohistiocytic tumor
+sample	diagnosis_icd_o	8836/1 : Angiomatoid fibrous histiocytoma
+sample	diagnosis_icd_o	8840/0 : Myxoma, NOS
+sample	diagnosis_icd_o	8840/3 : Myxosarcoma
+sample	diagnosis_icd_o	8841/0 : Angiomyxoma, NOS
+sample	diagnosis_icd_o	8842/0 : Ossifying fibromyxoid tumor, NOS
+sample	diagnosis_icd_o	8842/3 : Ossifying fibromyxoid tumor, malignant
+sample	diagnosis_icd_o	8850/0 : Lipoma, NOS
+sample	diagnosis_icd_o	8850/1 : Atypical lipomatous tumor
+sample	diagnosis_icd_o	8850/3 : Liposarcoma, NOS
+sample	diagnosis_icd_o	8851/0 : Fibrolipoma
+sample	diagnosis_icd_o	8851/1 : Lipofibromatosis
+sample	diagnosis_icd_o	8851/3 : Liposarcoma, well differentiated, NOS
+sample	diagnosis_icd_o	8852/0 : Fibromyxolipoma
+sample	diagnosis_icd_o	8852/3 : Myxoid liposarcoma
+sample	diagnosis_icd_o	8853/3 : Round cell liposarcoma
+sample	diagnosis_icd_o	8854/0 : Pleomorphic lipoma
+sample	diagnosis_icd_o	8854/3 : Pleomorphic liposarcoma
+sample	diagnosis_icd_o	8855/3 : Mixed liposarcoma
+sample	diagnosis_icd_o	8856/0 : Intramuscular lipoma
+sample	diagnosis_icd_o	8857/0 : Spindle cell lipoma
+sample	diagnosis_icd_o	8857/3 : Fibroblastic liposarcoma
+sample	diagnosis_icd_o	8858/3 : Dedifferentiated liposarcoma
+sample	diagnosis_icd_o	8860/0 : Angiomyolipoma
+sample	diagnosis_icd_o	8860/1 : Angiomyolipoma, epithelioid
+sample	diagnosis_icd_o	8861/0 : Angiolipoma, NOS
+sample	diagnosis_icd_o	8862/0 : Chondroid lipoma
+sample	diagnosis_icd_o	8870/0 : Myelolipoma
+sample	diagnosis_icd_o	8880/0 : Hibernoma
+sample	diagnosis_icd_o	8881/0 : Lipoblastomatosis
+sample	diagnosis_icd_o	8890/0 : Leiomyoma, NOS
+sample	diagnosis_icd_o	8890/1 : Leiomyomatosis, NOS
+sample	diagnosis_icd_o	8890/3 : Leiomyosarcoma, NOS
+sample	diagnosis_icd_o	8891/0 : Epithelioid leiomyoma
+sample	diagnosis_icd_o	8891/3 : Epithelioid leiomyosarcoma
+sample	diagnosis_icd_o	8892/0 : Cellular leiomyoma
+sample	diagnosis_icd_o	8893/0 : Bizarre leiomyoma
+sample	diagnosis_icd_o	8894/0 : Angioleiomyoma
+sample	diagnosis_icd_o	8894/3 : Angiomyosarcoma
+sample	diagnosis_icd_o	8895/0 : Myoma
+sample	diagnosis_icd_o	8895/3 : Myosarcoma
+sample	diagnosis_icd_o	8896/0 : Myxoid leiomyoma
+sample	diagnosis_icd_o	8896/3 : Myxoid leiomyosarcoma
+sample	diagnosis_icd_o	8897/1 : Smooth muscle tumor of uncertain malignant potential
+sample	diagnosis_icd_o	8898/1 : Metastasizing leiomyoma
+sample	diagnosis_icd_o	8900/0 : Rhabdomyoma, NOS
+sample	diagnosis_icd_o	8900/3 : Rhabdomyosarcoma, NOS
+sample	diagnosis_icd_o	8901/3 : Pleomorphic rhabdomyosarcoma, adult type
+sample	diagnosis_icd_o	8902/3 : Mixed type rhabdomyosarcoma
+sample	diagnosis_icd_o	8903/0 : Fetal rhabdomyoma
+sample	diagnosis_icd_o	8904/0 : Adult cellular rhabdomyoma
+sample	diagnosis_icd_o	8905/0 : Genital rhabdomyoma
+sample	diagnosis_icd_o	8910/3 : Embryonal rhabdomyosarcoma, NOS
+sample	diagnosis_icd_o	8912/3 : Spindle cell rhabdomyosarcoma
+sample	diagnosis_icd_o	8920/3 : Alveolar rhabdomyosarcoma
+sample	diagnosis_icd_o	8921/3 : Ectomesenchymoma
+sample	diagnosis_icd_o	8930/0 : Endometrial stromal nodule
+sample	diagnosis_icd_o	8930/3 : Endometrial stromal sarcoma, NOS
+sample	diagnosis_icd_o	8931/3 : Endometrial stromal sarcoma, low grade
+sample	diagnosis_icd_o	8932/0 : Adenomyoma, NOS
+sample	diagnosis_icd_o	8933/3 : Adenosarcoma
+sample	diagnosis_icd_o	8934/3 : Carcinofibroma
+sample	diagnosis_icd_o	8935/0 : Stromal tumor, benign
+sample	diagnosis_icd_o	8935/1 : Stromal tumor, NOS
+sample	diagnosis_icd_o	8935/3 : Stromal sarcoma, NOS
+sample	diagnosis_icd_o	8936/3 : Gastrointestinal stromal tumor
+sample	diagnosis_icd_o	8940/0 : Pleomorphic adenoma
+sample	diagnosis_icd_o	8940/3 : Mixed tumor, malignant, NOS
+sample	diagnosis_icd_o	8941/3 : Carcinoma ex pleomorphic adenoma
+sample	diagnosis_icd_o	8950/3 : Mullerian mixed tumor
+sample	diagnosis_icd_o	8951/3 : Mesodermal mixed tumor
+sample	diagnosis_icd_o	8959/0 : Benign cystic nephroma
+sample	diagnosis_icd_o	8959/1 : Cystic partially differentiated nephroblastoma
+sample	diagnosis_icd_o	8959/3 : Malignant cystic nephroma
+sample	diagnosis_icd_o	8960/1 : Mesoblastic nephroma
+sample	diagnosis_icd_o	8960/3 : Nephroblastoma, NOS
+sample	diagnosis_icd_o	8963/3 : Rhabdoid tumor, NOS
+sample	diagnosis_icd_o	8964/3 : Clear cell sarcoma of kidney
+sample	diagnosis_icd_o	8966/0 : Renomedullary interstitial cell tumor
+sample	diagnosis_icd_o	8967/0 : Ossifying renal tumor
+sample	diagnosis_icd_o	8970/3 : Hepatoblastoma, NOS
+sample	diagnosis_icd_o	8971/3 : Pancreatoblastoma
+sample	diagnosis_icd_o	8972/3 : Pulmonary blastoma
+sample	diagnosis_icd_o	8973/3 : Pleuropulmonary blastoma
+sample	diagnosis_icd_o	8974/1 : Sialoblastoma
+sample	diagnosis_icd_o	8975/1 : Calcifying nested stromal-epithelial tumor
+sample	diagnosis_icd_o	8980/3 : Carcinosarcoma, NOS
+sample	diagnosis_icd_o	8981/3 : Carcinosarcoma, embryonal
+sample	diagnosis_icd_o	8982/0 : Myoepithelioma, NOS
+sample	diagnosis_icd_o	8982/3 : Myoepithelial carcinoma
+sample	diagnosis_icd_o	8983/0 : Adenomyoepithelioma, NOS
+sample	diagnosis_icd_o	8983/3 : Adenomyoepithelioma with carcinoma
+sample	diagnosis_icd_o	8990/0 : Mesenchymoma, benign
+sample	diagnosis_icd_o	8990/1 : Mesenchymoma, NOS
+sample	diagnosis_icd_o	8990/3 : Mesenchymoma, malignant
+sample	diagnosis_icd_o	8991/3 : Embryonal sarcoma
+sample	diagnosis_icd_o	8992/0 : Pulmonary hamartoma
+sample	diagnosis_icd_o	9000/0 : Brenner tumor, NOS
+sample	diagnosis_icd_o	9000/1 : Brenner tumor, borderline malignancy
+sample	diagnosis_icd_o	9000/3 : Brenner tumor, malignant
+sample	diagnosis_icd_o	9010/0 : Fibroadenoma, NOS
+sample	diagnosis_icd_o	9011/0 : Intracanalicular fibroadenoma
+sample	diagnosis_icd_o	9012/0 : Pericanalicular fibroadenoma
+sample	diagnosis_icd_o	9013/0 : Adenofibroma, NOS
+sample	diagnosis_icd_o	9014/0 : Serous adenofibroma, NOS
+sample	diagnosis_icd_o	9014/1 : Serous adenofibroma of borderline malignancy
+sample	diagnosis_icd_o	9014/3 : Serous adenocarcinofibroma
+sample	diagnosis_icd_o	9015/0 : Mucinous adenofibroma, NOS
+sample	diagnosis_icd_o	9015/1 : Mucinous adenofibroma of borderline malignancy
+sample	diagnosis_icd_o	9015/3 : Mucinous adenocarcinofibroma
+sample	diagnosis_icd_o	9016/0 : Giant fibroadenoma
+sample	diagnosis_icd_o	9020/0 : Phyllodes tumor, benign
+sample	diagnosis_icd_o	9020/1 : Phyllodes tumor, borderline
+sample	diagnosis_icd_o	9020/3 : Phyllodes tumor, malignant
+sample	diagnosis_icd_o	9030/0 : Juvenile fibroadenoma
+sample	diagnosis_icd_o	9040/0 : Synovioma, benign
+sample	diagnosis_icd_o	9040/3 : Synovial sarcoma, NOS
+sample	diagnosis_icd_o	9041/3 : Synovial sarcoma, spindle cell
+sample	diagnosis_icd_o	9042/3 : Synovial sarcoma, epithelioid cell
+sample	diagnosis_icd_o	9043/3 : Synovial sarcoma, biphasic
+sample	diagnosis_icd_o	9044/3 : Clear cell sarcoma, NOS
+sample	diagnosis_icd_o	9045/3 : Biphenotypic sinonasal sarcoma
+sample	diagnosis_icd_o	9050/0 : Mesothelioma, benign
+sample	diagnosis_icd_o	9050/3 : Mesothelioma, malignant
+sample	diagnosis_icd_o	9051/0 : Fibrous mesothelioma, benign
+sample	diagnosis_icd_o	9051/3 : Fibrous mesothelioma, malignant
+sample	diagnosis_icd_o	9052/0 : Epithelioid mesothelioma, benign
+sample	diagnosis_icd_o	9052/1 : Well differentiated papillary mesothelioma of the pleura
+sample	diagnosis_icd_o	9052/3 : Epithelioid mesothelioma, malignant
+sample	diagnosis_icd_o	9053/3 : Mesothelioma, biphasic, malignant
+sample	diagnosis_icd_o	9054/0 : Adenomatoid tumor, NOS
+sample	diagnosis_icd_o	9055/0 : Peritoneal inclusion cysts
+sample	diagnosis_icd_o	9060/3 : Dysgerminoma
+sample	diagnosis_icd_o	9061/3 : Seminoma, NOS
+sample	diagnosis_icd_o	9062/3 : Seminoma, anaplastic
+sample	diagnosis_icd_o	9063/3 : Spermatocytic seminoma
+sample	diagnosis_icd_o	9064/2 : Intratubular malignant germ cells
+sample	diagnosis_icd_o	9064/3 : Germinoma
+sample	diagnosis_icd_o	9065/3 : Germ cell tumor, nonseminomatous
+sample	diagnosis_icd_o	9070/3 : Embryonal carcinoma, NOS
+sample	diagnosis_icd_o	9071/3 : Yolk sac tumor, NOS
+sample	diagnosis_icd_o	9072/3 : Polyembryoma
+sample	diagnosis_icd_o	9073/1 : Gonadoblastoma
+sample	diagnosis_icd_o	9080/0 : Teratoma, benign
+sample	diagnosis_icd_o	9080/1 : Teratoma, NOS
+sample	diagnosis_icd_o	9080/3 : Teratoma, malignant, NOS
+sample	diagnosis_icd_o	9081/3 : Teratocarcinoma
+sample	diagnosis_icd_o	9082/3 : Malignant teratoma, undifferentiated
+sample	diagnosis_icd_o	9083/3 : Malignant teratoma, intermediate
+sample	diagnosis_icd_o	9084/0 : Dermoid cyst, NOS
+sample	diagnosis_icd_o	9084/3 : Teratoma with malignant transformation
+sample	diagnosis_icd_o	9085/3 : Mixed germ cell tumor
+sample	diagnosis_icd_o	9086/3 : Germ cell tumor with associated hematological malignancy
+sample	diagnosis_icd_o	9090/0 : Struma ovarii, NOS
+sample	diagnosis_icd_o	9090/3 : Struma ovarii, malignant
+sample	diagnosis_icd_o	9091/1 : Strumal carcinoid
+sample	diagnosis_icd_o	9100/0 : Hydatidiform mole, NOS
+sample	diagnosis_icd_o	9100/1 : Invasive hydatidiform mole
+sample	diagnosis_icd_o	9100/3 : Choriocarcinoma, NOS
+sample	diagnosis_icd_o	9101/3 : Choriocarcinoma combined with other germ cell elements
+sample	diagnosis_icd_o	9102/3 : Malignant teratoma, trophoblastic
+sample	diagnosis_icd_o	9103/0 : Partial hydatidiform mole
+sample	diagnosis_icd_o	9104/1 : Placental site trophoblastic tumor
+sample	diagnosis_icd_o	9105/3 : Trophoblastic tumor, epithelioid
+sample	diagnosis_icd_o	9110/0 : Adenoma of rete ovarii
+sample	diagnosis_icd_o	9110/1 : Wolffian tumor
+sample	diagnosis_icd_o	9110/3 : Mesonephroma, malignant
+sample	diagnosis_icd_o	9120/0 : Hemangioma, NOS
+sample	diagnosis_icd_o	9120/3 : Hemangiosarcoma
+sample	diagnosis_icd_o	9121/0 : Cavernous hemangioma
+sample	diagnosis_icd_o	9122/0 : Venous hemangioma
+sample	diagnosis_icd_o	9123/0 : Racemose hemangioma
+sample	diagnosis_icd_o	9124/3 : Kupffer cell sarcoma
+sample	diagnosis_icd_o	9125/0 : Epithelioid hemangioma
+sample	diagnosis_icd_o	9126/0 : Atypical vascular lesion
+sample	diagnosis_icd_o	9130/0 : Hemangioendothelioma, benign
+sample	diagnosis_icd_o	9130/1 : Hemangioendothelioma, NOS
+sample	diagnosis_icd_o	9130/3 : Hemangioendothelioma, malignant
+sample	diagnosis_icd_o	9131/0 : Capillary hemangioma
+sample	diagnosis_icd_o	9132/0 : Intramuscular hemangioma
+sample	diagnosis_icd_o	9133/3 : Epithelioid hemangioendothelioma, NOS
+sample	diagnosis_icd_o	9135/1 : Papillary intralymphatic angioendothelioma
+sample	diagnosis_icd_o	9136/1 : Spindle cell hemangioendothelioma
+sample	diagnosis_icd_o	9137/0 : Myointimoma
+sample	diagnosis_icd_o	9137/3 : Intimal sarcoma
+sample	diagnosis_icd_o	9138/1 : Pseudomyogenic (epithelioid sarcoma-like) hemangioendothelioma
+sample	diagnosis_icd_o	9140/3 : Kaposi sarcoma
+sample	diagnosis_icd_o	9141/0 : Angiokeratoma
+sample	diagnosis_icd_o	9142/0 : Verrucous keratotic hemangioma
+sample	diagnosis_icd_o	9160/0 : Angiofibroma, NOS
+sample	diagnosis_icd_o	9161/0 : Acquired tufted hemangioma
+sample	diagnosis_icd_o	9161/1 : Hemangioblastoma
+sample	diagnosis_icd_o	9170/0 : Lymphangioma, NOS
+sample	diagnosis_icd_o	9170/3 : Lymphangiosarcoma
+sample	diagnosis_icd_o	9171/0 : Capillary lymphangioma
+sample	diagnosis_icd_o	9172/0 : Cavernous lymphangioma
+sample	diagnosis_icd_o	9173/0 : Cystic lymphangioma
+sample	diagnosis_icd_o	9174/0 : Lymphangiomyoma
+sample	diagnosis_icd_o	9174/1 : Lymphangioleiomyomatosis
+sample	diagnosis_icd_o	9175/0 : Hemolymphangioma
+sample	diagnosis_icd_o	9180/0 : Osteoma, NOS
+sample	diagnosis_icd_o	9180/3 : Osteosarcoma, NOS
+sample	diagnosis_icd_o	9181/3 : Chondroblastic osteosarcoma
+sample	diagnosis_icd_o	9182/3 : Fibroblastic osteosarcoma
+sample	diagnosis_icd_o	9183/3 : Telangiectatic osteosarcoma
+sample	diagnosis_icd_o	9184/3 : Osteosarcoma in Paget disease of bone
+sample	diagnosis_icd_o	9185/3 : Small cell osteosarcoma
+sample	diagnosis_icd_o	9186/3 : Central osteosarcoma, NOS
+sample	diagnosis_icd_o	9187/3 : Low grade central osteosarcoma
+sample	diagnosis_icd_o	9191/0 : Osteoid osteoma, NOS
+sample	diagnosis_icd_o	9192/3 : Parosteal osteosarcoma
+sample	diagnosis_icd_o	9193/3 : Periosteal osteosarcoma
+sample	diagnosis_icd_o	9194/3 : High grade surface osteosarcoma
+sample	diagnosis_icd_o	9195/3 : Intracortical osteosarcoma
+sample	diagnosis_icd_o	9200/0 : Osteoblastoma, NOS
+sample	diagnosis_icd_o	9200/1 : Aggressive osteoblastoma
+sample	diagnosis_icd_o	9210/0 : Osteochondroma
+sample	diagnosis_icd_o	9210/1 : Osteochondromatosis, NOS
+sample	diagnosis_icd_o	9211/0 : Osteochondromyxoma
+sample	diagnosis_icd_o	9212/0 : Bizarre parosteal osteochondromatous proliferation
+sample	diagnosis_icd_o	9213/0 : Subungual exostosis
+sample	diagnosis_icd_o	9220/0 : Chondroma, NOS
+sample	diagnosis_icd_o	9220/1 : Chondromatosis, NOS
+sample	diagnosis_icd_o	9220/3 : Chondrosarcoma, NOS
+sample	diagnosis_icd_o	9221/0 : Periosteal chondroma
+sample	diagnosis_icd_o	9221/3 : Periosteal chondrosarcoma
+sample	diagnosis_icd_o	9222/1 : Atypical cartilaginous tumor
+sample	diagnosis_icd_o	9230/1 : Chondroblastoma, NOS
+sample	diagnosis_icd_o	9230/3 : Chondroblastoma, malignant
+sample	diagnosis_icd_o	9231/3 : Myxoid chondrosarcoma
+sample	diagnosis_icd_o	9240/3 : Mesenchymal chondrosarcoma
+sample	diagnosis_icd_o	9241/0 : Chondromyxoid fibroma
+sample	diagnosis_icd_o	9242/3 : Clear cell chondrosarcoma
+sample	diagnosis_icd_o	9243/3 : Dedifferentiated chondrosarcoma
+sample	diagnosis_icd_o	9250/1 : Giant cell tumor of bone, NOS
+sample	diagnosis_icd_o	9250/3 : Giant cell tumor of bone, malignant
+sample	diagnosis_icd_o	9251/1 : Giant cell tumor of soft parts, NOS
+sample	diagnosis_icd_o	9251/3 : Malignant giant cell tumor of soft parts
+sample	diagnosis_icd_o	9252/0 : Tenosynovial giant cell tumor, NOS
+sample	diagnosis_icd_o	9252/1 : Tenosynovial giant cell tumor, diffuse
+sample	diagnosis_icd_o	9252/3 : Malignant tenosynovial giant cell tumor
+sample	diagnosis_icd_o	9260/0 : Aneurysmal bone cyst
+sample	diagnosis_icd_o	9261/3 : Adamantinoma of long bones
+sample	diagnosis_icd_o	9262/0 : Ossifying fibroma
+sample	diagnosis_icd_o	9270/0 : Odontogenic tumor, benign
+sample	diagnosis_icd_o	9270/1 : Odontogenic tumor, NOS
+sample	diagnosis_icd_o	9270/3 : Odontogenic tumor, malignant
+sample	diagnosis_icd_o	9271/0 : Ameloblastic fibrodentinoma
+sample	diagnosis_icd_o	9272/0 : Cementoma, NOS
+sample	diagnosis_icd_o	9273/0 : Cementoblastoma, benign
+sample	diagnosis_icd_o	9274/0 : Cemento-ossifying fibroma
+sample	diagnosis_icd_o	9275/0 : Gigantiform cementoma
+sample	diagnosis_icd_o	9280/0 : Odontoma, NOS
+sample	diagnosis_icd_o	9281/0 : Compound odontoma
+sample	diagnosis_icd_o	9282/0 : Complex odontoma
+sample	diagnosis_icd_o	9290/0 : Ameloblastic fibro-odontoma
+sample	diagnosis_icd_o	9290/3 : Ameloblastic odontosarcoma
+sample	diagnosis_icd_o	9300/0 : Adenomatoid odontogenic tumor
+sample	diagnosis_icd_o	9301/0 : Calcifying odontogenic cyst
+sample	diagnosis_icd_o	9302/0 : Dentinogenic ghost cell tumor
+sample	diagnosis_icd_o	9302/3 : Ghost cell odontogenic carcinoma
+sample	diagnosis_icd_o	9310/0 : Ameloblastoma, NOS
+sample	diagnosis_icd_o	9310/3 : Ameloblastoma, metastasizing
+sample	diagnosis_icd_o	9311/0 : Odontoameloblastoma
+sample	diagnosis_icd_o	9312/0 : Squamous odontogenic tumor
+sample	diagnosis_icd_o	9320/0 : Odontogenic myxoma
+sample	diagnosis_icd_o	9321/0 : Odontogenic fibroma, NOS
+sample	diagnosis_icd_o	9322/0 : Peripheral odontogenic fibroma
+sample	diagnosis_icd_o	9330/0 : Ameloblastic fibroma
+sample	diagnosis_icd_o	9330/3 : Ameloblastic fibrosarcoma
+sample	diagnosis_icd_o	9340/0 : Calcifying epithelial odontogenic tumor
+sample	diagnosis_icd_o	9341/3 : Clear cell odontogenic carcinoma
+sample	diagnosis_icd_o	9342/3 : Odontogenic carcinosarcoma
+sample	diagnosis_icd_o	9350/1 : Craniopharyngioma
+sample	diagnosis_icd_o	9351/1 : Craniopharyngioma, adamantinomatous
+sample	diagnosis_icd_o	9352/1 : Craniopharyngioma, papillary
+sample	diagnosis_icd_o	9360/1 : Pinealoma
+sample	diagnosis_icd_o	9361/1 : Pineocytoma
+sample	diagnosis_icd_o	9362/3 : Pineoblastoma
+sample	diagnosis_icd_o	9363/0 : Melanotic neuroectodermal tumor
+sample	diagnosis_icd_o	9364/3 : Ewing sarcoma
+sample	diagnosis_icd_o	9365/3 : Askin tumor
+sample	diagnosis_icd_o	9370/0 : Benign notochordal tumor
+sample	diagnosis_icd_o	9370/3 : Chordoma, NOS
+sample	diagnosis_icd_o	9371/3 : Chondroid chordoma
+sample	diagnosis_icd_o	9372/3 : Dedifferentiated chordoma
+sample	diagnosis_icd_o	9373/0 : Parachordoma
+sample	diagnosis_icd_o	9380/3 : Glioma, malignant
+sample	diagnosis_icd_o	9381/3 : Gliomatosis cerebri
+sample	diagnosis_icd_o	9382/3 : Oligoastrocytoma, NOS
+sample	diagnosis_icd_o	9383/1 : Subependymoma
+sample	diagnosis_icd_o	9384/1 : Subependymal giant cell astrocytoma
+sample	diagnosis_icd_o	9385/3 : Diffuse midline glioma, H3 K27M-mutant
+sample	diagnosis_icd_o	9390/0 : Choroid plexus papilloma, NOS
+sample	diagnosis_icd_o	9390/1 : Atypical choroid plexus papilloma
+sample	diagnosis_icd_o	9390/3 : Choroid plexus carcinoma
+sample	diagnosis_icd_o	9391/1 : Sellar ependymoma
+sample	diagnosis_icd_o	9391/3 : Ependymoma, NOS
+sample	diagnosis_icd_o	9392/3 : Ependymoma, anaplastic
+sample	diagnosis_icd_o	9393/3 : Papillary ependymoma
+sample	diagnosis_icd_o	9394/1 : Myxopapillary ependymoma
+sample	diagnosis_icd_o	9395/3 : Papillary tumor of the pineal region
+sample	diagnosis_icd_o	9396/3 : Ependymoma, RELA fusion-positive
+sample	diagnosis_icd_o	9400/3 : Astrocytoma, NOS
+sample	diagnosis_icd_o	9401/3 : Astrocytoma, anaplastic
+sample	diagnosis_icd_o	9410/3 : Protoplasmic astrocytoma
+sample	diagnosis_icd_o	9411/3 : Gemistocytic astrocytoma, NOS
+sample	diagnosis_icd_o	9412/1 : Desmoplastic infantile astrocytoma
+sample	diagnosis_icd_o	9413/0 : Dysembryoplastic neuroepithelial tumor
+sample	diagnosis_icd_o	9420/3 : Fibrillary astrocytoma
+sample	diagnosis_icd_o	9421/1 : Pilocytic astrocytoma
+sample	diagnosis_icd_o	9423/3 : Polar spongioblastoma
+sample	diagnosis_icd_o	9424/3 : Pleomorphic xanthoastrocytoma
+sample	diagnosis_icd_o	9425/3 : Pilomyxoid astrocytoma
+sample	diagnosis_icd_o	9430/3 : Astroblastoma
+sample	diagnosis_icd_o	9431/1 : Angiocentric glioma
+sample	diagnosis_icd_o	9432/1 : Pituicytoma
+sample	diagnosis_icd_o	9440/3 : Glioblastoma, NOS
+sample	diagnosis_icd_o	9441/3 : Giant cell glioblastoma
+sample	diagnosis_icd_o	9442/1 : Gliofibroma
+sample	diagnosis_icd_o	9442/3 : Gliosarcoma
+sample	diagnosis_icd_o	9444/1 : Chordoid glioma
+sample	diagnosis_icd_o	9445/3 : Glioblastoma, IDH-mutant
+sample	diagnosis_icd_o	9450/3 : Oligodendroglioma, NOS
+sample	diagnosis_icd_o	9451/3 : Oligodendroglioma, anaplastic, NOS
+sample	diagnosis_icd_o	9460/3 : Oligodendroblastoma
+sample	diagnosis_icd_o	9470/3 : Medulloblastoma, NOS
+sample	diagnosis_icd_o	9471/3 : Desmoplastic nodular medulloblastoma
+sample	diagnosis_icd_o	9472/3 : Medullomyoblastoma
+sample	diagnosis_icd_o	9473/3 : CNS embryonal tumor, NOS
+sample	diagnosis_icd_o	9474/3 : Large cell medulloblastoma
+sample	diagnosis_icd_o	9475/3 : Medullobloastoma, WNT-activated, NOS
+sample	diagnosis_icd_o	9476/3 : Medulloblastoma, SHH-activated and TP53-mutant
+sample	diagnosis_icd_o	9477/3 : Medulloblastoma, non-WNT/non-SHH
+sample	diagnosis_icd_o	9478/3 : Embryonal tumor with multilayered rosettes with C19MC alteration
+sample	diagnosis_icd_o	9480/3 : Cerebellar sarcoma, NOS
+sample	diagnosis_icd_o	9490/0 : Ganglioneuroma
+sample	diagnosis_icd_o	9490/3 : Ganglioneuroblastoma
+sample	diagnosis_icd_o	9491/0 : Ganglioneuromatosis
+sample	diagnosis_icd_o	9492/0 : Gangliocytoma, NOS
+sample	diagnosis_icd_o	9493/0 : Dysplastic gangliocytoma of cerebellum (Lhermitte-Duclos)
+sample	diagnosis_icd_o	9500/3 : Neuroblastoma, NOS
+sample	diagnosis_icd_o	9501/0 : Medulloepithelioma, benign
+sample	diagnosis_icd_o	9501/3 : Medulloepithelioma, NOS
+sample	diagnosis_icd_o	9502/0 : Teratoid medulloepithelioma, benign
+sample	diagnosis_icd_o	9502/3 : Teratoid medulloepithelioma, NOS
+sample	diagnosis_icd_o	9503/3 : Neuroepithelioma, NOS
+sample	diagnosis_icd_o	9504/3 : Spongioneuroblastoma
+sample	diagnosis_icd_o	9505/1 : Ganglioglioma, NOS
+sample	diagnosis_icd_o	9505/3 : Ganglioglioma, anaplastic
+sample	diagnosis_icd_o	9506/1 : Central neurocytoma
+sample	diagnosis_icd_o	9507/0 : Pacinian tumor
+sample	diagnosis_icd_o	9508/3 : Atypical teratoid/rhabdoid tumor
+sample	diagnosis_icd_o	9509/1 : Papillary glioneuronal tumor
+sample	diagnosis_icd_o	9510/0 : Retinocytoma
+sample	diagnosis_icd_o	9510/3 : Retinoblastoma, NOS
+sample	diagnosis_icd_o	9511/3 : Retinoblastoma, differentiated
+sample	diagnosis_icd_o	9512/3 : Retinoblastoma, undifferentiated
+sample	diagnosis_icd_o	9513/3 : Retinoblastoma, diffuse
+sample	diagnosis_icd_o	9514/1 : Retinoblastoma, spontaneously regressed
+sample	diagnosis_icd_o	9520/3 : Olfactory neurogenic tumor
+sample	diagnosis_icd_o	9521/3 : Olfactory neurocytoma
+sample	diagnosis_icd_o	9522/3 : Olfactory neuroblastoma
+sample	diagnosis_icd_o	9523/3 : Olfactory neuroepithelioma
+sample	diagnosis_icd_o	9530/0 : Meningioma, NOS
+sample	diagnosis_icd_o	9530/3 : Meningioma, malignant
+sample	diagnosis_icd_o	9531/0 : Meningothelial meningioma
+sample	diagnosis_icd_o	9532/0 : Fibrous meningioma
+sample	diagnosis_icd_o	9533/0 : Psammomatous meningioma
+sample	diagnosis_icd_o	9534/0 : Angiomatous meningioma
+sample	diagnosis_icd_o	9535/0 : Hemangioblastic meningioma
+sample	diagnosis_icd_o	9537/0 : Transitional meningioma
+sample	diagnosis_icd_o	9538/1 : Clear cell meningioma
+sample	diagnosis_icd_o	9538/3 : Papillary meningioma
+sample	diagnosis_icd_o	9539/1 : Atypical meningioma
+sample	diagnosis_icd_o	9539/3 : Meningeal sarcomatosis
+sample	diagnosis_icd_o	9540/0 : Neurofibroma, NOS
+sample	diagnosis_icd_o	9540/3 : Malignant peripheral nerve sheath tumor, NOS
+sample	diagnosis_icd_o	9541/0 : Melanotic neurofibroma
+sample	diagnosis_icd_o	9542/3 : Malignant peripheral nerve sheath tumor, epithelioid
+sample	diagnosis_icd_o	9550/0 : Plexiform neurofibroma
+sample	diagnosis_icd_o	9560/0 : Schwannoma, NOS
+sample	diagnosis_icd_o	9560/1 : Melanotic schwannoma
+sample	diagnosis_icd_o	9560/3 : Neurilemoma, malignant
+sample	diagnosis_icd_o	9561/3 : Malignant peripheral nerve sheath tumor with rhabdomyoblastic differentiation
+sample	diagnosis_icd_o	9562/0 : Nerve sheath myxoma
+sample	diagnosis_icd_o	9563/0 : Nerve sheath tumor, NOS
+sample	diagnosis_icd_o	9570/0 : Neuroma, NOS
+sample	diagnosis_icd_o	9571/0 : Perineurioma, NOS
+sample	diagnosis_icd_o	9571/3 : Perineurioma, malignant
+sample	diagnosis_icd_o	9580/0 : Granular cell tumor, NOS
+sample	diagnosis_icd_o	9580/3 : Granular cell tumor, malignant
+sample	diagnosis_icd_o	9581/3 : Alveolar soft part sarcoma
+sample	diagnosis_icd_o	9582/0 : Granular cell tumor of the sellar region
+sample	diagnosis_icd_o	9590/3 : Malignant lymphoma, NOS
+sample	diagnosis_icd_o	9591/1 : Monoclonal B-cell lymphocytosis, NOS
+sample	diagnosis_icd_o	9591/3 : Malignant lymphoma, non-Hodgkin, NOS
+sample	diagnosis_icd_o	9596/3 : Composite Hodgkin and non-Hodgkin lymphoma
+sample	diagnosis_icd_o	9597/3 : Primary cutaneous follicle centre lymphoma
+sample	diagnosis_icd_o	9650/3 : Hodgkin lymphoma, NOS
+sample	diagnosis_icd_o	9651/3 : Hodgkin lymphoma, lymphocyte-rich
+sample	diagnosis_icd_o	9652/3 : Hodgkin lymphoma, mixed cellularity, NOS
+sample	diagnosis_icd_o	9653/3 : Hodgkin lymphoma, lymphocyte depletion, NOS
+sample	diagnosis_icd_o	9654/3 : Hodgkin lymphoma, lymphocyte depletion, diffuse fibrosis
+sample	diagnosis_icd_o	9655/3 : Hodgkin lymphoma, lymphocyte depletion, reticular
+sample	diagnosis_icd_o	9659/3 : Hodgkin lymphoma, nodular lymphocyte predominant
+sample	diagnosis_icd_o	9661/3 : Hodgkin granuloma
+sample	diagnosis_icd_o	9662/3 : Hodgkin sarcoma
+sample	diagnosis_icd_o	9663/3 : Hodgkin lymphoma, nodular sclerosis, NOS
+sample	diagnosis_icd_o	9664/3 : Hodgkin lymphoma, nodular sclerosis, cellular phase
+sample	diagnosis_icd_o	9665/3 : Hodgkin lymphoma, nodular sclerosis, grade 1
+sample	diagnosis_icd_o	9667/3 : Hodgkin lymphoma, nodular sclerosis, grade 2
+sample	diagnosis_icd_o	9671/3 : Lymphoplasmacytic lymphoma
+sample	diagnosis_icd_o	9673/1 : In situ mantle cell neoplasia
+sample	diagnosis_icd_o	9673/3 : Mantle cell lymphoma
+sample	diagnosis_icd_o	9675/3 : Malignant lymphoma, mixed small and large cell, diffuse
+sample	diagnosis_icd_o	9678/3 : Primary effusion lymphoma
+sample	diagnosis_icd_o	9679/3 : Mediastinal large B-cell lymphoma
+sample	diagnosis_icd_o	9680/1 : EBV positive mucocutaneous ulcer
+sample	diagnosis_icd_o	9680/3 : Diffuse large B-cell lymphoma, NOS
+sample	diagnosis_icd_o	9684/3 : Malignant lymphoma, large B-cell, diffuse, immunoblastic, NOS
+sample	diagnosis_icd_o	9687/3 : Burkitt lymphoma, NOS
+sample	diagnosis_icd_o	9688/3 : T-cell/histiocyte rich large B-cell lymphoma
+sample	diagnosis_icd_o	9689/3 : Splenic marginal zone B-cell lymphoma
+sample	diagnosis_icd_o	9690/3 : Follicular lymphoma, NOS
+sample	diagnosis_icd_o	9691/3 : Follicular lymphoma, grade 2
+sample	diagnosis_icd_o	9695/1 : In situ follicular neoplasia
+sample	diagnosis_icd_o	9695/3 : Follicular lymphoma, grade 1
+sample	diagnosis_icd_o	9698/3 : Follicular lymphoma, grade 3
+sample	diagnosis_icd_o	9699/3 : Marginal zone B-cell lymphoma, NOS
+sample	diagnosis_icd_o	9700/3 : Mycosis fungoides
+sample	diagnosis_icd_o	9701/3 : Sezary syndrome
+sample	diagnosis_icd_o	9702/1 : Indolent T-cell lymphoproliferative disorder of the gastrointestinal tract
+sample	diagnosis_icd_o	9702/3 : Mature T-cell lymphoma, NOS
+sample	diagnosis_icd_o	9705/3 : Angioimmunoblastic T-cell lymphoma
+sample	diagnosis_icd_o	9708/3 : Subcutaneous panniculitis-like T-cell lymphoma
+sample	diagnosis_icd_o	9709/1 : Primary cutaneous CD4-positive small/medium T-cell lymphoproliferative disorder
+sample	diagnosis_icd_o	9709/3 : Cutaneous T-cell lymphoma, NOS
+sample	diagnosis_icd_o	9712/3 : Intravascular large B-cell lymphoma
+sample	diagnosis_icd_o	9714/3 : Anaplastic large cell lymphoma, T-cell and Null-cell type
+sample	diagnosis_icd_o	9715/3 : Anaplastic large cell lymphoma, ALK negative
+sample	diagnosis_icd_o	9716/3 : Hepatosplenic T-cell lymphoma
+sample	diagnosis_icd_o	9717/3 : Intestinal T-cell lymphoma
+sample	diagnosis_icd_o	9718/1 : Primary cutaneous CD30+T-cell lymphoproliferative disorder
+sample	diagnosis_icd_o	9718/3 : Primary cutaneous anaplastic large cell lymphoma
+sample	diagnosis_icd_o	9719/3 : NK/T-cell lymphoma, nasal and nasal type
+sample	diagnosis_icd_o	9724/3 : Systemic EBV positive T-cell lymphoproliferative disease of childhood
+sample	diagnosis_icd_o	9725/1 : Hydroa vacciniforme-like lymphoproliferative disorder
+sample	diagnosis_icd_o	9726/3 : Primary cutaneous gamma-delta T-cell lymphoma
+sample	diagnosis_icd_o	9727/3 : Precursor cell lymphoblastic lymphoma, NOS
+sample	diagnosis_icd_o	9731/3 : Plasmacytoma, NOS
+sample	diagnosis_icd_o	9732/3 : Plasma cell myeloma
+sample	diagnosis_icd_o	9733/3 : Plasma cell leukemia
+sample	diagnosis_icd_o	9734/3 : Plasmacytoma, extramedullary
+sample	diagnosis_icd_o	9735/3 : Plasmablastic lymphoma
+sample	diagnosis_icd_o	9737/3 : ALK positive large B-cell lymphoma
+sample	diagnosis_icd_o	9738/3 : HHV8-positive diffuse large B-cell lymphoma
+sample	diagnosis_icd_o	9740/1 : Mastocytoma, NOS
+sample	diagnosis_icd_o	9740/3 : Mast cell sarcoma
+sample	diagnosis_icd_o	9741/1 : Indolent systemic mastocytosis
+sample	diagnosis_icd_o	9741/3 : Malignant mastocytosis
+sample	diagnosis_icd_o	9742/3 : Mast cell leukemia
+sample	diagnosis_icd_o	9749/3 : Erdheim-Chester disease
+sample	diagnosis_icd_o	9750/3 : Malignant histiocytosis
+sample	diagnosis_icd_o	9751/1 : Langerhans cell histiocytosis, NOS
+sample	diagnosis_icd_o	9751/3 : Langerhans cell histiocytosis, disseminated
+sample	diagnosis_icd_o	9755/3 : Histiocytic sarcoma
+sample	diagnosis_icd_o	9756/3 : Langerhans cell sarcoma
+sample	diagnosis_icd_o	9757/3 : Interdigitating dendritic cell sarcoma
+sample	diagnosis_icd_o	9758/3 : Follicular dendritic cell sarcoma
+sample	diagnosis_icd_o	9759/3 : Fibroblastic reticular cell tumor
+sample	diagnosis_icd_o	9760/3 : Immunoproliferative disease, NOS
+sample	diagnosis_icd_o	9761/1 : IgM monoclonal gammopathy of undetermined significance
+sample	diagnosis_icd_o	9761/3 : Waldenstrom macroglobulinemia
+sample	diagnosis_icd_o	9762/3 : Heavy chain disease, NOS
+sample	diagnosis_icd_o	9764/3 : Immunoproliferative small intestinal disease
+sample	diagnosis_icd_o	9765/1 : Monoclonal gammopathy of undetermined significance, NOS
+sample	diagnosis_icd_o	9766/1 : Angiocentric immunoproliferative lesion
+sample	diagnosis_icd_o	9766/3 : Lymphomatoid granulomatosis, grade 3
+sample	diagnosis_icd_o	9767/1 : Angioimmunoblastic lymphadenopathy (AIL)
+sample	diagnosis_icd_o	9768/1 : T-gamma lymphoproliferative disease
+sample	diagnosis_icd_o	9769/1 : Immunoglobulin deposition disease
+sample	diagnosis_icd_o	9800/3 : Leukemia, NOS
+sample	diagnosis_icd_o	9801/3 : Acute leukemia, NOS
+sample	diagnosis_icd_o	9805/3 : Acute biphenotypic leukemia
+sample	diagnosis_icd_o	9806/3 : Mixed phenotype acute leukemia with t(9;22)(q34;q11.2); BCR-ABL1
+sample	diagnosis_icd_o	9807/3 : Mixed phenotype acute leukemia with t(v;11q23); MLL rearranged
+sample	diagnosis_icd_o	9808/3 : Mixed phenotype acute leukemia, B/myeloid, NOS
+sample	diagnosis_icd_o	9809/3 : Mixed phenotype acute leukemia, T/myeloid, NOS
+sample	diagnosis_icd_o	9811/3 : B lymphoblastic leukemia/lymphoma, NOS
+sample	diagnosis_icd_o	9812/3 : B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1
+sample	diagnosis_icd_o	9813/3 : B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged
+sample	diagnosis_icd_o	9814/3 : B lymphoblastic leukemia/lymphoma with t(12;21)(p13;q22); TEL-AML1(ETV6-RUNX1)
+sample	diagnosis_icd_o	9815/3 : B lymphoblastic leukemia/lymphoma with hyperdiploidy
+sample	diagnosis_icd_o	9816/3 : B lymphoblastic leukemia/lymphoma with hypodiploidy(Hypodiploid ALL)
+sample	diagnosis_icd_o	9817/3 : B lymphoblastic leukemia/lymphoma with t(5;14)(q31;q32); IL3-IGH
+sample	diagnosis_icd_o	9818/3 : B lymphoblastic leukemia/lymphoma with t(1;19)(q23;p13.3); E2A-PBX1(TCF3-PBX1)
+sample	diagnosis_icd_o	9819/3 : B lymphoblastic leukemia/lymphoma, BCR-ABL1-like
+sample	diagnosis_icd_o	9820/3 : Lymphoid leukemia, NOS
+sample	diagnosis_icd_o	9823/1 : Monoclonal B-cell lymphocytosis, CLL type
+sample	diagnosis_icd_o	9823/3 : B-cell chronic lymphocytic leukemia/small lymphocytic lymphoma
+sample	diagnosis_icd_o	9827/3 : Adult T-cell leukemia/lymphoma (HTLV-1 positive)
+sample	diagnosis_icd_o	9831/3 : T-cell large granular lymphocytic leukemia
+sample	diagnosis_icd_o	9832/3 : Prolymphocytic leukemia, NOS
+sample	diagnosis_icd_o	9833/3 : Prolymphocytic leukemia, B-cell type
+sample	diagnosis_icd_o	9834/3 : Prolymphocytic leukemia, T-cell type
+sample	diagnosis_icd_o	9835/3 : Precursor cell lymphoblastic leukemia, NOS
+sample	diagnosis_icd_o	9837/3 : Precursor T-cell lymphoblastic leukemia
+sample	diagnosis_icd_o	9840/3 : Acute erythroid leukemia
+sample	diagnosis_icd_o	9860/3 : Myeloid leukemia, NOS
+sample	diagnosis_icd_o	9861/3 : Acute myeloid leukemia, NOS
+sample	diagnosis_icd_o	9863/3 : Chronic myeloid leukemia, NOS
+sample	diagnosis_icd_o	9865/3 : Acute myeloid leukemia with t(6;9)(p23;q34); DEK-NUP214
+sample	diagnosis_icd_o	9866/3 : Acute promyelocytic leukemia, t(15;17)(q22;q11-12)
+sample	diagnosis_icd_o	9867/3 : Acute myelomonocytic leukemia, NOS
+sample	diagnosis_icd_o	9869/3 : Acute myeloid leukemia with inv(3)(q21;q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1
+sample	diagnosis_icd_o	9870/3 : Acute basophilic leukemia
+sample	diagnosis_icd_o	9871/3 : Acute myeloid leukemia with abnormal marrow eosinophils
+sample	diagnosis_icd_o	9872/3 : Acute myeloid leukemia, minimal differentiation
+sample	diagnosis_icd_o	9873/3 : Acute myeloid leukemia without maturation
+sample	diagnosis_icd_o	9874/3 : Acute myeloid leukemia with maturation
+sample	diagnosis_icd_o	9875/3 : Chronic myelogenous leukemia, BCR/ABL positive
+sample	diagnosis_icd_o	9876/3 : Atypical chronic myeloid leukemia, BCR/ABL negative
+sample	diagnosis_icd_o	9877/3 : Acute myeloid leukemia with mutated NPM1
+sample	diagnosis_icd_o	9878/3 : Acute myeloid leukemia with biallelic mutation of CEBPA
+sample	diagnosis_icd_o	9879/3 : Acute myeloid leukemia with mutated RUNX1
+sample	diagnosis_icd_o	9891/3 : Acute monocytic leukemia
+sample	diagnosis_icd_o	9895/3 : Acute myeloid leukemia with myelodysplasia-related changes
+sample	diagnosis_icd_o	9896/3 : Acute myeloid leukemia, t(8;21)(q22;q22)
+sample	diagnosis_icd_o	9897/3 : Acute myeloid leukemia, 11q23 abnormalities
+sample	diagnosis_icd_o	9898/1 : Transient abnormal myelopoiesis
+sample	diagnosis_icd_o	9898/3 : Myeloid leukemia associated with Down syndrome
+sample	diagnosis_icd_o	9910/3 : Acute megakaryoblastic leukemia
+sample	diagnosis_icd_o	9911/3 : Acute myeloid leukemia (megakaryoblastic) with t(1;22)(p13;q13); RBM15-MKL1
+sample	diagnosis_icd_o	9912/3 : Acute myleoid leukemia with BCR-ABL1
+sample	diagnosis_icd_o	9920/3 : Therapy-related myeloid neoplasm
+sample	diagnosis_icd_o	9930/3 : Myeloid sarcoma
+sample	diagnosis_icd_o	9931/3 : Acute panmyelosis with myelofibrosis
+sample	diagnosis_icd_o	9940/3 : Hairy cell leukemia, NOS
+sample	diagnosis_icd_o	9945/3 : Chronic myelomonocytic leukemia, NOS
+sample	diagnosis_icd_o	9946/3 : Juvenile myelomonocytic leukemia, NOS
+sample	diagnosis_icd_o	9948/3 : Aggressive NK-cell leukemia
+sample	diagnosis_icd_o	9950/3 : Polycythemia vera
+sample	diagnosis_icd_o	9960/3 : Myeloproliferative neoplasm, NOS
+sample	diagnosis_icd_o	9961/3 : Primary myelofibrosis
+sample	diagnosis_icd_o	9962/3 : Essential thrombocythemia
+sample	diagnosis_icd_o	9963/3 : Chronic neutrophilic leukemia
+sample	diagnosis_icd_o	9964/3 : Chronic eosinophilic leukemia
+sample	diagnosis_icd_o	9965/3 : Myeloid or lymphoid neoplasm with PDGFRA rearrangement
+sample	diagnosis_icd_o	9966/3 : Myeloid neoplasm with PDGFRB rearrangement
+sample	diagnosis_icd_o	9967/3 : Myeloid or lymphoid neoplasm with FGFR1 abnormalities
+sample	diagnosis_icd_o	9968/3 : Myeloid or lymphoid neoplasm with PCM1-JAK2
+sample	diagnosis_icd_o	9970/1 : Lymphoproliferative disorder, NOS
+sample	diagnosis_icd_o	9971/1 : Post transplant lymphoproliferative disorder, NOS
+sample	diagnosis_icd_o	9975/3 : Myeloproliferative neoplasm, unclassifiable
+sample	diagnosis_icd_o	9980/3 : Myelodysplastic syndrome with single lineage dysplasia
+sample	diagnosis_icd_o	9982/3 : Myelodysplastic syndrome with ring sideroblasts and single lineage dysplasia
+sample	diagnosis_icd_o	9983/3 : Myelodysplastic syndrome with excess blasts
+sample	diagnosis_icd_o	9984/3 : Refractory anemia with excess blasts in transformation
+sample	diagnosis_icd_o	9985/3 : Myelodysplastic syndrome with multilineage dysplasia
+sample	diagnosis_icd_o	9986/3 : Myelodysplastic syndrome with isolated del (5q)
+sample	diagnosis_icd_o	9987/3 : Therapy-related myelodysplastic syndrome, NOS
+sample	diagnosis_icd_o	9989/3 : Myelodysplastic syndrome, NOS
+sample	diagnosis_icd_o	9993/3 : Myelodysplastic syndrome with ring sideroblasts and multilineage dysplasia
+sample	last_known_disease_status	Biochemical evidence of disease without structural correlate
+sample	last_known_disease_status	Distant met recurrence/progression
+sample	last_known_disease_status	Loco-regional recurrence/progression
+sample	last_known_disease_status	Never Tumor Free
+sample	last_known_disease_status	New Tumor Event (remission/relapse)
+sample	last_known_disease_status	Tumor Free at Follow-up
+sample	last_known_disease_status	Tumor free
+sample	last_known_disease_status	Unknown
+sample	last_known_disease_status	Unknown tumor status
+sample	last_known_disease_status	With tumor
 sample	participant_age_at_collection	INTEGER
 sample	sample_description	STRING
 sample	sample_id	STRING
-sample	sample_tumor_status	ARRAY(0x5604a60c6f68)
+sample	sample_tumor_status	ARRAY(0x562bcbea9620)
 sample	sample_tumor_status	string
-sample	sample_type	Ascites
-sample	sample_type	Blood
-sample	sample_type	Blood Derived
-sample	sample_type	Bone Marrow
-sample	sample_type	Buccal Mucosa
-sample	sample_type	Buffy Coat
-sample	sample_type	CSF
-sample	sample_type	Cell
-sample	sample_type	Cryopreserved Cells
-sample	sample_type	Eyebrow hair
-sample	sample_type	FFPE Scrolls
-sample	sample_type	Feces
-sample	sample_type	Granulocytes
-sample	sample_type	Metastatic Tissue
-sample	sample_type	Metastatic Tumor
-sample	sample_type	Mononuclear Cells from Bone Marrow
-sample	sample_type	Nasal cell collection
-sample	sample_type	Non-neoplastic
-sample	sample_type	None
-sample	sample_type	Normal
-sample	sample_type	Normal Tissue
-sample	sample_type	Oral rinse
-sample	sample_type	Other
-sample	sample_type	Overnight urine
-sample	sample_type	PBMCs
-sample	sample_type	Peritoneal fluid
-sample	sample_type	Plasma
-sample	sample_type	Pleural Fluid
-sample	sample_type	Primary Tissue
-sample	sample_type	Primary Tumor
-sample	sample_type	Saliva
-sample	sample_type	Serum
-sample	sample_type	Skin
-sample	sample_type	Tissue
-sample	sample_type	Tumor
-sample	sample_type	Unspecified
-sample	sample_type	Urine
-sample	sample_type	Urine Pellet
-sample	sample_type	Vaginal swab
-sample_diagnosis	days_to_last_followup	INTEGER
-sample_diagnosis	days_to_last_known_disease_status	INTEGER
-sample_diagnosis	diagnosis_finer_resolution	STRING
-sample_diagnosis	diagnosis_icd_cm	STRING
-sample_diagnosis	diagnosis_icd_o	8000/0 : Neoplasm, benign
-sample_diagnosis	diagnosis_icd_o	8000/1 : Neoplasm, uncertain whether benign or malignant
-sample_diagnosis	diagnosis_icd_o	8000/3 : Neoplasm, malignant
-sample_diagnosis	diagnosis_icd_o	8000/6 : Neoplasm, metastatic
-sample_diagnosis	diagnosis_icd_o	8000/9 : Neoplasm, malignant, uncertain whether primary or metastatic
-sample_diagnosis	diagnosis_icd_o	8001/0 : Tumor cells, benign
-sample_diagnosis	diagnosis_icd_o	8001/1 : Tumor cells, uncertain whether benign or malignant
-sample_diagnosis	diagnosis_icd_o	8001/3 : Tumor cells, malignant
-sample_diagnosis	diagnosis_icd_o	8002/3 : Malignant tumor, small cell type
-sample_diagnosis	diagnosis_icd_o	8003/3 : Malignant tumor, giant cell type
-sample_diagnosis	diagnosis_icd_o	8004/3 : Malignant tumor, spindle cell type
-sample_diagnosis	diagnosis_icd_o	8005/0 : Clear cell tumor, NOS
-sample_diagnosis	diagnosis_icd_o	8005/3 : Malignant tumor, clear cell type
-sample_diagnosis	diagnosis_icd_o	8010/0 : Epithelial tumor, benign
-sample_diagnosis	diagnosis_icd_o	8010/2 : Carcinoma in situ, NOS
-sample_diagnosis	diagnosis_icd_o	8010/3 : Carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8010/6 : Carcinoma, metastatic, NOS
-sample_diagnosis	diagnosis_icd_o	8010/9 : Carcinomatosis
-sample_diagnosis	diagnosis_icd_o	8011/0 : Epithelioma, benign
-sample_diagnosis	diagnosis_icd_o	8011/3 : Epithelioma, malignant
-sample_diagnosis	diagnosis_icd_o	8012/3 : Large cell carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8013/3 : Large cell neuroendocrine carcinoma
-sample_diagnosis	diagnosis_icd_o	8014/3 : Large cell carcinoma with rhabdoid phenotype
-sample_diagnosis	diagnosis_icd_o	8015/3 : Glassy cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8020/3 : Carcinoma, undifferentiated, NOS
-sample_diagnosis	diagnosis_icd_o	8021/3 : Carcinoma, anaplastic, NOS
-sample_diagnosis	diagnosis_icd_o	8022/3 : Pleomorphic carcinoma
-sample_diagnosis	diagnosis_icd_o	8023/3 : Nuclear protein in testis (NUT) associated carcinoma
-sample_diagnosis	diagnosis_icd_o	8030/3 : Giant cell and spindle cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8031/3 : Giant cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8032/3 : Spindle cell carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8033/3 : Pseudosarcomatous carcinoma
-sample_diagnosis	diagnosis_icd_o	8034/3 : Polygonal cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8035/3 : Carcinoma with osteoclast-like giant cells
-sample_diagnosis	diagnosis_icd_o	8040/0 : Tumorlet, benign
-sample_diagnosis	diagnosis_icd_o	8040/1 : Tumorlet, NOS
-sample_diagnosis	diagnosis_icd_o	8041/3 : Small cell carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8042/3 : Oat cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8043/3 : Small cell carcinoma, fusiform cell
-sample_diagnosis	diagnosis_icd_o	8044/3 : Small cell carcinoma, intermediate cell
-sample_diagnosis	diagnosis_icd_o	8045/3 : Combined small cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8046/3 : Non-small cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8050/0 : Papilloma, NOS
-sample_diagnosis	diagnosis_icd_o	8050/2 : Papillary carcinoma in situ
-sample_diagnosis	diagnosis_icd_o	8050/3 : Papillary carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8051/0 : Verrucous papilloma
-sample_diagnosis	diagnosis_icd_o	8051/3 : Verrucous carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8052/0 : Squamous cell papilloma, NOS
-sample_diagnosis	diagnosis_icd_o	8052/2 : Papillary squamous cell carcinoma, non-invasive
-sample_diagnosis	diagnosis_icd_o	8052/3 : Papillary squamous cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8053/0 : Squamous cell papilloma, inverted
-sample_diagnosis	diagnosis_icd_o	8054/0 : Warty dyskeratoma
-sample_diagnosis	diagnosis_icd_o	8054/3 : Warty carcinoma
-sample_diagnosis	diagnosis_icd_o	8060/0 : Squamous papillomatosis
-sample_diagnosis	diagnosis_icd_o	8070/0 : Actinic keratosis
-sample_diagnosis	diagnosis_icd_o	8070/2 : Squamous cell carcinoma in situ, NOS
-sample_diagnosis	diagnosis_icd_o	8070/3 : Squamous cell carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8070/6 : Squamous cell carcinoma, metastatic, NOS
-sample_diagnosis	diagnosis_icd_o	8071/2 : Differentiated intraepithelial neoplasia
-sample_diagnosis	diagnosis_icd_o	8071/3 : Squamous cell carcinoma, keratinizing, NOS
-sample_diagnosis	diagnosis_icd_o	8072/0 : Large cell acanthoma
-sample_diagnosis	diagnosis_icd_o	8072/3 : Squamous cell carcinoma, large cell, nonkeratinizing, NOS
-sample_diagnosis	diagnosis_icd_o	8073/3 : Squamous cell carcinoma, small cell, nonkeratinizing
-sample_diagnosis	diagnosis_icd_o	8074/3 : Squamous cell carcinoma, spindle cell
-sample_diagnosis	diagnosis_icd_o	8075/3 : Squamous cell carcinoma, adenoid
-sample_diagnosis	diagnosis_icd_o	8076/2 : Squamous cell carcinoma in situ with questionable stromal invasion
-sample_diagnosis	diagnosis_icd_o	8076/3 : Squamous cell carcinoma, microinvasive
-sample_diagnosis	diagnosis_icd_o	8077/0 : Squamous intraepithelial neoplasia, low grade
-sample_diagnosis	diagnosis_icd_o	8077/2 : Squamous intraepithelial neoplasia, high grade
-sample_diagnosis	diagnosis_icd_o	8078/3 : Squamous cell carcinoma with horn formation
-sample_diagnosis	diagnosis_icd_o	8080/2 : Queyrat erythroplasia
-sample_diagnosis	diagnosis_icd_o	8081/2 : Bowen disease
-sample_diagnosis	diagnosis_icd_o	8082/3 : Lymphoepithelial carcinoma
-sample_diagnosis	diagnosis_icd_o	8083/3 : Basaloid squamous cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8084/0 : Clear cell acanthoma
-sample_diagnosis	diagnosis_icd_o	8084/3 : Squamous cell carcinoma, clear cell type
-sample_diagnosis	diagnosis_icd_o	8085/3 : Squamous cell carcinoma, HPV-positive
-sample_diagnosis	diagnosis_icd_o	8086/3 : Squamous cell carcinoma, HPV-negative
-sample_diagnosis	diagnosis_icd_o	8090/1 : Basal cell tumor
-sample_diagnosis	diagnosis_icd_o	8090/3 : Basal cell carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8091/3 : Superficial basal cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8092/3 : Infiltrating basal cell carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8093/3 : Basal cell carcinoma, fibroepithelial
-sample_diagnosis	diagnosis_icd_o	8094/3 : Basosquamous carcinoma
-sample_diagnosis	diagnosis_icd_o	8095/3 : Metatypical carcinoma
-sample_diagnosis	diagnosis_icd_o	8096/0 : Intraepidermal epithelioma of Jadassohn
-sample_diagnosis	diagnosis_icd_o	8097/3 : Basal cell carcinoma, nodular
-sample_diagnosis	diagnosis_icd_o	8098/3 : Adenoid basal carcinoma
-sample_diagnosis	diagnosis_icd_o	8100/0 : Trichoepithelioma
-sample_diagnosis	diagnosis_icd_o	8100/3 : Trichoblastic carcinoma
-sample_diagnosis	diagnosis_icd_o	8101/0 : Trichofolliculoma
-sample_diagnosis	diagnosis_icd_o	8102/0 : Trichilemmoma
-sample_diagnosis	diagnosis_icd_o	8102/3 : Trichilemmocarcinoma
-sample_diagnosis	diagnosis_icd_o	8103/0 : Pilar tumor
-sample_diagnosis	diagnosis_icd_o	8103/1 : Proliferating trichilemmal cyst
-sample_diagnosis	diagnosis_icd_o	8104/0 : Pilar sheath acanthoma
-sample_diagnosis	diagnosis_icd_o	8110/0 : Pilomatricoma, NOS
-sample_diagnosis	diagnosis_icd_o	8110/3 : Pilomatrical carcinoma
-sample_diagnosis	diagnosis_icd_o	8120/0 : Urothelial papilloma, NOS
-sample_diagnosis	diagnosis_icd_o	8120/2 : Urothelial carcinoma in situ
-sample_diagnosis	diagnosis_icd_o	8120/3 : Transitional cell carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8121/0 : Sinonasal papilloma, exophytic
-sample_diagnosis	diagnosis_icd_o	8121/1 : Sinonasal papilloma, inverted
-sample_diagnosis	diagnosis_icd_o	8121/3 : Schneiderian carcinoma
-sample_diagnosis	diagnosis_icd_o	8122/3 : Urothelial carcinoma, sarcomatoid 
-sample_diagnosis	diagnosis_icd_o	8123/3 : Basaloid carcinoma
-sample_diagnosis	diagnosis_icd_o	8124/3 : Cloacogenic carcinoma
-sample_diagnosis	diagnosis_icd_o	8130/1 : Papillary urothelial neoplasm of low malignant potential
-sample_diagnosis	diagnosis_icd_o	8130/2 : Papillary urothelial carcinoma, non-invasive
-sample_diagnosis	diagnosis_icd_o	8130/3 : Papillary transitional cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8131/3 : Urothelial carcinoma, micropapillary
-sample_diagnosis	diagnosis_icd_o	8140/0 : Adenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8140/1 : Atypical adenoma
-sample_diagnosis	diagnosis_icd_o	8140/2 : Adenocarcinoma in situ, NOS
-sample_diagnosis	diagnosis_icd_o	8140/3 : Adenocarcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8140/6 : Adenocarcinoma, metastatic, NOS
-sample_diagnosis	diagnosis_icd_o	8141/3 : Scirrhous adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8142/3 : Linitis plastica
-sample_diagnosis	diagnosis_icd_o	8143/3 : Superficial spreading adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8144/0 : Adenoma, intestinal type
-sample_diagnosis	diagnosis_icd_o	8144/3 : Adenocarcinoma, intestinal type
-sample_diagnosis	diagnosis_icd_o	8145/3 : Carcinoma, diffuse type
-sample_diagnosis	diagnosis_icd_o	8146/0 : Monomorphic adenoma
-sample_diagnosis	diagnosis_icd_o	8147/0 : Basal cell adenoma
-sample_diagnosis	diagnosis_icd_o	8147/3 : Basal cell adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8148/0 : Glandular intraepithelial neoplasia, low grade
-sample_diagnosis	diagnosis_icd_o	8148/2 : Glandular intraepithelial neoplasia, high grade
-sample_diagnosis	diagnosis_icd_o	8149/0 : Canalicular adenoma
-sample_diagnosis	diagnosis_icd_o	8150/0 : Pancreatic neuroendocrine microadenoma
-sample_diagnosis	diagnosis_icd_o	8150/3 : Pancreatic neuroendocrine tumor, nonfunctioning
-sample_diagnosis	diagnosis_icd_o	8151/3 : Insulinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8152/3 : Glucagonoma, NOS
-sample_diagnosis	diagnosis_icd_o	8153/3 : Gastrinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8154/3 : Mixed neuroendocrine non-neuroendocrine neoplasm (MiNEN)
-sample_diagnosis	diagnosis_icd_o	8155/3 : Vipoma, NOS
-sample_diagnosis	diagnosis_icd_o	8156/3 : Somatostatinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8158/3 : ACTH-producing tumor
-sample_diagnosis	diagnosis_icd_o	8160/0 : Bile duct adenoma
-sample_diagnosis	diagnosis_icd_o	8160/3 : Cholangiocarcinoma
-sample_diagnosis	diagnosis_icd_o	8161/0 : Bile duct cystadenoma
-sample_diagnosis	diagnosis_icd_o	8161/3 : Bile duct cystadenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8162/3 : Klatskin tumor
-sample_diagnosis	diagnosis_icd_o	8163/0 : Pancreatobiliary neoplasm, non-invasive
-sample_diagnosis	diagnosis_icd_o	8163/2 : Papillary neoplasm, pancreatobiliary type, with high grade intraepithelial neoplasia
-sample_diagnosis	diagnosis_icd_o	8163/3 : Pancreatobiliary type carcinoma
-sample_diagnosis	diagnosis_icd_o	8170/0 : Liver cell adenoma
-sample_diagnosis	diagnosis_icd_o	8170/3 : Hepatocellular carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8171/3 : Hepatocellular carcinoma, fibrolamellar
-sample_diagnosis	diagnosis_icd_o	8172/3 : Hepatocellular carcinoma, scirrhous
-sample_diagnosis	diagnosis_icd_o	8173/3 : Hepatocellular carcinoma, spindle cell variant
-sample_diagnosis	diagnosis_icd_o	8174/3 : Hepatocellular carcinoma, clear cell type
-sample_diagnosis	diagnosis_icd_o	8175/3 : Hepatocellular carcinoma, pleomorphic type
-sample_diagnosis	diagnosis_icd_o	8180/3 : Combined hepatocellular carcinoma and cholangiocarcinoma
-sample_diagnosis	diagnosis_icd_o	8190/0 : Trabecular adenoma
-sample_diagnosis	diagnosis_icd_o	8190/3 : Trabecular adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8191/0 : Embryonal adenoma
-sample_diagnosis	diagnosis_icd_o	8200/0 : Eccrine dermal cylindroma
-sample_diagnosis	diagnosis_icd_o	8200/3 : Adenoid cystic carcinoma
-sample_diagnosis	diagnosis_icd_o	8201/2 : Cribriform carcinoma in situ
-sample_diagnosis	diagnosis_icd_o	8201/3 : Cribriform carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8202/0 : Microcystic adenoma
-sample_diagnosis	diagnosis_icd_o	8204/0 : Lactating adenoma
-sample_diagnosis	diagnosis_icd_o	8210/0 : Adenomatous polyp, NOS
-sample_diagnosis	diagnosis_icd_o	8210/2 : Adenocarcinoma in situ in adenomatous polyp
-sample_diagnosis	diagnosis_icd_o	8210/3 : Adenocarcinoma in adenomatous polyp
-sample_diagnosis	diagnosis_icd_o	8211/0 : Tubular adenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8211/3 : Tubular adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8212/0 : Flat adenoma
-sample_diagnosis	diagnosis_icd_o	8213/0 : Serrated adenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8213/3 : Serrated adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8214/3 : Parietal cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8215/3 : Adenocarcinoma of anal glands
-sample_diagnosis	diagnosis_icd_o	8220/0 : Adenomatous polyposis coli
-sample_diagnosis	diagnosis_icd_o	8220/3 : Adenocarcinoma in adenomatous polyposis coli
-sample_diagnosis	diagnosis_icd_o	8221/0 : Multiple adenomatous polyps
-sample_diagnosis	diagnosis_icd_o	8221/3 : Adenocarcinoma in multiple adenomatous polyps
-sample_diagnosis	diagnosis_icd_o	8230/2 : Ductal carcinoma in situ, solid type
-sample_diagnosis	diagnosis_icd_o	8230/3 : Solid carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8231/3 : Carcinoma simplex
-sample_diagnosis	diagnosis_icd_o	8240/3 : Neuroendocrine tumor, NOS
-sample_diagnosis	diagnosis_icd_o	8241/3 : Enterochromaffin cell carcinoid
-sample_diagnosis	diagnosis_icd_o	8242/3 : Enterochromaffin-like cell tumor, malignant
-sample_diagnosis	diagnosis_icd_o	8243/3 : Goblet cell carcinoid
-sample_diagnosis	diagnosis_icd_o	8244/3 : Mixed adenoneuroendocrine carcinoma
-sample_diagnosis	diagnosis_icd_o	8245/1 : Tubular carcinoid
-sample_diagnosis	diagnosis_icd_o	8245/3 : Adenocarcinoid tumor
-sample_diagnosis	diagnosis_icd_o	8246/3 : Neuroendocrine carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8247/3 : Merkel cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8248/1 : Apudoma
-sample_diagnosis	diagnosis_icd_o	8249/3 : Neuroendocrine tumor, grade 2
-sample_diagnosis	diagnosis_icd_o	8250/0 : Atypical adenomatous hyperplasia
-sample_diagnosis	diagnosis_icd_o	8250/1 : Pulmonary adenomatosis
-sample_diagnosis	diagnosis_icd_o	8250/2 : Adenocarcinoma in situ of the lung, non-mucinous
-sample_diagnosis	diagnosis_icd_o	8250/3 : Lepidic adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8251/0 : Alveolar adenoma
-sample_diagnosis	diagnosis_icd_o	8251/3 : Alveolar adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8252/3 : Bronchiolo-alveolar carcinoma, non-mucinous
-sample_diagnosis	diagnosis_icd_o	8253/2 : Adenocarcinoma in situ of the lung, mucinous
-sample_diagnosis	diagnosis_icd_o	8253/3 : Adenocarcinoma of the lung, mucinous
-sample_diagnosis	diagnosis_icd_o	8254/3 : Adenocarcinoma of the lung, mixed mucinous and non-mucinous
-sample_diagnosis	diagnosis_icd_o	8255/3 : Adenocarcinoma with mixed subtypes
-sample_diagnosis	diagnosis_icd_o	8256/3 : Minimally invasive adenocarcinoma, non-mucinous
-sample_diagnosis	diagnosis_icd_o	8257/3 : Minimally invasive adenocarcinoma, mucinous
-sample_diagnosis	diagnosis_icd_o	8260/0 : Papillary adenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8260/1 : Aggressive papillary tumor
-sample_diagnosis	diagnosis_icd_o	8260/3 : Papillary adenocarcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8261/0 : Villous adenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8261/2 : Adenocarcinoma in situ in villous adenoma
-sample_diagnosis	diagnosis_icd_o	8261/3 : Adenocarcinoma in villous adenoma
-sample_diagnosis	diagnosis_icd_o	8262/3 : Villous adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8263/0 : Tubulovillous adenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8263/2 : Adenocarcinoma in situ in tubulovillous adenoma
-sample_diagnosis	diagnosis_icd_o	8263/3 : Adenocarcinoma in tubulovillous adenoma
-sample_diagnosis	diagnosis_icd_o	8264/0 : Papillomatosis, glandular
-sample_diagnosis	diagnosis_icd_o	8265/3 : Micropapillary carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8270/0 : Chromophobe adenoma
-sample_diagnosis	diagnosis_icd_o	8270/3 : Chromophobe carcinoma
-sample_diagnosis	diagnosis_icd_o	8271/0 : Lactotroph adenoma
-sample_diagnosis	diagnosis_icd_o	8272/0 : Pituitary adenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8272/3 : Pituitary carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8273/3 : Pituitary blastoma
-sample_diagnosis	diagnosis_icd_o	8280/0 : Acidophil adenoma
-sample_diagnosis	diagnosis_icd_o	8280/3 : Acidophil carcinoma
-sample_diagnosis	diagnosis_icd_o	8281/0 : Mixed acidophil-basophil adenoma
-sample_diagnosis	diagnosis_icd_o	8281/3 : Mixed acidophil-basophil carcinoma
-sample_diagnosis	diagnosis_icd_o	8290/0 : Oxyphilic adenoma
-sample_diagnosis	diagnosis_icd_o	8290/3 : Oxyphilic adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8300/0 : Basophil adenoma
-sample_diagnosis	diagnosis_icd_o	8300/3 : Basophil carcinoma
-sample_diagnosis	diagnosis_icd_o	8310/0 : Clear cell adenoma
-sample_diagnosis	diagnosis_icd_o	8310/3 : Clear cell adenocarcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8311/1 : Hypernephroid tumor
-sample_diagnosis	diagnosis_icd_o	8311/3 : Hereditary leiomyomatosis and renal cell carcinoma (HRCC)-associated renal cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8312/3 : Renal cell carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8313/0 : Clear cell adenofibroma
-sample_diagnosis	diagnosis_icd_o	8313/1 : Clear cell borderline tumor
-sample_diagnosis	diagnosis_icd_o	8313/3 : Clear cell adenocarcinofibroma
-sample_diagnosis	diagnosis_icd_o	8314/3 : Lipid-rich carcinoma
-sample_diagnosis	diagnosis_icd_o	8315/3 : Glycogen-rich carcinoma
-sample_diagnosis	diagnosis_icd_o	8316/1 : Multilocular cystic renal neoplasm of low malignant potential 
-sample_diagnosis	diagnosis_icd_o	8316/3 : Cyst-associated renal cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8317/3 : Renal cell carcinoma, chromophobe type
-sample_diagnosis	diagnosis_icd_o	8318/3 : Renal cell carcinoma, sarcomatoid
-sample_diagnosis	diagnosis_icd_o	8319/3 : Collecting duct carcinoma
-sample_diagnosis	diagnosis_icd_o	8320/3 : Granular cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8321/0 : Chief cell adenoma
-sample_diagnosis	diagnosis_icd_o	8322/0 : Water-clear cell adenoma
-sample_diagnosis	diagnosis_icd_o	8322/3 : Water-clear cell adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8323/0 : Mixed cell adenoma
-sample_diagnosis	diagnosis_icd_o	8323/1 : Clear cell papillary renal cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8323/3 : Mixed cell adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8324/0 : Lipoadenoma
-sample_diagnosis	diagnosis_icd_o	8325/0 : Metanephric adenoma
-sample_diagnosis	diagnosis_icd_o	8330/0 : Follicular adenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8330/1 : Atypical follicular adenoma
-sample_diagnosis	diagnosis_icd_o	8330/3 : Follicular carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8331/3 : Follicular adenocarcinoma, well differentiated
-sample_diagnosis	diagnosis_icd_o	8332/3 : Follicular adenocarcinoma, trabecular
-sample_diagnosis	diagnosis_icd_o	8333/0 : Microfollicular adenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8333/3 : Fetal adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8334/0 : Macrofollicular adenoma
-sample_diagnosis	diagnosis_icd_o	8335/1 : Follicular tumor of uncertain malignant potential
-sample_diagnosis	diagnosis_icd_o	8335/3 : Follicular carcinoma, minimally invasive
-sample_diagnosis	diagnosis_icd_o	8336/1 : Hyalinizing trabecular tumor
-sample_diagnosis	diagnosis_icd_o	8337/3 : Poorly differentiated thyroid carcinoma
-sample_diagnosis	diagnosis_icd_o	8339/3 : Follicular carcinoma, encapsulated, angioinvasive
-sample_diagnosis	diagnosis_icd_o	8340/3 : Papillary carcinoma, follicular variant
-sample_diagnosis	diagnosis_icd_o	8341/3 : Papillary microcarcinoma
-sample_diagnosis	diagnosis_icd_o	8342/3 : Papillary carcinoma, oncocytic variant
-sample_diagnosis	diagnosis_icd_o	8343/3 : Papillary carcinoma, encapsulated of thyroid
-sample_diagnosis	diagnosis_icd_o	8344/3 : Papillary carcinoma, columnar cell
-sample_diagnosis	diagnosis_icd_o	8345/3 : Medullary thyroid carcinoma
-sample_diagnosis	diagnosis_icd_o	8346/3 : Mixed medullary-follicular carcinoma
-sample_diagnosis	diagnosis_icd_o	8347/3 : Mixed medullary-papillary carcinoma
-sample_diagnosis	diagnosis_icd_o	8348/1 : Well differentiated tumor of uncertain malignant potential
-sample_diagnosis	diagnosis_icd_o	8349/1 : Non-invasive follicular thyroid neoplasm with papillary-like nuclear features (NIFTP)
-sample_diagnosis	diagnosis_icd_o	8350/3 : Nonencapsulated sclerosing carcinoma
-sample_diagnosis	diagnosis_icd_o	8360/1 : Multiple endocrine adenomas
-sample_diagnosis	diagnosis_icd_o	8361/0 : Juxtaglomerular tumor
-sample_diagnosis	diagnosis_icd_o	8370/0 : Adrenal cortical adenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8370/3 : Adrenal cortical carcinoma
-sample_diagnosis	diagnosis_icd_o	8371/0 : Adrenal cortical adenoma, compact cell
-sample_diagnosis	diagnosis_icd_o	8372/0 : Adrenal cortical adenoma, pigmented
-sample_diagnosis	diagnosis_icd_o	8373/0 : Adrenal cortical adenoma, clear cell
-sample_diagnosis	diagnosis_icd_o	8374/0 : Adrenal cortical adenoma, glomerulosa cell
-sample_diagnosis	diagnosis_icd_o	8375/0 : Adrenal cortical adenoma, mixed cell
-sample_diagnosis	diagnosis_icd_o	8380/0 : Endometrioid adenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8380/1 : Endometrioid adenoma, borderline malignancy
-sample_diagnosis	diagnosis_icd_o	8380/2 : Endometrioid intraepithelial neoplasia
-sample_diagnosis	diagnosis_icd_o	8380/3 : Endometrioid adenocarcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8381/0 : Endometrioid adenofibroma, NOS
-sample_diagnosis	diagnosis_icd_o	8381/1 : Endometrioid adenofibroma, borderline malignancy
-sample_diagnosis	diagnosis_icd_o	8381/3 : Endometrioid adenofibroma, malignant
-sample_diagnosis	diagnosis_icd_o	8382/3 : Endometrioid adenocarcinoma, secretory variant
-sample_diagnosis	diagnosis_icd_o	8383/3 : Endometrioid adenocarcinoma, ciliated cell variant
-sample_diagnosis	diagnosis_icd_o	8384/3 : Adenocarcinoma, endocervical type
-sample_diagnosis	diagnosis_icd_o	8390/0 : Skin appendage adenoma
-sample_diagnosis	diagnosis_icd_o	8390/3 : Adnexal adenocarcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8391/0 : Follicular fibroma
-sample_diagnosis	diagnosis_icd_o	8392/0 : Syringofibroadenoma
-sample_diagnosis	diagnosis_icd_o	8400/0 : Sweat gland adenoma
-sample_diagnosis	diagnosis_icd_o	8400/1 : Sweat gland tumor, NOS
-sample_diagnosis	diagnosis_icd_o	8400/3 : Sweat gland adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8401/0 : Apocrine adenoma
-sample_diagnosis	diagnosis_icd_o	8401/3 : Apocrine adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8402/0 : Hidradenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8402/3 : Hidradenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8403/0 : Spiradenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8403/3 : Malignant eccrine spiradenoma
-sample_diagnosis	diagnosis_icd_o	8404/0 : Hidrocystoma
-sample_diagnosis	diagnosis_icd_o	8405/0 : Papillary hidradenoma
-sample_diagnosis	diagnosis_icd_o	8406/0 : Syringocystadenoma papilliferum
-sample_diagnosis	diagnosis_icd_o	8406/3 : Syringocystadenocarcinoma papilliferum
-sample_diagnosis	diagnosis_icd_o	8407/0 : Syringoma, NOS
-sample_diagnosis	diagnosis_icd_o	8407/3 : Microcystic adnexal carcinoma
-sample_diagnosis	diagnosis_icd_o	8408/0 : Eccrine papillary adenoma
-sample_diagnosis	diagnosis_icd_o	8408/3 : Digital papillary adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8409/0 : Poroma, NOS
-sample_diagnosis	diagnosis_icd_o	8409/2 : Porocarcinoma in situ
-sample_diagnosis	diagnosis_icd_o	8409/3 : Porocarcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8410/0 : Sebaceoma
-sample_diagnosis	diagnosis_icd_o	8410/3 : Sebaceous carcinoma
-sample_diagnosis	diagnosis_icd_o	8413/3 : Eccrine adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8420/0 : Ceruminous adenoma
-sample_diagnosis	diagnosis_icd_o	8420/3 : Ceruminous adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8430/1 : Mucoepidermoid tumor
-sample_diagnosis	diagnosis_icd_o	8430/3 : Mucoepidermoid carcinoma
-sample_diagnosis	diagnosis_icd_o	8440/0 : Cystadenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8440/3 : Cystadenocarcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8441/0 : Serous cystadenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8441/2 : Serous intraepithelial carcinoma
-sample_diagnosis	diagnosis_icd_o	8441/3 : Serous carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8442/1 : Serous borderline tumor, NOS
-sample_diagnosis	diagnosis_icd_o	8443/0 : Clear cell cystadenoma
-sample_diagnosis	diagnosis_icd_o	8450/0 : Papillary cystadenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8450/3 : Papillary cystadenocarcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8451/1 : Papillary cystadenoma, borderline malignancy
-sample_diagnosis	diagnosis_icd_o	8452/1 : Solid pseudopapillary tumor of ovary
-sample_diagnosis	diagnosis_icd_o	8452/3 : Solid pseudopapillary neoplasm of the pancreas
-sample_diagnosis	diagnosis_icd_o	8453/0 : Intraductal Papillary mucinous adenoma
-sample_diagnosis	diagnosis_icd_o	8453/2 : Intraductal Papillary mucinous neoplasm with high grade dysplasia
-sample_diagnosis	diagnosis_icd_o	8453/3 : Intraductal Papillary mucinous neoplasm with an associated invasive carcinoma
-sample_diagnosis	diagnosis_icd_o	8454/0 : Cystic tumor of atrio-ventricular node
-sample_diagnosis	diagnosis_icd_o	8460/2 : Serous borderline tumor, micropapillary variant
-sample_diagnosis	diagnosis_icd_o	8460/3 : Low grade serous carcinoma
-sample_diagnosis	diagnosis_icd_o	8461/0 : Serous surface papilloma
-sample_diagnosis	diagnosis_icd_o	8461/3 : High grade serous carcinoma
-sample_diagnosis	diagnosis_icd_o	8470/0 : Mucinous cystadenoma, NOS
-sample_diagnosis	diagnosis_icd_o	8470/2 : Mucinous cystic neoplasm with high grade dysplasia
-sample_diagnosis	diagnosis_icd_o	8470/3 : Mucinous cystadenocarcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8472/1 : Mucinous cystic tumor of borderline malignancy
-sample_diagnosis	diagnosis_icd_o	8474/0 : Seromucinous cystadenoma
-sample_diagnosis	diagnosis_icd_o	8474/1 : Seromucinous borderline tumor
-sample_diagnosis	diagnosis_icd_o	8474/3 : Seromucinous carcinoma
-sample_diagnosis	diagnosis_icd_o	8480/0 : Mucinous adenoma
-sample_diagnosis	diagnosis_icd_o	8480/1 : Low grade appendiceal mucinous neoplasm
-sample_diagnosis	diagnosis_icd_o	8480/3 : Mucinous adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8480/6 : Pseudomyxoma peritonei
-sample_diagnosis	diagnosis_icd_o	8481/3 : Mucin-producing adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8482/3 : Mucinous carcinoma, gastric type
-sample_diagnosis	diagnosis_icd_o	8490/3 : Signet ring cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8490/6 : Metastatic signet ring cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8500/2 : Intraductal carcinoma, noninfiltrating, NOS
-sample_diagnosis	diagnosis_icd_o	8500/3 : Infiltrating duct carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8501/2 : Comedocarcinoma, noninfiltrating
-sample_diagnosis	diagnosis_icd_o	8501/3 : Comedocarcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8502/3 : Secretory carcinoma
-sample_diagnosis	diagnosis_icd_o	8503/0 : Intraductal papilloma
-sample_diagnosis	diagnosis_icd_o	8503/2 : Noninfiltrating intraductal papillary adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8503/3 : Intraductal papillary adenocarcinoma with invasion
-sample_diagnosis	diagnosis_icd_o	8504/0 : Intracystic papillary adenoma
-sample_diagnosis	diagnosis_icd_o	8504/2 : Encapsulated papillary carcinoma
-sample_diagnosis	diagnosis_icd_o	8504/3 : Encapsulated papillary carcinoma with invasion
-sample_diagnosis	diagnosis_icd_o	8505/0 : Intraductal papillomatosis, NOS
-sample_diagnosis	diagnosis_icd_o	8506/0 : Adenoma of nipple
-sample_diagnosis	diagnosis_icd_o	8507/2 : Intraductal micropapillary carcinoma
-sample_diagnosis	diagnosis_icd_o	8507/3 : Invasive micropapillary carcinoma of breast
-sample_diagnosis	diagnosis_icd_o	8508/3 : Cystic hypersecretory carcinoma
-sample_diagnosis	diagnosis_icd_o	8509/2 : Solid papillary carcinoma in situ
-sample_diagnosis	diagnosis_icd_o	8509/3 : Solid papillary carcinoma with invasion
-sample_diagnosis	diagnosis_icd_o	8510/3 : Medullary carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8512/3 : Medullary carcinoma with lymphoid stroma
-sample_diagnosis	diagnosis_icd_o	8513/3 : Atypical medullary carcinoma
-sample_diagnosis	diagnosis_icd_o	8514/3 : Duct carcinoma, desmoplastic type
-sample_diagnosis	diagnosis_icd_o	8519/2 : Lobular carcinoma in situ, pleomorphic
-sample_diagnosis	diagnosis_icd_o	8520/2 : Lobular carcinoma in situ, NOS
-sample_diagnosis	diagnosis_icd_o	8520/3 : Lobular carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8521/3 : Infiltrating ductular carcinoma
-sample_diagnosis	diagnosis_icd_o	8522/2 : Intraductal carcinoma and lobular carcinoma in situ
-sample_diagnosis	diagnosis_icd_o	8522/3 : Infiltrating duct and lobular carcinoma
-sample_diagnosis	diagnosis_icd_o	8523/3 : Infiltrating duct mixed with other types of carcinoma
-sample_diagnosis	diagnosis_icd_o	8524/3 : Infiltrating lobular mixed with other types of carcinoma
-sample_diagnosis	diagnosis_icd_o	8525/3 : Polymorphous adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8530/3 : Inflammatory carcinoma
-sample_diagnosis	diagnosis_icd_o	8540/3 : Paget disease, mammary
-sample_diagnosis	diagnosis_icd_o	8541/3 : Paget disease and infiltrating duct carcinoma of breast
-sample_diagnosis	diagnosis_icd_o	8542/3 : Paget disease, extramammary
-sample_diagnosis	diagnosis_icd_o	8543/3 : Paget disease and intraductal carcinoma of breast
-sample_diagnosis	diagnosis_icd_o	8550/0 : Acinar cell adenoma
-sample_diagnosis	diagnosis_icd_o	8550/1 : Acinar cell tumor
-sample_diagnosis	diagnosis_icd_o	8550/3 : Acinar cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8551/3 : Acinar cell cystadenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8552/3 : Mixed acinar-ductal carcinoma
-sample_diagnosis	diagnosis_icd_o	8560/0 : Mixed squamous cell and glandular papilloma
-sample_diagnosis	diagnosis_icd_o	8560/3 : Adenosquamous carcinoma
-sample_diagnosis	diagnosis_icd_o	8561/0 : Adenolymphoma
-sample_diagnosis	diagnosis_icd_o	8562/3 : Epithelial-myoepithelial carcinoma
-sample_diagnosis	diagnosis_icd_o	8563/0 : Lymphadenoma
-sample_diagnosis	diagnosis_icd_o	8570/3 : Adenocarcinoma with squamous metaplasia
-sample_diagnosis	diagnosis_icd_o	8571/3 : Adenocarcinoma with cartilaginous and osseous metaplasia
-sample_diagnosis	diagnosis_icd_o	8572/3 : Adenocarcinoma with spindle cell metaplasia
-sample_diagnosis	diagnosis_icd_o	8573/3 : Adenocarcinoma with apocrine metaplasia
-sample_diagnosis	diagnosis_icd_o	8574/3 : Adenocarcinoma with neuroendocrine differentiation
-sample_diagnosis	diagnosis_icd_o	8575/3 : Metaplastic carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8576/3 : Hepatoid adenocarcinoma
-sample_diagnosis	diagnosis_icd_o	8580/0 : Microscopic thymoma
-sample_diagnosis	diagnosis_icd_o	8580/1 : Micronodular thymoma with lymphoid stroma
-sample_diagnosis	diagnosis_icd_o	8580/3 : Thymoma, NOS
-sample_diagnosis	diagnosis_icd_o	8581/3 : Thymoma, type A
-sample_diagnosis	diagnosis_icd_o	8582/3 : Thymoma, type AB
-sample_diagnosis	diagnosis_icd_o	8583/3 : Thymoma, type B1
-sample_diagnosis	diagnosis_icd_o	8584/3 : Thymoma, type B2
-sample_diagnosis	diagnosis_icd_o	8585/3 : Thymoma, type B3
-sample_diagnosis	diagnosis_icd_o	8586/3 : Thymic carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	8587/0 : Ectopic hamartomatous thymoma
-sample_diagnosis	diagnosis_icd_o	8588/3 : Spindle epithelial tumor with thymus-like element
-sample_diagnosis	diagnosis_icd_o	8589/3 : Intrathyroid thymic carcinoma
-sample_diagnosis	diagnosis_icd_o	8590/0 : Sex cord-stromal tumor, benign
-sample_diagnosis	diagnosis_icd_o	8590/1 : Sex cord-gonadal stromal tumor, NOS
-sample_diagnosis	diagnosis_icd_o	8591/1 : Sex cord-gonadal stromal tumor, incompletely differentiated
-sample_diagnosis	diagnosis_icd_o	8592/1 : Sex cord-gonadal stromal tumor, mixed forms
-sample_diagnosis	diagnosis_icd_o	8593/1 : Stromal tumor with minor sex cord elements
-sample_diagnosis	diagnosis_icd_o	8594/1 : Mixed germ cell-sex cord-stromal tumor, NOS
-sample_diagnosis	diagnosis_icd_o	8600/0 : Thecoma, NOS
-sample_diagnosis	diagnosis_icd_o	8600/3 : Thecoma, malignant
-sample_diagnosis	diagnosis_icd_o	8601/0 : Thecoma, luteinized
-sample_diagnosis	diagnosis_icd_o	8602/0 : Sclerosing stromal tumor
-sample_diagnosis	diagnosis_icd_o	8610/0 : Luteoma, NOS
-sample_diagnosis	diagnosis_icd_o	8620/1 : Adult granulosa cell tumor of testis
-sample_diagnosis	diagnosis_icd_o	8620/3 : Adult granulosa cell tumor of ovary
-sample_diagnosis	diagnosis_icd_o	8621/1 : Granulosa cell-theca cell tumor
-sample_diagnosis	diagnosis_icd_o	8622/0 : Granulosa cell tumor of the testis, juvenile
-sample_diagnosis	diagnosis_icd_o	8622/1 : Granulosa cell tumor, juvenile
-sample_diagnosis	diagnosis_icd_o	8623/1 : Sex cord tumor with annular tubules
-sample_diagnosis	diagnosis_icd_o	8630/0 : Androblastoma, benign
-sample_diagnosis	diagnosis_icd_o	8630/1 : Androblastoma, NOS
-sample_diagnosis	diagnosis_icd_o	8630/3 : Androblastoma, malignant
-sample_diagnosis	diagnosis_icd_o	8631/0 : Sertoli-Leydig cell tumor, well differentiated
-sample_diagnosis	diagnosis_icd_o	8631/1 : Sertoli-Leydig cell tumor of intermediate differentiation
-sample_diagnosis	diagnosis_icd_o	8631/3 : Sertoli-Leydig cell tumor, poorly differentiated
-sample_diagnosis	diagnosis_icd_o	8632/1 : Gynandroblastoma
-sample_diagnosis	diagnosis_icd_o	8633/1 : Sertoli-Leydig cell tumor, retiform
-sample_diagnosis	diagnosis_icd_o	8634/1 : Sertoli-Leydig cell tumor, intermediate differentiation, with heterologous elements
-sample_diagnosis	diagnosis_icd_o	8634/3 : Sertoli-Leydig cell tumor, poorly differentiated, with heterologous elements
-sample_diagnosis	diagnosis_icd_o	8640/1 : Sertoli cell tumor, NOS
-sample_diagnosis	diagnosis_icd_o	8640/3 : Sertoli cell carcinoma
-sample_diagnosis	diagnosis_icd_o	8641/0 : Sertoli cell tumor with lipid storage
-sample_diagnosis	diagnosis_icd_o	8642/1 : Large cell calcifying Sertoli cell tumor
-sample_diagnosis	diagnosis_icd_o	8643/1 : Intratubular large cell hyalinizing Sertoli cell neoplasia
-sample_diagnosis	diagnosis_icd_o	8650/0 : Leydig cell tumor of the ovary, NOS
-sample_diagnosis	diagnosis_icd_o	8650/1 : Leydig cell tumor of the testis, NOS
-sample_diagnosis	diagnosis_icd_o	8650/3 : Leydig cell tumor, malignant
-sample_diagnosis	diagnosis_icd_o	8660/0 : Hilus cell tumor
-sample_diagnosis	diagnosis_icd_o	8670/0 : Lipid cell tumor of ovary
-sample_diagnosis	diagnosis_icd_o	8670/3 : Steroid cell tumor, malignant
-sample_diagnosis	diagnosis_icd_o	8671/0 : Adrenal rest tumor
-sample_diagnosis	diagnosis_icd_o	8680/3 : Paraganglioma, NOS
-sample_diagnosis	diagnosis_icd_o	8681/3 : Sympathetic paraganglioma
-sample_diagnosis	diagnosis_icd_o	8682/3 : Parasympathetic paraganglioma
-sample_diagnosis	diagnosis_icd_o	8683/0 : Gangliocytic paraganglioma
-sample_diagnosis	diagnosis_icd_o	8690/3 : Middle ear paraganglioma
-sample_diagnosis	diagnosis_icd_o	8691/3 : Aortic body tumor
-sample_diagnosis	diagnosis_icd_o	8692/3 : Carotid body paraganglioma
-sample_diagnosis	diagnosis_icd_o	8693/3 : Extra-adrenal paraganglioma, NOS
-sample_diagnosis	diagnosis_icd_o	8700/3 : Pheochromocytoma, NOS
-sample_diagnosis	diagnosis_icd_o	8710/3 : Glomangiosarcoma
-sample_diagnosis	diagnosis_icd_o	8711/0 : Glomus tumor, NOS
-sample_diagnosis	diagnosis_icd_o	8711/1 : Glomangiomatosis
-sample_diagnosis	diagnosis_icd_o	8711/3 : Glomus tumor, malignant
-sample_diagnosis	diagnosis_icd_o	8712/0 : Glomangioma
-sample_diagnosis	diagnosis_icd_o	8713/0 : Glomangiomyoma
-sample_diagnosis	diagnosis_icd_o	8714/0 : Perivascular epithelioid tumor, benign
-sample_diagnosis	diagnosis_icd_o	8714/3 : Perivascular epithelioid tumor, malignant
-sample_diagnosis	diagnosis_icd_o	8720/0 : Pigmented nevus, NOS
-sample_diagnosis	diagnosis_icd_o	8720/2 : Melanoma in situ
-sample_diagnosis	diagnosis_icd_o	8720/3 : Malignant melanoma, NOS
-sample_diagnosis	diagnosis_icd_o	8721/3 : Nodular melanoma
-sample_diagnosis	diagnosis_icd_o	8722/0 : Balloon cell nevus
-sample_diagnosis	diagnosis_icd_o	8722/3 : Balloon cell melanoma
-sample_diagnosis	diagnosis_icd_o	8723/0 : Halo nevus
-sample_diagnosis	diagnosis_icd_o	8723/3 : Malignant melanoma, regressing
-sample_diagnosis	diagnosis_icd_o	8725/0 : Neuronevus
-sample_diagnosis	diagnosis_icd_o	8726/0 : Magnocellular nevus
-sample_diagnosis	diagnosis_icd_o	8727/0 : Dysplastic nevus
-sample_diagnosis	diagnosis_icd_o	8728/0 : Meningeal melanocytosis
-sample_diagnosis	diagnosis_icd_o	8728/1 : Meningeal melanocytoma
-sample_diagnosis	diagnosis_icd_o	8728/3 : Meningeal melanomatosis
-sample_diagnosis	diagnosis_icd_o	8730/0 : Nonpigmented nevus
-sample_diagnosis	diagnosis_icd_o	8730/3 : Amelanotic melanoma
-sample_diagnosis	diagnosis_icd_o	8740/0 : Junctional nevus, NOS
-sample_diagnosis	diagnosis_icd_o	8740/3 : Malignant melanoma in junctional nevus
-sample_diagnosis	diagnosis_icd_o	8741/2 : Precancerous melanosis, NOS
-sample_diagnosis	diagnosis_icd_o	8741/3 : Malignant melanoma in precancerous melanosis
-sample_diagnosis	diagnosis_icd_o	8742/0 : Lentiginous melanocytic nevus
-sample_diagnosis	diagnosis_icd_o	8742/2 : Lentigo maligna
-sample_diagnosis	diagnosis_icd_o	8742/3 : Lentigo maligna melanoma
-sample_diagnosis	diagnosis_icd_o	8743/3 : Low cumulative sun damage melanoma
-sample_diagnosis	diagnosis_icd_o	8744/0 : Acral nevus
-sample_diagnosis	diagnosis_icd_o	8744/3 : Acral melanoma
-sample_diagnosis	diagnosis_icd_o	8745/3 : Desmoplastic melanoma
-sample_diagnosis	diagnosis_icd_o	8746/3 : Mucosal lentiginous melanoma
-sample_diagnosis	diagnosis_icd_o	8750/0 : Dermal nevus
-sample_diagnosis	diagnosis_icd_o	8760/0 : Compound nevus
-sample_diagnosis	diagnosis_icd_o	8761/0 : Congenital melanocytic nevus, NOS
-sample_diagnosis	diagnosis_icd_o	8761/1 : Giant pigmented nevus, NOS
-sample_diagnosis	diagnosis_icd_o	8761/3 : Malignant melanoma arising in giant congenital nevus
-sample_diagnosis	diagnosis_icd_o	8762/1 : Proliferative dermal lesion in congenital nevus
-sample_diagnosis	diagnosis_icd_o	8770/0 : Epithelioid and spindle cell nevus
-sample_diagnosis	diagnosis_icd_o	8770/3 : Malignant Spitz tumor
-sample_diagnosis	diagnosis_icd_o	8771/0 : Epithelioid cell nevus
-sample_diagnosis	diagnosis_icd_o	8771/3 : Epithelioid cell melanoma
-sample_diagnosis	diagnosis_icd_o	8772/0 : Spindle cell nevus, NOS
-sample_diagnosis	diagnosis_icd_o	8772/3 : Spindle cell melanoma, NOS
-sample_diagnosis	diagnosis_icd_o	8773/3 : Spindle cell melanoma, type A
-sample_diagnosis	diagnosis_icd_o	8774/3 : Spindle cell melanoma, type B
-sample_diagnosis	diagnosis_icd_o	8780/0 : Blue nevus, NOS
-sample_diagnosis	diagnosis_icd_o	8780/1 : Pigmented epithelioid melanocytoma
-sample_diagnosis	diagnosis_icd_o	8780/3 : Blue nevus, malignant
-sample_diagnosis	diagnosis_icd_o	8790/0 : Cellular blue nevus
-sample_diagnosis	diagnosis_icd_o	8800/0 : Soft tissue tumor, benign
-sample_diagnosis	diagnosis_icd_o	8800/3 : Sarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	8800/9 : Sarcomatosis, NOS
-sample_diagnosis	diagnosis_icd_o	8801/3 : Spindle cell sarcoma
-sample_diagnosis	diagnosis_icd_o	8802/1 : Pleomorphic hyalinizing angiectatic tumor
-sample_diagnosis	diagnosis_icd_o	8802/3 : Giant cell sarcoma
-sample_diagnosis	diagnosis_icd_o	8803/3 : Small cell sarcoma
-sample_diagnosis	diagnosis_icd_o	8804/3 : Epithelioid sarcoma
-sample_diagnosis	diagnosis_icd_o	8805/3 : Undifferentiated sarcoma
-sample_diagnosis	diagnosis_icd_o	8806/3 : Desmoplastic small round cell tumor
-sample_diagnosis	diagnosis_icd_o	8810/0 : Fibroma, NOS
-sample_diagnosis	diagnosis_icd_o	8810/1 : Cellular fibroma
-sample_diagnosis	diagnosis_icd_o	8810/3 : Fibrosarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	8811/0 : Fibromyxoma, NOS
-sample_diagnosis	diagnosis_icd_o	8811/1 : Myxoinflammatory fibroblastic sarcoma
-sample_diagnosis	diagnosis_icd_o	8811/3 : Myxofibrosarcoma
-sample_diagnosis	diagnosis_icd_o	8812/0 : Periosteal fibroma
-sample_diagnosis	diagnosis_icd_o	8812/3 : Periosteal fibrosarcoma
-sample_diagnosis	diagnosis_icd_o	8813/0 : Fibroma of tendon sheath
-sample_diagnosis	diagnosis_icd_o	8813/1 : Palmar/plantar type fibromatosis
-sample_diagnosis	diagnosis_icd_o	8813/3 : Fascial fibrosarcoma
-sample_diagnosis	diagnosis_icd_o	8814/3 : Infantile fibrosarcoma
-sample_diagnosis	diagnosis_icd_o	8815/0 : Solitary fibrous tumor/Hemangiopericytoma, grade 1
-sample_diagnosis	diagnosis_icd_o	8815/1 : Solitary fibrous tumor, NOS
-sample_diagnosis	diagnosis_icd_o	8815/3 : Solitary fibrous tumor, malignant
-sample_diagnosis	diagnosis_icd_o	8816/0 : Calcifying aponeurotic fibroma
-sample_diagnosis	diagnosis_icd_o	8817/0 : Calcifying fibrous tumor
-sample_diagnosis	diagnosis_icd_o	8818/0 : Fibrous dysplasia
-sample_diagnosis	diagnosis_icd_o	8820/0 : Elastofibroma
-sample_diagnosis	diagnosis_icd_o	8821/1 : Aggressive fibromatosis
-sample_diagnosis	diagnosis_icd_o	8822/1 : Abdominal fibromatosis
-sample_diagnosis	diagnosis_icd_o	8823/0 : Sclerotic fibroma
-sample_diagnosis	diagnosis_icd_o	8823/1 : Desmoplastic fibroma
-sample_diagnosis	diagnosis_icd_o	8824/0 : Myofibroma
-sample_diagnosis	diagnosis_icd_o	8824/1 : Myofibromatosis
-sample_diagnosis	diagnosis_icd_o	8825/0 : Myofibroblastoma
-sample_diagnosis	diagnosis_icd_o	8825/1 : Myofibroblastic tumor, NOS
-sample_diagnosis	diagnosis_icd_o	8825/3 : Myofibroblastic sarcoma
-sample_diagnosis	diagnosis_icd_o	8826/0 : Angiomyofibroblastoma
-sample_diagnosis	diagnosis_icd_o	8827/1 : Myofibroblastic tumor, peribronchial
-sample_diagnosis	diagnosis_icd_o	8828/0 : Nodular fasciitis
-sample_diagnosis	diagnosis_icd_o	8830/0 : Benign fibrous histiocytoma, NOS
-sample_diagnosis	diagnosis_icd_o	8830/1 : Atypical fibrous histiocytoma
-sample_diagnosis	diagnosis_icd_o	8830/3 : Malignant fibrous histiocytoma
-sample_diagnosis	diagnosis_icd_o	8831/0 : Histiocytoma, NOS
-sample_diagnosis	diagnosis_icd_o	8832/0 : Dermatofibroma, NOS
-sample_diagnosis	diagnosis_icd_o	8832/1 : Dermatofibrosarcoma protuberans, NOS
-sample_diagnosis	diagnosis_icd_o	8832/3 : Dermatofibrosarcoma protuberans, fibrosarcomatous
-sample_diagnosis	diagnosis_icd_o	8833/1 : Pigmented dermatofibrosarcoma protuberans
-sample_diagnosis	diagnosis_icd_o	8834/1 : Giant cell fibroblastoma
-sample_diagnosis	diagnosis_icd_o	8835/1 : Plexiform fibrohistiocytic tumor
-sample_diagnosis	diagnosis_icd_o	8836/1 : Angiomatoid fibrous histiocytoma
-sample_diagnosis	diagnosis_icd_o	8840/0 : Myxoma, NOS
-sample_diagnosis	diagnosis_icd_o	8840/3 : Myxosarcoma
-sample_diagnosis	diagnosis_icd_o	8841/0 : Angiomyxoma, NOS
-sample_diagnosis	diagnosis_icd_o	8842/0 : Ossifying fibromyxoid tumor, NOS
-sample_diagnosis	diagnosis_icd_o	8842/3 : Ossifying fibromyxoid tumor, malignant
-sample_diagnosis	diagnosis_icd_o	8850/0 : Lipoma, NOS
-sample_diagnosis	diagnosis_icd_o	8850/1 : Atypical lipomatous tumor
-sample_diagnosis	diagnosis_icd_o	8850/3 : Liposarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	8851/0 : Fibrolipoma
-sample_diagnosis	diagnosis_icd_o	8851/1 : Lipofibromatosis
-sample_diagnosis	diagnosis_icd_o	8851/3 : Liposarcoma, well differentiated, NOS
-sample_diagnosis	diagnosis_icd_o	8852/0 : Fibromyxolipoma
-sample_diagnosis	diagnosis_icd_o	8852/3 : Myxoid liposarcoma
-sample_diagnosis	diagnosis_icd_o	8853/3 : Round cell liposarcoma
-sample_diagnosis	diagnosis_icd_o	8854/0 : Pleomorphic lipoma
-sample_diagnosis	diagnosis_icd_o	8854/3 : Pleomorphic liposarcoma
-sample_diagnosis	diagnosis_icd_o	8855/3 : Mixed liposarcoma
-sample_diagnosis	diagnosis_icd_o	8856/0 : Intramuscular lipoma
-sample_diagnosis	diagnosis_icd_o	8857/0 : Spindle cell lipoma
-sample_diagnosis	diagnosis_icd_o	8857/3 : Fibroblastic liposarcoma
-sample_diagnosis	diagnosis_icd_o	8858/3 : Dedifferentiated liposarcoma
-sample_diagnosis	diagnosis_icd_o	8860/0 : Angiomyolipoma
-sample_diagnosis	diagnosis_icd_o	8860/1 : Angiomyolipoma, epithelioid
-sample_diagnosis	diagnosis_icd_o	8861/0 : Angiolipoma, NOS
-sample_diagnosis	diagnosis_icd_o	8862/0 : Chondroid lipoma
-sample_diagnosis	diagnosis_icd_o	8870/0 : Myelolipoma
-sample_diagnosis	diagnosis_icd_o	8880/0 : Hibernoma
-sample_diagnosis	diagnosis_icd_o	8881/0 : Lipoblastomatosis
-sample_diagnosis	diagnosis_icd_o	8890/0 : Leiomyoma, NOS
-sample_diagnosis	diagnosis_icd_o	8890/1 : Leiomyomatosis, NOS
-sample_diagnosis	diagnosis_icd_o	8890/3 : Leiomyosarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	8891/0 : Epithelioid leiomyoma
-sample_diagnosis	diagnosis_icd_o	8891/3 : Epithelioid leiomyosarcoma
-sample_diagnosis	diagnosis_icd_o	8892/0 : Cellular leiomyoma
-sample_diagnosis	diagnosis_icd_o	8893/0 : Bizarre leiomyoma
-sample_diagnosis	diagnosis_icd_o	8894/0 : Angioleiomyoma
-sample_diagnosis	diagnosis_icd_o	8894/3 : Angiomyosarcoma
-sample_diagnosis	diagnosis_icd_o	8895/0 : Myoma
-sample_diagnosis	diagnosis_icd_o	8895/3 : Myosarcoma
-sample_diagnosis	diagnosis_icd_o	8896/0 : Myxoid leiomyoma
-sample_diagnosis	diagnosis_icd_o	8896/3 : Myxoid leiomyosarcoma
-sample_diagnosis	diagnosis_icd_o	8897/1 : Smooth muscle tumor of uncertain malignant potential
-sample_diagnosis	diagnosis_icd_o	8898/1 : Metastasizing leiomyoma
-sample_diagnosis	diagnosis_icd_o	8900/0 : Rhabdomyoma, NOS
-sample_diagnosis	diagnosis_icd_o	8900/3 : Rhabdomyosarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	8901/3 : Pleomorphic rhabdomyosarcoma, adult type
-sample_diagnosis	diagnosis_icd_o	8902/3 : Mixed type rhabdomyosarcoma
-sample_diagnosis	diagnosis_icd_o	8903/0 : Fetal rhabdomyoma
-sample_diagnosis	diagnosis_icd_o	8904/0 : Adult cellular rhabdomyoma
-sample_diagnosis	diagnosis_icd_o	8905/0 : Genital rhabdomyoma
-sample_diagnosis	diagnosis_icd_o	8910/3 : Embryonal rhabdomyosarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	8912/3 : Spindle cell rhabdomyosarcoma
-sample_diagnosis	diagnosis_icd_o	8920/3 : Alveolar rhabdomyosarcoma
-sample_diagnosis	diagnosis_icd_o	8921/3 : Ectomesenchymoma
-sample_diagnosis	diagnosis_icd_o	8930/0 : Endometrial stromal nodule
-sample_diagnosis	diagnosis_icd_o	8930/3 : Endometrial stromal sarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	8931/3 : Endometrial stromal sarcoma, low grade
-sample_diagnosis	diagnosis_icd_o	8932/0 : Adenomyoma, NOS
-sample_diagnosis	diagnosis_icd_o	8933/3 : Adenosarcoma
-sample_diagnosis	diagnosis_icd_o	8934/3 : Carcinofibroma
-sample_diagnosis	diagnosis_icd_o	8935/0 : Stromal tumor, benign
-sample_diagnosis	diagnosis_icd_o	8935/1 : Stromal tumor, NOS
-sample_diagnosis	diagnosis_icd_o	8935/3 : Stromal sarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	8936/3 : Gastrointestinal stromal tumor
-sample_diagnosis	diagnosis_icd_o	8940/0 : Pleomorphic adenoma
-sample_diagnosis	diagnosis_icd_o	8940/3 : Mixed tumor, malignant, NOS
-sample_diagnosis	diagnosis_icd_o	8941/3 : Carcinoma ex pleomorphic adenoma
-sample_diagnosis	diagnosis_icd_o	8950/3 : Mullerian mixed tumor
-sample_diagnosis	diagnosis_icd_o	8951/3 : Mesodermal mixed tumor
-sample_diagnosis	diagnosis_icd_o	8959/0 : Benign cystic nephroma
-sample_diagnosis	diagnosis_icd_o	8959/1 : Cystic partially differentiated nephroblastoma
-sample_diagnosis	diagnosis_icd_o	8959/3 : Malignant cystic nephroma
-sample_diagnosis	diagnosis_icd_o	8960/1 : Mesoblastic nephroma
-sample_diagnosis	diagnosis_icd_o	8960/3 : Nephroblastoma, NOS
-sample_diagnosis	diagnosis_icd_o	8963/3 : Rhabdoid tumor, NOS
-sample_diagnosis	diagnosis_icd_o	8964/3 : Clear cell sarcoma of kidney
-sample_diagnosis	diagnosis_icd_o	8966/0 : Renomedullary interstitial cell tumor
-sample_diagnosis	diagnosis_icd_o	8967/0 : Ossifying renal tumor
-sample_diagnosis	diagnosis_icd_o	8970/3 : Hepatoblastoma, NOS
-sample_diagnosis	diagnosis_icd_o	8971/3 : Pancreatoblastoma
-sample_diagnosis	diagnosis_icd_o	8972/3 : Pulmonary blastoma
-sample_diagnosis	diagnosis_icd_o	8973/3 : Pleuropulmonary blastoma
-sample_diagnosis	diagnosis_icd_o	8974/1 : Sialoblastoma
-sample_diagnosis	diagnosis_icd_o	8975/1 : Calcifying nested stromal-epithelial tumor
-sample_diagnosis	diagnosis_icd_o	8980/3 : Carcinosarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	8981/3 : Carcinosarcoma, embryonal
-sample_diagnosis	diagnosis_icd_o	8982/0 : Myoepithelioma, NOS
-sample_diagnosis	diagnosis_icd_o	8982/3 : Myoepithelial carcinoma
-sample_diagnosis	diagnosis_icd_o	8983/0 : Adenomyoepithelioma, NOS
-sample_diagnosis	diagnosis_icd_o	8983/3 : Adenomyoepithelioma with carcinoma
-sample_diagnosis	diagnosis_icd_o	8990/0 : Mesenchymoma, benign
-sample_diagnosis	diagnosis_icd_o	8990/1 : Mesenchymoma, NOS
-sample_diagnosis	diagnosis_icd_o	8990/3 : Mesenchymoma, malignant
-sample_diagnosis	diagnosis_icd_o	8991/3 : Embryonal sarcoma
-sample_diagnosis	diagnosis_icd_o	8992/0 : Pulmonary hamartoma
-sample_diagnosis	diagnosis_icd_o	9000/0 : Brenner tumor, NOS
-sample_diagnosis	diagnosis_icd_o	9000/1 : Brenner tumor, borderline malignancy
-sample_diagnosis	diagnosis_icd_o	9000/3 : Brenner tumor, malignant
-sample_diagnosis	diagnosis_icd_o	9010/0 : Fibroadenoma, NOS
-sample_diagnosis	diagnosis_icd_o	9011/0 : Intracanalicular fibroadenoma
-sample_diagnosis	diagnosis_icd_o	9012/0 : Pericanalicular fibroadenoma
-sample_diagnosis	diagnosis_icd_o	9013/0 : Adenofibroma, NOS
-sample_diagnosis	diagnosis_icd_o	9014/0 : Serous adenofibroma, NOS
-sample_diagnosis	diagnosis_icd_o	9014/1 : Serous adenofibroma of borderline malignancy
-sample_diagnosis	diagnosis_icd_o	9014/3 : Serous adenocarcinofibroma
-sample_diagnosis	diagnosis_icd_o	9015/0 : Mucinous adenofibroma, NOS
-sample_diagnosis	diagnosis_icd_o	9015/1 : Mucinous adenofibroma of borderline malignancy
-sample_diagnosis	diagnosis_icd_o	9015/3 : Mucinous adenocarcinofibroma
-sample_diagnosis	diagnosis_icd_o	9016/0 : Giant fibroadenoma
-sample_diagnosis	diagnosis_icd_o	9020/0 : Phyllodes tumor, benign
-sample_diagnosis	diagnosis_icd_o	9020/1 : Phyllodes tumor, borderline
-sample_diagnosis	diagnosis_icd_o	9020/3 : Phyllodes tumor, malignant
-sample_diagnosis	diagnosis_icd_o	9030/0 : Juvenile fibroadenoma
-sample_diagnosis	diagnosis_icd_o	9040/0 : Synovioma, benign
-sample_diagnosis	diagnosis_icd_o	9040/3 : Synovial sarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	9041/3 : Synovial sarcoma, spindle cell
-sample_diagnosis	diagnosis_icd_o	9042/3 : Synovial sarcoma, epithelioid cell
-sample_diagnosis	diagnosis_icd_o	9043/3 : Synovial sarcoma, biphasic
-sample_diagnosis	diagnosis_icd_o	9044/3 : Clear cell sarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	9045/3 : Biphenotypic sinonasal sarcoma
-sample_diagnosis	diagnosis_icd_o	9050/0 : Mesothelioma, benign
-sample_diagnosis	diagnosis_icd_o	9050/3 : Mesothelioma, malignant
-sample_diagnosis	diagnosis_icd_o	9051/0 : Fibrous mesothelioma, benign
-sample_diagnosis	diagnosis_icd_o	9051/3 : Fibrous mesothelioma, malignant
-sample_diagnosis	diagnosis_icd_o	9052/0 : Epithelioid mesothelioma, benign
-sample_diagnosis	diagnosis_icd_o	9052/1 : Well differentiated papillary mesothelioma of the pleura
-sample_diagnosis	diagnosis_icd_o	9052/3 : Epithelioid mesothelioma, malignant
-sample_diagnosis	diagnosis_icd_o	9053/3 : Mesothelioma, biphasic, malignant
-sample_diagnosis	diagnosis_icd_o	9054/0 : Adenomatoid tumor, NOS
-sample_diagnosis	diagnosis_icd_o	9055/0 : Peritoneal inclusion cysts
-sample_diagnosis	diagnosis_icd_o	9060/3 : Dysgerminoma
-sample_diagnosis	diagnosis_icd_o	9061/3 : Seminoma, NOS
-sample_diagnosis	diagnosis_icd_o	9062/3 : Seminoma, anaplastic
-sample_diagnosis	diagnosis_icd_o	9063/3 : Spermatocytic seminoma
-sample_diagnosis	diagnosis_icd_o	9064/2 : Intratubular malignant germ cells
-sample_diagnosis	diagnosis_icd_o	9064/3 : Germinoma
-sample_diagnosis	diagnosis_icd_o	9065/3 : Germ cell tumor, nonseminomatous
-sample_diagnosis	diagnosis_icd_o	9070/3 : Embryonal carcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	9071/3 : Yolk sac tumor, NOS
-sample_diagnosis	diagnosis_icd_o	9072/3 : Polyembryoma
-sample_diagnosis	diagnosis_icd_o	9073/1 : Gonadoblastoma
-sample_diagnosis	diagnosis_icd_o	9080/0 : Teratoma, benign
-sample_diagnosis	diagnosis_icd_o	9080/1 : Teratoma, NOS
-sample_diagnosis	diagnosis_icd_o	9080/3 : Teratoma, malignant, NOS
-sample_diagnosis	diagnosis_icd_o	9081/3 : Teratocarcinoma
-sample_diagnosis	diagnosis_icd_o	9082/3 : Malignant teratoma, undifferentiated
-sample_diagnosis	diagnosis_icd_o	9083/3 : Malignant teratoma, intermediate
-sample_diagnosis	diagnosis_icd_o	9084/0 : Dermoid cyst, NOS
-sample_diagnosis	diagnosis_icd_o	9084/3 : Teratoma with malignant transformation
-sample_diagnosis	diagnosis_icd_o	9085/3 : Mixed germ cell tumor
-sample_diagnosis	diagnosis_icd_o	9086/3 : Germ cell tumor with associated hematological malignancy
-sample_diagnosis	diagnosis_icd_o	9090/0 : Struma ovarii, NOS
-sample_diagnosis	diagnosis_icd_o	9090/3 : Struma ovarii, malignant
-sample_diagnosis	diagnosis_icd_o	9091/1 : Strumal carcinoid
-sample_diagnosis	diagnosis_icd_o	9100/0 : Hydatidiform mole, NOS
-sample_diagnosis	diagnosis_icd_o	9100/1 : Invasive hydatidiform mole
-sample_diagnosis	diagnosis_icd_o	9100/3 : Choriocarcinoma, NOS
-sample_diagnosis	diagnosis_icd_o	9101/3 : Choriocarcinoma combined with other germ cell elements
-sample_diagnosis	diagnosis_icd_o	9102/3 : Malignant teratoma, trophoblastic
-sample_diagnosis	diagnosis_icd_o	9103/0 : Partial hydatidiform mole
-sample_diagnosis	diagnosis_icd_o	9104/1 : Placental site trophoblastic tumor
-sample_diagnosis	diagnosis_icd_o	9105/3 : Trophoblastic tumor, epithelioid
-sample_diagnosis	diagnosis_icd_o	9110/0 : Adenoma of rete ovarii
-sample_diagnosis	diagnosis_icd_o	9110/1 : Wolffian tumor
-sample_diagnosis	diagnosis_icd_o	9110/3 : Mesonephroma, malignant
-sample_diagnosis	diagnosis_icd_o	9120/0 : Hemangioma, NOS
-sample_diagnosis	diagnosis_icd_o	9120/3 : Hemangiosarcoma
-sample_diagnosis	diagnosis_icd_o	9121/0 : Cavernous hemangioma
-sample_diagnosis	diagnosis_icd_o	9122/0 : Venous hemangioma
-sample_diagnosis	diagnosis_icd_o	9123/0 : Racemose hemangioma
-sample_diagnosis	diagnosis_icd_o	9124/3 : Kupffer cell sarcoma
-sample_diagnosis	diagnosis_icd_o	9125/0 : Epithelioid hemangioma
-sample_diagnosis	diagnosis_icd_o	9126/0 : Atypical vascular lesion
-sample_diagnosis	diagnosis_icd_o	9130/0 : Hemangioendothelioma, benign
-sample_diagnosis	diagnosis_icd_o	9130/1 : Hemangioendothelioma, NOS
-sample_diagnosis	diagnosis_icd_o	9130/3 : Hemangioendothelioma, malignant
-sample_diagnosis	diagnosis_icd_o	9131/0 : Capillary hemangioma
-sample_diagnosis	diagnosis_icd_o	9132/0 : Intramuscular hemangioma
-sample_diagnosis	diagnosis_icd_o	9133/3 : Epithelioid hemangioendothelioma, NOS
-sample_diagnosis	diagnosis_icd_o	9135/1 : Papillary intralymphatic angioendothelioma
-sample_diagnosis	diagnosis_icd_o	9136/1 : Spindle cell hemangioendothelioma
-sample_diagnosis	diagnosis_icd_o	9137/0 : Myointimoma
-sample_diagnosis	diagnosis_icd_o	9137/3 : Intimal sarcoma
-sample_diagnosis	diagnosis_icd_o	9138/1 : Pseudomyogenic (epithelioid sarcoma-like) hemangioendothelioma
-sample_diagnosis	diagnosis_icd_o	9140/3 : Kaposi sarcoma
-sample_diagnosis	diagnosis_icd_o	9141/0 : Angiokeratoma
-sample_diagnosis	diagnosis_icd_o	9142/0 : Verrucous keratotic hemangioma
-sample_diagnosis	diagnosis_icd_o	9160/0 : Angiofibroma, NOS
-sample_diagnosis	diagnosis_icd_o	9161/0 : Acquired tufted hemangioma
-sample_diagnosis	diagnosis_icd_o	9161/1 : Hemangioblastoma
-sample_diagnosis	diagnosis_icd_o	9170/0 : Lymphangioma, NOS
-sample_diagnosis	diagnosis_icd_o	9170/3 : Lymphangiosarcoma
-sample_diagnosis	diagnosis_icd_o	9171/0 : Capillary lymphangioma
-sample_diagnosis	diagnosis_icd_o	9172/0 : Cavernous lymphangioma
-sample_diagnosis	diagnosis_icd_o	9173/0 : Cystic lymphangioma
-sample_diagnosis	diagnosis_icd_o	9174/0 : Lymphangiomyoma
-sample_diagnosis	diagnosis_icd_o	9174/1 : Lymphangioleiomyomatosis
-sample_diagnosis	diagnosis_icd_o	9175/0 : Hemolymphangioma
-sample_diagnosis	diagnosis_icd_o	9180/0 : Osteoma, NOS
-sample_diagnosis	diagnosis_icd_o	9180/3 : Osteosarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	9181/3 : Chondroblastic osteosarcoma
-sample_diagnosis	diagnosis_icd_o	9182/3 : Fibroblastic osteosarcoma
-sample_diagnosis	diagnosis_icd_o	9183/3 : Telangiectatic osteosarcoma
-sample_diagnosis	diagnosis_icd_o	9184/3 : Osteosarcoma in Paget disease of bone
-sample_diagnosis	diagnosis_icd_o	9185/3 : Small cell osteosarcoma
-sample_diagnosis	diagnosis_icd_o	9186/3 : Central osteosarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	9187/3 : Low grade central osteosarcoma
-sample_diagnosis	diagnosis_icd_o	9191/0 : Osteoid osteoma, NOS
-sample_diagnosis	diagnosis_icd_o	9192/3 : Parosteal osteosarcoma
-sample_diagnosis	diagnosis_icd_o	9193/3 : Periosteal osteosarcoma
-sample_diagnosis	diagnosis_icd_o	9194/3 : High grade surface osteosarcoma
-sample_diagnosis	diagnosis_icd_o	9195/3 : Intracortical osteosarcoma
-sample_diagnosis	diagnosis_icd_o	9200/0 : Osteoblastoma, NOS
-sample_diagnosis	diagnosis_icd_o	9200/1 : Aggressive osteoblastoma
-sample_diagnosis	diagnosis_icd_o	9210/0 : Osteochondroma
-sample_diagnosis	diagnosis_icd_o	9210/1 : Osteochondromatosis, NOS
-sample_diagnosis	diagnosis_icd_o	9211/0 : Osteochondromyxoma
-sample_diagnosis	diagnosis_icd_o	9212/0 : Bizarre parosteal osteochondromatous proliferation
-sample_diagnosis	diagnosis_icd_o	9213/0 : Subungual exostosis
-sample_diagnosis	diagnosis_icd_o	9220/0 : Chondroma, NOS
-sample_diagnosis	diagnosis_icd_o	9220/1 : Chondromatosis, NOS
-sample_diagnosis	diagnosis_icd_o	9220/3 : Chondrosarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	9221/0 : Periosteal chondroma
-sample_diagnosis	diagnosis_icd_o	9221/3 : Periosteal chondrosarcoma
-sample_diagnosis	diagnosis_icd_o	9222/1 : Atypical cartilaginous tumor
-sample_diagnosis	diagnosis_icd_o	9230/1 : Chondroblastoma, NOS
-sample_diagnosis	diagnosis_icd_o	9230/3 : Chondroblastoma, malignant
-sample_diagnosis	diagnosis_icd_o	9231/3 : Myxoid chondrosarcoma
-sample_diagnosis	diagnosis_icd_o	9240/3 : Mesenchymal chondrosarcoma
-sample_diagnosis	diagnosis_icd_o	9241/0 : Chondromyxoid fibroma
-sample_diagnosis	diagnosis_icd_o	9242/3 : Clear cell chondrosarcoma
-sample_diagnosis	diagnosis_icd_o	9243/3 : Dedifferentiated chondrosarcoma
-sample_diagnosis	diagnosis_icd_o	9250/1 : Giant cell tumor of bone, NOS
-sample_diagnosis	diagnosis_icd_o	9250/3 : Giant cell tumor of bone, malignant
-sample_diagnosis	diagnosis_icd_o	9251/1 : Giant cell tumor of soft parts, NOS
-sample_diagnosis	diagnosis_icd_o	9251/3 : Malignant giant cell tumor of soft parts
-sample_diagnosis	diagnosis_icd_o	9252/0 : Tenosynovial giant cell tumor, NOS
-sample_diagnosis	diagnosis_icd_o	9252/1 : Tenosynovial giant cell tumor, diffuse
-sample_diagnosis	diagnosis_icd_o	9252/3 : Malignant tenosynovial giant cell tumor
-sample_diagnosis	diagnosis_icd_o	9260/0 : Aneurysmal bone cyst
-sample_diagnosis	diagnosis_icd_o	9261/3 : Adamantinoma of long bones
-sample_diagnosis	diagnosis_icd_o	9262/0 : Ossifying fibroma
-sample_diagnosis	diagnosis_icd_o	9270/0 : Odontogenic tumor, benign
-sample_diagnosis	diagnosis_icd_o	9270/1 : Odontogenic tumor, NOS
-sample_diagnosis	diagnosis_icd_o	9270/3 : Odontogenic tumor, malignant
-sample_diagnosis	diagnosis_icd_o	9271/0 : Ameloblastic fibrodentinoma
-sample_diagnosis	diagnosis_icd_o	9272/0 : Cementoma, NOS
-sample_diagnosis	diagnosis_icd_o	9273/0 : Cementoblastoma, benign
-sample_diagnosis	diagnosis_icd_o	9274/0 : Cemento-ossifying fibroma
-sample_diagnosis	diagnosis_icd_o	9275/0 : Gigantiform cementoma
-sample_diagnosis	diagnosis_icd_o	9280/0 : Odontoma, NOS
-sample_diagnosis	diagnosis_icd_o	9281/0 : Compound odontoma
-sample_diagnosis	diagnosis_icd_o	9282/0 : Complex odontoma
-sample_diagnosis	diagnosis_icd_o	9290/0 : Ameloblastic fibro-odontoma
-sample_diagnosis	diagnosis_icd_o	9290/3 : Ameloblastic odontosarcoma
-sample_diagnosis	diagnosis_icd_o	9300/0 : Adenomatoid odontogenic tumor
-sample_diagnosis	diagnosis_icd_o	9301/0 : Calcifying odontogenic cyst
-sample_diagnosis	diagnosis_icd_o	9302/0 : Dentinogenic ghost cell tumor
-sample_diagnosis	diagnosis_icd_o	9302/3 : Ghost cell odontogenic carcinoma
-sample_diagnosis	diagnosis_icd_o	9310/0 : Ameloblastoma, NOS
-sample_diagnosis	diagnosis_icd_o	9310/3 : Ameloblastoma, metastasizing
-sample_diagnosis	diagnosis_icd_o	9311/0 : Odontoameloblastoma
-sample_diagnosis	diagnosis_icd_o	9312/0 : Squamous odontogenic tumor
-sample_diagnosis	diagnosis_icd_o	9320/0 : Odontogenic myxoma
-sample_diagnosis	diagnosis_icd_o	9321/0 : Odontogenic fibroma, NOS
-sample_diagnosis	diagnosis_icd_o	9322/0 : Peripheral odontogenic fibroma
-sample_diagnosis	diagnosis_icd_o	9330/0 : Ameloblastic fibroma
-sample_diagnosis	diagnosis_icd_o	9330/3 : Ameloblastic fibrosarcoma
-sample_diagnosis	diagnosis_icd_o	9340/0 : Calcifying epithelial odontogenic tumor
-sample_diagnosis	diagnosis_icd_o	9341/3 : Clear cell odontogenic carcinoma
-sample_diagnosis	diagnosis_icd_o	9342/3 : Odontogenic carcinosarcoma
-sample_diagnosis	diagnosis_icd_o	9350/1 : Craniopharyngioma
-sample_diagnosis	diagnosis_icd_o	9351/1 : Craniopharyngioma, adamantinomatous
-sample_diagnosis	diagnosis_icd_o	9352/1 : Craniopharyngioma, papillary
-sample_diagnosis	diagnosis_icd_o	9360/1 : Pinealoma
-sample_diagnosis	diagnosis_icd_o	9361/1 : Pineocytoma
-sample_diagnosis	diagnosis_icd_o	9362/3 : Pineoblastoma
-sample_diagnosis	diagnosis_icd_o	9363/0 : Melanotic neuroectodermal tumor
-sample_diagnosis	diagnosis_icd_o	9364/3 : Ewing sarcoma
-sample_diagnosis	diagnosis_icd_o	9365/3 : Askin tumor
-sample_diagnosis	diagnosis_icd_o	9370/0 : Benign notochordal tumor
-sample_diagnosis	diagnosis_icd_o	9370/3 : Chordoma, NOS
-sample_diagnosis	diagnosis_icd_o	9371/3 : Chondroid chordoma
-sample_diagnosis	diagnosis_icd_o	9372/3 : Dedifferentiated chordoma
-sample_diagnosis	diagnosis_icd_o	9373/0 : Parachordoma
-sample_diagnosis	diagnosis_icd_o	9380/3 : Glioma, malignant
-sample_diagnosis	diagnosis_icd_o	9381/3 : Gliomatosis cerebri
-sample_diagnosis	diagnosis_icd_o	9382/3 : Oligoastrocytoma, NOS
-sample_diagnosis	diagnosis_icd_o	9383/1 : Subependymoma
-sample_diagnosis	diagnosis_icd_o	9384/1 : Subependymal giant cell astrocytoma
-sample_diagnosis	diagnosis_icd_o	9385/3 : Diffuse midline glioma, H3 K27M-mutant
-sample_diagnosis	diagnosis_icd_o	9390/0 : Choroid plexus papilloma, NOS
-sample_diagnosis	diagnosis_icd_o	9390/1 : Atypical choroid plexus papilloma
-sample_diagnosis	diagnosis_icd_o	9390/3 : Choroid plexus carcinoma
-sample_diagnosis	diagnosis_icd_o	9391/1 : Sellar ependymoma
-sample_diagnosis	diagnosis_icd_o	9391/3 : Ependymoma, NOS
-sample_diagnosis	diagnosis_icd_o	9392/3 : Ependymoma, anaplastic
-sample_diagnosis	diagnosis_icd_o	9393/3 : Papillary ependymoma
-sample_diagnosis	diagnosis_icd_o	9394/1 : Myxopapillary ependymoma
-sample_diagnosis	diagnosis_icd_o	9395/3 : Papillary tumor of the pineal region
-sample_diagnosis	diagnosis_icd_o	9396/3 : Ependymoma, RELA fusion-positive
-sample_diagnosis	diagnosis_icd_o	9400/3 : Astrocytoma, NOS
-sample_diagnosis	diagnosis_icd_o	9401/3 : Astrocytoma, anaplastic
-sample_diagnosis	diagnosis_icd_o	9410/3 : Protoplasmic astrocytoma
-sample_diagnosis	diagnosis_icd_o	9411/3 : Gemistocytic astrocytoma, NOS
-sample_diagnosis	diagnosis_icd_o	9412/1 : Desmoplastic infantile astrocytoma
-sample_diagnosis	diagnosis_icd_o	9413/0 : Dysembryoplastic neuroepithelial tumor
-sample_diagnosis	diagnosis_icd_o	9420/3 : Fibrillary astrocytoma
-sample_diagnosis	diagnosis_icd_o	9421/1 : Pilocytic astrocytoma
-sample_diagnosis	diagnosis_icd_o	9423/3 : Polar spongioblastoma
-sample_diagnosis	diagnosis_icd_o	9424/3 : Pleomorphic xanthoastrocytoma
-sample_diagnosis	diagnosis_icd_o	9425/3 : Pilomyxoid astrocytoma
-sample_diagnosis	diagnosis_icd_o	9430/3 : Astroblastoma
-sample_diagnosis	diagnosis_icd_o	9431/1 : Angiocentric glioma
-sample_diagnosis	diagnosis_icd_o	9432/1 : Pituicytoma
-sample_diagnosis	diagnosis_icd_o	9440/3 : Glioblastoma, NOS
-sample_diagnosis	diagnosis_icd_o	9441/3 : Giant cell glioblastoma
-sample_diagnosis	diagnosis_icd_o	9442/1 : Gliofibroma
-sample_diagnosis	diagnosis_icd_o	9442/3 : Gliosarcoma
-sample_diagnosis	diagnosis_icd_o	9444/1 : Chordoid glioma
-sample_diagnosis	diagnosis_icd_o	9445/3 : Glioblastoma, IDH-mutant
-sample_diagnosis	diagnosis_icd_o	9450/3 : Oligodendroglioma, NOS
-sample_diagnosis	diagnosis_icd_o	9451/3 : Oligodendroglioma, anaplastic, NOS
-sample_diagnosis	diagnosis_icd_o	9460/3 : Oligodendroblastoma
-sample_diagnosis	diagnosis_icd_o	9470/3 : Medulloblastoma, NOS
-sample_diagnosis	diagnosis_icd_o	9471/3 : Desmoplastic nodular medulloblastoma
-sample_diagnosis	diagnosis_icd_o	9472/3 : Medullomyoblastoma
-sample_diagnosis	diagnosis_icd_o	9473/3 : CNS embryonal tumor, NOS
-sample_diagnosis	diagnosis_icd_o	9474/3 : Large cell medulloblastoma
-sample_diagnosis	diagnosis_icd_o	9475/3 : Medullobloastoma, WNT-activated, NOS
-sample_diagnosis	diagnosis_icd_o	9476/3 : Medulloblastoma, SHH-activated and TP53-mutant
-sample_diagnosis	diagnosis_icd_o	9477/3 : Medulloblastoma, non-WNT/non-SHH
-sample_diagnosis	diagnosis_icd_o	9478/3 : Embryonal tumor with multilayered rosettes with C19MC alteration
-sample_diagnosis	diagnosis_icd_o	9480/3 : Cerebellar sarcoma, NOS
-sample_diagnosis	diagnosis_icd_o	9490/0 : Ganglioneuroma
-sample_diagnosis	diagnosis_icd_o	9490/3 : Ganglioneuroblastoma
-sample_diagnosis	diagnosis_icd_o	9491/0 : Ganglioneuromatosis
-sample_diagnosis	diagnosis_icd_o	9492/0 : Gangliocytoma, NOS
-sample_diagnosis	diagnosis_icd_o	9493/0 : Dysplastic gangliocytoma of cerebellum (Lhermitte-Duclos)
-sample_diagnosis	diagnosis_icd_o	9500/3 : Neuroblastoma, NOS
-sample_diagnosis	diagnosis_icd_o	9501/0 : Medulloepithelioma, benign
-sample_diagnosis	diagnosis_icd_o	9501/3 : Medulloepithelioma, NOS
-sample_diagnosis	diagnosis_icd_o	9502/0 : Teratoid medulloepithelioma, benign
-sample_diagnosis	diagnosis_icd_o	9502/3 : Teratoid medulloepithelioma, NOS
-sample_diagnosis	diagnosis_icd_o	9503/3 : Neuroepithelioma, NOS
-sample_diagnosis	diagnosis_icd_o	9504/3 : Spongioneuroblastoma
-sample_diagnosis	diagnosis_icd_o	9505/1 : Ganglioglioma, NOS
-sample_diagnosis	diagnosis_icd_o	9505/3 : Ganglioglioma, anaplastic
-sample_diagnosis	diagnosis_icd_o	9506/1 : Central neurocytoma
-sample_diagnosis	diagnosis_icd_o	9507/0 : Pacinian tumor
-sample_diagnosis	diagnosis_icd_o	9508/3 : Atypical teratoid/rhabdoid tumor
-sample_diagnosis	diagnosis_icd_o	9509/1 : Papillary glioneuronal tumor
-sample_diagnosis	diagnosis_icd_o	9510/0 : Retinocytoma
-sample_diagnosis	diagnosis_icd_o	9510/3 : Retinoblastoma, NOS
-sample_diagnosis	diagnosis_icd_o	9511/3 : Retinoblastoma, differentiated
-sample_diagnosis	diagnosis_icd_o	9512/3 : Retinoblastoma, undifferentiated
-sample_diagnosis	diagnosis_icd_o	9513/3 : Retinoblastoma, diffuse
-sample_diagnosis	diagnosis_icd_o	9514/1 : Retinoblastoma, spontaneously regressed
-sample_diagnosis	diagnosis_icd_o	9520/3 : Olfactory neurogenic tumor
-sample_diagnosis	diagnosis_icd_o	9521/3 : Olfactory neurocytoma
-sample_diagnosis	diagnosis_icd_o	9522/3 : Olfactory neuroblastoma
-sample_diagnosis	diagnosis_icd_o	9523/3 : Olfactory neuroepithelioma
-sample_diagnosis	diagnosis_icd_o	9530/0 : Meningioma, NOS
-sample_diagnosis	diagnosis_icd_o	9530/3 : Meningioma, malignant
-sample_diagnosis	diagnosis_icd_o	9531/0 : Meningothelial meningioma
-sample_diagnosis	diagnosis_icd_o	9532/0 : Fibrous meningioma
-sample_diagnosis	diagnosis_icd_o	9533/0 : Psammomatous meningioma
-sample_diagnosis	diagnosis_icd_o	9534/0 : Angiomatous meningioma
-sample_diagnosis	diagnosis_icd_o	9535/0 : Hemangioblastic meningioma
-sample_diagnosis	diagnosis_icd_o	9537/0 : Transitional meningioma
-sample_diagnosis	diagnosis_icd_o	9538/1 : Clear cell meningioma
-sample_diagnosis	diagnosis_icd_o	9538/3 : Papillary meningioma
-sample_diagnosis	diagnosis_icd_o	9539/1 : Atypical meningioma
-sample_diagnosis	diagnosis_icd_o	9539/3 : Meningeal sarcomatosis
-sample_diagnosis	diagnosis_icd_o	9540/0 : Neurofibroma, NOS
-sample_diagnosis	diagnosis_icd_o	9540/3 : Malignant peripheral nerve sheath tumor, NOS
-sample_diagnosis	diagnosis_icd_o	9541/0 : Melanotic neurofibroma
-sample_diagnosis	diagnosis_icd_o	9542/3 : Malignant peripheral nerve sheath tumor, epithelioid
-sample_diagnosis	diagnosis_icd_o	9550/0 : Plexiform neurofibroma
-sample_diagnosis	diagnosis_icd_o	9560/0 : Schwannoma, NOS
-sample_diagnosis	diagnosis_icd_o	9560/1 : Melanotic schwannoma
-sample_diagnosis	diagnosis_icd_o	9560/3 : Neurilemoma, malignant
-sample_diagnosis	diagnosis_icd_o	9561/3 : Malignant peripheral nerve sheath tumor with rhabdomyoblastic differentiation
-sample_diagnosis	diagnosis_icd_o	9562/0 : Nerve sheath myxoma
-sample_diagnosis	diagnosis_icd_o	9563/0 : Nerve sheath tumor, NOS
-sample_diagnosis	diagnosis_icd_o	9570/0 : Neuroma, NOS
-sample_diagnosis	diagnosis_icd_o	9571/0 : Perineurioma, NOS
-sample_diagnosis	diagnosis_icd_o	9571/3 : Perineurioma, malignant
-sample_diagnosis	diagnosis_icd_o	9580/0 : Granular cell tumor, NOS
-sample_diagnosis	diagnosis_icd_o	9580/3 : Granular cell tumor, malignant
-sample_diagnosis	diagnosis_icd_o	9581/3 : Alveolar soft part sarcoma
-sample_diagnosis	diagnosis_icd_o	9582/0 : Granular cell tumor of the sellar region
-sample_diagnosis	diagnosis_icd_o	9590/3 : Malignant lymphoma, NOS
-sample_diagnosis	diagnosis_icd_o	9591/1 : Monoclonal B-cell lymphocytosis, NOS
-sample_diagnosis	diagnosis_icd_o	9591/3 : Malignant lymphoma, non-Hodgkin, NOS
-sample_diagnosis	diagnosis_icd_o	9596/3 : Composite Hodgkin and non-Hodgkin lymphoma
-sample_diagnosis	diagnosis_icd_o	9597/3 : Primary cutaneous follicle centre lymphoma
-sample_diagnosis	diagnosis_icd_o	9650/3 : Hodgkin lymphoma, NOS
-sample_diagnosis	diagnosis_icd_o	9651/3 : Hodgkin lymphoma, lymphocyte-rich
-sample_diagnosis	diagnosis_icd_o	9652/3 : Hodgkin lymphoma, mixed cellularity, NOS
-sample_diagnosis	diagnosis_icd_o	9653/3 : Hodgkin lymphoma, lymphocyte depletion, NOS
-sample_diagnosis	diagnosis_icd_o	9654/3 : Hodgkin lymphoma, lymphocyte depletion, diffuse fibrosis
-sample_diagnosis	diagnosis_icd_o	9655/3 : Hodgkin lymphoma, lymphocyte depletion, reticular
-sample_diagnosis	diagnosis_icd_o	9659/3 : Hodgkin lymphoma, nodular lymphocyte predominant
-sample_diagnosis	diagnosis_icd_o	9661/3 : Hodgkin granuloma
-sample_diagnosis	diagnosis_icd_o	9662/3 : Hodgkin sarcoma
-sample_diagnosis	diagnosis_icd_o	9663/3 : Hodgkin lymphoma, nodular sclerosis, NOS
-sample_diagnosis	diagnosis_icd_o	9664/3 : Hodgkin lymphoma, nodular sclerosis, cellular phase
-sample_diagnosis	diagnosis_icd_o	9665/3 : Hodgkin lymphoma, nodular sclerosis, grade 1
-sample_diagnosis	diagnosis_icd_o	9667/3 : Hodgkin lymphoma, nodular sclerosis, grade 2
-sample_diagnosis	diagnosis_icd_o	9671/3 : Lymphoplasmacytic lymphoma
-sample_diagnosis	diagnosis_icd_o	9673/1 : In situ mantle cell neoplasia
-sample_diagnosis	diagnosis_icd_o	9673/3 : Mantle cell lymphoma
-sample_diagnosis	diagnosis_icd_o	9675/3 : Malignant lymphoma, mixed small and large cell, diffuse
-sample_diagnosis	diagnosis_icd_o	9678/3 : Primary effusion lymphoma
-sample_diagnosis	diagnosis_icd_o	9679/3 : Mediastinal large B-cell lymphoma
-sample_diagnosis	diagnosis_icd_o	9680/1 : EBV positive mucocutaneous ulcer
-sample_diagnosis	diagnosis_icd_o	9680/3 : Diffuse large B-cell lymphoma, NOS
-sample_diagnosis	diagnosis_icd_o	9684/3 : Malignant lymphoma, large B-cell, diffuse, immunoblastic, NOS
-sample_diagnosis	diagnosis_icd_o	9687/3 : Burkitt lymphoma, NOS
-sample_diagnosis	diagnosis_icd_o	9688/3 : T-cell/histiocyte rich large B-cell lymphoma
-sample_diagnosis	diagnosis_icd_o	9689/3 : Splenic marginal zone B-cell lymphoma
-sample_diagnosis	diagnosis_icd_o	9690/3 : Follicular lymphoma, NOS
-sample_diagnosis	diagnosis_icd_o	9691/3 : Follicular lymphoma, grade 2
-sample_diagnosis	diagnosis_icd_o	9695/1 : In situ follicular neoplasia
-sample_diagnosis	diagnosis_icd_o	9695/3 : Follicular lymphoma, grade 1
-sample_diagnosis	diagnosis_icd_o	9698/3 : Follicular lymphoma, grade 3
-sample_diagnosis	diagnosis_icd_o	9699/3 : Marginal zone B-cell lymphoma, NOS
-sample_diagnosis	diagnosis_icd_o	9700/3 : Mycosis fungoides
-sample_diagnosis	diagnosis_icd_o	9701/3 : Sezary syndrome
-sample_diagnosis	diagnosis_icd_o	9702/1 : Indolent T-cell lymphoproliferative disorder of the gastrointestinal tract
-sample_diagnosis	diagnosis_icd_o	9702/3 : Mature T-cell lymphoma, NOS
-sample_diagnosis	diagnosis_icd_o	9705/3 : Angioimmunoblastic T-cell lymphoma
-sample_diagnosis	diagnosis_icd_o	9708/3 : Subcutaneous panniculitis-like T-cell lymphoma
-sample_diagnosis	diagnosis_icd_o	9709/1 : Primary cutaneous CD4-positive small/medium T-cell lymphoproliferative disorder
-sample_diagnosis	diagnosis_icd_o	9709/3 : Cutaneous T-cell lymphoma, NOS
-sample_diagnosis	diagnosis_icd_o	9712/3 : Intravascular large B-cell lymphoma
-sample_diagnosis	diagnosis_icd_o	9714/3 : Anaplastic large cell lymphoma, T-cell and Null-cell type
-sample_diagnosis	diagnosis_icd_o	9715/3 : Anaplastic large cell lymphoma, ALK negative
-sample_diagnosis	diagnosis_icd_o	9716/3 : Hepatosplenic T-cell lymphoma
-sample_diagnosis	diagnosis_icd_o	9717/3 : Intestinal T-cell lymphoma
-sample_diagnosis	diagnosis_icd_o	9718/1 : Primary cutaneous CD30+T-cell lymphoproliferative disorder
-sample_diagnosis	diagnosis_icd_o	9718/3 : Primary cutaneous anaplastic large cell lymphoma
-sample_diagnosis	diagnosis_icd_o	9719/3 : NK/T-cell lymphoma, nasal and nasal type
-sample_diagnosis	diagnosis_icd_o	9724/3 : Systemic EBV positive T-cell lymphoproliferative disease of childhood
-sample_diagnosis	diagnosis_icd_o	9725/1 : Hydroa vacciniforme-like lymphoproliferative disorder
-sample_diagnosis	diagnosis_icd_o	9726/3 : Primary cutaneous gamma-delta T-cell lymphoma
-sample_diagnosis	diagnosis_icd_o	9727/3 : Precursor cell lymphoblastic lymphoma, NOS
-sample_diagnosis	diagnosis_icd_o	9731/3 : Plasmacytoma, NOS
-sample_diagnosis	diagnosis_icd_o	9732/3 : Plasma cell myeloma
-sample_diagnosis	diagnosis_icd_o	9733/3 : Plasma cell leukemia
-sample_diagnosis	diagnosis_icd_o	9734/3 : Plasmacytoma, extramedullary
-sample_diagnosis	diagnosis_icd_o	9735/3 : Plasmablastic lymphoma
-sample_diagnosis	diagnosis_icd_o	9737/3 : ALK positive large B-cell lymphoma
-sample_diagnosis	diagnosis_icd_o	9738/3 : HHV8-positive diffuse large B-cell lymphoma
-sample_diagnosis	diagnosis_icd_o	9740/1 : Mastocytoma, NOS
-sample_diagnosis	diagnosis_icd_o	9740/3 : Mast cell sarcoma
-sample_diagnosis	diagnosis_icd_o	9741/1 : Indolent systemic mastocytosis
-sample_diagnosis	diagnosis_icd_o	9741/3 : Malignant mastocytosis
-sample_diagnosis	diagnosis_icd_o	9742/3 : Mast cell leukemia
-sample_diagnosis	diagnosis_icd_o	9749/3 : Erdheim-Chester disease
-sample_diagnosis	diagnosis_icd_o	9750/3 : Malignant histiocytosis
-sample_diagnosis	diagnosis_icd_o	9751/1 : Langerhans cell histiocytosis, NOS
-sample_diagnosis	diagnosis_icd_o	9751/3 : Langerhans cell histiocytosis, disseminated
-sample_diagnosis	diagnosis_icd_o	9755/3 : Histiocytic sarcoma
-sample_diagnosis	diagnosis_icd_o	9756/3 : Langerhans cell sarcoma
-sample_diagnosis	diagnosis_icd_o	9757/3 : Interdigitating dendritic cell sarcoma
-sample_diagnosis	diagnosis_icd_o	9758/3 : Follicular dendritic cell sarcoma
-sample_diagnosis	diagnosis_icd_o	9759/3 : Fibroblastic reticular cell tumor
-sample_diagnosis	diagnosis_icd_o	9760/3 : Immunoproliferative disease, NOS
-sample_diagnosis	diagnosis_icd_o	9761/1 : IgM monoclonal gammopathy of undetermined significance
-sample_diagnosis	diagnosis_icd_o	9761/3 : Waldenstrom macroglobulinemia
-sample_diagnosis	diagnosis_icd_o	9762/3 : Heavy chain disease, NOS
-sample_diagnosis	diagnosis_icd_o	9764/3 : Immunoproliferative small intestinal disease
-sample_diagnosis	diagnosis_icd_o	9765/1 : Monoclonal gammopathy of undetermined significance, NOS
-sample_diagnosis	diagnosis_icd_o	9766/1 : Angiocentric immunoproliferative lesion
-sample_diagnosis	diagnosis_icd_o	9766/3 : Lymphomatoid granulomatosis, grade 3
-sample_diagnosis	diagnosis_icd_o	9767/1 : Angioimmunoblastic lymphadenopathy (AIL)
-sample_diagnosis	diagnosis_icd_o	9768/1 : T-gamma lymphoproliferative disease
-sample_diagnosis	diagnosis_icd_o	9769/1 : Immunoglobulin deposition disease
-sample_diagnosis	diagnosis_icd_o	9800/3 : Leukemia, NOS
-sample_diagnosis	diagnosis_icd_o	9801/3 : Acute leukemia, NOS
-sample_diagnosis	diagnosis_icd_o	9805/3 : Acute biphenotypic leukemia
-sample_diagnosis	diagnosis_icd_o	9806/3 : Mixed phenotype acute leukemia with t(9;22)(q34;q11.2); BCR-ABL1
-sample_diagnosis	diagnosis_icd_o	9807/3 : Mixed phenotype acute leukemia with t(v;11q23); MLL rearranged
-sample_diagnosis	diagnosis_icd_o	9808/3 : Mixed phenotype acute leukemia, B/myeloid, NOS
-sample_diagnosis	diagnosis_icd_o	9809/3 : Mixed phenotype acute leukemia, T/myeloid, NOS
-sample_diagnosis	diagnosis_icd_o	9811/3 : B lymphoblastic leukemia/lymphoma, NOS
-sample_diagnosis	diagnosis_icd_o	9812/3 : B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1
-sample_diagnosis	diagnosis_icd_o	9813/3 : B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged
-sample_diagnosis	diagnosis_icd_o	9814/3 : B lymphoblastic leukemia/lymphoma with t(12;21)(p13;q22); TEL-AML1(ETV6-RUNX1)
-sample_diagnosis	diagnosis_icd_o	9815/3 : B lymphoblastic leukemia/lymphoma with hyperdiploidy
-sample_diagnosis	diagnosis_icd_o	9816/3 : B lymphoblastic leukemia/lymphoma with hypodiploidy(Hypodiploid ALL)
-sample_diagnosis	diagnosis_icd_o	9817/3 : B lymphoblastic leukemia/lymphoma with t(5;14)(q31;q32); IL3-IGH
-sample_diagnosis	diagnosis_icd_o	9818/3 : B lymphoblastic leukemia/lymphoma with t(1;19)(q23;p13.3); E2A-PBX1(TCF3-PBX1)
-sample_diagnosis	diagnosis_icd_o	9819/3 : B lymphoblastic leukemia/lymphoma, BCR-ABL1-like
-sample_diagnosis	diagnosis_icd_o	9820/3 : Lymphoid leukemia, NOS
-sample_diagnosis	diagnosis_icd_o	9823/1 : Monoclonal B-cell lymphocytosis, CLL type
-sample_diagnosis	diagnosis_icd_o	9823/3 : B-cell chronic lymphocytic leukemia/small lymphocytic lymphoma
-sample_diagnosis	diagnosis_icd_o	9827/3 : Adult T-cell leukemia/lymphoma (HTLV-1 positive)
-sample_diagnosis	diagnosis_icd_o	9831/3 : T-cell large granular lymphocytic leukemia
-sample_diagnosis	diagnosis_icd_o	9832/3 : Prolymphocytic leukemia, NOS
-sample_diagnosis	diagnosis_icd_o	9833/3 : Prolymphocytic leukemia, B-cell type
-sample_diagnosis	diagnosis_icd_o	9834/3 : Prolymphocytic leukemia, T-cell type
-sample_diagnosis	diagnosis_icd_o	9835/3 : Precursor cell lymphoblastic leukemia, NOS
-sample_diagnosis	diagnosis_icd_o	9837/3 : Precursor T-cell lymphoblastic leukemia
-sample_diagnosis	diagnosis_icd_o	9840/3 : Acute erythroid leukemia
-sample_diagnosis	diagnosis_icd_o	9860/3 : Myeloid leukemia, NOS
-sample_diagnosis	diagnosis_icd_o	9861/3 : Acute myeloid leukemia, NOS
-sample_diagnosis	diagnosis_icd_o	9863/3 : Chronic myeloid leukemia, NOS
-sample_diagnosis	diagnosis_icd_o	9865/3 : Acute myeloid leukemia with t(6;9)(p23;q34); DEK-NUP214
-sample_diagnosis	diagnosis_icd_o	9866/3 : Acute promyelocytic leukemia, t(15;17)(q22;q11-12)
-sample_diagnosis	diagnosis_icd_o	9867/3 : Acute myelomonocytic leukemia, NOS
-sample_diagnosis	diagnosis_icd_o	9869/3 : Acute myeloid leukemia with inv(3)(q21;q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1
-sample_diagnosis	diagnosis_icd_o	9870/3 : Acute basophilic leukemia
-sample_diagnosis	diagnosis_icd_o	9871/3 : Acute myeloid leukemia with abnormal marrow eosinophils
-sample_diagnosis	diagnosis_icd_o	9872/3 : Acute myeloid leukemia, minimal differentiation
-sample_diagnosis	diagnosis_icd_o	9873/3 : Acute myeloid leukemia without maturation
-sample_diagnosis	diagnosis_icd_o	9874/3 : Acute myeloid leukemia with maturation
-sample_diagnosis	diagnosis_icd_o	9875/3 : Chronic myelogenous leukemia, BCR/ABL positive
-sample_diagnosis	diagnosis_icd_o	9876/3 : Atypical chronic myeloid leukemia, BCR/ABL negative
-sample_diagnosis	diagnosis_icd_o	9877/3 : Acute myeloid leukemia with mutated NPM1
-sample_diagnosis	diagnosis_icd_o	9878/3 : Acute myeloid leukemia with biallelic mutation of CEBPA
-sample_diagnosis	diagnosis_icd_o	9879/3 : Acute myeloid leukemia with mutated RUNX1
-sample_diagnosis	diagnosis_icd_o	9891/3 : Acute monocytic leukemia
-sample_diagnosis	diagnosis_icd_o	9895/3 : Acute myeloid leukemia with myelodysplasia-related changes
-sample_diagnosis	diagnosis_icd_o	9896/3 : Acute myeloid leukemia, t(8;21)(q22;q22)
-sample_diagnosis	diagnosis_icd_o	9897/3 : Acute myeloid leukemia, 11q23 abnormalities
-sample_diagnosis	diagnosis_icd_o	9898/1 : Transient abnormal myelopoiesis
-sample_diagnosis	diagnosis_icd_o	9898/3 : Myeloid leukemia associated with Down syndrome
-sample_diagnosis	diagnosis_icd_o	9910/3 : Acute megakaryoblastic leukemia
-sample_diagnosis	diagnosis_icd_o	9911/3 : Acute myeloid leukemia (megakaryoblastic) with t(1;22)(p13;q13); RBM15-MKL1
-sample_diagnosis	diagnosis_icd_o	9912/3 : Acute myleoid leukemia with BCR-ABL1
-sample_diagnosis	diagnosis_icd_o	9920/3 : Therapy-related myeloid neoplasm
-sample_diagnosis	diagnosis_icd_o	9930/3 : Myeloid sarcoma
-sample_diagnosis	diagnosis_icd_o	9931/3 : Acute panmyelosis with myelofibrosis
-sample_diagnosis	diagnosis_icd_o	9940/3 : Hairy cell leukemia, NOS
-sample_diagnosis	diagnosis_icd_o	9945/3 : Chronic myelomonocytic leukemia, NOS
-sample_diagnosis	diagnosis_icd_o	9946/3 : Juvenile myelomonocytic leukemia, NOS
-sample_diagnosis	diagnosis_icd_o	9948/3 : Aggressive NK-cell leukemia
-sample_diagnosis	diagnosis_icd_o	9950/3 : Polycythemia vera
-sample_diagnosis	diagnosis_icd_o	9960/3 : Myeloproliferative neoplasm, NOS
-sample_diagnosis	diagnosis_icd_o	9961/3 : Primary myelofibrosis
-sample_diagnosis	diagnosis_icd_o	9962/3 : Essential thrombocythemia
-sample_diagnosis	diagnosis_icd_o	9963/3 : Chronic neutrophilic leukemia
-sample_diagnosis	diagnosis_icd_o	9964/3 : Chronic eosinophilic leukemia
-sample_diagnosis	diagnosis_icd_o	9965/3 : Myeloid or lymphoid neoplasm with PDGFRA rearrangement
-sample_diagnosis	diagnosis_icd_o	9966/3 : Myeloid neoplasm with PDGFRB rearrangement
-sample_diagnosis	diagnosis_icd_o	9967/3 : Myeloid or lymphoid neoplasm with FGFR1 abnormalities
-sample_diagnosis	diagnosis_icd_o	9968/3 : Myeloid or lymphoid neoplasm with PCM1-JAK2
-sample_diagnosis	diagnosis_icd_o	9970/1 : Lymphoproliferative disorder, NOS
-sample_diagnosis	diagnosis_icd_o	9971/1 : Post transplant lymphoproliferative disorder, NOS
-sample_diagnosis	diagnosis_icd_o	9975/3 : Myeloproliferative neoplasm, unclassifiable
-sample_diagnosis	diagnosis_icd_o	9980/3 : Myelodysplastic syndrome with single lineage dysplasia
-sample_diagnosis	diagnosis_icd_o	9982/3 : Myelodysplastic syndrome with ring sideroblasts and single lineage dysplasia
-sample_diagnosis	diagnosis_icd_o	9983/3 : Myelodysplastic syndrome with excess blasts
-sample_diagnosis	diagnosis_icd_o	9984/3 : Refractory anemia with excess blasts in transformation
-sample_diagnosis	diagnosis_icd_o	9985/3 : Myelodysplastic syndrome with multilineage dysplasia
-sample_diagnosis	diagnosis_icd_o	9986/3 : Myelodysplastic syndrome with isolated del (5q)
-sample_diagnosis	diagnosis_icd_o	9987/3 : Therapy-related myelodysplastic syndrome, NOS
-sample_diagnosis	diagnosis_icd_o	9989/3 : Myelodysplastic syndrome, NOS
-sample_diagnosis	diagnosis_icd_o	9993/3 : Myelodysplastic syndrome with ring sideroblasts and multilineage dysplasia
-sample_diagnosis	disease_phase	ARRAY(0x5604a61b19e0)
-sample_diagnosis	disease_phase	string
-sample_diagnosis	last_known_disease_status	Biochemical evidence of disease without structural correlate
-sample_diagnosis	last_known_disease_status	Distant met recurrence/progression
-sample_diagnosis	last_known_disease_status	Loco-regional recurrence/progression
-sample_diagnosis	last_known_disease_status	Never Tumor Free
-sample_diagnosis	last_known_disease_status	New Tumor Event (remission/relapse)
-sample_diagnosis	last_known_disease_status	Tumor Free at Follow-up
-sample_diagnosis	last_known_disease_status	Tumor free
-sample_diagnosis	last_known_disease_status	Unknown
-sample_diagnosis	last_known_disease_status	Unknown tumor status
-sample_diagnosis	last_known_disease_status	With tumor
-sample_diagnosis	sample_diagnosis_id	STRING
-sample_diagnosis	tumor_classification	ARRAY(0x5604a60cc870)
-sample_diagnosis	tumor_classification	string
-sample_diagnosis	tumor_grade	G1
-sample_diagnosis	tumor_grade	G2
-sample_diagnosis	tumor_grade	G3
-sample_diagnosis	tumor_grade	G4
-sample_diagnosis	tumor_grade	GB
-sample_diagnosis	tumor_grade	GX
-sample_diagnosis	tumor_grade	High Grade
-sample_diagnosis	tumor_grade	Intermediate Grade
-sample_diagnosis	tumor_grade	Low Grade
-sample_diagnosis	tumor_grade	Not Applicable
-sample_diagnosis	tumor_stage_clinical_m	M0
-sample_diagnosis	tumor_stage_clinical_m	M1
-sample_diagnosis	tumor_stage_clinical_m	M1a
-sample_diagnosis	tumor_stage_clinical_m	M1b
-sample_diagnosis	tumor_stage_clinical_m	M1c
-sample_diagnosis	tumor_stage_clinical_m	MX
-sample_diagnosis	tumor_stage_clinical_m	cM0 (i+)
-sample_diagnosis	tumor_stage_clinical_n	N0
-sample_diagnosis	tumor_stage_clinical_n	N0 (i+)
-sample_diagnosis	tumor_stage_clinical_n	N0 (i-)
-sample_diagnosis	tumor_stage_clinical_n	N0 (mol+)
-sample_diagnosis	tumor_stage_clinical_n	N0 (mol-)
-sample_diagnosis	tumor_stage_clinical_n	N1
-sample_diagnosis	tumor_stage_clinical_n	N1a
-sample_diagnosis	tumor_stage_clinical_n	N1b
-sample_diagnosis	tumor_stage_clinical_n	N1bI
-sample_diagnosis	tumor_stage_clinical_n	N1bII
-sample_diagnosis	tumor_stage_clinical_n	N1bIII
-sample_diagnosis	tumor_stage_clinical_n	N1bIV
-sample_diagnosis	tumor_stage_clinical_n	N1c
-sample_diagnosis	tumor_stage_clinical_n	N1mi
-sample_diagnosis	tumor_stage_clinical_n	N2
-sample_diagnosis	tumor_stage_clinical_n	N2a
-sample_diagnosis	tumor_stage_clinical_n	N2b
-sample_diagnosis	tumor_stage_clinical_n	N2c
-sample_diagnosis	tumor_stage_clinical_n	N3
-sample_diagnosis	tumor_stage_clinical_n	N3a
-sample_diagnosis	tumor_stage_clinical_n	N3b
-sample_diagnosis	tumor_stage_clinical_n	N3c
-sample_diagnosis	tumor_stage_clinical_n	N4
-sample_diagnosis	tumor_stage_clinical_n	NX
-sample_diagnosis	tumor_stage_clinical_t	T0
-sample_diagnosis	tumor_stage_clinical_t	T1
-sample_diagnosis	tumor_stage_clinical_t	T1a
-sample_diagnosis	tumor_stage_clinical_t	T1a1
-sample_diagnosis	tumor_stage_clinical_t	T1a2
-sample_diagnosis	tumor_stage_clinical_t	T1b
-sample_diagnosis	tumor_stage_clinical_t	T1b1
-sample_diagnosis	tumor_stage_clinical_t	T1b2
-sample_diagnosis	tumor_stage_clinical_t	T1c
-sample_diagnosis	tumor_stage_clinical_t	T1mi
-sample_diagnosis	tumor_stage_clinical_t	T2
-sample_diagnosis	tumor_stage_clinical_t	T2a
-sample_diagnosis	tumor_stage_clinical_t	T2a1
-sample_diagnosis	tumor_stage_clinical_t	T2a2
-sample_diagnosis	tumor_stage_clinical_t	T2b
-sample_diagnosis	tumor_stage_clinical_t	T2c
-sample_diagnosis	tumor_stage_clinical_t	T2d
-sample_diagnosis	tumor_stage_clinical_t	T3
-sample_diagnosis	tumor_stage_clinical_t	T3a
-sample_diagnosis	tumor_stage_clinical_t	T3b
-sample_diagnosis	tumor_stage_clinical_t	T3c
-sample_diagnosis	tumor_stage_clinical_t	T3d
-sample_diagnosis	tumor_stage_clinical_t	T4
-sample_diagnosis	tumor_stage_clinical_t	T4a
-sample_diagnosis	tumor_stage_clinical_t	T4b
-sample_diagnosis	tumor_stage_clinical_t	T4c
-sample_diagnosis	tumor_stage_clinical_t	T4d
-sample_diagnosis	tumor_stage_clinical_t	T4e
-sample_diagnosis	tumor_stage_clinical_t	T5
-sample_diagnosis	tumor_stage_clinical_t	TX
-sample_diagnosis	tumor_stage_clinical_t	Ta
-sample_diagnosis	tumor_stage_clinical_t	Tis
-sample_diagnosis	tumor_stage_clinical_t	Tis (DCIS)
-sample_diagnosis	tumor_stage_clinical_t	Tis (LCIS)
-sample_diagnosis	tumor_stage_clinical_t	Tis (Paget's)
+sample	toronto_childhood_cancer_staging	Acute lymphoblastic leukaemia_CNS1
+sample	toronto_childhood_cancer_staging	Acute lymphoblastic leukaemia_CNS2
+sample	toronto_childhood_cancer_staging	Acute lymphoblastic leukaemia_CNS3
+sample	toronto_childhood_cancer_staging	Astrocytomas_Localised
+sample	toronto_childhood_cancer_staging	Astrocytomas_Metastatic
+sample	toronto_childhood_cancer_staging	Ependymoma_M0
+sample	toronto_childhood_cancer_staging	Ependymoma_M1
+sample	toronto_childhood_cancer_staging	Ependymoma_M2
+sample	toronto_childhood_cancer_staging	Ependymoma_M3
+sample	toronto_childhood_cancer_staging	Ependymoma_M4
+sample	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT I
+sample	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT II
+sample	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT III
+sample	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT IV
+sample	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT I
+sample	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT II
+sample	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT III
+sample	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT IV
+sample	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage I
+sample	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage II
+sample	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage III
+sample	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage IV
+sample	toronto_childhood_cancer_staging	Malignant bone tumours_Distant metastases present
+sample	toronto_childhood_cancer_staging	Malignant bone tumours_Localised
+sample	toronto_childhood_cancer_staging	Medulloblastoma_M0
+sample	toronto_childhood_cancer_staging	Medulloblastoma_M1
+sample	toronto_childhood_cancer_staging	Medulloblastoma_M2
+sample	toronto_childhood_cancer_staging	Medulloblastoma_M3
+sample	toronto_childhood_cancer_staging	Medulloblastoma_M4
+sample	toronto_childhood_cancer_staging	Neuroblastoma_Stage L1
+sample	toronto_childhood_cancer_staging	Neuroblastoma_Stage L2 
+sample	toronto_childhood_cancer_staging	Neuroblastoma_Stage M 
+sample	toronto_childhood_cancer_staging	Neuroblastoma_Stage MS
+sample	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage I
+sample	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage II
+sample	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage III
+sample	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage IV
+sample	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage I
+sample	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage II
+sample	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage III
+sample	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage IV
+sample	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage I
+sample	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage II
+sample	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage III
+sample	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage IV 
+sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage I
+sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage II
+sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage III
+sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage IV
+sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage y-I
+sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage y-II
+sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage y-III
+sample	toronto_childhood_cancer_staging	Retinoblastoma_Stage 0
+sample	toronto_childhood_cancer_staging	Retinoblastoma_Stage I
+sample	toronto_childhood_cancer_staging	Retinoblastoma_Stage II
+sample	toronto_childhood_cancer_staging	Retinoblastoma_Stage III
+sample	toronto_childhood_cancer_staging	Retinoblastoma_Stage IV
+sample	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage I
+sample	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage II
+sample	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage III
+sample	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage IV
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage I
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IA
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IB
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage II
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIA
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIB
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIC
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage III
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIIA
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIIB
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIIC
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IS
+sample	tumor_classification	ARRAY(0x562bcbdf5528)
+sample	tumor_classification	string
+sample	tumor_grade	G1
+sample	tumor_grade	G2
+sample	tumor_grade	G3
+sample	tumor_grade	G4
+sample	tumor_grade	GB
+sample	tumor_grade	GX
+sample	tumor_grade	High Grade
+sample	tumor_grade	Intermediate Grade
+sample	tumor_grade	Low Grade
+sample	tumor_grade	Not Applicable
+sample	tumor_stage_clinical_m	M0
+sample	tumor_stage_clinical_m	M1
+sample	tumor_stage_clinical_m	M1a
+sample	tumor_stage_clinical_m	M1b
+sample	tumor_stage_clinical_m	M1c
+sample	tumor_stage_clinical_m	MX
+sample	tumor_stage_clinical_m	cM0 (i+)
+sample	tumor_stage_clinical_n	N0
+sample	tumor_stage_clinical_n	N0 (i+)
+sample	tumor_stage_clinical_n	N0 (i-)
+sample	tumor_stage_clinical_n	N0 (mol+)
+sample	tumor_stage_clinical_n	N0 (mol-)
+sample	tumor_stage_clinical_n	N1
+sample	tumor_stage_clinical_n	N1a
+sample	tumor_stage_clinical_n	N1b
+sample	tumor_stage_clinical_n	N1bI
+sample	tumor_stage_clinical_n	N1bII
+sample	tumor_stage_clinical_n	N1bIII
+sample	tumor_stage_clinical_n	N1bIV
+sample	tumor_stage_clinical_n	N1c
+sample	tumor_stage_clinical_n	N1mi
+sample	tumor_stage_clinical_n	N2
+sample	tumor_stage_clinical_n	N2a
+sample	tumor_stage_clinical_n	N2b
+sample	tumor_stage_clinical_n	N2c
+sample	tumor_stage_clinical_n	N3
+sample	tumor_stage_clinical_n	N3a
+sample	tumor_stage_clinical_n	N3b
+sample	tumor_stage_clinical_n	N3c
+sample	tumor_stage_clinical_n	N4
+sample	tumor_stage_clinical_n	NX
+sample	tumor_stage_clinical_t	T0
+sample	tumor_stage_clinical_t	T1
+sample	tumor_stage_clinical_t	T1a
+sample	tumor_stage_clinical_t	T1a1
+sample	tumor_stage_clinical_t	T1a2
+sample	tumor_stage_clinical_t	T1b
+sample	tumor_stage_clinical_t	T1b1
+sample	tumor_stage_clinical_t	T1b2
+sample	tumor_stage_clinical_t	T1c
+sample	tumor_stage_clinical_t	T1mi
+sample	tumor_stage_clinical_t	T2
+sample	tumor_stage_clinical_t	T2a
+sample	tumor_stage_clinical_t	T2a1
+sample	tumor_stage_clinical_t	T2a2
+sample	tumor_stage_clinical_t	T2b
+sample	tumor_stage_clinical_t	T2c
+sample	tumor_stage_clinical_t	T2d
+sample	tumor_stage_clinical_t	T3
+sample	tumor_stage_clinical_t	T3a
+sample	tumor_stage_clinical_t	T3b
+sample	tumor_stage_clinical_t	T3c
+sample	tumor_stage_clinical_t	T3d
+sample	tumor_stage_clinical_t	T4
+sample	tumor_stage_clinical_t	T4a
+sample	tumor_stage_clinical_t	T4b
+sample	tumor_stage_clinical_t	T4c
+sample	tumor_stage_clinical_t	T4d
+sample	tumor_stage_clinical_t	T4e
+sample	tumor_stage_clinical_t	T5
+sample	tumor_stage_clinical_t	TX
+sample	tumor_stage_clinical_t	Ta
+sample	tumor_stage_clinical_t	Tis
+sample	tumor_stage_clinical_t	Tis (DCIS)
+sample	tumor_stage_clinical_t	Tis (LCIS)
+sample	tumor_stage_clinical_t	Tis (Paget's)
 sequencing_file	avg_read_length	NUMBER
 sequencing_file	checksum_algorithm	STRING
 sequencing_file	checksum_value	STRING
@@ -4653,7 +4683,7 @@ sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
 sequencing_file	file_size	INTEGER
-sequencing_file	file_type	ARRAY(0x5604a6125f78)
+sequencing_file	file_type	ARRAY(0x562bcbebd748)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -4863,7 +4893,7 @@ single_cell_sequencing_file	file_mapping_level	Sample
 single_cell_sequencing_file	file_mapping_level	Study
 single_cell_sequencing_file	file_name	STRING
 single_cell_sequencing_file	file_size	INTEGER
-single_cell_sequencing_file	file_type	ARRAY(0x5604a6125f78)
+single_cell_sequencing_file	file_type	ARRAY(0x562bcbebd748)
 single_cell_sequencing_file	file_type	string
 single_cell_sequencing_file	file_url_in_cds	STRING
 single_cell_sequencing_file	instrument_model	454 GS
@@ -9685,15 +9715,14 @@ of_participant	participant	study	NA	NA
 of_pdx	pdx	sample	NA	NA
 of_publication	publication	study	NA	NA
 of_sample	sample	participant	NA	NA
-of_sample_diagnosis	sample_diagnosis	sample	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	sample	NA	NA
+of_synonym	synonym	study	NA	NA
 of_synonym	synonym	participant	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
@@ -9860,10 +9889,8 @@ repository_of_synonym_id	The repository of the synonym.
 respirable_crystalline_silica_exposure	The yes/no/unknown indicator used to describe whether a patient was exposured to respirable crystalline silica, a widespread, naturally occurring, crystalline metal oxide that consists of different forms including quartz, cristobalite, tridymite, tripoli, ganister, chert and novaculite.
 risk_factor	The text term used to describe a risk factor the patient had at the time of or prior to their diagnosis.
 sample_description	Text description of a sample or specimen.
-sample_diagnosis_id	A unique sequence of alphanumeric characters used to identify the sample diagnosis in the investigation or study, which is used for linking metadata.
 sample_id	A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.
 sample_tumor_status	Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue.
-sample_type	Text term to describe the source of a biospecimen used for a laboratory test.
 second_exon	The second exon number involved in molecular variation. If a specific genetic variant is being reported, this property can be used to capture the second exon where that variant is located. This property is typically used for a translocation where two different locations are involved in the variation.
 second_gene_symbol	The text term used to describe a secondary gene targeted or included in molecular analysis. For rearrangements, this is should represent the location of the variant.
 sequence_alignment_software	The name of the software program used to align nucleotide sequencing data.

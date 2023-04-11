@@ -2721,9 +2721,7 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  #sample_diagnosis
-  #sample_diagnosis_id: 
-  #diagnosis, sample
+  # diagnosis, sample
   diagnosis_icd_cm:
     Desc: The diagnosis, in humans, as captured in the 2022 extension of the tenth version of the International Classification of Disease (ICD-10-CM, the disease code subset of ICD-10). Examples - C80.1, C44.510, D14.3-, D49.89.
     Term:

@@ -4244,7 +4244,8 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2192199'
         Value: Race Category Text
-    Type: 
+    Type: array
+    Items:
       - string
       - 
         - "American Indian or Alaska Native"

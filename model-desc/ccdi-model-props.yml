@@ -5305,7 +5305,8 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C43622'
         Value: Experimental Method 
-    Type: string
+    Type: array
+    Item: string
     Req: false
     Private: false 
   #study_admin

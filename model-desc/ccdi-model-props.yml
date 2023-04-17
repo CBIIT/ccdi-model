@@ -2738,7 +2738,8 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11326261'
         Value: Specimen Tumor Tissue ICD-O-3 Morphology Code
-    Enum:
+    Type: array
+    Items:
       - "8000/0 : Neoplasm, benign"
       - "8000/1 : Neoplasm, uncertain whether benign or malignant"
       - "8000/3 : Neoplasm, malignant"

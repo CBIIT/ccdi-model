@@ -4206,7 +4206,7 @@ PropDefinitions:
   # imaging file props  
   imaging_platform:
     Desc: The words used to describe the instrument used to carry out an imaging experiment.
-    Type: String
+    Type: string
     Req: false
     Private: false
   # imaging file props  

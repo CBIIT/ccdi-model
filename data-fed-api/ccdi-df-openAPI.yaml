@@ -1,0 +1,1480 @@
+openapi: 3.0.3
+info:
+  title: CCDI-DF - OpenAPI 3.0
+  description: >-
+    This is the metadata template for submitting data to the Childhood Caner Data Initiative (CCDI).
+    The submission metadata is useful to help make data FAIR for the potential users.
+
+
+    Some useful links:
+
+    - [CCDI
+    repository](https://www.cancer.gov/research/areas/childhood/childhood-cancer-data-initiative)
+  termsOfService: http://swagger.io/terms/
+  contact:
+    email: CCDIHelpDesk@mail.nih.gov
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.1.0
+externalDocs:
+  description: Template in GITHUB
+  url: https://github.com/CBIIT/ccdi-model/releases/tag/1.1.0
+servers:
+  - url: https://www.cancer.gov/research/areas/childhood/childhood-cancer-data-initiative/progress
+tags:
+  - name: study
+    description: CCDI Metadata Template Study
+  - name: studyAdmin
+    description: CCDI Metadata Template Study Admin
+  - name: studyFunding
+    description: CCDI Metadata Template Study Funding
+  - name: studyPersonnel
+    description: CCDI Metadata Template Personnel
+  - name: participant
+    description: CCDI Metadata Template Participant
+  - name: diagnosis
+    description: CCDI Metadata Template Diagnosis
+  - name: therapeuticProcedure
+    description: CCDI Metadata Template Therapeutic Procedure
+  - name: sample
+    description: CCDI Metadata Template Sample
+  - name: pdx
+    description: CCDI Metadata PDX
+  - name: studyid
+    description: CCDI Metadata Template Studyid
+  - name: user
+    description: CCDI DF Registered User
+paths:
+  /study/{studyId}:
+    get:
+      tags:
+        - study
+      summary: Retrieve Study by Study Id
+      description: Returns a single Study
+      operationId: getStudyById
+      parameters:
+        - name: studyId
+          in: path
+          description: Study to return by Id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/study'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/study'
+        '400':
+          description: Invalid Study Id supplied
+        '404':
+          description: Studyid not found
+  /study/studyname/{studyName}:
+    get:
+      tags:
+        - study
+      summary: Find Study by study name
+      description: >-
+        A search by study title.
+      operationId: getStudyByTitle
+      parameters:
+        - name: studyName
+          in: path
+          description: study title
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/study'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/study'
+        '400':
+          description: Invalid study name supplied
+        '404':
+          description: Study not found
+  /study/search:
+    get:
+      tags:
+        - study
+      summary: Find study by 'required' attributes. The format TBD.
+      description: >-
+        A search by study required attributes.
+      operationId: searchStudy
+      parameters:
+        - name: searchQuery
+          in: query
+          description: TBD
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/study'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/study'
+        '400':
+          description: Invalid attributes supplied
+        '404':
+          description: Study not found
+  /studyAdmin/{studyAdminId}:
+    get:
+      tags:
+        - studyAdmin
+      summary: Find Study Admin by Study Admin Id
+      description: Returns a single Study Admin
+      parameters:
+        - name: studyAdminId
+          in: path
+          description: Study Admin to return by ID
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/studyAdmin'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/studyAdmin'
+        '400':
+          description: Invalid Study Id supplied
+        '404':
+          description: Study Admin not found
+  /studyAdmin/search:
+    get:
+      tags:
+        - studyAdmin
+      summary: Find Study Admin by 'required' attributes. The format TBD.
+      description: >-
+        A search by Study Admin required attributes.
+      operationId: searchStudyAdmin
+      parameters:
+        - name: searchQuery
+          in: query
+          description: TBD
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/studyAdmin'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/studyAdmin'
+        '400':
+          description: Invalid attributes supplied
+        '404':
+          description: Study Admin not found
+  /studyFunding/{studyFundingId}:
+    get:
+      tags:
+        - studyFunding
+      summary: Find Study Funding by Study Funding Id
+      description: Returns a single Study Funding
+      parameters:
+        - name: studyFundingId
+          in: path
+          description: Study Funding to return by ID
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/studyFunding'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/studyFunding'
+        '400':
+          description: Invalid Study Funding Id supplied
+        '404':
+          description: Study Funding not found
+  /studyFunding/search:
+    get:
+      tags:
+        - studyFunding
+      summary: Find Study Funding by 'required' attributes. The format TBD.
+      description: >-
+        A search by study funding required attributes.
+      operationId: searchStudyFunding
+      parameters:
+        - name: searchQuery
+          in: query
+          description: TBD
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/studyFunding'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/studyFunding'
+        '400':
+          description: Invalid attributes supplied
+        '404':
+          description: Study Fnding not found
+  /studyPersonnel/{studyPersonnelId}:
+    get:
+      tags:
+        - studyPersonnel
+      summary: Find Study Personnel by Study Personnel Id
+      description: Returns a single Study Personnel
+      parameters:
+        - name: studyPersonnelId
+          in: path
+          description: Study Personnel to return by ID
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/studyPersonnel'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/studyPersonnel'
+        '400':
+          description: Invalid Study personnel Id supplied
+        '404':
+          description: Study Personnel not found
+  /studyPersonnel/search:
+    get:
+      tags:
+        - studyPersonnel
+      summary: Find Study Personnel by 'required' attributes. The format TBD.
+      description: >-
+        A search by Study Personnel required attributes.
+      operationId: searchStudyPersonnel
+      parameters:
+        - name: searchQuery
+          in: query
+          description: TBD
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/studyPersonnel'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/studyPersonnel'
+        '400':
+          description: Invalid attributes supplied
+        '404':
+          description: Study Personnel not found
+  /participant/{participantId}:
+    get:
+      tags:
+        - participant
+      summary: Find participant by participant Id
+      description: Returns a single participant
+      parameters:
+        - name: participantId
+          in: path
+          description: Participant to return by Id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/participant'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/participant'
+        '400':
+          description: Invalid participant Id supplied
+        '404':
+          description: Participant not found
+  /participant/search:
+    get:
+      tags:
+        - participant
+      summary: Find participant by 'required' attributes. The format TBD.
+      description: >-
+        A search by participant required attributes.
+      operationId: searchParticipant
+      parameters:
+        - name: searchQuery
+          in: query
+          description: TBD
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/participant'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/participant'
+        '400':
+          description: Invalid attributes supplied
+        '404':
+          description: Participant not found
+  /diagnosis/{diagnosisId}:
+    get:
+      tags:
+        - diagnosis
+      summary: Find diagnosis by Diagnosis Id
+      description: Returns a single Diagnosis
+      parameters:
+        - name: diagnosisId
+          in: path
+          description: Diagnosis to return by Id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/diagnosis'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/diagnosis'
+        '400':
+          description: Invalid Diagnosis Id supplied
+        '404':
+          description: Diagnosis not found
+  /diagnosis/search:
+    get:
+      tags:
+        - diagnosis
+      summary: Find Diagnosis by 'required' attributes. The format TBD.
+      description: >-
+        A search by diagnosis required attributes.
+      operationId: searchDiagnosis
+      parameters:
+        - name: searchQuery
+          in: query
+          description: TBD
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/diagnosis'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/diagnosis'
+        '400':
+          description: Invalid attributes supplied
+        '404':
+          description: Diagnosis not found
+  /therapeuticProcedure/{therapeuticProcedureId}:
+    get:
+      tags:
+        - therapeuticProcedure
+      summary: Find Therapeutic Procedure by therapeutic procedure Id
+      description: Returns a single Therapeutic Procedure
+      parameters:
+        - name: therapeuticProcedureId
+          in: path
+          description: Therapeutic Procedure to return by Id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/therapeuticProcedure'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/therapeuticProcedure'
+        '400':
+          description: Invalid Therapeutic Procedure Id supplied
+        '404':
+          description: Therapeutic Procedure not found
+  /therapeuticProcedure/search:
+    get:
+      tags:
+        - therapeuticProcedure
+      summary: Find Therapeutic Procedure by 'required' attributes. The format TBD.
+      description: >-
+        A search by Therapeutic Procedure required attributes.
+      operationId: searchTherapeuticProcedure
+      parameters:
+        - name: searchQuery
+          in: query
+          description: TBD
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/therapeuticProcedure'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/therapeuticProcedure'
+        '400':
+          description: Invalid attributes supplied
+        '404':
+          description: Therapeutic Procedure not found  
+  /sample/{sampleId}:
+    get:
+      tags:
+        - sample
+      summary: Find sample by Sample Id
+      description: Returns a single Sample
+      parameters:
+        - name: sampleId
+          in: path
+          description: Sample to return by Id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/sample'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/sample'
+        '400':
+          description: Invalid sample Id supplied
+        '404':
+          description: sample not found
+  /sample/search:
+    get:
+      tags:
+        - sample
+      summary: Find Sample by 'required' attributes. The format TBD.
+      description: >-
+        A search by sample required attributes.
+      operationId: searchSample
+      parameters:
+        - name: searchQuery
+          in: query
+          description: TBD
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/sample'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/sample'
+        '400':
+          description: Invalid attributes supplied
+        '404':
+          description: sample not found
+  /pdx/{pdxId}:
+    get:
+      tags:
+        - pdx
+      summary: Find pdx by pdx Id
+      description: Returns a single pdx
+      parameters:
+        - name: pdxId
+          in: path
+          description: pdx to return by Id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/pdx'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/pdx'
+        '400':
+          description: Invalid pdx Id supplied
+        '404':
+          description: pdx not found
+  /pdx/search:
+    get:
+      tags:
+        - pdx
+      summary: Find pdx by 'required' attributes. The format TBD.
+      description: >-
+        A search by pdx required attributes.
+      operationId: searchPdx
+      parameters:
+        - name: searchQuery
+          in: query
+          description: TBD
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/diagnosis'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/diagnosis'
+        '400':
+          description: Invalid attributes supplied
+        '404':
+          description: pdx not found
+  /studyid/findByIds:
+    get:
+      tags:
+        - studyid
+      summary: Finds Study Ids by Id
+      description: Finds Study Ids by comma separated Study Identifiers
+      operationId: findStudyidById
+      parameters:
+        - name: findByIds
+          in: query
+          description: comma separated ID values that need to be considered for filter
+          required: false
+          explode: true
+          schema:
+            type: string
+            default: null
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Studyid'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Studyid'
+        '400':
+          description: Invalid status Id value
+  /studyid/{studyId}:
+    get:
+      tags:
+        - studyid
+      summary: Retrieve Studyid by Id
+      description: Returns a single Studyid
+      operationId: getStudyid
+      parameters:
+        - name: studyId
+          in: path
+          description: Study ID to return
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Studyid'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Studyid'
+        '400':
+          description: Invalid ID supplied
+        '404':
+          description: Studyid not found
+  #user is a placeholder only       
+  /user/login:
+    get:
+      tags:
+        - user
+      summary: Logs user into the system
+      description: ''
+      operationId: loginUser
+      parameters:
+        - name: username
+          in: query
+          description: The user name for login
+          required: false
+          schema:
+            type: string
+        - name: password
+          in: query
+          description: The password for login in clear text
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          headers:
+            X-Rate-Limit:
+              description: calls per hour allowed by the user
+              schema:
+                type: integer
+                format: int32
+            X-Expires-After:
+              description: date in UTC when token expires
+              schema:
+                type: string
+                format: date-time
+          content:
+            application/xml:
+              schema:
+                type: string
+            application/json:
+              schema:
+                type: string
+        '400':
+          description: Invalid username/password supplied
+  /user/logout:
+    get:
+      tags:
+        - user
+      summary: Logs out current logged in user session
+      description: ''
+      operationId: logoutUser
+      parameters: []
+      responses:
+        default:
+          description: successful operation
+  /user/{username}:
+    get:
+      tags:
+        - user
+      summary: Get user by user name
+      description: ''
+      operationId: getUserByName
+      parameters:
+        - name: username
+          in: path
+          description: 'The name that needs to be fetched. Use user1 for testing. '
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/User'
+        '400':
+          description: Invalid username supplied
+        '404':
+          description: User not found
+    put:
+      tags:
+        - user
+      summary: Update user
+      description: This can only be done by the logged in user.
+      operationId: updateUser
+      parameters:
+        - name: username
+          in: path
+          description: name that need to be deleted
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: Update an existent user in the store
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/User'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        default:
+          description: successful operation
+    delete:
+      tags:
+        - user
+      summary: Delete user
+      description: This can only be done by the logged in user.
+      operationId: deleteUser
+      parameters:
+        - name: username
+          in: path
+          description: The name that needs to be deleted
+          required: true
+          schema:
+            type: string
+      responses:
+        '400':
+          description: Invalid username supplied
+        '404':
+          description: User not found
+    post:
+      tags:
+        - user
+      summary: Create DF user
+      description: This can only be done by the logged in user.
+      operationId: createUser
+      parameters:
+        - name: username
+          in: path
+          description: The name that needs to be deleted
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: Created user object
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/User'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        default:
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/User'
+components:
+  schemas:
+    Studyid:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Required. A unique identifier for a study.
+          example: Study356QA
+    study:
+      type: object
+      properties:
+        type:
+          type: string
+          description: Required. Data model node or domain.
+          example: study
+        studyId:
+          type: string
+          description: Required. A unique identifier for a study.
+          example: Study356QA
+        phsAccession:
+          type: string
+          format: int64
+          description: A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP).
+        acl:
+          type: string
+          description: Required. Specifies whether the data in a repository is open access or controlled access.
+          example: phs0031415
+        studyName:
+          type: string
+          description: The name applied to an investigational project, also known as Study Title.
+          example: This is a study long name
+        studyShortTitle:
+          type: string
+          description: Required. The succinct version of the study title if it exists.
+          example: Pueritia cancer data participes
+        studyAcronym:
+          type: string
+          description: Required. A one word acronym to represent the study.
+          example: CCDIDS
+        studyDescription: 
+          type: string
+          description: Required. 
+          example: lpsio lorem
+        consent:
+          type: string
+          description: Required. The numeric value of the consent group as designated by dbGaP full accession identifier, phs00311415.v2.p2.c1.
+          example: GRU
+        consentShorthand:
+          type: string
+          description: Required. The human readable value of the consent group as designated by dbGaP, examples GRU, HMB, IRB, NPU, etc.
+          example: GRU
+        externalUrl: 
+          type: string
+          description: The url of the study (often a dbGaP study page). 
+          example: GRU
+        experimentalStrategyAndDataSubtype:
+          type: string
+          description: The experimental strategy used for the study or the data subtypes that exist in the study.
+        studyDataTypes:
+          type: string
+          description: The field of study(s) associated with the data collection.
+        sizeOfDataBeingUploaded:
+          type: string
+          description: The numerical quantity documenting the physical magnitude of a set of related electronic records.
+      required:
+        - type
+        - studyId
+        - phsAccession
+        - acl
+        - studyName
+        - studyShortTitle
+        - studyAcronym
+        - studyDescription
+        - consent
+        - consentShorthand
+    studyAdmin:
+      type: object
+      properties:
+        type:
+          type: string
+          description: Required. Data model node or domain.
+          example: studyAdmin
+        studyId:
+          type: string
+          description: Required. A unique identifier for a study.
+          example: myStudy1615
+        studyAdminId:
+          type: string
+          description: Required. A unique sequence of alphanumeric characters used to identify the admin in the investigation or study, which is used for linking metadata.
+          example: myStudy1615Admin
+        organismSpecies:
+          type: string
+          description: The organism from which the sample is derived or originated.
+          example: Human
+          enum:
+            - Canine
+            - 'Cell Line'
+            - Human
+            - Mouse
+        adultOrChildhoodStudy:
+          type: string
+          description: Required. The succinct version of the study title if it exists.
+          example: Pueritia cancer data participes
+          enum:
+            - Adult
+            - Pediatric          
+        dataTypes:
+          type: string
+          description: The long form description of the study.
+        fileTypesAndFormat: 
+          type: string
+          description: Specific kind of files in the dataset that will be uploaded to the study. 
+        numberOfParticipants:
+          type: integer
+          description: The number of participants in the study for a disease, disorder, condition, or problem.
+        numberOfSamples:
+          type: integer
+          description: The number of samples in the study, often used as a subset of a larger population, selected for investigation to draw conclusions or make estimates about the larger population.
+      required:
+        - type
+        - studyId
+        - studyAdminId
+        - organismSpecies
+        - adultOrChildhoodStudy
+    studyFunding:
+      type: object
+      properties:
+        type:
+          type: string
+          description: Required. Data model node or domain.
+          example: studyFunding
+        studyId:
+          description: Required. A unique identifier for a study.
+          example: myStudy1615
+        studyFundingId:
+          type: string
+          description: Required. A unique identifier for a study funding.
+          example: myStudy1615Grant
+        fundingAgency:
+          type: string
+          description: Required. An organization/Sponsor that underwrites financial support for projects of a particular type. Typically, they process applications and award funds to the chosen qualified applicants.
+          example: NCI
+        grantId:          
+          type: string
+          description: Required. Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
+          example: CA98763
+        fundingSourceProgramName:
+          type: string
+          description: The name of the program that is providing funding. 
+          example: CCDI
+      required:
+        - type
+        - studyId
+        - studyFundingId
+        - fundingAgency
+        - gender
+        - grantId
+    studyPersonnel:
+      type: object
+      properties:
+        type:
+          type: string
+          description: Required. Data model node or domain.
+          example: studyPersonnel
+        studyId:
+          type: string
+          description: Required. A unique identifier for a study.
+          example: myStudy1615
+        studyPersonnelId:
+          type: string
+          description: Required. A unique sequence of alphanumeric characters used to identify the personnel in the investigation or study, which is used for linking metadata.
+          example: myStudy1615Pi
+        personnelName:
+          type: string
+          description: Required. The name of personnel who is an organizer in the study.
+          example: NCI_1
+        personnelType:          
+          type: string
+          description: Required. The role of personnel in the study.
+          example: CA98763
+          enum:
+            - PI
+            - Co-PI
+            - 'Data Submitter'
+            - 'Data Manager'
+        emailAddress:
+          type: string
+          description: Required. The email address of the personnel. 
+          example: joe@nih.gov
+        institution:
+          type: string
+          description: Required. The institution of the personnel. 
+          example: NIH
+      required:
+        - type
+        - studyId
+        - studyPersonnelId
+        - personnelName
+        - personnelType
+        - emailAddress
+        - institution
+    participant:
+      type: object
+      properties:
+        type:
+          type: string
+          description: Required. Data model node or domain.
+          example: participant
+        studyId:
+          type: string
+          description: Required. Data model node or domain.
+        studyArmId:
+          type: string
+          description: A unique identifier for a study.
+          example: myStudy1615Admin
+        participantId:
+          type: string
+          description: Required. Data model node or domain.
+          example: CCDI.16004
+        race:          
+          type: string
+          description: Required. The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
+          example: American Indian or Alaska Native
+        gender:
+          type: string
+          description: Required. Text designations that identify gender. Gender is described as the assemblage of properties that distinguish people on the basis of their societal roles. [Explanatory Comment 1 Identification of gender is based upon self-report and may come from a form, questionnaire, interview, etc.]
+          example: Female
+        ethnicity:
+          type: string
+          description: Required. based on the Office of Management and Budget (OMB) categories.
+          example: Hispanic or Latino
+        alternateParticipantId:
+          type: string
+          description: A unique identifier for a study.
+          example: myStudy1615Admin
+      required:
+        - type
+        - studyId
+        - participantId
+        - race
+        - gender
+        - ethnicity
+    diagnosis:
+      type: object
+      properties:
+        type:
+          type: string
+          description: Required. Data model node or domain.
+          example: diagnosis
+        participantId:
+          type: string
+          description: Required. A unique sequence of alphanumeric characters used to identify the participant, in the investigation or study, of the specimen at it's point of origin.
+          example: CCDI.16004
+        diagnosisId:
+          type: string
+          description: Required. A unique sequence of alphanumeric characters used to identify the participant diagnosis in the investigation or study, which is used for linking metadata.
+          example: CCDI.16004.diag1
+        diagnosisIcdO:
+          type: string
+          description: Required. The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+          example: '9513/3 : Retinoblastoma, diffuse'
+          enum:
+            - "8000/0 : Neoplasm, benign"
+            - "8000/1 : Neoplasm, uncertain whether benign or malignant"
+            - "8000/3 : Neoplasm, malignant"
+            - "8000/6 : Neoplasm, metastatic"
+            # long list here
+            - '9987/3 : Therapy-related myelodysplastic syndrome, NOS'
+            - '9989/3 : Myelodysplastic syndrome, NOS'
+            - '9993/3 : Myelodysplastic syndrome with ring sideroblasts and multilineage dysplasia'
+        diagnosisIcdCm:
+          type: string
+          description: A unique sequence of alphanumeric characters used to identify the personnel in the investigation or study, which is used for linking metadata.
+          example: 'American Indian or Alaska Native'
+          enum:
+            - 'American Indian'
+            - 'Alaska Native'
+        diagnosisFinerResolution:
+          type: string
+          description: Text term used to provide finer resolution diagnosis than available in ICD-O or ICD-10-CM.
+          example: Retinoblastoma, diffuse, high grade
+        diseasePhase:
+          type: string
+          description: Required. The stage or period of an individual's treatment process during which relevant observations were recorded.
+          example: Initial Diagnosis
+          enum:        
+            - 'Initial Diagnosis'
+            - 'Disease Progression'
+            - 'Refractory'
+            - 'Recurrent Disease'
+            - 'Disease Relapse/Progression'
+            - 'Complete Remission'
+            - 'Post-treatment'
+            - 'Unknown'
+            - 'Not Reported'
+        anatomicSite:          
+          type: string
+          description: Required. The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+          example: Retina
+          enum:
+            - 'Abdomen, NOS'
+            - 'Abdominal esophagus'
+            # a long list here
+            - 'Vulva, NOS'
+            - 'Waldeyer ring'
+        ageAtDiagnosis:
+          type: integer
+          description: Required. Age at the time of diagnosis expressed in number of days since birth.
+          example: 3650
+        vitalStatus:
+          type: string
+          description: Required. Participant vital status
+          example: Alive
+          enum:
+           - 'Alive'
+           - 'Dead'
+           - 'Not reported'
+           - 'Unknown'
+           - 'Unspecified'
+        torontoChildhoodCancerStaging:
+          type: string
+          description: For many of the malignancies that occur in childhood, TNM-based systems that document extent of disease at diagnosis are either inadequate or do not exist at all. Consensus guidelines for use by population cancer registries for staging childhood cancers (the Toronto Childhood Cancer Stage Guidelines) have been developed.
+          example: Medulloblastoma_M4
+          enum:
+            - 'Acute lymphoblastic leukaemia_CNS1'
+            - 'Acute lymphoblastic leukaemia_CNS2'
+            - 'Acute lymphoblastic leukaemia_CNS3'
+            - 'Hodgkin lymphoma_Stage I'
+            #a long list here
+        daysToRecurrence:
+          type: integer
+          description: Number of days between the date used for index and the date the patient's disease recurred.
+          example: 3650
+        lastKnownDiseaseStatus:
+          type: string
+          description: Text term that describes the last known state or condition of an individual's neoplasm.
+          example: Distant met recurrence/progression
+          enum:
+            - 'Biochemical evidence of disease without structural correlate'
+            - 'Distant met recurrence/progression'
+            - 'Loco-regional recurrence/progression'
+            - 'Never Tumor Free'
+            - 'New Tumor Event (remission/relapse)'
+            - 'Tumor free'
+            - 'Tumor Free at Follow-up'
+            - 'Unknown'
+            - 'With tumor'
+        daysToLastKnownDiseaseStatus:
+          type: integer
+          description: Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
+        daysToLastFollowup:
+          type: integer
+          description: Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
+        tumorGrade:
+          type: string
+          description: Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.
+          example: G1
+          enum:
+            - G1
+            - G2
+            - G3
+            - G4
+            - GB
+            - GX
+            - High Grade
+            - Intermediate Grade
+            - Low Grade
+            - Not Applicable
+        tumorStageClinicalT:
+          type: string
+          description: Extent of the primary cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
+          enum:
+            - T0
+            - T1
+            #a long list here
+        tumorStageClinicalN:
+          type: string
+          description: Extent of the regional lymph node involvement for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
+          enum:
+            - N0
+            - 'N0 (i-)'
+           # a long list here
+        tumorStageClinicalM:
+          type: string
+          description: Extent of the distant metastasis for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
+      required:
+        - type
+        - participantId
+        - diagnosisId
+        - diagnosisIcdO
+        - diseasePhase
+        - ageAtDiagnosis
+        - vitalStatus
+    therapeuticProcedure:
+      type: object
+      properties:
+        type:
+          type: string
+          description: Required. Data model node or domain.
+          example: therapeuticProcedure
+        participantId:
+          type: string
+          description: Required. A unique sequence of alphanumeric characters used to identify the participant, in the investigation or study, of the specimen at it's point of origin.
+          example: CCDI.16004
+        therapeuticProcedureId:          
+          type: string
+          description: Required. A unique identifier for a therapeutic procedure.
+          example: CCDI.16004.therapy
+        daysToTreatmentStart:
+          type: integer
+          description: Required. Subject Age in Days at Start of Treatment Course Day Count.
+          example: 3750
+        daysToTreatmentEnd:
+          type: integer
+          description: Required. Subject Age in Days at End of Treatment Course Day Count.
+          example: 3945
+        treatmentOutcome:
+          type: string
+          description: Text term that describes the patient's final outcome after the treatment was administered.
+          example: myStudy1615-admin
+          enum:
+           - Complete Remission/Response
+           - Complete Response
+           - Elevated Tumor Markers and Residual Mass
+           # a long list of values
+        treatmentType:
+          type: string
+          description: Required. Text term that describes the kind of treatment administered.
+          example: Chemotherapy
+          enum:
+            - Ablation, Cryo
+            - Ablation, Ethanol Injection
+            - Ablation, Microwave
+            - Ablation, NOS
+            # a long list of values
+        therapeuticAgents:
+          description: Text identification of the individual agent(s) used as part of a prior treatment regimen.
+          enum:
+            - 10-Deacetyltaxol
+            - 11C Topotecan
+            - 11D10 AluGel Anti-Idiotype Monoclonal Antibody
+            - 12-Allyldeoxoartemisinin
+            - 13-Deoxydoxorubicin
+            # a long list of values
+      required:
+        - type
+        - participantId
+        - therapeuticProcedureId
+        - daysToTreatmentStart
+        - daysToTreatmentEnd
+        - treatmentOutcome
+        - treatmentType
+    sample:
+      type: object
+      properties:
+        type:
+          type: string
+          description: Required. Data model node or domain.
+          example: sample        
+        studyId:
+            type: string
+            description: Required. Data model node or domain.
+        participantId:
+          type: string
+          description: Required. A unique sequence of alphanumeric characters used to identify the participant, in the investigation or study, of the specimen at it's point of origin.
+          example: CCDI.16004
+        sampleId:          
+          type: string
+          description: Required. A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.
+          example: CCDI.16004.spec1
+        sampleType:
+          type: string
+          description: Required. Text term that describes the patient's final outcome after the treatment was administered.
+          example: Normal
+          enum:
+           - Normal
+           - Adnormal
+           # a long list of values
+        anatomicSite:          
+          type: string
+          description: Required. The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+          example: sample
+          enum:
+            - 'Abdomen, NOS'
+            - 'Abdominal esophagus'
+            # a long list here
+            - 'Vulva, NOS'
+            - 'Waldeyer ring'
+        participantAgeAtCollection:
+          type: integer
+          description: Required. The age of the participant (in days) at the time of sample collection.
+          example: 3750
+        sampleTumorStatus:        
+          type: string
+          description: Required. Text identification of the individual agent(s) used as part of a prior treatment regimen.
+          example: Normal
+          enum:
+           - Normal
+           - Adnormal
+           # a long list of values
+        sampleDescription:        
+          type: string
+          description: Text description of a sample or specimen.
+          example: Normal sample for tumor comparison
+        alternateSampleId:        
+          type: string
+          description: Text identification of the individual agent(s) used as part of a prior treatment regimen.
+      required:
+        - type
+        - participantId
+        - sampleId
+        - sampleType
+        - anatomicSite
+        - participantAgeAtCollection
+        - sampleTumorStatus
+    pdx:
+      type: object
+      properties:
+        type:
+          type: string
+          description: Required. Data model node or domain.
+          example: pdx 
+        sampleId:          
+          type: string
+          description: Required. A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.
+          example: CCDI.16004.spec1       
+        pdxId:
+          type: string
+          description: Required. A unique identifier for a pdx.
+          example: CCDI.16004.pdx       
+        modelId:
+          type: string
+          description: Required. The PDX model identifier.
+          example: PDX.16004
+        mouseStrain:
+          type: string
+          description: Required. The host mouse strain to which the tumor is engrafted. May become an enum if terms are provided. 
+          example: C57/Bl6J
+        strainImmuneSystemHumanized:          
+          type: string
+          description: The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+          example: No
+          enum:
+            - 'No'
+            - 'Yes'
+        implantationType:        
+          type: string
+          description: Required. Text identification of the individual agent(s) used as part of a prior treatment regimen.
+          example: injection
+          enum:
+           - injection
+           - trocar
+           - surgical
+           - orthotopic
+        implantationSite:          
+          type: string
+          description: Required. The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+          example: Kidney, subcutaneous
+          enum:
+            - 'tail vein'
+            - 'subcutaneous'
+            - 'renal capsule'
+            - 'subrenal capsule'
+            - 'muscle'
+            - 'mammary fat pad'
+            - 'intra peritoneal cavity'
+        typeOfHumanization:        
+          type: string
+          description: How the mouse host was humanized..
+        tumorPreparation:        
+          type: string
+          description: How the tumor was prepared for grafting.
+        tumorCharacterizationMethod:        
+          type: string
+          description: How the tumor was evaluated in the mouse host. May become an enum if terms are provided.
+        tumorNotMusOrEbvOrigin:        
+          type: string
+          description: Was tumor evaluated for having a mouse or EBV orgin?.
+      required:
+        - type
+        - sampleId
+        - pdxId
+        - modelId
+        - mouseStrain
+        - implantationType
+        - implantationSite
+    #placeholder, TBD
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 10
+        username:
+          type: string
+          example: theUser
+        firstName:
+          type: string
+          example: John
+        lastName:
+          type: string
+          example: James
+        email:
+          type: string
+          example: john@email.com
+        password:
+          type: string
+          example: '12345'
+        phone:
+          type: string
+          example: '12345'
+        userStatus:
+          type: integer
+          description: User Status
+          format: int32
+          example: 1
+      xml:
+        name: user
+  # placeholder, TBD
+  securitySchemes:
+    cdf_auth:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://cdf.cancer.gov/oauth/authorize
+          scopes:
+            write:cdf: modify Studies in your account
+            read:cdf: read Studies
+    api_key:
+      type: apiKey
+      name: api_key
+      in: header

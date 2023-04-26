@@ -23,7 +23,8 @@ externalDocs:
   description: Template in GITHUB
   url: https://github.com/CBIIT/ccdi-model/releases/tag/1.1.0
 servers:
-  - url: https://www.cancer.gov/research/areas/childhood/childhood-cancer-data-initiative/progress
+  - url: "https://www.cancer.gov/research/areas/childhood/\
+        childhood-cancer-data-initiative/progress"
 tags:
   - name: study
     description: CCDI Metadata Template Study
@@ -655,7 +656,7 @@ paths:
       parameters:
         - name: findByIds
           in: query
-          description: |
+          description: >-
             comma separated ID values that need to be considered for filter
           required: false
           explode: true
@@ -771,7 +772,7 @@ paths:
       parameters:
         - name: username
           in: path
-          description: |
+          description: >-
             The name that needs to be fetched. Use user1 for testing.
           required: true
           schema:
@@ -894,24 +895,24 @@ components:
         phsAccession:
           type: string
           format: int64
-          description: |
+          description: >-
             A stable unique alphanumeric identifier assigned to a study
             and any objects by the database of Genotypes and Phenotypes (dbGaP).
         acl:
           type: string
-          description: |
+          description: >-
             Required. Specifies whether the data in a repository is
             open access or controlled access.
           example: phs0031415
         studyName:
           type: string
-          description: |
+          description: >-
             The name applied to an investigational project, also known
             as Study Title.
           example: This is a study long name
         studyShortTitle:
           type: string
-          description: |
+          description: >-
             Required. The succinct version of the study title if it exists.
           example: Pueritia cancer data participes
         studyAcronym:
@@ -924,13 +925,13 @@ components:
           example: lpsio lorem
         consent:
           type: string
-          description: |
+          description: >-
             Required. The numeric value of the consent group as designated
             by dbGaP full accession identifier, phs00311415.v2.p2.c1.
           example: GRU
         consentShorthand:
           type: string
-          description: |
+          description: >-
             Required. The human readable value of the consent group as
             designated by dbGaP, examples GRU, HMB, IRB, NPU, etc.
           example: GRU
@@ -940,16 +941,16 @@ components:
           example: GRU
         experimentalStrategyAndDataSubtype:
           type: string
-          description: |
+          description: >-
             The experimental strategy used for the study or the data
             subtypes that exist in the study.
         studyDataTypes:
           type: string
-          description: |
+          description: >-
             The field of study(s) associated with the data collection.
         sizeOfDataBeingUploaded:
           type: string
-          description: |
+          description: >-
             The numerical quantity documenting the physical magnitude
             of a set of related electronic records.
       required:
@@ -976,14 +977,14 @@ components:
           example: myStudy1615
         studyAdminId:
           type: string
-          description: |
+          description: >-
             Required. A unique sequence of alphanumeric characters
             used to identify the admin in the investigation or study,
             which is used for linking metadata.
           example: myStudy1615Admin
         organismSpecies:
           type: string
-          description: |
+          description: >-
             The organism from which the sample is derived or originated.
           example: Human
           enum:
@@ -993,7 +994,7 @@ components:
             - Mouse
         adultOrChildhoodStudy:
           type: string
-          description: |
+          description: >-
             Required. The succinct version of the study title if it exists.
           example: Pueritia cancer data participes
           enum:
@@ -1004,17 +1005,17 @@ components:
           description: The long form description of the study.
         fileTypesAndFormat:
           type: string
-          description: |
+          description: >-
             Specific kind of files in the dataset that will be
             uploaded to the study.
         number_of_participants:
           type: integer
-          description: |
+          description: >-
             The number of participants in the study for a disease,
             disorder, condition, or problem.
         numberOfSamples:
           type: integer
-          description: |
+          description: >-
             The number of samples in the study, often used as a subset of a
             larger population, selected for investigation to draw conclusions
             or make estimates about the larger population.
@@ -1040,7 +1041,7 @@ components:
           example: myStudy1615Grant
         fundingAgency:
           type: string
-          description: |
+          description: >-
             Required. An organization/Sponsor that underwrites financial
             support for projects of a particular type. Typically, they
             process applications and award funds to the chosen qualified
@@ -1048,7 +1049,7 @@ components:
           example: NCI
         grantId:
           type: string
-          description: |
+          description: >-
             Required. Unique alphanumeric Identifier of a grant funding
             resource used to treat a patient on a study.
           example: CA98763
@@ -1076,14 +1077,14 @@ components:
           example: myStudy1615
         studyPersonnelId:
           type: string
-          description: |
+          description: >-
             Required. A unique sequence of alphanumeric characters used to
             identify the personnel in the investigation or study, which is used
             for linking metadata.
           example: myStudy1615Pi
         personnelName:
           type: string
-          description: |
+          description: >-
             Required. The name of personnel who is an organizer in the study.
           example: NCI_1
         personnelType:
@@ -1131,13 +1132,13 @@ components:
           example: CCDI.16004
         race:
           type: string
-          description: |
+          description: >-
             Required. The text for reporting information about race
             based on the Office of Management and Budget (OMB) categories.
           example: American Indian or Alaska Native
         gender:
           type: string
-          description: |
+          description: >-
             Required. Text designations that identify gender. Gender is
             described as the assemblage of properties that distinguish
             people on the basis of their societal roles. [Explanatory
@@ -1146,7 +1147,7 @@ components:
           example: Female
         ethnicity:
           type: string
-          description: |
+          description: >-
             Required. based on the Office of Management and Budget
             (OMB) categories.
           example: Hispanic or Latino
@@ -1170,21 +1171,21 @@ components:
           example: diagnosis
         participantId:
           type: string
-          description: |
+          description: >-
             Required. A unique sequence of alphanumeric characters used to
              identify the participant, in the investigation or study, of
              the specimen at it's point of origin.
           example: CCDI.16004
         diagnosisId:
           type: string
-          description: |
+          description: >-
             Required. A unique sequence of alphanumeric characters used
             to identify the participant diagnosis in the investigation or
             study, which is used for linking metadata.
           example: CCDI.16004.diag1
         diagnosisIcdO:
           type: string
-          description: |
+          description: >-
             Required. The text term used to describe the type of malignant
             disease, as categorized by the World Health Organization's (WHO)
             International Classification of Diseases for Oncology (ICD-O).
@@ -1197,10 +1198,11 @@ components:
             # long list here
             - '9987/3 : Therapy-related myelodysplastic syndrome, NOS'
             - '9989/3 : Myelodysplastic syndrome, NOS'
-            - '9993/3 : Myelodysplastic syndrome with ring sideroblasts and multilineage dysplasia'
+            - '9993/3 : Myelodysplastic syndrome with ring sideroblasts \
+              and multilineage dysplasia'
         diagnosisIcdCm:
           type: string
-          description: |
+          description: >-
             A unique sequence of alphanumeric characters used to identify
             the personnel in the investigation or study, which is used for
             linking metadata.
@@ -1210,13 +1212,13 @@ components:
             - 'Alaska Native'
         diagnosisFinerResolution:
           type: string
-          description: |
+          description: >-
             Text term used to provide finer resolution diagnosis
             than available in ICD-O or ICD-10-CM.
           example: Retinoblastoma, diffuse, high grade
         diseasePhase:
           type: string
-          description: |
+          description: >-
             Required. The stage or period of an individual's treatment process
             during which relevant observations were recorded.
           example: Initial Diagnosis
@@ -1232,7 +1234,7 @@ components:
             - 'Not Reported'
         anatomicSite:
           type: string
-          description: |
+          description: >-
             Required. The text term used to describe the anatomic site
             of origin, of the patient's malignant disease, as described by
             the World Health Organization's (WHO) International
@@ -1246,7 +1248,7 @@ components:
             - 'Waldeyer ring'
         ageAtDiagnosis:
           type: integer
-          description: |
+          description: >-
             Required. Age at the time of diagnosis expressed in number
             of days since birth.
           example: 3650
@@ -1262,7 +1264,7 @@ components:
             - 'Unspecified'
         torontoChildhoodCancerStaging:
           type: string
-          description: |
+          description: >-
             For many of the malignancies that occur in childhood,
             TNM-based systems that document extent of disease at
             diagnosis are either inadequate or do not exist at all.
@@ -1278,13 +1280,13 @@ components:
             # a long list here
         daysToRecurrence:
           type: integer
-          description: |
+          description: >-
             Number of days between the date used for index and
             the date the patient's disease recurred.
           example: 3650
         lastKnownDiseaseStatus:
           type: string
-          description: |
+          description: >-
             Text term that describes the last known state or condition of
             an individual's neoplasm.
             example: Distant met recurrence/progression
@@ -1300,19 +1302,19 @@ components:
             - 'With tumor'
         daysToLastKnownDiseaseStatus:
           type: integer
-          description: |
+          description: >-
             Time interval from the date of last followup to the date of
             initial pathologic diagnosis, represented as a calculated
             number of days.
         daysToLastFollowup:
           type: integer
-          description: |
+          description: >-
             Time interval from the date of last followup to the date of
             initial pathologic diagnosis, represented as a calculated
             number of days.
         tumorGrade:
           type: string
-          description: |
+          description: >-
             Numeric value to express the degree of abnormality of cancer cells,
              a measure of differentiation and aggressiveness.
           example: G1
@@ -1329,7 +1331,7 @@ components:
             - Not Applicable
         tumorStageClinicalT:
           type: string
-          description: |
+          description: >-
             Extent of the primary cancer based on evidence obtained from
             clinical assessment parameters determined prior to treatment.
           enum:
@@ -1338,7 +1340,7 @@ components:
             # a long list here
         tumorStageClinicalN:
           type: string
-          description: |
+          description: >-
             Extent of the regional lymph node involvement for the cancer based
             on evidence obtained from clinical assessment parameters
             determined prior to treatment.
@@ -1348,7 +1350,7 @@ components:
             # a long list here
         tumorStageClinicalM:
           type: string
-          description: |
+          description: >-
             Extent of the distant metastasis for the cancer based on evidence
             obtained from clinical assessment parameters determined
             prior to treatment.
@@ -1369,30 +1371,30 @@ components:
           example: therapeuticProcedure
         participantId:
           type: string
-          description: |
+          description: >-
             Required. A unique sequence of alphanumeric characters used
             to identify the participant, in the investigation or study,
             of the specimen at it's point of origin.
           example: CCDI.16004
         therapeuticProcedureId:
           type: string
-          description: |
+          description: >-
             Required. A unique identifier for a therapeutic procedure.
           example: CCDI.16004.therapy
         daysToTreatmentStart:
           type: integer
-          description: |
+          description: >-
             Required. Subject Age in Days at Start of Treatment
             Course Day Count.
           example: 3750
         daysToTreatmentEnd:
           type: integer
-          description: |
+          description: >-
             Required. Subject Age in Days at End of Treatment Course Day Count.
           example: 3945
         treatmentOutcome:
           type: string
-          description: |
+          description: >-
             Text term that describes the patient's final
             outcome after the treatment was administered.
           example: myStudy1615-admin
@@ -1403,7 +1405,7 @@ components:
             # a long list of values
         treatmentType:
           type: string
-          description: |
+          description: >-
             Required. Text term that describes the kind of treatment
             administered.
           example: Chemotherapy
@@ -1414,7 +1416,7 @@ components:
             - Ablation, NOS
             # a long list of values
         therapeuticAgents:
-          description: |
+          description: >-
             Text identification of the individual agent(s) used
             as part of a prior treatment regimen.
           enum:
@@ -1444,20 +1446,20 @@ components:
           description: Required. Data model node or domain.
         participantId:
           type: string
-          description: |
+          description: >-
             Required. A unique sequence of alphanumeric characters
             used to identify the participant, in the investigation or study,
             of the specimen at it's point of origin.
           example: CCDI.16004
         sampleId:
           type: string
-          description: |
+          description: >-
             Required. A unique sequence of alphanumeric characters
              used to identify the sample in the investigation or study.
           example: CCDI.16004.spec1
         sampleType:
           type: string
-          description: |
+          description: >-
             Required. Text term that describes the patient's final
             outcome after the treatment was administered.
           example: Normal
@@ -1467,7 +1469,7 @@ components:
             # a long list of values
         anatomicSite:
           type: string
-          description: |
+          description: >-
             Required. The text term used to describe the anatomic site of
             origin, of the patient's malignant disease, as described by
             the World Health Organization's (WHO) International Classification
@@ -1481,13 +1483,13 @@ components:
             - 'Waldeyer ring'
         participantAgeAtCollection:
           type: integer
-          description: |
+          description: >-
             Required. The age of the participant (in days) at the time of
             sample collection.
           example: 3750
         sampleTumorStatus:
           type: string
-          description: |
+          description: >-
             Required. Text identification of the individual agent(s)
             used as part of a prior treatment regimen.
           example: Normal
@@ -1501,7 +1503,7 @@ components:
           example: Normal sample for tumor comparison
         alternateSampleId:
           type: string
-          description: |
+          description: >-
             Text identification of the individual agent(s)
             used as part of a prior treatment regimen.
       required:
@@ -1521,7 +1523,7 @@ components:
           example: pdx
         sampleId:
           type: string
-          description: |
+          description: >-
             Required. A unique sequence of alphanumeric characters
             used to identify the sample in the investigation or study.
           example: CCDI.16004.spec1
@@ -1535,13 +1537,13 @@ components:
           example: PDX.16004
         mouseStrain:
           type: string
-          description: |
+          description: >-
             Required. The host mouse strain to which the tumor is engrafted.
             May become an enum if terms are provided.
           example: C57/Bl6J
         strainImmuneSystemHumanized:
           type: string
-          description: |
+          description: >-
             The text term used to describe the anatomic site of origin,
             of the patient's malignant disease, as
             described by the World Health Organization's (WHO)
@@ -1552,7 +1554,7 @@ components:
             - 'Yes'
         implantationType:
           type: string
-          description: |
+          description: >-
             Required. Text identification of the individual agent(s) used as
             part of a prior treatment regimen.
           example: injection
@@ -1563,7 +1565,7 @@ components:
             - orthotopic
         implantationSite:
           type: string
-          description: |
+          description: >-
             Required. The text term used to describe the anatomic site of
             origin, of the patient's malignant disease,
             as described by the World Health Organization's (WHO)
@@ -1585,7 +1587,7 @@ components:
           description: How the tumor was prepared for grafting.
         tumorCharacterizationMethod:
           type: string
-          description: |
+          description: >-
             How the tumor was evaluated in the mouse host.
             May become an enum if terms are provided.
         tumorNotMusOrEbvOrigin:

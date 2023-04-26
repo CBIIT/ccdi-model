@@ -46,6 +46,28 @@ tags:
   - name: user
     description: CCDI DF Registered User
 paths:
+  /study:
+    get:
+      tags:
+        - study
+      summary: Find all studies
+      parameters:
+        - { in: query, name: page, schema: { type: integer } }
+        - { in: query, name: per_page, schema: { type: integer } }
+      responses:
+        200:
+          description: success
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/paginatedResult"
+                  - type: object
+                    properties:
+                      results:
+                        type: array
+                        items:
+                          $ref: "#/components/schemas/study"
   /study/{studyId}:
     get:
       tags:
@@ -140,6 +162,7 @@ paths:
           description: Invalid attributes supplied
         '404':
           description: Study not found
+
   /studyAdmin/{studyAdminId}:
     get:
       tags:
@@ -1431,6 +1454,16 @@ components:
         - mouseStrain
         - implantationType
         - implantationSite
+    paginatedResult:
+      type: object
+      properties:
+        has_next: { type: boolean, example: true }
+        has_prev: { type: boolean, example: true }
+        page: { type: number, example: 3 }
+        pages: { type: number, example: 5 }
+        per_page: { type: number, example: 20 }
+        total: { type: number, example: 100 }
+        results: { type: array, items: {} }
     #placeholder, TBD
     User:
       type: object

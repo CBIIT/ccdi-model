@@ -78,9 +78,9 @@ Nodes:
       - disease_response
       - risk_factor
       - follow_up_other
-  imaging_file: # 01.03.22 pdunn
+  pathology_file: 
     Props:
-      - imaging_file_id
+      - pathology_file_id
       - file_name
       - file_type
       - file_description
@@ -180,6 +180,25 @@ Nodes:
      Props:
       - publication_id
       - pubmed_id
+  radiology_file: 
+    Props:
+      - radiology_file_id
+      - anatomic_site
+      - participant_age_at_collection
+      - file_name
+      - file_type
+      - file_description
+      - file_size
+      - md5sum
+      - file_url_in_cds
+      - dcf_indexd_guid
+      - image_modality
+      - imaging_instrument_model
+      - software_package
+      - imaging_platform
+      - magnification
+      - deidentification_method
+      - file_mapping_level
   sample:
     Props:
       - sample_id

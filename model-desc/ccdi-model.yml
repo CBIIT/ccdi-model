@@ -394,11 +394,11 @@ Relationships:
     Ends:
       - Src: follow_up
         Dst: participant
-  of_imaging_file: #09.20.22 pd
+  of_pathology_file:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: imaging_file
+      - Src: pathology_file
         Dst: sample
   of_medical_history:
     Props: null
@@ -438,6 +438,12 @@ Relationships:
     Ends:
      - Src: publication
        Dst: study
+  of_radiology_file:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: pathology_file
+        Dst: participant
   of_sample: 
     Props: null
     Mul: many_to_one

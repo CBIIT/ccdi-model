@@ -442,7 +442,7 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: pathology_file
+      - Src: radiology_file
         Dst: participant
   of_sample: 
     Props: null

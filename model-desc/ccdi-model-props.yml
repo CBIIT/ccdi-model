@@ -4164,11 +4164,13 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #file
   checksum_algorithm:
     Desc: Cryptographic checksum algorithm used for 'checksum_value' field. Available for use of something other than md5.
     Type: string
     Req: false
     Private: false    
+  #file
   file_url_in_cds:
     Desc: Location of the file on the CDS Cloud, using AWS S3 protocol.
     Term:
@@ -4178,6 +4180,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+  #file
   dcf_indexd_guid:
     Desc: An assigned globally unique identifier (GUID) that is assigned for the indexing process, making files available. This is usually not supplied by the submitter, but created in the ingestion process.
     Term:
@@ -4187,6 +4190,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+  #file
   file_mapping_level:
     Desc: Describes if the file belongs to a Participant, a Sample, or a Study.
     Enum:
@@ -4195,9 +4199,9 @@ PropDefinitions:
       - Study
     Req: false
     Private: false    
-  # imaging file props
-  imaging_file_id: 
-    Desc: A unique identifier for a imaging file.
+  # pathology_file
+  pathology_file_id: 
+    Desc: A unique identifier for a pathology file.
     Term:
       - Origin: caDSR
         Code: '2534569'
@@ -4206,7 +4210,18 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  # pathology_file, radiology_file
+  # radiology_file
+  radiology_file_id: 
+    Desc: A unique identifier for a pathology file.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
+  # radiology_file
   image_modality:
     Desc: The method by which the images are generated.
     Term:
@@ -4219,26 +4234,7 @@ PropDefinitions:
         - "CT"
         - "MRI"
         - "PET"
-        - "Slide microscopy"
         - "X-ray"
-    Req: true
-    Private: false
-  # pathology_file, radiology_file  
-  imaging_platform:
-    Desc: The words used to describe the instrument used to carry out an imaging experiment.
-    Type: string
-    Req: false
-    Private: false
-  # pathology_file, radiology_file  
-  imaging_instrument_model:
-    Desc: The words used to describe the specific model of the instrument used to carry out an imaging experiment.
-    Type: string
-    Req: true
-    Private: false    
-  # pathology_file, radiology_file
-  software_package:
-    Desc: The name of the software package that was used.
-    Type: string
     Req: true
     Private: false
   # participant

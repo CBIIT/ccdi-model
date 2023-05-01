@@ -42,7 +42,7 @@ PropDefinitions:
         - "Immunohistochemical Staining"
     Req: true
     Private: false   
-  #pathology_file
+  #radiology_file
   deidentification_method:
     Desc: Patient Deidentification
     Term:
@@ -4206,25 +4206,36 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  # imaging file props
+  # pathology_file, radiology_file
   image_modality:
     Desc: The method in which the images are generated.
-    Type: string
+    Term:
+      - Origin: caDSR
+      - Code: '3794749'
+      - Value: Image Modality Type
+    Type: 
+      - string
+      -
+        - "CT"
+        - "MRI"
+        - "PET"
+        - "Slide microscopy"
+        - "X-ray"
     Req: true
     Private: false
-  # imaging file props  
+  # pathology_file, radiology_file  
   imaging_platform:
     Desc: The words used to describe the instrument used to carry out an imaging experiment.
     Type: string
     Req: false
     Private: false
-  # imaging file props  
+  # pathology_file, radiology_file  
   imaging_instrument_model:
     Desc: The words used to describe the specific model of the instrument used to carry out an imaging experiment.
     Type: string
     Req: true
     Private: false    
-  # imaging file props
+  # pathology_file, radiology_file
   software_package:
     Desc: The name of the software package that was used.
     Type: string

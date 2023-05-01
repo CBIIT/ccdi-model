@@ -196,7 +196,6 @@ Nodes:
       - imaging_instrument_model
       - software_package
       - imaging_platform
-      - magnification
       - deidentification_method
       - file_mapping_level
   sample:

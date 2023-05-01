@@ -4208,11 +4208,11 @@ PropDefinitions:
     Key: true
   # pathology_file, radiology_file
   image_modality:
-    Desc: The method in which the images are generated.
+    Desc: The method by which the images are generated.
     Term:
       - Origin: caDSR
-      - Code: '3794749'
-      - Value: Image Modality Type
+        Code: '3794749'
+        Value: Image Modality Type
     Type: 
       - string
       -

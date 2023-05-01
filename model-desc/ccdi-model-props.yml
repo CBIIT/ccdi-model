@@ -1,5 +1,5 @@
 PropDefinitions:
-  #imaging_file
+  #pathology_file
   magnification:
     Desc: The amount or degree of visual enlargement used during image acquisition.
     Term: 
@@ -10,7 +10,7 @@ PropDefinitions:
       - string
     Req: true
     Private: false
-  #imaging_file
+  #pathology_file
   fixation_embedding_method: 
     Desc: Any of the steps that convert a fresh tissue to a specimen ready for microscopy.
     Term:
@@ -28,7 +28,7 @@ PropDefinitions:
         - "Thin Smear Technique"
     Req: true
     Private: false
-  #imaging_file
+  #pathology_file
   staining_method:
     Desc: Any of the various methods that use a dye, reagent, or other material for producing coloration in tissues or microorganisms for microscopic examination.
     Term:
@@ -42,7 +42,7 @@ PropDefinitions:
         - "Immunohistochemical Staining"
     Req: true
     Private: false   
-  #imaging_file
+  #pathology_file
   deidentification_method:
     Desc: Patient Deidentification
     Term:

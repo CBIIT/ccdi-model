@@ -53,7 +53,7 @@ PropDefinitions:
       - integer
       -
         - "null"
-    Req: false
+    Req: true
     Private: false  
   #radiology_file
   deidentification_method:

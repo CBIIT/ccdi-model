@@ -78,21 +78,6 @@ Nodes:
       - disease_response
       - risk_factor
       - follow_up_other
-  pathology_file: 
-    Props:
-      - pathology_file_id
-      - file_name
-      - file_type
-      - file_description
-      - file_size
-      - md5sum
-      - file_url_in_cds
-      - dcf_indexd_guid
-      - magnification
-      - fixation_embedding_method
-      - staining_method
-      - deidentification_method
-      - file_mapping_level
   medical_history:
     Props:
       - medical_history_id
@@ -157,6 +142,21 @@ Nodes:
       - ethnicity
       - alternate_participant_id
       # - dbgap_subject_id : store in synonym
+  pathology_file: 
+    Props:
+      - pathology_file_id
+      - file_name
+      - file_type
+      - file_description
+      - file_size
+      - md5sum
+      - file_url_in_cds
+      - dcf_indexd_guid
+      - magnification
+      - fixation_embedding_method
+      - staining_method
+      - deidentification_method
+      - file_mapping_level
   pdx:
     Props: 
       - pdx_id
@@ -186,9 +186,6 @@ Nodes:
       - file_url_in_cds
       - dcf_indexd_guid
       - image_modality
-      - imaging_instrument_model
-      - software_package
-      - imaging_platform
       - deidentification_method
       - file_mapping_level
   sample:

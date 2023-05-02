@@ -1,8 +1,8 @@
 PropDefinitions:
-  #imaging_file
+  #pathology_file
   magnification:
     Desc: The amount or degree of visual enlargement used during image acquisition.
-    Term: 
+    Term:  
       - Origin: caDSR
         Code: '7788940'
         Value: A floating point numerical value describing the nominal magnification of an optical instrument using a combination of lenses to produce an image.
@@ -10,7 +10,7 @@ PropDefinitions:
       - string
     Req: true
     Private: false
-  #imaging_file
+  #pathology_file
   fixation_embedding_method: 
     Desc: Any of the steps that convert a fresh tissue to a specimen ready for microscopy.
     Term:
@@ -28,7 +28,7 @@ PropDefinitions:
         - "Thin Smear Technique"
     Req: true
     Private: false
-  #imaging_file
+  #pathology_file
   staining_method:
     Desc: Any of the various methods that use a dye, reagent, or other material for producing coloration in tissues or microorganisms for microscopic examination.
     Term:
@@ -42,7 +42,18 @@ PropDefinitions:
         - "Immunohistochemical Staining"
     Req: true
     Private: false   
-  #imaging_file
+  # radiology_file
+  participant_age_at_imaging:     
+    Desc: The age (in days) of the subject at the time of an imaging procedure.
+    Term:
+      - Origin: caDSR
+        Code: '12307007'
+        Value: Age at Imaging
+    Type: 
+      - integer
+      -
+        - "null"
+  #radiology_file
   deidentification_method:
     Desc: Patient Deidentification
     Term:
@@ -4094,6 +4105,7 @@ PropDefinitions:
         - "bam_index"
         - "bcf"
         - "bed"
+        - "bif"
         - "cram"
         - "cram_index"
         - "csv"
@@ -4103,20 +4115,28 @@ PropDefinitions:
         - "fastq"
         - "jpg"
         - "json"
+        - "mrxs"
         - "maf"
+        - "ndpi"
+        - "nifti"
         - "pdf"
         - "png"
         - "rda"
         - "rdata"
         - "rds"
         - "sas7bdat"
+        - "scn"
         - "svg"
+        - "svs"
         - "tbi"
         - "tsv"
+        - "tif"
         - "tiff"
         - "txt"
         - "vcf"
         - "vcf_index"
+        - "vms"
+        - "vmu"
         - "xls"
         - "xlsx"
         - "xml"
@@ -4164,11 +4184,13 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #file
   checksum_algorithm:
     Desc: Cryptographic checksum algorithm used for 'checksum_value' field. Available for use of something other than md5.
     Type: string
     Req: false
     Private: false    
+  #file
   file_url_in_cds:
     Desc: Location of the file on the CDS Cloud, using AWS S3 protocol.
     Term:
@@ -4178,6 +4200,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+  #file
   dcf_indexd_guid:
     Desc: An assigned globally unique identifier (GUID) that is assigned for the indexing process, making files available. This is usually not supplied by the submitter, but created in the ingestion process.
     Term:
@@ -4187,6 +4210,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+  #file
   file_mapping_level:
     Desc: Describes if the file belongs to a Participant, a Sample, or a Study.
     Enum:
@@ -4195,9 +4219,9 @@ PropDefinitions:
       - Study
     Req: false
     Private: false    
-  # imaging file props
-  imaging_file_id: 
-    Desc: A unique identifier for a imaging file.
+  # pathology_file
+  pathology_file_id: 
+    Desc: A unique identifier for a pathology file.
     Term:
       - Origin: caDSR
         Code: '2534569'
@@ -4206,28 +4230,31 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  # imaging file props
+  # radiology_file
+  radiology_file_id: 
+    Desc: A unique identifier for a pathology file.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
+  # radiology_file
   image_modality:
-    Desc: The method in which the images are generated.
-    Type: string
-    Req: true
-    Private: false
-  # imaging file props  
-  imaging_platform:
-    Desc: The words used to describe the instrument used to carry out an imaging experiment.
-    Type: string
-    Req: false
-    Private: false
-  # imaging file props  
-  imaging_instrument_model:
-    Desc: The words used to describe the specific model of the instrument used to carry out an imaging experiment.
-    Type: string
-    Req: true
-    Private: false    
-  # imaging file props
-  software_package:
-    Desc: The name of the software package that was used.
-    Type: string
+    Desc: The method by which the images are generated.
+    Term:
+      - Origin: caDSR
+        Code: '3794749'
+        Value: Image Modality Type
+    Type: 
+      - string
+      -
+        - "CT"
+        - "MRI"
+        - "PET"
+        - "X-ray"
     Req: true
     Private: false
   # participant

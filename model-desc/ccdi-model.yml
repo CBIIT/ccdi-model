@@ -177,7 +177,7 @@ Nodes:
     Props:
       - radiology_file_id
       - anatomic_site
-      - participant_age_at_collection
+      - participant_age_at_event
       - file_name
       - file_type
       - file_description

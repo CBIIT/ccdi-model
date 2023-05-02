@@ -53,6 +53,8 @@ PropDefinitions:
       - integer
       -
         - "null"
+    Req: true
+    Private: false  
   #radiology_file
   deidentification_method:
     Desc: Patient Deidentification

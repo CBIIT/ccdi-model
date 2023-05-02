@@ -42,6 +42,17 @@ PropDefinitions:
         - "Immunohistochemical Staining"
     Req: true
     Private: false   
+  # radiology_file
+  participant_age_at_imaging:     
+    Desc: The age (in days) of the subject at the time of an imaging procedure.
+    Term:
+      - Origin: caDSR
+        Code: '12307007'
+        Value: Age at Imaging
+    Type: 
+      - integer
+      -
+        - "null"
   #radiology_file
   deidentification_method:
     Desc: Patient Deidentification

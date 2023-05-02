@@ -176,8 +176,6 @@ Nodes:
   radiology_file: 
     Props:
       - radiology_file_id
-      - anatomic_site
-      - participant_age_at_imaging
       - file_name
       - file_type
       - file_description
@@ -185,6 +183,8 @@ Nodes:
       - md5sum
       - file_url_in_cds
       - dcf_indexd_guid
+      - anatomic_site
+      - participant_age_at_imaging
       - image_modality
       - deidentification_method
       - file_mapping_level

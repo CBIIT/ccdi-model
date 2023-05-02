@@ -2,7 +2,7 @@ PropDefinitions:
   #pathology_file
   magnification:
     Desc: The amount or degree of visual enlargement used during image acquisition.
-    Term: 
+    Term:  
       - Origin: caDSR
         Code: '7788940'
         Value: A floating point numerical value describing the nominal magnification of an optical instrument using a combination of lenses to produce an image.
@@ -4094,6 +4094,7 @@ PropDefinitions:
         - "bam_index"
         - "bcf"
         - "bed"
+        - "bif"
         - "cram"
         - "cram_index"
         - "csv"
@@ -4103,20 +4104,28 @@ PropDefinitions:
         - "fastq"
         - "jpg"
         - "json"
+        - "mrxs"
         - "maf"
+        - "ndpi"
+        - "nifti"
         - "pdf"
         - "png"
         - "rda"
         - "rdata"
         - "rds"
         - "sas7bdat"
+        - "scn"
         - "svg"
+        - "svs"
         - "tbi"
         - "tsv"
+        - "tif"
         - "tiff"
         - "txt"
         - "vcf"
         - "vcf_index"
+        - "vms"
+        - "vmu"
         - "xls"
         - "xlsx"
         - "xml"

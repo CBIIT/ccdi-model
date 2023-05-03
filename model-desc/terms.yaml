@@ -6574,15 +6574,6 @@ Terms:
     Code: 13362507
     Version: 1
     Value: Stage IV Childhood Non-Hodgkin Lymphoma by Toronto Guidelines v2
-  Non-neoplastic:
-    Origin: caDSR
-    Definition: 'An operation in which a term denies or inverts the meaning of another
-      term or construction.: Exhibiting characteristics of independently proliferating
-      cells, notably altered morphology, growth characteristics, and/or biochemical
-      and molecular properties.'
-    Code: 5828001
-    Version: 1
-    Value: Non-Neoplastic
   Non-rhabdomyosarcoma soft tissue sarcoma Stage I:
     Origin: caDSR
     Definition: 'Any T, N0, M0, G1 or GX. (Childhood cancer staging for population

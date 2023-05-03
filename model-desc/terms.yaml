@@ -6208,3 +6208,728 @@ Terms:
     Code: 2567168
     Version: '1'
     Value: 'Yes'
+#Toronto Staging
+  Acute lymphoblastic leukemia CNS1:
+    Origin: caDSR
+    Definition: 'No clinical signs of CNS involvement and no blasts in CSF. (Childhood
+      cancer staging for population registries according to the Toronto Childhood
+      Cancer Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13362497
+    Version: 1
+    Value: Childhood Acute Lymphoblastic Leukemia CNS 1 Toronto Guidelines v2
+  Acute lymphoblastic leukemia CNS2:
+    Origin: caDSR
+    Definition: 'No clinical signs of CNS involvement and blasts in CSF and either:
+      WBC < 5/μL CSF or WBC > or = 5/uL CSF and RBC > or = 10/uL CSF and WBC/RBC in
+      CSF < or = 2x WBC/RBC in blood. (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362498
+    Version: 1
+    Value: Childhood Acute Lymphoblastic Leukemia CNS 2 Toronto Guidelines v2
+  Acute lymphoblastic leukemia CNS3:
+    Origin: caDSR
+    Definition: 'Clinical signs of CNS involvement or blasts in CSF and WBC > or =
+      5/uL CSF and either: RBC < 10/uL CSF or RBC > or = 10/uL CSF and WBC/RBC in
+      CSF > 2x WBC/RBC in blood. (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362499
+    Version: 1
+    Value: Childhood Acute Lymphoblastic Leukemia CNS 3 Toronto Guidelines v2
+  Astrocytomas Localized:
+    Origin: caDSR
+    Definition: 'Localized disease. (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367913
+    Version: 1
+    Value: Localized Childhood Astrocytoma by Toronto Guidelines v2
+  Astrocytomas Metastatic:
+    Origin: caDSR
+    Definition: 'Distant metastases present. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367914
+    Version: 1
+    Value: Metastatic Childhood Astrocytoma by Toronto Guidelines v2
+  Ependymoma M0:
+    Origin: caDSR
+    Definition: 'No visible disease on imaging (MRI brain and spine) beyond primary
+      site of disease and no tumor cells in the CSF. (Childhood cancer staging for
+      population registries according to the Toronto Childhood Cancer Stage Guidelines
+      - Version 2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia;
+      2021.)'
+    Code: 13367920
+    Version: 1
+    Value: Stage M0 Childhood Ependymoma by Toronto Guidelines v2
+  Ependymoma M1:
+    Origin: caDSR
+    Definition: 'Tumor cells in the CSF. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367921
+    Version: 1
+    Value: Stage M1 Childhood Ependymoma by Toronto Guidelines v2
+  Ependymoma M2:
+    Origin: caDSR
+    Definition: 'Visible metastasis in brain. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367922
+    Version: 1
+    Value: Stage M2 Childhood Ependymoma by Toronto Guidelines v2
+  Ependymoma M3:
+    Origin: caDSR
+    Definition: 'Visible metastasis in spine or visible metastasis in cervicomedullary
+      junction. (Childhood cancer staging for population registries according to the
+      Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer Council Queensland
+      and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367923
+    Version: 1
+    Value: Stage M3 Childhood Ependymoma by Toronto Guidelines v2
+  Ependymoma M4:
+    Origin: caDSR
+    Definition: 'Metastasis outside of the central nervous system. (Childhood cancer
+      staging for population registries according to the Toronto Childhood Cancer
+      Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13367924
+    Version: 1
+    Value: Stage M4 Childhood Ependymoma by Toronto Guidelines v2
+  Hepatoblastoma Localized PRETEXT I:
+    Origin: caDSR
+    Definition: 'PRETEX I hepatoblastoma confined to the liver including regional
+      lymph nodes. (Childhood cancer staging for population registries according to
+      the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer Council Queensland
+      and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362572
+    Version: 1
+    Value: Localized PRETEX I Hepatoblastoma
+  Hepatoblastoma Localized PRETEXT II:
+    Origin: caDSR
+    Definition: 'PRETEX II hepatoblastoma confined to the liver including regional
+      lymph nodes. (Childhood cancer staging for population registries according to
+      the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer Council Queensland
+      and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362573
+    Version: 1
+    Value: Localized PRETEX II Hepatoblastoma
+  Hepatoblastoma Localized PRETEXT III:
+    Origin: caDSR
+    Definition: 'PRETEX III hepatoblastoma confined to the liver including regional
+      lymph nodes. (Childhood cancer staging for population registries according to
+      the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer Council Queensland
+      and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362574
+    Version: 1
+    Value: Localized PRETEX III Hepatoblastoma
+  Hepatoblastoma Localized PRETEXT IV:
+    Origin: caDSR
+    Definition: 'PRETEX IV hepatoblastoma confined to the liver including regional
+      lymph nodes. (Childhood cancer staging for population registries according to
+      the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer Council Queensland
+      and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362575
+    Version: 1
+    Value: Localized PRETEX IV Hepatoblastoma
+  Hepatoblastoma Metastatic PRETEXT I:
+    Origin: caDSR
+    Definition: 'PRETEX I hepatoblastoma with distant metastases. (Childhood cancer
+      staging for population registries according to the Toronto Childhood Cancer
+      Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13362576
+    Version: 1
+    Value: Metastatic PRETEX I Hepatoblastoma
+  Hepatoblastoma Metastatic PRETEXT II:
+    Origin: caDSR
+    Definition: 'PRETEX II hepatoblastoma with distant metastases. (Childhood cancer
+      staging for population registries according to the Toronto Childhood Cancer
+      Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13362577
+    Version: 1
+    Value: Metastatic PRETEX II Hepatoblastoma
+  Hepatoblastoma Metastatic PRETEXT III:
+    Origin: caDSR
+    Definition: 'PRETEX III hepatoblastoma with distant metastases. (Childhood cancer
+      staging for population registries according to the Toronto Childhood Cancer
+      Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13362578
+    Version: 1
+    Value: Metastatic PRETEX III Hepatoblastoma
+  Hepatoblastoma Metastatic PRETEXT IV:
+    Origin: caDSR
+    Definition: 'PRETEX IV hepatoblastoma with distant metastases. (Childhood cancer
+      staging for population registries according to the Toronto Childhood Cancer
+      Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13362579
+    Version: 1
+    Value: Metastatic PRETEX IV Hepatoblastoma
+  Hodgkin lymphoma Stage I:
+    Origin: caDSR
+    Definition: 'Involvement of a single lymph node region or involvement of a single
+      extra-lymphatic organ or site, without lymph node involvement. This definition
+      applies to both tiers (tier 1 and 2).  (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362500
+    Version: 1
+    Value: Stage I Childhood Hodgkin Lymphoma by Toronto Guidelines v2
+  Hodgkin lymphoma Stage II:
+    Origin: caDSR
+    Definition: 'Involvement of two or more lymph node regions on the same side (either
+      above or below) of the diaphragm or localized involvement of a single extra-lymphatic
+      organ or site in association with regional lymph node involvement (i.e., local
+      extension from a lymph node area into a nearby organ), with or without involvement
+      of other contiguous lymph node regions on the same side (either above or below)
+      of the diaphragm. This definition applies to both tiers (tier 1 and 2). (Childhood
+      cancer staging for population registries according to the Toronto Childhood
+      Cancer Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13362501
+    Version: 1
+    Value: Stage II Childhood Hodgkin Lymphoma by Toronto Guidelines v2
+  Hodgkin lymphoma Stage III:
+    Origin: caDSR
+    Definition: 'Involvement of lymph node regions on both sides (above and below)
+      of the diaphragm. This may be accompanied by extra-lymphatic extension in association
+      with adjacent lymph node involvement (i.e., local extension from a lymph node
+      area into a nearby organ) and/or involvement of spleen. This definition applies
+      to both tiers (tier 1 and 2). (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362502
+    Version: 1
+    Value: Stage III Childhood Hodgkin Lymphoma by Toronto Guidelines v2
+  Hodgkin lymphoma Stage IV:
+    Origin: caDSR
+    Definition: 'Diffuse or disseminated (multifocal) involvement of one or more extra-lymphatic
+      organs with or without associated lymph node involvement or isolated (non-contiguous)
+      extra-lymphatic organ involvement in the absence of adjacent regional lymph
+      node involvement, but in conjunction with disease in distant site(s) or any
+      involvement of liver, bone marrow, lungs (except by direct extension from another
+      site) or CSF. This definition applies to both tiers (tier 1 and 2). (Childhood
+      cancer staging for population registries according to the Toronto Childhood
+      Cancer Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13362503
+    Version: 1
+    Value: Stage IV Childhood Hodgkin Lymphoma by Toronto Guidelines v2
+  Malignant bone tumor Localized:
+    Origin: caDSR
+    Definition: 'Tumor confined to the area of origin including the regional lymph
+      nodes. (Childhood cancer staging for population registries according to the
+      Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer Council Queensland
+      and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362554
+    Version: 1
+    Value: Localized Childhood Malignant Bone Neoplasm by Toronto Guidelines v2
+  Malignant bone tumor Metastatic:
+    Origin: caDSR
+    Definition: 'Distant metastases present. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362555
+    Version: 1
+    Value: Metastatic Childhood Malignant Bone Neoplasm by Toronto Guidelines v2
+  Medulloblastoma M0:
+    Origin: caDSR
+    Definition: 'No visible disease on imaging (MRI brain and spine) beyond primary
+      site of disease and no tumor cells in the CSF. (Childhood cancer staging for
+      population registries according to the Toronto Childhood Cancer Stage Guidelines
+      - Version 2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia;
+      2021.)'
+    Code: 13367915
+    Version: 1
+    Value: Stage M0 Childhood Medulloblastoma by Toronto Guidelines v2
+  Medulloblastoma M1:
+    Origin: caDSR
+    Definition: 'Tumor cells in the CSF. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367916
+    Version: 1
+    Value: Stage M1 Childhood Medulloblastoma by Toronto Guidelines v2
+  Medulloblastoma M2:
+    Origin: caDSR
+    Definition: 'Visible metastasis in brain. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367917
+    Version: 1
+    Value: Stage M2 Childhood Medulloblastoma by Toronto Guidelines v2
+  Medulloblastoma M3:
+    Origin: caDSR
+    Definition: 'Visible metastasis in spine or visible metastasis in cervicomedullary
+      junction. (Childhood cancer staging for population registries according to the
+      Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer Council Queensland
+      and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367918
+    Version: 1
+    Value: Stage M3 Childhood Medulloblastoma by Toronto Guidelines v2
+  Medulloblastoma M4:
+    Origin: caDSR
+    Definition: 'Metastasis outside of the central nervous system. (Childhood cancer
+      staging for population registries according to the Toronto Childhood Cancer
+      Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13367919
+    Version: 1
+    Value: Stage M4 Childhood Medulloblastoma by Toronto Guidelines v2
+  Neuroblastoma Stage L1:
+    Origin: caDSR
+    Definition: 'Localized tumor that does not involve any vital structures as defined
+      by the list of IDRFs (i.e., there are no IDRFs) and the tumor must be confined
+      within one body compartment, neck, chest, abdomen, or pelvis. An intraspinal
+      tumor extension that does not fulfill the criteria for an IDRF is consistent
+      with stage L1. (Childhood cancer staging for population registries according
+      to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer Council
+      Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362508
+    Version: 1
+    Value: Stage L1 Childhood Neuroblastoma by Toronto Guidelines v2
+  Neuroblastoma Stage L2:
+    Origin: caDSR
+    Definition: 'Locoregional tumor with one or more IDRFs. The tumor may be ipsilateral
+      contiguous within body compartments (i.e., a left-sided abdominal tumor with
+      left-sided lung, bone or pleura involvement should be considered stage L2).
+      However, a clearly left-sided abdominal tumor with right-sided lung, bone or
+      pleura (or vice-versa) involvement is defined as metastatic disease. (Childhood
+      cancer staging for population registries according to the Toronto Childhood
+      Cancer Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13362509
+    Version: 1
+    Value: Stage L2 Childhood Neuroblastoma by Toronto Guidelines v2
+  Neuroblastoma Stage M:
+    Origin: caDSR
+    Definition: 'Distant metastatic disease (i.e., not contiguous with the primary
+      tumor) except as defined for stage MS. Nonregional (distant) lymph node involvement
+      is metastatic disease. However, an upper abdominal tumor with enlarged lower
+      mediastinal nodes or a pelvic tumor with inguinal lymph node involvement is
+      considered locoregional disease. Ascites and/or a pleural effusion, even with
+      malignant cells, do not constitute metastatic disease unless they are remote
+      from the body compartment of the primary tumor. (Childhood cancer staging for
+      population registries according to the Toronto Childhood Cancer Stage Guidelines
+      - Version 2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia;
+      2021.)'
+    Code: 13362510
+    Version: 1
+    Value: Stage M Childhood Neuroblastoma by Toronto Guidelines v2
+  Neuroblastoma Stage MS:
+    Origin: caDSR
+    Definition: 'Metastatic disease confined to skin, liver, and/or bone marrow, in
+      a patient less than 18 months (547 days). MIBG scintigraphy must be negative
+      in bone and bone marrow. (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362511
+    Version: 1
+    Value: Stage MS Childhood Neuroblastoma by Toronto Guidelines v2
+  Non-Hodgkin lymphoma Stage I:
+    Origin: caDSR
+    Definition: 'Involvement of a single tumor mass or nodal area, excluding the abdomen
+      and mediastinum. (Childhood cancer staging for population registries according
+      to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer Council
+      Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362504
+    Version: 1
+    Value: Stage I Childhood Non-Hodgkin Lymphoma by Toronto Guidelines v2
+  Non-Hodgkin lymphoma Stage II:
+    Origin: caDSR
+    Definition: 'A single tumor (extranodal) with regional node involvement or two
+      or more nodal areas on the same side (either above or below) of the diaphragm
+      or two or more single (extranodal) tumors, with or without regional node involvement,
+      on the same side (either above or below) of the diaphragm or a completely resected
+      primary gastrointestinal tract tumor with or without involvement of associated
+      mesenteric nodes only. (Childhood cancer staging for population registries according
+      to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer Council
+      Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362505
+    Version: 1
+    Value: Stage II Childhood Non-Hodgkin Lymphoma by Toronto Guidelines v2
+  Non-Hodgkin lymphoma Stage III:
+    Origin: caDSR
+    Definition: 'Tumors (extranodal) or nodal areas on both sides (above and below)
+      of the diaphragm or any primary intrathoracic tumors (mediastinal, hilar, pulmonary,
+      pleural, or thymic) or extensive (unresectable) primary intra-abdominal disease
+      or any paraspinal or epidural tumors regardless of other tumor sites. (Childhood
+      cancer staging for population registries according to the Toronto Childhood
+      Cancer Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13362506
+    Version: 1
+    Value: Stage III Childhood Non-Hodgkin Lymphoma by Toronto Guidelines v2
+  Non-Hodgkin lymphoma Stage IV:
+    Origin: caDSR
+    Definition: 'Initial CNS and/or bone marrow involvement. (Childhood cancer staging
+      for population registries according to the Toronto Childhood Cancer Stage Guidelines
+      - Version 2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia;
+      2021.)'
+    Code: 13362507
+    Version: 1
+    Value: Stage IV Childhood Non-Hodgkin Lymphoma by Toronto Guidelines v2
+  Non-neoplastic:
+    Origin: caDSR
+    Definition: 'An operation in which a term denies or inverts the meaning of another
+      term or construction.: Exhibiting characteristics of independently proliferating
+      cells, notably altered morphology, growth characteristics, and/or biochemical
+      and molecular properties.'
+    Code: 5828001
+    Version: 1
+    Value: Non-Neoplastic
+  Non-rhabdomyosarcoma soft tissue sarcoma Stage I:
+    Origin: caDSR
+    Definition: 'Any T, N0, M0, G1 or GX. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362550
+    Version: 1
+    Value: Stage I Childhood Non-Rhabdomyosarcoma Soft Tissue Sarcoma by Toronto Guidelines
+      v2
+  Non-rhabdomyosarcoma soft tissue sarcoma Stage II:
+    Origin: caDSR
+    Definition: 'T1, N0, M0, G2 or G3. (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362551
+    Version: 1
+    Value: Stage II Childhood Non-Rhabdomyosarcoma Soft Tissue Sarcoma by Toronto
+      Guidelines v2
+  Non-rhabdomyosarcoma soft tissue sarcoma Stage III:
+    Origin: caDSR
+    Definition: 'T2 or T3 or T4, N0, M0, G2 or G3 or Any T, N1, M0, Any G (G1, G2,
+      G3 or GX). (Childhood cancer staging for population registries according to
+      the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer Council Queensland
+      and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362552
+    Version: 1
+    Value: Stage III Childhood Non-Rhabdomyosarcoma Soft Tissue Sarcoma by Toronto
+      Guidelines v2
+  Non-rhabdomyosarcoma soft tissue sarcoma Stage IV:
+    Origin: caDSR
+    Definition: 'Any T, Any N, M1, Any G (G1, G2, G3, GX). (Childhood cancer staging
+      for population registries according to the Toronto Childhood Cancer Stage Guidelines
+      - Version 2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia;
+      2021.)'
+    Code: 13362553
+    Version: 1
+    Value: Stage IV Childhood Non-Rhabdomyosarcoma Soft Tissue Sarcoma by Toronto
+      Guidelines v2
+  Ovarian germ cell tumor Stage I:
+    Origin: caDSR
+    Definition: 'Tumor confined to ovaries (one or both). (Childhood cancer staging
+      for population registries according to the Toronto Childhood Cancer Stage Guidelines
+      - Version 2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia;
+      2021.)'
+    Code: 13367909
+    Version: 1
+    Value: Stage I Childhood Ovarian Germ Cell Tumor by Toronto Guidelines v2
+  Ovarian germ cell tumor Stage II:
+    Origin: caDSR
+    Definition: 'Tumor involves one or both ovaries with pelvic extension (below the
+      pelvic brim). (Childhood cancer staging for population registries according
+      to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer Council
+      Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367910
+    Version: 1
+    Value: Stage II Childhood Ovarian Germ Cell Tumor by Toronto Guidelines v2
+  Ovarian germ cell tumor Stage III:
+    Origin: caDSR
+    Definition: 'Tumor involves one or both ovaries with cytologically or histologically
+      confirmed spread to the peritoneum outside the pelvis and/or metastasis to the
+      retroperitoneal lymph nodes. (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367911
+    Version: 1
+    Value: Stage III Childhood Ovarian Germ Cell Tumor by Toronto Guidelines v2
+  Ovarian germ cell tumor Stage IV:
+    Origin: caDSR
+    Definition: 'Distant metastasis (excludes peritoneal metastases). (Childhood cancer
+      staging for population registries according to the Toronto Childhood Cancer
+      Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13367912
+    Version: 1
+    Value: Stage IV Childhood Ovarian Germ Cell Tumor by Toronto Guidelines v2
+  Renal tumor (excluding renal cell carcinomas) Stage I:
+    Origin: caDSR
+    Definition: 'Tumor is limited to the kidney and completely excised. Renal capsule
+      intact, not penetrated by tumor. No tumor invasion of veins or lymphatics of
+      renal sinus. No nodal or hematogenous metastases. No prior biopsy. Negative
+      margins. (Childhood cancer staging for population registries according to the
+      Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer Council Queensland
+      and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362512
+    Version: 1
+    Value: Stage I Childhood Malignant Kidney Neoplasm Excluding Renal Cell Carcinoma
+      by Toronto Guidelines v2, Children’s Oncology Group (COG) Protocol
+  Renal tumor (excluding renal cell carcinomas) Stage II:
+    Origin: caDSR
+    Definition: 'Tumor extends beyond kidney but completely resected. Tumor penetrates
+      renal capsule. Tumor in lymphatics or veins of renal sinus. Tumor in renal vein
+      with margin not involved. No nodal or hematogenous metastases. Negative margins.
+      (Childhood cancer staging for population registries according to the Toronto
+      Childhood Cancer Stage Guidelines - Version 2. Cancer Council Queensland and
+      Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362513
+    Version: 1
+    Value: Stage II Childhood Malignant Kidney Neoplasm Excluding Renal Cell Carcinoma
+      by Toronto Guidelines v2, Children’s Oncology Group (COG) Protocol
+  Renal tumor (excluding renal cell carcinomas) Stage III:
+    Origin: caDSR
+    Definition: 'Residual tumor or nonhematogenous metastases confined to abdomen.
+      Involved abdominal nodes. Peritoneal contamination or tumor implant. Tumor spillage
+      of any degree occurring before or during surgery. Gross residual tumor in abdomen.
+      Biopsy of tumor (including fine-needle aspiration) prior to removal of kidney.
+      Resection margins involved by tumor. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362514
+    Version: 1
+    Value: Stage III Childhood Malignant Kidney Neoplasm Excluding Renal Cell Carcinoma
+      by Toronto Guidelines v2, Children’s Oncology Group (COG) Protocol
+  Renal tumor (excluding renal cell carcinomas) Stage IV:
+    Origin: caDSR
+    Definition: 'Hematogenous metastases or spread beyond abdomen at diagnosis. (Childhood
+      cancer staging for population registries according to the Toronto Childhood
+      Cancer Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13362515
+    Version: 1
+    Value: Stage IV Childhood Malignant Kidney Neoplasm Excluding Renal Cell Carcinoma
+      by Toronto Guidelines v2, Children’s Oncology Group (COG) Protocol
+  Renal tumor (excluding renal cell carcinomas) Stage y-I:
+    Origin: caDSR
+    Definition: 'Tumor limited to kidney and completely resected. Renal capsule may
+      be infiltrated by tumor, but tumor does not reach the outer surface. Tumor may
+      protrude or bulge into the pelvic system or ureter but does not infiltrate.
+      Vessel of renal sinus not involved. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362516
+    Version: 1
+    Value: Stage y-I Childhood Malignant Kidney Neoplasm Excluding Renal Cell Carcinoma
+      by Toronto Guidelines v2, International Society of Pediatric Oncology (SIOP)
+      Protocol
+  Renal tumor (excluding renal cell carcinomas) Stage y-II:
+    Origin: caDSR
+    Definition: 'Tumor extends beyond kidney but completely resected. Tumor penetrates
+      renal capsule into perirenal fat. Tumor infiltrates the renal sinus and/or invades
+      blood and lymphatic vessels outside renal parenchyma but is completely resected.
+      Tumor infiltrates adjacent organs or vena cava but is completely resected. (Childhood
+      cancer staging for population registries according to the Toronto Childhood
+      Cancer Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13362543
+    Version: 1
+    Value: Stage y-II Childhood Malignant Kidney Neoplasm Excluding Renal Cell Carcinoma
+      by Toronto Guidelines v2, International Society of Pediatric Oncology (SIOP)
+      Protocol
+  Renal tumor (excluding renal cell carcinomas) Stage y-III:
+    Origin: caDSR
+    Definition: 'Incomplete excision of the tumor (gross or microscopic extension
+      beyond the resection margins). Involved abdominal lymph nodes, including necrotic
+      tumor or chemotherapy-induced changes. Tumor rupture before or intraoperatively.
+      Tumor has penetrated the peritoneal surface. Tumor thrombi present at resection
+      margins. Surgical biopsy prior to resection (does not include needle biopsy).
+      (Childhood cancer staging for population registries according to the Toronto
+      Childhood Cancer Stage Guidelines - Version 2. Cancer Council Queensland and
+      Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362544
+    Version: 1
+    Value: Stage y-III Childhood Malignant Kidney Neoplasm Excluding Renal Cell Carcinoma
+      by Toronto Guidelines v2, International Society of Pediatric Oncology (SIOP)
+      Protocol
+  Retinoblastoma Stage 0:
+    Origin: caDSR
+    Definition: 'The tumor is confined to the globe. Enucleation has not been performed.
+      (The patient is treated \"conservatively\" with either focal therapies or chemotherapy.)
+      (Childhood cancer staging for population registries according to the Toronto
+      Childhood Cancer Stage Guidelines - Version 2. Cancer Council Queensland and
+      Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362556
+    Version: 1
+    Value: Stage 0 Childhood Retinoblastoma by Toronto Guidelines v2
+  Retinoblastoma Stage I:
+    Origin: caDSR
+    Definition: 'Enucleation with negative margins. (Childhood cancer staging for
+      population registries according to the Toronto Childhood Cancer Stage Guidelines
+      - Version 2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia;
+      2021.)'
+    Code: 13362557
+    Version: 1
+    Value: Stage I Childhood Retinoblastoma by Toronto Guidelines v2
+  Retinoblastoma Stage II:
+    Origin: caDSR
+    Definition: 'Enucleation with microscopic residual disease. (Childhood cancer
+      staging for population registries according to the Toronto Childhood Cancer
+      Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13362569
+    Version: 1
+    Value: Stage II Childhood Retinoblastoma by Toronto Guidelines v2
+  Retinoblastoma Stage III:
+    Origin: caDSR
+    Definition: 'Regional extension: involvement of the orbit and/or preauricular
+      or cervical lymph node extension. (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362570
+    Version: 1
+    Value: Stage III Childhood Retinoblastoma by Toronto Guidelines v2
+  Retinoblastoma Stage IV:
+    Origin: caDSR
+    Definition: 'Distant metastatic disease. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362571
+    Version: 1
+    Value: Stage IV Childhood Retinoblastoma by Toronto Guidelines v2
+  Rhabdomyosarcoma Stage I:
+    Origin: caDSR
+    Definition: 'Favorable site and any T, any N, M0. (Childhood cancer staging for
+      population registries according to the Toronto Childhood Cancer Stage Guidelines
+      - Version 2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia;
+      2021.)'
+    Code: 13362546
+    Version: 1
+    Value: Stage I Childhood Rhabdomyosarcoma by Toronto Guidelines v2
+  Rhabdomyosarcoma Stage II:
+    Origin: caDSR
+    Definition: 'Unfavorable site and T1a, T2a, N0, M0. (Childhood cancer staging
+      for population registries according to the Toronto Childhood Cancer Stage Guidelines
+      - Version 2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia;
+      2021.)'
+    Code: 13362547
+    Version: 1
+    Value: Stage II Childhood Rhabdomyosarcoma by Toronto Guidelines v2
+  Rhabdomyosarcoma Stage III:
+    Origin: caDSR
+    Definition: 'Unfavorable site and (T1a, T2a, N1, M0); (T1b, T2b, Any N, M0). (Childhood
+      cancer staging for population registries according to the Toronto Childhood
+      Cancer Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13362548
+    Version: 1
+    Value: Stage III Childhood Rhabdomyosarcoma by Toronto Guidelines v2
+  Rhabdomyosarcoma Stage IV:
+    Origin: caDSR
+    Definition: 'Any site and any T, any N, M1. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13362549
+    Version: 1
+    Value: Stage IV Childhood Rhabdomyosarcoma by Toronto Guidelines v2
+  Testicular germ cell tumor Stage I:
+    Origin: caDSR
+    Definition: 'pT1-4, N0, M0, SX. (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367925
+    Version: 1
+    Value: Stage I Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2
+  Testicular germ cell tumor Stage IA:
+    Origin: caDSR
+    Definition: 'pT1, N0, M0, S0. (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367898
+    Version: 1
+    Value: Stage IA Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2
+  Testicular germ cell tumor Stage IB:
+    Origin: caDSR
+    Definition: 'pT2-4, N0, M0, S0. (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367899
+    Version: 1
+    Value: Stage IB Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2
+  Testicular germ cell tumor Stage II:
+    Origin: caDSR
+    Definition: 'Any pT, N1-3, M0, SX. (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367901
+    Version: 1
+    Value: Stage II Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2
+  Testicular germ cell tumor Stage IIA:
+    Origin: caDSR
+    Definition: 'Any pT, N1, M0, S0, S1. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367902
+    Version: 1
+    Value: Stage IIA Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2
+  Testicular germ cell tumor Stage IIB:
+    Origin: caDSR
+    Definition: 'Any pT, N2, M0, S0, S1. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367903
+    Version: 1
+    Value: Stage IIB Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2
+  Testicular germ cell tumor Stage IIC:
+    Origin: caDSR
+    Definition: 'Any pT, N3, M0, S0, S1. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367904
+    Version: 1
+    Value: Stage IIC Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2
+  Testicular germ cell tumor Stage III:
+    Origin: caDSR
+    Definition: 'Any pT, Any N, M1, SX. (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367905
+    Version: 1
+    Value: Stage III Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2
+  Testicular germ cell tumor Stage IIIA:
+    Origin: caDSR
+    Definition: 'Any pT, Any N, M1, S0, S1. (Childhood cancer staging for population
+      registries according to the Toronto Childhood Cancer Stage Guidelines - Version
+      2. Cancer Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367906
+    Version: 1
+    Value: Stage IIIA Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2
+  Testicular germ cell tumor Stage IIIB:
+    Origin: caDSR
+    Definition: 'Any pT, N1-N3, M0, S2 or Any pT, Any N, M1, S2. (Childhood cancer
+      staging for population registries according to the Toronto Childhood Cancer
+      Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13367907
+    Version: 1
+    Value: Stage IIIB Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2
+  Testicular germ cell tumor Stage IIIC:
+    Origin: caDSR
+    Definition: 'Any pT, N1-N3, M0, S3 or Any pT, Any N, M1, S3. (Childhood cancer
+      staging for population registries according to the Toronto Childhood Cancer
+      Stage Guidelines - Version 2. Cancer Council Queensland and Cancer Australia:
+      Brisbane, Australia; 2021.)'
+    Code: 13367908
+    Version: 1
+    Value: Stage IIIC Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2
+  Testicular germ cell tumor Stage IS:
+    Origin: caDSR
+    Definition: 'Any pT, N0, M0, S1-3. (Childhood cancer staging for population registries
+      according to the Toronto Childhood Cancer Stage Guidelines - Version 2. Cancer
+      Council Queensland and Cancer Australia: Brisbane, Australia; 2021.)'
+    Code: 13367900
+    Version: 1
+    Value: Stage IS Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2
+  toronto_childhood_cancer_staging:
+    Origin: caDSR
+    Definition: Cancer stage as captured by the Toronto Childhood Cancer Stage Guidelines.
+    Code: 13299113
+    Version: 1
+    Value: Childhood Cancer Toronto Guidelines Stage
+
+

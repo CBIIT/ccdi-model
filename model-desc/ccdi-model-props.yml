@@ -3947,7 +3947,7 @@ PropDefinitions:
     Desc: For many of the malignancies that occur in childhood, TNM-based systems that document extent of disease at diagnosis are either inadequate or do not exist at all. Consensus guidelines for use by population cancer registries for staging childhood cancers (the Toronto Childhood Cancer Stage Guidelines) have been developed.
     Term: 
       - Origin: caDSR
-        Code: ''
+        Code: '13299113'
         Value: Toronto Childhood Cancer Staging
     Enum:
       - "Acute lymphoblastic leukaemia_CNS1"

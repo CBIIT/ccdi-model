@@ -2123,11 +2123,16 @@ Terms:
     Value: Illumina NovaSeq
   Immunotherapy:
     Origin: caDSR
-    Definition: Therapy designed to induce changes in a patient's immune status in
-      order to treat disease.
+    Definition: Therapy designed to induce changes in a patient's immune status in order to treat disease.
     Code: 5102332
     Version: '1'
     Value: Immunotherapy
+  injection:
+    Origin: JAX
+    Definition: Injection is a procedure where the human tumor cells are injected into a lateral tail vein of the mouse host using a syringe and the smallest gauge needle possible 
+    Code: 
+    Version: '1'
+    Value: injection
   instrument_model:
     Origin: caDSR
     Definition: The words used to describe the specific model of the instrument used
@@ -3407,6 +3412,12 @@ Terms:
     Code: 7670584
     Version: '1'
     Value: Not Otherwise Specified Oropharynx
+  orthotopic:
+    Origin: JAX
+    Definition: Orthotopic refers to the implantation of human tumor cells/tissues into the corresponding organ or tissue in an anesthetized transplant compliant mouse host.
+    Code:
+    Version: '1'
+    Value: orthotopic
   Other:
     Origin: caDSR
     Definition: Different than the one(s) previously specified or mentioned.
@@ -5204,6 +5215,12 @@ Terms:
     Code: 5102335
     Version: '1'
     Value: Single Surgical Procedure
+  surgical:
+    Origin: JAX
+    Definition: Surgical is a procedure in which human cells/tissues are implanted into an anesthetized mouse. The site of implantation is often an immune privileged site such as the subrenal capsule. 
+    Code:
+    Version: '1'
+    Value: surgical
   Synthetic:
     Origin: caDSR
     Definition: Synthetic DNA
@@ -5781,6 +5798,12 @@ Terms:
     Code: 3130369
     Version: '1'
     Value: Bladder Trigone
+  trocar:
+    Origin: JAX
+    Definition: Trocar is a procedure for subcutaneous implantation of human cells/tissues into an anesthetized mouse using a sterilized tissue implantation needle (trocar)
+    Code:
+    Version: '1'
+    Value: trocar
   Tumor:
     Origin: caDSR
     Definition: A benign or malignant tissue growth resulting from uncontrolled cell

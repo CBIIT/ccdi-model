@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 2088096
+commit a63fd06
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -10,14 +10,14 @@ clinical_measure_file	file_mapping_level	Participiant
 clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
-clinical_measure_file	file_size	ARRAY(0x55a0d585fea8)
+clinical_measure_file	file_size	ARRAY(0x562b9bfd16d0)
 clinical_measure_file	file_size	integer
-clinical_measure_file	file_type	ARRAY(0x55a0d58812a0)
+clinical_measure_file	file_type	ARRAY(0x562b9c033d08)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
 clinical_measure_file	participant_list	STRING
-diagnosis	age_at_diagnosis	ARRAY(0x55a0d59197e0)
+diagnosis	age_at_diagnosis	ARRAY(0x562b9bf4a848)
 diagnosis	age_at_diagnosis	integer
 diagnosis	anatomic_site	Abdomen, NOS
 diagnosis	anatomic_site	Abdominal esophagus
@@ -362,7 +362,7 @@ diagnosis	diagnosis_finer_resolution	STRING
 diagnosis	diagnosis_icd_cm	STRING
 diagnosis	diagnosis_icd_o	ARRAY
 diagnosis	diagnosis_id	STRING
-diagnosis	disease_phase	ARRAY(0x55a0d5913180)
+diagnosis	disease_phase	ARRAY(0x562b9bf45060)
 diagnosis	disease_phase	string
 diagnosis	last_known_disease_status	Biochemical evidence of disease without structural correlate
 diagnosis	last_known_disease_status	Distant met recurrence/progression
@@ -374,79 +374,79 @@ diagnosis	last_known_disease_status	Tumor free
 diagnosis	last_known_disease_status	Unknown
 diagnosis	last_known_disease_status	Unknown tumor status
 diagnosis	last_known_disease_status	With tumor
-diagnosis	toronto_childhood_cancer_staging	Acute lymphoblastic leukaemia_CNS1
-diagnosis	toronto_childhood_cancer_staging	Acute lymphoblastic leukaemia_CNS2
-diagnosis	toronto_childhood_cancer_staging	Acute lymphoblastic leukaemia_CNS3
-diagnosis	toronto_childhood_cancer_staging	Astrocytomas_Localised
-diagnosis	toronto_childhood_cancer_staging	Astrocytomas_Metastatic
-diagnosis	toronto_childhood_cancer_staging	Ependymoma_M0
-diagnosis	toronto_childhood_cancer_staging	Ependymoma_M1
-diagnosis	toronto_childhood_cancer_staging	Ependymoma_M2
-diagnosis	toronto_childhood_cancer_staging	Ependymoma_M3
-diagnosis	toronto_childhood_cancer_staging	Ependymoma_M4
-diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT I
-diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT II
-diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT III
-diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT IV
-diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT I
-diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT II
-diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT III
-diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT IV
-diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage I
-diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage II
-diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage III
-diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage IV
-diagnosis	toronto_childhood_cancer_staging	Malignant bone tumours_Distant metastases present
-diagnosis	toronto_childhood_cancer_staging	Malignant bone tumours_Localised
-diagnosis	toronto_childhood_cancer_staging	Medulloblastoma_M0
-diagnosis	toronto_childhood_cancer_staging	Medulloblastoma_M1
-diagnosis	toronto_childhood_cancer_staging	Medulloblastoma_M2
-diagnosis	toronto_childhood_cancer_staging	Medulloblastoma_M3
-diagnosis	toronto_childhood_cancer_staging	Medulloblastoma_M4
-diagnosis	toronto_childhood_cancer_staging	Neuroblastoma_Stage L1
-diagnosis	toronto_childhood_cancer_staging	Neuroblastoma_Stage L2 
-diagnosis	toronto_childhood_cancer_staging	Neuroblastoma_Stage M 
-diagnosis	toronto_childhood_cancer_staging	Neuroblastoma_Stage MS
-diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage I
-diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage II
-diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage III
-diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage IV
-diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage I
-diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage II
-diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage III
-diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage IV
-diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage I
-diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage II
-diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage III
-diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage IV 
-diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage I
-diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage II
-diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage III
-diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage IV
-diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage y-I
-diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage y-II
-diagnosis	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage y-III
-diagnosis	toronto_childhood_cancer_staging	Retinoblastoma_Stage 0
-diagnosis	toronto_childhood_cancer_staging	Retinoblastoma_Stage I
-diagnosis	toronto_childhood_cancer_staging	Retinoblastoma_Stage II
-diagnosis	toronto_childhood_cancer_staging	Retinoblastoma_Stage III
-diagnosis	toronto_childhood_cancer_staging	Retinoblastoma_Stage IV
-diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage I
-diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage II
-diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage III
-diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage IV
-diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage I
-diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IA
-diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IB
-diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage II
-diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIA
-diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIB
-diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIC
-diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage III
-diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIIA
-diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIIB
-diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIIC
-diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IS
+diagnosis	toronto_childhood_cancer_staging	Acute lymphoblastic leukemia CNS1
+diagnosis	toronto_childhood_cancer_staging	Acute lymphoblastic leukemia CNS2
+diagnosis	toronto_childhood_cancer_staging	Acute lymphoblastic leukemia CNS3
+diagnosis	toronto_childhood_cancer_staging	Astrocytomas Localized
+diagnosis	toronto_childhood_cancer_staging	Astrocytomas Metastatic
+diagnosis	toronto_childhood_cancer_staging	Ependymoma M0
+diagnosis	toronto_childhood_cancer_staging	Ependymoma M1
+diagnosis	toronto_childhood_cancer_staging	Ependymoma M2
+diagnosis	toronto_childhood_cancer_staging	Ependymoma M3
+diagnosis	toronto_childhood_cancer_staging	Ependymoma M4
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Localized PRETEXT I
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Localized PRETEXT II
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Localized PRETEXT III
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Localized PRETEXT IV
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Metastatic PRETEXT I
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Metastatic PRETEXT II
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Metastatic PRETEXT III
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Metastatic PRETEXT IV
+diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma Stage I
+diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma Stage II
+diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma Stage III
+diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma Stage IV
+diagnosis	toronto_childhood_cancer_staging	Malignant bone tumor Localized
+diagnosis	toronto_childhood_cancer_staging	Malignant bone tumor Metastatic
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma M0
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma M1
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma M2
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma M3
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma M4
+diagnosis	toronto_childhood_cancer_staging	Neuroblastoma Stage L1
+diagnosis	toronto_childhood_cancer_staging	Neuroblastoma Stage L2
+diagnosis	toronto_childhood_cancer_staging	Neuroblastoma Stage M
+diagnosis	toronto_childhood_cancer_staging	Neuroblastoma Stage MS
+diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma Stage I
+diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma Stage II
+diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma Stage III
+diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma Stage IV
+diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma Stage I
+diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma Stage II
+diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma Stage III
+diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma Stage IV
+diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumor Stage I
+diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumor Stage II
+diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumor Stage III
+diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumor Stage IV
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage I
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage II
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage III
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage IV
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage y-I
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage y-II
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage y-III
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma Stage 0
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma Stage I
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma Stage II
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma Stage III
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma Stage IV
+diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma Stage I
+diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma Stage II
+diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma Stage III
+diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma Stage IV
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage I
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IA
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IB
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage II
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIA
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIB
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIC
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage III
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIIA
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIIB
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIIC
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IS
 diagnosis	tumor_grade	G1
 diagnosis	tumor_grade	G2
 diagnosis	tumor_grade	G3
@@ -530,24 +530,24 @@ diagnosis	vital_status	Unknown
 diagnosis	vital_status	Unspecified
 exposure	alcohol_days_per_week	INTEGER
 exposure	alcohol_drinks_per_day	INTEGER
-exposure	alcohol_history	ARRAY(0x55a0d5887bd8)
+exposure	alcohol_history	ARRAY(0x562b9bfb9b00)
 exposure	alcohol_history	string
-exposure	alcohol_intensity	ARRAY(0x55a0d5867418)
+exposure	alcohol_intensity	ARRAY(0x562b9bf98680)
 exposure	alcohol_intensity	string
-exposure	asbestos_exposure	ARRAY(0x55a0d5864768)
+exposure	asbestos_exposure	ARRAY(0x562b9c007500)
 exposure	asbestos_exposure	string
 exposure	cigarettes_per_day	INTEGER
-exposure	coal_dust_exposure	ARRAY(0x55a0d5857560)
+exposure	coal_dust_exposure	ARRAY(0x562b9bf16150)
 exposure	coal_dust_exposure	string
-exposure	environmental_tobacco_smoke_exposure	ARRAY(0x55a0d5853a10)
+exposure	environmental_tobacco_smoke_exposure	ARRAY(0x562b9bf35a98)
 exposure	environmental_tobacco_smoke_exposure	string
 exposure	exposure_id	STRING
 exposure	pack_years_smoked	INTEGER
-exposure	radon_exposure	ARRAY(0x55a0d5919a98)
+exposure	radon_exposure	ARRAY(0x562b9bf42660)
 exposure	radon_exposure	string
-exposure	respirable_crystalline_silica_exposure	ARRAY(0x55a0d58a35b0)
+exposure	respirable_crystalline_silica_exposure	ARRAY(0x562b9bfba2c8)
 exposure	respirable_crystalline_silica_exposure	string
-exposure	smoking_frequency	ARRAY(0x55a0d5839338)
+exposure	smoking_frequency	ARRAY(0x562b9bfa6190)
 exposure	smoking_frequency	string
 exposure	start_days_from_index	INTEGER
 exposure	time_between_waking_and_first_smoke	31-60 Minutes
@@ -571,7 +571,7 @@ exposure	years_smoked	INTEGER
 family_relationship	family_id	STRING
 family_relationship	family_relationship_id	STRING
 family_relationship	related_to_participant_id	STRING
-family_relationship	relationship	ARRAY(0x55a0d591e928)
+family_relationship	relationship	ARRAY(0x562b9c04a3e0)
 family_relationship	relationship	string
 follow_up	adverse_event	Abdominal Distension
 follow_up	adverse_event	Abdominal Infection
@@ -1511,7 +1511,7 @@ follow_up	comorbidity_method_of_diagnosis	Not Reported
 follow_up	comorbidity_method_of_diagnosis	Pathology
 follow_up	comorbidity_method_of_diagnosis	Radiology
 follow_up	comorbidity_method_of_diagnosis	Unknown
-follow_up	days_to_follow_up	ARRAY(0x55a0d59090b0)
+follow_up	days_to_follow_up	ARRAY(0x562b9bfad5e8)
 follow_up	days_to_follow_up	integer
 follow_up	disease_response	AJ-Adjuvant Therapy
 follow_up	disease_response	BED-Biochemical Evidence of Disease
@@ -1565,31 +1565,7 @@ follow_up	follow_up_other	fev1_ref_pre_bronch_percent
 follow_up	follow_up_other	height
 follow_up	follow_up_other	hepatitis_sustained_virological_response
 follow_up	risk_factor	ARRAY
-imaging_file	dcf_indexd_guid	STRING
-imaging_file	deidentification_method	ARRAY(0x55a0d584d198)
-imaging_file	deidentification_method	string
-imaging_file	file_description	STRING
-imaging_file	file_mapping_level	Participiant
-imaging_file	file_mapping_level	Sample
-imaging_file	file_mapping_level	Study
-imaging_file	file_name	STRING
-imaging_file	file_size	ARRAY(0x55a0d585fea8)
-imaging_file	file_size	integer
-imaging_file	file_type	ARRAY(0x55a0d58812a0)
-imaging_file	file_type	string
-imaging_file	file_url_in_cds	STRING
-imaging_file	fixation_embedding_method	ARRAY(0x55a0d594ac78)
-imaging_file	fixation_embedding_method	string
-imaging_file	image_modality	STRING
-imaging_file	imaging_file_id	STRING
-imaging_file	imaging_instrument_model	STRING
-imaging_file	imaging_platform	STRING
-imaging_file	magnification	string
-imaging_file	md5sum	STRING
-imaging_file	software_package	STRING
-imaging_file	staining_method	ARRAY(0x55a0d583c0d8)
-imaging_file	staining_method	string
-medical_history	medical_history_category	ARRAY(0x55a0d584c5c8)
+medical_history	medical_history_category	ARRAY(0x562b9bfadb70)
 medical_history	medical_history_category	string
 medical_history	medical_history_condition	ARRAY
 medical_history	medical_history_id	STRING
@@ -1599,9 +1575,9 @@ methylation_array_file	file_mapping_level	Participiant
 methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
-methylation_array_file	file_size	ARRAY(0x55a0d585fea8)
+methylation_array_file	file_size	ARRAY(0x562b9bfd16d0)
 methylation_array_file	file_size	integer
-methylation_array_file	file_type	ARRAY(0x55a0d58812a0)
+methylation_array_file	file_type	ARRAY(0x562b9c033d08)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
@@ -1609,9 +1585,9 @@ methylation_array_file	methylation_array_file_id	STRING
 methylation_array_file	methylation_platform	STRING
 methylation_array_file	reporter_label	STRING
 molecular_test	aa_change	STRING
-molecular_test	antigen	ARRAY(0x55a0d5864738)
+molecular_test	antigen	ARRAY(0x562b9c00dca8)
 molecular_test	antigen	string
-molecular_test	biospecimen_type	ARRAY(0x55a0d584cb98)
+molecular_test	biospecimen_type	ARRAY(0x562b9c03c360)
 molecular_test	biospecimen_type	string
 molecular_test	blood_test_normal_range_lower	INTEGER
 molecular_test	blood_test_normal_range_upper	INTEGER
@@ -1673,13 +1649,13 @@ molecular_test	histone_variant	mH2A
 molecular_test	histone_variant	mH2A.1
 molecular_test	histone_variant	mH2A.2
 molecular_test	intron	STRING
-molecular_test	laboratory_test	ARRAY(0x55a0d590cd78)
+molecular_test	laboratory_test	ARRAY(0x562b9bfdbfc8)
 molecular_test	laboratory_test	string
 molecular_test	loci_abnormal_count	INTEGER
 molecular_test	loci_count	INTEGER
 molecular_test	locus	STRING
 molecular_test	mismatch_repair_mutation	STRING
-molecular_test	molecular_analysis_method	ARRAY(0x55a0d58a06d8)
+molecular_test	molecular_analysis_method	ARRAY(0x562b9c033630)
 molecular_test	molecular_analysis_method	string
 molecular_test	molecular_consequence	STRING
 molecular_test	molecular_test_id	STRING
@@ -1696,7 +1672,7 @@ molecular_test	test_analyte_type	Total RNA
 molecular_test	test_analyte_type	Unknown
 molecular_test	test_analyte_type	mRNA
 molecular_test	test_analyte_type	miRNA
-molecular_test	test_result	ARRAY(0x55a0d5811b88)
+molecular_test	test_result	ARRAY(0x562b9c027020)
 molecular_test	test_result	string
 molecular_test	test_units	STRING
 molecular_test	test_value	STRING
@@ -1704,7 +1680,7 @@ molecular_test	transcript	STRING
 molecular_test	variant_origin	Germline
 molecular_test	variant_origin	Somatic
 molecular_test	variant_origin	Unknown
-molecular_test	variant_type	ARRAY(0x55a0d584f4e0)
+molecular_test	variant_type	ARRAY(0x562b9c03ebd8)
 molecular_test	variant_type	string
 molecular_test	zygosity	Hemizygous
 molecular_test	zygosity	Heterozygous
@@ -1714,13 +1690,33 @@ molecular_test	zygosity	Nullizygous
 molecular_test	zygosity	Unknown
 participant	alternate_participant_id	STRING
 participant	ethnicity	ARRAY
-participant	gender	ARRAY(0x55a0d58a0f30)
+participant	gender	ARRAY(0x562b9c01ddb0)
 participant	gender	string
 participant	participant_id	STRING
 participant	race	ARRAY
-pdx	implantation_site	ARRAY(0x55a0d58533b0)
+pathology_file	dcf_indexd_guid	STRING
+pathology_file	deidentification_method	ARRAY(0x562b9bf40818)
+pathology_file	deidentification_method	string
+pathology_file	file_description	STRING
+pathology_file	file_mapping_level	Participiant
+pathology_file	file_mapping_level	Sample
+pathology_file	file_mapping_level	Study
+pathology_file	file_name	STRING
+pathology_file	file_size	ARRAY(0x562b9bfd16d0)
+pathology_file	file_size	integer
+pathology_file	file_type	ARRAY(0x562b9c033d08)
+pathology_file	file_type	string
+pathology_file	file_url_in_cds	STRING
+pathology_file	fixation_embedding_method	ARRAY(0x562b9c0130b0)
+pathology_file	fixation_embedding_method	string
+pathology_file	magnification	string
+pathology_file	md5sum	STRING
+pathology_file	pathology_file_id	STRING
+pathology_file	staining_method	ARRAY(0x562b9bf3b328)
+pathology_file	staining_method	string
+pdx	implantation_site	ARRAY(0x562b9c0126f0)
 pdx	implantation_site	string
-pdx	implantation_type	ARRAY(0x55a0d5913bd0)
+pdx	implantation_type	ARRAY(0x562b9bffdb00)
 pdx	implantation_type	string
 pdx	model_id	STRING
 pdx	mouse_strain	STRING
@@ -1733,6 +1729,361 @@ pdx	tumor_preparation	STRING
 pdx	type_of_humanization	STRING
 publication	publication_id	STRING
 publication	pubmed_id	STRING
+radiology_file	anatomic_site	Abdomen, NOS
+radiology_file	anatomic_site	Abdominal esophagus
+radiology_file	anatomic_site	Accessory sinus, NOS
+radiology_file	anatomic_site	Acoustic nerve
+radiology_file	anatomic_site	Adrenal gland, NOS
+radiology_file	anatomic_site	Ampulla of Vater
+radiology_file	anatomic_site	Anal canal
+radiology_file	anatomic_site	Anterior 2/3 of tongue, NOS
+radiology_file	anatomic_site	Anterior floor of mouth
+radiology_file	anatomic_site	Anterior mediastinum
+radiology_file	anatomic_site	Anterior surface of epiglottis
+radiology_file	anatomic_site	Anterior wall of bladder
+radiology_file	anatomic_site	Anterior wall of nasopharynx
+radiology_file	anatomic_site	Anus, NOS
+radiology_file	anatomic_site	Aortic body and other paraganglia
+radiology_file	anatomic_site	Appendix
+radiology_file	anatomic_site	Ascending colon
+radiology_file	anatomic_site	Autonomic nervous system, NOS
+radiology_file	anatomic_site	Axillary tail of breast
+radiology_file	anatomic_site	Base of tongue, NOS
+radiology_file	anatomic_site	Biliary tract, NOS
+radiology_file	anatomic_site	Bladder neck
+radiology_file	anatomic_site	Bladder, NOS
+radiology_file	anatomic_site	Blood
+radiology_file	anatomic_site	Body of pancreas
+radiology_file	anatomic_site	Body of penis
+radiology_file	anatomic_site	Body of stomach
+radiology_file	anatomic_site	Bone marrow
+radiology_file	anatomic_site	Bone of limb, NOS
+radiology_file	anatomic_site	Bone, NOS
+radiology_file	anatomic_site	Bones of skull and face and associated joints
+radiology_file	anatomic_site	Border of tongue
+radiology_file	anatomic_site	Brain stem
+radiology_file	anatomic_site	Brain, NOS
+radiology_file	anatomic_site	Branchial cleft
+radiology_file	anatomic_site	Breast, NOS
+radiology_file	anatomic_site	Broad ligament
+radiology_file	anatomic_site	Buccal mucosa
+radiology_file	anatomic_site	Cardia, NOS
+radiology_file	anatomic_site	Carotid body
+radiology_file	anatomic_site	Cauda equina
+radiology_file	anatomic_site	Cecum
+radiology_file	anatomic_site	Central portion of breast
+radiology_file	anatomic_site	Cerebellum, NOS
+radiology_file	anatomic_site	Cerebral meninges
+radiology_file	anatomic_site	Cerebrospinal fluid
+radiology_file	anatomic_site	Cerebrum
+radiology_file	anatomic_site	Cervical esophagus
+radiology_file	anatomic_site	Cervix uteri
+radiology_file	anatomic_site	Cheek mucosa
+radiology_file	anatomic_site	Choroid
+radiology_file	anatomic_site	Ciliary body
+radiology_file	anatomic_site	Clitoris
+radiology_file	anatomic_site	Cloacogenic zone
+radiology_file	anatomic_site	Colon, NOS
+radiology_file	anatomic_site	Commissure of lip
+radiology_file	anatomic_site	Conjunctiva
+radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of abdomen
+radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of head, face, and neck
+radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of lower limb and hip
+radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of pelvis
+radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of thorax
+radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of trunk, NOS
+radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of upper limb and shoulder
+radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues, NOS
+radiology_file	anatomic_site	Cornea, NOS
+radiology_file	anatomic_site	Corpus uteri
+radiology_file	anatomic_site	Cortex of adrenal gland
+radiology_file	anatomic_site	Cranial nerve, NOS
+radiology_file	anatomic_site	Craniopharyngeal duct
+radiology_file	anatomic_site	Descended testis
+radiology_file	anatomic_site	Descending colon
+radiology_file	anatomic_site	Dome of bladder
+radiology_file	anatomic_site	Dorsal surface of tongue, NOS
+radiology_file	anatomic_site	Duodenum
+radiology_file	anatomic_site	Endocervix
+radiology_file	anatomic_site	Endocrine gland, NOS
+radiology_file	anatomic_site	Endometrium
+radiology_file	anatomic_site	Epididymis
+radiology_file	anatomic_site	Esophagus, NOS
+radiology_file	anatomic_site	Ethmoid sinus
+radiology_file	anatomic_site	Exocervix
+radiology_file	anatomic_site	External ear
+radiology_file	anatomic_site	External lip, NOS
+radiology_file	anatomic_site	External lower lip
+radiology_file	anatomic_site	External upper lip
+radiology_file	anatomic_site	Extrahepatic bile duct
+radiology_file	anatomic_site	Eye, NOS
+radiology_file	anatomic_site	Eyelid
+radiology_file	anatomic_site	Fallopian tube
+radiology_file	anatomic_site	Female genital tract, NOS
+radiology_file	anatomic_site	Floor of mouth, NOS
+radiology_file	anatomic_site	Frontal lobe
+radiology_file	anatomic_site	Frontal sinus
+radiology_file	anatomic_site	Fundus of stomach
+radiology_file	anatomic_site	Fundus uteri
+radiology_file	anatomic_site	Gallbladder
+radiology_file	anatomic_site	Gastric antrum
+radiology_file	anatomic_site	Gastrointestinal tract, NOS
+radiology_file	anatomic_site	Glans penis
+radiology_file	anatomic_site	Glottis
+radiology_file	anatomic_site	Greater curvature of stomach, NOS
+radiology_file	anatomic_site	Gum, NOS
+radiology_file	anatomic_site	Hard palate
+radiology_file	anatomic_site	Head of pancreas
+radiology_file	anatomic_site	Head, face or neck, NOS
+radiology_file	anatomic_site	Heart
+radiology_file	anatomic_site	Hematopoietic system, NOS
+radiology_file	anatomic_site	Hepatic flexure of colon
+radiology_file	anatomic_site	Hypopharyngeal aspect of aryepiglottic fold
+radiology_file	anatomic_site	Hypopharynx, NOS
+radiology_file	anatomic_site	Ileum
+radiology_file	anatomic_site	Ill-defined sites within respiratory system
+radiology_file	anatomic_site	Intestinal tract, NOS
+radiology_file	anatomic_site	Intra-abdominal lymph nodes
+radiology_file	anatomic_site	Intrahepatic bile duct
+radiology_file	anatomic_site	Intrathoracic lymph nodes
+radiology_file	anatomic_site	Islets of Langerhans
+radiology_file	anatomic_site	Isthmus uteri
+radiology_file	anatomic_site	Jejunum
+radiology_file	anatomic_site	Kidney, NOS
+radiology_file	anatomic_site	Labium majus
+radiology_file	anatomic_site	Labium minus
+radiology_file	anatomic_site	Lacrimal gland
+radiology_file	anatomic_site	Laryngeal cartilage
+radiology_file	anatomic_site	Laryngeal commissure
+radiology_file	anatomic_site	Larynx, NOS
+radiology_file	anatomic_site	Lateral floor of mouth
+radiology_file	anatomic_site	Lateral wall of bladder
+radiology_file	anatomic_site	Lateral wall of nasopharynx
+radiology_file	anatomic_site	Lateral wall of oropharynx
+radiology_file	anatomic_site	Lesser curvature of stomach, NOS
+radiology_file	anatomic_site	Lingual tonsil
+radiology_file	anatomic_site	Lip, NOS
+radiology_file	anatomic_site	Liver
+radiology_file	anatomic_site	Long bones of lower limb and associated joints
+radiology_file	anatomic_site	Long bones of upper limb, scapula and associated joints
+radiology_file	anatomic_site	Lower gum
+radiology_file	anatomic_site	Lower limb, NOS
+radiology_file	anatomic_site	Lower lobe, lung
+radiology_file	anatomic_site	Lower third of esophagus
+radiology_file	anatomic_site	Lower-inner quadrant of breast
+radiology_file	anatomic_site	Lower-outer quadrant of breast
+radiology_file	anatomic_site	Lung, NOS
+radiology_file	anatomic_site	Lymph node, NOS
+radiology_file	anatomic_site	Lymph nodes of axilla or arm
+radiology_file	anatomic_site	Lymph nodes of head, face and neck
+radiology_file	anatomic_site	Lymph nodes of inguinal region or leg
+radiology_file	anatomic_site	Lymph nodes of multiple regions
+radiology_file	anatomic_site	Main bronchus
+radiology_file	anatomic_site	Major salivary gland, NOS
+radiology_file	anatomic_site	Male genital organs, NOS
+radiology_file	anatomic_site	Mandible
+radiology_file	anatomic_site	Maxillary sinus
+radiology_file	anatomic_site	Meckel diverticulum
+radiology_file	anatomic_site	Mediastinum, NOS
+radiology_file	anatomic_site	Medulla of adrenal gland
+radiology_file	anatomic_site	Meninges, NOS
+radiology_file	anatomic_site	Middle ear
+radiology_file	anatomic_site	Middle lobe, lung
+radiology_file	anatomic_site	Middle third of esophagus
+radiology_file	anatomic_site	Mouth, NOS
+radiology_file	anatomic_site	Mucosa of lip, NOS
+radiology_file	anatomic_site	Mucosa of lower lip
+radiology_file	anatomic_site	Mucosa of upper lip
+radiology_file	anatomic_site	Myometrium
+radiology_file	anatomic_site	Nasal cavity
+radiology_file	anatomic_site	Nasopharynx, NOS
+radiology_file	anatomic_site	Nervous system, NOS
+radiology_file	anatomic_site	Nipple
+radiology_file	anatomic_site	Not Reported
+radiology_file	anatomic_site	Occipital lobe
+radiology_file	anatomic_site	Olfactory nerve
+radiology_file	anatomic_site	Optic nerve
+radiology_file	anatomic_site	Orbit, NOS
+radiology_file	anatomic_site	Oropharynx, NOS
+radiology_file	anatomic_site	Other ill-defined sites
+radiology_file	anatomic_site	Other specified parts of female genital organs
+radiology_file	anatomic_site	Other specified parts of male genital organs
+radiology_file	anatomic_site	Other specified parts of pancreas
+radiology_file	anatomic_site	Ovary
+radiology_file	anatomic_site	Overlapping lesion of accessory sinuses
+radiology_file	anatomic_site	Overlapping lesion of biliary tract
+radiology_file	anatomic_site	Overlapping lesion of bladder
+radiology_file	anatomic_site	Overlapping lesion of bones, joints and articular cartilage
+radiology_file	anatomic_site	Overlapping lesion of bones, joints and articular cartilage of limbs
+radiology_file	anatomic_site	Overlapping lesion of brain
+radiology_file	anatomic_site	Overlapping lesion of brain and central nervous system
+radiology_file	anatomic_site	Overlapping lesion of breast
+radiology_file	anatomic_site	Overlapping lesion of cervix uteri
+radiology_file	anatomic_site	Overlapping lesion of colon
+radiology_file	anatomic_site	Overlapping lesion of connective, subcutaneous and other soft tissues
+radiology_file	anatomic_site	Overlapping lesion of corpus uteri
+radiology_file	anatomic_site	Overlapping lesion of digestive system
+radiology_file	anatomic_site	Overlapping lesion of endocrine glands and related structures
+radiology_file	anatomic_site	Overlapping lesion of esophagus
+radiology_file	anatomic_site	Overlapping lesion of eye and adnexa
+radiology_file	anatomic_site	Overlapping lesion of female genital organs
+radiology_file	anatomic_site	Overlapping lesion of floor of mouth
+radiology_file	anatomic_site	Overlapping lesion of heart, mediastinum and pleura
+radiology_file	anatomic_site	Overlapping lesion of hypopharynx
+radiology_file	anatomic_site	Overlapping lesion of ill-defined sites
+radiology_file	anatomic_site	Overlapping lesion of larynx
+radiology_file	anatomic_site	Overlapping lesion of lip
+radiology_file	anatomic_site	Overlapping lesion of lip, oral cavity and pharynx
+radiology_file	anatomic_site	Overlapping lesion of lung
+radiology_file	anatomic_site	Overlapping lesion of major salivary glands
+radiology_file	anatomic_site	Overlapping lesion of male genital organs
+radiology_file	anatomic_site	Overlapping lesion of nasopharynx
+radiology_file	anatomic_site	Overlapping lesion of other and unspecified parts of mouth
+radiology_file	anatomic_site	Overlapping lesion of palate
+radiology_file	anatomic_site	Overlapping lesion of pancreas
+radiology_file	anatomic_site	Overlapping lesion of penis
+radiology_file	anatomic_site	Overlapping lesion of peripheral nerves and autonomic nervous system
+radiology_file	anatomic_site	Overlapping lesion of rectum, anus and anal canal
+radiology_file	anatomic_site	Overlapping lesion of respiratory system and intrathoracic organs
+radiology_file	anatomic_site	Overlapping lesion of retroperitoneum and peritoneum
+radiology_file	anatomic_site	Overlapping lesion of skin
+radiology_file	anatomic_site	Overlapping lesion of small intestine
+radiology_file	anatomic_site	Overlapping lesion of stomach
+radiology_file	anatomic_site	Overlapping lesion of tongue
+radiology_file	anatomic_site	Overlapping lesion of tonsil
+radiology_file	anatomic_site	Overlapping lesion of urinary organs
+radiology_file	anatomic_site	Overlapping lesion of vulva
+radiology_file	anatomic_site	Overlapping lesions of oropharynx
+radiology_file	anatomic_site	Palate, NOS
+radiology_file	anatomic_site	Pancreas, NOS
+radiology_file	anatomic_site	Pancreatic duct
+radiology_file	anatomic_site	Parametrium
+radiology_file	anatomic_site	Parathyroid gland
+radiology_file	anatomic_site	Paraurethral gland
+radiology_file	anatomic_site	Parietal lobe
+radiology_file	anatomic_site	Parotid gland
+radiology_file	anatomic_site	Pelvic bones, sacrum, coccyx and associated joints
+radiology_file	anatomic_site	Pelvic lymph nodes
+radiology_file	anatomic_site	Pelvis, NOS
+radiology_file	anatomic_site	Penis, NOS
+radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of abdomen
+radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of head, face, and neck
+radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of lower limb and hip
+radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of pelvis
+radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of thorax
+radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of trunk, NOS
+radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of upper limb and shoulder
+radiology_file	anatomic_site	Peritoneum, NOS
+radiology_file	anatomic_site	Pharynx, NOS
+radiology_file	anatomic_site	Pineal gland
+radiology_file	anatomic_site	Pituitary gland
+radiology_file	anatomic_site	Placenta
+radiology_file	anatomic_site	Pleura, NOS
+radiology_file	anatomic_site	Postcricoid region
+radiology_file	anatomic_site	Posterior mediastinum
+radiology_file	anatomic_site	Posterior wall of bladder
+radiology_file	anatomic_site	Posterior wall of hypopharynx
+radiology_file	anatomic_site	Posterior wall of nasopharynx
+radiology_file	anatomic_site	Posterior wall of oropharynx
+radiology_file	anatomic_site	Prepuce
+radiology_file	anatomic_site	Prostate gland
+radiology_file	anatomic_site	Pylorus
+radiology_file	anatomic_site	Pyriform sinus
+radiology_file	anatomic_site	Rectosigmoid junction
+radiology_file	anatomic_site	Rectum, NOS
+radiology_file	anatomic_site	Renal pelvis
+radiology_file	anatomic_site	Reticuloendothelial system, NOS
+radiology_file	anatomic_site	Retina
+radiology_file	anatomic_site	Retromolar area
+radiology_file	anatomic_site	Retroperitoneum
+radiology_file	anatomic_site	Rib, sternum, clavicle and associated joints
+radiology_file	anatomic_site	Round ligament
+radiology_file	anatomic_site	Saliva
+radiology_file	anatomic_site	Scrotum, NOS
+radiology_file	anatomic_site	Short bones of lower limb and associated joints
+radiology_file	anatomic_site	Short bones of upper limb and associated joints
+radiology_file	anatomic_site	Sigmoid colon
+radiology_file	anatomic_site	Skin of lip, NOS
+radiology_file	anatomic_site	Skin of lower limb and hip
+radiology_file	anatomic_site	Skin of other and unspecified parts of face
+radiology_file	anatomic_site	Skin of scalp and neck
+radiology_file	anatomic_site	Skin of trunk
+radiology_file	anatomic_site	Skin of upper limb and shoulder
+radiology_file	anatomic_site	Skin, NOS
+radiology_file	anatomic_site	Small intestine, NOS
+radiology_file	anatomic_site	Soft palate, NOS
+radiology_file	anatomic_site	Specified parts of peritoneum
+radiology_file	anatomic_site	Spermatic cord
+radiology_file	anatomic_site	Sphenoid sinus
+radiology_file	anatomic_site	Spinal cord
+radiology_file	anatomic_site	Spinal meninges
+radiology_file	anatomic_site	Spleen
+radiology_file	anatomic_site	Splenic flexure of colon
+radiology_file	anatomic_site	Stomach, NOS
+radiology_file	anatomic_site	Subglottis
+radiology_file	anatomic_site	Sublingual gland
+radiology_file	anatomic_site	Submandibular gland
+radiology_file	anatomic_site	Superior wall of nasopharynx
+radiology_file	anatomic_site	Supraglottis
+radiology_file	anatomic_site	Tail of pancreas
+radiology_file	anatomic_site	Temporal lobe
+radiology_file	anatomic_site	Testis, NOS
+radiology_file	anatomic_site	Thoracic esophagus
+radiology_file	anatomic_site	Thorax, NOS
+radiology_file	anatomic_site	Thymus
+radiology_file	anatomic_site	Thyroid gland
+radiology_file	anatomic_site	Tongue, NOS
+radiology_file	anatomic_site	Tonsil, NOS
+radiology_file	anatomic_site	Tonsillar fossa
+radiology_file	anatomic_site	Tonsillar pillar
+radiology_file	anatomic_site	Trachea
+radiology_file	anatomic_site	Transverse colon
+radiology_file	anatomic_site	Trigone of bladder
+radiology_file	anatomic_site	Undescended testis
+radiology_file	anatomic_site	Unknown
+radiology_file	anatomic_site	Unknown primary site
+radiology_file	anatomic_site	Upper Gum
+radiology_file	anatomic_site	Upper limb, NOS
+radiology_file	anatomic_site	Upper lobe, lung
+radiology_file	anatomic_site	Upper respiratory tract, NOS
+radiology_file	anatomic_site	Upper third of esophagus
+radiology_file	anatomic_site	Upper-inner quadrant of breast
+radiology_file	anatomic_site	Upper-outer quadrant of breast
+radiology_file	anatomic_site	Urachus
+radiology_file	anatomic_site	Ureter
+radiology_file	anatomic_site	Ureteric orifice
+radiology_file	anatomic_site	Urethra
+radiology_file	anatomic_site	Urinary system, NOS
+radiology_file	anatomic_site	Uterine adnexa
+radiology_file	anatomic_site	Uterus, NOS
+radiology_file	anatomic_site	Uvula
+radiology_file	anatomic_site	Vagina, NOS
+radiology_file	anatomic_site	Vallecula
+radiology_file	anatomic_site	Ventral surface of tongue, NOS
+radiology_file	anatomic_site	Ventricle, NOS
+radiology_file	anatomic_site	Vertebral column
+radiology_file	anatomic_site	Vestibule of mouth
+radiology_file	anatomic_site	Vulva, NOS
+radiology_file	anatomic_site	Waldeyer ring
+radiology_file	dcf_indexd_guid	STRING
+radiology_file	deidentification_method	ARRAY(0x562b9bf40818)
+radiology_file	deidentification_method	string
+radiology_file	file_description	STRING
+radiology_file	file_mapping_level	Participiant
+radiology_file	file_mapping_level	Sample
+radiology_file	file_mapping_level	Study
+radiology_file	file_name	STRING
+radiology_file	file_size	ARRAY(0x562b9bfd16d0)
+radiology_file	file_size	integer
+radiology_file	file_type	ARRAY(0x562b9c033d08)
+radiology_file	file_type	string
+radiology_file	file_url_in_cds	STRING
+radiology_file	image_modality	ARRAY(0x562b9c0373f8)
+radiology_file	image_modality	string
+radiology_file	md5sum	STRING
+radiology_file	participant_age_at_imaging	ARRAY(0x562b9c0496d8)
+radiology_file	participant_age_at_imaging	integer
+radiology_file	radiology_file_id	STRING
 sample	alternate_sample_id	STRING
 sample	anatomic_site	Abdomen, NOS
 sample	anatomic_site	Abdominal esophagus
@@ -2084,86 +2435,86 @@ sample	last_known_disease_status	Tumor free
 sample	last_known_disease_status	Unknown
 sample	last_known_disease_status	Unknown tumor status
 sample	last_known_disease_status	With tumor
-sample	participant_age_at_collection	ARRAY(0x55a0d5896100)
+sample	participant_age_at_collection	ARRAY(0x562b9c00ceb0)
 sample	participant_age_at_collection	integer
 sample	sample_description	STRING
 sample	sample_id	STRING
-sample	sample_tumor_status	ARRAY(0x55a0d5899868)
+sample	sample_tumor_status	ARRAY(0x562b9c01d798)
 sample	sample_tumor_status	string
-sample	toronto_childhood_cancer_staging	Acute lymphoblastic leukaemia_CNS1
-sample	toronto_childhood_cancer_staging	Acute lymphoblastic leukaemia_CNS2
-sample	toronto_childhood_cancer_staging	Acute lymphoblastic leukaemia_CNS3
-sample	toronto_childhood_cancer_staging	Astrocytomas_Localised
-sample	toronto_childhood_cancer_staging	Astrocytomas_Metastatic
-sample	toronto_childhood_cancer_staging	Ependymoma_M0
-sample	toronto_childhood_cancer_staging	Ependymoma_M1
-sample	toronto_childhood_cancer_staging	Ependymoma_M2
-sample	toronto_childhood_cancer_staging	Ependymoma_M3
-sample	toronto_childhood_cancer_staging	Ependymoma_M4
-sample	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT I
-sample	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT II
-sample	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT III
-sample	toronto_childhood_cancer_staging	Hepatoblastoma_Localised PRETEXT IV
-sample	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT I
-sample	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT II
-sample	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT III
-sample	toronto_childhood_cancer_staging	Hepatoblastoma_Metastatic PRETEXT IV
-sample	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage I
-sample	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage II
-sample	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage III
-sample	toronto_childhood_cancer_staging	Hodgkin lymphoma_Stage IV
-sample	toronto_childhood_cancer_staging	Malignant bone tumours_Distant metastases present
-sample	toronto_childhood_cancer_staging	Malignant bone tumours_Localised
-sample	toronto_childhood_cancer_staging	Medulloblastoma_M0
-sample	toronto_childhood_cancer_staging	Medulloblastoma_M1
-sample	toronto_childhood_cancer_staging	Medulloblastoma_M2
-sample	toronto_childhood_cancer_staging	Medulloblastoma_M3
-sample	toronto_childhood_cancer_staging	Medulloblastoma_M4
-sample	toronto_childhood_cancer_staging	Neuroblastoma_Stage L1
-sample	toronto_childhood_cancer_staging	Neuroblastoma_Stage L2 
-sample	toronto_childhood_cancer_staging	Neuroblastoma_Stage M 
-sample	toronto_childhood_cancer_staging	Neuroblastoma_Stage MS
-sample	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage I
-sample	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage II
-sample	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage III
-sample	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma_Stage IV
-sample	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage I
-sample	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage II
-sample	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage III
-sample	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma_Stage IV
-sample	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage I
-sample	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage II
-sample	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage III
-sample	toronto_childhood_cancer_staging	Ovarian germ cell tumours_Stage IV 
-sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage I
-sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage II
-sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage III
-sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage IV
-sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage y-I
-sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage y-II
-sample	toronto_childhood_cancer_staging	Renal tumours (excluding renal cell carcinomas)_Stage y-III
-sample	toronto_childhood_cancer_staging	Retinoblastoma_Stage 0
-sample	toronto_childhood_cancer_staging	Retinoblastoma_Stage I
-sample	toronto_childhood_cancer_staging	Retinoblastoma_Stage II
-sample	toronto_childhood_cancer_staging	Retinoblastoma_Stage III
-sample	toronto_childhood_cancer_staging	Retinoblastoma_Stage IV
-sample	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage I
-sample	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage II
-sample	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage III
-sample	toronto_childhood_cancer_staging	Rhabdomyosarcoma_Stage IV
-sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage I
-sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IA
-sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IB
-sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage II
-sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIA
-sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIB
-sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIC
-sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage III
-sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIIA
-sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIIB
-sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IIIC
-sample	toronto_childhood_cancer_staging	Testicular germ cell tumours_Stage IS
-sample	tumor_classification	ARRAY(0x55a0d5917238)
+sample	toronto_childhood_cancer_staging	Acute lymphoblastic leukemia CNS1
+sample	toronto_childhood_cancer_staging	Acute lymphoblastic leukemia CNS2
+sample	toronto_childhood_cancer_staging	Acute lymphoblastic leukemia CNS3
+sample	toronto_childhood_cancer_staging	Astrocytomas Localized
+sample	toronto_childhood_cancer_staging	Astrocytomas Metastatic
+sample	toronto_childhood_cancer_staging	Ependymoma M0
+sample	toronto_childhood_cancer_staging	Ependymoma M1
+sample	toronto_childhood_cancer_staging	Ependymoma M2
+sample	toronto_childhood_cancer_staging	Ependymoma M3
+sample	toronto_childhood_cancer_staging	Ependymoma M4
+sample	toronto_childhood_cancer_staging	Hepatoblastoma Localized PRETEXT I
+sample	toronto_childhood_cancer_staging	Hepatoblastoma Localized PRETEXT II
+sample	toronto_childhood_cancer_staging	Hepatoblastoma Localized PRETEXT III
+sample	toronto_childhood_cancer_staging	Hepatoblastoma Localized PRETEXT IV
+sample	toronto_childhood_cancer_staging	Hepatoblastoma Metastatic PRETEXT I
+sample	toronto_childhood_cancer_staging	Hepatoblastoma Metastatic PRETEXT II
+sample	toronto_childhood_cancer_staging	Hepatoblastoma Metastatic PRETEXT III
+sample	toronto_childhood_cancer_staging	Hepatoblastoma Metastatic PRETEXT IV
+sample	toronto_childhood_cancer_staging	Hodgkin lymphoma Stage I
+sample	toronto_childhood_cancer_staging	Hodgkin lymphoma Stage II
+sample	toronto_childhood_cancer_staging	Hodgkin lymphoma Stage III
+sample	toronto_childhood_cancer_staging	Hodgkin lymphoma Stage IV
+sample	toronto_childhood_cancer_staging	Malignant bone tumor Localized
+sample	toronto_childhood_cancer_staging	Malignant bone tumor Metastatic
+sample	toronto_childhood_cancer_staging	Medulloblastoma M0
+sample	toronto_childhood_cancer_staging	Medulloblastoma M1
+sample	toronto_childhood_cancer_staging	Medulloblastoma M2
+sample	toronto_childhood_cancer_staging	Medulloblastoma M3
+sample	toronto_childhood_cancer_staging	Medulloblastoma M4
+sample	toronto_childhood_cancer_staging	Neuroblastoma Stage L1
+sample	toronto_childhood_cancer_staging	Neuroblastoma Stage L2
+sample	toronto_childhood_cancer_staging	Neuroblastoma Stage M
+sample	toronto_childhood_cancer_staging	Neuroblastoma Stage MS
+sample	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma Stage I
+sample	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma Stage II
+sample	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma Stage III
+sample	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma Stage IV
+sample	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma Stage I
+sample	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma Stage II
+sample	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma Stage III
+sample	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma Stage IV
+sample	toronto_childhood_cancer_staging	Ovarian germ cell tumor Stage I
+sample	toronto_childhood_cancer_staging	Ovarian germ cell tumor Stage II
+sample	toronto_childhood_cancer_staging	Ovarian germ cell tumor Stage III
+sample	toronto_childhood_cancer_staging	Ovarian germ cell tumor Stage IV
+sample	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage I
+sample	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage II
+sample	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage III
+sample	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage IV
+sample	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage y-I
+sample	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage y-II
+sample	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage y-III
+sample	toronto_childhood_cancer_staging	Retinoblastoma Stage 0
+sample	toronto_childhood_cancer_staging	Retinoblastoma Stage I
+sample	toronto_childhood_cancer_staging	Retinoblastoma Stage II
+sample	toronto_childhood_cancer_staging	Retinoblastoma Stage III
+sample	toronto_childhood_cancer_staging	Retinoblastoma Stage IV
+sample	toronto_childhood_cancer_staging	Rhabdomyosarcoma Stage I
+sample	toronto_childhood_cancer_staging	Rhabdomyosarcoma Stage II
+sample	toronto_childhood_cancer_staging	Rhabdomyosarcoma Stage III
+sample	toronto_childhood_cancer_staging	Rhabdomyosarcoma Stage IV
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage I
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IA
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IB
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage II
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIA
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIB
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIC
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage III
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIIA
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIIB
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIIC
+sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IS
+sample	tumor_classification	ARRAY(0x562b9bfb61d8)
 sample	tumor_classification	string
 sample	tumor_grade	G1
 sample	tumor_grade	G2
@@ -2253,9 +2604,9 @@ sequencing_file	file_mapping_level	Participiant
 sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
-sequencing_file	file_size	ARRAY(0x55a0d585fea8)
+sequencing_file	file_size	ARRAY(0x562b9bfd16d0)
 sequencing_file	file_size	integer
-sequencing_file	file_type	ARRAY(0x55a0d58812a0)
+sequencing_file	file_type	ARRAY(0x562b9c033d08)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -2464,9 +2815,9 @@ single_cell_sequencing_file	file_mapping_level	Participiant
 single_cell_sequencing_file	file_mapping_level	Sample
 single_cell_sequencing_file	file_mapping_level	Study
 single_cell_sequencing_file	file_name	STRING
-single_cell_sequencing_file	file_size	ARRAY(0x55a0d585fea8)
+single_cell_sequencing_file	file_size	ARRAY(0x562b9bfd16d0)
 single_cell_sequencing_file	file_size	integer
-single_cell_sequencing_file	file_type	ARRAY(0x55a0d58812a0)
+single_cell_sequencing_file	file_type	ARRAY(0x562b9c033d08)
 single_cell_sequencing_file	file_type	string
 single_cell_sequencing_file	file_url_in_cds	STRING
 single_cell_sequencing_file	instrument_model	454 GS
@@ -2642,7 +2993,7 @@ single_cell_sequencing_file	sequence_alignment_software	STRING
 single_cell_sequencing_file	single_cell_sequencing_file_id	STRING
 study	acl	STRING
 study	consent	STRING
-study	consent_number	ARRAY(0x55a0d5853ad0)
+study	consent_number	ARRAY(0x562b9bf426d8)
 study	consent_number	integer
 study	experimental_strategy_and_data_subtype	ARRAY
 study	external_url	STRING
@@ -2676,14 +3027,14 @@ study_funding	study_funding_id	STRING
 study_personnel	email_address	STRING
 study_personnel	institution	STRING
 study_personnel	personnel_name	STRING
-study_personnel	personnel_type	ARRAY(0x55a0d5881450)
+study_personnel	personnel_type	ARRAY(0x562b9bf40488)
 study_personnel	personnel_type	string
 study_personnel	study_personnel_id	STRING
 synonym	repository_of_synonym_id	STRING
 synonym	synonym_id	STRING
-therapeutic_procedure	days_to_treatment_end	ARRAY(0x55a0d5857470)
+therapeutic_procedure	days_to_treatment_end	ARRAY(0x562b9c03bf58)
 therapeutic_procedure	days_to_treatment_end	integer
-therapeutic_procedure	days_to_treatment_start	ARRAY(0x55a0d589e440)
+therapeutic_procedure	days_to_treatment_start	ARRAY(0x562b9bf40440)
 therapeutic_procedure	days_to_treatment_start	integer
 therapeutic_procedure	therapeutic_agents	ARRAY
 therapeutic_procedure	therapeutic_procedure_id	STRING
@@ -2801,13 +3152,14 @@ of_diagnosis	diagnosis	participant	NA	NA
 of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
 of_follow_up	follow_up	participant	NA	NA
-of_imaging_file	imaging_file	sample	NA	NA
 of_medical_history	medical_history	participant	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
 of_molecular_test	molecular_test	participant	NA	NA
 of_participant	participant	study	NA	NA
+of_pathology_file	pathology_file	sample	NA	NA
 of_pdx	pdx	sample	NA	NA
 of_publication	publication	study	NA	NA
+of_radiology_file	radiology_file	participant	NA	NA
 of_sample	sample	participant	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
@@ -2815,9 +3167,9 @@ of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
+of_synonym	synonym	participant	NA	NA
 of_synonym	synonym	sample	NA	NA
 of_synonym	synonym	study	NA	NA
-of_synonym	synonym	participant	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
@@ -2923,10 +3275,7 @@ gene_symbol	The text term used to describe a gene targeted or included in molecu
 grant_id	Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
 histone_family	The text term used to describe the family, or classification of a group of basic proteins found in chromatin, called histones.
 histone_variant	The text term used to describe a specific histone variants, which are proteins that substitute for the core canonical histones.
-image_modality	The method in which the images are generated.
-imaging_file_id	A unique identifier for a imaging file.
-imaging_instrument_model	The words used to describe the specific model of the instrument used to carry out an imaging experiment.
-imaging_platform	The words used to describe the instrument used to carry out an imaging experiment.
+image_modality	The method by which the images are generated.
 implantation_site	Anatomic site of xenograft.
 implantation_type	How the xenograft was introduced into host.
 institution	The institution of the personnel.
@@ -2962,9 +3311,11 @@ number_of_samples	The number of samples in the study, often used as a subset of 
 organism_species	The organism from which the sample is derived or originated.
 pack_years_smoked	Numeric computed value to represent lifetime tobacco exposure defined as number of cigarettes smoked per day x number of years smoked divided by 20.
 participant_age_at_collection	The age of the participant (in years) at the time of sample collection.
+participant_age_at_imaging	The age (in days) of the subject at the time of an imaging procedure.
 participant_id	A unique sequence of alphanumeric characters used to identify the participant, in the investigation or study, of the specimen at it's point of origin.
 participant_list	The list of participant ids that are found in this clinical file. This is often used for files that have a large number of participants referenced within the file.
 pathogenicity	The text used to describe a variant's level of involvement in the cause of the patient's disease according to the standards outlined by the American College of Medical Genetics and Genomics (ACMG).
+pathology_file_id	A unique identifier for a pathology file.
 pdx_id	A unique identifier for a pdx.
 personnel_name	The name of personnel who is an organizer in the study.
 personnel_type	The role of personnel in the study.
@@ -2974,6 +3325,7 @@ ploidy	Text term used to describe the number of sets of homologous chromosomes.
 publication_id	A unique identifier for a publication.
 pubmed_id	The accession number used in PubMed.
 race	The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
+radiology_file_id	A unique identifier for a pathology file.
 radon_exposure	The yes/no/unknown indicator used to describe whether the patient was exposed to radon.
 reference_genome_assembly	A published genetic sequence that is used as a reference sequence against which other sequences are compared. This is only if you are submitting a bam file aligned against a NCBI assembly.
 related_to_participant_id	Participant related to another participant
@@ -2992,7 +3344,6 @@ sequencing_file_id	A unique identifier for a sequencing file.
 single_cell_sequencing_file_id	A unique identifier for a single cell sequencing file.
 size_of_data_being_uploaded	The numerical quantity documenting the physical magnitude of a set of related electronic records.
 smoking_frequency	The text term used to generally decribe how often the patient smokes.
-software_package	The name of the software package that was used.
 specialized_molecular_test	Text term used to describe a specific test that is not covered in the list of molecular analysis methods.
 staining_method	Any of the various methods that use a dye, reagent, or other material for producing coloration in tissues or microorganisms for microscopic examination.
 start_days_from_index	Number of days from the date of birth (index date) to the date of an event (test, test result).

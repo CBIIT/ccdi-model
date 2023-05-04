@@ -78,28 +78,6 @@ Nodes:
       - disease_response
       - risk_factor
       - follow_up_other
-  imaging_file: # 01.03.22 pdunn
-    Props:
-      - imaging_file_id
-      - file_name
-      - file_type
-      - file_description
-      - file_size
-      - md5sum
-      - file_url_in_cds
-      - dcf_indexd_guid
-      - image_modality
-      - imaging_instrument_model
-      - software_package
-      - imaging_platform
-      - magnification
-      - fixation_embedding_method
-      - staining_method
-      - deidentification_method
-      - file_mapping_level
-      # - checksum_algorithm
-      # - checksum_value
-      # - platform redundant with imaging_platform
   medical_history:
     Props:
       - medical_history_id
@@ -164,6 +142,21 @@ Nodes:
       - ethnicity
       - alternate_participant_id
       # - dbgap_subject_id : store in synonym
+  pathology_file: 
+    Props:
+      - pathology_file_id
+      - file_name
+      - file_type
+      - file_description
+      - file_size
+      - md5sum
+      - file_url_in_cds
+      - dcf_indexd_guid
+      - magnification
+      - fixation_embedding_method
+      - staining_method
+      - deidentification_method
+      - file_mapping_level
   pdx:
     Props: 
       - pdx_id
@@ -180,6 +173,21 @@ Nodes:
      Props:
       - publication_id
       - pubmed_id
+  radiology_file: 
+    Props:
+      - radiology_file_id
+      - file_name
+      - file_type
+      - file_description
+      - file_size
+      - md5sum
+      - file_url_in_cds
+      - dcf_indexd_guid
+      - anatomic_site
+      - participant_age_at_imaging
+      - image_modality
+      - deidentification_method
+      - file_mapping_level
   sample:
     Props:
       - sample_id
@@ -375,11 +383,11 @@ Relationships:
     Ends:
       - Src: follow_up
         Dst: participant
-  of_imaging_file: #09.20.22 pd
+  of_pathology_file:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: imaging_file
+      - Src: pathology_file
         Dst: sample
   of_medical_history:
     Props: null
@@ -419,6 +427,12 @@ Relationships:
     Ends:
      - Src: publication
        Dst: study
+  of_radiology_file:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: radiology_file
+        Dst: participant
   of_sample: 
     Props: null
     Mul: many_to_one

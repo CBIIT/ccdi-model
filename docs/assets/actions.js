@@ -42,18 +42,32 @@ function get_node_bounds(X,Y) {
 }
 
 function bbox_from_path(elt) {
-  a = $(elt).find('path').attr('d').split(/[MC ]/);
-  a.splice(0,4)
-  let b={}
-  for ( let i=0 ; i<a.length ; i=i+3 ) {
-    let w = a[i].split(',').map( x => Number(x) ) ;
-    b.xmax = (i==0) ? w[0]: Math.max(b.xmax,w[0]);
-    b.xmin = (i==0) ? w[0] : Math.min(b.xmin, w[0]);
-    b.ymax = (i==0) ? w[1] : Math.max(b.ymax,w[1]) ;
-    b.ymin = (i==0) ? w[1] : Math.min(b.ymin,w[1]) ;
+  a = $(elt).find('path')
+  if ( a.attr('d') ) {
+    a = a.attr('d').split(/[MC ]/);
+    a.splice(0,4)
+    let b={}
+    for ( let i=0 ; i<a.length ; i=i+3 ) {
+      let w = a[i].split(',').map( x => Number(x) ) ;
+      b.xmax = (i==0) ? w[0]: Math.max(b.xmax,w[0]);
+      b.xmin = (i==0) ? w[0] : Math.min(b.xmin, w[0]);
+      b.ymax = (i==0) ? w[1] : Math.max(b.ymax,w[1]) ;
+      b.ymin = (i==0) ? w[1] : Math.min(b.ymin,w[1]) ;
+    }
+    b.width = b.xmax - b.xmin ; b.height = b.ymax-b.ymin ;
+    b.x = b.xmin ; b.y = b.ymin ; 
+    return b
   }
-  b.width = b.xmax - b.xmin ; b.height = b.ymax-b.ymin ;
-  b.x = b.xmin ; b.y = b.ymin ; 
-  return b
+  a = $(elt).find('ellipse')
+  if (a.attr('cx')) {
+    let b={}
+    b.xmax = Number(a.attr('cx')) + Number(a.attr('rx'))
+    b.xmin = Number(a.attr('cx')) - Number(a.attr('rx'))
+    b.ymax = Number(a.attr('cy')) + Number(a.attr('rx'))
+    b.ymin = Number(a.attr('cy')) - Number(a.attr('rx'))
+    b.width = b.xmax - b.xmin ; b.height = b.ymax-b.ymin ;
+    b.x = b.xmin ; b.y = b.ymin ; 
+    return b
+  }    
 }
   

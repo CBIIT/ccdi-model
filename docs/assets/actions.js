@@ -1,7 +1,6 @@
 $( function () {
   var model = L.map('model', {
     crs: L.CRS.Simple,
-    center: 
     minZoom: -3,
     zoomSnap: 1,
     bounceAtZoomLimits: true,

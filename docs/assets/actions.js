@@ -1,6 +1,7 @@
 $( function () {
   var model = L.map('model', {
     crs: L.CRS.Simple,
+    center: 
     minZoom: -3,
     zoomSnap: 1,
     bounceAtZoomLimits: true,
@@ -12,7 +13,7 @@ $( function () {
   model.fitBounds(bounds)
   // L.polygon(nb.adverse_event.rect,{color: 'lightblue'}).addTo(model)
   $("#node_select").find('option[value=case]').attr("selected",true)
-  model.flyToBounds(nb.case.bounds)
+  model.flyToBounds(nb.study.bounds)
 })
 function setup_node_select(model,X,Y) {
   let nb = get_node_bounds(X,Y);

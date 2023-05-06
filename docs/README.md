@@ -18,12 +18,12 @@ Zoom to Node: <select id="node_select">
 <div id="model"></div>
 
 <p>
-<a href="./model-desc/ccdi-model.svg">SVG file (in view above)</a>
+<a href="./model-desc/ccdi-model-nodes-only.svg">SVG file (in view above)</a>
 <p>
 <a href="./model-desc">Additional model files</a>
 <div id='graph' style='display:off;'>
-<svg width="2738pt" height="305pt"
- viewBox="0.00 0.00 2737.89 305.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="2751pt" height="305pt"
+ viewBox="0.00 0.00 751.29 305.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 301)">
 <title>Perl</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-301 2733.8919,-301 2733.8919,4 -4,4"/>

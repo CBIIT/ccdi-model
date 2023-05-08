@@ -904,7 +904,7 @@ Terms:
     Version: '1'
     Value: Chemotherapy
   Chest wall, NOS: 
-    Origin: ICD-O
+    Origin: ICD-O-3.2
     Definition: Subdivision of thorax which includes all structures from the skin to the costal pleura.
     Code: 'C76.1'
     Version: '1'
@@ -1810,7 +1810,7 @@ Terms:
   Hand, NOS:
     Origin: ICD-O-3.2
     Definition: Distal segment of the fore limb, including carpal region, metacarpal region and digits.
-    Code: C76.4
+    Code: 'C76.4'
     Version: '1'
     Value: Not otherwise specified hand
   Hard palate:

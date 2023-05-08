@@ -905,10 +905,10 @@ Terms:
     Value: Chemotherapy
   Chest wall, NOS: 
     Origin: ICD-O
-    Definition: 
-    Code: 
+    Definition: Subdivision of thorax which includes all structures from the skin to the costal pleura.
+    Code: 'C76.1'
     Version: '1'
-    Value: Chest wall, NOS
+    Value: Not otherwise specified chest wall
   ChIA-PET:
     Origin: caDSR
     Definition: Direct sequencing of proximity-ligated chromatin immunoprecipitates.
@@ -1143,6 +1143,12 @@ Terms:
     Code: 4265340
     Version: '1'
     Value: Adrenal Cortex
+  Cranial fossa, NOS:
+    Origin: ICD-O-3.2
+    Definition: Any of the three large depressions in the posterior, middle, and anterior aspects of the floor of the cranial cavity.
+    Code: 'C71.9'
+    Version: '1'
+    Value: Not otherwise specified cranial fossa
   Cranial nerve, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: Any of the 12 paired nerves
@@ -1801,6 +1807,12 @@ Terms:
     Code: 3685461
     Version: '1'
     Value: Grade Cannot be Assessed
+  Hand, NOS:
+    Origin: ICD-O-3.2
+    Definition: Distal segment of the fore limb, including carpal region, metacarpal region and digits.
+    Code: C76.4
+    Version: '1'
+    Value: Not otherwise specified hand
   Hard palate:
     Origin: caDSR
     Definition: The bony anterior part of the roof of the mouth separating the nose

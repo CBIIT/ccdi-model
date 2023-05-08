@@ -5350,7 +5350,7 @@ PropDefinitions:
         Code: 'C43622'
         Value: Experimental Method 
     Type: array
-    Item: string
+    Items: string
     Req: false
     Private: false 
   #study_admin

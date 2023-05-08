@@ -4382,11 +4382,11 @@ PropDefinitions:
     Private: false 
   # sample
   anatomic_site:
-    Desc: The text term used to describe the anatomic site of origin, of the patient's malignant disease, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+    Desc: The location within the body where cancer begins as captured in the topography codes of the International Classification of Diseases for Oncology, 3rd Edition (ICD-O-3).
     Term:
       - Origin: caDSR
-        Code: '6161035'
-        Value: ICD-O Origin of Disease Anatomic Site
+        Code: '11341616'
+        Value: Disease Primary Anatomic Site ICD-O-3 Code
     Enum:
       - "Abdomen, NOS"
       - "Abdominal esophagus"

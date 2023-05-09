@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit b143b64
+commit 502e7c8
 node	property	value_or_TYPE
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
@@ -10,351 +10,17 @@ clinical_measure_file	file_mapping_level	Participiant
 clinical_measure_file	file_mapping_level	Sample
 clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
-clinical_measure_file	file_size	ARRAY(0x55c1481bc480)
+clinical_measure_file	file_size	ARRAY(0x55f6513a47d8)
 clinical_measure_file	file_size	integer
-clinical_measure_file	file_type	ARRAY(0x55c1481f13b0)
+clinical_measure_file	file_type	ARRAY(0x55f651381fb0)
 clinical_measure_file	file_type	string
 clinical_measure_file	file_url_in_cds	STRING
 clinical_measure_file	md5sum	STRING
 clinical_measure_file	participant_list	STRING
-diagnosis	age_at_diagnosis	ARRAY(0x55c148227720)
+diagnosis	age_at_diagnosis	ARRAY(0x55f6513a67b0)
 diagnosis	age_at_diagnosis	integer
-diagnosis	anatomic_site	Abdomen, NOS
-diagnosis	anatomic_site	Abdominal esophagus
-diagnosis	anatomic_site	Accessory sinus, NOS
-diagnosis	anatomic_site	Acoustic nerve
-diagnosis	anatomic_site	Adrenal gland, NOS
-diagnosis	anatomic_site	Ampulla of Vater
-diagnosis	anatomic_site	Anal canal
-diagnosis	anatomic_site	Anterior 2/3 of tongue, NOS
-diagnosis	anatomic_site	Anterior floor of mouth
-diagnosis	anatomic_site	Anterior mediastinum
-diagnosis	anatomic_site	Anterior surface of epiglottis
-diagnosis	anatomic_site	Anterior wall of bladder
-diagnosis	anatomic_site	Anterior wall of nasopharynx
-diagnosis	anatomic_site	Anus, NOS
-diagnosis	anatomic_site	Aortic body and other paraganglia
-diagnosis	anatomic_site	Appendix
-diagnosis	anatomic_site	Ascending colon
-diagnosis	anatomic_site	Autonomic nervous system, NOS
-diagnosis	anatomic_site	Axillary tail of breast
-diagnosis	anatomic_site	Base of tongue, NOS
-diagnosis	anatomic_site	Biliary tract, NOS
-diagnosis	anatomic_site	Bladder neck
-diagnosis	anatomic_site	Bladder, NOS
-diagnosis	anatomic_site	Blood
-diagnosis	anatomic_site	Body of pancreas
-diagnosis	anatomic_site	Body of penis
-diagnosis	anatomic_site	Body of stomach
-diagnosis	anatomic_site	Bone marrow
-diagnosis	anatomic_site	Bone of limb, NOS
-diagnosis	anatomic_site	Bone, NOS
-diagnosis	anatomic_site	Bones of skull and face and associated joints
-diagnosis	anatomic_site	Border of tongue
-diagnosis	anatomic_site	Brain stem
-diagnosis	anatomic_site	Brain, NOS
-diagnosis	anatomic_site	Branchial cleft
-diagnosis	anatomic_site	Breast, NOS
-diagnosis	anatomic_site	Broad ligament
-diagnosis	anatomic_site	Buccal mucosa
-diagnosis	anatomic_site	Cardia, NOS
-diagnosis	anatomic_site	Carotid body
-diagnosis	anatomic_site	Cauda equina
-diagnosis	anatomic_site	Cecum
-diagnosis	anatomic_site	Central portion of breast
-diagnosis	anatomic_site	Cerebellum, NOS
-diagnosis	anatomic_site	Cerebral meninges
-diagnosis	anatomic_site	Cerebrospinal fluid
-diagnosis	anatomic_site	Cerebrum
-diagnosis	anatomic_site	Cervical esophagus
-diagnosis	anatomic_site	Cervix uteri
-diagnosis	anatomic_site	Cheek mucosa
-diagnosis	anatomic_site	Choroid
-diagnosis	anatomic_site	Ciliary body
-diagnosis	anatomic_site	Clitoris
-diagnosis	anatomic_site	Cloacogenic zone
-diagnosis	anatomic_site	Colon, NOS
-diagnosis	anatomic_site	Commissure of lip
-diagnosis	anatomic_site	Conjunctiva
-diagnosis	anatomic_site	Connective, subcutaneous and other soft tissues of abdomen
-diagnosis	anatomic_site	Connective, subcutaneous and other soft tissues of head, face, and neck
-diagnosis	anatomic_site	Connective, subcutaneous and other soft tissues of lower limb and hip
-diagnosis	anatomic_site	Connective, subcutaneous and other soft tissues of pelvis
-diagnosis	anatomic_site	Connective, subcutaneous and other soft tissues of thorax
-diagnosis	anatomic_site	Connective, subcutaneous and other soft tissues of trunk, NOS
-diagnosis	anatomic_site	Connective, subcutaneous and other soft tissues of upper limb and shoulder
-diagnosis	anatomic_site	Connective, subcutaneous and other soft tissues, NOS
-diagnosis	anatomic_site	Cornea, NOS
-diagnosis	anatomic_site	Corpus uteri
-diagnosis	anatomic_site	Cortex of adrenal gland
-diagnosis	anatomic_site	Cranial nerve, NOS
-diagnosis	anatomic_site	Craniopharyngeal duct
-diagnosis	anatomic_site	Descended testis
-diagnosis	anatomic_site	Descending colon
-diagnosis	anatomic_site	Dome of bladder
-diagnosis	anatomic_site	Dorsal surface of tongue, NOS
-diagnosis	anatomic_site	Duodenum
-diagnosis	anatomic_site	Endocervix
-diagnosis	anatomic_site	Endocrine gland, NOS
-diagnosis	anatomic_site	Endometrium
-diagnosis	anatomic_site	Epididymis
-diagnosis	anatomic_site	Esophagus, NOS
-diagnosis	anatomic_site	Ethmoid sinus
-diagnosis	anatomic_site	Exocervix
-diagnosis	anatomic_site	External ear
-diagnosis	anatomic_site	External lip, NOS
-diagnosis	anatomic_site	External lower lip
-diagnosis	anatomic_site	External upper lip
-diagnosis	anatomic_site	Extrahepatic bile duct
-diagnosis	anatomic_site	Eye, NOS
-diagnosis	anatomic_site	Eyelid
-diagnosis	anatomic_site	Fallopian tube
-diagnosis	anatomic_site	Female genital tract, NOS
-diagnosis	anatomic_site	Floor of mouth, NOS
-diagnosis	anatomic_site	Frontal lobe
-diagnosis	anatomic_site	Frontal sinus
-diagnosis	anatomic_site	Fundus of stomach
-diagnosis	anatomic_site	Fundus uteri
-diagnosis	anatomic_site	Gallbladder
-diagnosis	anatomic_site	Gastric antrum
-diagnosis	anatomic_site	Gastrointestinal tract, NOS
-diagnosis	anatomic_site	Glans penis
-diagnosis	anatomic_site	Glottis
-diagnosis	anatomic_site	Greater curvature of stomach, NOS
-diagnosis	anatomic_site	Gum, NOS
-diagnosis	anatomic_site	Hard palate
-diagnosis	anatomic_site	Head of pancreas
-diagnosis	anatomic_site	Head, face or neck, NOS
-diagnosis	anatomic_site	Heart
-diagnosis	anatomic_site	Hematopoietic system, NOS
-diagnosis	anatomic_site	Hepatic flexure of colon
-diagnosis	anatomic_site	Hypopharyngeal aspect of aryepiglottic fold
-diagnosis	anatomic_site	Hypopharynx, NOS
-diagnosis	anatomic_site	Ileum
-diagnosis	anatomic_site	Ill-defined sites within respiratory system
-diagnosis	anatomic_site	Intestinal tract, NOS
-diagnosis	anatomic_site	Intra-abdominal lymph nodes
-diagnosis	anatomic_site	Intrahepatic bile duct
-diagnosis	anatomic_site	Intrathoracic lymph nodes
-diagnosis	anatomic_site	Islets of Langerhans
-diagnosis	anatomic_site	Isthmus uteri
-diagnosis	anatomic_site	Jejunum
-diagnosis	anatomic_site	Kidney, NOS
-diagnosis	anatomic_site	Labium majus
-diagnosis	anatomic_site	Labium minus
-diagnosis	anatomic_site	Lacrimal gland
-diagnosis	anatomic_site	Laryngeal cartilage
-diagnosis	anatomic_site	Laryngeal commissure
-diagnosis	anatomic_site	Larynx, NOS
-diagnosis	anatomic_site	Lateral floor of mouth
-diagnosis	anatomic_site	Lateral wall of bladder
-diagnosis	anatomic_site	Lateral wall of nasopharynx
-diagnosis	anatomic_site	Lateral wall of oropharynx
-diagnosis	anatomic_site	Lesser curvature of stomach, NOS
-diagnosis	anatomic_site	Lingual tonsil
-diagnosis	anatomic_site	Lip, NOS
-diagnosis	anatomic_site	Liver
-diagnosis	anatomic_site	Long bones of lower limb and associated joints
-diagnosis	anatomic_site	Long bones of upper limb, scapula and associated joints
-diagnosis	anatomic_site	Lower gum
-diagnosis	anatomic_site	Lower limb, NOS
-diagnosis	anatomic_site	Lower lobe, lung
-diagnosis	anatomic_site	Lower third of esophagus
-diagnosis	anatomic_site	Lower-inner quadrant of breast
-diagnosis	anatomic_site	Lower-outer quadrant of breast
-diagnosis	anatomic_site	Lung, NOS
-diagnosis	anatomic_site	Lymph node, NOS
-diagnosis	anatomic_site	Lymph nodes of axilla or arm
-diagnosis	anatomic_site	Lymph nodes of head, face and neck
-diagnosis	anatomic_site	Lymph nodes of inguinal region or leg
-diagnosis	anatomic_site	Lymph nodes of multiple regions
-diagnosis	anatomic_site	Main bronchus
-diagnosis	anatomic_site	Major salivary gland, NOS
-diagnosis	anatomic_site	Male genital organs, NOS
-diagnosis	anatomic_site	Mandible
-diagnosis	anatomic_site	Maxillary sinus
-diagnosis	anatomic_site	Meckel diverticulum
-diagnosis	anatomic_site	Mediastinum, NOS
-diagnosis	anatomic_site	Medulla of adrenal gland
-diagnosis	anatomic_site	Meninges, NOS
-diagnosis	anatomic_site	Middle ear
-diagnosis	anatomic_site	Middle lobe, lung
-diagnosis	anatomic_site	Middle third of esophagus
-diagnosis	anatomic_site	Mouth, NOS
-diagnosis	anatomic_site	Mucosa of lip, NOS
-diagnosis	anatomic_site	Mucosa of lower lip
-diagnosis	anatomic_site	Mucosa of upper lip
-diagnosis	anatomic_site	Myometrium
-diagnosis	anatomic_site	Nasal cavity
-diagnosis	anatomic_site	Nasopharynx, NOS
-diagnosis	anatomic_site	Nervous system, NOS
-diagnosis	anatomic_site	Nipple
-diagnosis	anatomic_site	Not Reported
-diagnosis	anatomic_site	Occipital lobe
-diagnosis	anatomic_site	Olfactory nerve
-diagnosis	anatomic_site	Optic nerve
-diagnosis	anatomic_site	Orbit, NOS
-diagnosis	anatomic_site	Oropharynx, NOS
-diagnosis	anatomic_site	Other ill-defined sites
-diagnosis	anatomic_site	Other specified parts of female genital organs
-diagnosis	anatomic_site	Other specified parts of male genital organs
-diagnosis	anatomic_site	Other specified parts of pancreas
-diagnosis	anatomic_site	Ovary
-diagnosis	anatomic_site	Overlapping lesion of accessory sinuses
-diagnosis	anatomic_site	Overlapping lesion of biliary tract
-diagnosis	anatomic_site	Overlapping lesion of bladder
-diagnosis	anatomic_site	Overlapping lesion of bones, joints and articular cartilage
-diagnosis	anatomic_site	Overlapping lesion of bones, joints and articular cartilage of limbs
-diagnosis	anatomic_site	Overlapping lesion of brain
-diagnosis	anatomic_site	Overlapping lesion of brain and central nervous system
-diagnosis	anatomic_site	Overlapping lesion of breast
-diagnosis	anatomic_site	Overlapping lesion of cervix uteri
-diagnosis	anatomic_site	Overlapping lesion of colon
-diagnosis	anatomic_site	Overlapping lesion of connective, subcutaneous and other soft tissues
-diagnosis	anatomic_site	Overlapping lesion of corpus uteri
-diagnosis	anatomic_site	Overlapping lesion of digestive system
-diagnosis	anatomic_site	Overlapping lesion of endocrine glands and related structures
-diagnosis	anatomic_site	Overlapping lesion of esophagus
-diagnosis	anatomic_site	Overlapping lesion of eye and adnexa
-diagnosis	anatomic_site	Overlapping lesion of female genital organs
-diagnosis	anatomic_site	Overlapping lesion of floor of mouth
-diagnosis	anatomic_site	Overlapping lesion of heart, mediastinum and pleura
-diagnosis	anatomic_site	Overlapping lesion of hypopharynx
-diagnosis	anatomic_site	Overlapping lesion of ill-defined sites
-diagnosis	anatomic_site	Overlapping lesion of larynx
-diagnosis	anatomic_site	Overlapping lesion of lip
-diagnosis	anatomic_site	Overlapping lesion of lip, oral cavity and pharynx
-diagnosis	anatomic_site	Overlapping lesion of lung
-diagnosis	anatomic_site	Overlapping lesion of major salivary glands
-diagnosis	anatomic_site	Overlapping lesion of male genital organs
-diagnosis	anatomic_site	Overlapping lesion of nasopharynx
-diagnosis	anatomic_site	Overlapping lesion of other and unspecified parts of mouth
-diagnosis	anatomic_site	Overlapping lesion of palate
-diagnosis	anatomic_site	Overlapping lesion of pancreas
-diagnosis	anatomic_site	Overlapping lesion of penis
-diagnosis	anatomic_site	Overlapping lesion of peripheral nerves and autonomic nervous system
-diagnosis	anatomic_site	Overlapping lesion of rectum, anus and anal canal
-diagnosis	anatomic_site	Overlapping lesion of respiratory system and intrathoracic organs
-diagnosis	anatomic_site	Overlapping lesion of retroperitoneum and peritoneum
-diagnosis	anatomic_site	Overlapping lesion of skin
-diagnosis	anatomic_site	Overlapping lesion of small intestine
-diagnosis	anatomic_site	Overlapping lesion of stomach
-diagnosis	anatomic_site	Overlapping lesion of tongue
-diagnosis	anatomic_site	Overlapping lesion of tonsil
-diagnosis	anatomic_site	Overlapping lesion of urinary organs
-diagnosis	anatomic_site	Overlapping lesion of vulva
-diagnosis	anatomic_site	Overlapping lesions of oropharynx
-diagnosis	anatomic_site	Palate, NOS
-diagnosis	anatomic_site	Pancreas, NOS
-diagnosis	anatomic_site	Pancreatic duct
-diagnosis	anatomic_site	Parametrium
-diagnosis	anatomic_site	Parathyroid gland
-diagnosis	anatomic_site	Paraurethral gland
-diagnosis	anatomic_site	Parietal lobe
-diagnosis	anatomic_site	Parotid gland
-diagnosis	anatomic_site	Pelvic bones, sacrum, coccyx and associated joints
-diagnosis	anatomic_site	Pelvic lymph nodes
-diagnosis	anatomic_site	Pelvis, NOS
-diagnosis	anatomic_site	Penis, NOS
-diagnosis	anatomic_site	Peripheral nerves and autonomic nervous system of abdomen
-diagnosis	anatomic_site	Peripheral nerves and autonomic nervous system of head, face, and neck
-diagnosis	anatomic_site	Peripheral nerves and autonomic nervous system of lower limb and hip
-diagnosis	anatomic_site	Peripheral nerves and autonomic nervous system of pelvis
-diagnosis	anatomic_site	Peripheral nerves and autonomic nervous system of thorax
-diagnosis	anatomic_site	Peripheral nerves and autonomic nervous system of trunk, NOS
-diagnosis	anatomic_site	Peripheral nerves and autonomic nervous system of upper limb and shoulder
-diagnosis	anatomic_site	Peritoneum, NOS
-diagnosis	anatomic_site	Pharynx, NOS
-diagnosis	anatomic_site	Pineal gland
-diagnosis	anatomic_site	Pituitary gland
-diagnosis	anatomic_site	Placenta
-diagnosis	anatomic_site	Pleura, NOS
-diagnosis	anatomic_site	Postcricoid region
-diagnosis	anatomic_site	Posterior mediastinum
-diagnosis	anatomic_site	Posterior wall of bladder
-diagnosis	anatomic_site	Posterior wall of hypopharynx
-diagnosis	anatomic_site	Posterior wall of nasopharynx
-diagnosis	anatomic_site	Posterior wall of oropharynx
-diagnosis	anatomic_site	Prepuce
-diagnosis	anatomic_site	Prostate gland
-diagnosis	anatomic_site	Pylorus
-diagnosis	anatomic_site	Pyriform sinus
-diagnosis	anatomic_site	Rectosigmoid junction
-diagnosis	anatomic_site	Rectum, NOS
-diagnosis	anatomic_site	Renal pelvis
-diagnosis	anatomic_site	Reticuloendothelial system, NOS
-diagnosis	anatomic_site	Retina
-diagnosis	anatomic_site	Retromolar area
-diagnosis	anatomic_site	Retroperitoneum
-diagnosis	anatomic_site	Rib, sternum, clavicle and associated joints
-diagnosis	anatomic_site	Round ligament
-diagnosis	anatomic_site	Saliva
-diagnosis	anatomic_site	Scrotum, NOS
-diagnosis	anatomic_site	Short bones of lower limb and associated joints
-diagnosis	anatomic_site	Short bones of upper limb and associated joints
-diagnosis	anatomic_site	Sigmoid colon
-diagnosis	anatomic_site	Skin of lip, NOS
-diagnosis	anatomic_site	Skin of lower limb and hip
-diagnosis	anatomic_site	Skin of other and unspecified parts of face
-diagnosis	anatomic_site	Skin of scalp and neck
-diagnosis	anatomic_site	Skin of trunk
-diagnosis	anatomic_site	Skin of upper limb and shoulder
-diagnosis	anatomic_site	Skin, NOS
-diagnosis	anatomic_site	Small intestine, NOS
-diagnosis	anatomic_site	Soft palate, NOS
-diagnosis	anatomic_site	Specified parts of peritoneum
-diagnosis	anatomic_site	Spermatic cord
-diagnosis	anatomic_site	Sphenoid sinus
-diagnosis	anatomic_site	Spinal cord
-diagnosis	anatomic_site	Spinal meninges
-diagnosis	anatomic_site	Spleen
-diagnosis	anatomic_site	Splenic flexure of colon
-diagnosis	anatomic_site	Stomach, NOS
-diagnosis	anatomic_site	Subglottis
-diagnosis	anatomic_site	Sublingual gland
-diagnosis	anatomic_site	Submandibular gland
-diagnosis	anatomic_site	Superior wall of nasopharynx
-diagnosis	anatomic_site	Supraglottis
-diagnosis	anatomic_site	Tail of pancreas
-diagnosis	anatomic_site	Temporal lobe
-diagnosis	anatomic_site	Testis, NOS
-diagnosis	anatomic_site	Thoracic esophagus
-diagnosis	anatomic_site	Thorax, NOS
-diagnosis	anatomic_site	Thymus
-diagnosis	anatomic_site	Thyroid gland
-diagnosis	anatomic_site	Tongue, NOS
-diagnosis	anatomic_site	Tonsil, NOS
-diagnosis	anatomic_site	Tonsillar fossa
-diagnosis	anatomic_site	Tonsillar pillar
-diagnosis	anatomic_site	Trachea
-diagnosis	anatomic_site	Transverse colon
-diagnosis	anatomic_site	Trigone of bladder
-diagnosis	anatomic_site	Undescended testis
-diagnosis	anatomic_site	Unknown
-diagnosis	anatomic_site	Unknown primary site
-diagnosis	anatomic_site	Upper Gum
-diagnosis	anatomic_site	Upper limb, NOS
-diagnosis	anatomic_site	Upper lobe, lung
-diagnosis	anatomic_site	Upper respiratory tract, NOS
-diagnosis	anatomic_site	Upper third of esophagus
-diagnosis	anatomic_site	Upper-inner quadrant of breast
-diagnosis	anatomic_site	Upper-outer quadrant of breast
-diagnosis	anatomic_site	Urachus
-diagnosis	anatomic_site	Ureter
-diagnosis	anatomic_site	Ureteric orifice
-diagnosis	anatomic_site	Urethra
-diagnosis	anatomic_site	Urinary system, NOS
-diagnosis	anatomic_site	Uterine adnexa
-diagnosis	anatomic_site	Uterus, NOS
-diagnosis	anatomic_site	Uvula
-diagnosis	anatomic_site	Vagina, NOS
-diagnosis	anatomic_site	Vallecula
-diagnosis	anatomic_site	Ventral surface of tongue, NOS
-diagnosis	anatomic_site	Ventricle, NOS
-diagnosis	anatomic_site	Vertebral column
-diagnosis	anatomic_site	Vestibule of mouth
-diagnosis	anatomic_site	Vulva, NOS
-diagnosis	anatomic_site	Waldeyer ring
+diagnosis	anatomic_site	ARRAY(0x55f65142cd68)
+diagnosis	anatomic_site	string
 diagnosis	days_to_last_followup	INTEGER
 diagnosis	days_to_last_known_disease_status	INTEGER
 diagnosis	days_to_recurrence	INTEGER
@@ -362,7 +28,7 @@ diagnosis	diagnosis_finer_resolution	STRING
 diagnosis	diagnosis_icd_cm	STRING
 diagnosis	diagnosis_icd_o	ARRAY
 diagnosis	diagnosis_id	STRING
-diagnosis	disease_phase	ARRAY(0x55c1481bff38)
+diagnosis	disease_phase	ARRAY(0x55f65138c038)
 diagnosis	disease_phase	string
 diagnosis	last_known_disease_status	Biochemical evidence of disease without structural correlate
 diagnosis	last_known_disease_status	Distant met recurrence/progression
@@ -530,24 +196,24 @@ diagnosis	vital_status	Unknown
 diagnosis	vital_status	Unspecified
 exposure	alcohol_days_per_week	INTEGER
 exposure	alcohol_drinks_per_day	INTEGER
-exposure	alcohol_history	ARRAY(0x55c1481c09e8)
+exposure	alcohol_history	ARRAY(0x55f65147d388)
 exposure	alcohol_history	string
-exposure	alcohol_intensity	ARRAY(0x55c1481efcf0)
+exposure	alcohol_intensity	ARRAY(0x55f6513a9dd8)
 exposure	alcohol_intensity	string
-exposure	asbestos_exposure	ARRAY(0x55c14821a380)
+exposure	asbestos_exposure	ARRAY(0x55f651375d50)
 exposure	asbestos_exposure	string
 exposure	cigarettes_per_day	INTEGER
-exposure	coal_dust_exposure	ARRAY(0x55c1481c0d30)
+exposure	coal_dust_exposure	ARRAY(0x55f65145a700)
 exposure	coal_dust_exposure	string
-exposure	environmental_tobacco_smoke_exposure	ARRAY(0x55c148219d38)
+exposure	environmental_tobacco_smoke_exposure	ARRAY(0x55f65144bac8)
 exposure	environmental_tobacco_smoke_exposure	string
 exposure	exposure_id	STRING
 exposure	pack_years_smoked	INTEGER
-exposure	radon_exposure	ARRAY(0x55c148250328)
+exposure	radon_exposure	ARRAY(0x55f65145daa0)
 exposure	radon_exposure	string
-exposure	respirable_crystalline_silica_exposure	ARRAY(0x55c14825f0d8)
+exposure	respirable_crystalline_silica_exposure	ARRAY(0x55f6513a49a0)
 exposure	respirable_crystalline_silica_exposure	string
-exposure	smoking_frequency	ARRAY(0x55c1481c66b0)
+exposure	smoking_frequency	ARRAY(0x55f6513788a0)
 exposure	smoking_frequency	string
 exposure	start_days_from_index	INTEGER
 exposure	time_between_waking_and_first_smoke	31-60 Minutes
@@ -571,7 +237,7 @@ exposure	years_smoked	INTEGER
 family_relationship	family_id	STRING
 family_relationship	family_relationship_id	STRING
 family_relationship	related_to_participant_id	STRING
-family_relationship	relationship	ARRAY(0x55c148204280)
+family_relationship	relationship	ARRAY(0x55f6514462b0)
 family_relationship	relationship	string
 follow_up	adverse_event	Abdominal Distension
 follow_up	adverse_event	Abdominal Infection
@@ -1511,7 +1177,7 @@ follow_up	comorbidity_method_of_diagnosis	Not Reported
 follow_up	comorbidity_method_of_diagnosis	Pathology
 follow_up	comorbidity_method_of_diagnosis	Radiology
 follow_up	comorbidity_method_of_diagnosis	Unknown
-follow_up	days_to_follow_up	ARRAY(0x55c148203338)
+follow_up	days_to_follow_up	ARRAY(0x55f651421788)
 follow_up	days_to_follow_up	integer
 follow_up	disease_response	AJ-Adjuvant Therapy
 follow_up	disease_response	BED-Biochemical Evidence of Disease
@@ -1565,7 +1231,7 @@ follow_up	follow_up_other	fev1_ref_pre_bronch_percent
 follow_up	follow_up_other	height
 follow_up	follow_up_other	hepatitis_sustained_virological_response
 follow_up	risk_factor	ARRAY
-medical_history	medical_history_category	ARRAY(0x55c1481e4148)
+medical_history	medical_history_category	ARRAY(0x55f651377f88)
 medical_history	medical_history_category	string
 medical_history	medical_history_condition	ARRAY
 medical_history	medical_history_id	STRING
@@ -1575,9 +1241,9 @@ methylation_array_file	file_mapping_level	Participiant
 methylation_array_file	file_mapping_level	Sample
 methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
-methylation_array_file	file_size	ARRAY(0x55c1481bc480)
+methylation_array_file	file_size	ARRAY(0x55f6513a47d8)
 methylation_array_file	file_size	integer
-methylation_array_file	file_type	ARRAY(0x55c1481f13b0)
+methylation_array_file	file_type	ARRAY(0x55f651381fb0)
 methylation_array_file	file_type	string
 methylation_array_file	file_url_in_cds	STRING
 methylation_array_file	md5sum	STRING
@@ -1585,9 +1251,9 @@ methylation_array_file	methylation_array_file_id	STRING
 methylation_array_file	methylation_platform	STRING
 methylation_array_file	reporter_label	STRING
 molecular_test	aa_change	STRING
-molecular_test	antigen	ARRAY(0x55c148231878)
+molecular_test	antigen	ARRAY(0x55f651443e50)
 molecular_test	antigen	string
-molecular_test	biospecimen_type	ARRAY(0x55c1481f9ab8)
+molecular_test	biospecimen_type	ARRAY(0x55f65142d1a0)
 molecular_test	biospecimen_type	string
 molecular_test	blood_test_normal_range_lower	INTEGER
 molecular_test	blood_test_normal_range_upper	INTEGER
@@ -1649,13 +1315,13 @@ molecular_test	histone_variant	mH2A
 molecular_test	histone_variant	mH2A.1
 molecular_test	histone_variant	mH2A.2
 molecular_test	intron	STRING
-molecular_test	laboratory_test	ARRAY(0x55c148234530)
+molecular_test	laboratory_test	ARRAY(0x55f6513927d0)
 molecular_test	laboratory_test	string
 molecular_test	loci_abnormal_count	INTEGER
 molecular_test	loci_count	INTEGER
 molecular_test	locus	STRING
 molecular_test	mismatch_repair_mutation	STRING
-molecular_test	molecular_analysis_method	ARRAY(0x55c148207ef8)
+molecular_test	molecular_analysis_method	ARRAY(0x55f651428538)
 molecular_test	molecular_analysis_method	string
 molecular_test	molecular_consequence	STRING
 molecular_test	molecular_test_id	STRING
@@ -1672,7 +1338,7 @@ molecular_test	test_analyte_type	Total RNA
 molecular_test	test_analyte_type	Unknown
 molecular_test	test_analyte_type	mRNA
 molecular_test	test_analyte_type	miRNA
-molecular_test	test_result	ARRAY(0x55c148232178)
+molecular_test	test_result	ARRAY(0x55f651441200)
 molecular_test	test_result	string
 molecular_test	test_units	STRING
 molecular_test	test_value	STRING
@@ -1680,7 +1346,7 @@ molecular_test	transcript	STRING
 molecular_test	variant_origin	Germline
 molecular_test	variant_origin	Somatic
 molecular_test	variant_origin	Unknown
-molecular_test	variant_type	ARRAY(0x55c1481cc3d0)
+molecular_test	variant_type	ARRAY(0x55f651371848)
 molecular_test	variant_type	string
 molecular_test	zygosity	Hemizygous
 molecular_test	zygosity	Heterozygous
@@ -1690,33 +1356,33 @@ molecular_test	zygosity	Nullizygous
 molecular_test	zygosity	Unknown
 participant	alternate_participant_id	STRING
 participant	ethnicity	ARRAY
-participant	gender	ARRAY(0x55c14821f880)
+participant	gender	ARRAY(0x55f65142fdc0)
 participant	gender	string
 participant	participant_id	STRING
 participant	race	ARRAY
 pathology_file	dcf_indexd_guid	STRING
-pathology_file	deidentification_method	ARRAY(0x55c1481cc580)
+pathology_file	deidentification_method	ARRAY(0x55f651475b38)
 pathology_file	deidentification_method	string
 pathology_file	file_description	STRING
 pathology_file	file_mapping_level	Participiant
 pathology_file	file_mapping_level	Sample
 pathology_file	file_mapping_level	Study
 pathology_file	file_name	STRING
-pathology_file	file_size	ARRAY(0x55c1481bc480)
+pathology_file	file_size	ARRAY(0x55f6513a47d8)
 pathology_file	file_size	integer
-pathology_file	file_type	ARRAY(0x55c1481f13b0)
+pathology_file	file_type	ARRAY(0x55f651381fb0)
 pathology_file	file_type	string
 pathology_file	file_url_in_cds	STRING
-pathology_file	fixation_embedding_method	ARRAY(0x55c1481e9268)
+pathology_file	fixation_embedding_method	ARRAY(0x55f651365018)
 pathology_file	fixation_embedding_method	string
 pathology_file	magnification	string
 pathology_file	md5sum	STRING
 pathology_file	pathology_file_id	STRING
-pathology_file	staining_method	ARRAY(0x55c14821f1a8)
+pathology_file	staining_method	ARRAY(0x55f651421d10)
 pathology_file	staining_method	string
-pdx	implantation_site	ARRAY(0x55c1481f47f8)
+pdx	implantation_site	ARRAY(0x55f651467918)
 pdx	implantation_site	string
-pdx	implantation_type	ARRAY(0x55c1481e49d0)
+pdx	implantation_type	ARRAY(0x55f6514831f0)
 pdx	implantation_type	string
 pdx	model_id	STRING
 pdx	mouse_strain	STRING
@@ -1729,698 +1395,30 @@ pdx	tumor_preparation	STRING
 pdx	type_of_humanization	STRING
 publication	publication_id	STRING
 publication	pubmed_id	STRING
-radiology_file	anatomic_site	Abdomen, NOS
-radiology_file	anatomic_site	Abdominal esophagus
-radiology_file	anatomic_site	Accessory sinus, NOS
-radiology_file	anatomic_site	Acoustic nerve
-radiology_file	anatomic_site	Adrenal gland, NOS
-radiology_file	anatomic_site	Ampulla of Vater
-radiology_file	anatomic_site	Anal canal
-radiology_file	anatomic_site	Anterior 2/3 of tongue, NOS
-radiology_file	anatomic_site	Anterior floor of mouth
-radiology_file	anatomic_site	Anterior mediastinum
-radiology_file	anatomic_site	Anterior surface of epiglottis
-radiology_file	anatomic_site	Anterior wall of bladder
-radiology_file	anatomic_site	Anterior wall of nasopharynx
-radiology_file	anatomic_site	Anus, NOS
-radiology_file	anatomic_site	Aortic body and other paraganglia
-radiology_file	anatomic_site	Appendix
-radiology_file	anatomic_site	Ascending colon
-radiology_file	anatomic_site	Autonomic nervous system, NOS
-radiology_file	anatomic_site	Axillary tail of breast
-radiology_file	anatomic_site	Base of tongue, NOS
-radiology_file	anatomic_site	Biliary tract, NOS
-radiology_file	anatomic_site	Bladder neck
-radiology_file	anatomic_site	Bladder, NOS
-radiology_file	anatomic_site	Blood
-radiology_file	anatomic_site	Body of pancreas
-radiology_file	anatomic_site	Body of penis
-radiology_file	anatomic_site	Body of stomach
-radiology_file	anatomic_site	Bone marrow
-radiology_file	anatomic_site	Bone of limb, NOS
-radiology_file	anatomic_site	Bone, NOS
-radiology_file	anatomic_site	Bones of skull and face and associated joints
-radiology_file	anatomic_site	Border of tongue
-radiology_file	anatomic_site	Brain stem
-radiology_file	anatomic_site	Brain, NOS
-radiology_file	anatomic_site	Branchial cleft
-radiology_file	anatomic_site	Breast, NOS
-radiology_file	anatomic_site	Broad ligament
-radiology_file	anatomic_site	Buccal mucosa
-radiology_file	anatomic_site	Cardia, NOS
-radiology_file	anatomic_site	Carotid body
-radiology_file	anatomic_site	Cauda equina
-radiology_file	anatomic_site	Cecum
-radiology_file	anatomic_site	Central portion of breast
-radiology_file	anatomic_site	Cerebellum, NOS
-radiology_file	anatomic_site	Cerebral meninges
-radiology_file	anatomic_site	Cerebrospinal fluid
-radiology_file	anatomic_site	Cerebrum
-radiology_file	anatomic_site	Cervical esophagus
-radiology_file	anatomic_site	Cervix uteri
-radiology_file	anatomic_site	Cheek mucosa
-radiology_file	anatomic_site	Choroid
-radiology_file	anatomic_site	Ciliary body
-radiology_file	anatomic_site	Clitoris
-radiology_file	anatomic_site	Cloacogenic zone
-radiology_file	anatomic_site	Colon, NOS
-radiology_file	anatomic_site	Commissure of lip
-radiology_file	anatomic_site	Conjunctiva
-radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of abdomen
-radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of head, face, and neck
-radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of lower limb and hip
-radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of pelvis
-radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of thorax
-radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of trunk, NOS
-radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues of upper limb and shoulder
-radiology_file	anatomic_site	Connective, subcutaneous and other soft tissues, NOS
-radiology_file	anatomic_site	Cornea, NOS
-radiology_file	anatomic_site	Corpus uteri
-radiology_file	anatomic_site	Cortex of adrenal gland
-radiology_file	anatomic_site	Cranial nerve, NOS
-radiology_file	anatomic_site	Craniopharyngeal duct
-radiology_file	anatomic_site	Descended testis
-radiology_file	anatomic_site	Descending colon
-radiology_file	anatomic_site	Dome of bladder
-radiology_file	anatomic_site	Dorsal surface of tongue, NOS
-radiology_file	anatomic_site	Duodenum
-radiology_file	anatomic_site	Endocervix
-radiology_file	anatomic_site	Endocrine gland, NOS
-radiology_file	anatomic_site	Endometrium
-radiology_file	anatomic_site	Epididymis
-radiology_file	anatomic_site	Esophagus, NOS
-radiology_file	anatomic_site	Ethmoid sinus
-radiology_file	anatomic_site	Exocervix
-radiology_file	anatomic_site	External ear
-radiology_file	anatomic_site	External lip, NOS
-radiology_file	anatomic_site	External lower lip
-radiology_file	anatomic_site	External upper lip
-radiology_file	anatomic_site	Extrahepatic bile duct
-radiology_file	anatomic_site	Eye, NOS
-radiology_file	anatomic_site	Eyelid
-radiology_file	anatomic_site	Fallopian tube
-radiology_file	anatomic_site	Female genital tract, NOS
-radiology_file	anatomic_site	Floor of mouth, NOS
-radiology_file	anatomic_site	Frontal lobe
-radiology_file	anatomic_site	Frontal sinus
-radiology_file	anatomic_site	Fundus of stomach
-radiology_file	anatomic_site	Fundus uteri
-radiology_file	anatomic_site	Gallbladder
-radiology_file	anatomic_site	Gastric antrum
-radiology_file	anatomic_site	Gastrointestinal tract, NOS
-radiology_file	anatomic_site	Glans penis
-radiology_file	anatomic_site	Glottis
-radiology_file	anatomic_site	Greater curvature of stomach, NOS
-radiology_file	anatomic_site	Gum, NOS
-radiology_file	anatomic_site	Hard palate
-radiology_file	anatomic_site	Head of pancreas
-radiology_file	anatomic_site	Head, face or neck, NOS
-radiology_file	anatomic_site	Heart
-radiology_file	anatomic_site	Hematopoietic system, NOS
-radiology_file	anatomic_site	Hepatic flexure of colon
-radiology_file	anatomic_site	Hypopharyngeal aspect of aryepiglottic fold
-radiology_file	anatomic_site	Hypopharynx, NOS
-radiology_file	anatomic_site	Ileum
-radiology_file	anatomic_site	Ill-defined sites within respiratory system
-radiology_file	anatomic_site	Intestinal tract, NOS
-radiology_file	anatomic_site	Intra-abdominal lymph nodes
-radiology_file	anatomic_site	Intrahepatic bile duct
-radiology_file	anatomic_site	Intrathoracic lymph nodes
-radiology_file	anatomic_site	Islets of Langerhans
-radiology_file	anatomic_site	Isthmus uteri
-radiology_file	anatomic_site	Jejunum
-radiology_file	anatomic_site	Kidney, NOS
-radiology_file	anatomic_site	Labium majus
-radiology_file	anatomic_site	Labium minus
-radiology_file	anatomic_site	Lacrimal gland
-radiology_file	anatomic_site	Laryngeal cartilage
-radiology_file	anatomic_site	Laryngeal commissure
-radiology_file	anatomic_site	Larynx, NOS
-radiology_file	anatomic_site	Lateral floor of mouth
-radiology_file	anatomic_site	Lateral wall of bladder
-radiology_file	anatomic_site	Lateral wall of nasopharynx
-radiology_file	anatomic_site	Lateral wall of oropharynx
-radiology_file	anatomic_site	Lesser curvature of stomach, NOS
-radiology_file	anatomic_site	Lingual tonsil
-radiology_file	anatomic_site	Lip, NOS
-radiology_file	anatomic_site	Liver
-radiology_file	anatomic_site	Long bones of lower limb and associated joints
-radiology_file	anatomic_site	Long bones of upper limb, scapula and associated joints
-radiology_file	anatomic_site	Lower gum
-radiology_file	anatomic_site	Lower limb, NOS
-radiology_file	anatomic_site	Lower lobe, lung
-radiology_file	anatomic_site	Lower third of esophagus
-radiology_file	anatomic_site	Lower-inner quadrant of breast
-radiology_file	anatomic_site	Lower-outer quadrant of breast
-radiology_file	anatomic_site	Lung, NOS
-radiology_file	anatomic_site	Lymph node, NOS
-radiology_file	anatomic_site	Lymph nodes of axilla or arm
-radiology_file	anatomic_site	Lymph nodes of head, face and neck
-radiology_file	anatomic_site	Lymph nodes of inguinal region or leg
-radiology_file	anatomic_site	Lymph nodes of multiple regions
-radiology_file	anatomic_site	Main bronchus
-radiology_file	anatomic_site	Major salivary gland, NOS
-radiology_file	anatomic_site	Male genital organs, NOS
-radiology_file	anatomic_site	Mandible
-radiology_file	anatomic_site	Maxillary sinus
-radiology_file	anatomic_site	Meckel diverticulum
-radiology_file	anatomic_site	Mediastinum, NOS
-radiology_file	anatomic_site	Medulla of adrenal gland
-radiology_file	anatomic_site	Meninges, NOS
-radiology_file	anatomic_site	Middle ear
-radiology_file	anatomic_site	Middle lobe, lung
-radiology_file	anatomic_site	Middle third of esophagus
-radiology_file	anatomic_site	Mouth, NOS
-radiology_file	anatomic_site	Mucosa of lip, NOS
-radiology_file	anatomic_site	Mucosa of lower lip
-radiology_file	anatomic_site	Mucosa of upper lip
-radiology_file	anatomic_site	Myometrium
-radiology_file	anatomic_site	Nasal cavity
-radiology_file	anatomic_site	Nasopharynx, NOS
-radiology_file	anatomic_site	Nervous system, NOS
-radiology_file	anatomic_site	Nipple
-radiology_file	anatomic_site	Not Reported
-radiology_file	anatomic_site	Occipital lobe
-radiology_file	anatomic_site	Olfactory nerve
-radiology_file	anatomic_site	Optic nerve
-radiology_file	anatomic_site	Orbit, NOS
-radiology_file	anatomic_site	Oropharynx, NOS
-radiology_file	anatomic_site	Other ill-defined sites
-radiology_file	anatomic_site	Other specified parts of female genital organs
-radiology_file	anatomic_site	Other specified parts of male genital organs
-radiology_file	anatomic_site	Other specified parts of pancreas
-radiology_file	anatomic_site	Ovary
-radiology_file	anatomic_site	Overlapping lesion of accessory sinuses
-radiology_file	anatomic_site	Overlapping lesion of biliary tract
-radiology_file	anatomic_site	Overlapping lesion of bladder
-radiology_file	anatomic_site	Overlapping lesion of bones, joints and articular cartilage
-radiology_file	anatomic_site	Overlapping lesion of bones, joints and articular cartilage of limbs
-radiology_file	anatomic_site	Overlapping lesion of brain
-radiology_file	anatomic_site	Overlapping lesion of brain and central nervous system
-radiology_file	anatomic_site	Overlapping lesion of breast
-radiology_file	anatomic_site	Overlapping lesion of cervix uteri
-radiology_file	anatomic_site	Overlapping lesion of colon
-radiology_file	anatomic_site	Overlapping lesion of connective, subcutaneous and other soft tissues
-radiology_file	anatomic_site	Overlapping lesion of corpus uteri
-radiology_file	anatomic_site	Overlapping lesion of digestive system
-radiology_file	anatomic_site	Overlapping lesion of endocrine glands and related structures
-radiology_file	anatomic_site	Overlapping lesion of esophagus
-radiology_file	anatomic_site	Overlapping lesion of eye and adnexa
-radiology_file	anatomic_site	Overlapping lesion of female genital organs
-radiology_file	anatomic_site	Overlapping lesion of floor of mouth
-radiology_file	anatomic_site	Overlapping lesion of heart, mediastinum and pleura
-radiology_file	anatomic_site	Overlapping lesion of hypopharynx
-radiology_file	anatomic_site	Overlapping lesion of ill-defined sites
-radiology_file	anatomic_site	Overlapping lesion of larynx
-radiology_file	anatomic_site	Overlapping lesion of lip
-radiology_file	anatomic_site	Overlapping lesion of lip, oral cavity and pharynx
-radiology_file	anatomic_site	Overlapping lesion of lung
-radiology_file	anatomic_site	Overlapping lesion of major salivary glands
-radiology_file	anatomic_site	Overlapping lesion of male genital organs
-radiology_file	anatomic_site	Overlapping lesion of nasopharynx
-radiology_file	anatomic_site	Overlapping lesion of other and unspecified parts of mouth
-radiology_file	anatomic_site	Overlapping lesion of palate
-radiology_file	anatomic_site	Overlapping lesion of pancreas
-radiology_file	anatomic_site	Overlapping lesion of penis
-radiology_file	anatomic_site	Overlapping lesion of peripheral nerves and autonomic nervous system
-radiology_file	anatomic_site	Overlapping lesion of rectum, anus and anal canal
-radiology_file	anatomic_site	Overlapping lesion of respiratory system and intrathoracic organs
-radiology_file	anatomic_site	Overlapping lesion of retroperitoneum and peritoneum
-radiology_file	anatomic_site	Overlapping lesion of skin
-radiology_file	anatomic_site	Overlapping lesion of small intestine
-radiology_file	anatomic_site	Overlapping lesion of stomach
-radiology_file	anatomic_site	Overlapping lesion of tongue
-radiology_file	anatomic_site	Overlapping lesion of tonsil
-radiology_file	anatomic_site	Overlapping lesion of urinary organs
-radiology_file	anatomic_site	Overlapping lesion of vulva
-radiology_file	anatomic_site	Overlapping lesions of oropharynx
-radiology_file	anatomic_site	Palate, NOS
-radiology_file	anatomic_site	Pancreas, NOS
-radiology_file	anatomic_site	Pancreatic duct
-radiology_file	anatomic_site	Parametrium
-radiology_file	anatomic_site	Parathyroid gland
-radiology_file	anatomic_site	Paraurethral gland
-radiology_file	anatomic_site	Parietal lobe
-radiology_file	anatomic_site	Parotid gland
-radiology_file	anatomic_site	Pelvic bones, sacrum, coccyx and associated joints
-radiology_file	anatomic_site	Pelvic lymph nodes
-radiology_file	anatomic_site	Pelvis, NOS
-radiology_file	anatomic_site	Penis, NOS
-radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of abdomen
-radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of head, face, and neck
-radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of lower limb and hip
-radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of pelvis
-radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of thorax
-radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of trunk, NOS
-radiology_file	anatomic_site	Peripheral nerves and autonomic nervous system of upper limb and shoulder
-radiology_file	anatomic_site	Peritoneum, NOS
-radiology_file	anatomic_site	Pharynx, NOS
-radiology_file	anatomic_site	Pineal gland
-radiology_file	anatomic_site	Pituitary gland
-radiology_file	anatomic_site	Placenta
-radiology_file	anatomic_site	Pleura, NOS
-radiology_file	anatomic_site	Postcricoid region
-radiology_file	anatomic_site	Posterior mediastinum
-radiology_file	anatomic_site	Posterior wall of bladder
-radiology_file	anatomic_site	Posterior wall of hypopharynx
-radiology_file	anatomic_site	Posterior wall of nasopharynx
-radiology_file	anatomic_site	Posterior wall of oropharynx
-radiology_file	anatomic_site	Prepuce
-radiology_file	anatomic_site	Prostate gland
-radiology_file	anatomic_site	Pylorus
-radiology_file	anatomic_site	Pyriform sinus
-radiology_file	anatomic_site	Rectosigmoid junction
-radiology_file	anatomic_site	Rectum, NOS
-radiology_file	anatomic_site	Renal pelvis
-radiology_file	anatomic_site	Reticuloendothelial system, NOS
-radiology_file	anatomic_site	Retina
-radiology_file	anatomic_site	Retromolar area
-radiology_file	anatomic_site	Retroperitoneum
-radiology_file	anatomic_site	Rib, sternum, clavicle and associated joints
-radiology_file	anatomic_site	Round ligament
-radiology_file	anatomic_site	Saliva
-radiology_file	anatomic_site	Scrotum, NOS
-radiology_file	anatomic_site	Short bones of lower limb and associated joints
-radiology_file	anatomic_site	Short bones of upper limb and associated joints
-radiology_file	anatomic_site	Sigmoid colon
-radiology_file	anatomic_site	Skin of lip, NOS
-radiology_file	anatomic_site	Skin of lower limb and hip
-radiology_file	anatomic_site	Skin of other and unspecified parts of face
-radiology_file	anatomic_site	Skin of scalp and neck
-radiology_file	anatomic_site	Skin of trunk
-radiology_file	anatomic_site	Skin of upper limb and shoulder
-radiology_file	anatomic_site	Skin, NOS
-radiology_file	anatomic_site	Small intestine, NOS
-radiology_file	anatomic_site	Soft palate, NOS
-radiology_file	anatomic_site	Specified parts of peritoneum
-radiology_file	anatomic_site	Spermatic cord
-radiology_file	anatomic_site	Sphenoid sinus
-radiology_file	anatomic_site	Spinal cord
-radiology_file	anatomic_site	Spinal meninges
-radiology_file	anatomic_site	Spleen
-radiology_file	anatomic_site	Splenic flexure of colon
-radiology_file	anatomic_site	Stomach, NOS
-radiology_file	anatomic_site	Subglottis
-radiology_file	anatomic_site	Sublingual gland
-radiology_file	anatomic_site	Submandibular gland
-radiology_file	anatomic_site	Superior wall of nasopharynx
-radiology_file	anatomic_site	Supraglottis
-radiology_file	anatomic_site	Tail of pancreas
-radiology_file	anatomic_site	Temporal lobe
-radiology_file	anatomic_site	Testis, NOS
-radiology_file	anatomic_site	Thoracic esophagus
-radiology_file	anatomic_site	Thorax, NOS
-radiology_file	anatomic_site	Thymus
-radiology_file	anatomic_site	Thyroid gland
-radiology_file	anatomic_site	Tongue, NOS
-radiology_file	anatomic_site	Tonsil, NOS
-radiology_file	anatomic_site	Tonsillar fossa
-radiology_file	anatomic_site	Tonsillar pillar
-radiology_file	anatomic_site	Trachea
-radiology_file	anatomic_site	Transverse colon
-radiology_file	anatomic_site	Trigone of bladder
-radiology_file	anatomic_site	Undescended testis
-radiology_file	anatomic_site	Unknown
-radiology_file	anatomic_site	Unknown primary site
-radiology_file	anatomic_site	Upper Gum
-radiology_file	anatomic_site	Upper limb, NOS
-radiology_file	anatomic_site	Upper lobe, lung
-radiology_file	anatomic_site	Upper respiratory tract, NOS
-radiology_file	anatomic_site	Upper third of esophagus
-radiology_file	anatomic_site	Upper-inner quadrant of breast
-radiology_file	anatomic_site	Upper-outer quadrant of breast
-radiology_file	anatomic_site	Urachus
-radiology_file	anatomic_site	Ureter
-radiology_file	anatomic_site	Ureteric orifice
-radiology_file	anatomic_site	Urethra
-radiology_file	anatomic_site	Urinary system, NOS
-radiology_file	anatomic_site	Uterine adnexa
-radiology_file	anatomic_site	Uterus, NOS
-radiology_file	anatomic_site	Uvula
-radiology_file	anatomic_site	Vagina, NOS
-radiology_file	anatomic_site	Vallecula
-radiology_file	anatomic_site	Ventral surface of tongue, NOS
-radiology_file	anatomic_site	Ventricle, NOS
-radiology_file	anatomic_site	Vertebral column
-radiology_file	anatomic_site	Vestibule of mouth
-radiology_file	anatomic_site	Vulva, NOS
-radiology_file	anatomic_site	Waldeyer ring
+radiology_file	anatomic_site	ARRAY(0x55f65142cd68)
+radiology_file	anatomic_site	string
 radiology_file	dcf_indexd_guid	STRING
-radiology_file	deidentification_method	ARRAY(0x55c1481cc580)
+radiology_file	deidentification_method	ARRAY(0x55f651475b38)
 radiology_file	deidentification_method	string
 radiology_file	file_description	STRING
 radiology_file	file_mapping_level	Participiant
 radiology_file	file_mapping_level	Sample
 radiology_file	file_mapping_level	Study
 radiology_file	file_name	STRING
-radiology_file	file_size	ARRAY(0x55c1481bc480)
+radiology_file	file_size	ARRAY(0x55f6513a47d8)
 radiology_file	file_size	integer
-radiology_file	file_type	ARRAY(0x55c1481f13b0)
+radiology_file	file_type	ARRAY(0x55f651381fb0)
 radiology_file	file_type	string
 radiology_file	file_url_in_cds	STRING
-radiology_file	image_modality	ARRAY(0x55c1481c6b78)
+radiology_file	image_modality	ARRAY(0x55f65144b060)
 radiology_file	image_modality	string
 radiology_file	md5sum	STRING
-radiology_file	participant_age_at_imaging	ARRAY(0x55c1481e92c8)
+radiology_file	participant_age_at_imaging	ARRAY(0x55f651385ae0)
 radiology_file	participant_age_at_imaging	integer
 radiology_file	radiology_file_id	STRING
 sample	alternate_sample_id	STRING
-sample	anatomic_site	Abdomen, NOS
-sample	anatomic_site	Abdominal esophagus
-sample	anatomic_site	Accessory sinus, NOS
-sample	anatomic_site	Acoustic nerve
-sample	anatomic_site	Adrenal gland, NOS
-sample	anatomic_site	Ampulla of Vater
-sample	anatomic_site	Anal canal
-sample	anatomic_site	Anterior 2/3 of tongue, NOS
-sample	anatomic_site	Anterior floor of mouth
-sample	anatomic_site	Anterior mediastinum
-sample	anatomic_site	Anterior surface of epiglottis
-sample	anatomic_site	Anterior wall of bladder
-sample	anatomic_site	Anterior wall of nasopharynx
-sample	anatomic_site	Anus, NOS
-sample	anatomic_site	Aortic body and other paraganglia
-sample	anatomic_site	Appendix
-sample	anatomic_site	Ascending colon
-sample	anatomic_site	Autonomic nervous system, NOS
-sample	anatomic_site	Axillary tail of breast
-sample	anatomic_site	Base of tongue, NOS
-sample	anatomic_site	Biliary tract, NOS
-sample	anatomic_site	Bladder neck
-sample	anatomic_site	Bladder, NOS
-sample	anatomic_site	Blood
-sample	anatomic_site	Body of pancreas
-sample	anatomic_site	Body of penis
-sample	anatomic_site	Body of stomach
-sample	anatomic_site	Bone marrow
-sample	anatomic_site	Bone of limb, NOS
-sample	anatomic_site	Bone, NOS
-sample	anatomic_site	Bones of skull and face and associated joints
-sample	anatomic_site	Border of tongue
-sample	anatomic_site	Brain stem
-sample	anatomic_site	Brain, NOS
-sample	anatomic_site	Branchial cleft
-sample	anatomic_site	Breast, NOS
-sample	anatomic_site	Broad ligament
-sample	anatomic_site	Buccal mucosa
-sample	anatomic_site	Cardia, NOS
-sample	anatomic_site	Carotid body
-sample	anatomic_site	Cauda equina
-sample	anatomic_site	Cecum
-sample	anatomic_site	Central portion of breast
-sample	anatomic_site	Cerebellum, NOS
-sample	anatomic_site	Cerebral meninges
-sample	anatomic_site	Cerebrospinal fluid
-sample	anatomic_site	Cerebrum
-sample	anatomic_site	Cervical esophagus
-sample	anatomic_site	Cervix uteri
-sample	anatomic_site	Cheek mucosa
-sample	anatomic_site	Choroid
-sample	anatomic_site	Ciliary body
-sample	anatomic_site	Clitoris
-sample	anatomic_site	Cloacogenic zone
-sample	anatomic_site	Colon, NOS
-sample	anatomic_site	Commissure of lip
-sample	anatomic_site	Conjunctiva
-sample	anatomic_site	Connective, subcutaneous and other soft tissues of abdomen
-sample	anatomic_site	Connective, subcutaneous and other soft tissues of head, face, and neck
-sample	anatomic_site	Connective, subcutaneous and other soft tissues of lower limb and hip
-sample	anatomic_site	Connective, subcutaneous and other soft tissues of pelvis
-sample	anatomic_site	Connective, subcutaneous and other soft tissues of thorax
-sample	anatomic_site	Connective, subcutaneous and other soft tissues of trunk, NOS
-sample	anatomic_site	Connective, subcutaneous and other soft tissues of upper limb and shoulder
-sample	anatomic_site	Connective, subcutaneous and other soft tissues, NOS
-sample	anatomic_site	Cornea, NOS
-sample	anatomic_site	Corpus uteri
-sample	anatomic_site	Cortex of adrenal gland
-sample	anatomic_site	Cranial nerve, NOS
-sample	anatomic_site	Craniopharyngeal duct
-sample	anatomic_site	Descended testis
-sample	anatomic_site	Descending colon
-sample	anatomic_site	Dome of bladder
-sample	anatomic_site	Dorsal surface of tongue, NOS
-sample	anatomic_site	Duodenum
-sample	anatomic_site	Endocervix
-sample	anatomic_site	Endocrine gland, NOS
-sample	anatomic_site	Endometrium
-sample	anatomic_site	Epididymis
-sample	anatomic_site	Esophagus, NOS
-sample	anatomic_site	Ethmoid sinus
-sample	anatomic_site	Exocervix
-sample	anatomic_site	External ear
-sample	anatomic_site	External lip, NOS
-sample	anatomic_site	External lower lip
-sample	anatomic_site	External upper lip
-sample	anatomic_site	Extrahepatic bile duct
-sample	anatomic_site	Eye, NOS
-sample	anatomic_site	Eyelid
-sample	anatomic_site	Fallopian tube
-sample	anatomic_site	Female genital tract, NOS
-sample	anatomic_site	Floor of mouth, NOS
-sample	anatomic_site	Frontal lobe
-sample	anatomic_site	Frontal sinus
-sample	anatomic_site	Fundus of stomach
-sample	anatomic_site	Fundus uteri
-sample	anatomic_site	Gallbladder
-sample	anatomic_site	Gastric antrum
-sample	anatomic_site	Gastrointestinal tract, NOS
-sample	anatomic_site	Glans penis
-sample	anatomic_site	Glottis
-sample	anatomic_site	Greater curvature of stomach, NOS
-sample	anatomic_site	Gum, NOS
-sample	anatomic_site	Hard palate
-sample	anatomic_site	Head of pancreas
-sample	anatomic_site	Head, face or neck, NOS
-sample	anatomic_site	Heart
-sample	anatomic_site	Hematopoietic system, NOS
-sample	anatomic_site	Hepatic flexure of colon
-sample	anatomic_site	Hypopharyngeal aspect of aryepiglottic fold
-sample	anatomic_site	Hypopharynx, NOS
-sample	anatomic_site	Ileum
-sample	anatomic_site	Ill-defined sites within respiratory system
-sample	anatomic_site	Intestinal tract, NOS
-sample	anatomic_site	Intra-abdominal lymph nodes
-sample	anatomic_site	Intrahepatic bile duct
-sample	anatomic_site	Intrathoracic lymph nodes
-sample	anatomic_site	Islets of Langerhans
-sample	anatomic_site	Isthmus uteri
-sample	anatomic_site	Jejunum
-sample	anatomic_site	Kidney, NOS
-sample	anatomic_site	Labium majus
-sample	anatomic_site	Labium minus
-sample	anatomic_site	Lacrimal gland
-sample	anatomic_site	Laryngeal cartilage
-sample	anatomic_site	Laryngeal commissure
-sample	anatomic_site	Larynx, NOS
-sample	anatomic_site	Lateral floor of mouth
-sample	anatomic_site	Lateral wall of bladder
-sample	anatomic_site	Lateral wall of nasopharynx
-sample	anatomic_site	Lateral wall of oropharynx
-sample	anatomic_site	Lesser curvature of stomach, NOS
-sample	anatomic_site	Lingual tonsil
-sample	anatomic_site	Lip, NOS
-sample	anatomic_site	Liver
-sample	anatomic_site	Long bones of lower limb and associated joints
-sample	anatomic_site	Long bones of upper limb, scapula and associated joints
-sample	anatomic_site	Lower gum
-sample	anatomic_site	Lower limb, NOS
-sample	anatomic_site	Lower lobe, lung
-sample	anatomic_site	Lower third of esophagus
-sample	anatomic_site	Lower-inner quadrant of breast
-sample	anatomic_site	Lower-outer quadrant of breast
-sample	anatomic_site	Lung, NOS
-sample	anatomic_site	Lymph node, NOS
-sample	anatomic_site	Lymph nodes of axilla or arm
-sample	anatomic_site	Lymph nodes of head, face and neck
-sample	anatomic_site	Lymph nodes of inguinal region or leg
-sample	anatomic_site	Lymph nodes of multiple regions
-sample	anatomic_site	Main bronchus
-sample	anatomic_site	Major salivary gland, NOS
-sample	anatomic_site	Male genital organs, NOS
-sample	anatomic_site	Mandible
-sample	anatomic_site	Maxillary sinus
-sample	anatomic_site	Meckel diverticulum
-sample	anatomic_site	Mediastinum, NOS
-sample	anatomic_site	Medulla of adrenal gland
-sample	anatomic_site	Meninges, NOS
-sample	anatomic_site	Middle ear
-sample	anatomic_site	Middle lobe, lung
-sample	anatomic_site	Middle third of esophagus
-sample	anatomic_site	Mouth, NOS
-sample	anatomic_site	Mucosa of lip, NOS
-sample	anatomic_site	Mucosa of lower lip
-sample	anatomic_site	Mucosa of upper lip
-sample	anatomic_site	Myometrium
-sample	anatomic_site	Nasal cavity
-sample	anatomic_site	Nasopharynx, NOS
-sample	anatomic_site	Nervous system, NOS
-sample	anatomic_site	Nipple
-sample	anatomic_site	Not Reported
-sample	anatomic_site	Occipital lobe
-sample	anatomic_site	Olfactory nerve
-sample	anatomic_site	Optic nerve
-sample	anatomic_site	Orbit, NOS
-sample	anatomic_site	Oropharynx, NOS
-sample	anatomic_site	Other ill-defined sites
-sample	anatomic_site	Other specified parts of female genital organs
-sample	anatomic_site	Other specified parts of male genital organs
-sample	anatomic_site	Other specified parts of pancreas
-sample	anatomic_site	Ovary
-sample	anatomic_site	Overlapping lesion of accessory sinuses
-sample	anatomic_site	Overlapping lesion of biliary tract
-sample	anatomic_site	Overlapping lesion of bladder
-sample	anatomic_site	Overlapping lesion of bones, joints and articular cartilage
-sample	anatomic_site	Overlapping lesion of bones, joints and articular cartilage of limbs
-sample	anatomic_site	Overlapping lesion of brain
-sample	anatomic_site	Overlapping lesion of brain and central nervous system
-sample	anatomic_site	Overlapping lesion of breast
-sample	anatomic_site	Overlapping lesion of cervix uteri
-sample	anatomic_site	Overlapping lesion of colon
-sample	anatomic_site	Overlapping lesion of connective, subcutaneous and other soft tissues
-sample	anatomic_site	Overlapping lesion of corpus uteri
-sample	anatomic_site	Overlapping lesion of digestive system
-sample	anatomic_site	Overlapping lesion of endocrine glands and related structures
-sample	anatomic_site	Overlapping lesion of esophagus
-sample	anatomic_site	Overlapping lesion of eye and adnexa
-sample	anatomic_site	Overlapping lesion of female genital organs
-sample	anatomic_site	Overlapping lesion of floor of mouth
-sample	anatomic_site	Overlapping lesion of heart, mediastinum and pleura
-sample	anatomic_site	Overlapping lesion of hypopharynx
-sample	anatomic_site	Overlapping lesion of ill-defined sites
-sample	anatomic_site	Overlapping lesion of larynx
-sample	anatomic_site	Overlapping lesion of lip
-sample	anatomic_site	Overlapping lesion of lip, oral cavity and pharynx
-sample	anatomic_site	Overlapping lesion of lung
-sample	anatomic_site	Overlapping lesion of major salivary glands
-sample	anatomic_site	Overlapping lesion of male genital organs
-sample	anatomic_site	Overlapping lesion of nasopharynx
-sample	anatomic_site	Overlapping lesion of other and unspecified parts of mouth
-sample	anatomic_site	Overlapping lesion of palate
-sample	anatomic_site	Overlapping lesion of pancreas
-sample	anatomic_site	Overlapping lesion of penis
-sample	anatomic_site	Overlapping lesion of peripheral nerves and autonomic nervous system
-sample	anatomic_site	Overlapping lesion of rectum, anus and anal canal
-sample	anatomic_site	Overlapping lesion of respiratory system and intrathoracic organs
-sample	anatomic_site	Overlapping lesion of retroperitoneum and peritoneum
-sample	anatomic_site	Overlapping lesion of skin
-sample	anatomic_site	Overlapping lesion of small intestine
-sample	anatomic_site	Overlapping lesion of stomach
-sample	anatomic_site	Overlapping lesion of tongue
-sample	anatomic_site	Overlapping lesion of tonsil
-sample	anatomic_site	Overlapping lesion of urinary organs
-sample	anatomic_site	Overlapping lesion of vulva
-sample	anatomic_site	Overlapping lesions of oropharynx
-sample	anatomic_site	Palate, NOS
-sample	anatomic_site	Pancreas, NOS
-sample	anatomic_site	Pancreatic duct
-sample	anatomic_site	Parametrium
-sample	anatomic_site	Parathyroid gland
-sample	anatomic_site	Paraurethral gland
-sample	anatomic_site	Parietal lobe
-sample	anatomic_site	Parotid gland
-sample	anatomic_site	Pelvic bones, sacrum, coccyx and associated joints
-sample	anatomic_site	Pelvic lymph nodes
-sample	anatomic_site	Pelvis, NOS
-sample	anatomic_site	Penis, NOS
-sample	anatomic_site	Peripheral nerves and autonomic nervous system of abdomen
-sample	anatomic_site	Peripheral nerves and autonomic nervous system of head, face, and neck
-sample	anatomic_site	Peripheral nerves and autonomic nervous system of lower limb and hip
-sample	anatomic_site	Peripheral nerves and autonomic nervous system of pelvis
-sample	anatomic_site	Peripheral nerves and autonomic nervous system of thorax
-sample	anatomic_site	Peripheral nerves and autonomic nervous system of trunk, NOS
-sample	anatomic_site	Peripheral nerves and autonomic nervous system of upper limb and shoulder
-sample	anatomic_site	Peritoneum, NOS
-sample	anatomic_site	Pharynx, NOS
-sample	anatomic_site	Pineal gland
-sample	anatomic_site	Pituitary gland
-sample	anatomic_site	Placenta
-sample	anatomic_site	Pleura, NOS
-sample	anatomic_site	Postcricoid region
-sample	anatomic_site	Posterior mediastinum
-sample	anatomic_site	Posterior wall of bladder
-sample	anatomic_site	Posterior wall of hypopharynx
-sample	anatomic_site	Posterior wall of nasopharynx
-sample	anatomic_site	Posterior wall of oropharynx
-sample	anatomic_site	Prepuce
-sample	anatomic_site	Prostate gland
-sample	anatomic_site	Pylorus
-sample	anatomic_site	Pyriform sinus
-sample	anatomic_site	Rectosigmoid junction
-sample	anatomic_site	Rectum, NOS
-sample	anatomic_site	Renal pelvis
-sample	anatomic_site	Reticuloendothelial system, NOS
-sample	anatomic_site	Retina
-sample	anatomic_site	Retromolar area
-sample	anatomic_site	Retroperitoneum
-sample	anatomic_site	Rib, sternum, clavicle and associated joints
-sample	anatomic_site	Round ligament
-sample	anatomic_site	Saliva
-sample	anatomic_site	Scrotum, NOS
-sample	anatomic_site	Short bones of lower limb and associated joints
-sample	anatomic_site	Short bones of upper limb and associated joints
-sample	anatomic_site	Sigmoid colon
-sample	anatomic_site	Skin of lip, NOS
-sample	anatomic_site	Skin of lower limb and hip
-sample	anatomic_site	Skin of other and unspecified parts of face
-sample	anatomic_site	Skin of scalp and neck
-sample	anatomic_site	Skin of trunk
-sample	anatomic_site	Skin of upper limb and shoulder
-sample	anatomic_site	Skin, NOS
-sample	anatomic_site	Small intestine, NOS
-sample	anatomic_site	Soft palate, NOS
-sample	anatomic_site	Specified parts of peritoneum
-sample	anatomic_site	Spermatic cord
-sample	anatomic_site	Sphenoid sinus
-sample	anatomic_site	Spinal cord
-sample	anatomic_site	Spinal meninges
-sample	anatomic_site	Spleen
-sample	anatomic_site	Splenic flexure of colon
-sample	anatomic_site	Stomach, NOS
-sample	anatomic_site	Subglottis
-sample	anatomic_site	Sublingual gland
-sample	anatomic_site	Submandibular gland
-sample	anatomic_site	Superior wall of nasopharynx
-sample	anatomic_site	Supraglottis
-sample	anatomic_site	Tail of pancreas
-sample	anatomic_site	Temporal lobe
-sample	anatomic_site	Testis, NOS
-sample	anatomic_site	Thoracic esophagus
-sample	anatomic_site	Thorax, NOS
-sample	anatomic_site	Thymus
-sample	anatomic_site	Thyroid gland
-sample	anatomic_site	Tongue, NOS
-sample	anatomic_site	Tonsil, NOS
-sample	anatomic_site	Tonsillar fossa
-sample	anatomic_site	Tonsillar pillar
-sample	anatomic_site	Trachea
-sample	anatomic_site	Transverse colon
-sample	anatomic_site	Trigone of bladder
-sample	anatomic_site	Undescended testis
-sample	anatomic_site	Unknown
-sample	anatomic_site	Unknown primary site
-sample	anatomic_site	Upper Gum
-sample	anatomic_site	Upper limb, NOS
-sample	anatomic_site	Upper lobe, lung
-sample	anatomic_site	Upper respiratory tract, NOS
-sample	anatomic_site	Upper third of esophagus
-sample	anatomic_site	Upper-inner quadrant of breast
-sample	anatomic_site	Upper-outer quadrant of breast
-sample	anatomic_site	Urachus
-sample	anatomic_site	Ureter
-sample	anatomic_site	Ureteric orifice
-sample	anatomic_site	Urethra
-sample	anatomic_site	Urinary system, NOS
-sample	anatomic_site	Uterine adnexa
-sample	anatomic_site	Uterus, NOS
-sample	anatomic_site	Uvula
-sample	anatomic_site	Vagina, NOS
-sample	anatomic_site	Vallecula
-sample	anatomic_site	Ventral surface of tongue, NOS
-sample	anatomic_site	Ventricle, NOS
-sample	anatomic_site	Vertebral column
-sample	anatomic_site	Vestibule of mouth
-sample	anatomic_site	Vulva, NOS
-sample	anatomic_site	Waldeyer ring
+sample	anatomic_site	ARRAY(0x55f65142cd68)
+sample	anatomic_site	string
 sample	days_to_last_known_disease_status	INTEGER
 sample	diagnosis_finer_resolution	STRING
 sample	diagnosis_icd_cm	STRING
@@ -2435,11 +1433,11 @@ sample	last_known_disease_status	Tumor free
 sample	last_known_disease_status	Unknown
 sample	last_known_disease_status	Unknown tumor status
 sample	last_known_disease_status	With tumor
-sample	participant_age_at_collection	ARRAY(0x55c1481b9ae8)
+sample	participant_age_at_collection	ARRAY(0x55f651483070)
 sample	participant_age_at_collection	integer
 sample	sample_description	STRING
 sample	sample_id	STRING
-sample	sample_tumor_status	ARRAY(0x55c1481a1eb0)
+sample	sample_tumor_status	ARRAY(0x55f651439f60)
 sample	sample_tumor_status	string
 sample	toronto_childhood_cancer_staging	Acute lymphoblastic leukemia CNS1
 sample	toronto_childhood_cancer_staging	Acute lymphoblastic leukemia CNS2
@@ -2514,7 +1512,7 @@ sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIIA
 sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIIB
 sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIIC
 sample	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IS
-sample	tumor_classification	ARRAY(0x55c1482c1170)
+sample	tumor_classification	ARRAY(0x55f651371260)
 sample	tumor_classification	string
 sample	tumor_grade	G1
 sample	tumor_grade	G2
@@ -2604,9 +1602,9 @@ sequencing_file	file_mapping_level	Participiant
 sequencing_file	file_mapping_level	Sample
 sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
-sequencing_file	file_size	ARRAY(0x55c1481bc480)
+sequencing_file	file_size	ARRAY(0x55f6513a47d8)
 sequencing_file	file_size	integer
-sequencing_file	file_type	ARRAY(0x55c1481f13b0)
+sequencing_file	file_type	ARRAY(0x55f651381fb0)
 sequencing_file	file_type	string
 sequencing_file	file_url_in_cds	STRING
 sequencing_file	instrument_model	454 GS
@@ -2815,9 +1813,9 @@ single_cell_sequencing_file	file_mapping_level	Participiant
 single_cell_sequencing_file	file_mapping_level	Sample
 single_cell_sequencing_file	file_mapping_level	Study
 single_cell_sequencing_file	file_name	STRING
-single_cell_sequencing_file	file_size	ARRAY(0x55c1481bc480)
+single_cell_sequencing_file	file_size	ARRAY(0x55f6513a47d8)
 single_cell_sequencing_file	file_size	integer
-single_cell_sequencing_file	file_type	ARRAY(0x55c1481f13b0)
+single_cell_sequencing_file	file_type	ARRAY(0x55f651381fb0)
 single_cell_sequencing_file	file_type	string
 single_cell_sequencing_file	file_url_in_cds	STRING
 single_cell_sequencing_file	instrument_model	454 GS
@@ -2993,7 +1991,7 @@ single_cell_sequencing_file	sequence_alignment_software	STRING
 single_cell_sequencing_file	single_cell_sequencing_file_id	STRING
 study	acl	STRING
 study	consent	STRING
-study	consent_number	ARRAY(0x55c1481b2910)
+study	consent_number	ARRAY(0x55f65143e288)
 study	consent_number	integer
 study	experimental_strategy_and_data_subtype	ARRAY
 study	external_url	STRING
@@ -3027,14 +2025,14 @@ study_funding	study_funding_id	STRING
 study_personnel	email_address	STRING
 study_personnel	institution	STRING
 study_personnel	personnel_name	STRING
-study_personnel	personnel_type	ARRAY(0x55c1481f9818)
+study_personnel	personnel_type	ARRAY(0x55f65137ebc0)
 study_personnel	personnel_type	string
 study_personnel	study_personnel_id	STRING
 synonym	repository_of_synonym_id	STRING
 synonym	synonym_id	STRING
-therapeutic_procedure	days_to_treatment_end	ARRAY(0x55c1481c6338)
+therapeutic_procedure	days_to_treatment_end	ARRAY(0x55f65136e388)
 therapeutic_procedure	days_to_treatment_end	integer
-therapeutic_procedure	days_to_treatment_start	ARRAY(0x55c1481c0b98)
+therapeutic_procedure	days_to_treatment_start	ARRAY(0x55f65147daf0)
 therapeutic_procedure	days_to_treatment_start	integer
 therapeutic_procedure	therapeutic_agents	ARRAY
 therapeutic_procedure	therapeutic_procedure_id	STRING
@@ -3167,8 +2165,8 @@ of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	participant	NA	NA
+of_synonym	synonym	study	NA	NA
 of_synonym	synonym	sample	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 

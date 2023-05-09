@@ -1609,6 +1609,12 @@ Terms:
     Code: 7669735
     Version: '1'
     Value: Not Otherwise Specified Floor of Mouth
+  Foot, NOS:
+    Origin: ICD-O-3.2
+    Definition: Distal portion of the hind limb, including tarsal region, metatarsal region and digits.
+    Code: 'C76.5'
+    Version: '1'
+    Value: Not otherwise specified foot
   Frontal lobe:
     Origin: caDSR
     Definition: 'The part of the brain located anterior to the parietal lobes at the
@@ -4196,6 +4202,12 @@ Terms:
     Code: 7670670
     Version: '1'
     Value: Not Otherwise Specified Penis
+  Perineum, NOS:
+    Origin: ICD-O-3.2
+    Definition: Subdivision of trunk proper, which is demarcated from the pelvis by the inferior surface of the pelvic diaphragm and from the lower limbs by the perineofemoral lines; together with the thorax, abdomen, and pelvis, it constitutes the trunk.
+    Code: 'C76.3'
+    Version: '1'
+    Value: Not otherwise specified perineum
   Peripheral nerves and autonomic nervous system:
     Origin: caDSR
     Definition: 'Any nerve outside the brain or spinal cord that connects with peripheral
@@ -4424,6 +4436,12 @@ Terms:
     Code: 3698171
     Version: '1'
     Value: Postcricoid region
+  Posterior cranial fossa:
+    Origin: ICD-O-3.2
+    Definition: The infratentorial compartment that contains the CEREBELLUM and BRAIN STEM. It is formed by the posterior third of the superior surface of the body of the sphenoid (SPHENOID BONE), by the occipital, the petrous, and mastoid portions of the TEMPORAL BONE, and the posterior inferior angle of the PARIETAL BONE.
+    Code: 'C71.9'
+    Version: '1'
+    Value: Posterior cranial fossa
   Posterior mediastinum:
     Origin: caDSR
     Definition: The part of the lower portion of the mediastinum that is located behind
@@ -5623,6 +5641,18 @@ Terms:
     Code: 2975232
     Version: '1'
     Value: Prior Therapy Regimen Text
+  Tibia:
+    Origin: ICD-O-3.2
+    Definition: The major preaxial endochondral bone in the posterior zeugopod.
+    Code: 'C40.2'
+    Version: '1'
+    Value: Tibia
+  Thigh, NOS:
+    Origin: ICD-O-3.2
+    Definition: 
+    Code: 'C76.5'
+    Version: '1'
+    Value: Not otherwise specified tibia
   Thoracic esophagus:
     Origin: caDSR
     Definition: Clinical esophageal segment composed of smooth muscle. It includes

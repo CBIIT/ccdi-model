@@ -4387,7 +4387,9 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11341616'
         Value: Disease Primary Anatomic Site ICD-O-3 Code
-    Enum:
+    Type:
+      - string
+      -
       - "Abdomen, NOS"
       - "Abdominal esophagus"
       - "Accessory sinus, NOS"
@@ -4438,6 +4440,7 @@ PropDefinitions:
       - "Cervical esophagus"
       - "Cervix uteri"
       - "Cheek mucosa"
+      - "Chest wall, NOS"
       - "Choroid"
       - "Ciliary body"
       - "Clitoris"
@@ -4456,6 +4459,7 @@ PropDefinitions:
       - "Cornea, NOS"
       - "Corpus uteri"
       - "Cortex of adrenal gland"
+      - "Cranial fossa, NOS"
       - "Cranial nerve, NOS"
       - "Craniopharyngeal duct"
       - "Descended testis"
@@ -4480,6 +4484,7 @@ PropDefinitions:
       - "Fallopian tube"
       - "Female genital tract, NOS"
       - "Floor of mouth, NOS"
+      - "Foot, NOS"
       - "Frontal lobe"
       - "Frontal sinus"
       - "Fundus of stomach"
@@ -4491,6 +4496,7 @@ PropDefinitions:
       - "Glottis"
       - "Greater curvature of stomach, NOS"
       - "Gum, NOS"
+      - "Hand, NOS"
       - "Hard palate"
       - "Head of pancreas"
       - "Head, face or neck, NOS"
@@ -4625,6 +4631,7 @@ PropDefinitions:
       - "Pelvic lymph nodes"
       - "Pelvis, NOS"
       - "Penis, NOS"
+      - "Perineum, NOS"
       - "Peripheral nerves and autonomic nervous system of abdomen"
       - "Peripheral nerves and autonomic nervous system of head, face, and neck"
       - "Peripheral nerves and autonomic nervous system of lower limb and hip"
@@ -4639,6 +4646,7 @@ PropDefinitions:
       - "Placenta"
       - "Pleura, NOS"
       - "Postcricoid region"
+      - "Posterior cranial fossa"
       - "Posterior mediastinum"
       - "Posterior wall of bladder"
       - "Posterior wall of hypopharynx"
@@ -4687,10 +4695,12 @@ PropDefinitions:
       - "Tail of pancreas"
       - "Temporal lobe"
       - "Testis, NOS"
+      - "Thigh, NOS"
       - "Thoracic esophagus"
       - "Thorax, NOS"
       - "Thymus"
       - "Thyroid gland"
+      - "Tibia"
       - "Tongue, NOS"
       - "Tonsil, NOS"
       - "Tonsillar fossa"

@@ -4901,6 +4901,7 @@ PropDefinitions:
         - 'Metastatic'
         - 'Unknown'
         - 'Not Reported'
+        - 'Not Applicable'
     Req: true  
     Private: false
 #  tumor_incidence_type: # primary, metastatic, recurrence, progression

@@ -40,7 +40,7 @@ Nodes:
   exposure:
     Props:
       - exposure_id
-      - start_days_from_index
+      - age_at_exposure
       - pack_years_smoked
       - years_smoked
       - alcohol_days_per_week
@@ -86,7 +86,7 @@ Nodes:
   molecular_test:
     Props:
       - molecular_test_id
-      - start_days_from_index
+      - age_at_molecular_test
       - gene_symbol
       - molecular_analysis_method
       - test_result

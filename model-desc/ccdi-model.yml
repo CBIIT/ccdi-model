@@ -23,7 +23,6 @@ Nodes:
       - disease_phase
       - anatomic_site
       - age_at_diagnosis
-      - vital_status
       - toronto_childhood_cancer_staging
       - days_to_recurrence
       - last_known_disease_status
@@ -70,7 +69,8 @@ Nodes:
   follow_up:
     Props:
       - follow_up_id
-      - days_to_follow_up 
+      - vital_status
+      - age_at_follow_up 
       - follow_up_category
       - adverse_event
       - comorbidity

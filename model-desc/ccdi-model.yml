@@ -24,7 +24,7 @@ Nodes:
       - anatomic_site
       - age_at_diagnosis
       - toronto_childhood_cancer_staging
-      - days_to_recurrence
+      - age_at_recurrence
       - last_known_disease_status
       - age_at_last_known_disease_status
       - tumor_grade
@@ -200,7 +200,7 @@ Nodes:
       - sample_description
       - alternate_sample_id
       - last_known_disease_status
-      - days_to_last_known_disease_status
+      - age_at_last_known_disease_status
       - toronto_childhood_cancer_staging
       - tumor_grade
       - tumor_stage_clinical_t
@@ -341,8 +341,8 @@ Nodes:
   therapeutic_procedure:
     Props:
       - therapeutic_procedure_id
-      - days_to_treatment_start
-      - days_to_treatment_end
+      - age_at_treatment_start
+      - age_at_treatment_end
       - treatment_outcome
       - treatment_type
       - therapeutic_agents

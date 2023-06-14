@@ -4064,16 +4064,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false  
-  # tissue_or_organ_of_origin: CCDIDC-360
-  age_at_last_followup:
-    Desc: Time interval from the date of index (DOB) to the date of initial pathologic diagnosis, represented as a calculated number of days.
-    Term:
-      - Origin: caDSR
-        Code: '3008273'
-        Value: Last Communication Contact Less Initial Pathologic Diagnosis Date Calculated Day Value
-    Type: integer
-    Req: false
-    Private: false    
+  # tissue_or_organ_of_origin: CCDIDC-360    
   # progression_or_recurrence:    CCDIDC-360
   # site_of_resection_or_biopsy:     CCDIDC-360
   #sequencing_file, imaging_file, clinical_measure_file

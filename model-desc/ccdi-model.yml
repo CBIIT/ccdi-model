@@ -23,12 +23,10 @@ Nodes:
       - disease_phase
       - anatomic_site
       - age_at_diagnosis
-      - vital_status
       - toronto_childhood_cancer_staging
-      - days_to_recurrence
+      - age_at_recurrence
       - last_known_disease_status
-      - days_to_last_known_disease_status
-      - days_to_last_followup
+      - age_at_last_known_disease_status
       - tumor_grade
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n
@@ -38,10 +36,11 @@ Nodes:
      # - progression_or_recurrence
      # - tissue_or_organ_of_origin
      # - site_of_resection_or_biopsy
+    # - days_to_last_followup
   exposure:
     Props:
       - exposure_id
-      - start_days_from_index
+      - age_at_exposure
       - pack_years_smoked
       - years_smoked
       - alcohol_days_per_week
@@ -70,7 +69,8 @@ Nodes:
   follow_up:
     Props:
       - follow_up_id
-      - days_to_follow_up 
+      - vital_status
+      - age_at_follow_up 
       - follow_up_category
       - adverse_event
       - comorbidity
@@ -86,7 +86,7 @@ Nodes:
   molecular_test:
     Props:
       - molecular_test_id
-      - start_days_from_index
+      - age_at_molecular_test
       - gene_symbol
       - molecular_analysis_method
       - test_result
@@ -200,7 +200,7 @@ Nodes:
       - sample_description
       - alternate_sample_id
       - last_known_disease_status
-      - days_to_last_known_disease_status
+      - age_at_last_known_disease_status
       - toronto_childhood_cancer_staging
       - tumor_grade
       - tumor_stage_clinical_t
@@ -210,7 +210,6 @@ Nodes:
   #   - sample_type
   #   - biosample_accession captured in synonym 
   #   - disease_phase
-  #   - days_to_last_followup
   single_cell_sequencing_file:
     Props:
       - single_cell_sequencing_file_id
@@ -341,8 +340,8 @@ Nodes:
   therapeutic_procedure:
     Props:
       - therapeutic_procedure_id
-      - days_to_treatment_start
-      - days_to_treatment_end
+      - age_at_treatment_start
+      - age_at_treatment_end
       - treatment_outcome
       - treatment_type
       - therapeutic_agents

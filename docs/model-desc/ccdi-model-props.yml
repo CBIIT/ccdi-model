@@ -492,12 +492,12 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  start_days_from_index:
+  age_at_exposure:
     Desc: Number of days from the date of birth (index date) to the date of an event (test, test result).
     Term:
       - Origin: caDSR
-        Code: '8035915'
-        Value: start_days_from_index
+        Code: '6341137'
+        Value: Exposure Start Date
     Type: integer
     Req: false
     Private: false
@@ -821,7 +821,7 @@ PropDefinitions:
     Private: false  
     Key: true
   #follow_up
-  days_to_follow_up:
+  age_at_follow_up:
     Desc: Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact.
     Term:
       - Origin: caDSR
@@ -4025,8 +4025,8 @@ PropDefinitions:
     Req: false
     Private: false
   #diagnosis
-  days_to_recurrence:
-    Desc: Number of days between the date used for index and the date the patient's disease recurred.
+  age_at_recurrence:
+    Desc: Number of days between the date used for index (DOB) and the date the patient's disease recurred.
     Term:
       - Origin: caDSR
         Code: '6154731'
@@ -4055,25 +4055,16 @@ PropDefinitions:
     Req: false
     Private: false     
   #diagnosis, sample
-  days_to_last_known_disease_status:
-    Desc: Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
+  age_at_last_known_disease_status:
+    Desc: Age at the time of last known disease status expressed in number of days since birth.
     Term:
       - Origin: caDSR
-        Code: '3008273'
-        Value: Last Communication Contact Less Initial Pathologic Diagnosis Date Calculated Day Value
+        Code: '10169253'
+        Value: Person Number of Days Between Index Date and Last Known Disease Status Day Count
     Type: integer
     Req: false
     Private: false  
-  # tissue_or_organ_of_origin: CCDIDC-360
-  days_to_last_followup:
-    Desc: Time interval from the date of last followup to the date of initial pathologic diagnosis, represented as a calculated number of days.
-    Term:
-      - Origin: caDSR
-        Code: '3008273'
-        Value: Last Communication Contact Less Initial Pathologic Diagnosis Date Calculated Day Value
-    Type: integer
-    Req: false
-    Private: false    
+  # tissue_or_organ_of_origin: CCDIDC-360    
   # progression_or_recurrence:    CCDIDC-360
   # site_of_resection_or_biopsy:     CCDIDC-360
   #sequencing_file, imaging_file, clinical_measure_file
@@ -4740,8 +4731,8 @@ PropDefinitions:
     Desc: The age of the participant (in years) at the time of sample collection.
     Term:
       - Origin: caDSR
-        Code: '10609539'
-        Value: Subject Age at Diagnosis Integer
+        Code: '2731348'
+        Value: Biospecimen Collection Study Subject Age
     Type: 
       - integer
       -
@@ -10228,7 +10219,7 @@ PropDefinitions:
     Req: true
     Private: false
   #therapeutic_procedure
-  days_to_treatment_start:
+  age_at_treatment_start:
     Desc: Subject Age in Days at Start of Treatment Course Day Count
     Term:
       - Origin: caDSR
@@ -10241,7 +10232,7 @@ PropDefinitions:
     Req: true
     Private: false
   #therapeutic_procedure
-  days_to_treatment_end:
+  age_at_treatment_end:
     Desc: Subject Age in Days at End of Treatment Course Day Count
     Term:
       - Origin: caDSR

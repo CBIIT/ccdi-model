@@ -4728,7 +4728,7 @@ PropDefinitions:
     Private: false
   # sample
   participant_age_at_collection:     
-    Desc: The age of the participant (in years) at the time of sample collection.
+    Desc: The age of the participant (in days) at the time of sample collection.
     Term:
       - Origin: caDSR
         Code: '2731348'

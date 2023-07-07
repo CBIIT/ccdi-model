@@ -4,7 +4,7 @@ PropDefinitions:
     Desc: Cell line name
     Term:
       - Origin: caDSR
-        Code: 5042426
+        Code: '5042426'
         Value: Text term that represents the name of the cell line.
     Type:
       - string
@@ -14,7 +14,7 @@ PropDefinitions:
     Desc: Cell line source
     Term:
       - Origin: caDSR
-        Code: 6635976
+        Code: '6635976'
         Value: Laboratory/Vendor Name
     Type:
       - string

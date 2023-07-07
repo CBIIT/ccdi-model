@@ -1,5 +1,9 @@
 Handle: CDA
 Nodes:
+  cell_line:
+    Props:
+      - cell_line_id
+      - source
   clinical_measure_file: # 09.20.22 pdunn
     Props:
       - clinical_measure_file_id
@@ -346,6 +350,14 @@ Nodes:
       - treatment_type
       - therapeutic_agents
 Relationships:
+  of_cell_line:
+    Props: null
+    Mul: many_to_one
+    Ends: 
+      - Src: cell_line
+        Dst: participant
+      - Src: cell_line
+        Dst: study   
   of_clinical_measure_file: # #09.20.22 pd
     Props: null
     Mul: many_to_one 
@@ -387,6 +399,10 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: pathology_file
+        Dst: cell_line
+      - Src: pathology_file
+        Dst: pdx
+      - Src: pathology_file
         Dst: sample
   of_medical_history:
     Props: null
@@ -398,6 +414,10 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
+      - Src: methylation_array_file
+        Dst: cell_line
+      - Src: methylation_array_file
+        Dst: pdx
       - Src: methylation_array_file
         Dst: sample
   of_molecular_test:
@@ -445,6 +465,10 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
+      - Src: sequencing_file
+        Dst: cell_line
+      - Src: sequencing_file
+        Dst: pdx
       - Src: sequencing_file
         Dst: sample
   of_single_cell_sequencing_file:

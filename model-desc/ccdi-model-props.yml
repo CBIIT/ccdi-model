@@ -4126,6 +4126,7 @@ PropDefinitions:
         - "docx"
         - "fasta"
         - "fastq"
+        - "idat"
         - "jpg"
         - "json"
         - "mrxs"

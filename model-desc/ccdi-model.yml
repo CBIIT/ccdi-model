@@ -475,6 +475,10 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
+      - Src: sequencing_file
+        Dst: cell_line
+      - Src: sequencing_file
+        Dst: pdx
       - Src: single_cell_sequencing_file
         Dst: sample
   of_study_admin: 

@@ -1,4 +1,25 @@
 PropDefinitions:
+  #cell_line
+  cell_line_id:
+    Desc: Cell line name
+    Term:
+      - Origin: caDSR
+        Code: 5042426
+        Value: Text term that represents the name of the cell line.
+    Type:
+      - string
+    Req: true
+    Private: false
+  source:
+    Desc: Cell line source
+    Term:
+      - Origin: caDSR
+        Code: 6635976
+        Value: Laboratory/Vendor Name
+    Type:
+      - string
+    Req: true
+    Private: false  
   #pathology_file
   magnification:
     Desc: The amount or degree of visual enlargement used during image acquisition.

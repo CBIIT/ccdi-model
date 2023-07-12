@@ -1,4 +1,25 @@
 PropDefinitions:
+  #cell_line
+  cell_line_id:
+    Desc: Cell line name
+    Term:
+      - Origin: caDSR
+        Code: '5042426'
+        Value: Text term that represents the name of the cell line.
+    Type:
+      - string
+    Req: true
+    Private: false
+  source:
+    Desc: Cell line source
+    Term:
+      - Origin: caDSR
+        Code: '6635976'
+        Value: Laboratory/Vendor Name
+    Type:
+      - string
+    Req: true
+    Private: false  
   #pathology_file
   magnification:
     Desc: The amount or degree of visual enlargement used during image acquisition.
@@ -49,10 +70,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12307007'
         Value: Age at Imaging
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false  
   #radiology_file
@@ -827,10 +845,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6154727'
         Value: days_to_follow_up
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false
   #follow_up
@@ -3920,10 +3935,7 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C156420'
         Value: Age at Diagnosis 
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false
   #diagnosis
@@ -4105,6 +4117,7 @@ PropDefinitions:
         - "docx"
         - "fasta"
         - "fastq"
+        - "idat"
         - "jpg"
         - "json"
         - "mrxs"
@@ -4150,10 +4163,7 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C171276'
         Value: MD5 Checksum 
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false
   #sequencing_file, imaging_file, clinical_measure_file
@@ -4343,10 +4353,7 @@ PropDefinitions:
   #study
   consent_number:
     Desc: The numeric value of the consent group as designated by dbGaP full accession identifier, phs######.v#.p#.c#.
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false     
   # sample
@@ -4733,10 +4740,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2731348'
         Value: Biospecimen Collection Study Subject Age
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true  
     Private: false
   # sample
@@ -10225,10 +10229,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12304720'
         Value: AGE_AT_COURSE_START
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false
   #therapeutic_procedure
@@ -10238,10 +10239,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12304723'
         Value: AGE_AT_COURSE_END
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false  
   #therapeutic_procedure

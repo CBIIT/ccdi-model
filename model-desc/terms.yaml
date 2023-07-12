@@ -1981,6 +1981,12 @@ Terms:
     Code: 4340414
     Version: '1'
     Value: Endocrine Therapy
+  html:
+    Origin: NCIt
+    Definition:  A standard markup language used to display content on a web page, as specified by the World Wide Web Consortium (W3C).
+    Code: C142380
+    Version: '1'
+    Value: Hypertext Markup Language
   Human:
     Origin: caDSR
     Definition: The bipedal primate mammal, Homo sapiens; belonging to man or mankind;

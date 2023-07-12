@@ -4141,10 +4141,7 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C171276'
         Value: MD5 Checksum 
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false
   #sequencing_file, imaging_file, clinical_measure_file
@@ -4334,10 +4331,7 @@ PropDefinitions:
   #study
   consent_number:
     Desc: The numeric value of the consent group as designated by dbGaP full accession identifier, phs######.v#.p#.c#.
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false     
   # sample

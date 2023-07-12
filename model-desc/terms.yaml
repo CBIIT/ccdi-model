@@ -394,6 +394,12 @@ Terms:
     Code: 3271399
     Version: '1'
     Value: Axillary Tail of the Breast
+  bai:
+    Origin: NCIt
+    Definition:  An index file found in the same directory as the binary alignment map (BAM) file, a compressed binary version of a sequence alignment/map (SAM) file.
+    Code: C190163
+    Version: '1'
+    Value: BAI File
   bam:
     Origin: caDSR
     Definition: A binary representation of a sequence alignment map (SAM), a compact
@@ -727,6 +733,12 @@ Terms:
     Code: 7592128
     Version: '1'
     Value: Bulk Tissue Specimen
+  bw:
+    Origin: NCIt
+    Definition:  A format for large sequence annotation tracks that consist of a value for each sequence position, similar to the textual wiggle (WIG) format.
+    Code: C190167
+    Version: '1'
+    Value: BigWig Format    
   CAGE:
     Origin: caDSR
     Definition: Cap-analysis gene expression
@@ -1143,6 +1155,12 @@ Terms:
     Code: 4265340
     Version: '1'
     Value: Adrenal Cortex
+  crai:
+    Origin: NCIt
+    Definition:  An external index file created by the sequencing data archive alongside a compressed reference-oriented alignment map (CRAM) file. This index file is available in the same directory as the CRAM file and is required for selective access to the genomic sequence alignment data within the CRAM file.
+    Code: C192224
+    Version: '1'
+    Value: CRAI File
   Cranial fossa, NOS:
     Origin: ICD-O-3.2
     Definition: Any of the three large depressions in the posterior, middle, and anterior aspects of the floor of the cranial cavity.
@@ -1963,6 +1981,12 @@ Terms:
     Code: 4340414
     Version: '1'
     Value: Endocrine Therapy
+  html:
+    Origin: NCIt
+    Definition:  A standard markup language used to display content on a web page, as specified by the World Wide Web Consortium (W3C).
+    Code: C142380
+    Version: '1'
+    Value: Hypertext Markup Language
   Human:
     Origin: caDSR
     Definition: The bipedal primate mammal, Homo sapiens; belonging to man or mankind;

@@ -49,10 +49,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12307007'
         Value: Age at Imaging
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false  
   #radiology_file
@@ -827,10 +824,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6154727'
         Value: days_to_follow_up
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false
   #follow_up
@@ -3920,10 +3914,7 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C156420'
         Value: Age at Diagnosis 
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false
   #diagnosis
@@ -4733,10 +4724,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2731348'
         Value: Biospecimen Collection Study Subject Age
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true  
     Private: false
   # sample
@@ -10225,10 +10213,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12304720'
         Value: AGE_AT_COURSE_START
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false
   #therapeutic_procedure
@@ -10238,10 +10223,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12304723'
         Value: AGE_AT_COURSE_END
-    Type: 
-      - integer
-      -
-        - "null"
+    Type: integer
     Req: true
     Private: false  
   #therapeutic_procedure

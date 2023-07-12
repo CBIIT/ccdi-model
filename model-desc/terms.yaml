@@ -2037,6 +2037,12 @@ Terms:
     Code: 12126010
     Version: '1'
     Value: International Classification of Diseases for Oncology, Third Edition
+  idat:
+    Origin: NCIt
+    Definition: A proprietary, encrypted XML-based, compressed electronic file format from Illumina Inc. for storing genome-wide profiling data. The data contains a summary of the intensity data generated from each probe used during a sequencing run.
+    Code: C184762
+    Version: '1'
+    Value:  IDAT Format
   Ileum:
     Origin: caDSR
     Definition: The final section of the small intestine.

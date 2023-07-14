@@ -5020,6 +5020,7 @@ PropDefinitions:
         Value: Sequencing Library Technique Type
     Enum:
       - "AMPLICON"
+      - "Archer_Fusion"
       - "ATAC-seq"
       - "Bisulfite-Seq"
       - "ChIA-PET"
@@ -5126,6 +5127,7 @@ PropDefinitions:
       - "Illumina MiSeq"
       - "Illumina NextSeq"
       - "Illumina NovaSeq"
+      - "Illumina NovaSeq 6000"
       - "Ion Torrent PGM"
       - "Ion Torrent Proton"
       - "Ion Torrent S5"

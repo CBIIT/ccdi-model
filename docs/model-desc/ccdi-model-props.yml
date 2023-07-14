@@ -3733,6 +3733,7 @@ PropDefinitions:
       - "9539/1 : Atypical meningioma"
       - "9539/3 : Meningeal sarcomatosis"
       - "9540/0 : Neurofibroma, NOS"
+      - "9540/1 : Neurofibromatosis, NOS"
       - "9540/3 : Malignant peripheral nerve sheath tumor, NOS"
       - "9541/0 : Melanotic neurofibroma"
       - "9542/3 : Malignant peripheral nerve sheath tumor, epithelioid"
@@ -3864,6 +3865,7 @@ PropDefinitions:
       - "9833/3 : Prolymphocytic leukemia, B-cell type"
       - "9834/3 : Prolymphocytic leukemia, T-cell type"
       - "9835/3 : Precursor cell lymphoblastic leukemia, NOS"
+      - "9836/3 : Precursor B-cell lymphoblastic leukemia"
       - "9837/3 : Precursor T-cell lymphoblastic leukemia"
       - "9837/3 : T lymphoblastic leukemia/lymphoma"
       - "9840/3 : Acute erythroid leukemia"
@@ -3921,6 +3923,7 @@ PropDefinitions:
       - "9986/3 : Myelodysplastic syndrome with isolated del (5q)"
       - "9987/3 : Therapy-related myelodysplastic syndrome, NOS"
       - "9989/3 : Myelodysplastic syndrome, NOS"
+      - "999 : Unknown, to be completed later"
     Req: true
     Private: false    
   #diagnosis, sample

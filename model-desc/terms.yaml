@@ -4951,14 +4951,13 @@ Terms:
     Value: Specimen Type Collection Biospecimen Type
   Scrotum, NOS:
     Origin: caDSR
-    Definition: 'Not characterized in any other way.: The pouch that encloses the
-      testicles.'
+    Definition: 'Not characterized in any other way.: The pouch that encloses the testicles.'
     Code: 7701735
     Version: '1'
     Value: Not Otherwise Specified Scrotum
   seg:
     Origin: CNVKit
-    Definition: The SEG format is the tabular output of DNAcopy, the reference implementation of Circular Binary Segmentation (CBS). It is a tab-separated table with the following 5 or 6 columns:
+    Definition: 'The SEG format is the tabular output of DNAcopy, the reference implementation of Circular Binary Segmentation (CBS). It is a tab-separated table with the following 5 or 6 columns:'
     Code: seq
     Version: '1'
     Value: Segmentation

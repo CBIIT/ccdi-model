@@ -9,6 +9,7 @@ PropDefinitions:
     Type:
       - string
     Req: true
+    Key: true
     Private: false
   source:
     Desc: Cell line source

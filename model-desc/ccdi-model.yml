@@ -439,6 +439,8 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: pdx
+        Dst: study
+      - Src: pdx
         Dst: sample
   of_publication: # 09.20.22 pd
     Props: null

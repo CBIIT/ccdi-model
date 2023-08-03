@@ -5569,7 +5569,11 @@ PropDefinitions:
     Key: true
   #study_arm
   clinical_trial_arm:
-    Desc: ARM of the clinical trial.
+    Desc: A study population that receives an intervention(s) within a trial.
+    Term:
+      - Origin: NCIt
+        Code: 'C161322'
+        Value: Treatment Group
     Type: string
     Req: false
     Private: false

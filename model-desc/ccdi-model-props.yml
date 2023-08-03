@@ -44,7 +44,7 @@ PropDefinitions:
         - "Thick Smear Technique"
         - "Thin Smear Technique"
     Req: true
-    strict: true
+    Strict: true
     Private: false
   #pathology_file
   staining_method:
@@ -53,12 +53,11 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C23010'
         Value: Staining Method
-    Type: 
-      - string
-      -
+    Enum: 
         - "Hematoxylin and Eosin Staining Method"
         - "Immunohistochemical Staining"
     Req: true
+    Strict: false
     Private: false   
   # radiology_file
   participant_age_at_imaging:     
@@ -77,13 +76,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2475579'
         Value: Removal of text elements that would make data individually identifiable.
-    Type: string
-      -
+    Enum:
         - "manual"
         - "semiautomatic"
         - "automatic"
         - "Not applicable"
     Req: true
+    Strict: false
     Private: false      
   #medical_history
   medical_history_id: 
@@ -103,8 +102,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6413031'
         Value: Category for Medical History
-    Type: string
-      -
+    Enum:
         - "Autoimmune Disease"
         - "Cancer"
         - "Congenital Anomaly"
@@ -113,6 +111,7 @@ PropDefinitions:
         - "Not Reported"
         - "Unknown"
     Req: true
+    Strict: false
     Private: false
   #medical_history
   medical_history_condition:
@@ -245,13 +244,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2201918'
         Value: alcohol_history
-    Type: string
-      -
+    Enum:
         - "Yes"
         - "No"
         - "Unknown"
         - "Not Reported"
     Req: false
+    Strict: false
     Private: false
   alcohol_intensity:
     Desc: Category to describe the patient's current level of alcohol use as self-reported by the patient.
@@ -259,8 +258,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3457767'
         Value: alcohol_intensity
-    Type: string
-      -
+    Enum:
         - "Drinker"
         - "Heavy Drinker"
         - "Lifelong Non-Drinker"
@@ -269,6 +267,7 @@ PropDefinitions:
         - "Unknown"
         - "Not Reported"
     Req: false
+    Strict: false
     Private: false
   asbestos_exposure:
     Desc: The yes/no/unknown indicator used to describe whether the patient was exposed to asbestos.
@@ -276,13 +275,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: '1253'
         Value: asbestos_exposure
-    Type: string
-      -
+    Enum:
         - "Yes"
         - "No"
         - "Unknown"
         - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   cigarettes_per_day:
     Desc: The average number of cigarettes smoked per day.
@@ -299,13 +298,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: 'NA'
         Value: coal_dust_exposure
-    Type: string
-      -
+    Enum:
         - "Yes"
         - "No"
         - "Unknown"
         - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   environmental_tobacco_smoke_exposure:
     Desc: The yes/no/unknown indicator used to describe whether a patient was exposed to smoke that is emitted from burning tobacco, including cigarettes, pipes, and cigars. This includes tobacco smoke exhaled by smokers.
@@ -313,13 +312,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: 'NA'
         Value: environmental_tobacco_smoke_exposure
-    Type: string
-      -
+    Enum:
         - "Yes"
         - "No"
         - "Unknown"
         - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   radon_exposure:
     Desc: The yes/no/unknown indicator used to describe whether the patient was exposed to radon.

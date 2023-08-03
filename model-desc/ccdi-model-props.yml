@@ -838,13 +838,16 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3119787'
         Value: Patient Follow-up Type
-    Enum:
-      - adverse_event
-      - comorbidity
-      - disease_response
-      - risk_factor
-      - other
-    Req: true
+     Type: array
+     Items:
+       - string
+       - 
+        - adverse_event
+        - comorbidity
+        - disease_response
+        - risk_factor
+        - other
+    Req: false
     Private: false
   #follow_up
   adverse_event:

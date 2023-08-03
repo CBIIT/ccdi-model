@@ -511,7 +511,7 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  age_at_molecular_test
+  age_at_molecular_test:
     Desc:  The age of an individual when the laboratory test was conducted.
     Term:
       - Origin: NCIt

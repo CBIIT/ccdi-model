@@ -36,8 +36,7 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C49337'
         Value: Tissue Preparation or Processing Technique
-    Type: string
-      -
+    Enum:
         - "Embedding"
         - "Fixation"
         - "Formalin-Fixed Paraffin-Embedded"
@@ -45,6 +44,7 @@ PropDefinitions:
         - "Thick Smear Technique"
         - "Thin Smear Technique"
     Req: true
+    strict: true
     Private: false
   #pathology_file
   staining_method:

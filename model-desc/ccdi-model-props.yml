@@ -4895,7 +4895,7 @@ PropDefinitions:
         Code: '12217251'
         Value: Disease Phase Timepoint Category
     Enum:
-        - 'Initial Diagnosis'
+      - 'Initial Diagnosis'
       - 'Disease Progression'
       - 'Refractory'
       - 'Recurrent Disease'

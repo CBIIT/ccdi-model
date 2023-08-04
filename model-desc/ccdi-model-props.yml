@@ -5487,6 +5487,7 @@ PropDefinitions:
       - "Adult"
       - "Pediatric"
     Req: true
+    Strict: true
     Private: false
   # study_admin
   data_types: # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values

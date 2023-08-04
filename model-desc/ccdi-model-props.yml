@@ -41,6 +41,7 @@ PropDefinitions:
       - "Fixation"
       - "Formalin-Fixed Paraffin-Embedded"
       - "Fresh Dissociated Tissue Preparation"
+      - "Optimal Cutting Temperature"
       - "Thick Smear Technique"
       - "Thin Smear Technique"
     Req: true

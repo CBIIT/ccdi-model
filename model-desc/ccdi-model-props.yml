@@ -245,10 +245,10 @@ PropDefinitions:
         Code: '2201918'
         Value: alcohol_history
     Enum:
-        - "Yes"
-        - "No"
-        - "Unknown"
-        - "Not Reported"
+      - "Yes"
+      - "No"
+      - "Unknown"
+      - "Not Reported"
     Req: false
     Strict: true
     Private: false

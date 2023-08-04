@@ -2596,7 +2596,7 @@ PropDefinitions:
         Code: 'OBI_0000426'
         Value: Process which aims at introducing a compound or a mixture into a material entity (either biological entity or instrument) by relying on devices such as syringe or injector connection, attached or forced into a vascular system (veins of an organism or tubes of a machine) or in a tissue
     Enum:
-        - 'injection'
+      - 'injection'
       - 'trocar'
       - 'surgical'
       - 'orthotopic'

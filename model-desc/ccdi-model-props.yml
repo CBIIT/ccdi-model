@@ -55,7 +55,7 @@ PropDefinitions:
         Value: Staining Method
     Enum: 
       - "Hematoxylin and Eosin Staining Method"
-        - "Immunohistochemical Staining"
+      - "Immunohistochemical Staining"
     Req: true
     Strict: false
     Private: false   

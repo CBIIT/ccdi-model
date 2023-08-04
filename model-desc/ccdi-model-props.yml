@@ -5166,8 +5166,8 @@ PropDefinitions:
         Code: 'C175894'
         Value: Sequencing Library Read Layout Indicator 
     Enum:
-        - "Paired end"
-        - "Single end" #28feb22 pdunn
+      - "Paired end"
+      - "Single end" #28feb22 pdunn
       - "Not Applicable"  # 02/10/2022 adeforge, added this just to get past the loading error to see what happens next, will remove
     Req: true
     Strict: true

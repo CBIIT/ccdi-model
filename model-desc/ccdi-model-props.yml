@@ -37,14 +37,14 @@ PropDefinitions:
         Code: 'C49337'
         Value: Tissue Preparation or Processing Technique
     Enum:
-        - "Embedding"
-        - "Fixation"
-        - "Formalin-Fixed Paraffin-Embedded"
-        - "Fresh Dissociated Tissue Preparation"
-        - "Thick Smear Technique"
-        - "Thin Smear Technique"
+      - "Embedding"
+      - "Fixation"
+      - "Formalin-Fixed Paraffin-Embedded"
+      - "Fresh Dissociated Tissue Preparation"
+      - "Thick Smear Technique"
+      - "Thin Smear Technique"
     Req: true
-    Strict: true
+    Strict: false
     Private: false
   #pathology_file
   staining_method:
@@ -54,8 +54,8 @@ PropDefinitions:
         Code: 'C23010'
         Value: Staining Method
     Enum: 
-        - "Hematoxylin and Eosin Staining Method"
-        - "Immunohistochemical Staining"
+      - "Hematoxylin and Eosin Staining Method"
+      - "Immunohistochemical Staining"
     Req: true
     Strict: false
     Private: false   
@@ -77,10 +77,10 @@ PropDefinitions:
         Code: '2475579'
         Value: Removal of text elements that would make data individually identifiable.
     Enum:
-        - "manual"
-        - "semiautomatic"
-        - "automatic"
-        - "Not applicable"
+      - "manual"
+      - "semiautomatic"
+      - "automatic"
+      - "Not applicable"
     Req: true
     Strict: false
     Private: false      
@@ -103,13 +103,13 @@ PropDefinitions:
         Code: '6413031'
         Value: Category for Medical History
     Enum:
-        - "Autoimmune Disease"
-        - "Cancer"
-        - "Congenital Anomaly"
-        - "Structural Birth Defect"
-        - "Genetic Syndrome"
-        - "Not Reported"
-        - "Unknown"
+      - "Autoimmune Disease"
+      - "Cancer"
+      - "Congenital Anomaly"
+      - "Structural Birth Defect"
+      - "Genetic Syndrome"
+      - "Not Reported"
+      - "Unknown"
     Req: true
     Strict: false
     Private: false
@@ -122,71 +122,70 @@ PropDefinitions:
         Value: Medical History Event Reported Term
     Type: array
     Items:
-      - string
-      -
-        - "13q Syndrome"
-        - "Adenomatous Polyposis Coli"
-        - "Beckwith-Wiedemann Syndrome"
-        - "Bladder Cancer"
-        - "Bloom Syndrome"
-        - "Breast and Ovarian Cancer"
-        - "Breast Cancer"
-        - "Celiac Disease"
-        - "Central Hypoventilation Syndrome"
-        - "Cherubism"
-        - "Cleft Lip"
-        - "Cleft Palate"
-        - "Clubfoot"
-        - "Costello Syndrome"
-        - "Cushing Syndrome"
-        - "Denys-Drash Syndrome"
-        - "Diabetes Mellitus (Type I)"
-        - "Diamond-Blackfan Anemia"
-        - "DICER1 Syndrome"
-        - "Down Syndrome"
-        - "Fanconi Anemia"
-        - "Frasier Syndrome"
-        - "Gardner Syndrome"
-        - "Gastroschisis"
-        - "Gonadal Dysgenesis"
-        - "Goodpasture's Syndrome"
-        - "Gorlin Syndrome"
-        - "Graves' Disease"
-        - "Hashimoto's Thyroiditis"
-        - "Heart Defect"
-        - "Hemihypertrophy"
-        - "Hereditary Retinoblastoma"
-        - "Hirschsprung Disease"
-        - "Immune thrombocytopenic purpura"
-        - "Inflammatory Bowel Disease"
-        - "Juvenile Idiopathic Arthritis"
-        - "Klinerfelter Syndrome"
-        - "Li-Fraumeni Syndrome"
-        - "Liposarcoma"
-        - "Lung Cancer"
-        - "Lynch Syndrome"
-        - "Maffucci Syndrome"
-        - "McCune-Albright Syndrome"
-        - "Melanoma"
-        - "Mixed Connective Tissue Disease"
-        - "Multiple Osteochondromas"
-        - "Multiple Sclerosis"
-        - "Neurofibromatosis Type 1"
-        - "Neurofibromatosis Type 2"
-        - "Nevoid Basal Cell Carcinoma Syndrome"
-        - "Noonan Syndrome"
-        - "Ollier Disease"
-        - "Osteoscarcoma"
-        - "Paget Disease"
-        - "Psoriasis"
-        - "RB Transcriptional Corepressor 1"
-        - "Retinoblastoma"
-        - "Rhabdomyoscarcoma"
-        - "Rothmund-Thomson Syndrome"
-        - "Scleroderma"
-        - "Other"
-        - "Not Reported"
+      - "13q Syndrome"
+      - "Adenomatous Polyposis Coli"
+      - "Beckwith-Wiedemann Syndrome"
+      - "Bladder Cancer"
+      - "Bloom Syndrome"
+      - "Breast and Ovarian Cancer"
+      - "Breast Cancer"
+      - "Celiac Disease"
+      - "Central Hypoventilation Syndrome"
+      - "Cherubism"
+      - "Cleft Lip"
+      - "Cleft Palate"
+      - "Clubfoot"
+      - "Costello Syndrome"
+      - "Cushing Syndrome"
+      - "Denys-Drash Syndrome"
+      - "Diabetes Mellitus (Type I)"
+      - "Diamond-Blackfan Anemia"
+      - "DICER1 Syndrome"
+      - "Down Syndrome"
+      - "Fanconi Anemia"
+      - "Frasier Syndrome"
+      - "Gardner Syndrome"
+      - "Gastroschisis"
+      - "Gonadal Dysgenesis"
+      - "Goodpasture's Syndrome"
+      - "Gorlin Syndrome"
+      - "Graves' Disease"
+      - "Hashimoto's Thyroiditis"
+      - "Heart Defect"
+      - "Hemihypertrophy"
+      - "Hereditary Retinoblastoma"
+      - "Hirschsprung Disease"
+      - "Immune thrombocytopenic purpura"
+      - "Inflammatory Bowel Disease"
+      - "Juvenile Idiopathic Arthritis"
+      - "Klinerfelter Syndrome"
+      - "Li-Fraumeni Syndrome"
+      - "Liposarcoma"
+      - "Lung Cancer"
+      - "Lynch Syndrome"
+      - "Maffucci Syndrome"
+      - "McCune-Albright Syndrome"
+      - "Melanoma"
+      - "Mixed Connective Tissue Disease"
+      - "Multiple Osteochondromas"
+      - "Multiple Sclerosis"
+      - "Neurofibromatosis Type 1"
+      - "Neurofibromatosis Type 2"
+      - "Nevoid Basal Cell Carcinoma Syndrome"
+      - "Noonan Syndrome"
+      - "Ollier Disease"
+      - "Osteoscarcoma"
+      - "Paget Disease"
+      - "Psoriasis"
+      - "RB Transcriptional Corepressor 1"
+      - "Retinoblastoma"
+      - "Rhabdomyoscarcoma"
+      - "Rothmund-Thomson Syndrome"
+      - "Scleroderma"
+      - "Other"
+      - "Not Reported"
     Req: true
+    Strict: false
     Private: false
   #exposure
   exposure_id:
@@ -245,12 +244,12 @@ PropDefinitions:
         Code: '2201918'
         Value: alcohol_history
     Enum:
-        - "Yes"
-        - "No"
-        - "Unknown"
-        - "Not Reported"
+      - "Yes"
+      - "No"
+      - "Unknown"
+      - "Not Reported"
     Req: false
-    Strict: false
+    Strict: true
     Private: false
   alcohol_intensity:
     Desc: Category to describe the patient's current level of alcohol use as self-reported by the patient.
@@ -259,15 +258,15 @@ PropDefinitions:
         Code: '3457767'
         Value: alcohol_intensity
     Enum:
-        - "Drinker"
-        - "Heavy Drinker"
-        - "Lifelong Non-Drinker"
-        - "Non-Drinker"
-        - "Occasional Drinker"
-        - "Unknown"
-        - "Not Reported"
+      - "Drinker"
+      - "Heavy Drinker"
+      - "Lifelong Non-Drinker"
+      - "Non-Drinker"
+      - "Occasional Drinker"
+      - "Unknown"
+      - "Not Reported"
     Req: false
-    Strict: false
+    Strict: true
     Private: false
   asbestos_exposure:
     Desc: The yes/no/unknown indicator used to describe whether the patient was exposed to asbestos.
@@ -276,10 +275,10 @@ PropDefinitions:
         Code: '1253'
         Value: asbestos_exposure
     Enum:
-        - "Yes"
-        - "No"
-        - "Unknown"
-        - "Not Reported"
+      - "Yes"
+      - "No"
+      - "Unknown"
+      - "Not Reported"
     Req: false
     Strict: true
     Private: false
@@ -299,10 +298,10 @@ PropDefinitions:
         Code: 'NA'
         Value: coal_dust_exposure
     Enum:
-        - "Yes"
-        - "No"
-        - "Unknown"
-        - "Not Reported"
+      - "Yes"
+      - "No"
+      - "Unknown"
+      - "Not Reported"
     Req: false
     Strict: true
     Private: false
@@ -313,10 +312,10 @@ PropDefinitions:
         Code: 'NA'
         Value: environmental_tobacco_smoke_exposure
     Enum:
-        - "Yes"
-        - "No"
-        - "Unknown"
-        - "Not Reported"
+      - "Yes"
+      - "No"
+      - "Unknown"
+      - "Not Reported"
     Req: false
     Strict: true
     Private: false
@@ -326,13 +325,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2816352'
         Value: radon_exposure
-    Type: string
-      -
-        - "Yes"
-        - "No"
-        - "Unknown"
-        - "Not Reported"
+    Enum:
+      - "Yes"
+      - "No"
+      - "Unknown"
+      - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   respirable_crystalline_silica_exposure:
     Desc: The yes/no/unknown indicator used to describe whether a patient was exposured to respirable crystalline silica, a widespread, naturally occurring, crystalline metal oxide that consists of different forms including quartz, cristobalite, tridymite, tripoli, ganister, chert and novaculite.
@@ -340,13 +339,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: 'NA'
         Value: respirable_crystalline_silica_exposure
-    Type: string
-      -
-        - "Yes"
-        - "No"
-        - "Unknown"
-        - "Not Reported"
+    Enum:
+      - "Yes"
+      - "No"
+      - "Unknown"
+      - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   smoking_frequency:
     Desc: The text term used to generally decribe how often the patient smokes.
@@ -354,12 +353,12 @@ PropDefinitions:
       - Origin: caDSR
         Code: 'NA'
         Value: smoking_frequency
-    Type: string
-      -
-        - "Every day"
-        - "Some days"
-        - "Unknown"
+    Enum:
+      - "Every day"
+      - "Some days"
+      - "Unknown"
     Req: false
+    Strict: true
     Private: false
   time_between_waking_and_first_smoke:
     Desc: The text term used to describe the approximate amount of time elapsed between the time the patient wakes up in the morning to the time they smoke their first cigarette.
@@ -374,6 +373,7 @@ PropDefinitions:
       - "After 60 Minutes"
       - "Unknown"
     Req: false
+    Strict: true
     Private: false
   tobacco_smoking_onset_year:
     Desc: The year in which the participant began smoking.
@@ -409,6 +409,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   type_of_smoke_exposure:
     Desc: The text term used to describe the patient's specific type of smoke exposure.
@@ -468,6 +469,7 @@ PropDefinitions:
       - "Work-related smoke, plumbing"
       - "Work-related smoke, soldering/welding"
     Req: false
+    Strict: true
     Private: false
   type_of_tobacco_used:
     Desc: The text term used to describe the specific type of tobacco used by the patient.
@@ -484,6 +486,7 @@ PropDefinitions:
       - "Pipe"
       - "Smokeless Tobacco"
     Req: false
+    Strict: true
     Private: false
   #molecular_test
   molecular_test_id:
@@ -520,30 +523,30 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142401'
         Value: molecular_analysis_method
-    Type: string
-      -
-        - "Comparative Genomic Hybridization"
-        - "Cytogenetics, NOS"
-        - "FISH"
-        - "Flow Cytometry"
-        - "IHC"
-        - "ISH"
-        - "Karyotype"
-        - "Microarray"
-        - "Microsatellite Analysis"
-        - "Nuclear Staining"
-        - "Other"
-        - "RNA Sequencing"
-        - "RT-PCR"
-        - "Sequencing, NOS"
-        - "Southern Blotting"
-        - "Targeted Sequencing"
-        - "WGS"
-        - "WXS"
-        - "Unknown"
-        - "Not Reported"
-        - "Not Applicable"
+    Enum:
+      - "Comparative Genomic Hybridization"
+      - "Cytogenetics, NOS"
+      - "FISH"
+      - "Flow Cytometry"
+      - "IHC"
+      - "ISH"
+      - "Karyotype"
+      - "Microarray"
+      - "Microsatellite Analysis"
+      - "Nuclear Staining"
+      - "Other"
+      - "RNA Sequencing"
+      - "RT-PCR"
+      - "Sequencing, NOS"
+      - "Southern Blotting"
+      - "Targeted Sequencing"
+      - "WGS"
+      - "WXS"
+      - "Unknown"
+      - "Not Reported"
+      - "Not Applicable"
     Req: false
+    Strict: false
     Private: false
   test_result:
     Desc: The text term used to describe the result of the molecular test. If the test result was a numeric value see test_value.
@@ -551,50 +554,50 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142397'
         Value: test_result
-    Type: string
-      -
-        - "Absolute Neutrophil"
-        - "Albumin"
-        - "Alpha Fetoprotein"
-        - "Neutrophil Bands"
-        - "Basophil"
-        - "Beta 2 Microglobulin"
-        - "Myeloblasts"
-        - "Lymphoblasts"
-        - "Blood Urea Nitrogen"
-        - "Calcium"
-        - "Cellularity"
-        - "Creatinine"
-        - "C-Reactive Protein"
-        - "Eosinophil"
-        - "Glucose"
-        - "Hematocrit"
-        - "Hemoglobin"
-        - "Human Chorionic Gonadotropin"
-        - "Immunoglobulin A"
-        - "Immunoglobulin G"
-        - "Immunoglobulin M"
-        - "Lactate Dehydrogenase"
-        - "Leukocytes"
-        - "Luteinizing Hormone"
-        - "Lymphocytes"
-        - "M Protein"
-        - "Metamyelocytes"
-        - "Myelocytes"
-        - "Platelets"
-        - "Prolymphocytes"
-        - "Promonocytes"
-        - "Promyelocytes"
-        - "Segmented Neutrophil"
-        - "Serum Free Immunoglobulin Light Chain, Kappa"
-        - "Serum Free Immunoglobulin Light Chain, Lambda"
-        - "Serum Free Immunoglobulin Light Chain, NOS"
-        - "Testosterone"
-        - "Total Bilirubin"
-        - "Total Protein"
-        - "Unknown"
-        - "Not Reported"
+    Enum:
+      - "Absolute Neutrophil"
+      - "Albumin"
+      - "Alpha Fetoprotein"
+      - "Neutrophil Bands"
+      - "Basophil"
+      - "Beta 2 Microglobulin"
+      - "Myeloblasts"
+      - "Lymphoblasts"
+      - "Blood Urea Nitrogen"
+      - "Calcium"
+      - "Cellularity"
+      - "Creatinine"
+      - "C-Reactive Protein"
+      - "Eosinophil"
+      - "Glucose"
+      - "Hematocrit"
+      - "Hemoglobin"
+      - "Human Chorionic Gonadotropin"
+      - "Immunoglobulin A"
+      - "Immunoglobulin G"
+      - "Immunoglobulin M"
+      - "Lactate Dehydrogenase"
+      - "Leukocytes"
+      - "Luteinizing Hormone"
+      - "Lymphocytes"
+      - "M Protein"
+      - "Metamyelocytes"
+      - "Myelocytes"
+      - "Platelets"
+      - "Prolymphocytes"
+      - "Promonocytes"
+      - "Promyelocytes"
+      - "Segmented Neutrophil"
+      - "Serum Free Immunoglobulin Light Chain, Kappa"
+      - "Serum Free Immunoglobulin Light Chain, Lambda"
+      - "Serum Free Immunoglobulin Light Chain, NOS"
+      - "Testosterone"
+      - "Total Bilirubin"
+      - "Total Protein"
+      - "Unknown"
+      - "Not Reported"
     Req: false
+    Strict: false
     Private: false
   aa_change:
     Desc: Alphanumeric value used to describe the amino acid change for a specific genetic variant. Example R116Q.

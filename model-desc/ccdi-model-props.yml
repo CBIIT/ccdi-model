@@ -2611,7 +2611,7 @@ PropDefinitions:
         Code: '12299653'
         Value: Specimen Original Anatomic Site Uberon Name
     Enum:
-        - 'tail vein'
+      - 'tail vein'
       - 'subcutaneous'
       - 'renal capsule'
       - 'subrenal capsule'

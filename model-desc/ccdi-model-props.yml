@@ -4241,7 +4241,7 @@ PropDefinitions:
   file_mapping_level:
     Desc: Describes if the file belongs to a Participant, a Sample, or a Study.
     Enum:
-        - Participiant
+      - Participiant
       - Sample
       - Study
     Req: false

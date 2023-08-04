@@ -2044,7 +2044,7 @@ PropDefinitions:
         Code: '6142394'
         Value: test_analyte_type
     Enum:
-        - DNA
+      - DNA
       - mRNA
       - miRNA
       - Protein

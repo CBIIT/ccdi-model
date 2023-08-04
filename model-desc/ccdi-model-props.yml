@@ -1824,7 +1824,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
-    Strict: true
+    Strict: false
     Private: false
   #molecular_test
   intron:
@@ -2272,7 +2272,7 @@ PropDefinitions:
       - "height"
       - "hepatitis_sustained_virological_response"    
     Req: false
-    Strict: true
+    Strict: false
     Private: false  
   #single_cell_sequencing_file
   single_cell_sequencing_file_id: 

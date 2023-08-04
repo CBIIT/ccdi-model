@@ -4774,16 +4774,16 @@ PropDefinitions:
         Code: '2785839'
         Value: Specimen Histologic Grade Grading System Name Histologic Grade
     Enum:
-        - "G1"
-        - "G2"
-        - "G3"
-        - "G4"
-        - "GB"
-        - "GX"
-        - "High Grade"
-        - "Intermediate Grade"
-        - "Low Grade"
-        - "Not Applicable"
+      - "G1"
+      - "G2"
+      - "G3"
+      - "G4"
+      - "GB"
+      - "GX"
+      - "High Grade"
+      - "Intermediate Grade"
+      - "Low Grade"
+      - "Not Applicable"
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Strict: false
     Private: false

@@ -847,11 +847,11 @@ PropDefinitions:
         Value: Patient Follow-up Type
       Type: array
       Items:
-        - adverse_event
-        - comorbidity
-        - disease_response
-        - risk_factor
-        - other
+        - "adverse_event"
+        - "comorbidity"
+        - "disease_response"
+        - "risk_factor"
+        - "other"
     Req: false
     Strict: false
     Private: false

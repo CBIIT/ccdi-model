@@ -4785,7 +4785,7 @@ PropDefinitions:
         - "Low Grade"
         - "Not Applicable"
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
-    Strict: true
+    Strict: false
     Private: false
   # sample
   tumor_stage_clinical_t: 
@@ -4831,7 +4831,7 @@ PropDefinitions:
         - "Tis (Paget's)"
         - "TX"
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
-    Strict: true
+    Strict: false
     Private: false
   # sample
   tumor_stage_clinical_n:
@@ -4866,7 +4866,7 @@ PropDefinitions:
         - "N4"
         - "NX"
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
-    Strict: true
+    Strict: false
     Private: false
   # sample
   tumor_stage_clinical_m:
@@ -4884,7 +4884,7 @@ PropDefinitions:
         - "M1c"
         - "MX"
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
-    Strict: true
+    Strict: false
     Private: false
 # tumor_morphology: CCDIDC-360
   #diagnosis

@@ -2611,13 +2611,16 @@ PropDefinitions:
         Code: '12299653'
         Value: Specimen Original Anatomic Site Uberon Name
     Enum:
-      - 'tail vein'
-      - 'subcutaneous'
-      - 'renal capsule'
-      - 'subrenal capsule'
-      - 'muscle'
-      - 'mammary fat pad'
+      - 'brain stem'
       - 'intra peritoneal cavity'
+      - 'left cerebrum'
+      - 'mammary fat pad'
+      - 'muscle'
+      - 'renal capsule'
+      - 'right cerebrum'
+      - 'subcutaneous'
+      - 'subrenal capsule'
+      - 'tail vein'
     Req: true
     Strict: false
     Private: false
@@ -2642,7 +2645,7 @@ PropDefinitions:
       - "Yes"
       - "No"
     Req: true
-    Strict: true
+    Strict: false
     Private: false
   #pdx  
   type_of_humanization:
@@ -5438,11 +5441,9 @@ PropDefinitions:
       value_type: list
       Enum:
         - "Genomic"
-        - "Proteomic"
         - "Imaging"
-        - "Genomics"
         - "Pathology"
-        - "Proteomics"
+        - "Proteomic"
         - "Radiology"
     Req: false
     Strict: true
@@ -10167,7 +10168,7 @@ PropDefinitions:
       - "Unknown"
       - "Very Good Partial Response"
     Req: true
-    Strict: true
+    Strict: false
     Private: false
   #therapeutic_procedure
   treatment_type:

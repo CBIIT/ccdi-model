@@ -830,7 +830,7 @@ PropDefinitions:
     Key: true
   #follow_up
   age_at_follow_up:
-    Desc: Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact.
+    Desc: "Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact."
     Term:
       - Origin: caDSR
         Code: '6154727'
@@ -840,7 +840,7 @@ PropDefinitions:
     Private: false
   #follow_up
   follow_up_category:
-    Desc: NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends.
+    Desc: "NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends."
     Term:
       - Origin: caDSR
         Code: '3119787'

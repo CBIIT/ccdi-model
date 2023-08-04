@@ -3441,6 +3441,12 @@ Terms:
     Code: 3698177
     Version: '1'
     Value: Optic Nerve
+  Optimal Cutting Temperature:
+    Origin: NCIt
+    Definition: cryostat sectioning at temperatures of -10 degrees C and below.
+    Code: C63523
+    Version: '1'
+    Value: Optimal Cutting Temperature
   Oral rinse:
     Origin: caDSR
     Definition: Of, or relating to, or affecting, or for use in the mouth._Wash lightly.

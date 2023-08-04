@@ -2092,7 +2092,7 @@ PropDefinitions:
         Code: 'NA'
         Value: variant_origin
     Enum:
-        - Germline
+      - Germline
       - Somatic
       - Unknown
     Req: false

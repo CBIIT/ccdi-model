@@ -845,13 +845,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3119787'
         Value: Patient Follow-up Type
-     Type: array
-     Items:
-      - adverse_event
-      - comorbidity
-      - disease_response
-      - risk_factor
-      - other
+      Type: array
+      Items:
+        - adverse_event
+        - comorbidity
+        - disease_response
+        - risk_factor
+        - other
     Req: false
     Strict: false
     Private: false

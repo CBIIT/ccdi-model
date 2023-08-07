@@ -22,406 +22,406 @@ Zoom to Node: <select id="node_select">
 <p>
 <a href="./model-desc">Additional model files</a>
 <div id='graph' style='display:off;'>
-<svg width="2483pt" height="392pt"
- viewBox="0.00 0.00 2482.83 392.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="2578pt" height="392pt"
+ viewBox="0.00 0.00 2578.29 392.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 388)">
 <title>Perl</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-388 2478.8322,-388 2478.8322,4 -4,4"/>
-<!-- single_cell_sequencing_file -->
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-388 2574.2884,-388 2574.2884,4 -4,4"/>
+<!-- synonym -->
 <g id="node1" class="node">
-<title>single_cell_sequencing_file</title>
-<ellipse fill="none" stroke="#000000" cx="137.7878" cy="-366" rx="137.5759" ry="18"/>
-<text text-anchor="middle" x="137.7878" y="-362.3" font-family="Times,serif" font-size="14.00" fill="#000000">single_cell_sequencing_file</text>
-</g>
-<!-- cell_line -->
-<g id="node3" class="node">
-<title>cell_line</title>
-<ellipse fill="none" stroke="#000000" cx="503.7878" cy="-279" rx="49.2915" ry="18"/>
-<text text-anchor="middle" x="503.7878" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">cell_line</text>
-</g>
-<!-- single_cell_sequencing_file&#45;&gt;cell_line -->
-<g id="edge2" class="edge">
-<title>single_cell_sequencing_file&#45;&gt;cell_line</title>
-<path fill="none" stroke="#000000" d="M132.6726,-347.7308C130.8258,-336.8667 130.8434,-323.5754 138.7878,-315 152.9737,-299.6874 305.0149,-299.0501 325.7878,-297 366.0181,-293.0297 411.3508,-288.4438 446.199,-284.8946"/>
-<polygon fill="#000000" stroke="#000000" points="446.6039,-288.3715 456.1973,-283.8754 445.8939,-281.4076 446.6039,-288.3715"/>
-<text text-anchor="middle" x="247.2878" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_single_cell_sequencing_file</text>
-</g>
-<!-- pdx -->
-<g id="node20" class="node">
-<title>pdx</title>
-<ellipse fill="none" stroke="#000000" cx="1289.7878" cy="-279" rx="27.8951" ry="18"/>
-<text text-anchor="middle" x="1289.7878" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">pdx</text>
-</g>
-<!-- single_cell_sequencing_file&#45;&gt;pdx -->
-<g id="edge3" class="edge">
-<title>single_cell_sequencing_file&#45;&gt;pdx</title>
-<path fill="none" stroke="#000000" d="M240.6173,-353.9885C286.5407,-347.6147 334.9539,-339.2034 355.7878,-330 365.6291,-325.6525 364.6611,-318.6337 374.7878,-315 465.5847,-282.4201 1148.1181,-315.5252 1242.7878,-297 1247.5737,-296.0635 1252.5068,-294.6797 1257.2954,-293.0883"/>
-<polygon fill="#000000" stroke="#000000" points="1258.6358,-296.3249 1266.8283,-289.6067 1256.2344,-289.7497 1258.6358,-296.3249"/>
-<text text-anchor="middle" x="483.2878" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_single_cell_sequencing_file</text>
-</g>
-<!-- sample -->
-<g id="node24" class="node">
-<title>sample</title>
-<ellipse fill="none" stroke="#000000" cx="1648.7878" cy="-192" rx="44.393" ry="18"/>
-<text text-anchor="middle" x="1648.7878" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">sample</text>
-</g>
-<!-- single_cell_sequencing_file&#45;&gt;sample -->
-<g id="edge4" class="edge">
-<title>single_cell_sequencing_file&#45;&gt;sample</title>
-<path fill="none" stroke="#000000" d="M128.8662,-347.9128C125.1423,-337.6337 122.8923,-324.8837 128.7878,-315 154.663,-271.6205 180.0566,-274.2882 228.7878,-261 375.4282,-221.0135 1446.3131,-237.5622 1595.7878,-210 1599.4431,-209.326 1603.1894,-208.4515 1606.9177,-207.4516"/>
-<polygon fill="#000000" stroke="#000000" points="1608.076,-210.7589 1616.6704,-204.5631 1606.0881,-204.0471 1608.076,-210.7589"/>
-<text text-anchor="middle" x="337.2878" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_single_cell_sequencing_file</text>
-</g>
-<!-- molecular_test -->
-<g id="node2" class="node">
-<title>molecular_test</title>
-<ellipse fill="none" stroke="#000000" cx="1252.7878" cy="-192" rx="79.8859" ry="18"/>
-<text text-anchor="middle" x="1252.7878" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">molecular_test</text>
-</g>
-<!-- participant -->
-<g id="node21" class="node">
-<title>participant</title>
-<ellipse fill="none" stroke="#000000" cx="1252.7878" cy="-105" rx="62.2891" ry="18"/>
-<text text-anchor="middle" x="1252.7878" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">participant</text>
-</g>
-<!-- molecular_test&#45;&gt;participant -->
-<g id="edge6" class="edge">
-<title>molecular_test&#45;&gt;participant</title>
-<path fill="none" stroke="#000000" d="M1252.7878,-173.9735C1252.7878,-162.1918 1252.7878,-146.5607 1252.7878,-133.1581"/>
-<polygon fill="#000000" stroke="#000000" points="1256.2879,-133.0033 1252.7878,-123.0034 1249.2879,-133.0034 1256.2879,-133.0033"/>
-<text text-anchor="middle" x="1316.7878" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_molecular_test</text>
-</g>
-<!-- cell_line&#45;&gt;participant -->
-<g id="edge19" class="edge">
-<title>cell_line&#45;&gt;participant</title>
-<path fill="none" stroke="#000000" d="M552.837,-276.8126C669.4906,-270.9706 960.1846,-252.4657 1046.7878,-210 1067.1042,-200.0379 1063.9291,-186.5039 1082.7878,-174 1118.5798,-150.2687 1163.8241,-132.3956 1198.6369,-120.7924"/>
-<polygon fill="#000000" stroke="#000000" points="1199.7404,-124.114 1208.1627,-117.6863 1197.5703,-117.4588 1199.7404,-124.114"/>
-<text text-anchor="middle" x="1123.2878" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_cell_line</text>
+<title>synonym</title>
+<ellipse fill="none" stroke="#000000" cx="274.1961" cy="-279" rx="51.9908" ry="18"/>
+<text text-anchor="middle" x="274.1961" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">synonym</text>
 </g>
 <!-- study -->
-<g id="node22" class="node">
-<title>study</title>
-<ellipse fill="none" stroke="#000000" cx="1741.7878" cy="-18" rx="36.2938" ry="18"/>
-<text text-anchor="middle" x="1741.7878" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">study</text>
-</g>
-<!-- cell_line&#45;&gt;study -->
-<g id="edge18" class="edge">
-<title>cell_line&#45;&gt;study</title>
-<path fill="none" stroke="#000000" d="M468.5866,-266.3717C462.3728,-264.3998 455.9278,-262.5165 449.7878,-261 313.8058,-227.4135 266.0059,-268.6065 138.7878,-210 100.7978,-192.4989 53.0003,-176.7049 74.7878,-141 121.0711,-65.1517 168.0625,-73.3348 254.7878,-54 397.9092,-22.092 1457.6292,-18.4651 1694.7922,-18.0529"/>
-<polygon fill="#000000" stroke="#000000" points="1695.1438,-21.5524 1705.1381,-18.036 1695.1324,-14.5524 1695.1438,-21.5524"/>
-<text text-anchor="middle" x="115.2878" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_cell_line</text>
-</g>
-<!-- therapeutic_procedure -->
-<g id="node4" class="node">
-<title>therapeutic_procedure</title>
-<ellipse fill="none" stroke="#000000" cx="1468.7878" cy="-192" rx="117.7793" ry="18"/>
-<text text-anchor="middle" x="1468.7878" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">therapeutic_procedure</text>
-</g>
-<!-- therapeutic_procedure&#45;&gt;participant -->
-<g id="edge32" class="edge">
-<title>therapeutic_procedure&#45;&gt;participant</title>
-<path fill="none" stroke="#000000" d="M1443.6848,-174.199C1427.4928,-163.376 1405.6344,-149.9605 1384.7878,-141 1362.356,-131.3582 1336.657,-123.6553 1313.931,-117.8887"/>
-<polygon fill="#000000" stroke="#000000" points="1314.6043,-114.45 1304.0574,-115.4558 1312.9296,-121.2467 1314.6043,-114.45"/>
-<text text-anchor="middle" x="1505.7878" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_therapeutic_procedure</text>
-</g>
-<!-- synonym -->
 <g id="node5" class="node">
-<title>synonym</title>
-<ellipse fill="none" stroke="#000000" cx="2070.7878" cy="-279" rx="51.9908" ry="18"/>
-<text text-anchor="middle" x="2070.7878" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">synonym</text>
-</g>
-<!-- synonym&#45;&gt;participant -->
-<g id="edge31" class="edge">
-<title>synonym&#45;&gt;participant</title>
-<path fill="none" stroke="#000000" d="M2060.8759,-261.3127C2041.3964,-227.2619 1997.844,-154.7412 1972.7878,-141 1972.3463,-140.7579 1506.4862,-117.5989 1324.4567,-108.5582"/>
-<polygon fill="#000000" stroke="#000000" points="1324.6033,-105.0613 1314.442,-108.0609 1324.2561,-112.0527 1324.6033,-105.0613"/>
-<text text-anchor="middle" x="2070.2878" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_synonym</text>
+<title>study</title>
+<ellipse fill="none" stroke="#000000" cx="1908.1961" cy="-18" rx="36.2938" ry="18"/>
+<text text-anchor="middle" x="1908.1961" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">study</text>
 </g>
 <!-- synonym&#45;&gt;study -->
-<g id="edge30" class="edge">
+<g id="edge5" class="edge">
 <title>synonym&#45;&gt;study</title>
-<path fill="none" stroke="#000000" d="M2088.4018,-262.0463C2109.021,-240.1233 2137.836,-201.4981 2116.7878,-174 2082.646,-129.3962 2050.026,-151.193 1994.7878,-141 1955.6906,-133.7855 1849.3123,-145.8647 1816.7878,-123 1788.9785,-103.4501 1804.472,-80.9763 1783.7878,-54 1779.8762,-48.8985 1775.1387,-44.0036 1770.2746,-39.556"/>
-<polygon fill="#000000" stroke="#000000" points="1772.4885,-36.8436 1762.6273,-32.9696 1767.9204,-42.1476 1772.4885,-36.8436"/>
-<text text-anchor="middle" x="2140.2878" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_synonym</text>
+<path fill="none" stroke="#000000" d="M224.8112,-273.2511C155.8532,-264.092 36.2189,-243.6982 10.1961,-210 -8.9292,-185.2335 2.5682,-163.6139 24.1961,-141 101.174,-60.513 148.9608,-69.8719 259.1961,-54 421.2579,-30.6661 1609.9649,-20.291 1861.515,-18.3445"/>
+<polygon fill="#000000" stroke="#000000" points="1861.7958,-21.8425 1871.7686,-18.2658 1861.742,-14.8427 1861.7958,-21.8425"/>
+<text text-anchor="middle" x="66.6961" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_synonym</text>
+</g>
+<!-- participant -->
+<g id="node8" class="node">
+<title>participant</title>
+<ellipse fill="none" stroke="#000000" cx="1087.1961" cy="-105" rx="62.2891" ry="18"/>
+<text text-anchor="middle" x="1087.1961" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">participant</text>
+</g>
+<!-- synonym&#45;&gt;participant -->
+<g id="edge4" class="edge">
+<title>synonym&#45;&gt;participant</title>
+<path fill="none" stroke="#000000" d="M269.6993,-260.7556C265.1446,-237.4369 261.5083,-197.3046 283.1961,-174 287.1815,-169.7175 485.373,-141.5598 491.1961,-141 723.153,-118.7009 784.4387,-155.4383 1015.1961,-123 1020.9179,-122.1957 1026.8444,-121.1208 1032.7283,-119.8949"/>
+<polygon fill="#000000" stroke="#000000" points="1033.5456,-123.2987 1042.5467,-117.7102 1032.0252,-116.4658 1033.5456,-123.2987"/>
+<text text-anchor="middle" x="325.6961" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_synonym</text>
+</g>
+<!-- sample -->
+<g id="node10" class="node">
+<title>sample</title>
+<ellipse fill="none" stroke="#000000" cx="891.1961" cy="-192" rx="44.393" ry="18"/>
+<text text-anchor="middle" x="891.1961" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">sample</text>
 </g>
 <!-- synonym&#45;&gt;sample -->
-<g id="edge29" class="edge">
+<g id="edge6" class="edge">
 <title>synonym&#45;&gt;sample</title>
-<path fill="none" stroke="#000000" d="M2030.425,-267.458C2021.9846,-265.1948 2013.119,-262.9276 2004.7878,-261 1966.6575,-252.1778 1870.403,-234.373 1831.7878,-228 1774.6716,-218.5737 1759.1496,-223.2083 1702.7878,-210 1699.1587,-209.1495 1695.4267,-208.1589 1691.701,-207.0879"/>
-<polygon fill="#000000" stroke="#000000" points="1692.5145,-203.6769 1681.9283,-204.1062 1690.4716,-210.3722 1692.5145,-203.6769"/>
-<text text-anchor="middle" x="1956.2878" y="-231.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_synonym</text>
+<path fill="none" stroke="#000000" d="M281.0316,-261.0383C286.4903,-249.4096 295.3681,-235.1481 308.1961,-228 359.6675,-199.319 780.2324,-220.588 838.1961,-210 841.9034,-209.3228 845.7037,-208.4377 849.4839,-207.4232"/>
+<polygon fill="#000000" stroke="#000000" points="850.7748,-210.691 859.3651,-204.4896 848.7825,-203.9805 850.7748,-210.691"/>
+<text text-anchor="middle" x="350.6961" y="-231.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_synonym</text>
 </g>
-<!-- study_arm -->
+<!-- cell_line -->
+<g id="node2" class="node">
+<title>cell_line</title>
+<ellipse fill="none" stroke="#000000" cx="1717.1961" cy="-279" rx="49.2915" ry="18"/>
+<text text-anchor="middle" x="1717.1961" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">cell_line</text>
+</g>
+<!-- cell_line&#45;&gt;study -->
+<g id="edge24" class="edge">
+<title>cell_line&#45;&gt;study</title>
+<path fill="none" stroke="#000000" d="M1752.3535,-266.187C1758.5721,-264.2357 1765.0301,-262.4071 1771.1961,-261 1882.6027,-235.5766 1946.8353,-295.0106 2023.1961,-210 2069.9458,-157.9549 2086.8683,-109.4374 2044.1961,-54 2033.0774,-39.5551 1988.6888,-29.7161 1953.6077,-24.0226"/>
+<polygon fill="#000000" stroke="#000000" points="1953.9506,-20.534 1943.5318,-22.4573 1952.876,-27.451 1953.9506,-20.534"/>
+<text text-anchor="middle" x="2105.6961" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_cell_line</text>
+</g>
+<!-- cell_line&#45;&gt;participant -->
+<g id="edge23" class="edge">
+<title>cell_line&#45;&gt;participant</title>
+<path fill="none" stroke="#000000" d="M1764.8303,-274.1522C1809.2852,-268.7477 1871.4912,-258.6509 1890.1961,-243 1926.954,-212.2438 1958.3511,-175.6098 1925.1961,-141 1898.9266,-113.5777 1358.9447,-106.9419 1159.9781,-105.425"/>
+<polygon fill="#000000" stroke="#000000" points="1159.9393,-101.9247 1149.9136,-105.3504 1159.8873,-108.9245 1159.9393,-101.9247"/>
+<text text-anchor="middle" x="1978.6961" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_cell_line</text>
+</g>
+<!-- exposure -->
+<g id="node3" class="node">
+<title>exposure</title>
+<ellipse fill="none" stroke="#000000" cx="430.1961" cy="-192" rx="53.0913" ry="18"/>
+<text text-anchor="middle" x="430.1961" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">exposure</text>
+</g>
+<!-- exposure&#45;&gt;participant -->
+<g id="edge20" class="edge">
+<title>exposure&#45;&gt;participant</title>
+<path fill="none" stroke="#000000" d="M455.2638,-175.8129C475.4281,-163.7467 504.9586,-148.1664 533.1961,-141 637.0883,-114.6333 909.0764,-138.0794 1015.1961,-123 1020.9167,-122.1871 1026.8424,-121.1067 1032.7258,-119.8774"/>
+<polygon fill="#000000" stroke="#000000" points="1033.5447,-123.2809 1042.5437,-117.689 1032.0217,-116.4485 1033.5447,-123.2809"/>
+<text text-anchor="middle" x="576.6961" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_exposure</text>
+</g>
+<!-- study_admin -->
+<g id="node4" class="node">
+<title>study_admin</title>
+<ellipse fill="none" stroke="#000000" cx="936.1961" cy="-105" rx="70.3881" ry="18"/>
+<text text-anchor="middle" x="936.1961" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">study_admin</text>
+</g>
+<!-- study_admin&#45;&gt;study -->
+<g id="edge1" class="edge">
+<title>study_admin&#45;&gt;study</title>
+<path fill="none" stroke="#000000" d="M987.2345,-92.5796C996.8186,-90.514 1006.7839,-88.5449 1016.1961,-87 1336.6708,-34.3991 1728.6848,-21.6932 1861.5972,-18.8029"/>
+<polygon fill="#000000" stroke="#000000" points="1861.8943,-22.2975 1871.8188,-18.5891 1861.7478,-15.2991 1861.8943,-22.2975"/>
+<text text-anchor="middle" x="1316.6961" y="-57.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_study_admin</text>
+</g>
+<!-- diagnosis -->
 <g id="node6" class="node">
-<title>study_arm</title>
-<ellipse fill="none" stroke="#000000" cx="1685.7878" cy="-105" rx="59.5901" ry="18"/>
-<text text-anchor="middle" x="1685.7878" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">study_arm</text>
+<title>diagnosis</title>
+<ellipse fill="none" stroke="#000000" cx="556.1961" cy="-192" rx="54.6905" ry="18"/>
+<text text-anchor="middle" x="556.1961" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">diagnosis</text>
 </g>
-<!-- study_arm&#45;&gt;study -->
-<g id="edge5" class="edge">
-<title>study_arm&#45;&gt;study</title>
-<path fill="none" stroke="#000000" d="M1682.1715,-86.9387C1681.0494,-76.6683 1681.2994,-63.9183 1686.7878,-54 1691.0372,-46.3206 1697.6972,-40.0063 1704.9358,-34.9299"/>
-<polygon fill="#000000" stroke="#000000" points="1706.9574,-37.794 1713.5895,-29.5317 1703.2525,-31.8549 1706.9574,-37.794"/>
-<text text-anchor="middle" x="1735.2878" y="-57.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_study_arm</text>
+<!-- diagnosis&#45;&gt;participant -->
+<g id="edge19" class="edge">
+<title>diagnosis&#45;&gt;participant</title>
+<path fill="none" stroke="#000000" d="M582.6178,-175.9304C603.8365,-163.929 634.8353,-148.3786 664.1961,-141 815.6905,-102.9284 860.7013,-146.0507 1015.1961,-123 1020.9109,-122.1474 1026.8328,-121.0411 1032.714,-119.7963"/>
+<polygon fill="#000000" stroke="#000000" points="1033.54,-123.198 1042.5293,-117.5907 1032.0053,-116.3683 1033.54,-123.198"/>
+<text text-anchor="middle" x="708.6961" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_diagnosis</text>
 </g>
 <!-- clinical_measure_file -->
 <g id="node7" class="node">
 <title>clinical_measure_file</title>
-<ellipse fill="none" stroke="#000000" cx="266.7878" cy="-192" rx="108.5808" ry="18"/>
-<text text-anchor="middle" x="266.7878" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">clinical_measure_file</text>
-</g>
-<!-- clinical_measure_file&#45;&gt;participant -->
-<g id="edge36" class="edge">
-<title>clinical_measure_file&#45;&gt;participant</title>
-<path fill="none" stroke="#000000" d="M258.1785,-173.6572C254.4692,-162.7655 252.6188,-149.4709 260.7878,-141 276.7301,-124.4686 954.2915,-110.5011 1180.2847,-106.2949"/>
-<polygon fill="#000000" stroke="#000000" points="1180.4474,-109.7926 1190.3808,-106.1079 1180.3177,-102.7938 1180.4474,-109.7926"/>
-<text text-anchor="middle" x="390.2878" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_clinical_measure_file_participant</text>
+<ellipse fill="none" stroke="#000000" cx="128.1961" cy="-192" rx="108.5808" ry="18"/>
+<text text-anchor="middle" x="128.1961" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">clinical_measure_file</text>
 </g>
 <!-- clinical_measure_file&#45;&gt;study -->
-<g id="edge16" class="edge">
-<title>clinical_measure_file&#45;&gt;study</title>
-<path fill="none" stroke="#000000" d="M253.8307,-174.0027C247.7813,-163.241 243.5354,-149.9617 251.7878,-141 351.8935,-32.29 1453.0765,-19.6561 1694.9825,-18.1915"/>
-<polygon fill="#000000" stroke="#000000" points="1695.2154,-21.6903 1705.1953,-18.1333 1695.1755,-14.6904 1695.2154,-21.6903"/>
-<text text-anchor="middle" x="487.7878" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_clinical_measure_file</text>
-</g>
-<!-- study_funding -->
-<g id="node8" class="node">
-<title>study_funding</title>
-<ellipse fill="none" stroke="#000000" cx="1902.7878" cy="-105" rx="77.1866" ry="18"/>
-<text text-anchor="middle" x="1902.7878" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">study_funding</text>
-</g>
-<!-- study_funding&#45;&gt;study -->
-<g id="edge20" class="edge">
-<title>study_funding&#45;&gt;study</title>
-<path fill="none" stroke="#000000" d="M1873.4275,-88.1942C1855.6712,-78.1183 1832.5288,-65.1408 1811.7878,-54 1800.4072,-47.887 1787.8867,-41.3799 1776.6198,-35.6032"/>
-<polygon fill="#000000" stroke="#000000" points="1778.0008,-32.3785 1767.5031,-30.9472 1774.817,-38.6126 1778.0008,-32.3785"/>
-<text text-anchor="middle" x="1898.7878" y="-57.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_study_funding</text>
-</g>
-<!-- radiology_file -->
-<g id="node9" class="node">
-<title>radiology_file</title>
-<ellipse fill="none" stroke="#000000" cx="1784.7878" cy="-192" rx="73.387" ry="18"/>
-<text text-anchor="middle" x="1784.7878" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">radiology_file</text>
-</g>
-<!-- radiology_file&#45;&gt;participant -->
-<g id="edge22" class="edge">
-<title>radiology_file&#45;&gt;participant</title>
-<path fill="none" stroke="#000000" d="M1762.0821,-174.6121C1745.4958,-162.9273 1721.9468,-148.3651 1698.7878,-141 1631.2855,-119.5327 1433.6234,-110.3818 1325.5015,-106.8936"/>
-<polygon fill="#000000" stroke="#000000" points="1325.4301,-103.3897 1315.325,-106.5735 1325.21,-110.3863 1325.4301,-103.3897"/>
-<text text-anchor="middle" x="1789.7878" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_radiology_file</text>
-</g>
-<!-- study_admin -->
-<g id="node10" class="node">
-<title>study_admin</title>
-<ellipse fill="none" stroke="#000000" cx="2068.7878" cy="-105" rx="70.3881" ry="18"/>
-<text text-anchor="middle" x="2068.7878" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">study_admin</text>
-</g>
-<!-- study_admin&#45;&gt;study -->
-<g id="edge35" class="edge">
-<title>study_admin&#45;&gt;study</title>
-<path fill="none" stroke="#000000" d="M2040.6045,-88.3324C2020.2049,-76.9871 1991.6166,-62.5346 1964.7878,-54 1905.5012,-35.1402 1834.0565,-25.8302 1788.29,-21.4767"/>
-<polygon fill="#000000" stroke="#000000" points="1788.3565,-17.9684 1778.0803,-20.5474 1787.7219,-24.9396 1788.3565,-17.9684"/>
-<text text-anchor="middle" x="2056.2878" y="-57.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_study_admin</text>
-</g>
-<!-- exposure -->
-<g id="node11" class="node">
-<title>exposure</title>
-<ellipse fill="none" stroke="#000000" cx="1929.7878" cy="-192" rx="53.0913" ry="18"/>
-<text text-anchor="middle" x="1929.7878" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">exposure</text>
-</g>
-<!-- exposure&#45;&gt;participant -->
-<g id="edge17" class="edge">
-<title>exposure&#45;&gt;participant</title>
-<path fill="none" stroke="#000000" d="M1910.4262,-174.9595C1895.7123,-163.1179 1874.383,-148.2155 1852.7878,-141 1828.1462,-132.7666 1478.6572,-115.5533 1324.7136,-108.317"/>
-<polygon fill="#000000" stroke="#000000" points="1324.5711,-104.8066 1314.4181,-107.8342 1324.2431,-111.7989 1324.5711,-104.8066"/>
-<text text-anchor="middle" x="1925.2878" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_exposure</text>
-</g>
-<!-- follow_up -->
-<g id="node12" class="node">
-<title>follow_up</title>
-<ellipse fill="none" stroke="#000000" cx="448.7878" cy="-192" rx="55.4913" ry="18"/>
-<text text-anchor="middle" x="448.7878" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">follow_up</text>
-</g>
-<!-- follow_up&#45;&gt;participant -->
-<g id="edge21" class="edge">
-<title>follow_up&#45;&gt;participant</title>
-<path fill="none" stroke="#000000" d="M481.2345,-177.2311C494.5596,-170.9585 510.0539,-163.3957 523.7878,-156 535.1965,-149.8564 536.3927,-144.7767 548.7878,-141 607.9491,-122.974 1012.6242,-110.9694 1180.2769,-106.7162"/>
-<polygon fill="#000000" stroke="#000000" points="1180.5816,-110.2097 1190.4904,-106.4592 1180.4055,-103.2119 1180.5816,-110.2097"/>
-<text text-anchor="middle" x="593.7878" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_follow_up</text>
-</g>
-<!-- diagnosis -->
-<g id="node13" class="node">
-<title>diagnosis</title>
-<ellipse fill="none" stroke="#000000" cx="576.7878" cy="-192" rx="54.6905" ry="18"/>
-<text text-anchor="middle" x="576.7878" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">diagnosis</text>
-</g>
-<!-- diagnosis&#45;&gt;participant -->
-<g id="edge34" class="edge">
-<title>diagnosis&#45;&gt;participant</title>
-<path fill="none" stroke="#000000" d="M603.826,-176.307C627.5609,-162.8362 660.4659,-144.9794 674.7878,-141 767.7836,-115.1603 1046.4055,-107.8302 1179.9081,-105.7801"/>
-<polygon fill="#000000" stroke="#000000" points="1180.0937,-109.2778 1190.0408,-105.6304 1179.9902,-102.2786 1180.0937,-109.2778"/>
-<text text-anchor="middle" x="719.2878" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_diagnosis</text>
-</g>
-<!-- study_personnel -->
-<g id="node14" class="node">
-<title>study_personnel</title>
-<ellipse fill="none" stroke="#000000" cx="2243.7878" cy="-105" rx="87.1846" ry="18"/>
-<text text-anchor="middle" x="2243.7878" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">study_personnel</text>
-</g>
-<!-- study_personnel&#45;&gt;study -->
-<g id="edge15" class="edge">
-<title>study_personnel&#45;&gt;study</title>
-<path fill="none" stroke="#000000" d="M2209.9009,-88.2915C2184.8094,-76.6946 2149.4542,-61.952 2116.7878,-54 2055.5697,-39.0977 1874.0905,-26.2355 1788.0446,-20.7835"/>
-<polygon fill="#000000" stroke="#000000" points="1788.2383,-17.2889 1778.0387,-20.1558 1787.7999,-24.2752 1788.2383,-17.2889"/>
-<text text-anchor="middle" x="2232.2878" y="-57.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_study_personnel</text>
-</g>
-<!-- methylation_array_file -->
-<g id="node15" class="node">
-<title>methylation_array_file</title>
-<ellipse fill="none" stroke="#000000" cx="1510.7878" cy="-366" rx="115.8798" ry="18"/>
-<text text-anchor="middle" x="1510.7878" y="-362.3" font-family="Times,serif" font-size="14.00" fill="#000000">methylation_array_file</text>
-</g>
-<!-- methylation_array_file&#45;&gt;cell_line -->
-<g id="edge11" class="edge">
-<title>methylation_array_file&#45;&gt;cell_line</title>
-<path fill="none" stroke="#000000" d="M1429.5687,-353.0921C1415.021,-351.1263 1399.9782,-349.3174 1385.7878,-348 1196.6548,-330.4412 1146.8822,-356.459 958.7878,-330 930.7136,-326.0508 924.7562,-319.6388 896.7878,-315 779.3806,-295.5272 640.3666,-285.9057 563.1201,-281.732"/>
-<polygon fill="#000000" stroke="#000000" points="563.2673,-278.235 553.0966,-281.2024 562.8979,-285.2253 563.2673,-278.235"/>
-<text text-anchor="middle" x="1050.2878" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_methylation_array_file</text>
-</g>
-<!-- methylation_array_file&#45;&gt;pdx -->
 <g id="edge13" class="edge">
-<title>methylation_array_file&#45;&gt;pdx</title>
-<path fill="none" stroke="#000000" d="M1486.737,-348.3214C1470.9352,-337.4084 1449.4362,-323.8499 1428.7878,-315 1395.6275,-300.7876 1355.5353,-291.1389 1326.9473,-285.4363"/>
-<polygon fill="#000000" stroke="#000000" points="1327.4513,-281.9691 1316.9695,-283.5127 1326.1261,-288.8425 1327.4513,-281.9691"/>
-<text text-anchor="middle" x="1548.2878" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_methylation_array_file</text>
+<title>clinical_measure_file&#45;&gt;study</title>
+<path fill="none" stroke="#000000" d="M117.2918,-173.9208C112.3278,-163.1283 109.1518,-149.8454 117.1961,-141 273.234,30.576 925.6793,-67.6406 1157.1961,-54 1423.7699,-38.2939 1743.8805,-24.7005 1861.7291,-19.873"/>
+<polygon fill="#000000" stroke="#000000" points="1861.991,-23.3654 1871.8398,-19.4601 1861.7053,-16.3712 1861.991,-23.3654"/>
+<text text-anchor="middle" x="281.1961" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_clinical_measure_file</text>
 </g>
-<!-- methylation_array_file&#45;&gt;sample -->
-<g id="edge12" class="edge">
-<title>methylation_array_file&#45;&gt;sample</title>
-<path fill="none" stroke="#000000" d="M1603.4132,-355.1107C1674.2713,-344.6351 1763.5059,-326.0479 1785.7878,-297 1795.5259,-284.3048 1794.1796,-274.6227 1785.7878,-261 1775.0173,-243.5161 1727.5053,-222.0569 1691.4279,-207.7569"/>
-<polygon fill="#000000" stroke="#000000" points="1692.6526,-204.4779 1682.0644,-204.1028 1690.1077,-210.9989 1692.6526,-204.4779"/>
-<text text-anchor="middle" x="1883.2878" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_methylation_array_file</text>
+<!-- clinical_measure_file&#45;&gt;participant -->
+<g id="edge15" class="edge">
+<title>clinical_measure_file&#45;&gt;participant</title>
+<path fill="none" stroke="#000000" d="M121.9608,-173.5716C119.536,-162.6477 119.0144,-149.3492 127.1961,-141 144.464,-123.3786 990.7411,-126.2625 1015.1961,-123 1021.0052,-122.225 1027.0229,-121.1572 1032.9918,-119.9251"/>
+<polygon fill="#000000" stroke="#000000" points="1033.9396,-123.3001 1042.9453,-117.7191 1032.4248,-116.4659 1033.9396,-123.3001"/>
+<text text-anchor="middle" x="256.6961" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_clinical_measure_file_participant</text>
+</g>
+<!-- participant&#45;&gt;study -->
+<g id="edge2" class="edge">
+<title>participant&#45;&gt;study</title>
+<path fill="none" stroke="#000000" d="M1145.911,-98.7781C1301.6608,-82.2735 1722.9244,-37.6329 1862.5472,-22.8373"/>
+<polygon fill="#000000" stroke="#000000" points="1862.9162,-26.3179 1872.4917,-21.7835 1862.1785,-19.3569 1862.9162,-26.3179"/>
+<text text-anchor="middle" x="1597.6961" y="-57.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_participant</text>
 </g>
 <!-- family_relationship -->
-<g id="node16" class="node">
+<g id="node9" class="node">
 <title>family_relationship</title>
-<ellipse fill="none" stroke="#000000" cx="749.7878" cy="-192" rx="100.1823" ry="18"/>
-<text text-anchor="middle" x="749.7878" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">family_relationship</text>
+<ellipse fill="none" stroke="#000000" cx="729.1961" cy="-192" rx="100.1823" ry="18"/>
+<text text-anchor="middle" x="729.1961" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">family_relationship</text>
 </g>
 <!-- family_relationship&#45;&gt;participant -->
-<g id="edge1" class="edge">
+<g id="edge16" class="edge">
 <title>family_relationship&#45;&gt;participant</title>
-<path fill="none" stroke="#000000" d="M756.8424,-173.9601C762.3542,-162.4543 771.207,-148.3663 783.7878,-141 817.1177,-121.4848 1057.311,-111.1528 1180.4257,-107.0889"/>
-<polygon fill="#000000" stroke="#000000" points="1180.643,-110.5837 1190.524,-106.7609 1180.4157,-103.5874 1180.643,-110.5837"/>
-<text text-anchor="middle" x="863.2878" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_family_relationship</text>
+<path fill="none" stroke="#000000" d="M740.7386,-174.0916C749.2898,-162.4868 762.0552,-148.2317 777.1961,-141 825.0571,-118.1403 962.8356,-131.4624 1015.1961,-123 1020.6815,-122.1135 1026.362,-121.0148 1032.0161,-119.8007"/>
+<polygon fill="#000000" stroke="#000000" points="1033.1384,-123.1352 1042.1174,-117.5114 1031.5911,-116.3083 1033.1384,-123.1352"/>
+<text text-anchor="middle" x="856.6961" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_family_relationship</text>
+</g>
+<!-- sample&#45;&gt;participant -->
+<g id="edge30" class="edge">
+<title>sample&#45;&gt;participant</title>
+<path fill="none" stroke="#000000" d="M910.8646,-175.8696C925.1983,-164.7774 945.4813,-150.4066 965.1961,-141 977.2139,-135.2659 1004.9818,-126.9455 1030.9943,-119.7479"/>
+<polygon fill="#000000" stroke="#000000" points="1032.1205,-123.0685 1040.8414,-117.052 1030.2721,-116.3169 1032.1205,-123.0685"/>
+<text text-anchor="middle" x="1001.6961" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_sample</text>
+</g>
+<!-- methylation_array_file -->
+<g id="node11" class="node">
+<title>methylation_array_file</title>
+<ellipse fill="none" stroke="#000000" cx="625.1961" cy="-366" rx="115.8798" ry="18"/>
+<text text-anchor="middle" x="625.1961" y="-362.3" font-family="Times,serif" font-size="14.00" fill="#000000">methylation_array_file</text>
+</g>
+<!-- methylation_array_file&#45;&gt;cell_line -->
+<g id="edge12" class="edge">
+<title>methylation_array_file&#45;&gt;cell_line</title>
+<path fill="none" stroke="#000000" d="M707.4882,-353.2162C739.545,-347.3762 776.3932,-339.5957 809.1961,-330 826.6229,-324.9022 829.4101,-318.6516 847.1961,-315 982.2158,-287.2796 1329.5357,-303.9509 1467.1961,-297 1532.8599,-293.6844 1608.0979,-288.0125 1658.7358,-283.9206"/>
+<polygon fill="#000000" stroke="#000000" points="1659.157,-287.398 1668.8403,-283.0987 1658.5894,-280.4211 1659.157,-287.398"/>
+<text text-anchor="middle" x="938.6961" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_methylation_array_file</text>
+</g>
+<!-- methylation_array_file&#45;&gt;sample -->
+<g id="edge10" class="edge">
+<title>methylation_array_file&#45;&gt;sample</title>
+<path fill="none" stroke="#000000" d="M559.2365,-351.1136C497.2846,-334.1588 419.225,-303.2351 456.1961,-261 512.6052,-196.5594 754.8105,-229.5296 838.1961,-210 841.6112,-209.2002 845.1168,-208.2681 848.6195,-207.2569"/>
+<polygon fill="#000000" stroke="#000000" points="849.8797,-210.5311 858.406,-204.242 847.8187,-203.8413 849.8797,-210.5311"/>
+<text text-anchor="middle" x="547.6961" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_methylation_array_file</text>
+</g>
+<!-- pdx -->
+<g id="node16" class="node">
+<title>pdx</title>
+<ellipse fill="none" stroke="#000000" cx="1110.1961" cy="-279" rx="27.8951" ry="18"/>
+<text text-anchor="middle" x="1110.1961" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">pdx</text>
+</g>
+<!-- methylation_array_file&#45;&gt;pdx -->
+<g id="edge11" class="edge">
+<title>methylation_array_file&#45;&gt;pdx</title>
+<path fill="none" stroke="#000000" d="M620.0158,-347.6697C618.1444,-336.7827 618.1591,-323.4886 626.1961,-315 641.4715,-298.8664 960.2014,-284.8777 1071.9179,-280.4535"/>
+<polygon fill="#000000" stroke="#000000" points="1072.2107,-283.9448 1082.0658,-280.0555 1071.9363,-276.9502 1072.2107,-283.9448"/>
+<text text-anchor="middle" x="717.6961" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_methylation_array_file</text>
+</g>
+<!-- single_cell_sequencing_file -->
+<g id="node12" class="node">
+<title>single_cell_sequencing_file</title>
+<ellipse fill="none" stroke="#000000" cx="1904.1961" cy="-366" rx="137.5759" ry="18"/>
+<text text-anchor="middle" x="1904.1961" y="-362.3" font-family="Times,serif" font-size="14.00" fill="#000000">single_cell_sequencing_file</text>
+</g>
+<!-- single_cell_sequencing_file&#45;&gt;cell_line -->
+<g id="edge34" class="edge">
+<title>single_cell_sequencing_file&#45;&gt;cell_line</title>
+<path fill="none" stroke="#000000" d="M1900.7635,-347.89C1897.7287,-336.8049 1892.1685,-323.2168 1882.1961,-315 1865.873,-301.5505 1815.5428,-291.8265 1774.7205,-285.9005"/>
+<polygon fill="#000000" stroke="#000000" points="1774.9628,-282.4003 1764.5732,-284.4758 1773.9894,-289.3323 1774.9628,-282.4003"/>
+<text text-anchor="middle" x="2001.6961" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_single_cell_sequencing_file</text>
+</g>
+<!-- single_cell_sequencing_file&#45;&gt;sample -->
+<g id="edge35" class="edge">
+<title>single_cell_sequencing_file&#45;&gt;sample</title>
+<path fill="none" stroke="#000000" d="M2008.2208,-354.1489C2057.3035,-347.4869 2106.8045,-338.7666 2114.1961,-330 2118.4935,-324.9032 2118.5236,-320.0713 2114.1961,-315 2015.1637,-198.9439 1926.8464,-277.6923 1775.1961,-261 1683.2444,-250.8788 1034.9617,-227.8656 944.1961,-210 940.5492,-209.2822 936.8088,-208.377 933.0844,-207.3565"/>
+<polygon fill="#000000" stroke="#000000" points="933.9218,-203.9537 923.3379,-204.4353 931.912,-210.659 933.9218,-203.9537"/>
+<text text-anchor="middle" x="2202.6961" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_single_cell_sequencing_file</text>
+</g>
+<!-- single_cell_sequencing_file&#45;&gt;pdx -->
+<g id="edge36" class="edge">
+<title>single_cell_sequencing_file&#45;&gt;pdx</title>
+<path fill="none" stroke="#000000" d="M1793.7904,-355.2135C1741.3869,-348.9742 1685.0792,-340.3146 1661.1961,-330 1651.3191,-325.7343 1652.2613,-318.8008 1642.1961,-315 1572.6589,-288.7414 1382.3322,-302.3657 1308.1961,-297 1252.4175,-292.963 1187.9326,-286.8259 1148.1043,-282.8641"/>
+<polygon fill="#000000" stroke="#000000" points="1148.3403,-279.3704 1138.0415,-281.8572 1147.6433,-286.3356 1148.3403,-279.3704"/>
+<text text-anchor="middle" x="1769.6961" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_single_cell_sequencing_file</text>
+</g>
+<!-- publication -->
+<g id="node13" class="node">
+<title>publication</title>
+<ellipse fill="none" stroke="#000000" cx="1967.1961" cy="-105" rx="63.0888" ry="18"/>
+<text text-anchor="middle" x="1967.1961" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">publication</text>
+</g>
+<!-- publication&#45;&gt;study -->
+<g id="edge32" class="edge">
+<title>publication&#45;&gt;study</title>
+<path fill="none" stroke="#000000" d="M1954.667,-87.101C1950.6596,-81.338 1946.2201,-74.9135 1942.1961,-69 1936.6567,-60.8593 1930.6798,-51.9406 1925.3053,-43.8698"/>
+<polygon fill="#000000" stroke="#000000" points="1928.2082,-41.9143 1919.7591,-35.5219 1922.3777,-45.7881 1928.2082,-41.9143"/>
+<text text-anchor="middle" x="1993.1961" y="-57.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_publication</text>
+</g>
+<!-- follow_up -->
+<g id="node14" class="node">
+<title>follow_up</title>
+<ellipse fill="none" stroke="#000000" cx="1008.1961" cy="-192" rx="55.4913" ry="18"/>
+<text text-anchor="middle" x="1008.1961" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">follow_up</text>
+</g>
+<!-- follow_up&#45;&gt;participant -->
+<g id="edge14" class="edge">
+<title>follow_up&#45;&gt;participant</title>
+<path fill="none" stroke="#000000" d="M1023.9159,-174.5017C1032.7875,-164.644 1044.0888,-152.1157 1054.1961,-141 1057.4474,-137.4244 1060.8868,-133.6563 1064.2695,-129.9587"/>
+<polygon fill="#000000" stroke="#000000" points="1066.8803,-132.2902 1071.0545,-122.5522 1061.7187,-127.5617 1066.8803,-132.2902"/>
+<text text-anchor="middle" x="1099.1961" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_follow_up</text>
+</g>
+<!-- sequencing_file -->
+<g id="node15" class="node">
+<title>sequencing_file</title>
+<ellipse fill="none" stroke="#000000" cx="1330.1961" cy="-366" rx="83.3857" ry="18"/>
+<text text-anchor="middle" x="1330.1961" y="-362.3" font-family="Times,serif" font-size="14.00" fill="#000000">sequencing_file</text>
+</g>
+<!-- sequencing_file&#45;&gt;cell_line -->
+<g id="edge26" class="edge">
+<title>sequencing_file&#45;&gt;cell_line</title>
+<path fill="none" stroke="#000000" d="M1398.6329,-355.602C1426.4941,-349.9987 1458.5746,-341.7548 1486.1961,-330 1497.4256,-325.2211 1497.8386,-319.4659 1509.1961,-315 1557.246,-296.1062 1615.4045,-287.105 1657.9931,-282.8302"/>
+<polygon fill="#000000" stroke="#000000" points="1658.5693,-286.2915 1668.1958,-281.8663 1657.9109,-279.3225 1658.5693,-286.2915"/>
+<text text-anchor="middle" x="1575.6961" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_sequencing_file</text>
+</g>
+<!-- sequencing_file&#45;&gt;sample -->
+<g id="edge28" class="edge">
+<title>sequencing_file&#45;&gt;sample</title>
+<path fill="none" stroke="#000000" d="M1329.3509,-347.9256C1327.9379,-337.1349 1324.4744,-323.8522 1316.1961,-315 1235.8394,-229.0722 1180.4518,-256.0436 1066.1961,-228 1012.9669,-214.9351 997.474,-222.8654 944.1961,-210 940.7867,-209.1767 937.2851,-208.2277 933.7851,-207.2049"/>
+<polygon fill="#000000" stroke="#000000" points="934.5915,-203.7906 924.0035,-204.1698 932.517,-210.4761 934.5915,-203.7906"/>
+<text text-anchor="middle" x="1364.6961" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_sequencing_file</text>
+</g>
+<!-- sequencing_file&#45;&gt;pdx -->
+<g id="edge27" class="edge">
+<title>sequencing_file&#45;&gt;pdx</title>
+<path fill="none" stroke="#000000" d="M1263.7006,-355.1532C1237.8552,-349.5524 1208.4504,-341.4293 1183.1961,-330 1178.1272,-327.706 1155.6764,-311.8657 1136.9947,-298.4391"/>
+<polygon fill="#000000" stroke="#000000" points="1138.9111,-295.5059 1128.7524,-292.4973 1134.8176,-301.1843 1138.9111,-295.5059"/>
+<text text-anchor="middle" x="1249.6961" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_sequencing_file</text>
+</g>
+<!-- pdx&#45;&gt;study -->
+<g id="edge17" class="edge">
+<title>pdx&#45;&gt;study</title>
+<path fill="none" stroke="#000000" d="M1137.532,-274.7686C1163.8012,-270.8081 1204.6404,-264.928 1240.1961,-261 1308.5695,-253.4465 1804.4424,-254.1477 1857.1961,-210 1869.8822,-199.3835 1892.1974,-96.8443 1902.5841,-46.124"/>
+<polygon fill="#000000" stroke="#000000" points="1906.0515,-46.6356 1904.6117,-36.1391 1899.1915,-45.2425 1906.0515,-46.6356"/>
+<text text-anchor="middle" x="1904.1961" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_pdx</text>
+</g>
+<!-- pdx&#45;&gt;sample -->
+<g id="edge18" class="edge">
+<title>pdx&#45;&gt;sample</title>
+<path fill="none" stroke="#000000" d="M1086.3424,-269.5239C1049.4711,-254.8763 978.1549,-226.5453 932.7038,-208.4893"/>
+<polygon fill="#000000" stroke="#000000" points="933.7261,-205.1295 923.1404,-204.6902 931.1417,-211.6349 933.7261,-205.1295"/>
+<text text-anchor="middle" x="1038.1961" y="-231.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_pdx</text>
+</g>
+<!-- study_arm -->
+<g id="node17" class="node">
+<title>study_arm</title>
+<ellipse fill="none" stroke="#000000" cx="2146.1961" cy="-105" rx="59.5901" ry="18"/>
+<text text-anchor="middle" x="2146.1961" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">study_arm</text>
+</g>
+<!-- study_arm&#45;&gt;study -->
+<g id="edge31" class="edge">
+<title>study_arm&#45;&gt;study</title>
+<path fill="none" stroke="#000000" d="M2126.1113,-87.9498C2111.9062,-76.7279 2091.9455,-62.578 2072.1961,-54 2034.1544,-37.4768 1987.7395,-28.2 1954.0098,-23.2187"/>
+<polygon fill="#000000" stroke="#000000" points="1954.3625,-19.7339 1943.9726,-21.8074 1953.3878,-26.6657 1954.3625,-19.7339"/>
+<text text-anchor="middle" x="2145.6961" y="-57.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_study_arm</text>
 </g>
 <!-- medical_history -->
-<g id="node17" class="node">
+<g id="node18" class="node">
 <title>medical_history</title>
-<ellipse fill="none" stroke="#000000" cx="952.7878" cy="-192" rx="85.2851" ry="18"/>
-<text text-anchor="middle" x="952.7878" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">medical_history</text>
+<ellipse fill="none" stroke="#000000" cx="1166.1961" cy="-192" rx="85.2851" ry="18"/>
+<text text-anchor="middle" x="1166.1961" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">medical_history</text>
 </g>
 <!-- medical_history&#45;&gt;participant -->
 <g id="edge33" class="edge">
 <title>medical_history&#45;&gt;participant</title>
-<path fill="none" stroke="#000000" d="M947.745,-173.7971C945.9255,-162.958 945.9463,-149.6696 953.7878,-141 968.7912,-124.4122 1097.3227,-113.9155 1180.9124,-108.7782"/>
-<polygon fill="#000000" stroke="#000000" points="1181.3542,-112.258 1191.1257,-108.1633 1180.9334,-105.2707 1181.3542,-112.258"/>
-<text text-anchor="middle" x="1021.7878" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_medical_history</text>
+<path fill="none" stroke="#000000" d="M1161.3741,-174.0221C1157.8882,-163.5307 1152.3423,-150.5281 1144.1961,-141 1139.4377,-135.4344 1133.6008,-130.439 1127.4968,-126.0675"/>
+<polygon fill="#000000" stroke="#000000" points="1129.3541,-123.0997 1119.0836,-120.4982 1125.4902,-128.9367 1129.3541,-123.0997"/>
+<text text-anchor="middle" x="1222.1961" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_medical_history</text>
+</g>
+<!-- study_funding -->
+<g id="node19" class="node">
+<title>study_funding</title>
+<ellipse fill="none" stroke="#000000" cx="2301.1961" cy="-105" rx="77.1866" ry="18"/>
+<text text-anchor="middle" x="2301.1961" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">study_funding</text>
+</g>
+<!-- study_funding&#45;&gt;study -->
+<g id="edge3" class="edge">
+<title>study_funding&#45;&gt;study</title>
+<path fill="none" stroke="#000000" d="M2273.3979,-88.0228C2253.2482,-76.5316 2224.9521,-62.0319 2198.1961,-54 2153.7105,-40.6458 2024.507,-27.9782 1954.5295,-21.8465"/>
+<polygon fill="#000000" stroke="#000000" points="1954.5053,-18.3313 1944.2403,-20.9546 1953.9007,-25.3052 1954.5053,-18.3313"/>
+<text text-anchor="middle" x="2298.1961" y="-57.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_study_funding</text>
+</g>
+<!-- study_personnel -->
+<g id="node20" class="node">
+<title>study_personnel</title>
+<ellipse fill="none" stroke="#000000" cx="2483.1961" cy="-105" rx="87.1846" ry="18"/>
+<text text-anchor="middle" x="2483.1961" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">study_personnel</text>
+</g>
+<!-- study_personnel&#45;&gt;study -->
+<g id="edge22" class="edge">
+<title>study_personnel&#45;&gt;study</title>
+<path fill="none" stroke="#000000" d="M2451.3576,-87.9663C2427.9413,-76.2905 2394.9666,-61.59 2364.1961,-54 2287.4954,-35.0806 2054.5853,-23.8244 1954.6008,-19.7475"/>
+<polygon fill="#000000" stroke="#000000" points="1954.6304,-16.246 1944.4979,-19.3417 1954.3494,-23.2403 1954.6304,-16.246"/>
+<text text-anchor="middle" x="2476.6961" y="-57.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_study_personnel</text>
 </g>
 <!-- pathology_file -->
-<g id="node18" class="node">
+<g id="node21" class="node">
 <title>pathology_file</title>
-<ellipse fill="none" stroke="#000000" cx="1116.7878" cy="-366" rx="76.0865" ry="18"/>
-<text text-anchor="middle" x="1116.7878" y="-362.3" font-family="Times,serif" font-size="14.00" fill="#000000">pathology_file</text>
+<ellipse fill="none" stroke="#000000" cx="1037.1961" cy="-366" rx="76.0865" ry="18"/>
+<text text-anchor="middle" x="1037.1961" y="-362.3" font-family="Times,serif" font-size="14.00" fill="#000000">pathology_file</text>
 </g>
 <!-- pathology_file&#45;&gt;cell_line -->
-<g id="edge25" class="edge">
+<g id="edge9" class="edge">
 <title>pathology_file&#45;&gt;cell_line</title>
-<path fill="none" stroke="#000000" d="M1040.6518,-365.1374C921.0069,-363.0034 694.7721,-355.6055 618.7878,-330 607.2227,-326.1028 606.6382,-320.5862 595.7878,-315 581.2772,-307.5294 564.8428,-300.6387 549.9196,-294.9288"/>
-<polygon fill="#000000" stroke="#000000" points="550.959,-291.5807 540.3666,-291.3529 548.505,-298.1365 550.959,-291.5807"/>
-<text text-anchor="middle" x="679.7878" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_pathology_file</text>
-</g>
-<!-- pathology_file&#45;&gt;pdx -->
-<g id="edge23" class="edge">
-<title>pathology_file&#45;&gt;pdx</title>
-<path fill="none" stroke="#000000" d="M1129.4747,-347.8195C1138.1694,-336.7063 1150.6585,-323.1133 1164.7878,-315 1195.6408,-297.2837 1208.7601,-307.3872 1242.7878,-297 1247.2326,-295.6432 1251.8593,-294.0732 1256.4004,-292.4371"/>
-<polygon fill="#000000" stroke="#000000" points="1257.9619,-295.5899 1266.1011,-288.8072 1255.5087,-289.0338 1257.9619,-295.5899"/>
-<text text-anchor="middle" x="1225.7878" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_pathology_file</text>
+<path fill="none" stroke="#000000" d="M1110.7594,-361.3465C1168.3898,-356.5769 1250.2442,-347.315 1320.1961,-330 1338.6266,-325.438 1341.7079,-319.3218 1360.1961,-315 1415.2791,-302.1239 1571.8867,-289.3984 1658.2436,-283.0905"/>
+<polygon fill="#000000" stroke="#000000" points="1658.6942,-286.5671 1668.4151,-282.3534 1658.1883,-279.5854 1658.6942,-286.5671"/>
+<text text-anchor="middle" x="1421.1961" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_pathology_file</text>
 </g>
 <!-- pathology_file&#45;&gt;sample -->
-<g id="edge24" class="edge">
-<title>pathology_file&#45;&gt;sample</title>
-<path fill="none" stroke="#000000" d="M1113.1916,-347.8712C1109.6777,-324.2987 1107.767,-283.4903 1130.7878,-261 1205.1454,-188.3559 1494.3024,-232.5152 1595.7878,-210 1599.3661,-209.2061 1603.0406,-208.2554 1606.7051,-207.2114"/>
-<polygon fill="#000000" stroke="#000000" points="1607.7709,-210.5455 1616.3095,-204.2731 1605.723,-203.8517 1607.7709,-210.5455"/>
-<text text-anchor="middle" x="1191.7878" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_pathology_file</text>
-</g>
-<!-- sequencing_file -->
-<g id="node19" class="node">
-<title>sequencing_file</title>
-<ellipse fill="none" stroke="#000000" cx="1293.7878" cy="-366" rx="83.3857" ry="18"/>
-<text text-anchor="middle" x="1293.7878" y="-362.3" font-family="Times,serif" font-size="14.00" fill="#000000">sequencing_file</text>
-</g>
-<!-- sequencing_file&#45;&gt;cell_line -->
-<g id="edge10" class="edge">
-<title>sequencing_file&#45;&gt;cell_line</title>
-<path fill="none" stroke="#000000" d="M1235.1026,-353.1374C1224.08,-351.1147 1212.6173,-349.2744 1201.7878,-348 1105.0399,-336.6146 856.575,-359.6699 763.7878,-330 752.1636,-326.283 752.1908,-319.3485 740.7878,-315 708.9447,-302.8567 620.8461,-291.5167 561.5032,-284.9222"/>
-<polygon fill="#000000" stroke="#000000" points="561.8312,-281.4373 551.5092,-283.8261 561.068,-288.3956 561.8312,-281.4373"/>
-<text text-anchor="middle" x="830.2878" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_sequencing_file</text>
-</g>
-<!-- sequencing_file&#45;&gt;pdx -->
-<g id="edge8" class="edge">
-<title>sequencing_file&#45;&gt;pdx</title>
-<path fill="none" stroke="#000000" d="M1292.959,-347.9735C1292.4173,-336.1918 1291.6986,-320.5607 1291.0824,-307.1581"/>
-<polygon fill="#000000" stroke="#000000" points="1294.5712,-306.832 1290.6155,-297.0034 1287.5786,-307.1536 1294.5712,-306.832"/>
-<text text-anchor="middle" x="1358.2878" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_sequencing_file</text>
-</g>
-<!-- sequencing_file&#45;&gt;sample -->
-<g id="edge9" class="edge">
-<title>sequencing_file&#45;&gt;sample</title>
-<path fill="none" stroke="#000000" d="M1353.0012,-353.3207C1363.8685,-351.3058 1375.1407,-349.4211 1385.7878,-348 1413.2828,-344.3302 1614.8917,-349.3285 1634.7878,-330 1642.5043,-322.5036 1646.2696,-258.2302 1647.8399,-220.0983"/>
-<polygon fill="#000000" stroke="#000000" points="1651.3372,-220.2329 1648.2261,-210.1052 1644.3425,-219.9626 1651.3372,-220.2329"/>
-<text text-anchor="middle" x="1711.2878" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_sequencing_file</text>
-</g>
-<!-- pdx&#45;&gt;study -->
-<g id="edge28" class="edge">
-<title>pdx&#45;&gt;study</title>
-<path fill="none" stroke="#000000" d="M1269.8078,-266.2498C1265.6481,-264.1335 1261.1872,-262.2302 1256.7878,-261 1138.0995,-227.8104 233.9056,-299.1258 148.7878,-210 137.7372,-198.4291 141.4089,-188.1969 148.7878,-174 235.9567,-6.2866 368.2949,-68.0235 556.7878,-54 783.9208,-37.1017 1503.9871,-22.5152 1694.9338,-18.8728"/>
-<polygon fill="#000000" stroke="#000000" points="1695.2576,-22.3674 1705.1893,-18.6781 1695.1246,-15.3687 1695.2576,-22.3674"/>
-<text text-anchor="middle" x="191.7878" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_pdx</text>
-</g>
-<!-- pdx&#45;&gt;sample -->
-<g id="edge27" class="edge">
-<title>pdx&#45;&gt;sample</title>
-<path fill="none" stroke="#000000" d="M1316.6307,-273.9395C1370.1654,-263.6295 1493.8336,-238.7212 1595.7878,-210 1598.968,-209.1041 1602.2383,-208.1287 1605.5187,-207.1107"/>
-<polygon fill="#000000" stroke="#000000" points="1606.8597,-210.3562 1615.3103,-203.9657 1604.719,-203.6915 1606.8597,-210.3562"/>
-<text text-anchor="middle" x="1544.7878" y="-231.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_pdx</text>
-</g>
-<!-- participant&#45;&gt;study -->
-<g id="edge14" class="edge">
-<title>participant&#45;&gt;study</title>
-<path fill="none" stroke="#000000" d="M1306.0502,-95.5239C1403.1776,-78.2435 1607.3494,-41.9185 1697.4517,-25.888"/>
-<polygon fill="#000000" stroke="#000000" points="1698.116,-29.3249 1707.3483,-24.1273 1696.8898,-22.4331 1698.116,-29.3249"/>
-<text text-anchor="middle" x="1576.2878" y="-57.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_participant</text>
-</g>
-<!-- publication -->
-<g id="node23" class="node">
-<title>publication</title>
-<ellipse fill="none" stroke="#000000" cx="2411.7878" cy="-105" rx="63.0888" ry="18"/>
-<text text-anchor="middle" x="2411.7878" y="-101.3" font-family="Times,serif" font-size="14.00" fill="#000000">publication</text>
-</g>
-<!-- publication&#45;&gt;study -->
-<g id="edge26" class="edge">
-<title>publication&#45;&gt;study</title>
-<path fill="none" stroke="#000000" d="M2385.0093,-88.5337C2364.2194,-76.6546 2334.2364,-61.449 2305.7878,-54 2208.4698,-28.5182 1905.1783,-20.7605 1788.3334,-18.6821"/>
-<polygon fill="#000000" stroke="#000000" points="1788.3329,-15.1817 1778.2741,-18.5091 1788.2124,-22.1806 1788.3329,-15.1817"/>
-<text text-anchor="middle" x="2395.7878" y="-57.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_publication</text>
-</g>
-<!-- sample&#45;&gt;participant -->
 <g id="edge7" class="edge">
-<title>sample&#45;&gt;participant</title>
-<path fill="none" stroke="#000000" d="M1638.0064,-174.4798C1629.8582,-162.8925 1617.5668,-148.5016 1602.7878,-141 1555.8289,-117.1644 1413.3524,-109.1056 1325.3282,-106.3842"/>
-<polygon fill="#000000" stroke="#000000" points="1325.2362,-102.8801 1315.1379,-106.0854 1325.031,-109.8771 1325.2362,-102.8801"/>
-<text text-anchor="middle" x="1658.2878" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_sample</text>
+<title>pathology_file&#45;&gt;sample</title>
+<path fill="none" stroke="#000000" d="M963.6712,-360.9737C844.5549,-352.6571 622.0023,-336.3239 616.1961,-330 611.6874,-325.0892 612.57,-320.5942 616.1961,-315 629.7578,-294.0778 775.6974,-236.079 849.2798,-207.8471"/>
+<polygon fill="#000000" stroke="#000000" points="850.6452,-211.0723 858.7348,-204.2305 848.1443,-204.5342 850.6452,-211.0723"/>
+<text text-anchor="middle" x="778.1961" y="-275.3" font-family="Times,serif" font-size="14.00" fill="#000000">of_pathology_file</text>
+</g>
+<!-- pathology_file&#45;&gt;pdx -->
+<g id="edge8" class="edge">
+<title>pathology_file&#45;&gt;pdx</title>
+<path fill="none" stroke="#000000" d="M1033.1559,-347.6878C1031.8925,-337.3337 1032.1425,-324.5837 1038.1961,-315 1046.2439,-302.2594 1060.2859,-293.8648 1073.8447,-288.4153"/>
+<polygon fill="#000000" stroke="#000000" points="1075.3025,-291.6111 1083.5396,-284.9478 1072.945,-285.02 1075.3025,-291.6111"/>
+<text text-anchor="middle" x="1099.1961" y="-318.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_pathology_file</text>
+</g>
+<!-- radiology_file -->
+<g id="node22" class="node">
+<title>radiology_file</title>
+<ellipse fill="none" stroke="#000000" cx="1343.1961" cy="-192" rx="73.387" ry="18"/>
+<text text-anchor="middle" x="1343.1961" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">radiology_file</text>
+</g>
+<!-- radiology_file&#45;&gt;participant -->
+<g id="edge25" class="edge">
+<title>radiology_file&#45;&gt;participant</title>
+<path fill="none" stroke="#000000" d="M1330.7086,-174.0562C1321.8473,-162.7446 1308.9396,-148.8412 1294.1961,-141 1270.6836,-128.4951 1206.6505,-118.5434 1155.9697,-112.3005"/>
+<polygon fill="#000000" stroke="#000000" points="1156.3747,-108.8241 1146.0275,-111.1017 1155.5366,-115.7737 1156.3747,-108.8241"/>
+<text text-anchor="middle" x="1374.1961" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_radiology_file</text>
+</g>
+<!-- molecular_test -->
+<g id="node23" class="node">
+<title>molecular_test</title>
+<ellipse fill="none" stroke="#000000" cx="1514.1961" cy="-192" rx="79.8859" ry="18"/>
+<text text-anchor="middle" x="1514.1961" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">molecular_test</text>
+</g>
+<!-- molecular_test&#45;&gt;participant -->
+<g id="edge21" class="edge">
+<title>molecular_test&#45;&gt;participant</title>
+<path fill="none" stroke="#000000" d="M1493.796,-174.4859C1479.0775,-162.9014 1458.1801,-148.5114 1437.1961,-141 1387.6842,-123.2767 1246.4433,-113.1089 1159.2631,-108.3507"/>
+<polygon fill="#000000" stroke="#000000" points="1159.3437,-104.8501 1149.1709,-107.8108 1158.9697,-111.8401 1159.3437,-104.8501"/>
+<text text-anchor="middle" x="1531.1961" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_molecular_test</text>
+</g>
+<!-- therapeutic_procedure -->
+<g id="node24" class="node">
+<title>therapeutic_procedure</title>
+<ellipse fill="none" stroke="#000000" cx="1730.1961" cy="-192" rx="117.7793" ry="18"/>
+<text text-anchor="middle" x="1730.1961" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000">therapeutic_procedure</text>
+</g>
+<!-- therapeutic_procedure&#45;&gt;participant -->
+<g id="edge29" class="edge">
+<title>therapeutic_procedure&#45;&gt;participant</title>
+<path fill="none" stroke="#000000" d="M1694.6922,-174.8081C1668.8458,-163.1362 1632.6544,-148.5075 1599.1961,-141 1517.5634,-122.6829 1280.216,-111.8681 1159.5094,-107.4048"/>
+<polygon fill="#000000" stroke="#000000" points="1159.3802,-103.8979 1149.2591,-107.0307 1159.1248,-110.8932 1159.3802,-103.8979"/>
+<text text-anchor="middle" x="1741.1961" y="-144.8" font-family="Times,serif" font-size="14.00" fill="#000000">of_therapeutic_procedure</text>
 </g>
 </g>
 </svg>

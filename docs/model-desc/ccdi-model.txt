@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 96112ec
+commit 5cfb48d
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	source	STRING
@@ -584,7 +584,7 @@ diagnosis	tumor_stage_clinical_t	Tis
 diagnosis	tumor_stage_clinical_t	Tis (DCIS)
 diagnosis	tumor_stage_clinical_t	Tis (LCIS)
 diagnosis	tumor_stage_clinical_t	Tis (Paget's)
-exposure	age_at_exposure	NA
+exposure	age_at_exposure	INTEGER
 exposure	alcohol_days_per_week	INTEGER
 exposure	alcohol_drinks_per_day	INTEGER
 exposure	alcohol_history	No
@@ -3675,8 +3675,8 @@ therapeutic_procedure	treatment_type	Targeted Molecular Therapy
 therapeutic_procedure	treatment_type	Unknown
 
 relationship	source_node	destination_node	property	value_or_TYPE
-of_cell_line	cell_line	study	NA	NA
 of_cell_line	cell_line	participant	NA	NA
+of_cell_line	cell_line	study	NA	NA
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_clinical_measure_file_participant	clinical_measure_file	participant	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
@@ -3684,32 +3684,32 @@ of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
 of_follow_up	follow_up	participant	NA	NA
 of_medical_history	medical_history	participant	NA	NA
-of_methylation_array_file	methylation_array_file	cell_line	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
 of_methylation_array_file	methylation_array_file	pdx	NA	NA
+of_methylation_array_file	methylation_array_file	cell_line	NA	NA
 of_molecular_test	molecular_test	participant	NA	NA
 of_participant	participant	study	NA	NA
-of_pathology_file	pathology_file	pdx	NA	NA
 of_pathology_file	pathology_file	sample	NA	NA
+of_pathology_file	pathology_file	pdx	NA	NA
 of_pathology_file	pathology_file	cell_line	NA	NA
-of_pdx	pdx	sample	NA	NA
 of_pdx	pdx	study	NA	NA
+of_pdx	pdx	sample	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
 of_sample	sample	participant	NA	NA
+of_sequencing_file	sequencing_file	cell_line	NA	NA
 of_sequencing_file	sequencing_file	pdx	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
-of_sequencing_file	sequencing_file	cell_line	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	cell_line	NA	NA
-of_single_cell_sequencing_file	single_cell_sequencing_file	pdx	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
+of_single_cell_sequencing_file	single_cell_sequencing_file	pdx	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	sample	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	participant	NA	NA
+of_synonym	synonym	study	NA	NA
+of_synonym	synonym	sample	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
@@ -3739,6 +3739,7 @@ acl	Specifies whether the data in a repository is open access or controlled acce
 adult_or_childhood_study	Specifies whether a study is using adults and/or children as subjects.
 adverse_event	Common Terminology Criteria for Adverse Events Version 4.0 Low Level Term Name
 age_at_diagnosis	Age at the time of diagnosis expressed in number of days since birth.
+age_at_exposure	Age at time of event
 age_at_follow_up	Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact.
 age_at_last_known_disease_status	Age at the time of last known disease status expressed in number of days since birth.
 age_at_molecular_test	The age of an individual when the laboratory test was conducted.

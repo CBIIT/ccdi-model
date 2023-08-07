@@ -201,6 +201,16 @@ PropDefinitions:
     Private: false
     Key: true
   #exposure
+  age_at_exposure:
+    Desc: Age at time of event
+    Term:
+      - Origin: caDSR
+        Code: '5303151'
+        Value: Age at time of event
+    Type: integer
+    Req: true
+    Private: false
+  #exposure
   pack_years_smoked:
     Desc: Numeric computed value to represent lifetime tobacco exposure defined as number of cigarettes smoked per day x number of years smoked divided by 20.
     Term:

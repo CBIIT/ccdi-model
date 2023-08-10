@@ -36,14 +36,16 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C49337'
         Value: Tissue Preparation or Processing Technique
-    Type:
+    Enum:
       - "Embedding"
       - "Fixation"
       - "Formalin-Fixed Paraffin-Embedded"
       - "Fresh Dissociated Tissue Preparation"
+      - "Optimal Cutting Temperature"
       - "Thick Smear Technique"
       - "Thin Smear Technique"
     Req: true
+    Strict: false
     Private: false
   #pathology_file
   staining_method:
@@ -52,10 +54,11 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C23010'
         Value: Staining Method
-    Type: 
+    Enum: 
       - "Hematoxylin and Eosin Staining Method"
       - "Immunohistochemical Staining"
     Req: true
+    Strict: false
     Private: false   
   # radiology_file
   participant_age_at_imaging:     
@@ -74,12 +77,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2475579'
         Value: Removal of text elements that would make data individually identifiable.
-    Type:
+    Enum:
       - "manual"
       - "semiautomatic"
       - "automatic"
       - "Not applicable"
     Req: true
+    Strict: false
     Private: false      
   #medical_history
   medical_history_id: 
@@ -99,7 +103,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6413031'
         Value: Category for Medical History
-    Type:
+    Enum:
       - "Autoimmune Disease"
       - "Cancer"
       - "Congenital Anomaly"
@@ -108,6 +112,7 @@ PropDefinitions:
       - "Not Reported"
       - "Unknown"
     Req: true
+    Strict: false
     Private: false
   #medical_history
   medical_history_condition:
@@ -118,7 +123,7 @@ PropDefinitions:
         Value: Medical History Event Reported Term
     Type:
       value_type: list
-      items:
+      Enum:
         - "13q Syndrome"
         - "Adenomatous Polyposis Coli"
         - "Beckwith-Wiedemann Syndrome"
@@ -182,6 +187,7 @@ PropDefinitions:
         - "Other"
         - "Not Reported"
     Req: true
+    Strict: false
     Private: false
   #exposure
   exposure_id:
@@ -194,6 +200,16 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
+  #exposure
+  age_at_exposure:
+    Desc: Age at time of event
+    Term:
+      - Origin: caDSR
+        Code: '5303151'
+        Value: Age at time of event
+    Type: integer
+    Req: true
+    Private: false
   #exposure
   pack_years_smoked:
     Desc: Numeric computed value to represent lifetime tobacco exposure defined as number of cigarettes smoked per day x number of years smoked divided by 20.
@@ -239,12 +255,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2201918'
         Value: alcohol_history
-    Type:
+    Enum:
       - "Yes"
       - "No"
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   alcohol_intensity:
     Desc: Category to describe the patient's current level of alcohol use as self-reported by the patient.
@@ -252,7 +269,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3457767'
         Value: alcohol_intensity
-    Type:
+    Enum:
       - "Drinker"
       - "Heavy Drinker"
       - "Lifelong Non-Drinker"
@@ -261,6 +278,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   asbestos_exposure:
     Desc: The yes/no/unknown indicator used to describe whether the patient was exposed to asbestos.
@@ -268,12 +286,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: '1253'
         Value: asbestos_exposure
-    Type:
+    Enum:
       - "Yes"
       - "No"
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   cigarettes_per_day:
     Desc: The average number of cigarettes smoked per day.
@@ -290,12 +309,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: 'NA'
         Value: coal_dust_exposure
-    Type:
+    Enum:
       - "Yes"
       - "No"
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   environmental_tobacco_smoke_exposure:
     Desc: The yes/no/unknown indicator used to describe whether a patient was exposed to smoke that is emitted from burning tobacco, including cigarettes, pipes, and cigars. This includes tobacco smoke exhaled by smokers.
@@ -303,12 +323,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: 'NA'
         Value: environmental_tobacco_smoke_exposure
-    Type:
+    Enum:
       - "Yes"
       - "No"
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   radon_exposure:
     Desc: The yes/no/unknown indicator used to describe whether the patient was exposed to radon.
@@ -316,12 +337,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2816352'
         Value: radon_exposure
-    Type:
+    Enum:
       - "Yes"
       - "No"
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   respirable_crystalline_silica_exposure:
     Desc: The yes/no/unknown indicator used to describe whether a patient was exposured to respirable crystalline silica, a widespread, naturally occurring, crystalline metal oxide that consists of different forms including quartz, cristobalite, tridymite, tripoli, ganister, chert and novaculite.
@@ -329,12 +351,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: 'NA'
         Value: respirable_crystalline_silica_exposure
-    Type:
+    Enum:
       - "Yes"
       - "No"
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   smoking_frequency:
     Desc: The text term used to generally decribe how often the patient smokes.
@@ -342,11 +365,12 @@ PropDefinitions:
       - Origin: caDSR
         Code: 'NA'
         Value: smoking_frequency
-    Type:
+    Enum:
       - "Every day"
       - "Some days"
       - "Unknown"
     Req: false
+    Strict: true
     Private: false
   time_between_waking_and_first_smoke:
     Desc: The text term used to describe the approximate amount of time elapsed between the time the patient wakes up in the morning to the time they smoke their first cigarette.
@@ -361,6 +385,7 @@ PropDefinitions:
       - "After 60 Minutes"
       - "Unknown"
     Req: false
+    Strict: true
     Private: false
   tobacco_smoking_onset_year:
     Desc: The year in which the participant began smoking.
@@ -396,6 +421,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   type_of_smoke_exposure:
     Desc: The text term used to describe the patient's specific type of smoke exposure.
@@ -403,9 +429,9 @@ PropDefinitions:
       - Origin: caDSR
         Code: 'NA'
         Value: type_of_smoke_exposure
-    Type: 
+    Type:
       value_type: list
-      items:
+      Enum:
         - "Accidental building fire smoke"
         - "Accidental fire smoke, grass"
         - "Accidental fire smoke, NOS"
@@ -456,6 +482,7 @@ PropDefinitions:
         - "Work-related smoke, plumbing"
         - "Work-related smoke, soldering/welding"
     Req: false
+    Strict: true
     Private: false
   type_of_tobacco_used:
     Desc: The text term used to describe the specific type of tobacco used by the patient.
@@ -463,9 +490,9 @@ PropDefinitions:
       - Origin: caDSR
         Code: 'NA'
         Value: type_of_tobacco_used
-    Type: 
+    Type:
       value_type: list
-      items:
+      Enum:
         - "Cigarettes"
         - "Cigar"
         - "Electronic Cigarette"
@@ -473,6 +500,7 @@ PropDefinitions:
         - "Pipe"
         - "Smokeless Tobacco"
     Req: false
+    Strict: true
     Private: false
   #molecular_test
   molecular_test_id:
@@ -485,14 +513,14 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  age_at_exposure:
-    Desc: Number of days from the date of birth (index date) to the date of an event (test, test result).
+  age_at_molecular_test:
+    Desc:  The age of an individual when the laboratory test was conducted.
     Term:
-      - Origin: caDSR
-        Code: '6341137'
-        Value: Exposure Start Date
+      - Origin: NCIt
+        Code: 'C192254'
+        Value: Age at Laboratory Test
     Type: integer
-    Req: false
+    Req: true
     Private: false
   gene_symbol:
     Desc: The text term used to describe a gene targeted or included in molecular analysis. For rearrangements, this is shold be used to represent the reference gene.
@@ -509,7 +537,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142401'
         Value: molecular_analysis_method
-    Type:
+    Enum:
       - "Comparative Genomic Hybridization"
       - "Cytogenetics, NOS"
       - "FISH"
@@ -532,6 +560,7 @@ PropDefinitions:
       - "Not Reported"
       - "Not Applicable"
     Req: false
+    Strict: false
     Private: false
   test_result:
     Desc: The text term used to describe the result of the molecular test. If the test result was a numeric value see test_value.
@@ -539,7 +568,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142397'
         Value: test_result
-    Type:
+    Enum:
       - "Absolute Neutrophil"
       - "Albumin"
       - "Alpha Fetoprotein"
@@ -582,6 +611,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: false
     Private: false
   aa_change:
     Desc: Alphanumeric value used to describe the amino acid change for a specific genetic variant. Example R116Q.
@@ -598,7 +628,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142523'
         Value: antigen
-    Type:
+    Enum:
       - "BCL6"
       - "CA-125"
       - "CA19-9"
@@ -630,6 +660,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: false
     Private: false
   biospecimen_type:
     Desc: The text term used to describe the biological material used for testing, diagnostic, treatment or research purposes.
@@ -637,7 +668,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6606188'
         Value: biospecimen_type
-    Type:
+    Enum:
       - "Blood"
       - "Bone Marrow"
       - "Buccal Mucosa"
@@ -662,6 +693,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: false
     Private: false
   blood_test_normal_range_upper:
     Desc: Numeric value used to describe the upper limit of the normal range used to describe a healthy individual at the institution where the test was completed.
@@ -726,6 +758,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   copy_number:
     Desc: Numeric value used to describe the number of times a section of the genome is repeated or copied within an insertion, duplication or deletion variant.
@@ -769,6 +802,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   histone_variant:
     Desc: The text term used to describe a specific histone variants, which are proteins that substitute for the core canonical histones.
@@ -794,6 +828,9 @@ PropDefinitions:
       - "mH2A"
       - "mH2A.1"
       - "mH2A.2"
+    Req: false
+    Strict: true
+    Private: false
   #follow_up
   follow_up_id:
     Desc: A unique sequence of alphanumeric characters used to identify the follow up event.
@@ -803,11 +840,11 @@ PropDefinitions:
         Value: Additional Finding Identifier
     Type: string
     Req: true
-    Private: false  
+    Private: false
     Key: true
   #follow_up
   age_at_follow_up:
-    Desc: Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact.
+    Desc: "Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact."
     Term:
       - Origin: caDSR
         Code: '6154727'
@@ -817,18 +854,21 @@ PropDefinitions:
     Private: false
   #follow_up
   follow_up_category:
-    Desc: NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends.
+    Desc: "NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends."
     Term:
       - Origin: caDSR
         Code: '3119787'
         Value: Patient Follow-up Type
-    Enum:
-      - adverse_event
-      - comorbidity
-      - disease_response
-      - risk_factor
-      - other
-    Req: true
+    Type:
+      value_type: list
+      Enum:
+        - "adverse_event"
+        - "comorbidity"
+        - "disease_response"
+        - "risk_factor"
+        - "other"
+    Req: false
+    Strict: false
     Private: false
   #follow_up
   adverse_event:
@@ -1629,6 +1669,7 @@ PropDefinitions:
       - "Wound Infection"
       - "Wrist Fracture"
     Req: false
+    Strict: false
     Private: false
   #follow_up
   comorbidity:
@@ -1782,6 +1823,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: false
     Private: false          
   #follow_up
   comorbidity_method_of_diagnosis:
@@ -1797,6 +1839,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: false
     Private: false
   #molecular_test
   intron:
@@ -1815,7 +1858,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: 'NA'
         Value: laboratory_test
-    Type:
+    Enum:
       - "Absolute Neutrophil"
       - "Albumin"
       - "Alpha Fetoprotein"
@@ -1858,6 +1901,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: false
     Private: false
   #molecular_test
   loci_abnormal_count:
@@ -1971,6 +2015,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   #molecular_test
   second_exon:
@@ -2010,14 +2055,15 @@ PropDefinitions:
         Code: '6142394'
         Value: test_analyte_type
     Enum:
-      - DNA
-      - mRNA
-      - miRNA
-      - Protein
-      - Total RNA
-      - Unknown
+      - "DNA"
+      - "mRNA"
+      - "miRNA"
+      - "Protein"
+      - "Total RNA"
+      - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   #molecular_test
   test_units:
@@ -2057,10 +2103,11 @@ PropDefinitions:
         Code: 'NA'
         Value: variant_origin
     Enum:
-      - Germline
-      - Somatic
-      - Unknown
+      - "Germline"
+      - "Somatic"
+      - "Unknown"
     Req: false
+    Strict: true
     Private: false
   #molecular_test
   variant_type:
@@ -2069,7 +2116,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142402'
         Value: variant_type
-    Type:
+    Enum:
       - "Alleles"
       - "Amplification"
       - "Chrimerism"
@@ -2095,6 +2142,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: false
     Private: false
   #molecular_test
   zygosity:
@@ -2104,13 +2152,14 @@ PropDefinitions:
         Code: '6142510'
         Value: zygosity
     Enum:
-      - Heterozygous
-      - Hemizygous
-      - Homozygous
-      - Nullizygous
-      - Unknown
+      - "Heterozygous"
+      - "Hemizygous"
+      - "Homozygous"
+      - "Nullizygous"
+      - "Unknown"
       - "Not Reported"
     Req: false
+    Strict: true
     Private: false
   #follow_up
   risk_factor:
@@ -2119,9 +2168,9 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142389'
         Value: Risk Factor 
-    Type: 
+    Type:
       value_type: list
-      items:
+      Enum:
         - "Alcohol Consumption"
         - "Alcoholic Liver Disease"
         - "Allergy, Animal, NOS"
@@ -2215,29 +2264,31 @@ PropDefinitions:
         - "Wagr Syndrome"
         - "Unknown"
         - "Not Reported"
-      Req: false
-      Private: false  
-    #follow_up
-    follow_up_other:
-      Desc: NCI-GLOSS Definition  Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends
-      Term: 
-        - Origin: caDSR
-          Code: '3119787'
-          Value: Follow Up
-      Enum:
-        - "barretts_esophagus_goblet_cells_present"
-        - "bmi"
-        - "cause_of_response"
-        - "diabetes_treatment_type"
-        - "dlco_ref_predictive_percent"
-        - "ecog_performance_status"
-        - "fev1_fvc_post_bronch_percent"
-        - "fev1_fvc_pre_bronch_percent"
-        - "fev1_ref_post_bronch_percent"
-        - "fev1_ref_pre_bronch_percent"
-        - "height"
-        - "hepatitis_sustained_virological_response"    
     Req: false
+    Strict: false
+    Private: false  
+  #follow_up
+  follow_up_other:
+    Desc: NCI-GLOSS Definition  Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends
+    Term: 
+      - Origin: caDSR
+        Code: '3119787'
+        Value: Follow Up
+    Enum:
+      - "barretts_esophagus_goblet_cells_present"
+      - "bmi"
+      - "cause_of_response"
+      - "diabetes_treatment_type"
+      - "dlco_ref_predictive_percent"
+      - "ecog_performance_status"
+      - "fev1_fvc_post_bronch_percent"
+      - "fev1_fvc_pre_bronch_percent"
+      - "fev1_ref_post_bronch_percent"
+      - "fev1_ref_pre_bronch_percent"
+      - "height"
+      - "hepatitis_sustained_virological_response"    
+    Req: false
+    Strict: false
     Private: false  
   #single_cell_sequencing_file
   single_cell_sequencing_file_id: 
@@ -2506,13 +2557,14 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2690165'
         Value: Family Member Relationship Type
-    Type:
+    Enum:
       - "Mother"
       - "Father"
       - "Sibling"
       - "Other"
       - "None at all"
     Req: true
+    Strict: false
     Private: false
   family_id:
     Desc: Identifer of a family of a group of participants.
@@ -2554,12 +2606,13 @@ PropDefinitions:
       - Origin: 'EMBL OLS OBI'
         Code: 'OBI_0000426'
         Value: Process which aims at introducing a compound or a mixture into a material entity (either biological entity or instrument) by relying on devices such as syringe or injector connection, attached or forced into a vascular system (veins of an organism or tubes of a machine) or in a tissue
-    Type:
+    Enum:
       - 'injection'
       - 'trocar'
       - 'surgical'
       - 'orthotopic'
     Req: true
+    Strict: false
     Private: false
   #pdx  
   implantation_site:
@@ -2568,15 +2621,19 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12299653'
         Value: Specimen Original Anatomic Site Uberon Name
-    Type:
-      - 'tail vein'
-      - 'subcutaneous'
-      - 'renal capsule'
-      - 'subrenal capsule'
-      - 'muscle'
-      - 'mammary fat pad'
+    Enum:
+      - 'brain stem'
       - 'intra peritoneal cavity'
+      - 'left cerebrum'
+      - 'mammary fat pad'
+      - 'muscle'
+      - 'renal capsule'
+      - 'right cerebrum'
+      - 'subcutaneous'
+      - 'subrenal capsule'
+      - 'tail vein'
     Req: true
+    Strict: false
     Private: false
   #pdx  
   mouse_strain:  
@@ -2599,6 +2656,7 @@ PropDefinitions:
       - "Yes"
       - "No"
     Req: true
+    Strict: false
     Private: false
   #pdx  
   type_of_humanization:
@@ -2731,9 +2789,9 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11326261'
         Value: Specimen Tumor Tissue ICD-O-3 Morphology Code
-    Type: 
+    Type:
       value_type: list
-      items:
+      Enum:
         - "8000/0 : Neoplasm, benign"
         - "8000/1 : Neoplasm, uncertain whether benign or malignant"
         - "8000/3 : Neoplasm, malignant"
@@ -3886,6 +3944,7 @@ PropDefinitions:
         - "9989/3 : Myelodysplastic syndrome, NOS"
         - "999 : Unknown, to be completed later"
     Req: true
+    Strict: true
     Private: false    
   #diagnosis, sample
   diagnosis_finer_resolution:
@@ -3920,6 +3979,7 @@ PropDefinitions:
       - "Unknown"
       - "Unspecified"
     Req: true
+    Strict: true
     Private: false
   #diagnosis, sample
   toronto_childhood_cancer_staging:
@@ -4003,6 +4063,7 @@ PropDefinitions:
       - "Testicular germ cell tumor Stage IIIC"
       - "Testicular germ cell tumor Stage IS"
     Req: false
+    Strict: true
     Private: false
   #diagnosis
   age_at_recurrence:
@@ -4033,6 +4094,7 @@ PropDefinitions:
       - "Unknown tumor status"
       - "With tumor"
     Req: false
+    Strict: true
     Private: false     
   #diagnosis, sample
   age_at_last_known_disease_status:
@@ -4070,7 +4132,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '7797710' #caDSR PVs are csv, bam, fastq, txt
         Value: Raw Data File Format
-    Type:
+    Enum:
       - "bam"
       - "bam_index"
       - "bai"
@@ -4122,6 +4184,7 @@ PropDefinitions:
       - "xlsx"
       - "xml"
     Req: true
+    Strict: false
     Private: false
   #sequencing_file, imaging_file, clinical_measure_file
   file_description:
@@ -4139,7 +4202,7 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C171276'
         Value: MD5 Checksum 
-    Type: number
+    Type: integer
     Req: true
     Private: false
   #sequencing_file, imaging_file, clinical_measure_file
@@ -4192,10 +4255,11 @@ PropDefinitions:
   file_mapping_level:
     Desc: Describes if the file belongs to a Participant, a Sample, or a Study.
     Enum:
-      - Participiant
-      - Sample
-      - Study
+      - "Participiant"
+      - "Sample"
+      - "Study"
     Req: false
+    Strict: true
     Private: false    
   # pathology_file
   pathology_file_id: 
@@ -4226,12 +4290,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3794749'
         Value: Image Modality Type
-    Type: 
+    Enum:
       - "CT"
       - "MRI"
       - "PET"
       - "X-ray"
     Req: true
+    Strict: false
     Private: false
   # participant
   participant_id:
@@ -4261,9 +4326,9 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2192199'
         Value: Race Category Text
-    Type: 
+    Type:
       value_type: list
-      items:
+      Enum:
         - "American Indian or Alaska Native"
         - "Asian"
         - "Black or African American"
@@ -4273,6 +4338,7 @@ PropDefinitions:
         - "Unknown"
         - "White"
     Req: true
+    Strict: false
     Private: false
   #participant
   gender:
@@ -4281,7 +4347,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2200604'
         Value: Person Gender Text Type
-    Type:
+    Enum:
       - "Female"
       - "Female Gender"
       - "Intersex"
@@ -4292,6 +4358,7 @@ PropDefinitions:
       - "Unknown"
       - "Unspecified" 
     Req: true
+    Strict: false
     Private: false
   #participant
   ethnicity:
@@ -4300,15 +4367,16 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2192217'
         Value: Ethnic Group Category Text
-    Type: 
+    Type:
       value_type: list
-      items:
+      Enum:
         - "Hispanic or Latino"
         - "Not allowed to collect"
         - "Not Hispanic or Latino"
         - "Not reported"
         - "Unknown" 
     Req: true
+    Strict: false
     Private: false
   #study
   consent:
@@ -4354,9 +4422,363 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11341616'
         Value: Disease Primary Anatomic Site ICD-O-3 Code
-    Type: string
- 
+    Type:
+      value_type: list
+      Enum:
+        - "Abdomen, NOS"
+        - "Abdominal esophagus"
+        - "Accessory sinus, NOS"
+        - "Acoustic nerve"
+        - "Adrenal gland, NOS"
+        - "Ampulla of Vater"
+        - "Anal canal"
+        - "Anterior 2/3 of tongue, NOS"
+        - "Anterior floor of mouth"
+        - "Anterior mediastinum"
+        - "Anterior surface of epiglottis"
+        - "Anterior wall of bladder"
+        - "Anterior wall of nasopharynx"
+        - "Anus, NOS"
+        - "Aortic body and other paraganglia"
+        - "Appendix"
+        - "Ascending colon"
+        - "Autonomic nervous system, NOS"
+        - "Axillary tail of breast"
+        - "Base of tongue, NOS"
+        - "Biliary tract, NOS"
+        - "Bladder neck"
+        - "Bladder, NOS"
+        - "Blood"
+        - "Body of pancreas"
+        - "Body of penis"
+        - "Body of stomach"
+        - "Bone marrow"
+        - "Bone of limb, NOS"
+        - "Bone, NOS"
+        - "BONES, JOINTS AND ARTICULAR CARTILAGE OF OTHER AND UNSPECIFIED SITES"
+        - "Bones of skull and face and associated joints"
+        - "Border of tongue"
+        - "Brain stem"
+        - "Brain, NOS"
+        - "Branchial cleft"
+        - "Breast, NOS"
+        - "Broad ligament"
+        - "Buccal mucosa"
+        - "Cardia, NOS"
+        - "Carotid body"
+        - "Cauda equina"
+        - "Cecum"
+        - "Central nervous system"
+        - "Central portion of breast"
+        - "Cerebellum, NOS"
+        - "Cerebral meninges"
+        - "Cerebrospinal fluid"
+        - "Cerebrum"
+        - "Cervical esophagus"
+        - "Cervix uteri"
+        - "Cheek mucosa"
+        - "Chest wall, NOS"
+        - "Choroid"
+        - "Ciliary body"
+        - "Clitoris"
+        - "Cloacogenic zone"
+        - "Colon, NOS"
+        - "Commissure of lip"
+        - "Conjunctiva"
+        - "Connective, subcutaneous and other soft tissues of abdomen"
+        - "Connective, subcutaneous and other soft tissues of head, face, and neck"
+        - "Connective, subcutaneous and other soft tissues of lower limb and hip"
+        - "Connective, subcutaneous and other soft tissues of pelvis"
+        - "Connective, subcutaneous and other soft tissues of thorax"
+        - "Connective, subcutaneous and other soft tissues of trunk, NOS"
+        - "Connective, subcutaneous and other soft tissues of upper limb and shoulder"
+        - "Connective, subcutaneous and other soft tissues, NOS"
+        - "Cornea, NOS"
+        - "Corpus uteri"
+        - "Cortex of adrenal gland"
+        - "Cranial fossa, NOS"
+        - "Cranial nerve, NOS"
+        - "Craniopharyngeal duct"
+        - "Descended testis"
+        - "Descending colon"
+        - "Dome of bladder"
+        - "Dorsal surface of tongue, NOS"
+        - "Duodenum"
+        - "Endocervix"
+        - "Endocrine gland, NOS"
+        - "Endometrium"
+        - "Epididymis"
+        - "Esophagus, NOS"
+        - "Ethmoid sinus"
+        - "Exocervix"
+        - "External ear"
+        - "External lip, NOS"
+        - "External lower lip"
+        - "External upper lip"
+        - "Extrahepatic bile duct"
+        - "Eye, NOS"
+        - "Eyelid"
+        - "Fallopian tube"
+        - "Female genital tract, NOS"
+        - "Floor of mouth, NOS"
+        - "Foot, NOS"
+        - "Frontal lobe"
+        - "Frontal sinus"
+        - "Fundus of stomach"
+        - "Fundus uteri"
+        - "Gallbladder"
+        - "Gastric antrum"
+        - "Gastrointestinal tract, NOS"
+        - "Glans penis"
+        - "Glottis"
+        - "Greater curvature of stomach, NOS"
+        - "Gum, NOS"
+        - "Hand, NOS"
+        - "Hard palate"
+        - "Head of pancreas"
+        - "Head, face or neck, NOS"
+        - "Heart"
+        - "HEART, MEDIASTINUM, AND PLEURA"
+        - "HEMATOPOIETIC AND RETICULOENDOTHELIAL SYSTEMS"
+        - "Hematopoietic system, NOS"
+        - "Hepatic flexure of colon"
+        - "Hypopharyngeal aspect of aryepiglottic fold"
+        - "Hypopharynx, NOS"
+        - "Ileum"
+        - "Ill-defined sites within respiratory system"
+        - "Intestinal tract, NOS"
+        - "Intra-abdominal lymph nodes"
+        - "Intrahepatic bile duct"
+        - "Intrathoracic lymph nodes"
+        - "Islets of Langerhans"
+        - "Isthmus uteri"
+        - "Jejunum"
+        - "Kidney, NOS"
+        - "Labium majus"
+        - "Labium minus"
+        - "Lacrimal gland"
+        - "Laryngeal cartilage"
+        - "Laryngeal commissure"
+        - "Larynx, NOS"
+        - "Lateral floor of mouth"
+        - "Lateral wall of bladder"
+        - "Lateral wall of nasopharynx"
+        - "Lateral wall of oropharynx"
+        - "Lesser curvature of stomach, NOS"
+        - "Lingual tonsil"
+        - "Lip, NOS"
+        - "Liver"
+        - "LIVER AND INTRAHEPATIC BILE DUCTS"
+        - "Long bones of lower limb and associated joints"
+        - "Long bones of upper limb, scapula and associated joints"
+        - "Lower gum"
+        - "Lower limb, NOS"
+        - "Lower lobe, lung"
+        - "Lower third of esophagus"
+        - "Lower-inner quadrant of breast"
+        - "Lower-outer quadrant of breast"
+        - "Lung, NOS"
+        - "Lymph node, NOS"
+        - "Lymph nodes of axilla or arm"
+        - "Lymph nodes of head, face and neck"
+        - "Lymph nodes of inguinal region or leg"
+        - "Lymph nodes of multiple regions"
+        - "Main bronchus"
+        - "Major salivary gland, NOS"
+        - "Male genital organs, NOS"
+        - "Mandible"
+        - "Maxillary sinus"
+        - "Meckel diverticulum"
+        - "Mediastinum, NOS"
+        - "Medulla of adrenal gland"
+        - "Meninges, NOS"
+        - "Middle ear"
+        - "Middle lobe, lung"
+        - "Middle third of esophagus"
+        - "Mouth, NOS"
+        - "Mucosa of lip, NOS"
+        - "Mucosa of lower lip"
+        - "Mucosa of upper lip"
+        - "Myometrium"
+        - "Nasal cavity"
+        - "NASAL CAVITY AND MIDDLE EAR"
+        - "Nasopharynx, NOS"
+        - "Nervous system, NOS"
+        - "Nipple"
+        - "Not Reported"
+        - "Occipital lobe"
+        - "Olfactory nerve"
+        - "Optic nerve"
+        - "Orbit, NOS"
+        - "Oropharynx, NOS"
+        - "Other ill-defined sites"
+        - "Other specified parts of female genital organs"
+        - "Other specified parts of male genital organs"
+        - "Other specified parts of pancreas"
+        - "Ovary"
+        - "Overlapping lesion of accessory sinuses"
+        - "Overlapping lesion of biliary tract"
+        - "Overlapping lesion of bladder"
+        - "Overlapping lesion of bones, joints and articular cartilage"
+        - "Overlapping lesion of bones, joints and articular cartilage of limbs"
+        - "Overlapping lesion of brain"
+        - "Overlapping lesion of brain and central nervous system"
+        - "Overlapping lesion of breast"
+        - "Overlapping lesion of cervix uteri"
+        - "Overlapping lesion of colon"
+        - "Overlapping lesion of connective, subcutaneous and other soft tissues"
+        - "Overlapping lesion of corpus uteri"
+        - "Overlapping lesion of digestive system"
+        - "Overlapping lesion of endocrine glands and related structures"
+        - "Overlapping lesion of esophagus"
+        - "Overlapping lesion of eye and adnexa"
+        - "Overlapping lesion of female genital organs"
+        - "Overlapping lesion of floor of mouth"
+        - "Overlapping lesion of heart, mediastinum and pleura"
+        - "Overlapping lesion of hypopharynx"
+        - "Overlapping lesion of ill-defined sites"
+        - "Overlapping lesion of larynx"
+        - "Overlapping lesion of lip"
+        - "Overlapping lesion of lip, oral cavity and pharynx"
+        - "Overlapping lesion of lung"
+        - "Overlapping lesion of major salivary glands"
+        - "Overlapping lesion of male genital organs"
+        - "Overlapping lesion of nasopharynx"
+        - "Overlapping lesion of other and unspecified parts of mouth"
+        - "Overlapping lesion of palate"
+        - "Overlapping lesion of pancreas"
+        - "Overlapping lesion of penis"
+        - "Overlapping lesion of peripheral nerves and autonomic nervous system"
+        - "Overlapping lesion of rectum, anus and anal canal"
+        - "Overlapping lesion of respiratory system and intrathoracic organs"
+        - "Overlapping lesion of retroperitoneum and peritoneum"
+        - "Overlapping lesion of skin"
+        - "Overlapping lesion of small intestine"
+        - "Overlapping lesion of stomach"
+        - "Overlapping lesion of tongue"
+        - "Overlapping lesion of tonsil"
+        - "Overlapping lesion of urinary organs"
+        - "Overlapping lesion of vulva"
+        - "Overlapping lesions of oropharynx"
+        - "Palate, NOS"
+        - "Pancreas, NOS"
+        - "Pancreatic duct"
+        - "Parametrium"
+        - "Parathyroid gland"
+        - "Paraurethral gland"
+        - "Parietal lobe"
+        - "Parotid gland"
+        - "Pelvic bones, sacrum, coccyx and associated joints"
+        - "Pelvic lymph nodes"
+        - "Pelvis, NOS"
+        - "Penis, NOS"
+        - "Perineum, NOS"
+        - "Peripheral nerves and autonomic nervous system of abdomen"
+        - "Peripheral nerves and autonomic nervous system of head, face, and neck"
+        - "Peripheral nerves and autonomic nervous system of lower limb and hip"
+        - "Peripheral nerves and autonomic nervous system of pelvis"
+        - "Peripheral nerves and autonomic nervous system of thorax"
+        - "Peripheral nerves and autonomic nervous system of trunk, NOS"
+        - "Peripheral nerves and autonomic nervous system of upper limb and shoulder"
+        - "Peritoneum, NOS"
+        - "Pharynx, NOS"
+        - "Pineal gland"
+        - "Pituitary gland"
+        - "Placenta"
+        - "Pleura, NOS"
+        - "Postcricoid region"
+        - "Posterior cranial fossa"
+        - "Posterior mediastinum"
+        - "Posterior wall of bladder"
+        - "Posterior wall of hypopharynx"
+        - "Posterior wall of nasopharynx"
+        - "Posterior wall of oropharynx"
+        - "Prepuce"
+        - "Prostate gland"
+        - "Pylorus"
+        - "Pyriform sinus"
+        - "Rectosigmoid junction"
+        - "Rectum, NOS"
+        - "Renal pelvis"
+        - "Reticuloendothelial system, NOS"
+        - "Retina"
+        - "Retromolar area"
+        - "Retroperitoneum"
+        - "Rib, sternum, clavicle and associated joints"
+        - "Round ligament"
+        - "Saliva"
+        - "Scrotum, NOS"
+        - "Short bones of lower limb and associated joints"
+        - "Short bones of upper limb and associated joints"
+        - "Sigmoid colon"
+        - "Skin of lip, NOS"
+        - "Skin of lower limb and hip"
+        - "Skin of other and unspecified parts of face"
+        - "Skin of scalp and neck"
+        - "Skin of trunk"
+        - "Skin of upper limb and shoulder"
+        - "Skin, NOS"
+        - "Small intestine, NOS"
+        - "Soft palate, NOS"
+        - "Specified parts of peritoneum"
+        - "Spermatic cord"
+        - "Sphenoid sinus"
+        - "Spinal cord"
+        - "SPINAL CORD, CRANIAL NERVES, AND OTHER PARTS OF CENTRAL NERVOUS SYSTEM"
+        - "Spinal meninges"
+        - "Spleen"
+        - "Splenic flexure of colon"
+        - "Stomach, NOS"
+        - "Subglottis"
+        - "Sublingual gland"
+        - "Submandibular gland"
+        - "Superior wall of nasopharynx"
+        - "Supraglottis"
+        - "Tail of pancreas"
+        - "Temporal lobe"
+        - "Testis, NOS"
+        - "Thigh, NOS"
+        - "Thoracic esophagus"
+        - "Thorax, NOS"
+        - "Thymus"
+        - "Thyroid gland"
+        - "Tibia"
+        - "Tongue, NOS"
+        - "Tonsil, NOS"
+        - "Tonsillar fossa"
+        - "Tonsillar pillar"
+        - "Trachea"
+        - "Transverse colon"
+        - "Trigone of bladder"
+        - "Undescended testis"
+        - "Unknown"
+        - "Unknown primary site"
+        - "Upper Gum"
+        - "Upper limb, NOS"
+        - "Upper lobe, lung"
+        - "Upper respiratory tract, NOS"
+        - "Upper third of esophagus"
+        - "Upper-inner quadrant of breast"
+        - "Upper-outer quadrant of breast"
+        - "Urachus"
+        - "Ureter"
+        - "Ureteric orifice"
+        - "Urethra"
+        - "Urinary system, NOS"
+        - "Uterine adnexa"
+        - "Uterus, NOS"
+        - "Uvula"
+        - "Vagina, NOS"
+        - "Vallecula"
+        - "Ventral surface of tongue, NOS"
+        - "Ventricle, NOS"
+        - "Vertebral column"
+        - "Vestibule of mouth"
+        - "Vulva, NOS"
+        - "Waldeyer ring"
+        - "Invalid value"
     Req: true
+    Strict: false
     Private: false
   # sample
   participant_age_at_collection:     
@@ -4366,7 +4788,7 @@ PropDefinitions:
         Code: '2731348'
         Value: Biospecimen Collection Study Subject Age
     Type: integer
-    Req: false  
+    Req: true  
     Private: false
   # sample
   tumor_grade:
@@ -4387,6 +4809,7 @@ PropDefinitions:
       - "Low Grade"
       - "Not Applicable"
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
+    Strict: false
     Private: false
   # sample
   tumor_stage_clinical_t: 
@@ -4432,6 +4855,7 @@ PropDefinitions:
       - "Tis (Paget's)"
       - "TX"
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
+    Strict: false
     Private: false
   # sample
   tumor_stage_clinical_n:
@@ -4466,6 +4890,7 @@ PropDefinitions:
       - "N4"
       - "NX"
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
+    Strict: false
     Private: false
   # sample
   tumor_stage_clinical_m:
@@ -4483,6 +4908,7 @@ PropDefinitions:
       - "M1c"
       - "MX"
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
+    Strict: false
     Private: false
 # tumor_morphology: CCDIDC-360
   #diagnosis
@@ -4492,7 +4918,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12217251'
         Value: Disease Phase Timepoint Category
-    Type:
+    Enum:
       - 'Initial Diagnosis'
       - 'Disease Progression'
       - 'Refractory'
@@ -4502,7 +4928,8 @@ PropDefinitions:
       - 'Post-treatment'
       - 'Unknown'
       - 'Not Reported'
-    Req: true  
+    Req: true
+    Strict: false
     Private: false
   #diagnosis
   tumor_classification:
@@ -4511,14 +4938,15 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12922545'
         Value: Tumor Classification Type
-    Type:
+    Enum:
       - 'Primary'
       - 'Regional'
       - 'Metastatic'
       - 'Unknown'
       - 'Not Reported'
       - 'Not Applicable'
-    Req: true  
+    Req: true
+    Strict: false
     Private: false
 #  tumor_incidence_type: # primary, metastatic, recurrence, progression
 #    Desc: The tumor type of the sample.
@@ -4583,7 +5011,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '5432687'
         Value: Tissue Sample Description Category
-    Type:
+    Enum:
       - 'Abnormal'
       - 'Non-neoplastic'
       - 'Normal'
@@ -4593,7 +5021,8 @@ PropDefinitions:
       - 'Unknown'
       - 'Unspecified'
     Req: true
-    Private: false      
+    Strict: false
+    Private: false
   # sequencing_file props
   sequencing_file_id: 
     Desc: A unique identifier for a sequencing file.
@@ -4664,6 +5093,7 @@ PropDefinitions:
       - "WGS"
       - "WXS"
     Req: true
+    Strict: true
     Private: false
   #sequencing_file
   platform:
@@ -4687,7 +5117,8 @@ PropDefinitions:
       - "Oxford Nanopore"
       - "PacBio SMRT"
     Req: true
-    Private: false    
+    Strict: true
+    Private: false
   #sequencing_file
   instrument_model:
     Desc: The words used to describe the specific model of the instrument used to carry out a high-throughput sequencing experiment.
@@ -4749,7 +5180,8 @@ PropDefinitions:
       - "PromethION"
       - "Unknown"
     Req: true
-    Private: false    
+    Strict: true
+    Private: false
   #sequencing_file
   library_layout: 
     Desc: Paired-end or Single
@@ -4762,6 +5194,7 @@ PropDefinitions:
       - "Single end" #28feb22 pdunn
       - "Not Applicable"  # 02/10/2022 adeforge, added this just to get past the loading error to see what happens next, will remove
     Req: true
+    Strict: true
     Private: false
   #sequencing_file
   library_source: # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
@@ -4793,11 +5226,12 @@ PropDefinitions:
       - "Viral" #values from first DD version 08/18/2022
       - "Not Applicable"  # 02/10/2022 adeforge, added this just to get past the loading error to see what happens next, will remove
     Req: true
+    Strict: true
     Private: false
   #sequencing_file
   number_of_bp:
     Desc: Count of unique basecalls present in the data. Please count each base only once if using secondary alignments.
-    Type: number
+    Type: integer
     Req: false
     Private: false
   #sequencing_file
@@ -4908,7 +5342,8 @@ PropDefinitions:
       - "Size fractionation"
       - "Unspecified"
     Req: true
-    Private: false    
+    Strict: true
+    Private: false
   #seqeuncing_file
   design_description:
     Desc: Free-form description of the methods used to create the sequencing library; a brief 'materials and methods' section.
@@ -4975,7 +5410,9 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C43622'
         Value: Experimental Method 
-    Type: string
+    Type:
+      value_type: list
+      Type: string
     Req: false
     Private: false 
   #study_admin
@@ -5021,17 +5458,16 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C175886'
         Value: Scientific Data Type
-    Type: 
+    Type:
       value_type: list
-      items:
+      Enum:
         - "Genomic"
-        - "Proteomic"
         - "Imaging"
-        - "Genomics"
         - "Pathology"
-        - "Proteomics"
+        - "Proteomic"
         - "Radiology"
     Req: false
+    Strict: true
     Private: false
   #study_admin
   study_name:
@@ -5042,7 +5478,7 @@ PropDefinitions:
         Value: Study Research Identification Title Text
     Type: string
     Req: false
-    Private: false       
+    Private: false
   # study_admin
   study_admin_id:
     Desc: A unique sequence of alphanumeric characters used to identify the admin in the investigation or study, which is used for linking metadata.
@@ -5070,6 +5506,7 @@ PropDefinitions:
       - 'Human'
       - 'Mouse'
     Req: true
+    Strict: true
     Private: false
   # study_admin
   adult_or_childhood_study: # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
@@ -5082,6 +5519,7 @@ PropDefinitions:
       - "Adult"
       - "Pediatric"
     Req: true
+    Strict: true
     Private: false
   # study_admin
   data_types: # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
@@ -5168,7 +5606,11 @@ PropDefinitions:
     Key: true
   #study_arm
   clinical_trial_arm:
-    Desc: ARM of the clinical trial.
+    Desc: A study population that receives an intervention(s) within a trial.
+    Term:
+      - Origin: NCIt
+        Code: 'C161322'
+        Value: Treatment Group
     Type: string
     Req: false
     Private: false
@@ -5208,12 +5650,13 @@ PropDefinitions:
   # study_personnel
   personnel_type: #enum: PI, Co-PI, Data Submitter, etc
     Desc: The role of personnel in the study.
-    Type:
+    Enum:
       - "PI"
       - "Co-PI"
       - "Data Submitter" # these? 01/26/2022 adeforge
       - "Data Manager"  # 02/22/2022 adeforge, is this different from a 'Data Submitter'?
     Req: true
+    Strict: false
     Private: false
   # study_personnel
   email_address:
@@ -5234,9 +5677,9 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2975232'
         Value: Prior Therapy Regimen Text
-    Type: 
+    Type:
       value_type: list
-      items:
+      Enum:
         - "10-Deacetyltaxol"
         - "11C Topotecan"
         - "11D10 AluGel Anti-Idiotype Monoclonal Antibody"
@@ -9712,185 +10155,188 @@ PropDefinitions:
         - "Zuclomiphene Citrate"
         - "Unknown"
         - "Not Reported"
-  Req: false
-  Private: false
-#therapeutic_procedure
-treatment_outcome:
-  Desc: Text term that describes the patient's final outcome after the treatment was administered.
-  Term:
-    - Origin: caDSR
-      Code: '5102383'
-      Value: Treatment Outcome Type
-  Enum:
-    - "Complete Remission/Response"
-    - "Complete Response"
-    - "Elevated Tumor Markers and Residual Mass"
-    - "First Course Treatment Still in Progress"
-    - "Mixed Response"
-    - "No Measurable Disease"
-    - "No Measureable Tumor or Tumor Markers"
-    - "No Response"
-    - "Normalization of Tumor Markers, but Residual Tumor Mass"
-    - "Not Applicable"
-    - "Not Reported"
-    - "Other"
-    - "Partial Remission/Response"
-    - "Partial Response"
-    - "Persistent Disease"
-    - "Progressive Disease"
-    - "Progressive Tumor Mass and Tumor Markers"
-    - "Stable Disease"
-    - "Treatment Ongoing"
-    - "Treatment Stopped Due to Toxicity"
-    - "Unknown"
-    - "Very Good Partial Response"
-  Req: true
-  Private: false
-#therapeutic_procedure
-treatment_type:
-  Desc: Text term that describes the kind of treatment administered.
-  Term:
-    - Origin: caDSR
-      Code: '5102381'
-      Value: Treatment Method Type
-  Enum:
-    - "Ablation, Cryo"
-    - "Ablation, Ethanol Injection"
-    - "Ablation, Microwave"
-    - "Ablation, NOS"
-    - "Ablation, Radiofrequency"
-    - "Ablation, Radiosurgical"
-    - "Ancillary Treatment"
-    - "Antiseizure Treatment"
-    - "Bisphosphonate Therapy"
-    - "Blinded Study, Treatment Unknown"
-    - "Brachytherapy, High Dose"
-    - "Brachytherapy, Low Dose"
-    - "Brachytherapy, NOS"
-    - "Chemoembolization"
-    - "Chemoprotectant"
-    - "Chemotherapy"
-    - "Concurrent Chemoradiation"
-    - "Cryoablation"
-    - "Cytotoxic chemotherapy"
-    - "Embolization"
-    - "Ethanol Injection Ablation"
-    - "External Beam Radiation"
-    - "External Radiation"
-    - "Hormone Therapy"
-    - "I-131 Radiation Therapy"
-    - "Immunotherapy"
-    - "Immunotherapy (Including Vaccines)"
-    - "Internal Radiation"
-    - "Isolated Limb Perfusion (ILP)"
-    - "No Treatment"
-    - "Not Reported"
-    - "Organ Transplantation"
-    - "Other"
-    - "Other Treatment Type"
-    - "Palliative Care"
-    - "Pharmaceutical Therapy"
-    - "Pharmaceutical Therapy, NOS"
-    - "Pleurodesis"
-    - "Pleurodesis, NOS"
-    - "Pleurodesis, Talc"
-    - "Radiation (NOS)"
-    - "Radiation Therapy"
-    - "Radiation Therapy, NOS"
-    - "Radiation therapy, NOS"
-    - "Radiation, 2D Conventional"
-    - "Radiation, 3D Conformal"
-    - "Radiation, 3D conformal"
-    - "Radiation, Combination"
-    - "Radiation, Cyberknife"
-    - "Radiation, External Beam"
-    - "Radiation, Hypofractionated"
-    - "Radiation, Implants"
-    - "Radiation, Intensity-Modulated Radiotherapy"
-    - "Radiation, intensity-modulated radiotherapy"
-    - "Radiation, Internal"
-    - "Radiation, Mixed Photon Beam"
-    - "Radiation, Photon Beam"
-    - "Radiation, Proton Beam"
-    - "Radiation, proton beam"
-    - "Radiation, Radioisotope"
-    - "Radiation, stereotactic body"
-    - "Radiation, Stereotactic/Gamma Knife/SRS"
-    - "Radiation, Systemic"
-    - "Radiation, whole brain radiation therapy"
-    - "Radioactive Iodine Therapy"
-    - "Radioembolization"
-    - "Radiosensitizing Agent"
-    - "Stem Cell Transplant"
-    - "Stem Cell Transplantation, Allogeneic"
-    - "Stem Cell Transplantation, Autologous"
-    - "Stem Cell Transplantation, Double Autologous"
-    - "Stem Cell Transplantation, Haploidentical"
-    - "Stem Cell Transplantation, Non-Myeloablative"
-    - "Stem Cell Transplantation, NOS"
-    - "Stem Cell Transplantation, Syngenic"
-    - "Stem Cell Treatment"
-    - "Stereotactic Radiosurgery"
-    - "Stereotactic radiosurgery"
-    - "Steroid Therapy"
-    - "Surgery"
-    - "Surgery Only"
-    - "Systemic Radiation"
-    - "Targeted Molecular Therapy"
-    - "Unknown"
-  Req: true
-  Private: false
-#therapeutic_procedure
-age_at_treatment_start:
-  Desc: Subject Age in Days at Start of Treatment Course Day Count
-  Term:
-    - Origin: caDSR
-      Code: '12304720'
-      Value: AGE_AT_COURSE_START
-  Type: integer
-  Req: true
-  Private: false
-#therapeutic_procedure
-age_at_treatment_end:
-  Desc: Subject Age in Days at End of Treatment Course Day Count
-  Term:
-    - Origin: caDSR
-      Code: '12304723'
-      Value: AGE_AT_COURSE_END
-  Type: integer
-  Req: true
-  Private: false  
-#therapeutic_procedure
-therapeutic_procedure_id: 
-  Desc: A unique identifier for a therapeutic procedure.
-  Term:
-    - Origin: caDSR
-      Code: '2534569'
-      Value: Additional Finding Identifier
-  Type: string
-  Req: true
-  Private: false
-  Key: true
-#methylation_array_file
-methylation_array_file_id: 
-  Desc: A unique identifier for a methylation array file.
-  Term:
-    - Origin: caDSR
-      Code: '2534569'
-      Value: Additional Finding Identifier
-  Type: string
-  Req: true
-  Private: false
-  Key: true
-#methylation_array_file
-methylation_platform:
-  Desc: The words used to describe the instrument used to carry out a methylation experiment.
-  Type: string
-  Req: true
-  Private: false
-#methylation_array_file
-reporter_label:
-  Desc: The class of tags used in the methylation experiment.
-  Type: string
-  Req: true
-  Private: false
+    Req: false
+    Strict: false
+    Private: false
+  #therapeutic_procedure
+  treatment_outcome:
+    Desc: Text term that describes the patient's final outcome after the treatment was administered.
+    Term:
+      - Origin: caDSR
+        Code: '5102383'
+        Value: Treatment Outcome Type
+    Enum:
+      - "Complete Remission/Response"
+      - "Complete Response"
+      - "Elevated Tumor Markers and Residual Mass"
+      - "First Course Treatment Still in Progress"
+      - "Mixed Response"
+      - "No Measurable Disease"
+      - "No Measureable Tumor or Tumor Markers"
+      - "No Response"
+      - "Normalization of Tumor Markers, but Residual Tumor Mass"
+      - "Not Applicable"
+      - "Not Reported"
+      - "Other"
+      - "Partial Remission/Response"
+      - "Partial Response"
+      - "Persistent Disease"
+      - "Progressive Disease"
+      - "Progressive Tumor Mass and Tumor Markers"
+      - "Stable Disease"
+      - "Treatment Ongoing"
+      - "Treatment Stopped Due to Toxicity"
+      - "Unknown"
+      - "Very Good Partial Response"
+    Req: true
+    Strict: false
+    Private: false
+  #therapeutic_procedure
+  treatment_type:
+    Desc: Text term that describes the kind of treatment administered.
+    Term:
+      - Origin: caDSR
+        Code: '5102381'
+        Value: Treatment Method Type
+    Enum:
+      - "Ablation, Cryo"
+      - "Ablation, Ethanol Injection"
+      - "Ablation, Microwave"
+      - "Ablation, NOS"
+      - "Ablation, Radiofrequency"
+      - "Ablation, Radiosurgical"
+      - "Ancillary Treatment"
+      - "Antiseizure Treatment"
+      - "Bisphosphonate Therapy"
+      - "Blinded Study, Treatment Unknown"
+      - "Brachytherapy, High Dose"
+      - "Brachytherapy, Low Dose"
+      - "Brachytherapy, NOS"
+      - "Chemoembolization"
+      - "Chemoprotectant"
+      - "Chemotherapy"
+      - "Concurrent Chemoradiation"
+      - "Cryoablation"
+      - "Cytotoxic chemotherapy"
+      - "Embolization"
+      - "Ethanol Injection Ablation"
+      - "External Beam Radiation"
+      - "External Radiation"
+      - "Hormone Therapy"
+      - "I-131 Radiation Therapy"
+      - "Immunotherapy"
+      - "Immunotherapy (Including Vaccines)"
+      - "Internal Radiation"
+      - "Isolated Limb Perfusion (ILP)"
+      - "No Treatment"
+      - "Not Reported"
+      - "Organ Transplantation"
+      - "Other"
+      - "Other Treatment Type"
+      - "Palliative Care"
+      - "Pharmaceutical Therapy"
+      - "Pharmaceutical Therapy, NOS"
+      - "Pleurodesis"
+      - "Pleurodesis, NOS"
+      - "Pleurodesis, Talc"
+      - "Radiation (NOS)"
+      - "Radiation Therapy"
+      - "Radiation Therapy, NOS"
+      - "Radiation therapy, NOS"
+      - "Radiation, 2D Conventional"
+      - "Radiation, 3D Conformal"
+      - "Radiation, 3D conformal"
+      - "Radiation, Combination"
+      - "Radiation, Cyberknife"
+      - "Radiation, External Beam"
+      - "Radiation, Hypofractionated"
+      - "Radiation, Implants"
+      - "Radiation, Intensity-Modulated Radiotherapy"
+      - "Radiation, intensity-modulated radiotherapy"
+      - "Radiation, Internal"
+      - "Radiation, Mixed Photon Beam"
+      - "Radiation, Photon Beam"
+      - "Radiation, Proton Beam"
+      - "Radiation, proton beam"
+      - "Radiation, Radioisotope"
+      - "Radiation, stereotactic body"
+      - "Radiation, Stereotactic/Gamma Knife/SRS"
+      - "Radiation, Systemic"
+      - "Radiation, whole brain radiation therapy"
+      - "Radioactive Iodine Therapy"
+      - "Radioembolization"
+      - "Radiosensitizing Agent"
+      - "Stem Cell Transplant"
+      - "Stem Cell Transplantation, Allogeneic"
+      - "Stem Cell Transplantation, Autologous"
+      - "Stem Cell Transplantation, Double Autologous"
+      - "Stem Cell Transplantation, Haploidentical"
+      - "Stem Cell Transplantation, Non-Myeloablative"
+      - "Stem Cell Transplantation, NOS"
+      - "Stem Cell Transplantation, Syngenic"
+      - "Stem Cell Treatment"
+      - "Stereotactic Radiosurgery"
+      - "Stereotactic radiosurgery"
+      - "Steroid Therapy"
+      - "Surgery"
+      - "Surgery Only"
+      - "Systemic Radiation"
+      - "Targeted Molecular Therapy"
+      - "Unknown"
+    Req: true
+    Strict: false
+    Private: false
+  #therapeutic_procedure
+  age_at_treatment_start:
+    Desc: Subject Age in Days at Start of Treatment Course Day Count
+    Term:
+      - Origin: caDSR
+        Code: '12304720'
+        Value: AGE_AT_COURSE_START
+    Type: integer
+    Req: true
+    Private: false
+  #therapeutic_procedure
+  age_at_treatment_end:
+    Desc: Subject Age in Days at End of Treatment Course Day Count
+    Term:
+      - Origin: caDSR
+        Code: '12304723'
+        Value: AGE_AT_COURSE_END
+    Type: integer
+    Req: true
+    Private: false  
+  #therapeutic_procedure
+  therapeutic_procedure_id: 
+    Desc: A unique identifier for a therapeutic procedure.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
+  #methylation_array_file
+  methylation_array_file_id: 
+    Desc: A unique identifier for a methylation array file.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
+    Type: string
+    Req: true
+    Private: false
+    Key: true
+  #methylation_array_file
+  methylation_platform:
+    Desc: The words used to describe the instrument used to carry out a methylation experiment.
+    Type: string
+    Req: true
+    Private: false
+  #methylation_array_file
+  reporter_label:
+    Desc: The class of tags used in the methylation experiment.
+    Type: string
+    Req: true
+    Private: false

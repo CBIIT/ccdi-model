@@ -1,4 +1,15 @@
 PropDefinitions:
+  #id
+  id:
+    Desc:
+    Term:
+      - Origin: NCIt
+        Code: 'C25364'
+        Value: 
+    Type: string
+    Req: false
+    Key: false
+    Private: false
   #cell_line
   cell_line_id:
     Desc: Cell line name

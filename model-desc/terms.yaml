@@ -2047,6 +2047,12 @@ Terms:
     Code: 12126010
     Version: '1'
     Value: International Classification of Diseases for Oncology, Third Edition
+  id:
+    Origin: NCIt
+    Definition: One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing. 
+    Code: C25364
+    Version: '1'
+    Value: Identifier  
   idat:
     Origin: NCIt
     Definition: A proprietary, encrypted XML-based, compressed electronic file format from Illumina Inc. for storing genome-wide profiling data. The data contains a summary of the intensity data generated from each probe used during a sequencing run.

@@ -1,4 +1,15 @@
 PropDefinitions:
+  #id
+  id:
+    Desc: One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.
+    Term:
+      - Origin: NCIt
+        Code: 'C25364'
+        Value: Identifier
+    Type: string
+    Req: false
+    Key: false
+    Private: false
   #cell_line
   cell_line_id:
     Desc: Cell line name

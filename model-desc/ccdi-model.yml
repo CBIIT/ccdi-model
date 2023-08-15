@@ -4,6 +4,7 @@ Nodes:
     Props:
       - cell_line_id
       - source
+      - id
   clinical_measure_file: # 09.20.22 pdunn
     Props:
       - clinical_measure_file_id
@@ -18,6 +19,7 @@ Nodes:
       - checksum_value
       - file_mapping_level
       - participant_list
+      - id
   diagnosis:
     Props:
       - diagnosis_id
@@ -35,6 +37,7 @@ Nodes:
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m
+      - id
      # - tumor_morphology
      # - tumor_incidence_type # primary, metastatic, recurrence, progression
      # - progression_or_recurrence
@@ -64,12 +67,14 @@ Nodes:
       - tobacco_smoking_status
       - type_of_smoke_exposure
       - type_of_tobacco_used
+      - id
   family_relationship:
     Props:
       - family_relationship_id
       - related_to_participant_id
       - relationship
       - family_id
+      - id
   follow_up:
     Props:
       - follow_up_id
@@ -82,11 +87,13 @@ Nodes:
       - disease_response
       - risk_factor
       - follow_up_other
+      - id
   medical_history:
     Props:
       - medical_history_id
       - medical_history_category
       - medical_history_condition
+      - id
   molecular_test:
     Props:
       - molecular_test_id
@@ -125,6 +132,7 @@ Nodes:
       - variant_origin
       - variant_type
       - zygosity  
+      - id
   methylation_array_file: # 09.20.22 pd
     Props:
       - methylation_array_file_id
@@ -138,6 +146,7 @@ Nodes:
       - file_mapping_level
       - methylation_platform
       - reporter_label
+      - id
   participant:
     Props:
       - participant_id
@@ -145,6 +154,7 @@ Nodes:
       - gender
       - ethnicity
       - alternate_participant_id
+      - id
       # - dbgap_subject_id : store in synonym
   pathology_file: 
     Props:
@@ -161,6 +171,7 @@ Nodes:
       - staining_method
       - deidentification_method
       - file_mapping_level
+      - id
   pdx:
     Props: 
       - pdx_id
@@ -173,10 +184,12 @@ Nodes:
       - tumor_preparation
       - tumor_characterization_method
       - tumor_not_mus_or_ebv_origin
+      - id
   publication:
      Props:
       - publication_id
       - pubmed_id
+      - id
   radiology_file: 
     Props:
       - radiology_file_id
@@ -192,6 +205,7 @@ Nodes:
       - image_modality
       - deidentification_method
       - file_mapping_level
+      - id
   sample:
     Props:
       - sample_id
@@ -211,6 +225,7 @@ Nodes:
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m
       - diagnosis_icd_cm
+      - id
   #   - sample_type
   #   - biosample_accession captured in synonym 
   #   - disease_phase
@@ -265,6 +280,7 @@ Nodes:
       - Spike_In
       - Total_Number_of_Input_Cells
       - UMI
+      - id
   sequencing_file: # 01.03.22 pdunn
     Props:
       - sequencing_file_id
@@ -293,6 +309,7 @@ Nodes:
       - custom_assembly_fasta_file_for_alignment
       - file_mapping_level
       - sequence_alignment_software
+      - id
   study:
     Props:
       - study_id
@@ -308,6 +325,7 @@ Nodes:
       - experimental_strategy_and_data_subtype
       - study_data_types
       - size_of_data_being_uploaded
+      - id
       # - bioproject_accession : store in synonym
   study_admin:
     Props:
@@ -318,18 +336,21 @@ Nodes:
       - file_types_and_format # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
       - number_of_participants
       - number_of_samples
+      - id
   study_arm: # 09.21.22 pd
     Props:
       - study_arm_id
       - clinical_trial_arm
       - clinical_trial_identifier
       - clinical_trial_repository
+      - id
   study_funding: # 0 or many grant or contract IDs
     Props: 
       - study_funding_id
       - funding_agency # 0 or many per study
       - grant_id #grant or contract ID, NIH or other
       - funding_source_program_name
+      - id
   study_personnel:
     Props:
       - study_personnel_id  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
@@ -337,10 +358,12 @@ Nodes:
       - personnel_type #enum: PI, Co-PI, Data Submitter, etc
       - email_address
       - institution
+      - id
   synonym:  # 09.20.22 pd, nee alias
      Props:
       - synonym_id #the alternate or alias id in another repo
       - repository_of_synonym_id #the name of the other repo
+      - id
   therapeutic_procedure:
     Props:
       - therapeutic_procedure_id
@@ -349,6 +372,7 @@ Nodes:
       - treatment_outcome
       - treatment_type
       - therapeutic_agents
+      - id
 Relationships:
   of_cell_line:
     Props: null

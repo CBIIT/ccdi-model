@@ -1772,7 +1772,7 @@ Terms:
     Code: 3689477
     Version: '1'
     Value: Glottis
-  grant_id:
+  grant_
     Origin: caDSR
     Definition: Unique alphanumeric Identifier of a grant funding resource used to
       treat a patient on a study.
@@ -2052,7 +2052,7 @@ Terms:
     Definition: One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing. 
     Code: C25364
     Version: '1'
-    Value: id  
+    Value: Identifier  
   idat:
     Origin: NCIt
     Definition: A proprietary, encrypted XML-based, compressed electronic file format from Illumina Inc. for storing genome-wide profiling data. The data contains a summary of the intensity data generated from each probe used during a sequencing run.

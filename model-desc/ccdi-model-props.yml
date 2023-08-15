@@ -1,7 +1,7 @@
 PropDefinitions:
   #id
   id:
-    Desc:
+    Desc: One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.
     Term:
       - Origin: NCIt
         Code: 'C25364'

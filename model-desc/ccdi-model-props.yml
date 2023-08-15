@@ -5,7 +5,7 @@ PropDefinitions:
     Term:
       - Origin: NCIt
         Code: 'C25364'
-        Value: 
+        Value: Identifier
     Type: string
     Req: false
     Key: false

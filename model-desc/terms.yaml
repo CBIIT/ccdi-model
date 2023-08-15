@@ -1772,7 +1772,7 @@ Terms:
     Code: 3689477
     Version: '1'
     Value: Glottis
-  grant_
+  grant_id:
     Origin: caDSR
     Definition: Unique alphanumeric Identifier of a grant funding resource used to
       treat a patient on a study.

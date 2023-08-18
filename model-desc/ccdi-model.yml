@@ -207,7 +207,7 @@ Nodes:
       - magnetic_field_strength
       - scanner_manufacturer
       - scanner_model
-      - Imaging_frequency
+      - imaging_frequency
       - repetition_time
       - echo_time
       - inversion_time
@@ -217,7 +217,6 @@ Nodes:
       - echoPulseSequenceCategoryCode 
       - diffusionBValue 
       - diffusionDirectionalityCode 
-      - magneticFieldStrength 
       - resonantNucleusCode 
       - acquisitionContrastCode 
       - inversionRecoveryIndicator 
@@ -230,7 +229,7 @@ Nodes:
       - echoPlanarPulseSequenceIndicator 
       - saturationRecoveryIndicator 
       - spectrallySelectedSuppressionCode 
-      - MRImageReconstructionProtocolElement
+      - mrImageReconstructionProtocolElement
       - complexImageComponentCode
       - id
   sample:

@@ -210,9 +210,9 @@ Nodes:
       - Imaging_frequency
       - repetition_time
       - echo_time
-      - inversion _time
+      - inversion_time
       - flip_angle
-      - pixel _spacing
+      - pixel_spacing
       - slice_thickness
       - echoPulseSequenceCategoryCode 
       - diffusionBValue 

@@ -1,4 +1,191 @@
 PropDefinitions:
+  #magnetic_field_strength
+  magnetic_field_strength:
+    Desc: magnetic_field_strength
+    Term:
+      - Origin: DICOM
+        Code: '0018,0087'
+        Value: magnetic_field_strength
+    Type: string
+    Req: true
+    Key: false
+    Private: false
+  #scanner_manufacturer
+  scanner_manufacturer:
+    Desc: scanner_manufacturer
+    Term:
+      - Origin: DICOM
+        Code: '0008,0070'
+        Value: scanner_manufacturer
+    Type: string
+    Req: true
+    Key: false
+    Private: false
+  #scanner_model
+  scanner_model:
+    Desc: scanner_model
+    Term:
+      - Origin: DICOM
+        Code: '0008,1090'
+        Value: scanner_model
+    Type: string
+    Req: true
+    Key: false
+    Private: false
+  #imaging_frequency
+  imaging_frequency:
+    Desc: imaging_frequency
+    Term:
+      - Origin: DICOM
+        Code: '0018,0084'
+        Value: imaging_frequency
+    Type: string
+    Req: false
+    Key: false
+    Private: false
+  #repetition_time
+  repetition_time:
+    Desc: repetition_time
+    Term:
+      - Origin: DICOM
+        Code: '0018,0080'
+        Value: repetition_time
+    Type: string
+    Req: false
+    Key: false
+    Private: false
+  #echo_time
+  echo_time:
+    Desc: echo_time
+    Term:
+      - Origin: DICOM
+        Code: '0018,0081'
+        Value: echo_time
+    Type: string
+    Req: false
+    Key: false
+    Private: false
+  #inversion_time
+  inversion_time:
+    Desc: inversion_time
+    Term:
+      - Origin: DICOM
+        Code: '0018,0082'
+        Value: inversion_time
+    Type: string
+    Req: false
+    Key: false
+    Private: false
+  #flip_angle
+  flip_angle:
+    Desc: flip_angle
+    Term:
+      - Origin: DICOM
+        Code: '0018,1314'
+        Value: flip_angle
+    Type: string
+    Req: false
+    Key: false
+    Private: false
+  #pixel_spacing
+  pixel_spacing:
+    Desc: pixel_spacing
+    Term:
+      - Origin: DICOM
+        Code: '0028,0030'
+        Value: pixel_spacing
+    Type: string
+    Req: false
+    Key: false
+    Private: false
+  #slice_thickness
+  slice_thickness:
+    Desc: slice_thickness
+    Term:
+      - Origin: DICOM
+        Code: '0018,0050'
+        Value: slice_thickness
+    Type: string
+    Req: false
+    Key: false
+    Private: false
+  #echoPulseSequenceCategoryCode
+  echoPulseSequenceCategoryCode:
+    Desc: echoPulseSequenceCategoryCode
+    Term:
+      - Origin: DICOM
+        Code: '0018,9008'
+        Value: echoPulseSequenceCategoryCode
+    Type: string
+    Req: false
+    Key: false
+    Private: false
+  #diffusionBValue
+  diffusionBValue:
+    Desc: diffusionBValue
+    Term:
+      - Origin: DICOM
+        Code: '0018,9087'
+        Value: diffusionBValue
+    Type: string
+    Req: false
+    Key: false
+    Private: false
+  #diffusionDirectionalityCode
+  diffusionDirectionalityCode:
+    Desc: diffusionDirectionalityCode
+    Term:
+      - Origin: DICOM
+        Code: '0018,9075'
+        Value: diffusionDirectionalityCode
+    Type: string
+    Req: false
+    Key: false
+    Private: false
+  #resonantNucleusCode
+  resonantNucleusCode:
+    Desc: resonantNucleusCode
+    Term:
+      - Origin: DICOM
+        Code: '0018,9100'
+        Value: resonantNucleusCode
+    Type: string
+    Req: false
+    Key: false
+    Private: false
+  #acquisitionContrastCode
+  acquisitionContrastCode:
+    Desc: acquisitionContrastCode
+    Term:
+      - Origin: DICOM
+        Code: '0008,9209'
+        Value: acquisitionContrastCode
+    Type: string
+    Req: false
+    Key: false
+    Private: false
+  #inversionRecoveryIndicator
+  inversionRecoveryIndicator:
+    Desc: inversionRecoveryIndicator
+    Term:
+      - Origin: DICOM
+        Code: '0018,9009'
+        Value: inversionRecoveryIndicator
+    Type: string
+    Req: false
+    Key: false
+    Private: false
+  #pulseSequenceName
+  pulseSequenceName:
+    Desc: pulseSequenceName
+    Term:
+      - Origin: DICOM
+        Code: '0018,9005'
+        Value: pulseSequenceName
+    Type: string
+    Req: false
+    Key: false
+    Private: false
   #id
   id:
     Desc: One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.

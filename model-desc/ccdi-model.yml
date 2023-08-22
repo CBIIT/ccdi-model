@@ -231,6 +231,7 @@ Nodes:
       - spectrallySelectedSuppressionCode 
       - mrImageReconstructionProtocolElement
       - complexImageComponentCode
+      - file_mapping_level
       - id
   sample:
     Props:

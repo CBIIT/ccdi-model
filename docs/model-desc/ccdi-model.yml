@@ -204,7 +204,33 @@ Nodes:
       - participant_age_at_imaging
       - image_modality
       - deidentification_method
-      - file_mapping_level
+      - magnetic_field_strength
+      - scanner_manufacturer
+      - scanner_model
+      - imaging_frequency
+      - repetition_time
+      - echo_time
+      - inversion_time
+      - flip_angle
+      - pixel_spacing
+      - slice_thickness
+      - echoPulseSequenceCategoryCode 
+      - diffusionBValue 
+      - diffusionDirectionalityCode 
+      - resonantNucleusCode 
+      - acquisitionContrastCode 
+      - inversionRecoveryIndicator 
+      - pulseSequenceName 
+      - multipleSpinEchoIndicator 
+      - phaseContrastIndicator 
+      - timeOfFlightContrastIndicator 
+      - arterialSpinLabelingContrastCode 
+      - steadyStatePulseSequenceCode 
+      - echoPlanarPulseSequenceIndicator 
+      - saturationRecoveryIndicator 
+      - spectrallySelectedSuppressionCode 
+      - mrImageReconstructionProtocolElement
+      - complexImageComponentCode
       - id
   sample:
     Props:

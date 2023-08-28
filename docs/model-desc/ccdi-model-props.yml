@@ -4618,7 +4618,7 @@ PropDefinitions:
     Desc: The location within the body where cancer begins as captured in the topography codes of the International Classification of Diseases for Oncology, 3rd Edition (ICD-O-3).
     Term:
       - Origin: caDSR
-        Code: '11341616'
+        Code: '14156279'
         Value: Disease Primary Anatomic Site ICD-O-3 Code
     Type:
       value_type: list

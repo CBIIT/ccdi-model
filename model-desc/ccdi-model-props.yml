@@ -4569,9 +4569,9 @@ PropDefinitions:
       value_type: list
       Enum:
         - "Hispanic or Latino"
-        - "Not allowed to collect"
+        - "Not Allowed to Collect"
         - "Not Hispanic or Latino"
-        - "Not reported"
+        - "Not Reported"
         - "Unknown" 
     Req: true
     Strict: false

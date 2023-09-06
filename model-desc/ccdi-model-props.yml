@@ -2853,6 +2853,7 @@ PropDefinitions:
     Enum:
       - "Yes"
       - "No"
+      - "Not Reported"
     Req: true
     Strict: false
     Private: false

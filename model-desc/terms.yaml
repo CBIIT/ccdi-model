@@ -3315,12 +3315,6 @@ Terms:
     Code: 4592313
     Version: '1'
     Value: No Measureable Tumor or Tumor Markers
-  not reported:
-    Origin: caDSR
-    Definition: 'Not provided or available.'
-    Code: 2572231
-    Version: '1'
-    Value: not reported
   No Response:
     Origin: caDSR
     Definition: No apparent change or worsening in tumor staging classification.
@@ -3376,18 +3370,12 @@ Terms:
     Code: 4592312
     Version: '1'
     Value: Normalization of Tumor Markers, but Residual Tumor Mass
-  Not allowed to collect:
+  Not Allowed to Collect:
     Origin: caDSR
     Definition: An indicator that specifies that a collection event was not permitted.
     Code: 6662191
     Version: '1'
     Value: Not Allowed To Collect
-  Not applicable:
-    Origin: caDSR
-    Definition: Determination of a value is not relevant in the current context.
-    Code: 5682946
-    Version: '1'
-    Value: Not Applicable
   Not Applicable:
     Origin: caDSR
     Definition: Determination of a value is not relevant in the current context.
@@ -3401,12 +3389,6 @@ Terms:
     Code: 2567110
     Version: '1'
     Value: Not Hispanic or Latino
-  Not reported:
-    Origin: caDSR
-    Definition: Not provided or available.
-    Code: 2572578
-    Version: '1'
-    Value: Not Reported
   Not Reported:
     Origin: caDSR
     Definition: Not provided or available.

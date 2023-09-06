@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 554ff64
+commit d794abd
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -1751,6 +1751,7 @@ pdx	model_id	STRING
 pdx	mouse_strain	STRING
 pdx	pdx_id	STRING
 pdx	strain_immune_system_humanized	No
+pdx	strain_immune_system_humanized	Not Reported
 pdx	strain_immune_system_humanized	Yes
 pdx	tumor_characterization_method	STRING
 pdx	tumor_not_mus_or_ebv_origin	STRING
@@ -2158,7 +2159,7 @@ sequencing_file	library_id	STRING
 sequencing_file	library_layout	Not Applicable
 sequencing_file	library_layout	Paired end
 sequencing_file	library_layout	Single end
-sequencing_file	library_selection	5-methylcytidine antibody
+sequencing_file	library_selection	5-Methylcytidine Antibody
 sequencing_file	library_selection	Affinity Enrichment
 sequencing_file	library_selection	CAGE
 sequencing_file	library_selection	CF-H
@@ -2170,40 +2171,32 @@ sequencing_file	library_selection	DNAse
 sequencing_file	library_selection	HMPR
 sequencing_file	library_selection	Hybrid Selection
 sequencing_file	library_selection	Inverse rRNA
-sequencing_file	library_selection	MBD2 protein methyl-CpG binding domain
+sequencing_file	library_selection	MBD2 Protein Methyl-CpG Binding Domain
 sequencing_file	library_selection	MDA
 sequencing_file	library_selection	MF
 sequencing_file	library_selection	MNase
 sequencing_file	library_selection	MSLL
-sequencing_file	library_selection	Not applicable
+sequencing_file	library_selection	Not Applicable
 sequencing_file	library_selection	Oligo-dT
 sequencing_file	library_selection	Other
 sequencing_file	library_selection	PCR
-sequencing_file	library_selection	Padlock probes capture method
+sequencing_file	library_selection	Padlock Probes Capture Method
 sequencing_file	library_selection	Poly-T Enrichment
 sequencing_file	library_selection	PolyA
 sequencing_file	library_selection	RACE
-sequencing_file	library_selection	RANDOM
-sequencing_file	library_selection	RANDOM PCR
 sequencing_file	library_selection	RT-PCR
 sequencing_file	library_selection	Random
 sequencing_file	library_selection	Random PCR
 sequencing_file	library_selection	Reduced Representation
-sequencing_file	library_selection	Repeat fractionation
+sequencing_file	library_selection	Repeat Fractionation
 sequencing_file	library_selection	Restriction Digest
-sequencing_file	library_selection	Size fractionation
+sequencing_file	library_selection	Size Fractionation
 sequencing_file	library_selection	Unspecified
 sequencing_file	library_selection	cDNA
-sequencing_file	library_selection	cDNA oligo_dT
-sequencing_file	library_selection	cDNA random priming
-sequencing_file	library_selection	cDNA_oligo_dT
-sequencing_file	library_selection	cDNA_randomPriming
+sequencing_file	library_selection	cDNA Oligo dT
+sequencing_file	library_selection	cDNA Random Priming
 sequencing_file	library_selection	miRNA Size Fractionation
-sequencing_file	library_selection	other
 sequencing_file	library_selection	rRNA Depletion
-sequencing_file	library_selection	repeat fractionation
-sequencing_file	library_selection	size fractionation
-sequencing_file	library_selection	unspecified
 sequencing_file	library_source	Bulk cells
 sequencing_file	library_source	Bulk nuclei
 sequencing_file	library_source	Bulk tissue
@@ -2419,7 +2412,7 @@ single_cell_sequencing_file	library_id	STRING
 single_cell_sequencing_file	library_layout	Not Applicable
 single_cell_sequencing_file	library_layout	Paired end
 single_cell_sequencing_file	library_layout	Single end
-single_cell_sequencing_file	library_selection	5-methylcytidine antibody
+single_cell_sequencing_file	library_selection	5-Methylcytidine Antibody
 single_cell_sequencing_file	library_selection	Affinity Enrichment
 single_cell_sequencing_file	library_selection	CAGE
 single_cell_sequencing_file	library_selection	CF-H
@@ -2431,40 +2424,32 @@ single_cell_sequencing_file	library_selection	DNAse
 single_cell_sequencing_file	library_selection	HMPR
 single_cell_sequencing_file	library_selection	Hybrid Selection
 single_cell_sequencing_file	library_selection	Inverse rRNA
-single_cell_sequencing_file	library_selection	MBD2 protein methyl-CpG binding domain
+single_cell_sequencing_file	library_selection	MBD2 Protein Methyl-CpG Binding Domain
 single_cell_sequencing_file	library_selection	MDA
 single_cell_sequencing_file	library_selection	MF
 single_cell_sequencing_file	library_selection	MNase
 single_cell_sequencing_file	library_selection	MSLL
-single_cell_sequencing_file	library_selection	Not applicable
+single_cell_sequencing_file	library_selection	Not Applicable
 single_cell_sequencing_file	library_selection	Oligo-dT
 single_cell_sequencing_file	library_selection	Other
 single_cell_sequencing_file	library_selection	PCR
-single_cell_sequencing_file	library_selection	Padlock probes capture method
+single_cell_sequencing_file	library_selection	Padlock Probes Capture Method
 single_cell_sequencing_file	library_selection	Poly-T Enrichment
 single_cell_sequencing_file	library_selection	PolyA
 single_cell_sequencing_file	library_selection	RACE
-single_cell_sequencing_file	library_selection	RANDOM
-single_cell_sequencing_file	library_selection	RANDOM PCR
 single_cell_sequencing_file	library_selection	RT-PCR
 single_cell_sequencing_file	library_selection	Random
 single_cell_sequencing_file	library_selection	Random PCR
 single_cell_sequencing_file	library_selection	Reduced Representation
-single_cell_sequencing_file	library_selection	Repeat fractionation
+single_cell_sequencing_file	library_selection	Repeat Fractionation
 single_cell_sequencing_file	library_selection	Restriction Digest
-single_cell_sequencing_file	library_selection	Size fractionation
+single_cell_sequencing_file	library_selection	Size Fractionation
 single_cell_sequencing_file	library_selection	Unspecified
 single_cell_sequencing_file	library_selection	cDNA
-single_cell_sequencing_file	library_selection	cDNA oligo_dT
-single_cell_sequencing_file	library_selection	cDNA random priming
-single_cell_sequencing_file	library_selection	cDNA_oligo_dT
-single_cell_sequencing_file	library_selection	cDNA_randomPriming
+single_cell_sequencing_file	library_selection	cDNA Oligo dT
+single_cell_sequencing_file	library_selection	cDNA Random Priming
 single_cell_sequencing_file	library_selection	miRNA Size Fractionation
-single_cell_sequencing_file	library_selection	other
 single_cell_sequencing_file	library_selection	rRNA Depletion
-single_cell_sequencing_file	library_selection	repeat fractionation
-single_cell_sequencing_file	library_selection	size fractionation
-single_cell_sequencing_file	library_selection	unspecified
 single_cell_sequencing_file	library_source	Bulk cells
 single_cell_sequencing_file	library_source	Bulk nuclei
 single_cell_sequencing_file	library_source	Bulk tissue
@@ -2694,8 +2679,8 @@ therapeutic_procedure	treatment_type	Targeted Molecular Therapy
 therapeutic_procedure	treatment_type	Unknown
 
 relationship	source_node	destination_node	property	value_or_TYPE
-of_cell_line	cell_line	study	NA	NA
 of_cell_line	cell_line	participant	NA	NA
+of_cell_line	cell_line	study	NA	NA
 of_cell_line	cell_line	sample	NA	NA
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_clinical_measure_file_participant	clinical_measure_file	participant	NA	NA
@@ -2704,9 +2689,9 @@ of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
 of_follow_up	follow_up	participant	NA	NA
 of_medical_history	medical_history	participant	NA	NA
+of_methylation_array_file	methylation_array_file	sample	NA	NA
 of_methylation_array_file	methylation_array_file	cell_line	NA	NA
 of_methylation_array_file	methylation_array_file	pdx	NA	NA
-of_methylation_array_file	methylation_array_file	sample	NA	NA
 of_molecular_test	molecular_test	participant	NA	NA
 of_participant	participant	study	NA	NA
 of_pathology_file	pathology_file	sample	NA	NA
@@ -2717,11 +2702,11 @@ of_pdx	pdx	study	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
 of_sample	sample	participant	NA	NA
-of_sequencing_file	sequencing_file	pdx	NA	NA
 of_sequencing_file	sequencing_file	cell_line	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
-of_single_cell_sequencing_file	single_cell_sequencing_file	cell_line	NA	NA
+of_sequencing_file	sequencing_file	pdx	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	pdx	NA	NA
+of_single_cell_sequencing_file	single_cell_sequencing_file	cell_line	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA

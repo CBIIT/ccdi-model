@@ -103,9 +103,7 @@ Nodes:
       - laboratory_test      
       - test_result_text
       - test_result_numeric
-      - test_result_unit
-      #- test_units
-      #- test_value
+      - test_unit
       - aa_change
       - antigen
       - biospecimen_type

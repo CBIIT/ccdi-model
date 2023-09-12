@@ -100,7 +100,9 @@ Nodes:
       - age_at_molecular_test
       - gene_symbol
       - molecular_analysis_method
-      - test_result
+      - test_result_text
+      - test_result_numeric
+      - test_result_unit
       - aa_change
       - antigen
       - biospecimen_type

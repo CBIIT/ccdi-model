@@ -20,6 +20,19 @@ Nodes:
       - file_mapping_level
       - participant_list
       - id
+  cytogenomic_file:
+    Props:
+      - cytogenomic_file_id
+      - file_name
+      - file_type
+      - file_description
+      - file_size
+      - md5sum
+      - file_url_in_cds
+      - dcf_indexd_guid
+      - file_mapping_level
+      - cytogenomic_platform
+      - id
   diagnosis:
     Props:
       - diagnosis_id
@@ -423,6 +436,16 @@ Relationships:
     Ends:
       - Src: clinical_measure_file
         Dst: participant
+  of_cytogenomic_file:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: cytogenomic_file_file
+        Dst: cell_line
+      - Src: cytogenomic_file_file
+        Dst: pdx
+      - Src: cytogenomic_file_file
+        Dst: sample
   of_diagnosis: 
     Props: null
     Mul: many_to_one

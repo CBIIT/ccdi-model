@@ -6,6 +6,9 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2534569'
         Value: Additional Finding Identifier
+    Type: string
+    Req: true
+    Private: false
   #cytogenomic_file
   cytogenomic_platform:
     Desc: The words used to describe the instrument used to carry out a methylation experiment.

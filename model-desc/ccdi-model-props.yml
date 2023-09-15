@@ -10543,9 +10543,9 @@ PropDefinitions:
   methylation_platform:
     Desc: The words used to describe the instrument used to carry out a methylation experiment.
     Term:
-        - Origin: Illumina
-          Code: 'methylation'
-          Value: methylation_platform
+      - Origin: Illumina
+        Code: 'methylation'
+        Value: methylation_platform
     Type: string
     Req: true
     Private: false

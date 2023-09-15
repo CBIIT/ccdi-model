@@ -10542,7 +10542,7 @@ PropDefinitions:
   #methylation_array_file
   methylation_platform:
     Desc: The words used to describe the instrument used to carry out a methylation experiment.
-     Term:
+    Term:
         - Origin: Illumina
           Code: 'methylation'
           Value: methylation_platform

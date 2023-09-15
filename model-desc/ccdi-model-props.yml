@@ -1,5 +1,12 @@
 PropDefinitions:
-  #magnetic_field_strength
+  #cytogenomic_file
+  cytogenomic_file_id:
+    Desc: A unique identifier for a cytogenomic file.
+    Term:
+      - Origin: caDSR
+        Code: '2534569'
+        Value: Additional Finding Identifier
+  #radiology_file
   magnetic_field_strength:
     Desc: magnetic_field_strength
     Term:
@@ -10,7 +17,7 @@ PropDefinitions:
     Req: true
     Key: false
     Private: false
-  #scanner_manufacturer
+  #radiology_file
   scanner_manufacturer:
     Desc: scanner_manufacturer
     Term:
@@ -21,7 +28,7 @@ PropDefinitions:
     Req: true
     Key: false
     Private: false
-  #scanner_model
+  #radiology_file
   scanner_model:
     Desc: scanner_model
     Term:
@@ -32,7 +39,7 @@ PropDefinitions:
     Req: true
     Key: false
     Private: false
-  #imaging_frequency
+  #radiology_file
   imaging_frequency:
     Desc: imaging_frequency
     Term:
@@ -43,7 +50,7 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
-  #repetition_time
+  #radiology_file
   repetition_time:
     Desc: repetition_time
     Term:
@@ -54,7 +61,7 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
-  #echo_time
+  #radiology_file
   echo_time:
     Desc: echo_time
     Term:
@@ -65,7 +72,7 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
-  #inversion_time
+  #radiology_file
   inversion_time:
     Desc: inversion_time
     Term:
@@ -76,7 +83,7 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
-  #flip_angle
+  #radiology_file
   flip_angle:
     Desc: flip_angle
     Term:
@@ -87,7 +94,7 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
-  #pixel_spacing
+  #radiology_file
   pixel_spacing:
     Desc: pixel_spacing
     Term:
@@ -98,7 +105,7 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
-  #slice_thickness
+  #radiology_file
   slice_thickness:
     Desc: slice_thickness
     Term:
@@ -109,7 +116,7 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
-  #echoPulseSequenceCategoryCode
+  #radiology_file
   echoPulseSequenceCategoryCode:
     Desc: echoPulseSequenceCategoryCode
     Term:
@@ -120,7 +127,7 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
-  #diffusionBValue
+  #radiology_file
   diffusionBValue:
     Desc: diffusionBValue
     Term:
@@ -131,7 +138,7 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
-  #diffusionDirectionalityCode
+  #radiology_file
   diffusionDirectionalityCode:
     Desc: diffusionDirectionalityCode
     Term:
@@ -142,7 +149,7 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
-  #resonantNucleusCode
+  #radiology_file
   resonantNucleusCode:
     Desc: resonantNucleusCode
     Term:
@@ -153,7 +160,7 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
-  #acquisitionContrastCode
+  #radiology_file
   acquisitionContrastCode:
     Desc: acquisitionContrastCode
     Term:
@@ -164,7 +171,7 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
-  #inversionRecoveryIndicator
+  #radiology_file
   inversionRecoveryIndicator:
     Desc: inversionRecoveryIndicator
     Term:
@@ -175,7 +182,7 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
-  #pulseSequenceName
+  #radiology_file
   pulseSequenceName:
     Desc: pulseSequenceName
     Term:

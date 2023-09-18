@@ -440,11 +440,11 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: cytogenomic_file_file
+      - Src: cytogenomic_file
         Dst: cell_line
-      - Src: cytogenomic_file_file
+      - Src: cytogenomic_file
         Dst: pdx
-      - Src: cytogenomic_file_file
+      - Src: cytogenomic_file
         Dst: sample
   of_diagnosis: 
     Props: null

@@ -7,6 +7,7 @@ PropDefinitions:
         Code: '2534569'
         Value: Additional Finding Identifier
     Type: string
+    Key: true
     Req: true
     Private: false
   #cytogenomic_file

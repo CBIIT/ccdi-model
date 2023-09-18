@@ -458,6 +458,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false
+  #exposure
   alcohol_drinks_per_day:
     Desc: Numeric value used to describe the average number of alcoholic beverages a person consumes per day.
     Term:
@@ -467,6 +468,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false
+  #exposure
   alcohol_history:
     Desc: A response to a question that asks whether the participant has consumed at least 12 drinks of any kind of alcoholic beverage in their lifetime.
     Term:
@@ -481,6 +483,7 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
+  #exposure
   alcohol_intensity:
     Desc: Category to describe the patient's current level of alcohol use as self-reported by the patient.
     Term:
@@ -498,6 +501,7 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
+  #exposure
   asbestos_exposure:
     Desc: The yes/no/unknown indicator used to describe whether the patient was exposed to asbestos.
     Term:
@@ -512,6 +516,7 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
+  #exposure
   cigarettes_per_day:
     Desc: The average number of cigarettes smoked per day.
     Term:
@@ -521,6 +526,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false
+  #exposure
   coal_dust_exposure:
     Desc: The yes/no/unknown indicator used to describe whether a patient was exposed to fine powder derived by the crushing of coal.
     Term:
@@ -535,6 +541,7 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
+  #exposure
   environmental_tobacco_smoke_exposure:
     Desc: The yes/no/unknown indicator used to describe whether a patient was exposed to smoke that is emitted from burning tobacco, including cigarettes, pipes, and cigars. This includes tobacco smoke exhaled by smokers.
     Term:
@@ -549,6 +556,7 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
+  #exposure
   radon_exposure:
     Desc: The yes/no/unknown indicator used to describe whether the patient was exposed to radon.
     Term:
@@ -563,6 +571,7 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
+  #exposure
   respirable_crystalline_silica_exposure:
     Desc: The yes/no/unknown indicator used to describe whether a patient was exposured to respirable crystalline silica, a widespread, naturally occurring, crystalline metal oxide that consists of different forms including quartz, cristobalite, tridymite, tripoli, ganister, chert and novaculite.
     Term:
@@ -577,6 +586,7 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
+  #exposure
   smoking_frequency:
     Desc: The text term used to generally decribe how often the patient smokes.
     Term:
@@ -590,6 +600,7 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
+  #exposure
   time_between_waking_and_first_smoke:
     Desc: The text term used to describe the approximate amount of time elapsed between the time the patient wakes up in the morning to the time they smoke their first cigarette.
     Term:
@@ -605,6 +616,7 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
+  #exposure
   tobacco_smoking_onset_year:
     Desc: The year in which the participant began smoking.
     Term:
@@ -614,6 +626,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false
+  #exposure
   tobacco_smoking_quit_year:
     Desc: The year in which the participant quit smoking.
     Term:
@@ -623,6 +636,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false
+  #exposure
   tobacco_smoking_status:
     Desc: Category describing current smoking status and smoking history as self-reported by a patient
     Term:
@@ -641,6 +655,7 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
+  #exposure
   type_of_smoke_exposure:
     Desc: The text term used to describe the patient's specific type of smoke exposure.
     Term:
@@ -702,6 +717,7 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
+  #exposure
   type_of_tobacco_used:
     Desc: The text term used to describe the specific type of tobacco used by the patient.
     Term:
@@ -717,335 +733,6 @@ PropDefinitions:
         - "Other"
         - "Pipe"
         - "Smokeless Tobacco"
-    Req: false
-    Strict: true
-    Private: false
-  #molecular_test
-  molecular_test_id:
-    Desc: An internal or external identifier such as specimen identifier.
-    Term:
-      - Origin: caDSR
-        Code: '2555531'
-        Value: molecular_test_id
-    Type: string
-    Req: true
-    Private: false
-    Key: true
-  age_at_molecular_test:
-    Desc:  The age of an individual when the laboratory test was conducted.
-    Term:
-      - Origin: NCIt
-        Code: 'C192254'
-        Value: Age at Laboratory Test
-    Type: integer
-    Req: true
-    Private: false
-  gene_symbol:
-    Desc: The text term used to describe a gene targeted or included in molecular analysis. For rearrangements, this is shold be used to represent the reference gene.
-    Term:
-      - Origin: caDSR
-        Code: '6142392'
-        Value: gene_symbol
-    Type: string
-    Req: false
-    Private: false
-  molecular_analysis_method:
-    Desc: The text term used to describe the method used for molecular analysis.
-    Term:
-      - Origin: caDSR
-        Code: '6142401'
-        Value: molecular_analysis_method
-    Enum:
-      - "Comparative Genomic Hybridization"
-      - "Cytogenetics, NOS"
-      - "FISH"
-      - "Flow Cytometry"
-      - "IHC"
-      - "ISH"
-      - "Karyotype"
-      - "Microarray"
-      - "Microsatellite Analysis"
-      - "Nuclear Staining"
-      - "Other"
-      - "RNA Sequencing"
-      - "RT-PCR"
-      - "Sequencing, NOS"
-      - "Southern Blotting"
-      - "Targeted Sequencing"
-      - "WGS"
-      - "WXS"
-      - "Unknown"
-      - "Not Reported"
-      - "Not Applicable"
-    Req: false
-    Strict: false
-    Private: false
-  test_result:
-    Desc: The text term used to describe the result of the molecular test. If the test result was a numeric value see test_value.
-    Term:
-      - Origin: caDSR
-        Code: '6142397'
-        Value: test_result
-    Enum:
-      - "Absolute Neutrophil"
-      - "Albumin"
-      - "Alpha Fetoprotein"
-      - "Neutrophil Bands"
-      - "Basophil"
-      - "Beta 2 Microglobulin"
-      - "Myeloblasts"
-      - "Lymphoblasts"
-      - "Blood Urea Nitrogen"
-      - "Calcium"
-      - "Cellularity"
-      - "Creatinine"
-      - "C-Reactive Protein"
-      - "Eosinophil"
-      - "Glucose"
-      - "Hematocrit"
-      - "Hemoglobin"
-      - "Human Chorionic Gonadotropin"
-      - "Immunoglobulin A"
-      - "Immunoglobulin G"
-      - "Immunoglobulin M"
-      - "Lactate Dehydrogenase"
-      - "Leukocytes"
-      - "Luteinizing Hormone"
-      - "Lymphocytes"
-      - "M Protein"
-      - "Metamyelocytes"
-      - "Myelocytes"
-      - "Platelets"
-      - "Prolymphocytes"
-      - "Promonocytes"
-      - "Promyelocytes"
-      - "Segmented Neutrophil"
-      - "Serum Free Immunoglobulin Light Chain, Kappa"
-      - "Serum Free Immunoglobulin Light Chain, Lambda"
-      - "Serum Free Immunoglobulin Light Chain, NOS"
-      - "Testosterone"
-      - "Total Bilirubin"
-      - "Total Protein"
-      - "Unknown"
-      - "Not Reported"
-    Req: false
-    Strict: false
-    Private: false
-  aa_change:
-    Desc: Alphanumeric value used to describe the amino acid change for a specific genetic variant. Example R116Q.
-    Term:
-      - Origin: caDSR
-        Code: '6142508'
-        Value: aa_change
-    Type: string
-    Req: false
-    Private: false
-  antigen:
-    Desc: The text term used to describe an antigen included in molecular testing.
-    Term:
-      - Origin: caDSR
-        Code: '6142523'
-        Value: antigen
-    Enum:
-      - "BCL6"
-      - "CA-125"
-      - "CA19-9"
-      - "CCND1"
-      - "CD10"
-      - "CD117"
-      - "CD138"
-      - "CD14"
-      - "CD15"
-      - "CD19"
-      - "CD20"
-      - "CD22"
-      - "CD23"
-      - "CD25"
-      - "CD3"
-      - "CD30"
-      - "CD33"
-      - "CD34"
-      - "CD45"
-      - "CD5"
-      - "CD56"
-      - "CD7"
-      - "CD79A"
-      - "CEA"
-      - "HLA-DR"
-      - "Mesothelin"
-      - "NSE"
-      - "Squamous Cell Carcinoma Antigen (SCCA)"
-      - "Unknown"
-      - "Not Reported"
-    Req: false
-    Strict: false
-    Private: false
-  biospecimen_type:
-    Desc: The text term used to describe the biological material used for testing, diagnostic, treatment or research purposes.
-    Term:
-      - Origin: caDSR
-        Code: '6606188'
-        Value: biospecimen_type
-    Enum:
-      - "Blood"
-      - "Bone Marrow"
-      - "Buccal Mucosa"
-      - "Buffy Coat"
-      - "Cerebrospinal Fluid"
-      - "Connective Tissue"
-      - "Embryonic Fluid"
-      - "Embryonic Tissue"
-      - "Feces"
-      - "Granulocyte"
-      - "Muscle Tissue"
-      - "Nerve Tissue"
-      - "Peritoneal Fluid"
-      - "Plasma"
-      - "Pleural Fluid"
-      - "Saliva"
-      - "Serum"
-      - "Skin"
-      - "Soft Tissue"
-      - "Tissue, NOS"
-      - "Urine"
-      - "Unknown"
-      - "Not Reported"
-    Req: false
-    Strict: false
-    Private: false
-  blood_test_normal_range_upper:
-    Desc: Numeric value used to describe the upper limit of the normal range used to describe a healthy individual at the institution where the test was completed.
-    Term:
-      - Origin: caDSR
-        Code: '6142535'
-        Value: blood_test_normal_range_upper
-    Type: integer
-    Req: false
-    Private: false
-  blood_test_normal_range_lower:
-    Desc: Numeric value used to describe the lower limit of the normal range used to describe a healthy individual at the institution where the test was completed.
-    Term:
-      - Origin: caDSR
-        Code: '6142571'
-        Value: blood_test_normal_range_lower
-    Type: integer
-    Req: false
-    Private: false
-  cell_count:
-    Desc: Numeric value used to describe the number of cells used for molecular testing.
-    Term:
-      - Origin: caDSR
-        Code: '6142528'
-        Value: cell_count
-    Type: integer
-    Req: false
-    Private: false
-  chromosome:
-    Desc: The text term used to describe a chromosome targeted or included in molecular testing. If a specific genetic variant is being reported, this property can be used to capture the chromosome where that variant is located.
-    Term:
-      - Origin: caDSR
-        Code: '6142404'
-        Value: chromosome
-    Enum:
-      - "chr1"
-      - "chr2"
-      - "chr3"
-      - "chr4"
-      - "chr5"
-      - "chr6"
-      - "chr7"
-      - "chr8"
-      - "chr9"
-      - "chr10"
-      - "chr11"
-      - "chr12"
-      - "chr13"
-      - "chr14"
-      - "chr15"
-      - "chr16"
-      - "chr17"
-      - "chr18"
-      - "chr19"
-      - "chr20"
-      - "chr21"
-      - "chr22"
-      - "chr23"
-      - "chrM"
-      - "chrX"
-      - "chrY"
-      - "Unknown"
-      - "Not Reported"
-    Req: false
-    Strict: true
-    Private: false
-  copy_number:
-    Desc: Numeric value used to describe the number of times a section of the genome is repeated or copied within an insertion, duplication or deletion variant.
-    Term:
-      - Origin: caDSR
-        Code: '6142519'
-        Value: copy_number
-    Type: integer
-    Req: false
-    Private: false
-  cytoband:
-    Desc: Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the cytoband where the variant is located. Format [chromosome][chromosome arm].[band+sub-bands]. Example 17p13.1.
-    Term:
-      - Origin: caDSR
-        Code: '6142405'
-        Value: cytoband
-    Type: string
-    Req: false
-    Private: false
-  exon:
-    Desc: Exon number targeted or included in a molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located.
-    Term:
-      - Origin: caDSR
-        Code: '6142411'
-        Value: exon
-    Type: string
-    Req: false
-    Private: false
-  histone_family:
-    Desc: The text term used to describe the family, or classification of a group of basic proteins found in chromatin, called histones.
-    Term:
-      - Origin: caDSR
-        Code: '6142511'
-        Value: histone_family
-    Enum:
-      - "H1"
-      - "H2A"
-      - "H2B"
-      - "H3"
-      - "H4"
-      - "Unknown"
-      - "Not Reported"
-    Req: false
-    Strict: true
-    Private: false
-  histone_variant:
-    Desc: The text term used to describe a specific histone variants, which are proteins that substitute for the core canonical histones.
-    Term:
-      - Origin: caDSR
-        Code: '6142515'
-        Value: histone_variant
-    Enum:
-      - "CENP-A"
-      - "H2A-Bbd"
-      - "H2A.X"
-      - "H2A.Z"
-      - "H2A.Z.1"
-      - "H2A.Z.2"
-      - "H2A.Z.2.2"
-      - "H3.1"
-      - "H3.2"
-      - "H3.3"
-      - "H3.5"
-      - "H3.X"
-      - "H3.Y"
-      - "H3t (H3.4)"
-      - "mH2A"
-      - "mH2A.1"
-      - "mH2A.2"
     Req: false
     Strict: true
     Private: false
@@ -2060,14 +1747,67 @@ PropDefinitions:
     Strict: false
     Private: false
   #molecular_test
-  intron:
-    Desc: Intron number targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the intron where that variant is located.
+  molecular_test_id:
+    Desc: An internal or external identifier such as specimen identifier.
     Term:
       - Origin: caDSR
-        Code: '6514355'
-        Value: intron
+        Code: '2555531'
+        Value: molecular_test_id
+    Type: string
+    Req: true
+    Private: false
+    Key: true
+  #molecular_test
+  age_at_molecular_test:
+    Desc:  The age of an individual when the laboratory test was conducted.
+    Term:
+      - Origin: NCIt
+        Code: 'C192254'
+        Value: Age at Laboratory Test
+    Type: integer
+    Req: true
+    Private: false
+  #molecular_test
+  gene_symbol:
+    Desc: The text term used to describe a gene targeted or included in molecular analysis. For rearrangements, this is shold be used to represent the reference gene.
+    Term:
+      - Origin: caDSR
+        Code: '6142392'
+        Value: gene_symbol
     Type: string
     Req: false
+    Private: false
+  #molecular_test
+  molecular_analysis_method:
+    Desc: The text term used to describe the method used for molecular analysis.
+    Term:
+      - Origin: caDSR
+        Code: '6142401'
+        Value: molecular_analysis_method
+    Enum:
+      - "Comparative Genomic Hybridization"
+      - "Cytogenetics, NOS"
+      - "FISH"
+      - "Flow Cytometry"
+      - "IHC"
+      - "ISH"
+      - "Karyotype"
+      - "Microarray"
+      - "Microsatellite Analysis"
+      - "Nuclear Staining"
+      - "Other"
+      - "RNA Sequencing"
+      - "RT-PCR"
+      - "Sequencing, NOS"
+      - "Southern Blotting"
+      - "Targeted Sequencing"
+      - "WGS"
+      - "WXS"
+      - "Unknown"
+      - "Not Reported"
+      - "Not Applicable"
+    Req: false
+    Strict: false
     Private: false
   #molecular_test
   laboratory_test:
@@ -2120,6 +1860,285 @@ PropDefinitions:
       - "Not Reported"
     Req: false
     Strict: false
+    Private: false
+  #molecular_test
+  test_result_numeric:
+    Desc: The text term used to describe a specific result of a molecular test.
+    Term:
+      - Origin: caDSR
+        Code: '13336306'
+        Value: Laboratory Procedure Numeric Test Result
+    Type: string
+    Req: false
+    Private: false
+  #molecular_test
+  test_result_text:
+    Desc: The text term used to describe a specific result of a molecular test.
+    Term:
+      - Origin: caDSR
+        Code: '13362271'
+        Value: Laboratory Procedure Test Result Text
+    Type: string
+    Req: false
+    Private: false
+  #molecular_test
+  test_unit:
+    Desc: The text term used to describe the units of the test value for a molecular test. This property is used in conjunction with test_result.
+    Term:
+      - Origin: caDSR
+        Code: '2179671'
+        Value: Lab Test Result Unit of Measure Code
+    Type: string
+    Req: false
+    Private: false
+  #molecular_test
+  transcript:
+    Desc: Alphanumeric value used to describe the transcript of a specific genetic variant.
+    Term:
+      - Origin: caDSR
+        Code: '6142465'
+        Value: transcript
+    Type: string
+    Req: false
+    Private: false  #molecular_test
+  aa_change:
+    Desc: Alphanumeric value used to describe the amino acid change for a specific genetic variant. Example R116Q.
+    Term:
+      - Origin: caDSR
+        Code: '6142508'
+        Value: aa_change
+    Type: string
+    Req: false
+    Private: false
+  #molecular_test
+  antigen:
+    Desc: The text term used to describe an antigen included in molecular testing.
+    Term:
+      - Origin: caDSR
+        Code: '6142523'
+        Value: antigen
+    Enum:
+      - "BCL6"
+      - "CA-125"
+      - "CA19-9"
+      - "CCND1"
+      - "CD10"
+      - "CD117"
+      - "CD138"
+      - "CD14"
+      - "CD15"
+      - "CD19"
+      - "CD20"
+      - "CD22"
+      - "CD23"
+      - "CD25"
+      - "CD3"
+      - "CD30"
+      - "CD33"
+      - "CD34"
+      - "CD45"
+      - "CD5"
+      - "CD56"
+      - "CD7"
+      - "CD79A"
+      - "CEA"
+      - "HLA-DR"
+      - "Mesothelin"
+      - "NSE"
+      - "Squamous Cell Carcinoma Antigen (SCCA)"
+      - "Unknown"
+      - "Not Reported"
+    Req: false
+    Strict: false
+    Private: false
+  #molecular_test
+  biospecimen_type:
+    Desc: The text term used to describe the biological material used for testing, diagnostic, treatment or research purposes.
+    Term:
+      - Origin: caDSR
+        Code: '6606188'
+        Value: biospecimen_type
+    Enum:
+      - "Blood"
+      - "Bone Marrow"
+      - "Buccal Mucosa"
+      - "Buffy Coat"
+      - "Cerebrospinal Fluid"
+      - "Connective Tissue"
+      - "Embryonic Fluid"
+      - "Embryonic Tissue"
+      - "Feces"
+      - "Granulocyte"
+      - "Muscle Tissue"
+      - "Nerve Tissue"
+      - "Peritoneal Fluid"
+      - "Plasma"
+      - "Pleural Fluid"
+      - "Saliva"
+      - "Serum"
+      - "Skin"
+      - "Soft Tissue"
+      - "Tissue, NOS"
+      - "Urine"
+      - "Unknown"
+      - "Not Reported"
+    Req: false
+    Strict: false
+    Private: false
+  #molecular_test
+  blood_test_normal_range_upper:
+    Desc: Numeric value used to describe the upper limit of the normal range used to describe a healthy individual at the institution where the test was completed.
+    Term:
+      - Origin: caDSR
+        Code: '6142535'
+        Value: blood_test_normal_range_upper
+    Type: integer
+    Req: false
+    Private: false
+  #molecular_test
+  blood_test_normal_range_lower:
+    Desc: Numeric value used to describe the lower limit of the normal range used to describe a healthy individual at the institution where the test was completed.
+    Term:
+      - Origin: caDSR
+        Code: '6142571'
+        Value: blood_test_normal_range_lower
+    Type: integer
+    Req: false
+    Private: false
+  #molecular_test
+  cell_count:
+    Desc: Numeric value used to describe the number of cells used for molecular testing.
+    Term:
+      - Origin: caDSR
+        Code: '6142528'
+        Value: cell_count
+    Type: integer
+    Req: false
+    Private: false
+  #molecular_test
+  chromosome:
+    Desc: The text term used to describe a chromosome targeted or included in molecular testing. If a specific genetic variant is being reported, this property can be used to capture the chromosome where that variant is located.
+    Term:
+      - Origin: caDSR
+        Code: '6142404'
+        Value: chromosome
+    Enum:
+      - "chr1"
+      - "chr2"
+      - "chr3"
+      - "chr4"
+      - "chr5"
+      - "chr6"
+      - "chr7"
+      - "chr8"
+      - "chr9"
+      - "chr10"
+      - "chr11"
+      - "chr12"
+      - "chr13"
+      - "chr14"
+      - "chr15"
+      - "chr16"
+      - "chr17"
+      - "chr18"
+      - "chr19"
+      - "chr20"
+      - "chr21"
+      - "chr22"
+      - "chr23"
+      - "chrM"
+      - "chrX"
+      - "chrY"
+      - "Unknown"
+      - "Not Reported"
+    Req: false
+    Strict: true
+    Private: false
+  #molecular_test
+  copy_number:
+    Desc: Numeric value used to describe the number of times a section of the genome is repeated or copied within an insertion, duplication or deletion variant.
+    Term:
+      - Origin: caDSR
+        Code: '6142519'
+        Value: copy_number
+    Type: integer
+    Req: false
+    Private: false
+  #molecular_test
+  cytoband:
+    Desc: Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the cytoband where the variant is located. Format [chromosome][chromosome arm].[band+sub-bands]. Example 17p13.1.
+    Term:
+      - Origin: caDSR
+        Code: '6142405'
+        Value: cytoband
+    Type: string
+    Req: false
+    Private: false
+  #molecular_test
+  exon:
+    Desc: Exon number targeted or included in a molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located.
+    Term:
+      - Origin: caDSR
+        Code: '6142411'
+        Value: exon
+    Type: string
+    Req: false
+    Private: false
+  #molecular_test
+  histone_family:
+    Desc: The text term used to describe the family, or classification of a group of basic proteins found in chromatin, called histones.
+    Term:
+      - Origin: caDSR
+        Code: '6142511'
+        Value: histone_family
+    Enum:
+      - "H1"
+      - "H2A"
+      - "H2B"
+      - "H3"
+      - "H4"
+      - "Unknown"
+      - "Not Reported"
+    Req: false
+    Strict: true
+    Private: false
+  #molecular_test
+  histone_variant:
+    Desc: The text term used to describe a specific histone variants, which are proteins that substitute for the core canonical histones.
+    Term:
+      - Origin: caDSR
+        Code: '6142515'
+        Value: histone_variant
+    Enum:
+      - "CENP-A"
+      - "H2A-Bbd"
+      - "H2A.X"
+      - "H2A.Z"
+      - "H2A.Z.1"
+      - "H2A.Z.2"
+      - "H2A.Z.2.2"
+      - "H3.1"
+      - "H3.2"
+      - "H3.3"
+      - "H3.5"
+      - "H3.X"
+      - "H3.Y"
+      - "H3t (H3.4)"
+      - "mH2A"
+      - "mH2A.1"
+      - "mH2A.2"
+    Req: false
+    Strict: true
+    Private: false
+  #molecular_test
+  intron:
+    Desc: Intron number targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the intron where that variant is located.
+    Term:
+      - Origin: caDSR
+        Code: '6514355'
+        Value: intron
+    Type: string
+    Req: false
     Private: false
   #molecular_test
   loci_abnormal_count:
@@ -2282,36 +2301,6 @@ PropDefinitions:
       - "Not Reported"
     Req: false
     Strict: true
-    Private: false
-  #molecular_test
-  test_units:
-    Desc: The text term used to describe the units of the test value for a molecular test. This property is used in conjunction with test_value.
-    Term:
-      - Origin: caDSR
-        Code: '6142525'
-        Value: test_units
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
-  test_value:
-    Desc: The text term or numeric value used to describe a specific result of a molecular test.
-    Term:
-      - Origin: caDSR
-        Code: '6142524'
-        Value: test_value
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
-  transcript:
-    Desc: Alphanumeric value used to describe the transcript of a specific genetic variant.
-    Term:
-      - Origin: caDSR
-        Code: '6142465'
-        Value: transcript
-    Type: string
-    Req: false
     Private: false
   #molecular_test
   variant_origin:

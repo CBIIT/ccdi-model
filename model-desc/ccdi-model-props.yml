@@ -642,7 +642,7 @@ PropDefinitions:
     Desc: Category describing current smoking status and smoking history as self-reported by a patient
     Term:
       - Origin: caDSR
-        Code: '2181650'
+        Code: '6787413'
         Value: tobacco_smoking_status
     Enum:
       - "1 (Lifelong Non-Smoker)"

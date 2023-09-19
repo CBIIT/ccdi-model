@@ -5436,8 +5436,10 @@ PropDefinitions:
       - "Illumina"
       - "Ion Torrent"
       - "LS 454"
+      - "MGI"
       - "Oxford Nanopore"
       - "PacBio SMRT"
+      - "Other"
     Req: true
     Strict: true
     Private: false
@@ -5467,6 +5469,7 @@ PropDefinitions:
       - "AB SOLiD 4"
       - "BGISEQ-500"
       - "Complete Genomics"
+      - "DNBSEQ-G400,"
       - "GridION"
       - "HeliScope"
       - "HiSeq X Five"
@@ -5483,6 +5486,7 @@ PropDefinitions:
       - "Illumina HiSeq 4000"
       - "Illumina HiSeq X Five"
       - "Illumina HiSeq X Ten"
+      - "Illumina HiSeq"
       - "Illumina MiniSeq"
       - "Illumina MiSeq"
       - "Illumina NextSeq"
@@ -5495,11 +5499,11 @@ PropDefinitions:
       - "MinION"
       - "NextSeq 500"
       - "NextSeq 550"
-      - "Not Reported"
-      - "Other"
       - "PacBio RS"
       - "PacBio RS II"
       - "PromethION"
+      - "Not Reported"
+      - "Other"
       - "Unknown"
     Req: true
     Strict: true

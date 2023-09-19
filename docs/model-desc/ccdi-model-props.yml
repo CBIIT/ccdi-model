@@ -207,6 +207,116 @@ PropDefinitions:
     Req: false
     Key: false
     Private: false
+  #radiology_file
+  multipleSpinEchoIndicator:
+    Desc: multipleSpinEchoIndicator
+    Term:
+      - Origin: DICOM
+        Code: '0018,9011'
+        Value: multipleSpinEchoIndicator
+    Type: string
+    Req: false
+    Key: false
+    Private: false    
+  #radiology_file
+  phaseContrastIndicator:
+    Desc: phaseContrastIndicator
+    Term:
+      - Origin: DICOM
+        Code: '0018,9014'
+        Value: phaseContrastIndicator
+    Type: string
+    Req: false
+    Key: false
+    Private: false     
+  #radiology_file
+  timeOfFlightContrastIndicator:
+    Desc: timeOfFlightContrastIndicator
+    Term:
+      - Origin: DICOM
+        Code: '0018,9015'
+        Value: timeOfFlightContrastIndicator
+    Type: string
+    Req: false
+    Key: false
+    Private: false   
+  #radiology_file
+  arterialSpinLabelingContrastCode:
+    Desc: arterialSpinLabelingContrastCode
+    Term:
+      - Origin: DICOM
+        Code: '0018,9250'
+        Value: arterialSpinLabelingContrastCode
+    Type: string
+    Req: false
+    Key: false
+    Private: false 
+  #radiology_file
+  steadyStatePulseSequenceCode:
+    Desc: steadyStatePulseSequenceCode
+    Term:
+      - Origin: DICOM
+        Code: '0018,9017'
+        Value: steadyStatePulseSequenceCode
+    Type: string
+    Req: false
+    Key: false
+    Private: false   
+  #radiology_file
+  echoPlanarPulseSequenceIndicator:
+    Desc: echoPlanarPulseSequenceIndicator
+    Term:
+      - Origin: DICOM
+        Code: '0018,9018'
+        Value: echoPlanarPulseSequenceIndicator
+    Type: string
+    Req: false
+    Key: false
+    Private: false     
+  #radiology_file
+  saturationRecoveryIndicator:
+    Desc: saturationRecoveryIndicator
+    Term:
+      - Origin: DICOM
+        Code: '0018,9024'
+        Value: saturationRecoveryIndicator
+    Type: string
+    Req: false
+    Key: false
+    Private: false   
+  #radiology_file  
+  spectrallySelectedSuppressionCode:
+    Desc: spectrallySelectedSuppressionCode
+    Term:
+      - Origin: DICOM
+        Code: '0018,9025'
+        Value: spectrallySelectedSuppressionCode
+    Type: string
+    Req: false
+    Key: false
+    Private: false  
+  #radiology_file
+  mrImageReconstructionProtocolElement:
+    Desc: mrImageReconstructionProtocolElement
+    Term:
+      - Origin: DICOM
+        Code: '0018,9933'
+        Value: mrImageReconstructionProtocolElement
+    Type: string
+    Req: false
+    Key: false
+    Private: false  
+  #radiology_file
+  complexImageComponentCode:
+    Desc: complexImageComponentCode
+    Term:
+      - Origin: DICOM
+        Code: '0008,9208'
+        Value: complexImageComponentCode
+    Type: string
+    Req: false
+    Key: false
+    Private: false 
   #id
   id:
     Desc: One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.
@@ -642,7 +752,7 @@ PropDefinitions:
     Desc: Category describing current smoking status and smoking history as self-reported by a patient
     Term:
       - Origin: caDSR
-        Code: '2181650'
+        Code: '6787413'
         Value: tobacco_smoking_status
     Enum:
       - "1 (Lifelong Non-Smoker)"

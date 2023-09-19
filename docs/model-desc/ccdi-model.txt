@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 9180b28
+commit 535fa2b
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -1783,8 +1783,8 @@ publication	id	STRING
 publication	publication_id	STRING
 publication	pubmed_id	STRING
 radiology_file	acquisitionContrastCode	STRING
-radiology_file	arterialSpinLabelingContrastCode	NA
-radiology_file	complexImageComponentCode	NA
+radiology_file	arterialSpinLabelingContrastCode	STRING
+radiology_file	complexImageComponentCode	STRING
 radiology_file	dcf_indexd_guid	STRING
 radiology_file	deidentification_method	Not applicable
 radiology_file	deidentification_method	automatic
@@ -1792,7 +1792,7 @@ radiology_file	deidentification_method	manual
 radiology_file	deidentification_method	semiautomatic
 radiology_file	diffusionBValue	STRING
 radiology_file	diffusionDirectionalityCode	STRING
-radiology_file	echoPlanarPulseSequenceIndicator	NA
+radiology_file	echoPlanarPulseSequenceIndicator	STRING
 radiology_file	echoPulseSequenceCategoryCode	STRING
 radiology_file	echo_time	STRING
 radiology_file	file_description	STRING
@@ -1863,22 +1863,22 @@ radiology_file	inversionRecoveryIndicator	STRING
 radiology_file	inversion_time	STRING
 radiology_file	magnetic_field_strength	STRING
 radiology_file	md5sum	STRING
-radiology_file	mrImageReconstructionProtocolElement	NA
-radiology_file	multipleSpinEchoIndicator	NA
+radiology_file	mrImageReconstructionProtocolElement	STRING
+radiology_file	multipleSpinEchoIndicator	STRING
 radiology_file	participant_age_at_imaging	INTEGER
-radiology_file	phaseContrastIndicator	NA
+radiology_file	phaseContrastIndicator	STRING
 radiology_file	pixel_spacing	STRING
 radiology_file	pulseSequenceName	STRING
 radiology_file	radiology_file_id	STRING
 radiology_file	repetition_time	STRING
 radiology_file	resonantNucleusCode	STRING
-radiology_file	saturationRecoveryIndicator	NA
+radiology_file	saturationRecoveryIndicator	STRING
 radiology_file	scanner_manufacturer	STRING
 radiology_file	scanner_model	STRING
 radiology_file	slice_thickness	STRING
-radiology_file	spectrallySelectedSuppressionCode	NA
-radiology_file	steadyStatePulseSequenceCode	NA
-radiology_file	timeOfFlightContrastIndicator	NA
+radiology_file	spectrallySelectedSuppressionCode	STRING
+radiology_file	steadyStatePulseSequenceCode	STRING
+radiology_file	timeOfFlightContrastIndicator	STRING
 sample	age_at_last_known_disease_status	INTEGER
 sample	alternate_sample_id	STRING
 sample	diagnosis_finer_resolution	STRING
@@ -2701,45 +2701,45 @@ therapeutic_procedure	treatment_type	Targeted Molecular Therapy
 therapeutic_procedure	treatment_type	Unknown
 
 relationship	source_node	destination_node	property	value_or_TYPE
-of_cell_line	cell_line	study	NA	NA
 of_cell_line	cell_line	participant	NA	NA
 of_cell_line	cell_line	sample	NA	NA
+of_cell_line	cell_line	study	NA	NA
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_clinical_measure_file_participant	clinical_measure_file	participant	NA	NA
+of_cytogenomic_file	cytogenomic_file	sample	NA	NA
 of_cytogenomic_file	cytogenomic_file	pdx	NA	NA
 of_cytogenomic_file	cytogenomic_file	cell_line	NA	NA
-of_cytogenomic_file	cytogenomic_file	sample	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
 of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
 of_follow_up	follow_up	participant	NA	NA
 of_medical_history	medical_history	participant	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
-of_methylation_array_file	methylation_array_file	pdx	NA	NA
 of_methylation_array_file	methylation_array_file	cell_line	NA	NA
+of_methylation_array_file	methylation_array_file	pdx	NA	NA
 of_molecular_test	molecular_test	participant	NA	NA
 of_participant	participant	study	NA	NA
+of_pathology_file	pathology_file	sample	NA	NA
 of_pathology_file	pathology_file	pdx	NA	NA
 of_pathology_file	pathology_file	cell_line	NA	NA
-of_pathology_file	pathology_file	sample	NA	NA
-of_pdx	pdx	study	NA	NA
 of_pdx	pdx	sample	NA	NA
+of_pdx	pdx	study	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
 of_sample	sample	participant	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
-of_sequencing_file	sequencing_file	cell_line	NA	NA
 of_sequencing_file	sequencing_file	pdx	NA	NA
-of_single_cell_sequencing_file	single_cell_sequencing_file	cell_line	NA	NA
+of_sequencing_file	sequencing_file	cell_line	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	pdx	NA	NA
+of_single_cell_sequencing_file	single_cell_sequencing_file	cell_line	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	participant	NA	NA
 of_synonym	synonym	study	NA	NA
 of_synonym	synonym	sample	NA	NA
+of_synonym	synonym	participant	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
@@ -2785,6 +2785,7 @@ alternate_participant_id	A synonymous or alternate ID for a participant that is 
 alternate_sample_id	A synonymous or alternate ID for a sample that is stored in another study or repository.
 anatomic_site	The location within the body where cancer begins as captured in the topography codes of the International Classification of Diseases for Oncology, 3rd Edition (ICD-O-3).
 antigen	The text term used to describe an antigen included in molecular testing.
+arterialSpinLabelingContrastCode	arterialSpinLabelingContrastCode
 asbestos_exposure	The yes/no/unknown indicator used to describe whether the patient was exposed to asbestos.
 avg_read_length	The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.
 biospecimen_type	The text term used to describe the biological material used for testing, diagnostic, treatment or research purposes.
@@ -2805,6 +2806,7 @@ clinical_trial_repository	The name of the organization that provides the clinica
 coal_dust_exposure	The yes/no/unknown indicator used to describe whether a patient was exposed to fine powder derived by the crushing of coal.
 comorbidity	The text term used to describe a comorbidity disease, which coexists with the patient's malignant disease.
 comorbidity_method_of_diagnosis	The text term used to describe the method used to diagnose the patient's comorbidity disease.
+complexImageComponentCode	complexImageComponentCode
 consent	The human readable value of the consent group as designated by dbGaP, examples GRU, HMB, IRB, NPU, etc.
 consent_number	The numeric value of the consent group as designated by dbGaP full accession identifier, phs######.v#.p#.c#.
 copy_number	Numeric value used to describe the number of times a section of the genome is repeated or copied within an insertion, duplication or deletion variant.
@@ -2825,6 +2827,7 @@ diffusionBValue	diffusionBValue
 diffusionDirectionalityCode	diffusionDirectionalityCode
 disease_phase	The stage or period of an individual's treatment process during which relevant observations were recorded.
 disease_response	Code assigned to describe the patient's response or outcome to the disease.
+echoPlanarPulseSequenceIndicator	echoPlanarPulseSequenceIndicator
 echoPulseSequenceCategoryCode	echoPulseSequenceCategoryCode
 echo_time	echo_time
 email_address	The email address of the personnel.
@@ -2889,6 +2892,8 @@ molecular_analysis_method	The text term used to describe the method used for mol
 molecular_consequence	The text term used to describe the molecular consequence of genetic variation.
 molecular_test_id	An internal or external identifier such as specimen identifier.
 mouse_strain	The host mouse strain to which the tumor is engrafted. May become an enum if terms are provided.
+mrImageReconstructionProtocolElement	mrImageReconstructionProtocolElement
+multipleSpinEchoIndicator	multipleSpinEchoIndicator
 number_of_bp	Count of unique basecalls present in the data. Please count each base only once if using secondary alignments.
 number_of_participants	The number of participants in the study for a disease, disorder, condition, or problem.
 number_of_reads	Count of the number of reads in the data. Please count each read only once if using secondary alignments.
@@ -2904,6 +2909,7 @@ pathology_file_id	A unique identifier for a pathology file.
 pdx_id	A unique identifier for a pdx.
 personnel_name	The name of personnel who is an organizer in the study.
 personnel_type	The role of personnel in the study.
+phaseContrastIndicator	phaseContrastIndicator
 phs_accession	A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP).
 pixel_spacing	pixel_spacing
 platform	The words used to describe the instrument used to carry out a high-throughput sequencing experiment.
@@ -2926,6 +2932,7 @@ risk_factor	The text term used to describe a risk factor the patient had at the 
 sample_description	Text description of a sample or specimen.
 sample_id	A unique sequence of alphanumeric characters used to identify the sample in the investigation or study.
 sample_tumor_status	Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue.
+saturationRecoveryIndicator	saturationRecoveryIndicator
 scanner_manufacturer	scanner_manufacturer
 scanner_model	scanner_model
 second_exon	The second exon number involved in molecular variation. If a specific genetic variant is being reported, this property can be used to capture the second exon where that variant is located. This property is typically used for a translocation where two different locations are involved in the variation.
@@ -2938,7 +2945,9 @@ slice_thickness	slice_thickness
 smoking_frequency	The text term used to generally decribe how often the patient smokes.
 source	Cell line source
 specialized_molecular_test	Text term used to describe a specific test that is not covered in the list of molecular analysis methods.
+spectrallySelectedSuppressionCode	spectrallySelectedSuppressionCode
 staining_method	Any of the various methods that use a dye, reagent, or other material for producing coloration in tissues or microorganisms for microscopic examination.
+steadyStatePulseSequenceCode	steadyStatePulseSequenceCode
 study_acronym	A one word acronym to represent the study.
 study_admin_id	A unique sequence of alphanumeric characters used to identify the admin in the investigation or study, which is used for linking metadata.
 study_arm_id	Unique alphanumeric Identifier of a study arm.
@@ -2956,6 +2965,7 @@ test_result_text	The text term used to describe a specific result of a molecular
 test_unit	The text term used to describe the units of the test value for a molecular test. This property is used in conjunction with test_result.
 therapeutic_agents	Text identification of the individual agent(s) used as part of a prior treatment regimen.
 therapeutic_procedure_id	A unique identifier for a therapeutic procedure.
+timeOfFlightContrastIndicator	timeOfFlightContrastIndicator
 time_between_waking_and_first_smoke	The text term used to describe the approximate amount of time elapsed between the time the patient wakes up in the morning to the time they smoke their first cigarette.
 tobacco_smoking_onset_year	The year in which the participant began smoking.
 tobacco_smoking_quit_year	The year in which the participant quit smoking.

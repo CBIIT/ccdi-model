@@ -5691,11 +5691,11 @@ PropDefinitions:
     Private: false
   # study
   study_short_title:
-    Desc: The succinct version of the study title if it exists.
+    Desc: The acronym or abbreviated form of the title for a research data collection.
     Term:
       - Origin: caDSR
-        Code: '3443999'
-        Value: Study Research Identification Title Text
+        Code: '11459812'
+        Value: Study Short Name Text
     Type: string
     Req: true
     Private: false
@@ -5723,11 +5723,11 @@ PropDefinitions:
     Private: false
   # study
   experimental_strategy_and_data_subtype:
-    Desc: The experimental strategy used for the study or the data subtypes that exist in the study.
+    Desc: The type of systematic investigation using controlled observations and measurements to test hypotheses or develop a plan of action based on the facts discovered.
     Term:
-      - Origin: NCIt
-        Code: 'C43622'
-        Value: Experimental Method 
+      - Origin: caDSR
+        Code: '12373576'
+        Value: Research Activity Experimental Method Type 
     Type:
       value_type: list
       Type: string
@@ -5755,24 +5755,24 @@ PropDefinitions:
     Private: false    
   #study_admin
   size_of_data_being_uploaded:
-    Desc: The numerical quantity documenting the physical magnitude of a set of related electronic records.
+    Desc: The measure (in bytes) of how much space a data file takes up on a storage medium.
     Term:
       - Origin: caDSR
-        Code: '6115806'
+        Code: '12373576'
         Value: Data File Size Value
       - Origin: NCIt
         Code: 'C171192'
-        Value: Electronic File Size
+        Value: Electronic Data File Size Integer
     Type: string
     Req: false
     Private: false
   #study_admin
   study_data_types:
-    Desc: The field of study(s) associated with the data collection.
+    Desc: The type of study or experimental data generated for testing or research purposes.
     Term:
       - Origin: caDSR
-        Code: '6944407'
-        Value: Data Collection Discipline Occupation or Discipline Type
+        Code: '12571096'
+        Value: Data Collection Scientific Data Type Category
       - Origin: NCIt
         Code: 'C175886'
         Value: Scientific Data Type
@@ -5789,11 +5789,11 @@ PropDefinitions:
     Private: false
   #study_admin
   study_name:
-    Desc: The name applied to an investigational project, also known as Study Title.
+    Desc: The narrative title used as a textual label for a research data collection.
     Term:
       - Origin: caDSR
-        Code: '3443999'
-        Value: Study Research Identification Title Text
+        Code: '11459810'
+        Value: Study Name Text
     Type: string
     Req: false
     Private: false
@@ -5855,12 +5855,12 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  acl: #populated from a dbGAP query?
-    Desc: Specifies whether the data in a repository is open access or controlled access. 
+  acl:
+    Desc: A free text field used to document whether the data in a repository is open access or controlled access. 
     Term:
-      - Origin: NCIt
-        Code: 'C175887'
-        Value: Open or Controlled Data Access Indicator 
+      - Origin: caDSR
+        Code: '11555664'
+        Value: Electronic Data File Access Level Text 
     Type: string
     Req: true
     Private: false
@@ -5884,25 +5884,25 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  funding_agency: # 0 or many per study
-    Desc: An organization/Sponsor that underwrites financial support for projects of a particular type. Typically, they process applications and award funds to the chosen qualified applicants.
+  funding_agency: 
+    Desc: The name of the funding source organization or sponsor.
     Term:
-      - Origin: NCIt
-        Code: 'C39409'
-        Value: Funding Agency 
+      - Origin: caDSR
+        Code: '11524545'
+        Value: Funding Agency Organization Name Text 
     Type: string
     Req: true
     Private: false
   funding_source_program_name:
-    Desc: The name of the program that is providing funding.
+    Desc: The name of the program assigned by the funding agency.
     Term:
-      - Origin: NCIt
-        Code: 'C166274'
-        Value: Program Name 
+      - Origin: caSDR
+        Code: '11524546'
+        Value: Funding Agency Program Name Text 
     Type: string
     Req: false
     Private: false
-  grant_id: #grant or contract ID, NIH or other
+  grant_id: 
     Desc: Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
     Term:
       - Origin: caDSR
@@ -5913,11 +5913,11 @@ PropDefinitions:
     Private: false
   #study_arm
   study_arm_id:
-    Desc: Unique alphanumeric Identifier of a study arm.
+    Desc: A sequence of characters used to identify, name, or characterize the specific treatment plan within a clinical trial that describes the activities a pediatric subject will be involved in as he or she progresses through the study.
     Term:
       - Origin: caDSR
-        Code: '6380045'
-        Value: Study Arm Identifier
+        Code: '12988910'
+        Value: Study Pediatric Protocol Treatment Arm Identifier
     Type: string
     Req: true
     Private: false 
@@ -5944,7 +5944,11 @@ PropDefinitions:
     Private: false
   #study_arm
   clinical_trial_repository:
-    Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
+    Desc: Organization or research site participating in a type of research study that tests how well new medical treatments or other interventions work in people.
+    Term:
+      - Origin: caDSR
+        Code: '2413202'
+        Value: Clinical Trial Site Identifier
     Type: string
     Req: false
     Private: false        
@@ -5961,24 +5965,48 @@ PropDefinitions:
     Key: true
   # study_personnel
   personnel_name:
-    Desc: The name of personnel who is an organizer in the study.
+    Desc: A unique sequence of alphanumeric characters used to identify the personnel in the investigation or study, which is used for linking metadata.
+    Term:
+      - Origin: caDSR
+        Code: '2663165'
+        Value: Person Name Prefix Abbreviation Text
+      - Origin: caDSR
+        Code: '2179589'
+        Value: A word or group of words indicating a person's first (personal or given) name; the name that precedes the surname. Synonym = Given Name  
+      - Origin: caDSR
+        Code: '2179590'
+        Value: A means of identifying an individual by using a word or group of words indicating a person's middle name.  
+      - Origin: caDSR
+        Code: '2179591'
+        Value: A means of identifying an individual by using a word or group of words indicating a person's last (family) name. Synonym = Last Name, Surname.  
+      - Origin: caDSR
+        Code: '2006475'
+        Value: Text term to represent an individual's position in a family lineage or pedigree.
     Type: string
     Req: true
     Private: false
   # study_personnel
-  personnel_type: #enum: PI, Co-PI, Data Submitter, etc
-    Desc: The role of personnel in the study.
+  personnel_type:
+    Desc: The text that describes the distinguishable characteristics of the action or activity assigned to or required or expected of a person in a formal association with a group or organization.
+    Term:
+      - Origin: caDSR
+        Code: '2201713'
+        Value: Person Affiliation Role Text Type
     Enum:
       - "PI"
       - "Co-PI"
-      - "Data Submitter" # these? 01/26/2022 adeforge
-      - "Data Manager"  # 02/22/2022 adeforge, is this different from a 'Data Submitter'?
+      - "Data Submitter" 
+      - "Data Manager"  
     Req: true
     Strict: false
     Private: false
   # study_personnel
   email_address:
     Desc: The email address of the personnel.
+    Term:
+      - Origin: caDSR
+        Code: '2517550'
+        Value: The string of characters that represents the electronic mail address of a person.
     Type: string
     Req: true
     Private: false

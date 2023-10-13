@@ -3240,6 +3240,7 @@ PropDefinitions:
         - "8148/2 : Glandular intraepithelial neoplasia, high grade"
         - "8149/0 : Canalicular adenoma"
         - "8150/0 : Pancreatic neuroendocrine microadenoma"
+        - "8150/1 : Islet cell tumor, NOS"
         - "8150/3 : Pancreatic neuroendocrine tumor, nonfunctioning"
         - "8151/3 : Insulinoma, NOS"
         - "8152/3 : Glucagonoma"

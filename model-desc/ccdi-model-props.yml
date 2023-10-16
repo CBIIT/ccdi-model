@@ -2533,7 +2533,7 @@ PropDefinitions:
         - "Homozygous"
         - "Nullizygous"
         - "Unknown"
-      - "Not Reported"
+        - "Not Reported"
     Req: false
     Strict: true
     Private: false

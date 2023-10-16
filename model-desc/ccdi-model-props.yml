@@ -366,7 +366,7 @@ PropDefinitions:
         Code: 'C49337'
         Value: Tissue Preparation or Processing Technique
     Type:
-    value_type: list
+      value_type: list
       Enum:
         - "Embedding"
         - "Fixation"

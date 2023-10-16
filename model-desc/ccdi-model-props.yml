@@ -5856,8 +5856,6 @@ PropDefinitions:
         Value: Scientific Data Type
     Type:
       value_type: list
-    Type:
-      value_type: list
       Enum:
           - "Genomic"
           - "Imaging"

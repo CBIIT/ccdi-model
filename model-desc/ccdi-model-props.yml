@@ -2546,8 +2546,6 @@ PropDefinitions:
         Value: Risk Factor 
     Type:
       value_type: list
-    Type:
-      value_type: list
       Enum:
           - "Alcohol Consumption"
           - "Alcoholic Liver Disease"

@@ -632,7 +632,7 @@ PropDefinitions:
         Code: '1253'
         Value: asbestos_exposure
     Type:
-    value_type: list
+      value_type: list
       Enum:
         - "Yes"
         - "No"

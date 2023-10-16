@@ -710,7 +710,7 @@ PropDefinitions:
         Code: 'NA'
         Value: respirable_crystalline_silica_exposure
     Type:
-      value_type: list:
+      value_type: list
       Enum:
         - "Yes"
         - "No"

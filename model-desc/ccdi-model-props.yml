@@ -4326,7 +4326,7 @@ PropDefinitions:
     Private: false  
   #diagnosis, sample
   diagnosis_source:
-    Desc: The source from which the diagnosis value was obtained.
+    Desc: 'The source from which the diagnosis value was obtained.'
     Term:
       - Origin: caDSR
         Code: ''
@@ -4341,8 +4341,8 @@ PropDefinitions:
     Strict: true
     Private: false 
   #diagnosis, sample
-  diagnosis_type: The type of event for which the diagnosis was obtained.
-    Desc: 
+  diagnosis_type: 
+    Desc: 'The type of event for which the diagnosis was obtained.'
     Term:
       - Origin: caDSR
         Code: ''

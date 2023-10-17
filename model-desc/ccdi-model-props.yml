@@ -5769,11 +5769,11 @@ PropDefinitions:
     Private: false
   # study
   study_short_title:
-    Desc: The succinct version of the study title if it exists.
+    Desc: The acronym or abbreviated form of the title for a research data collection.
     Term:
       - Origin: caDSR
-        Code: '3443999'
-        Value: Study Research Identification Title Text
+        Code: '11459812'
+        Value: Study Short Name Text
     Type: string
     Req: true
     Private: false
@@ -5801,16 +5801,16 @@ PropDefinitions:
     Private: false
   # study
   experimental_strategy_and_data_subtype:
-    Desc: The experimental strategy used for the study or the data subtypes that exist in the study.
+    Desc: The type of systematic investigation using controlled observations and measurements to test hypotheses or develop a plan of action based on the facts discovered.
     Term:
-      - Origin: NCIt
-        Code: 'C43622'
-        Value: Experimental Method 
+      - Origin: caDSR
+        Code: '12373576'
+        Value: Research Activity Experimental Method Type 
     Type:
       value_type: list
       Type: string
     Req: false
-    Private: false 
+    Private: false  
   #study_admin
   number_of_participants:
     Desc: The number of participants in the study for a disease, disorder, condition, or problem.
@@ -5833,24 +5833,24 @@ PropDefinitions:
     Private: false    
   #study_admin
   size_of_data_being_uploaded:
-    Desc: The numerical quantity documenting the physical magnitude of a set of related electronic records.
+    Desc: The measure (in bytes) of how much space a data file takes up on a storage medium.
     Term:
       - Origin: caDSR
-        Code: '6115806'
+        Code: '12373576'
         Value: Data File Size Value
       - Origin: NCIt
         Code: 'C171192'
-        Value: Electronic File Size
+        Value: Electronic Data File Size Integer
     Type: string
     Req: false
     Private: false
   #study_admin
   study_data_types:
-    Desc: The field of study(s) associated with the data collection.
+    Desc: The type of study or experimental data generated for testing or research purposes.
     Term:
       - Origin: caDSR
-        Code: '6944407'
-        Value: Data Collection Discipline Occupation or Discipline Type
+        Code: '12571096'
+        Value: Data Collection Scientific Data Type Category
       - Origin: NCIt
         Code: 'C175886'
         Value: Scientific Data Type
@@ -5867,11 +5867,11 @@ PropDefinitions:
     Private: false
   #study_admin
   study_name:
-    Desc: The name applied to an investigational project, also known as Study Title.
+    Desc: The narrative title used as a textual label for a research data collection.
     Term:
       - Origin: caDSR
-        Code: '3443999'
-        Value: Study Research Identification Title Text
+        Code: '11459810'
+        Value: Study Name Text
     Type: string
     Req: false
     Private: false
@@ -5937,12 +5937,12 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  acl: #populated from a dbGAP query?
-    Desc: Specifies whether the data in a repository is open access or controlled access. 
+  acl:
+    Desc: A free text field used to document whether the data in a repository is open access or controlled access. 
     Term:
-      - Origin: NCIt
-        Code: 'C175887'
-        Value: Open or Controlled Data Access Indicator 
+      - Origin: caDSR
+        Code: '11555664'
+        Value: Electronic Data File Access Level Text 
     Type: string
     Req: true
     Private: false

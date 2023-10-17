@@ -5656,11 +5656,11 @@ Terms:
     Value: Tethered Chromatin Conformation Capture
   therapeutic_agents:
     Origin: caDSR
-    Definition: Text identification of the individual agent(s) used as part of a prior
+    Definition: The name of the individual therapeutic agent(s) used as part of a treatment regimen.
       treatment regimen.
-    Code: 2975232
+    Code: 13579886
     Version: '1'
-    Value: Prior Therapy Regimen Text
+    Value: Therapeutic Procedure Agent Name
   Tibia:
     Origin: ICD-O-3.2
     Definition: The major preaxial endochondral bone in the posterior zeugopod.
@@ -5848,8 +5848,7 @@ Terms:
     Value: Treatment Terminated Due to Toxicity
   treatment_outcome:
     Origin: caDSR
-    Definition: The text term that describes the patient's final outcome after the
-      treatment was administered.
+    Definition: The text term that describes the patient's final outcome after the treatment was administered.
     Code: 5102383
     Version: '1'
     Value: Treatment Outcome Type

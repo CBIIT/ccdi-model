@@ -4458,11 +4458,11 @@ PropDefinitions:
     Private: false
   #diagnosis
   age_at_recurrence:
-    Desc: Number of days between the date used for index (DOB) and the date the patient's disease recurred.
+    Desc: The age (in days) of the subject at the time of recurrence.
     Term:
       - Origin: caDSR
-        Code: '6154731'
-        Value: Index Date To Recurrence Day Count
+        Code: '14483684'
+        Value: Subject Age at Recurrence Day Count
     Type: integer
     Req: false
     Private: false     

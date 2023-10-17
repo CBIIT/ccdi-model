@@ -5927,12 +5927,12 @@ PropDefinitions:
     Req: false
     Private: false
   # study_admin
-  file_types_and_format: # generate from a DB query of list of file extensions vs. template based entry?, list from enumerated values
-    Desc: Specific kind of files in the dataset that will be uploaded to the study.
+  file_types_and_format: 
+    Desc: A defined organization or layout representing and structuring data in a computer file.
     Term:
-      - Origin: NCIt
-        Code: 'C171252'
-        Value: Electronic File Format 
+      - Origin: caDSR
+        Code: '11416926'
+        Value: Electronic Data File Format Type 
     Type: string
     Req: false
     Private: false
@@ -5994,38 +5994,42 @@ PropDefinitions:
     Private: false
   #study_arm
   study_arm_id:
-    Desc: Unique alphanumeric Identifier of a study arm.
+    Desc: A sequence of characters used to identify, name, or characterize the specific treatment plan within a clinical trial that describes the activities a pediatric subject will be involved in as he or she progresses through the study.
     Term:
       - Origin: caDSR
-        Code: '6380045'
-        Value: Study Arm Identifier
+        Code: '12988910'
+        Value: Study Pediatric Protocol Treatment Arm Identifier
     Type: string
     Req: true
     Private: false 
     Key: true
   #study_arm
   clinical_trial_arm:
-    Desc: A study population that receives an intervention(s) within a trial.
-    Term:
-      - Origin: NCIt
-        Code: 'C161322'
-        Value: Treatment Group
-    Type: string
-    Req: false
-    Private: false
-  #study_arm
-  clinical_trial_identifier:
     Desc: Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
     Term:
       - Origin: caDSR
         Code: '2649415'
         Value: Clinical Trial Protocol Identifier 64 Character Text
     Type: string
+    Req: false
+    Private: false
+  #study_arm
+  clinical_trial_identifier:
+    Desc: Organization or research site participating in a type of research study that tests how well new medical treatments or other interventions work in people._Position in relation to the surroundings._One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing._LO: A 64-character string with leading or trailing spaces being non-significant; NO CONTROL characters.    
+    Term:
+      - Origin: caDSR
+        Code: '2413202'
+        Value: Clinical Trial Site Identifier 64 Character Text
+    Type: string
     Req: true
     Private: false
   #study_arm
   clinical_trial_repository:
     Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
+    Term:
+      - Origin: caDSR
+        Code: '2649415'
+        Value: Clinical Trial Protocol Identifier 64 Character Text
     Type: string
     Req: false
     Private: false        

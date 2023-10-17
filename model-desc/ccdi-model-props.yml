@@ -4820,11 +4820,11 @@ PropDefinitions:
     Private: false 
   # sample
   anatomic_site:
-    Desc: The location within the body where cancer begins as captured in the topography codes of the International Classification of Diseases for Oncology, 3rd Edition (ICD-O-3).
+    Desc: The location within the body as captured in the topography label of the International Classification of Diseases for Oncology, 3rd Edition (ICD-O-3).
     Term:
       - Origin: caDSR
         Code: '14156279'
-        Value: Disease Primary Anatomic Site ICD-O-3 Code
+        Value: Disease Anatomic Site ICD-O-3 Label Text
     Type:
       value_type: list
       Enum:
@@ -5198,11 +5198,11 @@ PropDefinitions:
     Private: false
   # sample
   tumor_grade:
-    Desc: Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.
+    Desc: A text term to express the degree of abnormality of cancer cells as a measure of differentiation and aggressiveness.
     Term:
       - Origin: caDSR
-        Code: '2785839'
-        Value: Specimen Histologic Grade Grading System Name Histologic Grade
+        Code: '11325685'
+        Value: Diagnosis Tumor Grade
     Type:
       value_type: list
       Enum:
@@ -5336,14 +5336,14 @@ PropDefinitions:
       value_type: list
       Enum:
         - 'Initial Diagnosis'
-        - 'Disease Progression'
-        - 'Refractory'
-        - 'Recurrent Disease'
-        - 'Disease Relapse/Progression'
-        - 'Complete Remission'
-        - 'Post-treatment'
-        - 'Unknown'
         - 'Not Reported'
+        - 'Post-Mortem'
+        - 'Progression'
+        - 'Refractory'
+        - 'Relapse'
+        - 'Recurrent Disease'
+        - 'Relapse/Progression'
+        - 'Unknown'
     Req: true
     Strict: false
     Private: false

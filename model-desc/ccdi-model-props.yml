@@ -4331,6 +4331,9 @@ PropDefinitions:
       - Origin: caDSR
         Code: ''
         Value: ''
+      - Origin: NCIt
+        Code: ' C42673'
+        Value: 'Definition Source'
     Type:
       value_type: list
       Enum:
@@ -4342,7 +4345,7 @@ PropDefinitions:
     Private: false 
   #diagnosis, sample
   diagnosis_type: 
-    Desc: 'The type of event for which the diagnosis was obtained.'
+    Desc: 'The type of generic chronology and event for which the diagnosis was obtained.'
     Term:
       - Origin: caDSR
         Code: ''

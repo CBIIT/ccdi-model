@@ -5823,11 +5823,10 @@ PropDefinitions:
     Private: false
   #study_admin
   number_of_samples:
-    Desc: The number of samples in the study, often used as a subset of a larger population, selected for investigation to draw conclusions or make estimates about the larger population. 
-    Term:
-      - Origin: NCIt
-        Code: 'C53190'
-        Value: Sample Size
+    Desc: The number of samples associated with a subset of a larger population associated with systematic investigation into a subject.    Term:
+      - Origin: caDSR
+        Code: '11555663'
+        Value: Research Activity Sample Size Count
     Type: integer
     Req: false
     Private: false    
@@ -5907,12 +5906,12 @@ PropDefinitions:
     Strict: true
     Private: false
   # study_admin
-  adult_or_childhood_study: # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
-    Desc: Specifies whether a study is using adults and/or children as subjects. 
+  adult_or_childhood_study: 
+  Desc: The identifiable class of the study participant based upon their age.
     Term:
-      - Origin: NCIt
-        Code: 'C175884'
-        Value: Adult and/or Child Study Indicator
+      - Origin: caDSR
+        Code: '11524549'
+        Value: Subject Legal Adult Or Pediatric Participant Type
     Type:
       value_type: list
       Enum:

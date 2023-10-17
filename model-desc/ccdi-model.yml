@@ -36,8 +36,9 @@ Nodes:
   diagnosis:
     Props:
       - diagnosis_id
-      - diagnosis_icd_o
-      - diagnosis_icd_cm
+      - diagnosis
+      - diagnosis_source
+      - diagnosis_type
       - diagnosis_finer_resolution
       - disease_phase
       - anatomic_site
@@ -251,7 +252,9 @@ Nodes:
       - sample_id
       - anatomic_site
       - participant_age_at_collection # 28.02.22 pdunn
-      - diagnosis_icd_o
+      - diagnosis
+      - diagnosis_source
+      - diagnosis_type
       - diagnosis_finer_resolution
       - sample_tumor_status
       - tumor_classification

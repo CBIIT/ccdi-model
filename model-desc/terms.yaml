@@ -447,21 +447,8 @@ Terms:
     Value: Not Otherwise Specified Biliary Tract
   Biochemical evidence of disease without structural correlate:
     Origin: caDSR
-    Definition: 'Biochemical; of or relating to biochemistry; involving chemical processes
-      in living organisms.: Knowledge on which to base belief.: Used to indicate the
-      absence or lack of something or someone. (from Merriam-Webster OnLine): The
-      components and their relationship and manner of arrangement in constituting
-      a whole.: The degree to which two or more quantities or events are linearly
-      associated, a statistical relation between two or more variables such that systematic
-      changes in the value of one variable are accompanied by systematic changes in
-      the others.: A benign or malignant tissue growth resulting from uncontrolled
-      cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting
-      significant cytologic atypia, while malignant cells exhibit overt signs such
-      as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism,
-      and anaplasia. Representative examples of benign neoplasms include papillomas,
-      cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas,
-      lymphomas, and leukemias.'
-    Code: 3623800
+    Definition: 'An indication that biochemical markers of a disease are present but morphological markers are absent.'
+    Code: 13254014
     Version: '1'
     Value: Biochemical Evidence of Tumor Without Structural Correlate
   Bisulfite-Seq:
@@ -1293,14 +1280,12 @@ Terms:
     Code: 12217251
     Version: '1'
     Value: Disease Phase
-  Distant met recurrence/progression:
+  Distant Metastasis:
     Origin: caDSR
-    Definition: 'Refers to cancer that has spread from the original (primary) tumor
-      to distant organs or distant lymph nodes.: the return of a sign, symptom, or
-      disease after a remission.'
-    Code: 3166452
+    Definition: 'A biological process that involves the transfer and growth of cancer cells from the site of the primary tumor. Relocation of malignant cells during metastasis can be restricted to movement within a specific tissue/organ or may entail migration to a distal locus within the body. This phenotype is a characteristic of all malignant tumors.'
+    Code: 5627051
     Version: '1'
-    Value: Distant Metastasis Recurrent Disease
+    Value: Distant Metastasis
   DNA:
     Origin: caDSR
     Definition: The DNA that is part of the normal chromosomal complement of an organism.
@@ -2499,14 +2484,12 @@ Terms:
     Code: 6160800
     Version: '1'
     Value: Liver and Intrahepatic Bile Duct
-  Loco-regional recurrence/progression:
+  Localized Disease:
     Origin: caDSR
-    Definition: 'Of or belonging to a restricted area or locality.: Regional; limited
-      to a particular location or area.: the return of a sign, symptom, or disease
-      after a remission.'
-    Code: 3166453
+    Definition: 'A disease that is confined to a specific organ or tissue and has not spread to other anatomic sites.'
+    Code: 3461432
     Version: '1'
-    Value: Local Regional Recurrent Disease
+    Value: Localized Disease
   Long bones of lower limb and associated joints:
     Origin: caDSR
     Definition: Long bones of lower limb and associated joints
@@ -3241,30 +3224,10 @@ Terms:
     Code: 2673745
     Version: '1'
     Value: Not Otherwise Specified Nervous System
-  Never Tumor Free:
+  New Tumor Event:
     Origin: caDSR
-    Definition: 'Not ever; at no time in the past (or future).: A benign or malignant
-      tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic
-      cells resemble normal cells without exhibiting significant cytologic atypia,
-      while malignant cells exhibit overt signs such as dysplastic features, atypical
-      mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative
-      examples of benign neoplasms include papillomas, cystadenomas, and lipomas;
-      malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias.:
-      Not existing in a specified place at a specified time.'
-    Code: 5102188
-    Version: '1'
-    Value: Never Tumor Free
-  New Tumor Event (remission/relapse):
-    Origin: caDSR
-    Definition: 'Having no previous example or precedent or parallel; of a kind not
-      seen before.: A benign or malignant tissue growth resulting from uncontrolled
-      cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting
-      significant cytologic atypia, while malignant cells exhibit overt signs such
-      as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism,
-      and anaplasia. Representative examples of benign neoplasms include papillomas,
-      cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas,
-      lymphomas, and leukemias.: Something that happens at a given place and time.'
-    Code: 5102192
+    Definition: 'The presence of a primary, recurrent or metastatic neoplasm which has not been previously noted.'
+    Code: 14473337
     Version: '1'
     Value: New Tumor Event
   NextSeq 500:
@@ -3379,7 +3342,7 @@ Terms:
   Not Applicable:
     Origin: caDSR
     Definition: Determination of a value is not relevant in the current context.
-    Code: 5043360
+    Code: 7590024
     Version: '1'
     Value: Not Applicable
   Not Hispanic or Latino:
@@ -3392,7 +3355,7 @@ Terms:
   Not Reported:
     Origin: caDSR
     Definition: Not provided or available.
-    Code: 2572578
+    Code: 5612322
     Version: '1'
     Value: Not Reported
   NX:
@@ -5921,36 +5884,12 @@ Terms:
     Code: 12922545
     Version: '1'
     Value: Tumor Classification Type
-  Tumor free:
+  Tumor Free:
     Origin: caDSR
-    Definition: 'A benign or malignant tissue growth resulting from uncontrolled cell
-      proliferation. Benign neoplastic cells resemble normal cells without exhibiting
-      significant cytologic atypia, while malignant cells exhibit overt signs such
-      as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism,
-      and anaplasia. Representative examples of benign neoplasms include papillomas,
-      cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas,
-      lymphomas, and leukemias.: An operation in which a term denies or inverts the
-      meaning of another term or construction.: Being or existing in a specified place
-      or at the specified time.'
-    Code: 3623801
+    Definition: 'There is no evidence of a tumor in the individual.'
+    Code: 6719428
     Version: '1'
-    Value: Tumor Not Present
-  Tumor Free at Follow-up:
-    Origin: caDSR
-    Definition: 'A benign or malignant tissue growth resulting from uncontrolled cell
-      proliferation. Benign neoplastic cells resemble normal cells without exhibiting
-      significant cytologic atypia, while malignant cells exhibit overt signs such
-      as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism,
-      and anaplasia. Representative examples of benign neoplasms include papillomas,
-      cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas,
-      lymphomas, and leukemias.: Not existing in a specified place at a specified
-      time.: The process by which information about the health status of an individual
-      is obtained after a study has officially closed; an activity that continues
-      something that has already begun or that repeats something that has already
-      been done.'
-    Code: 5727175
-    Version: '1'
-    Value: Neoplasm Absent Follow-up
+    Value: Tumor Free
   tumor_grade:
     Origin: caDSR
     Definition: Numeric value to express the degree of abnormality of cancer cells,
@@ -6023,7 +5962,7 @@ Terms:
   Unknown:
     Origin: caDSR
     Definition: Not known, not observed, not recorded, or refused.
-    Code: 2575365
+    Code: 4266671
     Version: '1'
     Value: unknown
   Unknown primary site:
@@ -6033,19 +5972,6 @@ Terms:
     Code: 6102882
     Version: '1'
     Value: Primary Site Unknown
-  Unknown tumor status:
-    Origin: caDSR
-    Definition: 'A benign or malignant tissue growth resulting from uncontrolled cell
-      proliferation. Benign neoplastic cells resemble normal cells without exhibiting
-      significant cytologic atypia, while malignant cells exhibit overt signs such
-      as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism,
-      and anaplasia. Representative examples of benign neoplasms include papillomas,
-      cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas,
-      lymphomas, and leukemias.: Not known, not observed, not recorded, or refused.:
-      A condition or state at a particular time.'
-    Code: 3623802
-    Version: '1'
-    Value: Tumor Unknown Status
   unspecified:
     Origin: caDSR
     Definition: Not stated explicitly or in detail.
@@ -6305,19 +6231,12 @@ Terms:
     Code: 2572236
     Version: '1'
     Value: White
-  With tumor:
+  With Tumor:
     Origin: caDSR
-    Definition: 'A benign or malignant tissue growth resulting from uncontrolled cell
-      proliferation. Benign neoplastic cells resemble normal cells without exhibiting
-      significant cytologic atypia, while malignant cells exhibit overt signs such
-      as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism,
-      and anaplasia. Representative examples of benign neoplasms include papillomas,
-      cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas,
-      lymphomas, and leukemias.: Being or existing in a specified place or at the
-      specified time.'
+    Definition: 'There is evidence of a tumor in an individual.'
     Code: 3623803
     Version: '1'
-    Value: Tumor Present
+    Value: With Tumor
   WXS:
     Origin: caDSR
     Definition: Random sequencing of exonic regions selected from the genome.

@@ -5813,11 +5813,11 @@ PropDefinitions:
     Private: false  
   #study_admin
   number_of_participants:
-    Desc: The number of participants in the study for a disease, disorder, condition, or problem.
+    Desc: The number of unique participant instances associated with a systematic investigation into a subject.
     Term:
-      - Origin: NCIt
-        Code: 'C175885'
-        Value: Number of Cases
+      - Origin: caDSR
+        Code: '11555662'
+        Value: Research Activity Unique Subjects Count
     Type: integer
     Req: false
     Private: false

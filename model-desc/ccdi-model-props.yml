@@ -4345,7 +4345,7 @@ PropDefinitions:
     Private: false 
   #diagnosis, sample
   diagnosis_type: 
-    Desc: 'The type of generic chronology and event for which the diagnosis was obtained.'
+    Desc: 'The type of generic chronology and event, if applicable, for which the diagnosis was obtained.'
     Term:
       - Origin: caDSR
         Code: ''

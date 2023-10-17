@@ -4331,6 +4331,9 @@ PropDefinitions:
       - Origin: caDSR
         Code: ''
         Value: ''
+      - Origin: NCIt
+        Code: ' C42673'
+        Value: 'Definition Source'
     Type:
       value_type: list
       Enum:
@@ -4342,7 +4345,7 @@ PropDefinitions:
     Private: false 
   #diagnosis, sample
   diagnosis_type: 
-    Desc: 'The type of event for which the diagnosis was obtained.'
+    Desc: 'The type of generic chronology for which the diagnosis was obtained.'
     Term:
       - Origin: caDSR
         Code: ''
@@ -4353,14 +4356,25 @@ PropDefinitions:
         - 'Initial'
         - 'Update'
         - 'Final'
-        - 'Initial from pathology'
-        - 'Update from pathology'
-        - 'Final from pathology'
-        - 'Initial from sequencing'
-        - 'Update from sequencing'
-        - 'Final from sequencing'
-        - 'Update due to diagnosis source change'
-        - 'Update due to harmonization efforts'
+        - 'Unknown'
+        - 'Not Reported'
+    Req: true
+    Strict: false
+    Private: false 
+  #diagnosis, sample
+  diagnosis_type_event: 
+    Desc: 'The type of event for which the diagnosis was obtained.'
+    Term:
+      - Origin: caDSR
+        Code: ''
+        Value: ''
+    Type:
+      value_type: list
+      Enum:
+        - 'Pathology'
+        - 'Sequencing'
+        - 'Diagnostic source change'
+        - 'Harmonization'
         - 'Unknown'
         - 'Not Reported'
     Req: true

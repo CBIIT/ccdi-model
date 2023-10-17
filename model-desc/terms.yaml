@@ -2195,7 +2195,7 @@ Terms:
     Code: 6352164
     Version: '1'
     Value: Sequencing Library Platform Model Name
-  Initial_Diagnosis:
+  Initial Diagnosis:
     Origin: caDSR
     Definition: The first diagnosis of the individual's condition.    
     Code: 8002761
@@ -4432,6 +4432,12 @@ Terms:
     Code: 6273384
     Version: '1'
     Value: POOLCLONE
+  Post-Mortem:
+    Origin: caDSR
+     Definition: After death. Often used to describe an autopsy.
+     Code: 5236215
+     Version: '1'
+     Value: Post-Mortem
   Postcricoid region:
     Origin: caDSR
     Definition: The portion of the hypopharynx that is located posteriorly to the
@@ -4509,7 +4515,7 @@ Terms:
     #Value: ICD-O Primary Anatomic Site Category
   Progression:
     Origin: caDSR
-    Definition: The worsening of a disease over time
+    Definition: The worsening of a disease over time.
     Code: 2816916
     Version: '1'
     Value: Progression
@@ -5964,7 +5970,7 @@ Terms:
     Definition: Not known, not observed, not recorded, or refused.
     Code: 4266671
     Version: '1'
-    Value: unknown
+    Value: Unknown
   Unknown primary site:
     Origin: caDSR
     Definition: Referring to the fact that the original site of growth of a metastatic

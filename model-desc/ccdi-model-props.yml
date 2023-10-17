@@ -6047,7 +6047,7 @@ PropDefinitions:
   # study_personnel
   personnel_name:
     Desc: The name of personnel who is an organizer in the study.
-        Term:
+    Term:
       - Origin: caDSR
         Code: '2663165'
         Value: Person Name Prefix Abbreviation Text
@@ -6067,8 +6067,12 @@ PropDefinitions:
     Req: true
     Private: false
   # study_personnel
-  personnel_type: #enum: PI, Co-PI, Data Submitter, etc
+  personnel_type:
     Desc: The role of personnel in the study.
+    Term:
+      - Origin: caDSR
+        Code: '2201713'
+        Value: Person Affiliation Role Text Type
     Type:
       value_type: list
       Enum:
@@ -6081,13 +6085,21 @@ PropDefinitions:
     Private: false
   # study_personnel
   email_address:
-    Desc: The email address of the personnel.
+    Desc: The string of characters that represents the electronic mail address of a person.
+    Term:
+      - Origin: caDSR
+        Code: '2517550'
+        Value: Person Email Address Text
     Type: string
     Req: true
     Private: false
   # study_personnel
   institution:
-    Desc: The institution of the personnel.
+    Desc: A sequence of characters used to identify, name, or characterize the laboratory, institute, or consortium that provided the information.
+    Term:
+      - Origin: caDSR
+        Code: '12662779'
+        Value: Data Source Organizational Unit Identifier
     Type: string
     Req: true  # 28feb22 pdunn
     Private: false

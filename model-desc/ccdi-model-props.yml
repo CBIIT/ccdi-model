@@ -5748,11 +5748,11 @@ PropDefinitions:
     Private: false
   # study
   study_id: 
-    Desc: A unique identifier for a study.
+    Desc: A sequence of characters used to identify, name, or characterize a pediatric study.
     Term:
       - Origin: caDSR
-        Code: '6380045'
-        Value: Study Identifier
+        Code: '12960571'
+        Value: Study Pediatric Identifier
     Type: string
     Req: true
     Private: false

@@ -433,11 +433,11 @@ PropDefinitions:
     Key: true
   #medical_history
   medical_history_category:
-    Desc: "The type of relevant condition from the subject's medical history."
+    Desc: A high level grouping of any injuries, disabilities, syndromes, or symptoms present in an individual's background.
     Term: 
       - Origin: caDSR
-        Code: '6413031'
-        Value: Category for Medical History
+        Code: '13209646'
+        Value: Medical History Relevant Condition Category
     Type:
       value_type: list
       Enum:
@@ -453,11 +453,11 @@ PropDefinitions:
     Private: false
   #medical_history
   medical_history_condition:
-    Desc: The reported or pre-specified name of the medical condition or event.
+    Desc: The identifiable class of injuries, disabilities, syndromes, or symptoms found in an individual's health background.
     Term:
       - Origin: caDSR
-        Code: '6421489'
-        Value: Medical History Event Reported Term
+        Code: '13212141'
+        Value: Medical History Relevant Condition Type
     Type:
       value_type: list
       Enum:
@@ -629,8 +629,8 @@ PropDefinitions:
     Desc: The yes/no/unknown indicator used to describe whether the patient was exposed to asbestos.
     Term:
       - Origin: caDSR
-        Code: '1253'
-        Value: asbestos_exposure
+        Code: '11256813'
+        Value: Environmental Exposure Type
     Type:
       value_type: list
       Enum:
@@ -656,8 +656,8 @@ PropDefinitions:
     Desc: The yes/no/unknown indicator used to describe whether a patient was exposed to fine powder derived by the crushing of coal.
     Term:
       - Origin: caDSR
-        Code: 'NA'
-        Value: coal_dust_exposure
+        Code: '11256813'
+        Value: Environmental Exposure Type
     Type:
       value_type: list
       Enum:
@@ -673,8 +673,8 @@ PropDefinitions:
     Desc: The yes/no/unknown indicator used to describe whether a patient was exposed to smoke that is emitted from burning tobacco, including cigarettes, pipes, and cigars. This includes tobacco smoke exhaled by smokers.
     Term:
       - Origin: caDSR
-        Code: 'NA'
-        Value: environmental_tobacco_smoke_exposure
+        Code: '11256813'
+        Value: Environmental Exposure Type
     Type:
       value_type: list
       Enum:
@@ -690,8 +690,8 @@ PropDefinitions:
     Desc: The yes/no/unknown indicator used to describe whether the patient was exposed to radon.
     Term:
       - Origin: caDSR
-        Code: '2816352'
-        Value: radon_exposure
+        Code: '11256813'
+        Value: Environmental Exposure Type
     Type:
       value_type: list
       Enum:
@@ -707,8 +707,8 @@ PropDefinitions:
     Desc: The yes/no/unknown indicator used to describe whether a patient was exposured to respirable crystalline silica, a widespread, naturally occurring, crystalline metal oxide that consists of different forms including quartz, cristobalite, tridymite, tripoli, ganister, chert and novaculite.
     Term:
       - Origin: caDSR
-        Code: 'NA'
-        Value: respirable_crystalline_silica_exposure
+        Code: '11256813'
+        Value: Environmental Exposure Type
     Type:
       value_type: list
       Enum:
@@ -10730,7 +10730,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '12304720'
-        Value: AGE_AT_COURSE_START
+        Value: Subject Age at Start of Treatment Course Day Count
     Type: integer
     Req: true
     Private: false
@@ -10740,7 +10740,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '12304723'
-        Value: AGE_AT_COURSE_END
+        Value: Subject Age at End of Treatment Course Day Count
     Type: integer
     Req: true
     Private: false  

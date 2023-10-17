@@ -4468,24 +4468,26 @@ PropDefinitions:
     Private: false     
    #diagnosis, sample
   last_known_disease_status:
-    Desc: Text term that describes the last known state or condition of an individual's neoplasm.
+    Desc: The most recently documented condition or state of an individual's disease.
     Term:
       - Origin: caDSR
-        Code: '5424231'
-        Value: Person Last Known Neoplasm Status
+        Code: '12447172'
+        Value: Subject Last Known Disease Status
     Type:
       value_type: list
       Enum:
         - "Biochemical evidence of disease without structural correlate"
-        - "Distant met recurrence/progression"
-        - "Loco-regional recurrence/progression"
+        - "Distant Metastasis"
+        - "Localized Disease"
         - "Never Tumor Free"
-        - "New Tumor Event (remission/relapse)"
-        - "Tumor free"
-        - "Tumor Free at Follow-up"
+        - "New Tumor Event"
+        - "Not Allowed To Collect"
+        - "Not Applicable"
+        - "Not Reported"
+        - "Regional Disease"
+        - "Tumor Free"
         - "Unknown"
-        - "Unknown tumor status"
-        - "With tumor"
+        - "With Tumor"
     Req: false
     Strict: true
     Private: false     

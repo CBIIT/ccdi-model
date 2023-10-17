@@ -5965,25 +5965,25 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  funding_agency: # 0 or many per study
-    Desc: An organization/Sponsor that underwrites financial support for projects of a particular type. Typically, they process applications and award funds to the chosen qualified applicants.
+  funding_agency:
+    Desc: The name of the funding source organization or sponsor.
     Term:
-      - Origin: NCIt
-        Code: 'C39409'
-        Value: Funding Agency 
+      - Origin: caDSR
+        Code: '11524545'
+        Value: Funding Agency Organization Name Text 
     Type: string
     Req: true
     Private: false
   funding_source_program_name:
-    Desc: The name of the program that is providing funding.
+    Desc: The name of the program assigned by the funding agency.
     Term:
-      - Origin: NCIt
-        Code: 'C166274'
-        Value: Program Name 
+      - Origin: caDSR
+        Code: '11524546'
+        Value: Funding Agency Program Name Text 
     Type: string
     Req: false
     Private: false
-  grant_id: #grant or contract ID, NIH or other
+  grant_id: 
     Desc: Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
     Term:
       - Origin: caDSR
@@ -6047,7 +6047,23 @@ PropDefinitions:
   # study_personnel
   personnel_name:
     Desc: The name of personnel who is an organizer in the study.
-    Type: string
+        Term:
+      - Origin: caDSR
+        Code: '2663165'
+        Value: Person Name Prefix Abbreviation Text
+      - Origin: caDSR
+        Code: '2179589'
+        Value: A word or group of words indicating a person's first (personal or given) name; the name that precedes the surname. Synonym = Given Name  
+      - Origin: caDSR
+        Code: '2179590'
+        Value: A means of identifying an individual by using a word or group of words indicating a person's middle name.  
+      - Origin: caDSR
+        Code: '2179591'
+        Value: A means of identifying an individual by using a word or group of words indicating a person's last (family) name. Synonym = Last Name, Surname.  
+      - Origin: caDSR
+        Code: '2006475'
+        Value: Text term to represent an individual's position in a family lineage or pedigree.
+        Type: string
     Req: true
     Private: false
   # study_personnel

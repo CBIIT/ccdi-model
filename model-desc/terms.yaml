@@ -1647,6 +1647,12 @@ Terms:
     Code: 'C76.5'
     Version: '1'
     Value: Not otherwise specified foot
+  Frameshift Mutation:
+    Origin: caDSR
+    Definition: 'A type of mutation in which one or more paired nucleotides are inserted or deleted in the coding region of a gene, which causes the triplet codons to be read in the wrong frame; the resulting polypeptide has a garbled amino acid sequence from the mutated codon on.'
+    Code: 2581318
+    Version: '1'
+    Value: Frameshift Mutation
   Frontal lobe:
     Origin: caDSR
     Definition: 'The part of the brain located anterior to the parietal lobes at the
@@ -2212,6 +2218,12 @@ Terms:
     Code: 5102332
     Version: '1'
     Value: Immunotherapy
+  Inframe:
+    Origin: caDSR
+    Definition: Any mutation that does not cause a change in reading frame.
+    Code: 2581319
+    Version: '1'
+    Value: Inframe  
   injection:
     Origin: JAX
     Definition: Injection is a procedure where the human tumor cells are injected into a lateral tail vein of the mouse host using a syringe and the smallest gauge needle possible 
@@ -2865,6 +2877,12 @@ Terms:
     Code: 6273388
     Version: '1'
     Value: miRNA-Seq
+  Missense Mutation:
+    Origin: caDSR
+    Definition: 'A mutation in which a base change results in substitution of one amino acid for another. This change may result in alteration of the protein's activity or stability.'
+    Code: 2581320
+    Version: '1'
+    Value: Missense Mutation  
   Mixed Response:
     Origin: caDSR
     Definition: 'Involving or composed of different kinds.: The pathologic and/or
@@ -3343,6 +3361,12 @@ Terms:
     Code: 2574138
     Version: '1'
     Value: None
+  Nonsense Mutation:
+    Origin: caDSR
+    Definition: A mutation in which a base change creates a stop codon, resulting in premature termination of a polypeptide product.
+    Code: 2581321
+    Version: '1'
+    Value: Nonsense Mutation  
   Normal:
     Origin: caDSR
     Definition: 'Being approximately average or within certain limits; conforming
@@ -5214,6 +5238,17 @@ Terms:
     Code: 3088304
     Version: '1'
     Value: Splenic Flexure
+  Splice Acceptor:
+    Origin: caDSR
+    Definition: A heritable single nucleotide polymorphism located at the acceptor splice site in certain allelic variants of eukaryotic genes. These sites are located in genes at intron to exon junctions at the 3' end of the intron.
+    Code: 6141815
+    Version: '1'
+    Value: Splice Acceptor
+   Splice Donor:
+    Origin: caDSR
+    Definition: An inherited single base change at a donor splice site in a genomic DNA sequence that results in an allelic variant of the wild-type gene. Donor splice sites are located at exon to intron junctions at the 5' end of the intron.    Code: 6141817
+    Version: '1'
+    Value: Splice Donor  
   ssRNA-seq:
     Origin: caDSR
     Definition: Strand-specific RNA sequencing
@@ -5226,6 +5261,12 @@ Terms:
     Code: 3008097
     Version: '1'
     Value: Stable Disease
+  Start Lost:
+    Origin: caDSR
+    Definition: A mutation occurring within the start codon of a gene that results in a sequence that no longer encodes a start codon. This can result in a gene deletion or gene transcription may start from an alternative start site.
+    Code: 13347948
+    Version: '1'
+    Value: Start Lost  
   Stem Cell Transplant:
     Origin: caDSR
     Definition: A method of hematopoietic reconstitution, Peripheral Stem Cell Transplants
@@ -5264,6 +5305,12 @@ Terms:
     Code: 3684610
     Version: '1'
     Value: Stomach, Not Otherwise Specified
+  Stop Lost:   
+    Origin: caDSR
+    Definition: A mutation occurring within the stop codon of a gene that results in a sequence that no longer encodes a stop codon and results in the transcription of non-coding regions downstream of the gene.    
+    Code: 13347949
+    Version: '1'
+    Value: Stop Lost 
   study_data_types:
     Origin: caDSR
     Definition: The field of study(s) associated with the data collection.
@@ -5337,6 +5384,12 @@ Terms:
     Code: 7060863
     Version: '1'
     Value: Surgical Resection
+  Synonymous:   
+    Origin: caDSR
+    Definition:  A mutation that alters the DNA sequence, but encodes the same amino acid.
+    Code: 2581691
+    Version: '1'
+    Value: Synonymous 
   Synthetic:
     Origin: caDSR
     Definition: Synthetic DNA

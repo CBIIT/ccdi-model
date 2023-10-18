@@ -33,22 +33,22 @@ PropDefinitions:
     Private: false
   #radiology_file
   scanner_manufacturer:
-    Desc: scanner_manufacturer
+    Desc: The words that describe an entity that produces finished goods used to perform a diagnostic, therapeutic or research activity.
     Term:
-      - Origin: DICOM
-        Code: '0008,0070'
-        Value: scanner_manufacturer
+      - Origin: caDSR
+        Code: '2866141'
+        Value: Equipment Manufacturer Model Name Text
     Type: string
     Req: true
     Key: false
     Private: false
   #radiology_file
   scanner_model:
-    Desc: scanner_model
+    Desc: The words that describe the style or design of an entity"s finished goods used to perform a diagnostic, therapeutic or research activity.
     Term:
-      - Origin: DICOM
-        Code: '0008,1090'
-        Value: scanner_model
+      - Origin: caDSR
+        Code: '2413274'
+        Value: Equipment Manufacturer Model Name Text
     Type: string
     Req: true
     Key: false
@@ -110,22 +110,22 @@ PropDefinitions:
     Private: false
   #radiology_file
   pixel_spacing:
-    Desc: pixel_spacing
+    Desc: Physical distance between the center of each pixel in an image.
     Term:
-      - Origin: DICOM
-        Code: '0028,0030'
-        Value: pixel_spacing
+      - Origin: caDSR
+        Code: '2903393'
+        Value: Image Pixel Spacing Float or Fixed-point Millimeter Number
     Type: string
     Req: false
     Key: false
     Private: false
   #radiology_file
   slice_thickness:
-    Desc: slice_thickness
+    Desc: A string of characters representing either a fixed point number or a floating point number capturing the nominal slice thickness relative to the patient-based coordinate system expressed in number of millimeters.
     Term:
-      - Origin: DICOM
-        Code: '0018,0050'
-        Value: slice_thickness
+      - Origin: caDSR
+        Code: '3113185'
+        Value: Image Plane Slice Thickness Float or Fixed-point Millimeter Number
     Type: string
     Req: false
     Key: false
@@ -399,7 +399,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '12307007'
-        Value: Age at Imaging
+        Value: Subject Age at Imaging Day Count
     Type: integer
     Req: true
     Private: false  
@@ -888,11 +888,11 @@ PropDefinitions:
     Key: true
   #follow_up
   age_at_follow_up:
-    Desc: "Number of days between the date used for index (DOB) and the date of the patient's last follow-up appointment or contact."
+    Desc: A text term based on grouping information about the health status of an individual after a study has officially closed
     Term:
       - Origin: caDSR
-        Code: '6154727'
-        Value: days_to_follow_up
+        Code: '14480965'
+        Value: Subject Age Follow-Up Day Count
     Type: integer
     Req: true
     Private: false
@@ -901,8 +901,8 @@ PropDefinitions:
     Desc: "NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends."
     Term:
       - Origin: caDSR
-        Code: '3119787'
-        Value: Patient Follow-up Type
+        Code: '14480973'
+        Value: Subject Follow-Up Category
     Type:
       value_type: list
       Enum:
@@ -1719,11 +1719,11 @@ PropDefinitions:
     Private: false
   #follow_up
   comorbidity:
-    Desc: The text term used to describe a comorbidity disease, which coexists with the patient's malignant disease.
+    Desc: The class or category of the secondary disease(s).
     Term:
       - Origin: caDSR
-        Code: '2970715'
-        Value: Person Comorbidity Condition Name
+        Code: '14483678'
+        Value: Person Comorbidity Type
     Type:
       value_type: list
       Enum:
@@ -1875,19 +1875,33 @@ PropDefinitions:
     Private: false          
   #follow_up
   comorbidity_method_of_diagnosis:
-    Desc: The text term used to describe the method used to diagnose the patient's comorbidity disease.
+    Desc: The class of clinical or laboratory procedure(s) used to determine the secondary disease diagnosis.
     Term: 
       - Origin: caDSR
-        Code: '6142386'
+        Code: '14483681'
         Value: Comorbidity Disease Diagnosis Method Type
     Type:
       value_type: list
       Enum:
-        - "Histology"
-        - "Pathology"
-        - "Radiology"
-        - "Unknown"
+        - "Biopsy"
+        - "Bone Scan"
+        - "CSF"
+        - "CT"
+        - "Cytology"
+        - "Imaging"
+        - "MRI"
+        - "Not Applicable"
         - "Not Reported"
+        - "Pathology"
+        - "PET"
+        - "PET-CT"
+        - "PET-MRI"
+        - "Physical Examination"
+        - "Surgical Resection"
+        - "Tumor Marker"
+        - "Ultrasound"
+        - "Unknown"
+        - "X-Ray"
     Req: false
     Strict: false
     Private: false
@@ -4506,27 +4520,21 @@ PropDefinitions:
   # site_of_resection_or_biopsy:     CCDIDC-360
   #sequencing_file, imaging_file, clinical_measure_file
   file_name:
-    Desc: The name by which a set of related records (either written or electronic) are known.
+    Desc: The literal label for an electronic data file.
     Term:
       - Origin: caDSR
-        Code: '6115804'
-        Value: File Occurrence Name
-      - Origin: caDSR
-        Code: '7787681'
-        Value: Raw Data Electronic File Name
+        Code: '11284037'
+        Value: Electronic Data File Name
     Type: string
     Req: true
     Private: false
   #sequencing_file, imaging_file, clinical_measure_file
   file_type:
-    Desc: Text that provides a description of a particular kind of set of related records.
+    Desc: A defined organization or layout representing and structuring data in a computer file.
     Term:
       - Origin: caDSR
-        Code: '6983162'
-        Value: File Type Descriptive Text # no PVs
-      - Origin: caDSR
-        Code: '7797710' #caDSR PVs are csv, bam, fastq, txt
-        Value: Raw Data File Format
+        Code: '11416926'
+        Value: Electronic Data File Format Type
     Type:
       value_type: list
       Enum:
@@ -4585,40 +4593,41 @@ PropDefinitions:
     Private: false
   #sequencing_file, imaging_file, clinical_measure_file
   file_description:
-    Desc: A freeform description of the file.
+    Desc: A free text field that can be used to document the content and other details about an electronic file that may not be captured elsewhere.
+    Term:
+      - Origin: caDSR
+        Code: '11280338'
+        Value: Electronic Data File Description Text   
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required?
+    Req: false 
     Private: false
   #sequencing_file, imaging_file, clinical_measure_file
   file_size:
-    Desc: The numerical quantity documenting the physical magnitude of a set of related electronic records.
+    Desc: The measure (in bytes) of how much space a data file takes up on a storage medium
     Term:
       - Origin: caDSR
-        Code: '6115806'
-        Value: Data File Size Value
-      - Origin: NCIt
-        Code: 'C171276'
-        Value: MD5 Checksum 
+        Code: '11479876'
+        Value: Electronic Data File Size Integer
     Type: integer
     Req: true
     Private: false
   #sequencing_file, imaging_file, clinical_measure_file
   md5sum:
-    Desc: md5 hash
+    Desc: A 32-character hexadecimal number that is computed on a file.
     Term:
       - Origin: caDSR
-        Code: '6115805'
-        Value: File Hash Value Identifier
+        Code: '11556150'
+        Value: Electronic Data File MD5 Checksum Text
     Type: string
     Req: true
     Private: false
   #sequencing_file, imaging_file, clinical_measure_file  
   checksum_value:
-    Desc: One or more characters using a irreversible unique number generated from a string of text to identify a set of related electronic records.
+    Desc: A 32-character hexadecimal number that is computed on a file.
     Term:
       - Origin: caDSR
-        Code: '6115805'
-        Value: File Hash Value Identifier
+        Code: '11556150'
+        Value: Electronic Data File MD5 Checksum Text
     Type: string
     Req: false
     Private: false
@@ -4630,11 +4639,11 @@ PropDefinitions:
     Private: false    
   #file
   file_url_in_cds:
-    Desc: Location of the file on the CDS Cloud, using AWS S3 protocol.
+    Desc: The specification of a node (file or directory) in a hierarchical file system where an electronic file is located.
     Term:
-      - Origin: NCIt
-        Code: 'C47922'
-        Value: Pathname
+      - Origin: caDSR
+        Code: '11556141'
+        Value: Electronic File Pathname Text
     Type: string
     Req: true
     Private: false
@@ -4650,7 +4659,11 @@ PropDefinitions:
     Private: false
   #file
   file_mapping_level:
-    Desc: Describes if the file belongs to a Participant, a Sample, or a Study.
+    Desc: Describes if the file is associated with the Participant, a Sample, or a Study.
+    Term:
+      - Origin: caDSR
+        Code: '11595478'
+        Value: Electronic File Relationship Type
     Type:
       value_type: list
       Enum:
@@ -4684,11 +4697,11 @@ PropDefinitions:
     Key: true
   # radiology_file
   image_modality:
-    Desc: The method by which the images are generated.
+    Desc: A system of categories for representing a specific manner, characteristic, pattern of a data acquisition device used in an imaging event whether physical or electronic.
     Term:
       - Origin: caDSR
-        Code: '3794749'
-        Value: Image Modality Type
+        Code: '12137353'
+        Value: 	Imaging Technology DICOM Modality Type
     Type:
       value_type: list
       Enum:

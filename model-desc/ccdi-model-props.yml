@@ -2267,7 +2267,7 @@ PropDefinitions:
         Code: '6142515'
         Value: histone_variant
     Type:
-      value_type: list
+      value_type: string
       Enum:
         - "CENP-A"
         - "H2A-Bbd"
@@ -3177,7 +3177,7 @@ PropDefinitions:
         Code: '11326261'
         Value: Specimen Tumor Tissue ICD-O-3 Morphology Code
     Type:
-      value_type: string
+      value_type: list
       Enum:
         - "8000/0 : Neoplasm, benign"
         - "8000/1 : Neoplasm, uncertain whether benign or malignant"

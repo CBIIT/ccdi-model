@@ -451,6 +451,12 @@ Terms:
     Code: 13254014
     Version: '1'
     Value: Biochemical Evidence of Tumor Without Structural Correlate
+  Biopsy:
+    Origin: caDSR
+    Definition: 'The removal of tissue specimens or fluid from the living body for microscopic examination, performed to establish a diagnosis.'
+    Code: 5043459
+    Version: '1'
+    Value: Biopsy
   Bisulfite-Seq:
     Origin: caDSR
     Definition: Sequencing following treatment of DNA with bisulfite to convert cytosine
@@ -544,6 +550,12 @@ Terms:
     Code: 2873881
     Version: '1'
     Value: Bone Marrow (biopsy/aspirate)
+  Bone Scan:
+    Origin: caDSR
+    Definition:  A nuclear imaging method used to evaluate pathological bone metabolism.
+    Code: '3057576'
+    Version: '1'
+    Value: Bone Scan
   Bone of limb, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: A bone within a limb of the
@@ -1044,6 +1056,12 @@ Terms:
     Code: 5102337
     Version: '1'
     Value: Complete Response
+  Computed Tomography:
+    Origin: caDSR  
+    Definition: 'A method of examining structures within the body by scanning them with X rays and using a computer to construct a series of cross-sectional scans along a single axis.'
+    Code: 5612204
+    Version: '1'
+    Value: Computed Tomography
   Conjunctiva:
     Origin: caDSR
     Definition: A thin, transparent tissue divided into the palpebral conjunctiva
@@ -1201,6 +1219,12 @@ Terms:
     Code: 6273361
     Version: '1'
     Value: CTS
+  Cytology:
+    Origin: caDSR
+    Definition: Technique or procedure for manipulation of cells and analysis of cell properties and subcellular features.
+    Code: 3452321
+    Version: '1'
+    Value: Cytology  
   Cytotoxic chemotherapy:
     Origin: caDSR
     Definition: Anticancer drugs that kill cells, especially cancer cells.
@@ -2176,6 +2200,12 @@ Terms:
     Code: 7620921
     Version: '1'
     Value: Illumina NovaSeq
+  Imaging:
+    Origin: caDSR
+    Definition: Any technology or method that aids in the visualization of any biological process, cell, tissue or organ for use in screening, diagnosis, surgical procedures or therapy.
+    Code: 5283972
+    Version: '1'
+    Value: Imaging  
   Immunotherapy:
     Origin: caDSR
     Definition: Therapy designed to induce changes in a patient's immune status in order to treat disease.
@@ -2930,6 +2960,12 @@ Terms:
     Code: 3211581
     Version: '1'
     Value: Myometrium
+  MRI:
+    Origin: caDSR
+    Definition: Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide amazingly clear and detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.
+    Code: 5612304
+    Version: '1'
+    Value: MRI
   N0:
     Origin: caDSR
     Definition: A regional lymph node TNM finding indicating that there is no evidence
@@ -4337,6 +4373,24 @@ Terms:
     Code: 3178994
     Version: '1'
     Value: Persistent disease (Hematologic persistence)
+  PET:
+    Origin: caDSR
+    Definition: 'A technique for measuring the gamma radiation produced by collisions of electrons and positrons (anti-electrons) within living tissue. In positron emission tomography (PET), a subject is given a dose of a positron-emitting radionuclide attached to a metabolically active substance (for example, 2-fluoro-2-deoxy-D-glucose (FDG), which is similar to a naturally occurring sugar, glucose, with the addition of a radioactive fluorine atom). When living tissue containing the positron emitter is bombarded by electrons, gamma radiation produced by collisions of electrons and positrons is detected by a scanner, revealing in fine detail the tissue location of the metabolically-active substance administered.'
+    Code: 2919109
+    Version: '1'
+    Value: PET  
+  PET-CT:
+    Origin: caDSR
+    Definition: 'An imaging technique that utilizes positron emission tomography and computed tomography in a single machine.
+    Code: 5627465
+    Version: '1'
+    Value: PET-CT 
+  PET-MRI:
+    Origin: caDSR
+    Definition: 'An imaging technique that utilizes positron emission tomography and magnetic resonance imaging in a single machine.'
+    Code: 4136341
+    Version: '1'
+    Value: PET-MRI 
   Pharmaceutical Therapy:
     Origin: caDSR
     Definition: 'An action or administration of therapeutic agents to produce an effect
@@ -4358,6 +4412,12 @@ Terms:
     Code: 7701712
     Version: '1'
     Value: Not Otherwise Specified Pharynx
+  Physical Examination:
+    Origin: caDSR
+    Definition: A systemic evaluation of the body and its functions using visual inspection, palpation, percussion and auscultation. The purpose is to determine the presence or absence of physical signs of disease or abnormality for an individual's health assessment.
+    Code: 2581620
+    Version: '1'
+    Value: Physical Examination
   Pineal gland:
     Origin: caDSR
     Definition: A small endocrine gland in the brain, situated beneath the back part
@@ -5271,6 +5331,12 @@ Terms:
     Code:
     Version: '1'
     Value: surgical
+  Surgical Resection:
+    Origin: caDSR
+    Definition: A surgical procedure in which tissue is removed.
+    Code: 7060863
+    Version: '1'
+    Value: Surgical Resection
   Synthetic:
     Origin: caDSR
     Definition: Synthetic DNA
@@ -5949,6 +6015,12 @@ Terms:
     Code: 2560192
     Version: '1'
     Value: TEXT
+  Ultrasound:
+    Origin: caDSR
+    Definition: High frequency sound, generally with a frequency greater than 20,000 Hz.
+    Code: 3109382
+    Version: '1'
+    Value: Ultrasound  
   Unavailable:
     Origin: caDSR
     Definition: The desired information is not available.
@@ -6248,6 +6320,12 @@ Terms:
     Code: 6273372
     Version: '1'
     Value: WXS
+  X-Ray:
+    Origin: caDSR
+    Definition: A radiographic procedure using the emission of x-rays to form an image of the structure penetrated by the radiation.
+    Code: 2582126
+    Version: '1'
+    Value: X-Ray  
   'Yes':
     Origin: caDSR
     Definition: The affirmative response to a question.

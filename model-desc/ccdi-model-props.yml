@@ -1898,7 +1898,6 @@ PropDefinitions:
         - "PET-MRI"
         - "Physical Examination"
         - "Surgical Resection"
-        - "Tumor Marker"
         - "Ultrasound"
         - "Unknown"
         - "X-Ray"
@@ -1928,11 +1927,10 @@ PropDefinitions:
     Private: false
   #molecular_test
   gene_symbol:
-    Desc: The text term used to describe a gene targeted or included in molecular analysis. For rearrangements, this is shold be used to represent the reference gene.
-    Term:
+    Desc: A short-form abbreviation for a particular gene assigned by the HGNC (HUGO Gene Nomenclature Committee - an organism specific nomenclature committee).    Term:
       - Origin: caDSR
-        Code: '6142392'
-        Value: gene_symbol
+        Code: '11280318'
+        Value: Gene Occurrence HGNC Symbol Name
     Type: string
     Req: false
     Private: false
@@ -1971,56 +1969,13 @@ PropDefinitions:
     Strict: false
     Private: false
   #molecular_test
-  laboratory_test:
-    Desc: The text term used to describe the medical testing used to diagnose, treat or further understand a patient's disease.
+  laboratory_test_name:
+    Desc: The name of the lab test or examination used to obtain the measurement or finding. Any test normally performed by a clinical laboratory is considered a lab test.
     Term:
       - Origin: caDSR
-        Code: 'NA'
-        Value: laboratory_test
-    Type:
-      value_type: list
-      Enum:
-        - "Absolute Neutrophil"
-        - "Albumin"
-        - "Alpha Fetoprotein"
-        - "Neutrophil Bands"
-        - "Basophil"
-        - "Beta 2 Microglobulin"
-        - "Myeloblasts"
-        - "Lymphoblasts"
-        - "Blood Urea Nitrogen"
-        - "Calcium"
-        - "Cellularity"
-        - "Creatinine"
-        - "C-Reactive Protein"
-        - "Eosinophil"
-        - "Glucose"
-        - "Hematocrit"
-        - "Hemoglobin"
-        - "Human Chorionic Gonadotropin"
-        - "Immunoglobulin A"
-        - "Immunoglobulin G"
-        - "Immunoglobulin M"
-        - "Lactate Dehydrogenase"
-        - "Leukocytes"
-        - "Luteinizing Hormone"
-        - "Lymphocytes"
-        - "M Protein"
-        - "Metamyelocytes"
-        - "Myelocytes"
-        - "Platelets"
-        - "Prolymphocytes"
-        - "Promonocytes"
-        - "Promyelocytes"
-        - "Segmented Neutrophil"
-        - "Serum Free Immunoglobulin Light Chain, Kappa"
-        - "Serum Free Immunoglobulin Light Chain, Lambda"
-        - "Serum Free Immunoglobulin Light Chain, NOS"
-        - "Testosterone"
-        - "Total Bilirubin"
-        - "Total Protein"
-        - "Unknown"
-        - "Not Reported"
+        Code: '7275579'
+        Value: Laboratory Test Name
+    Type: string
     Req: false
     Strict: false
     Private: false
@@ -2036,7 +1991,7 @@ PropDefinitions:
     Private: false
   #molecular_test
   test_result_text:
-    Desc: The text term used to describe a specific result of a molecular test.
+    Desc: A textual description of the outcome of any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting.
     Term:
       - Origin: caDSR
         Code: '13362271'
@@ -2075,44 +2030,12 @@ PropDefinitions:
     Private: false
   #molecular_test
   antigen:
-    Desc: The text term used to describe an antigen included in molecular testing.
+    Desc: The diagnostic test in which an antibody is used to link a cellular antigen specifically to a stain that can be seen with a microscope.
     Term:
       - Origin: caDSR
-        Code: '6142523'
-        Value: antigen
-    Type:
-      value_type: list
-      Enum:
-        - "BCL6"
-        - "CA-125"
-        - "CA19-9"
-        - "CCND1"
-        - "CD10"
-        - "CD117"
-        - "CD138"
-        - "CD14"
-        - "CD15"
-        - "CD19"
-        - "CD20"
-        - "CD22"
-        - "CD23"
-        - "CD25"
-        - "CD3"
-        - "CD30"
-        - "CD33"
-        - "CD34"
-        - "CD45"
-        - "CD5"
-        - "CD56"
-        - "CD7"
-        - "CD79A"
-        - "CEA"
-        - "HLA-DR"
-        - "Mesothelin"
-        - "NSE"
-        - "Squamous Cell Carcinoma Antigen (SCCA)"
-        - "Unknown"
-        - "Not Reported"
+        Code: '13362273'
+        Value: Immunohistochemical Test Method Type
+    Type: string
     Req: false
     Strict: false
     Private: false

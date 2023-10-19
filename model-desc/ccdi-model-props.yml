@@ -4341,7 +4341,7 @@ PropDefinitions:
         - 'Unknown'
         - 'Not Reported'
     Req: true
-    Strict: true
+    Strict: false
     Private: false 
   #diagnosis, sample
   diagnosis_chronology: 

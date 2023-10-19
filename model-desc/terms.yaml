@@ -4170,6 +4170,18 @@ Terms:
     Code: 6287900
     Version: '1'
     Value: Padlock probes capture method
+  Paired-End:
+      Origin: caDSR
+    Definition: A DNA sequencing strategy where a single read is initiated from each end of a DNA fragment.
+    Code: 11529032
+    Version: '1'
+    Value: Paired-End
+  Paired-End:
+      Origin: caDSR
+    Definition: An indexed sequencing method that includes one index read.
+    Code: 6999916
+    Version: '1'
+    Value: Single-indexed
   Palate:
     Origin: caDSR
     Definition: The roof of the oral cavity. It separates the oral cavity from the

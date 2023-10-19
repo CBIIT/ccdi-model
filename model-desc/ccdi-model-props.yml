@@ -5514,15 +5514,15 @@ PropDefinitions:
   library_layout: 
     Desc: Paired-end or Single
     Term:
-      - Origin: NCIt
-        Code: 'C175894'
-        Value: Sequencing Library Read Layout Indicator 
+      - Origin: caDSR
+        Code: '11527735'
+        Value: Sequencing Library Read Layout Type 
     Type:
       value_type: list
       Enum:
         - "Paired end"
-        - "Single end" #28feb22 pdunn
-        - "Not Applicable"  # 02/10/2022 adeforge, added this just to get past the loading error to see what happens next, will remove
+        - "Single end"
+        - "Not Applicable"  
     Req: true
     Strict: true
     Private: false

@@ -1,4 +1,10 @@
 Terms:
+  80 degrees C:
+    Origin: caDSR
+    Definition: The act or event which causes the transition from a liquid to solid matter phase when the temperature is lowered.: Used to indicate position, location, or state.: A temperature of minus 80 celsius.
+    Code: 8015819
+    Version: '1'
+    Value: -80 degrees C
   454 GS:
     Origin: caDSR
     Definition: The 454 GS is a model type of the LS454 sequencing library platform.
@@ -1198,6 +1204,29 @@ Terms:
     Code: 2582254
     Version: '1'
     Value: Cryopreserved Cell
+  Cryopreservation in dry ice (dead tissue):
+    Origin: caDSR
+    Definition: Preservation of cells, tissues, organs, or embryos by storage at low temperatures.: The cessation of life.: An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.: A solid form of carbon dioxide used as a refrigerant. At temperatures above -78.5 degrees C and ambient pressure, it changes directly to a gas as it absorbs heat.
+    Code: 8032275
+    Version: '1'
+    Value: Cryopreservation in dry ice (dead tissue)
+  Cryopreservation in liquid nitrogen (dead tissue):
+    Origin: caDSR
+    Definition: Preservation of cells, tissues, organs, or embryos by storage at low temperatures.: The cessation of life.: An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.: Nitrogen in a liquid state, having been super-cooled to -196 degrees Celsius.    
+    Code: 8032276
+    Version: '1'
+    Value: Cryopreservation in liquid nitrogen (dead tissue)
+  Cryopreservation of live cells in liquid nitrogen:
+    Origin: caDSR
+    Definition: Preservation of cells, tissues, organs, or embryos by storage at low temperatures.: Showing characteristics of life; displaying signs of life.: The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid.: Nitrogen in a liquid state, having been super-cooled to -196 degrees Celsius.    
+    Code: 8032274
+    Version: '1'
+    Value: Cryopreservation of live cells in liquid nitrogen
+  Cryopreserved:
+    Definition: Preservation of cells, tissues, organs, or embryos by storage at low temperatures.    
+    Code: 2568180
+    Version: '1'
+    Value: Cryopreserved
   CSF:
     Origin: caDSR
     Definition: The fluid that flows in and around the hollow spaces of the brain
@@ -1647,17 +1676,59 @@ Terms:
     Code: 'C76.5'
     Version: '1'
     Value: Not otherwise specified foot
+  Formalin fixed - buffered:
+    Origin: caDSR
+    Definition: The use of buffered formalin for preservation of tissue samples.
+    Code: 8031346
+    Version: '1'
+    Value: Formalin fixed - buffered
+  Formalin fixed - unbuffered:
+    Origin: caDSR
+    Definition: The use of unbuffered formalin for preservation of tissue samples.
+    Code: 8031347
+    Version: '1'
+    Value: Formalin fixed - unbuffered
+  Formalin fixed paraffin embedded (FFPE):
+    Origin: caDSR
+    Definition: Refers to samples that have been preserved with formalin and then embedded into a paraffin block for sectioning.
+    Code: 6050873
+    Version: '1'
+    Value: Formalin fixed paraffin embedded (FFPE)
   Frameshift Mutation:
     Origin: caDSR
     Definition: 'A type of mutation in which one or more paired nucleotides are inserted or deleted in the coding region of a gene, which causes the triplet codons to be read in the wrong frame; the resulting polypeptide has a garbled amino acid sequence from the mutated codon on.'
     Code: 2581318
     Version: '1'
     Value: Frameshift Mutation
+  Fresh:
+    Origin: caDSR
+    Definition: Not previously used.
+    Code: 2939917
+    Version: '1'
+    Value: Fresh
+  Fresh dissociated:
+    Origin: caDSR
+    Definition: A tissue preparation process that takes fresh tissue and dissociates it into single cell suspensions.
+    Code: 8031345
+    Version: '1'
+    Value: Fresh dissociated
+  Fresh dissociated and single cell sorted:
+    Origin: caDSR
+    Definition: A tissue preparation process that takes fresh tissue and dissociates it into single cell suspensions.
+    Code: 8031344
+    Version: '1'
+    Value: Fresh dissociated and single cell sorted
+  Fresh dissociated and single cell sorted into plates:
+    Origin: caDSR
+    Definition: A tissue preparation process that takes dissociated, sorted cells and distributes them into cell propagation plates.
+    Code: 8031343
+    Version: '1'
+    Value: Fresh dissociated and single cell sorted into plates
   Frontal lobe:
     Origin: caDSR
     Definition: 'The part of the brain located anterior to the parietal lobes at the
       front of each cerebral hemisphere. '
-    Code: 2688392
+    Code: 8031345
     Version: '1'
     Value: Frontal Lobe
   Frontal sinus:
@@ -1667,6 +1738,12 @@ Terms:
     Code: 2574414
     Version: '1'
     Value: Frontal Sinus
+  Frozen:
+    Origin: caDSR
+    Definition: A specimen that has been subjected to and immobilized by severe cold.
+    Code: 3167629
+    Version: '1'
+    Value: Frozen
   Fundus of stomach:
     Origin: caDSR
     Definition: The superior portion of the body of the stomach above the level of
@@ -2505,6 +2582,11 @@ Terms:
     Code: 7670050
     Version: '1'
     Value: Not Otherwise Specified Lip
+  Liquid nitrogen:
+    Definition: An indication that a material has been stored in liquid nitrogen.
+    Code: 8015821
+    Version: '1'
+    Value: Liquid nitrogen
   Liver:
     Origin: caDSR
     Definition: A triangular-shaped organ located under the diaphragm in the right

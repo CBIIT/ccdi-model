@@ -368,28 +368,43 @@ PropDefinitions:
     Type:
       value_type: list
       Enum:
-        - "Embedding"
-        - "Fixation"
-        - "Formalin-Fixed Paraffin-Embedded"
-        - "Fresh Dissociated Tissue Preparation"
-        - "Optimal Cutting Temperature"
-        - "Thick Smear Technique"
-        - "Thin Smear Technique"
+        - "-80 degrees C"
+        - "Cryopreservation in dry ice (dead tissue)
+        - "Cryopreservation in liquid nitrogen (dead tissue)
+        - "Cryopreservation of live cells in liquid nitrogen
+        - "Cryopreserved
+        - "Formalin fixed - buffered
+        - "Formalin fixed - unbuffered
+        - "Formalin fixed paraffin embedded (FFPE)
+        - "Fresh
+        - "Fresh dissociated
+        - "Fresh dissociated and single cell sorted
+        - "Fresh dissociated and single cell sorted into plates
+        - "Frozen
+        - "Liquid nitrogen
+        - "Not reported
+        - "OCT
+        - "Other
+        - "Snap frozen
+        - "Unknown"
     Req: true
     Strict: false
     Private: false
   #pathology_file
   staining_method:
-    Desc: Any of the various methods that use a dye, reagent, or other material for producing coloration in tissues or microorganisms for microscopic examination.
+    Desc: The name of the dye or other coloring material used in microscopy to make biological sample structures visible.
     Term:
-      - Origin: NCIt
-        Code: 'C23010'
-        Value: Staining Method
+      - Origin: caDSR
+        Code: '8120269'
+        Value: Biospecimen Stain Type
     Type:
       value_type: list
       Enum: 
-        - "Hematoxylin and Eosin Staining Method"
-        - "Immunohistochemical Staining"
+        - "H&E"
+        - "IHC"
+        - "In situ hybridization"
+        - "mIHC"
+        - "Other"
     Req: true
     Strict: false
     Private: false   

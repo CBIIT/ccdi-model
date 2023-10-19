@@ -5568,11 +5568,11 @@ PropDefinitions:
     Private: false
   #sequencing_file
   number_of_reads:
-    Desc: Count of the number of reads in the data. Please count each read only once if using secondary alignments.
+    Desc: The number of sequencing reaction results that were pooled to assemble a sequence for a genomic region of interest.
     Term:
-      - Origin: NCIt
-        Code: 'C172300'
-        Value: Read Pair Number 
+      - Origin: caDSR
+        Code: '11529035'
+        Value: Sequencing Library Sequence Read Count 
     Type: integer
     Req: false
     Private: false

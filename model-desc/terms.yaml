@@ -1933,6 +1933,12 @@ Terms:
     Code: 3685461
     Version: '1'
     Value: Grade Cannot be Assessed
+  H&E:
+    Origin: caDSR
+    Definition: Hematoxylin-and-eosin, or H&E, is a routine staining procedure of tissue sections. This staining method uses two separate dyes, one staining the nucleus and the other staining the cytoplasm and connective tissue. Hematoxylin is a dark purplish dye that stains the chromatin (nuclear material) within the nucleus. Eosin is an orangish-pink to red dye that stains the cytoplasmic material including connective tissue and collagen.
+    Code: '4588572'
+    Version: '1'
+    Value: Hematoxylin and Eosin Staining Method
   Hand, NOS:
     Origin: ICD-O-3.2
     Definition: Distal segment of the fore limb, including carpal region, metacarpal region and digits.
@@ -2151,6 +2157,12 @@ Terms:
     Code: C184762
     Version: '1'
     Value:  IDAT Format
+  IHC:
+    Origin: caDSR
+    Definition: Immunohistochemical staining techniques allow for the visualization of antigens via the sequential application of a specific antibody to the antigen (primary antibody), a secondary antibody to the primary antibody and an enzyme complex with a chromogenic substrate. The enzymatic activation of the chromogen results in a visible reaction product at the antigen site. The specimen may then be counterstained and coverslipped. Results are interpreted using a light microscope and aid in the differential diagnosis of pathophysiological processes, which may or may not be associated with a particular antigen.
+    Code: 3031358
+    Version: '1'
+    Value: Immunohistochemistry Staining Method
   Ileum:
     Origin: caDSR
     Definition: The final section of the small intestine.
@@ -2295,6 +2307,12 @@ Terms:
     Code: 5102332
     Version: '1'
     Value: Immunotherapy
+  In situ hybridization:
+    Origin: caDSR
+    Definition: Use of a DNA or RNA probe to detect the presence of complementary sequences in chromosomes, cells, or tissues.
+    Code: 2939763
+    Version: '1'
+    Value: In situ hybridization
   Inframe:
     Origin: caDSR
     Definition: Any mutation that does not cause a change in reading frame.
@@ -2919,6 +2937,12 @@ Terms:
     Code: 6287020
     Version: '1'
     Value: Methyl Filtrated
+  mIHC:
+    Origin: caDSR
+    Definition: A method that enables simultaneous detection of multiple biomarkers on a single tissue section using immunohistochemistry techniques.
+    Code: 7789191
+    Version: '1'
+    Value: Multiplexed Immunohistochemistry
   Middle ear:
     Origin: caDSR
     Definition: The part of the ear including the eardrum and ossicles. The middle

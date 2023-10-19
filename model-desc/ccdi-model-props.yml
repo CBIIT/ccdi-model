@@ -5527,7 +5527,7 @@ PropDefinitions:
     Strict: true
     Private: false
   #sequencing_file
-  library_source: # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
+  library_source: 
     Desc: The source of a sample collection of double stranded DNA fragments analyzed by high-throughput sequencing.
     Term:
       - Origin: caDSR
@@ -5543,10 +5543,10 @@ PropDefinitions:
         - "Bulk nuclei"
         - "Bulk tissue"
         - "DNA"
+        - "Genomic"
         - "Genomic Single Cell"
         - "Metagenomic"
         - "Metatranscriptomic"
-        - "Other"
         - "RNA"
         - "Single-cells"
         - "Single-nuclei"
@@ -5554,9 +5554,9 @@ PropDefinitions:
         - "Transcriptomic"
         - "Transcriptomic Single Cell"
         - "Viral RNA"
-        - "Genomic" #values from first DD version 08/18/2022
-        - "Viral" #values from first DD version 08/18/2022
-        - "Not Applicable"  # 02/10/2022 adeforge, added this just to get past the loading error to see what happens next, will remove
+        - "Viral"
+        - "Not Applicable"  
+        - "Other"
     Req: true
     Strict: true
     Private: false

@@ -3534,12 +3534,12 @@ Terms:
     Code: 3698177
     Version: '1'
     Value: Optic Nerve
-  Optimal Cutting Temperature:
-    Origin: NCIt
-    Definition: cryostat sectioning at temperatures of -10 degrees C and below.
-    Code: C63523
+  OCT:
+    Origin: caDSR
+    Definition: A solution of water soluble glycols and resins that provide a specimen support matrix for cryostat sectioning at temperatures of -10 degrees C and below.
+    Code: 5428812
     Version: '1'
-    Value: Optimal Cutting Temperature
+    Value: Optimal Cutting Temperature Compound
   Oral rinse:
     Origin: caDSR
     Definition: Of, or relating to, or affecting, or for use in the mouth._Wash lightly.
@@ -5246,6 +5246,12 @@ Terms:
     Code: 7701727
     Version: '1'
     Value: Not Otherwise Specified Small Intestine
+  Snap frozen:
+    Origin: caDSR
+    Definition: To freeze rapidly so as to preserve structure and prevent ice crystal formation.
+    Code: 4399755
+    Version: '1'
+    Value: Snap frozen
   Soft palate, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: The muscular extension of the

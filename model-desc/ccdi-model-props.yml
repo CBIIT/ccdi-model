@@ -6026,7 +6026,8 @@ PropDefinitions:
   #study_arm
   clinical_trial_identifier:
     Desc: Organization or research site participating in a type of research study that tests how well new medical treatments or other interventions work in people.
-      - Origin: caDSR
+    Term:
+        - Origin: caDSR
         Code: '2413202'
         Value: Clinical Trial Site Identifier 64 Character Text
     Type: string

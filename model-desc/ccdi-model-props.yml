@@ -2468,7 +2468,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '14473382'
-        Value: Molecular Analysis Gene Variant Genomic Source Category	
+        Value: Molecular Analysis Gene Variant Genomic Source Category
     Type:
       value_type: string
       Enum:

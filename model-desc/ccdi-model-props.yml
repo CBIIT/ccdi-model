@@ -5661,6 +5661,7 @@ PropDefinitions:
   #sequencing_file
   coverage:
     Desc: The number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.
+    Term:
       - Origin: caDSR
         Code: '11556322'
         Value: Genome Assembly Sequence Depth of Coverage Number

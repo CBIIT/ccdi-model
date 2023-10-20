@@ -5917,7 +5917,7 @@ PropDefinitions:
     Private: false
   # study_admin
   adult_or_childhood_study: 
-  Desc: The identifiable class of the study participant based upon their age.
+    Desc: The identifiable class of the study participant based upon their age.
     Term:
       - Origin: caDSR
         Code: '11524549'

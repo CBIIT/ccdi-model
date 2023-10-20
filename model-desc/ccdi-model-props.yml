@@ -5832,7 +5832,8 @@ PropDefinitions:
     Private: false
   #study_admin
   number_of_samples:
-    Desc: The number of samples associated with a subset of a larger population associated with systematic investigation into a subject.    Term:
+    Desc: The number of samples associated with a subset of a larger population associated with systematic investigation into a subject.    
+    Term:
       - Origin: caDSR
         Code: '11555663'
         Value: Research Activity Sample Size Count

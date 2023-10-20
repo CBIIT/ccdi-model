@@ -1942,7 +1942,8 @@ PropDefinitions:
     Private: false
   #molecular_test
   gene_symbol:
-    Desc: A short-form abbreviation for a particular gene assigned by the HGNC (HUGO Gene Nomenclature Committee - an organism specific nomenclature committee).    Term:
+    Desc: A short-form abbreviation for a particular gene assigned by the HGNC (HUGO Gene Nomenclature Committee - an organism specific nomenclature committee).    
+    Term:
       - Origin: caDSR
         Code: '11280318'
         Value: Gene Occurrence HGNC Symbol Name

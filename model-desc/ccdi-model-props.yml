@@ -3168,7 +3168,8 @@ PropDefinitions:
     Private: false
   #diagnosis, sample
   diagnosis_icd_o:
-    Desc: The ICD-O-3 code and textual label which identifies the specific appearance of cells and tissues (normal and abnormal) used to define the presence and nature of disease.    Term:
+    Desc: The ICD-O-3 code and textual label which identifies the specific appearance of cells and tissues (normal and abnormal) used to define the presence and nature of disease.    
+    Term:
       - Origin: caDSR
         Code: '13594090'
         Value: Disease Morphology ICD-O-3 Code Label Text

@@ -2424,7 +2424,7 @@ PropDefinitions:
     Private: false
   #molecular_test
   second_gene_symbol:
-    Desc: The HGNC gene symbol for the second coding region in a mutation that spans two gene locations (Example: fusion, translocation, inversion).    
+    Desc: "The HGNC gene symbol for the second coding region in a mutation that spans two gene locations (Example: fusion, translocation, inversion)."    
     Term:
       - Origin: caDSR
         Code: '13367968'

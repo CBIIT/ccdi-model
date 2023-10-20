@@ -1,4 +1,10 @@
 Terms:
+  80 degrees C:
+    Origin: caDSR
+    Definition: The act or event which causes the transition from a liquid to solid matter phase when the temperature is lowered.: Used to indicate position, location, or state.: A temperature of minus 80 celsius.
+    Code: 8015819
+    Version: '1'
+    Value: -80 degrees C
   454 GS:
     Origin: caDSR
     Definition: The 454 GS is a model type of the LS454 sequencing library platform.
@@ -447,23 +453,16 @@ Terms:
     Value: Not Otherwise Specified Biliary Tract
   Biochemical evidence of disease without structural correlate:
     Origin: caDSR
-    Definition: 'Biochemical; of or relating to biochemistry; involving chemical processes
-      in living organisms.: Knowledge on which to base belief.: Used to indicate the
-      absence or lack of something or someone. (from Merriam-Webster OnLine): The
-      components and their relationship and manner of arrangement in constituting
-      a whole.: The degree to which two or more quantities or events are linearly
-      associated, a statistical relation between two or more variables such that systematic
-      changes in the value of one variable are accompanied by systematic changes in
-      the others.: A benign or malignant tissue growth resulting from uncontrolled
-      cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting
-      significant cytologic atypia, while malignant cells exhibit overt signs such
-      as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism,
-      and anaplasia. Representative examples of benign neoplasms include papillomas,
-      cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas,
-      lymphomas, and leukemias.'
-    Code: 3623800
+    Definition: 'An indication that biochemical markers of a disease are present but morphological markers are absent.'
+    Code: 13254014
     Version: '1'
     Value: Biochemical Evidence of Tumor Without Structural Correlate
+  Biopsy:
+    Origin: caDSR
+    Definition: 'The removal of tissue specimens or fluid from the living body for microscopic examination, performed to establish a diagnosis.'
+    Code: 5043459
+    Version: '1'
+    Value: Biopsy
   Bisulfite-Seq:
     Origin: caDSR
     Definition: Sequencing following treatment of DNA with bisulfite to convert cytosine
@@ -557,6 +556,12 @@ Terms:
     Code: 2873881
     Version: '1'
     Value: Bone Marrow (biopsy/aspirate)
+  Bone Scan:
+    Origin: caDSR
+    Definition:  A nuclear imaging method used to evaluate pathological bone metabolism.
+    Code: '3057576'
+    Version: '1'
+    Value: Bone Scan
   Bone of limb, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: A bone within a limb of the
@@ -1057,6 +1062,12 @@ Terms:
     Code: 5102337
     Version: '1'
     Value: Complete Response
+  Computed Tomography:
+    Origin: caDSR  
+    Definition: 'A method of examining structures within the body by scanning them with X rays and using a computer to construct a series of cross-sectional scans along a single axis.'
+    Code: 5612204
+    Version: '1'
+    Value: Computed Tomography
   Conjunctiva:
     Origin: caDSR
     Definition: A thin, transparent tissue divided into the palpebral conjunctiva
@@ -1193,6 +1204,29 @@ Terms:
     Code: 2582254
     Version: '1'
     Value: Cryopreserved Cell
+  Cryopreservation in dry ice (dead tissue):
+    Origin: caDSR
+    Definition: Preservation of cells, tissues, organs, or embryos by storage at low temperatures.: The cessation of life.: An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.: A solid form of carbon dioxide used as a refrigerant. At temperatures above -78.5 degrees C and ambient pressure, it changes directly to a gas as it absorbs heat.
+    Code: 8032275
+    Version: '1'
+    Value: Cryopreservation in dry ice (dead tissue)
+  Cryopreservation in liquid nitrogen (dead tissue):
+    Origin: caDSR
+    Definition: Preservation of cells, tissues, organs, or embryos by storage at low temperatures.: The cessation of life.: An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.: Nitrogen in a liquid state, having been super-cooled to -196 degrees Celsius.    
+    Code: 8032276
+    Version: '1'
+    Value: Cryopreservation in liquid nitrogen (dead tissue)
+  Cryopreservation of live cells in liquid nitrogen:
+    Origin: caDSR
+    Definition: Preservation of cells, tissues, organs, or embryos by storage at low temperatures.: Showing characteristics of life; displaying signs of life.: The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid.: Nitrogen in a liquid state, having been super-cooled to -196 degrees Celsius.    
+    Code: 8032274
+    Version: '1'
+    Value: Cryopreservation of live cells in liquid nitrogen
+  Cryopreserved:
+    Definition: Preservation of cells, tissues, organs, or embryos by storage at low temperatures.    
+    Code: 2568180
+    Version: '1'
+    Value: Cryopreserved
   CSF:
     Origin: caDSR
     Definition: The fluid that flows in and around the hollow spaces of the brain
@@ -1214,6 +1248,12 @@ Terms:
     Code: 6273361
     Version: '1'
     Value: CTS
+  Cytology:
+    Origin: caDSR
+    Definition: Technique or procedure for manipulation of cells and analysis of cell properties and subcellular features.
+    Code: 3452321
+    Version: '1'
+    Value: Cytology  
   Cytotoxic chemotherapy:
     Origin: caDSR
     Definition: Anticancer drugs that kill cells, especially cancer cells.
@@ -1293,14 +1333,12 @@ Terms:
     Code: 12217251
     Version: '1'
     Value: Disease Phase
-  Distant met recurrence/progression:
+  Distant Metastasis:
     Origin: caDSR
-    Definition: 'Refers to cancer that has spread from the original (primary) tumor
-      to distant organs or distant lymph nodes.: the return of a sign, symptom, or
-      disease after a remission.'
-    Code: 3166452
+    Definition: 'A biological process that involves the transfer and growth of cancer cells from the site of the primary tumor. Relocation of malignant cells during metastasis can be restricted to movement within a specific tissue/organ or may entail migration to a distal locus within the body. This phenotype is a characteristic of all malignant tumors.'
+    Code: 5627051
     Version: '1'
-    Value: Distant Metastasis Recurrent Disease
+    Value: Distant Metastasis
   DNA:
     Origin: caDSR
     Definition: The DNA that is part of the normal chromosomal complement of an organism.
@@ -1638,11 +1676,59 @@ Terms:
     Code: 'C76.5'
     Version: '1'
     Value: Not otherwise specified foot
+  Formalin fixed - buffered:
+    Origin: caDSR
+    Definition: The use of buffered formalin for preservation of tissue samples.
+    Code: 8031346
+    Version: '1'
+    Value: Formalin fixed - buffered
+  Formalin fixed - unbuffered:
+    Origin: caDSR
+    Definition: The use of unbuffered formalin for preservation of tissue samples.
+    Code: 8031347
+    Version: '1'
+    Value: Formalin fixed - unbuffered
+  Formalin fixed paraffin embedded (FFPE):
+    Origin: caDSR
+    Definition: Refers to samples that have been preserved with formalin and then embedded into a paraffin block for sectioning.
+    Code: 6050873
+    Version: '1'
+    Value: Formalin fixed paraffin embedded (FFPE)
+  Frameshift Mutation:
+    Origin: caDSR
+    Definition: 'A type of mutation in which one or more paired nucleotides are inserted or deleted in the coding region of a gene, which causes the triplet codons to be read in the wrong frame; the resulting polypeptide has a garbled amino acid sequence from the mutated codon on.'
+    Code: 2581318
+    Version: '1'
+    Value: Frameshift Mutation
+  Fresh:
+    Origin: caDSR
+    Definition: Not previously used.
+    Code: 2939917
+    Version: '1'
+    Value: Fresh
+  Fresh dissociated:
+    Origin: caDSR
+    Definition: A tissue preparation process that takes fresh tissue and dissociates it into single cell suspensions.
+    Code: 8031345
+    Version: '1'
+    Value: Fresh dissociated
+  Fresh dissociated and single cell sorted:
+    Origin: caDSR
+    Definition: A tissue preparation process that takes fresh tissue and dissociates it into single cell suspensions.
+    Code: 8031344
+    Version: '1'
+    Value: Fresh dissociated and single cell sorted
+  Fresh dissociated and single cell sorted into plates:
+    Origin: caDSR
+    Definition: A tissue preparation process that takes dissociated, sorted cells and distributes them into cell propagation plates.
+    Code: 8031343
+    Version: '1'
+    Value: Fresh dissociated and single cell sorted into plates
   Frontal lobe:
     Origin: caDSR
     Definition: 'The part of the brain located anterior to the parietal lobes at the
       front of each cerebral hemisphere. '
-    Code: 2688392
+    Code: 8031345
     Version: '1'
     Value: Frontal Lobe
   Frontal sinus:
@@ -1652,6 +1738,12 @@ Terms:
     Code: 2574414
     Version: '1'
     Value: Frontal Sinus
+  Frozen:
+    Origin: caDSR
+    Definition: A specimen that has been subjected to and immobilized by severe cold.
+    Code: 3167629
+    Version: '1'
+    Value: Frozen
   Fundus of stomach:
     Origin: caDSR
     Definition: The superior portion of the body of the stomach above the level of
@@ -1841,6 +1933,12 @@ Terms:
     Code: 3685461
     Version: '1'
     Value: Grade Cannot be Assessed
+  H&E:
+    Origin: caDSR
+    Definition: Hematoxylin-and-eosin, or H&E, is a routine staining procedure of tissue sections. This staining method uses two separate dyes, one staining the nucleus and the other staining the cytoplasm and connective tissue. Hematoxylin is a dark purplish dye that stains the chromatin (nuclear material) within the nucleus. Eosin is an orangish-pink to red dye that stains the cytoplasmic material including connective tissue and collagen.
+    Code: '4588572'
+    Version: '1'
+    Value: Hematoxylin and Eosin Staining Method
   Hand, NOS:
     Origin: ICD-O-3.2
     Definition: Distal segment of the fore limb, including carpal region, metacarpal region and digits.
@@ -2059,6 +2157,12 @@ Terms:
     Code: C184762
     Version: '1'
     Value:  IDAT Format
+  IHC:
+    Origin: caDSR
+    Definition: Immunohistochemical staining techniques allow for the visualization of antigens via the sequential application of a specific antibody to the antigen (primary antibody), a secondary antibody to the primary antibody and an enzyme complex with a chromogenic substrate. The enzymatic activation of the chromogen results in a visible reaction product at the antigen site. The specimen may then be counterstained and coverslipped. Results are interpreted using a light microscope and aid in the differential diagnosis of pathophysiological processes, which may or may not be associated with a particular antigen.
+    Code: 3031358
+    Version: '1'
+    Value: Immunohistochemistry Staining Method
   Ileum:
     Origin: caDSR
     Definition: The final section of the small intestine.
@@ -2191,12 +2295,30 @@ Terms:
     Code: 7620921
     Version: '1'
     Value: Illumina NovaSeq
+  Imaging:
+    Origin: caDSR
+    Definition: Any technology or method that aids in the visualization of any biological process, cell, tissue or organ for use in screening, diagnosis, surgical procedures or therapy.
+    Code: 5283972
+    Version: '1'
+    Value: Imaging  
   Immunotherapy:
     Origin: caDSR
     Definition: Therapy designed to induce changes in a patient's immune status in order to treat disease.
     Code: 5102332
     Version: '1'
     Value: Immunotherapy
+  In situ hybridization:
+    Origin: caDSR
+    Definition: Use of a DNA or RNA probe to detect the presence of complementary sequences in chromosomes, cells, or tissues.
+    Code: 2939763
+    Version: '1'
+    Value: In situ hybridization
+  Inframe:
+    Origin: caDSR
+    Definition: Any mutation that does not cause a change in reading frame.
+    Code: 2581319
+    Version: '1'
+    Value: Inframe  
   injection:
     Origin: JAX
     Definition: Injection is a procedure where the human tumor cells are injected into a lateral tail vein of the mouse host using a syringe and the smallest gauge needle possible 
@@ -2210,7 +2332,7 @@ Terms:
     Code: 6352164
     Version: '1'
     Value: Sequencing Library Platform Model Name
-  Initial_Diagnosis:
+  Initial Diagnosis:
     Origin: caDSR
     Definition: The first diagnosis of the individual's condition.    
     Code: 8002761
@@ -2478,6 +2600,11 @@ Terms:
     Code: 7670050
     Version: '1'
     Value: Not Otherwise Specified Lip
+  Liquid nitrogen:
+    Definition: An indication that a material has been stored in liquid nitrogen.
+    Code: 8015821
+    Version: '1'
+    Value: Liquid nitrogen
   Liver:
     Origin: caDSR
     Definition: A triangular-shaped organ located under the diaphragm in the right
@@ -2499,14 +2626,12 @@ Terms:
     Code: 6160800
     Version: '1'
     Value: Liver and Intrahepatic Bile Duct
-  Loco-regional recurrence/progression:
+  Localized Disease:
     Origin: caDSR
-    Definition: 'Of or belonging to a restricted area or locality.: Regional; limited
-      to a particular location or area.: the return of a sign, symptom, or disease
-      after a remission.'
-    Code: 3166453
+    Definition: 'A disease that is confined to a specific organ or tissue and has not spread to other anatomic sites.'
+    Code: 3461432
     Version: '1'
-    Value: Local Regional Recurrent Disease
+    Value: Localized Disease
   Long bones of lower limb and associated joints:
     Origin: caDSR
     Definition: Long bones of lower limb and associated joints
@@ -2812,6 +2937,12 @@ Terms:
     Code: 6287020
     Version: '1'
     Value: Methyl Filtrated
+  mIHC:
+    Origin: caDSR
+    Definition: A method that enables simultaneous detection of multiple biomarkers on a single tissue section using immunohistochemistry techniques.
+    Code: 7789191
+    Version: '1'
+    Value: Multiplexed Immunohistochemistry
   Middle ear:
     Origin: caDSR
     Definition: The part of the ear including the eardrum and ossicles. The middle
@@ -2852,6 +2983,12 @@ Terms:
     Code: 6273388
     Version: '1'
     Value: miRNA-Seq
+  Missense Mutation:
+    Origin: caDSR
+    Definition: 'A mutation in which a base change results in substitution of one amino acid for another. This change may result in alteration of the protein's activity or stability.'
+    Code: 2581320
+    Version: '1'
+    Value: Missense Mutation  
   Mixed Response:
     Origin: caDSR
     Definition: 'Involving or composed of different kinds.: The pathologic and/or
@@ -2947,6 +3084,12 @@ Terms:
     Code: 3211581
     Version: '1'
     Value: Myometrium
+  MRI:
+    Origin: caDSR
+    Definition: Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide amazingly clear and detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.
+    Code: 5612304
+    Version: '1'
+    Value: MRI
   N0:
     Origin: caDSR
     Definition: A regional lymph node TNM finding indicating that there is no evidence
@@ -3241,30 +3384,10 @@ Terms:
     Code: 2673745
     Version: '1'
     Value: Not Otherwise Specified Nervous System
-  Never Tumor Free:
+  New Tumor Event:
     Origin: caDSR
-    Definition: 'Not ever; at no time in the past (or future).: A benign or malignant
-      tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic
-      cells resemble normal cells without exhibiting significant cytologic atypia,
-      while malignant cells exhibit overt signs such as dysplastic features, atypical
-      mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative
-      examples of benign neoplasms include papillomas, cystadenomas, and lipomas;
-      malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias.:
-      Not existing in a specified place at a specified time.'
-    Code: 5102188
-    Version: '1'
-    Value: Never Tumor Free
-  New Tumor Event (remission/relapse):
-    Origin: caDSR
-    Definition: 'Having no previous example or precedent or parallel; of a kind not
-      seen before.: A benign or malignant tissue growth resulting from uncontrolled
-      cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting
-      significant cytologic atypia, while malignant cells exhibit overt signs such
-      as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism,
-      and anaplasia. Representative examples of benign neoplasms include papillomas,
-      cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas,
-      lymphomas, and leukemias.: Something that happens at a given place and time.'
-    Code: 5102192
+    Definition: 'The presence of a primary, recurrent or metastatic neoplasm which has not been previously noted.'
+    Code: 14473337
     Version: '1'
     Value: New Tumor Event
   NextSeq 500:
@@ -3344,6 +3467,12 @@ Terms:
     Code: 2574138
     Version: '1'
     Value: None
+  Nonsense Mutation:
+    Origin: caDSR
+    Definition: A mutation in which a base change creates a stop codon, resulting in premature termination of a polypeptide product.
+    Code: 2581321
+    Version: '1'
+    Value: Nonsense Mutation  
   Normal:
     Origin: caDSR
     Definition: 'Being approximately average or within certain limits; conforming
@@ -3379,7 +3508,7 @@ Terms:
   Not Applicable:
     Origin: caDSR
     Definition: Determination of a value is not relevant in the current context.
-    Code: 5043360
+    Code: 7590024
     Version: '1'
     Value: Not Applicable
   Not Hispanic or Latino:
@@ -3392,7 +3521,7 @@ Terms:
   Not Reported:
     Origin: caDSR
     Definition: Not provided or available.
-    Code: 2572578
+    Code: 5612322
     Version: '1'
     Value: Not Reported
   NX:
@@ -3429,12 +3558,12 @@ Terms:
     Code: 3698177
     Version: '1'
     Value: Optic Nerve
-  Optimal Cutting Temperature:
-    Origin: NCIt
-    Definition: cryostat sectioning at temperatures of -10 degrees C and below.
-    Code: C63523
+  OCT:
+    Origin: caDSR
+    Definition: A solution of water soluble glycols and resins that provide a specimen support matrix for cryostat sectioning at temperatures of -10 degrees C and below.
+    Code: 5428812
     Version: '1'
-    Value: Optimal Cutting Temperature
+    Value: Optimal Cutting Temperature Compound
   Oral rinse:
     Origin: caDSR
     Definition: Of, or relating to, or affecting, or for use in the mouth._Wash lightly.
@@ -4041,6 +4170,12 @@ Terms:
     Code: 6287900
     Version: '1'
     Value: Padlock probes capture method
+  Paired end:
+      Origin: caDSR
+    Definition: A DNA sequencing strategy where a single read is initiated from each end of a DNA fragment.
+    Code: 11529032
+    Version: '1'
+    Value: Paired-End
   Palate:
     Origin: caDSR
     Definition: The roof of the oral cavity. It separates the oral cavity from the
@@ -4374,6 +4509,24 @@ Terms:
     Code: 3178994
     Version: '1'
     Value: Persistent disease (Hematologic persistence)
+  PET:
+    Origin: caDSR
+    Definition: 'A technique for measuring the gamma radiation produced by collisions of electrons and positrons (anti-electrons) within living tissue. In positron emission tomography (PET), a subject is given a dose of a positron-emitting radionuclide attached to a metabolically active substance (for example, 2-fluoro-2-deoxy-D-glucose (FDG), which is similar to a naturally occurring sugar, glucose, with the addition of a radioactive fluorine atom). When living tissue containing the positron emitter is bombarded by electrons, gamma radiation produced by collisions of electrons and positrons is detected by a scanner, revealing in fine detail the tissue location of the metabolically-active substance administered.'
+    Code: 2919109
+    Version: '1'
+    Value: PET  
+  PET-CT:
+    Origin: caDSR
+    Definition: 'An imaging technique that utilizes positron emission tomography and computed tomography in a single machine.
+    Code: 5627465
+    Version: '1'
+    Value: PET-CT 
+  PET-MRI:
+    Origin: caDSR
+    Definition: 'An imaging technique that utilizes positron emission tomography and magnetic resonance imaging in a single machine.'
+    Code: 4136341
+    Version: '1'
+    Value: PET-MRI 
   Pharmaceutical Therapy:
     Origin: caDSR
     Definition: 'An action or administration of therapeutic agents to produce an effect
@@ -4395,6 +4548,12 @@ Terms:
     Code: 7701712
     Version: '1'
     Value: Not Otherwise Specified Pharynx
+  Physical Examination:
+    Origin: caDSR
+    Definition: A systemic evaluation of the body and its functions using visual inspection, palpation, percussion and auscultation. The purpose is to determine the presence or absence of physical signs of disease or abnormality for an individual's health assessment.
+    Code: 2581620
+    Version: '1'
+    Value: Physical Examination
   Pineal gland:
     Origin: caDSR
     Definition: A small endocrine gland in the brain, situated beneath the back part
@@ -4469,6 +4628,12 @@ Terms:
     Code: 6273384
     Version: '1'
     Value: POOLCLONE
+  Post-Mortem:
+    Origin: caDSR
+     Definition: After death. Often used to describe an autopsy.
+     Code: 5236215
+     Version: '1'
+     Value: Post-Mortem
   Postcricoid region:
     Origin: caDSR
     Definition: The portion of the hypopharynx that is located posteriorly to the
@@ -4546,7 +4711,7 @@ Terms:
     #Value: ICD-O Primary Anatomic Site Category
   Progression:
     Origin: caDSR
-    Definition: The worsening of a disease over time
+    Definition: The worsening of a disease over time.
     Code: 2816916
     Version: '1'
     Value: Progression
@@ -5017,14 +5182,12 @@ Terms:
     Code: 7592126
     Version: '1'
     Value: Single Nucleus Specimen
-  #site_of_resection_or_biopsy:
-    #Origin: caDSR
-    #Definition: The text term used to describe the anatomic site of the resection
-    #  or biopsy of the patient's malignant disease, as described by the World Health
-    #  Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
-    #Code: 6161034
-    #Version: '1'
-    #Value: ICD-O Resection or Biopsy Anatomic Site Code
+  Single end:
+    Origin: caDSR
+    Definition: An indexed sequencing method that includes one index read.
+    Code: 6999916
+    Version: '1'
+    Value: Single-indexed
   Size fractionation:
     Origin: caDSR
     Definition: Physical selection of size appropriate targets
@@ -5111,6 +5274,12 @@ Terms:
     Code: 7701727
     Version: '1'
     Value: Not Otherwise Specified Small Intestine
+  Snap frozen:
+    Origin: caDSR
+    Definition: To freeze rapidly so as to preserve structure and prevent ice crystal formation.
+    Code: 4399755
+    Version: '1'
+    Value: Snap frozen
   Soft palate, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: The muscular extension of the
@@ -5185,6 +5354,17 @@ Terms:
     Code: 3088304
     Version: '1'
     Value: Splenic Flexure
+  Splice Acceptor:
+    Origin: caDSR
+    Definition: A heritable single nucleotide polymorphism located at the acceptor splice site in certain allelic variants of eukaryotic genes. These sites are located in genes at intron to exon junctions at the 3' end of the intron.
+    Code: 6141815
+    Version: '1'
+    Value: Splice Acceptor
+   Splice Donor:
+    Origin: caDSR
+    Definition: An inherited single base change at a donor splice site in a genomic DNA sequence that results in an allelic variant of the wild-type gene. Donor splice sites are located at exon to intron junctions at the 5' end of the intron.    Code: 6141817
+    Version: '1'
+    Value: Splice Donor  
   ssRNA-seq:
     Origin: caDSR
     Definition: Strand-specific RNA sequencing
@@ -5197,6 +5377,12 @@ Terms:
     Code: 3008097
     Version: '1'
     Value: Stable Disease
+  Start Lost:
+    Origin: caDSR
+    Definition: A mutation occurring within the start codon of a gene that results in a sequence that no longer encodes a start codon. This can result in a gene deletion or gene transcription may start from an alternative start site.
+    Code: 13347948
+    Version: '1'
+    Value: Start Lost  
   Stem Cell Transplant:
     Origin: caDSR
     Definition: A method of hematopoietic reconstitution, Peripheral Stem Cell Transplants
@@ -5235,6 +5421,12 @@ Terms:
     Code: 3684610
     Version: '1'
     Value: Stomach, Not Otherwise Specified
+  Stop Lost:   
+    Origin: caDSR
+    Definition: A mutation occurring within the stop codon of a gene that results in a sequence that no longer encodes a stop codon and results in the transcription of non-coding regions downstream of the gene.    
+    Code: 13347949
+    Version: '1'
+    Value: Stop Lost 
   study_data_types:
     Origin: caDSR
     Definition: The field of study(s) associated with the data collection.
@@ -5302,6 +5494,18 @@ Terms:
     Code:
     Version: '1'
     Value: surgical
+  Surgical Resection:
+    Origin: caDSR
+    Definition: A surgical procedure in which tissue is removed.
+    Code: 7060863
+    Version: '1'
+    Value: Surgical Resection
+  Synonymous:   
+    Origin: caDSR
+    Definition:  A mutation that alters the DNA sequence, but encodes the same amino acid.
+    Code: 2581691
+    Version: '1'
+    Value: Synonymous 
   Synthetic:
     Origin: caDSR
     Definition: Synthetic DNA
@@ -5687,11 +5891,11 @@ Terms:
     Value: Tethered Chromatin Conformation Capture
   therapeutic_agents:
     Origin: caDSR
-    Definition: Text identification of the individual agent(s) used as part of a prior
+    Definition: The name of the individual therapeutic agent(s) used as part of a treatment regimen.
       treatment regimen.
-    Code: 2975232
+    Code: 13579886
     Version: '1'
-    Value: Prior Therapy Regimen Text
+    Value: Therapeutic Procedure Agent Name
   Tibia:
     Origin: ICD-O-3.2
     Definition: The major preaxial endochondral bone in the posterior zeugopod.
@@ -5879,8 +6083,7 @@ Terms:
     Value: Treatment Terminated Due to Toxicity
   treatment_outcome:
     Origin: caDSR
-    Definition: The text term that describes the patient's final outcome after the
-      treatment was administered.
+    Definition: The text term that describes the patient's final outcome after the treatment was administered.
     Code: 5102383
     Version: '1'
     Value: Treatment Outcome Type
@@ -5921,36 +6124,12 @@ Terms:
     Code: 12922545
     Version: '1'
     Value: Tumor Classification Type
-  Tumor free:
+  Tumor Free:
     Origin: caDSR
-    Definition: 'A benign or malignant tissue growth resulting from uncontrolled cell
-      proliferation. Benign neoplastic cells resemble normal cells without exhibiting
-      significant cytologic atypia, while malignant cells exhibit overt signs such
-      as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism,
-      and anaplasia. Representative examples of benign neoplasms include papillomas,
-      cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas,
-      lymphomas, and leukemias.: An operation in which a term denies or inverts the
-      meaning of another term or construction.: Being or existing in a specified place
-      or at the specified time.'
-    Code: 3623801
+    Definition: 'There is no evidence of a tumor in the individual.'
+    Code: 6719428
     Version: '1'
-    Value: Tumor Not Present
-  Tumor Free at Follow-up:
-    Origin: caDSR
-    Definition: 'A benign or malignant tissue growth resulting from uncontrolled cell
-      proliferation. Benign neoplastic cells resemble normal cells without exhibiting
-      significant cytologic atypia, while malignant cells exhibit overt signs such
-      as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism,
-      and anaplasia. Representative examples of benign neoplasms include papillomas,
-      cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas,
-      lymphomas, and leukemias.: Not existing in a specified place at a specified
-      time.: The process by which information about the health status of an individual
-      is obtained after a study has officially closed; an activity that continues
-      something that has already begun or that repeats something that has already
-      been done.'
-    Code: 5727175
-    Version: '1'
-    Value: Neoplasm Absent Follow-up
+    Value: Tumor Free
   tumor_grade:
     Origin: caDSR
     Definition: Numeric value to express the degree of abnormality of cancer cells,
@@ -6005,6 +6184,12 @@ Terms:
     Code: 2560192
     Version: '1'
     Value: TEXT
+  Ultrasound:
+    Origin: caDSR
+    Definition: High frequency sound, generally with a frequency greater than 20,000 Hz.
+    Code: 3109382
+    Version: '1'
+    Value: Ultrasound  
   Unavailable:
     Origin: caDSR
     Definition: The desired information is not available.
@@ -6023,9 +6208,9 @@ Terms:
   Unknown:
     Origin: caDSR
     Definition: Not known, not observed, not recorded, or refused.
-    Code: 2575365
+    Code: 4266671
     Version: '1'
-    Value: unknown
+    Value: Unknown
   Unknown primary site:
     Origin: caDSR
     Definition: Referring to the fact that the original site of growth of a metastatic
@@ -6033,19 +6218,6 @@ Terms:
     Code: 6102882
     Version: '1'
     Value: Primary Site Unknown
-  Unknown tumor status:
-    Origin: caDSR
-    Definition: 'A benign or malignant tissue growth resulting from uncontrolled cell
-      proliferation. Benign neoplastic cells resemble normal cells without exhibiting
-      significant cytologic atypia, while malignant cells exhibit overt signs such
-      as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism,
-      and anaplasia. Representative examples of benign neoplasms include papillomas,
-      cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas,
-      lymphomas, and leukemias.: Not known, not observed, not recorded, or refused.:
-      A condition or state at a particular time.'
-    Code: 3623802
-    Version: '1'
-    Value: Tumor Unknown Status
   unspecified:
     Origin: caDSR
     Definition: Not stated explicitly or in detail.
@@ -6305,25 +6477,24 @@ Terms:
     Code: 2572236
     Version: '1'
     Value: White
-  With tumor:
+  With Tumor:
     Origin: caDSR
-    Definition: 'A benign or malignant tissue growth resulting from uncontrolled cell
-      proliferation. Benign neoplastic cells resemble normal cells without exhibiting
-      significant cytologic atypia, while malignant cells exhibit overt signs such
-      as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism,
-      and anaplasia. Representative examples of benign neoplasms include papillomas,
-      cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas,
-      lymphomas, and leukemias.: Being or existing in a specified place or at the
-      specified time.'
+    Definition: 'There is evidence of a tumor in an individual.'
     Code: 3623803
     Version: '1'
-    Value: Tumor Present
+    Value: With Tumor
   WXS:
     Origin: caDSR
     Definition: Random sequencing of exonic regions selected from the genome.
     Code: 6273372
     Version: '1'
     Value: WXS
+  X-Ray:
+    Origin: caDSR
+    Definition: A radiographic procedure using the emission of x-rays to form an image of the structure penetrated by the radiation.
+    Code: 2582126
+    Version: '1'
+    Value: X-Ray  
   'Yes':
     Origin: caDSR
     Definition: The affirmative response to a question.

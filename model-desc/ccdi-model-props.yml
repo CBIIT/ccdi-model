@@ -2155,7 +2155,8 @@ PropDefinitions:
     Private: false
   #molecular_test
   chromosome:
-    Desc: Threadlike structures made of protein and a single molecule of DNA in a human that serve to carry the genomic information from cell to cell.    Term:
+    Desc: Threadlike structures made of protein and a single molecule of DNA in a human that serve to carry the genomic information from cell to cell.    
+    Term:
       - Origin: caDSR
         Code: '11379445'
         Value: Gene Human Chromosome Name

@@ -121,7 +121,7 @@ Nodes:
       - test_unit
       - aa_change
       - antigen
-      - biospecimen_type
+      - anatomic_site
       - blood_test_normal_range_upper
       - blood_test_normal_range_lower
       - cell_count

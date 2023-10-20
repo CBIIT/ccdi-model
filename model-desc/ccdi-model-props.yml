@@ -4689,7 +4689,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '12137353'
-        Value: 	Imaging Technology DICOM Modality Type
+        Value: Imaging Technology DICOM Modality Type
     Type:
       value_type: string
       Enum:

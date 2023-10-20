@@ -6063,17 +6063,17 @@ PropDefinitions:
         Value: Person Name Prefix Abbreviation Text
       - Origin: caDSR
         Code: '2179589'
-        Value: A word or group of words indicating a person's first (personal or given) name; the name that precedes the surname. Synonym = Given Name  
+        Value: "A word or group of words indicating a person's first (personal or given) name; the name that precedes the surname. Synonym = Given Name"
       - Origin: caDSR
         Code: '2179590'
-        Value: A means of identifying an individual by using a word or group of words indicating a person's middle name.  
+        Value: A means of identifying an individual by using a word or group of words indicating a person's middle name.
       - Origin: caDSR
         Code: '2179591'
-        Value: A means of identifying an individual by using a word or group of words indicating a person's last (family) name. Synonym = Last Name, Surname.  
+        Value: "A means of identifying an individual by using a word or group of words indicating a person's last (family) name. Synonym = Last Name, Surname."
       - Origin: caDSR
         Code: '2006475'
         Value: Text term to represent an individual's position in a family lineage or pedigree.
-        Type: string
+    Type: string
     Req: true
     Private: false
   # study_personnel

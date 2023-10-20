@@ -369,23 +369,23 @@ PropDefinitions:
       value_type: string
       Enum:
         - "-80 degrees C"
-        - "Cryopreservation in dry ice (dead tissue)
-        - "Cryopreservation in liquid nitrogen (dead tissue)
-        - "Cryopreservation of live cells in liquid nitrogen
-        - "Cryopreserved
-        - "Formalin fixed - buffered
-        - "Formalin fixed - unbuffered
-        - "Formalin fixed paraffin embedded (FFPE)
-        - "Fresh
-        - "Fresh dissociated
-        - "Fresh dissociated and single cell sorted
-        - "Fresh dissociated and single cell sorted into plates
-        - "Frozen
-        - "Liquid nitrogen
-        - "Not reported
-        - "OCT
-        - "Other
-        - "Snap frozen
+        - "Cryopreservation in dry ice (dead tissue)"
+        - "Cryopreservation in liquid nitrogen (dead tissue)"
+        - "Cryopreservation of live cells in liquid nitrogen"
+        - "Cryopreserved"
+        - "Formalin fixed - buffered"
+        - "Formalin fixed - unbuffered"
+        - "Formalin fixed paraffin embedded (FFPE)"
+        - "Fresh"
+        - "Fresh dissociated"
+        - "Fresh dissociated and single cell sorted"
+        - "Fresh dissociated and single cell sorted into plates"
+        - "Frozen"
+        - "Liquid nitrogen"
+        - "Not reported"
+        - "OCT"
+        - "Other"
+        - "Snap frozen"
         - "Unknown"
     Req: true
     Strict: false

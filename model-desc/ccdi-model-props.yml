@@ -3164,7 +3164,7 @@ PropDefinitions:
         Code: '13594090'
         Value: Disease Morphology ICD-O-3 Code Label Text
     Type:
-      value_type: list
+      value_type: string
       Enum:
         - "8000/0 : Neoplasm, benign"
         - "8000/1 : Neoplasm, uncertain whether benign or malignant"

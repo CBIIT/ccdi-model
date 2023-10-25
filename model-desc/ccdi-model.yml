@@ -36,9 +36,9 @@ Nodes:
   diagnosis:
     Props:
       - diagnosis_id
-      - diagnosis
-      - diagnosis_classification_source
-      - diagnosis_chronology
+      - diagnosis_code
+      - diagnosis_code_system
+      - diagnosis_verification_status
       - diagnosis_event
       - diagnosis_finer_resolution
       - disease_phase

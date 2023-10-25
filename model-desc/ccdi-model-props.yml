@@ -3157,7 +3157,7 @@ PropDefinitions:
     Private: false
     Key: true
   #diagnosis, sample
-  diagnosis:
+  diagnosis_code:
     Desc: The text term used to describe the type of malignant disease, as categorized by diagnosis_classification_source property.    
     Term:
       - Origin: caDSR
@@ -4322,7 +4322,7 @@ PropDefinitions:
     Strict: true
     Private: false  
   #diagnosis, sample
-  diagnosis_classification_source:
+  diagnosis_code_system:
     Desc: 'The classification source from which the diagnosis value was obtained.'
     Term:
       - Origin: caDSR
@@ -4332,7 +4332,7 @@ PropDefinitions:
         Code: ' C42673'
         Value: 'Definition Source'
     Type:
-      value_type: list
+      value_type: string
       Enum:
         - 'ICD-0-3.2'
         - 'Unknown'
@@ -4341,14 +4341,14 @@ PropDefinitions:
     Strict: false
     Private: false 
   #diagnosis, sample
-  diagnosis_chronology: 
+  diagnosis_verification_status: 
     Desc: 'The type of generic chronology for which the diagnosis was obtained.'
     Term:
       - Origin: caDSR
         Code: ''
         Value: ''
     Type:
-      value_type: list
+      value_type: string
       Enum:
         - 'Initial'
         - 'Update'

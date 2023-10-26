@@ -36,8 +36,8 @@ Nodes:
   diagnosis:
     Props:
       - diagnosis_id
-      - diagnosis_code
-      - diagnosis_code_system
+      - diagnosis_classification
+      - diagnosis_classification_system
       - diagnosis_verification_status
       - diagnosis_event
       - diagnosis_finer_resolution
@@ -253,9 +253,9 @@ Nodes:
       - sample_id
       - anatomic_site
       - participant_age_at_collection # 28.02.22 pdunn
-      - diagnosis
-      - diagnosis_classification_source
-      - diagnosis_chronology
+      - diagnosis_classification
+      - diagnosis_classification_system
+      - diagnosis_verification_status
       - diagnosis_event
       - diagnosis_finer_resolution
       - sample_tumor_status

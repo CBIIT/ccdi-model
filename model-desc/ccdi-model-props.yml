@@ -3157,7 +3157,7 @@ PropDefinitions:
     Private: false
     Key: true
   #diagnosis, sample
-  diagnosis_code:
+  diagnosis_classification:
     Desc: The text term used to describe the type of malignant disease, as categorized by diagnosis_classification_source property.    
     Term:
       - Origin: caDSR
@@ -4322,7 +4322,7 @@ PropDefinitions:
     Strict: true
     Private: false  
   #diagnosis, sample
-  diagnosis_code_system:
+  diagnosis_classification_system:
     Desc: 'The classification source from which the diagnosis value was obtained.'
     Term:
       - Origin: caDSR

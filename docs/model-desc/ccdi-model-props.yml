@@ -3156,25 +3156,15 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  # diagnosis, sample
-  diagnosis_icd_cm:
-    Desc: The diagnosis, in humans, as captured in the 2022 extension of the tenth version of the International Classification of Disease (ICD-10-CM, the disease code subset of ICD-10). Examples - C80.1, C44.510, D14.3-, D49.89.
-    Term:
-      - Origin: caDSR
-        Code: '11479873'
-        Value: Diagnosis Disease or Disorder ICD-10-CM Code
-    Type: string
-    Req: false
-    Private: false
   #diagnosis, sample
-  diagnosis_icd_o:
-    Desc: The ICD-O-3 code and textual label which identifies the specific appearance of cells and tissues (normal and abnormal) used to define the presence and nature of disease.    
+  diagnosis_classification:
+    Desc: The text term used to describe the type of malignant disease, as categorized by diagnosis_classification_system property.    
     Term:
       - Origin: caDSR
         Code: '13594090'
         Value: Disease Morphology ICD-O-3 Code Label Text
     Type:
-      value_type: list
+      value_type: string
       Enum:
         - "8000/0 : Neoplasm, benign"
         - "8000/1 : Neoplasm, uncertain whether benign or malignant"
@@ -4330,7 +4320,63 @@ PropDefinitions:
         - "999 : Unknown, to be completed later"
     Req: true
     Strict: true
-    Private: false    
+    Private: false  
+  #diagnosis, sample
+  diagnosis_classification_system:
+    Desc: 'The classification source from which the diagnosis value was obtained.'
+    Term:
+      - Origin: caDSR
+        Code: ''
+        Value: ''
+      - Origin: NCIt
+        Code: ' C42673'
+        Value: 'Definition Source'
+    Type:
+      value_type: string
+      Enum:
+        - 'ICD-0-3.2'
+        - 'Unknown'
+        - 'Not Reported'
+    Req: true
+    Strict: false
+    Private: false 
+  #diagnosis, sample
+  diagnosis_verification_status: 
+    Desc: 'The type of generic chronology for which the diagnosis was obtained.'
+    Term:
+      - Origin: caDSR
+        Code: ''
+        Value: ''
+    Type:
+      value_type: string
+      Enum:
+        - 'Initial'
+        - 'Update'
+        - 'Final'
+        - 'Unknown'
+        - 'Not Reported'
+    Req: true
+    Strict: false
+    Private: false 
+  #diagnosis, sample
+  diagnosis_basis: 
+    Desc: 'The type of event for which the diagnosis was obtained.'
+    Term:
+      - Origin: caDSR
+        Code: ''
+        Value: ''
+    Type:
+      value_type: list
+      Enum:
+        - 'Pathology'
+        - 'Sequencing'
+        - 'Source change'
+        - 'Harmonization efforts'
+        - 'Unknown'
+        - 'Not Reported'
+    Req: true
+    Strict: false
+    Private: false 
   #diagnosis, sample
   diagnosis_finer_resolution:
     Desc: Text term used to dprovide finer resolution diagnosis than available in ICD-O or ICD-10-CM. 

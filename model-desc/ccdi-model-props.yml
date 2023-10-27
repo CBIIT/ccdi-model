@@ -4378,8 +4378,8 @@ PropDefinitions:
     Strict: false
     Private: false 
   #diagnosis, sample
-  diagnosis_finer_resolution:
-    Desc: Text term used to dprovide finer resolution diagnosis than available in ICD-O or ICD-10-CM. 
+  diagnosis_comment:
+    Desc: Freeform text entry for further details about the diagnosis.
     Type: string
     Req: false
     Private: false    

@@ -39,7 +39,7 @@ Nodes:
       - diagnosis_classification
       - diagnosis_classification_system
       - diagnosis_verification_status
-      - diagnosis_event
+      - diagnosis_basis
       - diagnosis_finer_resolution
       - disease_phase
       - anatomic_site
@@ -256,7 +256,7 @@ Nodes:
       - diagnosis_classification
       - diagnosis_classification_system
       - diagnosis_verification_status
-      - diagnosis_event
+      - diagnosis_basis
       - diagnosis_finer_resolution
       - sample_tumor_status
       - tumor_classification

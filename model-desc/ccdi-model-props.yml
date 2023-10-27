@@ -10841,7 +10841,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  #sample
+  #pathology_file
   percent_tumor:
     Desc: Numeric value that represents the percentage of infiltration by tumor cells in a sample.
     Term:
@@ -10851,7 +10851,7 @@ PropDefinitions:
     Type: integer
     Req: false
     Private: false
-  #sample
+  #pathology_file
   percent_necrosis:
     Desc: Numeric value to represent the percentage of cell death in a malignant tumor sample or specimen.
     Term:

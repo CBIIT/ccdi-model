@@ -185,6 +185,8 @@ Nodes:
       - fixation_embedding_method
       - staining_method
       - deidentification_method
+      - percent_tumor
+      - percent_necrosis
       - file_mapping_level
       - id
   pdx:
@@ -269,8 +271,6 @@ Nodes:
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m
-      - percent_tumor
-      - percent_necrosis
       - id
   #   - sample_type
   #   - biosample_accession captured in synonym 

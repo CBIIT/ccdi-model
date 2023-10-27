@@ -40,7 +40,7 @@ Nodes:
       - diagnosis_classification_system
       - diagnosis_verification_status
       - diagnosis_basis
-      - diagnosis_finer_resolution
+      - diagnosis_comment
       - disease_phase
       - anatomic_site
       - age_at_diagnosis
@@ -257,7 +257,7 @@ Nodes:
       - diagnosis_classification_system
       - diagnosis_verification_status
       - diagnosis_basis
-      - diagnosis_finer_resolution
+      - diagnosis_comment
       - sample_tumor_status
       - tumor_classification
       - sample_description
@@ -269,7 +269,8 @@ Nodes:
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m
-      - diagnosis_icd_cm
+      - percent_tumor
+      - percent_necrosis
       - id
   #   - sample_type
   #   - biosample_accession captured in synonym 

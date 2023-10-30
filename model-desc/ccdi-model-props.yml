@@ -4789,24 +4789,25 @@ PropDefinitions:
     Strict: false
     Private: false
   #participant
-  gender:
-    Desc: Text designations that identify gender. Gender is described as the assemblage of properties that distinguish people on the basis of their societal roles. [Explanatory Comment 1 Identification of gender is based upon self-report and may come from a form, questionnaire, interview, etc.]
+  sex_at_birth:
+    Desc: "A textual description of a person's sex at birth."
     Term:
       - Origin: caDSR
-        Code: '2200604'
-        Value: Person Gender Text Type
+        Code: '7572817'
+        Value: Person Sex at Birth Category
     Type:
       value_type: string
       Enum:
         - "Female"
-        - "Female Gender"
         - "Intersex"
         - "Male"
-        - "Male Gender"
+        - "X"
         - "Not Reported"
-        - "Not Specified"
         - "Unknown"
-        - "Unspecified" 
+        - "Don't Known"
+        - "Decline to answer"
+        - "None of These Describe Me"
+        - "Prefer Not to Answer"
     Req: true
     Strict: false
     Private: false

@@ -7207,7 +7207,9 @@ Terms:
     Version: 1
     Value: Childhood Cancer Toronto Guidelines Stage
   sex_at_birth:
-    Origin: 7572817
+    Origin: caDSR
+    Definition: A textual description of a person's sex at birth.
+    Code: 7572817
     Version: 1
     Value: Person Sex at Birth Category
 

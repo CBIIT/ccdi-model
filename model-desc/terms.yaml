@@ -1831,15 +1831,6 @@ Terms:
     Code: 3685460
     Version: '1'
     Value: Borderline Histologic Grade
-  gender:
-    Origin: caDSR
-    Definition: 'Text designations that identify gender. Gender is described as the
-      assemblage of properties that distinguish people on the basis of their societal
-      roles. [Explanatory Comment 1: Identification of gender is based upon self-report
-      and may come from a form, questionnaire, interview, etc.]'
-    Code: 2200604
-    Version: '3'
-    Value: Person Gender Text Type
   Genomic Single Cell:
     Origin: caDSR
     Definition: Genomic DNA from individual cells
@@ -7215,5 +7206,8 @@ Terms:
     Code: 13299113
     Version: 1
     Value: Childhood Cancer Toronto Guidelines Stage
-
+  sex_at_birth:
+    Origin: 7572817
+    Version: 1
+    Value: Person Sex at Birth Category
 

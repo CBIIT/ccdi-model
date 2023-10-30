@@ -1296,6 +1296,12 @@ Terms:
     Code: 2847328
     Version: '1'
     Value: dead   
+  Decline to answer:
+    Origin: caDSR
+    Definition: Used to indicate when a respondent makes a decision to not answer a question.
+    Code: 2577233
+    Version: '1'
+    Value: Response Declined
   Descended testis:
     Origin: caDSR
     Definition: 'To travel downward.: Either of the paired male reproductive glands
@@ -1360,9 +1366,15 @@ Terms:
     Code: 6273360
     Version: '1'
     Value: DNase-Hypersensitivity
+  Don't know:
+    Origin: caDSR
+    Definition: The answer is not known by the person answering.
+    Code: 3361449
+    Version: '1'
+    Value:  Don't know  
   Dome of bladder:
     Origin: caDSR
-    Definition: The upper, convex surface of the bladder.\r\n
+    Definition: The upper, convex surface of the bladder.
     Code: 2577671
     Version: '1'
     Value: Dome of the Bladder
@@ -1587,9 +1599,9 @@ Terms:
     Origin: caDSR
     Definition: An individual who reports belonging to the cultural gender role distinction
       of female.
-    Code: 2575551
+    Code: 2567172
     Version: '1'
-    Value: Female Gender
+    Value: Female
   Female genital tract, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: The sex organs of the female.'
@@ -2812,9 +2824,9 @@ Terms:
     Origin: caDSR
     Definition: An individual who reports belonging to the cultural gender role distinction
       of male.
-    Code: 2575550
+    Code: 2567171
     Version: '1'
-    Value: Male Gender
+    Value: Male
   Male genital organs, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: The external male sexual organs.'
@@ -3458,6 +3470,12 @@ Terms:
     Code: 2574138
     Version: '1'
     Value: None
+  None of These Describe Me:
+    Origin: caDSR
+    Definition: A response indicating that an individual feels that no option listed is a good description for them.
+    Code: 7554789
+    Version: '1'
+    Value: None of These Describe Me
   Nonsense Mutation:
     Origin: caDSR
     Definition: A mutation in which a base change creates a stop codon, resulting in premature termination of a polypeptide product.
@@ -4673,6 +4691,12 @@ Terms:
     Code: 7701723
     Version: '1'
     Value: Posterior Wall of the Oropharynx
+  Prefer Not to Answer:
+    Origin: caDSR
+    Definition: A response indicating that an individual prefers or preferred not to answer.
+    Code: 5684650
+    Version: '1'
+    Value: Prefer Not to Answer  
   Prepuce:
     Origin: caDSR
     Definition: A covering fold of skin, often used alone to designate the preputium
@@ -6486,6 +6510,12 @@ Terms:
     Code: 2582126
     Version: '1'
     Value: X-Ray  
+  X:
+    Origin: caDSR
+    Definition: A gender designation for individuals who identify themselves as not exclusively male nor female, such as non-binary, intersex or gender-non-conforming.
+    Code: 14305179
+    Version: '1'
+    Value: X  
   'Yes':
     Origin: caDSR
     Definition: The affirmative response to a question.

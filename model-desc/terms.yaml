@@ -5148,6 +5148,12 @@ Terms:
     Code: 3004972
     Version: '1'
     Value: Serum
+  sex_at_birth:
+    Origin: caDSR
+    Definition: "A textual description of a person's sex at birth."
+    Code: 7572817
+    Version: 1
+    Value: Person Sex at Birth Category  
   Short bones of lower limb and associated joints:
     Origin: caDSR
     Definition: 'A bone that consists mainly of spongy bone, and which is generally
@@ -7236,10 +7242,4 @@ Terms:
     Code: 13299113
     Version: 1
     Value: Childhood Cancer Toronto Guidelines Stage
-  sex_at_birth:
-    Origin: caDSR
-    Definition: A textual description of a person's sex at birth.
-    Code: 7572817
-    Version: 1
-    Value: Person Sex at Birth Category
 

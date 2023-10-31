@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit f06839c
+commit 1330dab
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -27,7 +27,7 @@ cytogenomic_file	md5sum	STRING
 diagnosis	age_at_diagnosis	INTEGER
 diagnosis	age_at_last_known_disease_status	INTEGER
 diagnosis	age_at_recurrence	INTEGER
-diagnosis	diagnosis_finer_resolution	STRING
+diagnosis	diagnosis_comment	STRING
 diagnosis	diagnosis_id	STRING
 diagnosis	id	STRING
 exposure	age_at_exposure	INTEGER
@@ -98,6 +98,8 @@ pathology_file	id	STRING
 pathology_file	magnification	STRING
 pathology_file	md5sum	STRING
 pathology_file	pathology_file_id	STRING
+pathology_file	percent_necrosis	INTEGER
+pathology_file	percent_tumor	INTEGER
 pdx	id	STRING
 pdx	model_id	STRING
 pdx	mouse_strain	STRING
@@ -147,8 +149,7 @@ radiology_file	steadyStatePulseSequenceCode	STRING
 radiology_file	timeOfFlightContrastIndicator	STRING
 sample	age_at_last_known_disease_status	INTEGER
 sample	alternate_sample_id	STRING
-sample	diagnosis_finer_resolution	STRING
-sample	diagnosis_icd_cm	NA
+sample	diagnosis_comment	STRING
 sample	id	STRING
 sample	participant_age_at_collection	INTEGER
 sample	sample_description	STRING
@@ -257,26 +258,26 @@ therapeutic_procedure	therapeutic_procedure_id	STRING
 
 relationship	source_node	destination_node	property	value_or_TYPE
 of_cell_line	cell_line	participant	NA	NA
-of_cell_line	cell_line	study	NA	NA
 of_cell_line	cell_line	sample	NA	NA
+of_cell_line	cell_line	study	NA	NA
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_clinical_measure_file_participant	clinical_measure_file	participant	NA	NA
-of_cytogenomic_file	cytogenomic_file	cell_line	NA	NA
-of_cytogenomic_file	cytogenomic_file	pdx	NA	NA
 of_cytogenomic_file	cytogenomic_file	sample	NA	NA
+of_cytogenomic_file	cytogenomic_file	pdx	NA	NA
+of_cytogenomic_file	cytogenomic_file	cell_line	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
 of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
 of_follow_up	follow_up	participant	NA	NA
 of_medical_history	medical_history	participant	NA	NA
 of_methylation_array_file	methylation_array_file	cell_line	NA	NA
-of_methylation_array_file	methylation_array_file	sample	NA	NA
 of_methylation_array_file	methylation_array_file	pdx	NA	NA
+of_methylation_array_file	methylation_array_file	sample	NA	NA
 of_molecular_test	molecular_test	participant	NA	NA
 of_participant	participant	study	NA	NA
-of_pathology_file	pathology_file	sample	NA	NA
 of_pathology_file	pathology_file	pdx	NA	NA
 of_pathology_file	pathology_file	cell_line	NA	NA
+of_pathology_file	pathology_file	sample	NA	NA
 of_pdx	pdx	sample	NA	NA
 of_pdx	pdx	study	NA	NA
 of_publication	publication	study	NA	NA
@@ -292,9 +293,9 @@ of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	sample	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	participant	NA	NA
+of_synonym	synonym	study	NA	NA
+of_synonym	synonym	sample	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
@@ -376,7 +377,7 @@ design_description	A written description of the materials and methods used to cr
 diagnosis_basis	The type of event for which the diagnosis was obtained.
 diagnosis_classification	The text term used to describe the type of malignant disease, as categorized by diagnosis_classification_system property.
 diagnosis_classification_system	The classification source from which the diagnosis value was obtained.
-diagnosis_finer_resolution	Text term used to dprovide finer resolution diagnosis than available in ICD-O or ICD-10-CM.
+diagnosis_comment	Freeform text entry for further details about the diagnosis.
 diagnosis_id	A unique sequence of alphanumeric characters used to identify the participant diagnosis in the investigation or study, which is used for linking metadata.
 diagnosis_verification_status	The type of generic chronology for which the diagnosis was obtained.
 diffusionBValue	diffusionBValue
@@ -409,7 +410,6 @@ follow_up_id	A unique sequence of alphanumeric characters used to identify the f
 follow_up_other	NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends
 funding_agency	The name of the funding source organization or sponsor.
 funding_source_program_name	The name of the program assigned by the funding agency.
-gender	Text designations that identify gender. Gender is described as the assemblage of properties that distinguish people on the basis of their societal roles. [Explanatory Comment 1 Identification of gender is based upon self-report and may come from a form, questionnaire, interview, etc.]
 gene_mutation_abnormality_type	The type of transmissible change in the genetic material of an organism, which can result from radiation, viral infection, transposition, treatment with mutagenic chemicals and errors during DNA replication or meiosis.
 gene_symbol	A short-form abbreviation for a particular gene assigned by the HGNC (HUGO Gene Nomenclature Committee - an organism specific nomenclature committee).
 grant_id	Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
@@ -463,6 +463,8 @@ participant_list	The list of participant ids that are found in this clinical fil
 pathogenicity	The text used to describe a variant's level of involvement in the cause of the patient's disease according to the standards outlined by the American College of Medical Genetics and Genomics (ACMG).
 pathology_file_id	A unique identifier for a pathology file.
 pdx_id	A unique identifier for a pdx.
+percent_necrosis	Numeric value to represent the percentage of cell death in a malignant tumor sample or specimen.
+percent_tumor	Numeric value that represents the percentage of infiltration by tumor cells in a sample.
 personnel_name	The name of personnel who is an organizer in the study.
 personnel_type	The role of personnel in the study.
 phaseContrastIndicator	phaseContrastIndicator
@@ -495,6 +497,7 @@ second_exon	The second exon number involved in molecular variation. If a specifi
 second_gene_symbol	The HGNC gene symbol for the second coding region in a mutation that spans two gene locations (Example: fusion, translocation, inversion).
 sequence_alignment_software	The name of the software program used to align nucleotide sequencing data.
 sequencing_file_id	A unique identifier for a sequencing file.
+sex_at_birth	A textual description of a person's sex at birth.
 single_cell_sequencing_file_id	A unique identifier for a single cell sequencing file.
 size_of_data_being_uploaded	The measure (in bytes) of how much space a data file takes up on a storage medium.
 slice_thickness	A string of characters representing either a fixed point number or a floating point number capturing the nominal slice thickness relative to the patient-based coordinate system expressed in number of millimeters.

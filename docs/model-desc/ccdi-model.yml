@@ -40,7 +40,7 @@ Nodes:
       - diagnosis_classification_system
       - diagnosis_verification_status
       - diagnosis_basis
-      - diagnosis_finer_resolution
+      - diagnosis_comment
       - disease_phase
       - anatomic_site
       - age_at_diagnosis
@@ -166,7 +166,7 @@ Nodes:
     Props:
       - participant_id
       - race       
-      - gender
+      - sex_at_birth
       - ethnicity
       - alternate_participant_id
       - id
@@ -185,6 +185,8 @@ Nodes:
       - fixation_embedding_method
       - staining_method
       - deidentification_method
+      - percent_tumor
+      - percent_necrosis
       - file_mapping_level
       - id
   pdx:
@@ -257,7 +259,7 @@ Nodes:
       - diagnosis_classification_system
       - diagnosis_verification_status
       - diagnosis_basis
-      - diagnosis_finer_resolution
+      - diagnosis_comment
       - sample_tumor_status
       - tumor_classification
       - sample_description
@@ -269,7 +271,6 @@ Nodes:
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m
-      - diagnosis_icd_cm
       - id
   #   - sample_type
   #   - biosample_accession captured in synonym 

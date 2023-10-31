@@ -4378,8 +4378,8 @@ PropDefinitions:
     Strict: false
     Private: false 
   #diagnosis, sample
-  diagnosis_finer_resolution:
-    Desc: Text term used to dprovide finer resolution diagnosis than available in ICD-O or ICD-10-CM. 
+  diagnosis_comment:
+    Desc: Freeform text entry for further details about the diagnosis.
     Type: string
     Req: false
     Private: false    
@@ -10841,4 +10841,24 @@ PropDefinitions:
         Value: Methylation Analysis Methyl Tag Text
     Type: string
     Req: true
+    Private: false
+  #pathology_file
+  percent_tumor:
+    Desc: Numeric value that represents the percentage of infiltration by tumor cells in a sample.
+    Term:
+      - Origin: caDSR
+        Code: '5432686'
+        Value: Specimen Tumor Cell Percentage Value
+    Type: integer
+    Req: false
+    Private: false
+  #pathology_file
+  percent_necrosis:
+    Desc: Numeric value to represent the percentage of cell death in a malignant tumor sample or specimen.
+    Term:
+      - Origin: caDSR
+        Code: '2841237'
+        Value: Malignant Neoplasm Necrosis Percentage Value
+    Type: integer
+    Req: false
     Private: false

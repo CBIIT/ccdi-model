@@ -116,6 +116,7 @@ Nodes:
       - gene_symbol
       - molecular_analysis_method
       - laboratory_test      
+      - laboratory_test_name
       - test_result_text
       - test_result_numeric
       - test_unit
@@ -129,6 +130,7 @@ Nodes:
       - copy_number
       - cytoband
       - exon
+      - gene_mutation_abnormality_type
       - histone_family
       - histone_variant
       - intron

@@ -166,7 +166,7 @@ Nodes:
     Props:
       - participant_id
       - race       
-      - gender
+      - sex_at_birth
       - ethnicity
       - alternate_participant_id
       - id

@@ -2345,6 +2345,7 @@ PropDefinitions:
         - "Stop Lost"
         - "Synonymous"
     Req: false
+    Strict: false
     Private: false
   #molecular_test
   pathogenicity:

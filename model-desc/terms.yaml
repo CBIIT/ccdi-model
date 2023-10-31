@@ -1,7 +1,7 @@
 Terms:
   80 degrees C:
     Origin: caDSR
-    Definition: The act or event which causes the transition from a liquid to solid matter phase when the temperature is lowered.: Used to indicate position, location, or state.: A temperature of minus 80 celsius.
+    Definition: "The act or event which causes the transition from a liquid to solid matter phase when the temperature is lowered.: Used to indicate position, location, or state.: A temperature of minus 80 celsius."
     Code: 8015819
     Version: '1'
     Value: -80 degrees C
@@ -107,14 +107,14 @@ Terms:
     Value: AB Capillary
   AB SOLiD 2:
     Origin: caDSR
-    Definition: 'A proprietary next-generation DNA sequencing system from Applied
+    Definition: "A proprietary next-generation DNA sequencing system from Applied
       Biosystems that utilizes DNA ligase. DNA fragments attached to beads are clonally
       amplified and ligated to fluorescently labeled \"interrogation probes\". Ligation
       frees the fluor, which is detected and identifies the specific probe. The marker
       of the attached probe is then removed and a 5''-phosphate group is regenerated.
       Multiple cycles of ligation, detection, and cleavage are performed.: A natural
       number greater than 1 and less than 3 and the quantity that it denotes: the
-      sum of one and one.'
+      sum of one and one."
     Code: 7537063
     Version: '1'
     Value: ABI SOLiD Sequencing Two
@@ -1206,19 +1206,19 @@ Terms:
     Value: Cryopreserved Cell
   Cryopreservation in dry ice (dead tissue):
     Origin: caDSR
-    Definition: Preservation of cells, tissues, organs, or embryos by storage at low temperatures.: The cessation of life.: An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.: A solid form of carbon dioxide used as a refrigerant. At temperatures above -78.5 degrees C and ambient pressure, it changes directly to a gas as it absorbs heat.
+    Definition: 'Preservation of cells, tissues, organs, or embryos by storage at low temperatures.: The cessation of life.: An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.: A solid form of carbon dioxide used as a refrigerant. At temperatures above -78.5 degrees C and ambient pressure, it changes directly to a gas as it absorbs heat.'
     Code: 8032275
     Version: '1'
     Value: Cryopreservation in dry ice (dead tissue)
   Cryopreservation in liquid nitrogen (dead tissue):
     Origin: caDSR
-    Definition: Preservation of cells, tissues, organs, or embryos by storage at low temperatures.: The cessation of life.: An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.: Nitrogen in a liquid state, having been super-cooled to -196 degrees Celsius.    
+    Definition: 'Preservation of cells, tissues, organs, or embryos by storage at low temperatures.: The cessation of life.: An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.: Nitrogen in a liquid state, having been super-cooled to -196 degrees Celsius.'    
     Code: 8032276
     Version: '1'
     Value: Cryopreservation in liquid nitrogen (dead tissue)
   Cryopreservation of live cells in liquid nitrogen:
     Origin: caDSR
-    Definition: Preservation of cells, tissues, organs, or embryos by storage at low temperatures.: Showing characteristics of life; displaying signs of life.: The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid.: Nitrogen in a liquid state, having been super-cooled to -196 degrees Celsius.    
+    Definition: 'Preservation of cells, tissues, organs, or embryos by storage at low temperatures.: Showing characteristics of life; displaying signs of life.: The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid.: Nitrogen in a liquid state, having been super-cooled to -196 degrees Celsius.'
     Code: 8032274
     Version: '1'
     Value: Cryopreservation of live cells in liquid nitrogen
@@ -2988,7 +2988,7 @@ Terms:
     Value: miRNA-Seq
   Missense Mutation:
     Origin: caDSR
-    Definition: 'A mutation in which a base change results in substitution of one amino acid for another. This change may result in alteration of the protein's activity or stability.'
+    Definition: "A mutation in which a base change results in substitution of one amino acid for another. This change may result in alteration of the protein's activity or stability."
     Code: 2581320
     Version: '1'
     Value: Missense Mutation  
@@ -4180,7 +4180,7 @@ Terms:
     Version: '1'
     Value: Padlock probes capture method
   Paired end:
-      Origin: caDSR
+    Origin: caDSR
     Definition: A DNA sequencing strategy where a single read is initiated from each end of a DNA fragment.
     Code: 11529032
     Version: '1'
@@ -4526,7 +4526,7 @@ Terms:
     Value: PET  
   PET-CT:
     Origin: caDSR
-    Definition: 'An imaging technique that utilizes positron emission tomography and computed tomography in a single machine.
+    Definition: 'An imaging technique that utilizes positron emission tomography and computed tomography in a single machine.'
     Code: 5627465
     Version: '1'
     Value: PET-CT 
@@ -4639,10 +4639,10 @@ Terms:
     Value: POOLCLONE
   Post-Mortem:
     Origin: caDSR
-     Definition: After death. Often used to describe an autopsy.
-     Code: 5236215
-     Version: '1'
-     Value: Post-Mortem
+    Definition: After death. Often used to describe an autopsy.
+    Code: 5236215
+    Version: '1'
+    Value: Post-Mortem
   Postcricoid region:
     Origin: caDSR
     Definition: The portion of the hypopharynx that is located posteriorly to the
@@ -5381,9 +5381,10 @@ Terms:
     Code: 6141815
     Version: '1'
     Value: Splice Acceptor
-   Splice Donor:
+  Splice Donor:
     Origin: caDSR
-    Definition: An inherited single base change at a donor splice site in a genomic DNA sequence that results in an allelic variant of the wild-type gene. Donor splice sites are located at exon to intron junctions at the 5' end of the intron.    Code: 6141817
+    Definition: "An inherited single base change at a donor splice site in a genomic DNA sequence that results in an allelic variant of the wild-type gene. Donor splice sites are located at exon to intron junctions at the 5' end of the intron."
+    Code: 6141817
     Version: '1'
     Value: Splice Donor  
   ssRNA-seq:

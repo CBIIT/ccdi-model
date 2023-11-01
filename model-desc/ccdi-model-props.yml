@@ -5215,12 +5215,13 @@ PropDefinitions:
     Desc: Official or legal permission to do or own a specified thing.
     Term:
       - Origin: NCIt
-        Code: ' C43611'
+        Code: 'C43611'
         Value: License
     Type:
       value_type: string
       Enum:
-        - "CC BY 3.0    http://creativecommons.org/licenses/by/3.0/"
+        - "CC by 3.0"
+        - "CC by 4.0"
     Req: true
     Private: false
   #diagnosis, sample

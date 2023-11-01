@@ -545,6 +545,10 @@ Relationships:
     Ends:
       - Src: sample
         Dst: participant
+      - Src: sample
+        Dst: cell_line
+      - Src: sample
+        Dst: pdx_model
      # - Src: sample
      #   Dst: study
   #of_sample_diagnosis: 

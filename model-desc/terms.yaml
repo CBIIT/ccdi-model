@@ -980,6 +980,12 @@ Terms:
     Code: 3689463
     Version: '1'
     Value: Ciliary Body
+  Clinical:
+    Origin: NCIt
+    Definition: A diagnosis made from a study of the signs and symptoms of a disease.
+    Code: C15607
+    Version: '1'
+    Value: Clinical Diagnosis 
   clinical_trial_identifier:
     Origin: caDSR
     Definition: Identifier for the noted protocol, used by the Clinical Trial Sponsor
@@ -3011,6 +3017,12 @@ Terms:
     Code: 2738405
     Version: '1'
     Value: Mixed response
+  Molecular:
+    Origin: NCIt
+    Defnition: The use of molecular tools and techniques, especially gene and protein expression profiles, to diagnose disease. 
+    Code: c20826
+    Version: '1'
+    Value: Molecular Diagnosis 
   MNase-Seq:
     Origin: caDSR
     Definition: Direct sequencing following MNase digestion

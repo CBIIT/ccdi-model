@@ -5222,6 +5222,7 @@ PropDefinitions:
         - "CC by 3.0"
         - "CC by 4.0"
     Req: true
+    Strict: false
     Private: false
   #diagnosis, sample
   diagnosis_classification:

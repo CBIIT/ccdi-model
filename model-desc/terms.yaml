@@ -3020,7 +3020,7 @@ Terms:
   Molecular:
     Origin: NCIt
     Defnition: The use of molecular tools and techniques, especially gene and protein expression profiles, to diagnose disease. 
-    Code: c20826
+    Code: C20826
     Version: '1'
     Value: Molecular Diagnosis 
   MNase-Seq:
@@ -4340,6 +4340,12 @@ Terms:
     Code: 6867052
     Version: '1'
     Value: Specimen Source Subject Identifier
+  Pathological:
+    Origin: NCIt
+    Definition: Diagnosis based on a pathological assessment. 
+    Code: C178004
+    Version: '1'
+    Value: Pathological Diagnosis 
   Pathology:
     Origin: caDSR
     Definition: The medical science, and specialty practice, concerned with all aspects

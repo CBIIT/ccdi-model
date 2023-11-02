@@ -53,11 +53,11 @@ Nodes:
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m
       - id
-     # - tumor_morphology
-     # - tumor_incidence_type # primary, metastatic, recurrence, progression
-     # - progression_or_recurrence
-     # - tissue_or_organ_of_origin
-     # - site_of_resection_or_biopsy
+    # - tumor_morphology
+    # - tumor_incidence_type # primary, metastatic, recurrence, progression
+    # - progression_or_recurrence
+    # - tissue_or_organ_of_origin
+    # - site_of_resection_or_biopsy
     # - days_to_last_followup
   exposure:
     Props:
@@ -115,7 +115,6 @@ Nodes:
       - age_at_molecular_test
       - gene_symbol
       - molecular_analysis_method
-      - laboratory_test      
       - laboratory_test_name
       - test_result_text
       - test_result_numeric
@@ -138,7 +137,6 @@ Nodes:
       - loci_count
       - locus
       - mismatch_repair_mutation
-      - molecular_consequence
       - pathogenicity
       - ploidy
       - second_exon

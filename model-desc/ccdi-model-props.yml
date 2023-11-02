@@ -3204,10 +3204,9 @@ PropDefinitions:
     Type:
       value_type: list
       Enum:
+        - 'Clinical'
+        - 'Molecular'
         - 'Pathology'
-        - 'Sequencing'
-        - 'Source change'
-        - 'Harmonization efforts'
         - 'Unknown'
         - 'Not Reported'
     Req: true

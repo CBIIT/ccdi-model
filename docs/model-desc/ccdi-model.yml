@@ -409,7 +409,7 @@ Nodes:
       - institution
       - id
   synonym:  # 09.20.22 pd, nee alias
-     Props:
+    Props:
       - synonym_id #the alternate or alias id in another repo
       - repository_of_synonym_id #the name of the other repo
       - id
@@ -428,9 +428,9 @@ Relationships:
     Mul: many_to_one
     Ends: 
       - Src: cell_line
-        Dst: participant
-      - Src: cell_line
         Dst: sample
+      - Src: cell_line
+        Dst: participant
       - Src: cell_line
         Dst: study   
   of_clinical_measure_file: # #09.20.22 pd
@@ -524,15 +524,15 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: pdx
-        Dst: study
-      - Src: pdx
         Dst: sample
+      - Src: pdx
+        Dst: study
   of_publication: # 09.20.22 pd
     Props: null
     Mul: many_to_one
     Ends:
-     - Src: publication
-       Dst: study
+    - Src: publication
+      Dst: study
   of_radiology_file:
     Props: null
     Mul: many_to_one
@@ -544,9 +544,11 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: sample
-        Dst: participant
-     # - Src: sample
-     #   Dst: study
+        Dst: pdx
+      - Src: sample
+        Dst: cell_line
+      - Src: sample
+        Dst: participant  
   #of_sample_diagnosis: 
   of_sequencing_file: #09.20.22 pd
     Props: null
@@ -608,4 +610,4 @@ Relationships:
         Dst: sample
       - Src: synonym
         Dst: study
- 
+

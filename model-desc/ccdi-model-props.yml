@@ -3577,6 +3577,7 @@ PropDefinitions:
         - "CT"
         - "MRI"
         - "PET"
+        - "SM"
         - "X-ray"
     Req: true
     Strict: false

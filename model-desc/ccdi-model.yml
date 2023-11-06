@@ -181,6 +181,7 @@ Nodes:
       - md5sum
       - file_url_in_cds
       - dcf_indexd_guid
+      - image_modality
       - license
       - magnification
       - fixation_embedding_method

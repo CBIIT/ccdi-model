@@ -5306,6 +5306,12 @@ Terms:
     Code: 2873870
     Version: '1'
     Value: Not Otherwise Specified Skin
+  SM:
+    Origin: DICOM
+    Definition: 'An acquisition device, process or method that performs slide microscopy.'
+    Code: SM
+    Version: '1'
+    Value: Slide Microscopy
   Small intestine:
     Origin: caDSR
     Definition: The section of the intestines between the pylorus and cecum. The small

@@ -3892,7 +3892,6 @@ PropDefinitions:
         - "C11.9 : Nasopharynx, NOS"
         - "C72.9 : Nervous system, NOS"
         - "C50.0 : Nipple"
-        - " : Not Reported"
         - "C71.4 : Occipital lobe"
         - "C72.2 : Olfactory nerve"
         - "C72.3 : Optic nerve"
@@ -4039,8 +4038,6 @@ PropDefinitions:
         - "C18.4 : Transverse colon"
         - "C67.0 : Trigone of bladder"
         - "C62.0 : Undescended testis"
-        - " : Unknown"
-        - "C80.9 : Unknown primary site"
         - "C03.0 : Upper gum"
         - "C76.4 : Upper limb, NOS"
         - "C34.1 : Upper lobe, lung"
@@ -4064,6 +4061,7 @@ PropDefinitions:
         - "C06.1 : Vestibule of mouth"
         - "C51.9 : Vulva, NOS"
         - "C14.2 : Waldeyer ring"
+        - "C80.9 : Unknown primary site"
     Req: true
     Strict: false
     Private: false

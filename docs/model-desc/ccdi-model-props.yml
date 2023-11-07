@@ -3170,7 +3170,7 @@ PropDefinitions:
     Type:
       value_type: string
       Enum:
-        - 'ICD-0-3.2'
+        - 'ICD-O-3.2'
         - 'Unknown'
         - 'Not Reported'
     Req: true

@@ -3061,6 +3061,11 @@ Terms:
     Code: 4742908
     Version: '1'
     Value: Not Otherwise Specified Oral Cavity
+  MR:
+    Origin: caDSR
+    Definition: Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide amazingly clear and detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.    Code: 5612205
+    Version: '1'
+    Value: Magnetic Resonance Imaging
   MRE-Seq:
     Origin: caDSR
     Definition: Methylation-Sensitive Restriction Enzyme Sequencing strategy
@@ -3110,12 +3115,6 @@ Terms:
     Code: 3211581
     Version: '1'
     Value: Myometrium
-  MRI:
-    Origin: caDSR
-    Definition: Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide amazingly clear and detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.
-    Code: 5612304
-    Version: '1'
-    Value: MRI
   N0:
     Origin: caDSR
     Definition: A regional lymph node TNM finding indicating that there is no evidence

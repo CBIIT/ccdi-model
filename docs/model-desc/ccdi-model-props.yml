@@ -3575,7 +3575,7 @@ PropDefinitions:
       value_type: string
       Enum:
         - "CT"
-        - "MRI"
+        - "MR"
         - "PET"
         - "SM"
         - "X-ray"

@@ -42,6 +42,7 @@ Nodes:
       - diagnosis_basis
       - diagnosis_comment
       - disease_phase
+      - tumor_classification
       - anatomic_site
       - age_at_diagnosis
       - toronto_childhood_cancer_staging

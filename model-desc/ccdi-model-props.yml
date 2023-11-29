@@ -4061,8 +4061,7 @@ PropDefinitions:
         - "C06.1 : Vestibule of mouth"
         - "C51.9 : Vulva, NOS"
         - "C14.2 : Waldeyer ring"
-        - "C80 : UNKNOWN PRIMARY SITE"
-        - "Not Reported"
+        - "C80.9 : Unknown primary site"
     Req: true
     Strict: false
     Private: false

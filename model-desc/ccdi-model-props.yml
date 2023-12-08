@@ -319,11 +319,11 @@ PropDefinitions:
     Private: false 
   #id
   id:
-    Desc: One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.
+    Desc: A unique sequence of characters used to identify, name, or characterize an attribute shared by all members of a class.
     Term:
-      - Origin: NCIt
-        Code: 'C25364'
-        Value: Identifier
+      - Origin: caDSR
+        Code: '14534325'
+        Value: CCDI Property Unique Identifier
     Type: string
     Req: false
     Key: false
@@ -437,11 +437,11 @@ PropDefinitions:
     Private: false      
   #medical_history
   medical_history_id: 
-    Desc: An internal or external identifier such as medical or clinical history record or identifier.
+    Desc: A unique sequence of characters used to identify, name, or characterize the identifiable class of injuries, disabilities, syndromes, or symptoms found in an individual's health background.
     Term: 
       - Origin: caDSR
-        Code: '2555531'
-        Value: medical_history_id
+        Code: '14570321'
+        Value: Medical History Relevant Condition Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -2909,21 +2909,21 @@ PropDefinitions:
     Private: false
   #family_relationship
   family_relationship_id:
-    Desc: A unique identifier for a family relationship record or entry.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize the state of connectedness between entities or objects referencing the state of connectedness between people linked through descent.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14540943'
+        Value: Family Relationship Unique Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   related_to_participant_id:
-    Desc: Participant related to another participant
+    Desc: A sequence of characters used to uniquely identify, name, or characterize the state of connectedness between members of the unit of society organized around kinship ties.
     Term:
       - Origin: caDSR
-        Code: '6867052'
-        Value: Biospecimen Source Subject Identifier
+        Code: '14539685'
+        Value: Family Member Relationship Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -2936,20 +2936,130 @@ PropDefinitions:
     Type:
       value_type: string
       Enum:
-        - "Mother"
-        - "Father"
-        - "Sibling"
+        - "Niece Second Degree Relative"
+        - "Granddaughter"
+        - "Grandson"
+        - "Brother"
+        - "Daughter"
+        - "Male Cousin"
+        - "None"
         - "Other"
-        - "None at all"
+        - "Sister"
+        - "Son"
+        - "Adopted Daughter"
+        - "Adopted Son"
+        - "Adoptive Brother"
+        - "Adoptive Father"
+        - "Adoptive Mother"
+        - "Adoptive Sister"
+        - "Female Cousin"
+        - "Foster Brother"
+        - "Foster Daughter"
+        - "Foster Father"
+        - "Foster Mother"
+        - "Foster Sister"
+        - "Foster Son"
+        - "Fraternal Twin Brother"
+        - "Fraternal Twin Sibling"
+        - "Fraternal Twin Sister"
+        - "Full Brother"
+        - "Full Sister"
+        - "Grand Niece"
+        - "Grandmother"
+        - "Great Grandchild"
+        - "Husband"
+        - "Identical Twin Brother"
+        - "Identical Twin Sibling"
+        - "Identical Twin Sister"
+        - "Legal Guardian"
+        - "Maternal First Cousin"
+        - "Maternal First Cousin Once Removed"
+        - "Maternal Grandfather"
+        - "Maternal Great Aunt"
+        - "Maternal Great Uncle"
+        - "Maternal Half Brother"
+        - "Maternal Half Sibling"
+        - "Maternal Half Sister"
+        - "Natural Brother"
+        - "Natural Child"
+        - "Natural Daughter"
+        - "Natural Father"
+        - "Natural Grandchild"
+        - "Natural Grandfather"
+        - "Natural Grandmother"
+        - "Natural Grandparent"
+        - "Natural Mother"
+        - "Natural Parent"
+        - "Natural Sibling"
+        - "Natural Sister"
+        - "Paternal First Cousin"
+        - "Paternal First Cousin Once Removed"
+        - "Paternal Grandfather"
+        - "Paternal Grandmother"
+        - "Paternal Great Aunt"
+        - "Paternal Great Uncle"
+        - "Paternal Half Brother"
+        - "Paternal Half Sibling"
+        - "Paternal Half Sister"
+        - "Sibling"
+        - "Step Child"
+        - "Step Sibling"
+        - "Stepbrother"
+        - "Stepdaughter"
+        - "Stepfather"
+        - "Stepmother"
+        - "Stepsister"
+        - "Stepson"
+        - "Twin Sibling"
+        - "Wife"
+        - "Aunt"
+        - "Brother-in-law"
+        - "Child"
+        - "Cousin"
+        - "Daughter-in-law"
+        - "Domestic Partner"
+        - "Don't Know"
+        - "Father"
+        - "Father-in-law"
+        - "First Cousin"
+        - "First Cousin Once Removed"
+        - "Grand Nephew"
+        - "Grandchild"
+        - "Grandfather"
+        - "Grandparent"
+        - "Half Brother"
+        - "Half Sibling"
+        - "Half Sister"
+        - "Maternal Aunt"
+        - "Maternal Grandmother"
+        - "Maternal Grandparent"
+        - "Maternal Great Grandparent"
+        - "Maternal Uncle"
+        - "Mother"
+        - "Mother-in-law"
+        - "Natural Son"
+        - "Nephew"
+        - "Niece"
+        - "Parent"
+        - "Paternal Aunt"
+        - "Paternal Grandparent"
+        - "Paternal Great Grandparent"
+        - "Paternal Uncle"
+        - "Refused"
+        - "Sister-in-law"
+        - "Son-in-law"
+        - "Spouse"
+        - "Uncle"
+        - "Ward"
     Req: true
     Strict: false
     Private: false
   family_id:
-    Desc: Identifer of a family of a group of participants.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize the domestic group of someone who takes part in an activity.
     Term: 
       - Origin: caDSR
-        Code: '6867052'
-        Value: Biospecimen Source Subject Identifier
+        Code: '14540945'
+        Value: Participant Family Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -3085,22 +3195,22 @@ PropDefinitions:
     Private: false  
   #publication
   publication_id: 
-    Desc: PubMed identifier of the publication associated with the study.
+    Desc: A Digital Object Identifier (DOI) of the publication associated with the study.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Study Publication Identification PubMed Identifier
+        Code: '3443454'
+        Value: Study Publication Identification Digital Object Identifier Text
     Type: string
     Req: true
     Private: false
     Key: true
   #publication
   pubmed_id:
-    Desc: The accession number used in PubMed.
+    Desc: PubMed identifier of the publication associated with the study.
     Term:
       - Origin: caDSR
         Code: '3443453'
-        Value: Additional Finding Identifier
+        Value: Study Publication Identification PubMed Identifier
     Type: string
     Req: true
     Private: false
@@ -3148,11 +3258,11 @@ PropDefinitions:
     Key: true
   # diagnosis
   diagnosis_id:
-    Desc: A unique sequence of alphanumeric characters used to identify the participant diagnosis in the investigation or study, which is used for linking metadata.
+    Desc:  sequence of characters used to uniquely identify, name, or characterize the presence and nature of a disease or condition.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14540952'
+        Value: Diagnosis Disease or Disorder Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -3358,7 +3468,6 @@ PropDefinitions:
         - "Biochemical evidence of disease without structural correlate"
         - "Distant Metastasis"
         - "Localized Disease"
-        - "Never Tumor Free"
         - "New Tumor Event"
         - "Not Allowed To Collect"
         - "Not Applicable"
@@ -3372,11 +3481,11 @@ PropDefinitions:
     Private: false     
   #diagnosis, sample
   age_at_last_known_disease_status:
-    Desc: Age at the time of last known disease status expressed in number of days since birth.
+    Desc: Subject Age at Last Known Disease Status Day Count
     Term:
       - Origin: caDSR
-        Code: '10169253'
-        Value: Person Number of Days Between Index Date and Last Known Disease Status Day Count
+        Code: '14589579'
+        Value: The age (in days) of subject at the time of their last known disease status.
     Type: integer
     Req: false
     Private: false  
@@ -3588,18 +3697,18 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '12220014'
-        Value: Subject Data Origin Identifier
+        Value: Subject Alternate Data Origin Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   #participant
   alternate_participant_id:
-    Desc: A synonymous or alternate ID for a participant that is stored in another study or repository.
+    Desc: An alternate sequence of letters, numbers, or characters that uniquely identifies the subject who has taken part in the investigation or research study.
     Term:
       - Origin: caDSR
-        Code: '6867052'
-        Value: Biospecimen Source Subject Identifier
+        Code: '14528097'
+        Value: Subject Alternate Data Origin Identifier
     Type: string
     Req: false
     Private: false
@@ -3677,8 +3786,11 @@ PropDefinitions:
     Private: false 
   #study
   consent_number:
-    Desc: The numeric value of the consent group as designated by dbGaP full accession identifier, phs######.v#.p#.c#.
+    Desc: A numeral or string of numerals used to identify the set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository.
     Type: integer
+      - Origin: caDSR
+        Code: '14534330'
+        Value: Research Activity dbGaP Consent Group Number
     Req: true
     Private: false     
   # sample
@@ -4650,7 +4762,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '11524544'
-        Value: dbGaP Accession Number 
+        Value: Research Activity dbGaP Accession Number Identifier 
     Type: string
     Req: false
     Private: false
@@ -4666,7 +4778,11 @@ PropDefinitions:
     Private: false
   # study
   study_acronym:
-    Desc: A one word acronym to represent the study.
+    Desc: The acronym or abbreviated form of the title for a research data collection.
+    Term:
+      - Origin: caDSR
+        Code: '11459812'
+        Value: Study Short Name Text
     Type: string
     Req: true
     Private: false
@@ -4682,7 +4798,11 @@ PropDefinitions:
     Private: false
   # study
   external_url:
-    Desc: The url of the study (often a dbGaP study page).
+    Desc: The specification of a node (file or directory) in a hierarchical file system where an electronic file is located.
+    Term:
+      - Origin: caDSR
+        Code: '11556141'
+        Value: Electronic File Pathname Text
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -4764,11 +4884,11 @@ PropDefinitions:
     Private: false
   # study_admin
   study_admin_id:
-    Desc: A unique sequence of alphanumeric characters used to identify the admin in the investigation or study, which is used for linking metadata.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize the individual who is responsible for managing a detailed examination, analysis, or critical inspection of a subject designed to discover facts about it.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528073'
+        Value: Person Study Administrator Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -4844,11 +4964,11 @@ PropDefinitions:
 #    Private: false    
   # study_funding
   study_funding_id:
-    Desc: A unique identifier for a study funding.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize the study funding organization.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528051'
+        Value: Funding Agency Organization Name Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -4903,54 +5023,42 @@ PropDefinitions:
     Private: false
   #study_arm
   clinical_trial_identifier:
-    Desc: Organization or research site participating in a type of research study that tests how well new medical treatments or other interventions work in people.
+    Desc: Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
     Term:
       - Origin: caDSR
-        Code: '2413202'
+        Code: '2649415'
         Value: Clinical Trial Site Identifier 64 Character Text
     Type: string
     Req: true
     Private: false
   #study_arm
   clinical_trial_repository:
-    Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
+    Desc: Organization or research site participating in a type of research study that tests how well new medical treatments or other interventions work in people.
     Term:
       - Origin: caDSR
-        Code: '2649415'
+        Code: '2413202'
         Value: Clinical Trial Protocol Identifier 64 Character Text
     Type: string
     Req: false
     Private: false        
   # study_personnel
-  study_personnel_id:  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
-    Desc: A unique sequence of alphanumeric characters used to identify the personnel in the investigation or study, which is used for linking metadata.
+  study_personnel_id:
+    Desc: A sequence of characters used to uniquely identify, name, or characterize the person who performs a particular role within the context of a specific study.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528070'
+        Value: Person Study Personnel Unique Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   # study_personnel
   personnel_name:
-    Desc: The name of personnel who is an organizer in the study.
+    Desc: 	A formatted means of uniquely identifying an individual derived from multiple naming elements.
     Term:
       - Origin: caDSR
-        Code: '2663165'
-        Value: Person Name Prefix Abbreviation Text
-      - Origin: caDSR
-        Code: '2179589'
-        Value: "A word or group of words indicating a person's first (personal or given) name; the name that precedes the surname. Synonym = Given Name"
-      - Origin: caDSR
-        Code: '2179590'
-        Value: A means of identifying an individual by using a word or group of words indicating a person's middle name.
-      - Origin: caDSR
-        Code: '2179591'
-        Value: "A means of identifying an individual by using a word or group of words indicating a person's last (family) name. Synonym = Last Name, Surname."
-      - Origin: caDSR
-        Code: '2006475'
-        Value: Text term to represent an individual's position in a family lineage or pedigree.
+        Code: '2222323'
+        Value: Derived Person Full Formatted Name
     Type: string
     Req: true
     Private: false
@@ -5145,11 +5253,11 @@ PropDefinitions:
     Private: false  
   #therapeutic_procedure
   therapeutic_procedure_id: 
-    Desc: A unique identifier for a therapeutic procedure.
+    Desc: A unique sequence of characters used to identify, name, or characterize the kind of treatment administered.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14569111'
+        Value: Treatment Method Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -6387,11 +6495,11 @@ PropDefinitions:
     Private: false  
   #therapeutic_procedure
   therapeutic_agents:
-    Desc: Text identification of the individual agent(s) used as part of a prior treatment regimen.
+    Desc: The name of the individual therapeutic agent(s) used as part of a treatment regimen..
     Term:
       - Origin: caDSR
-        Code: '2975232'
-        Value: Prior Therapy Regimen Text
+        Code: '13579886'
+        Value: Therapeutic Procedure Agent Name
     Type:
       value_type: list
       Enum:

@@ -83,8 +83,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   echo_time:
-    Desc: echo_time
+    Desc: A measurement of the time in milliseconds between the application of the excitation pulse and the recording of the peak echo signal.
     Term:
+      - Origin: caDSR
+        Code: '14644117'
+        Value: Imaging Technique Echo Time Float Number
       - Origin: DICOM
         Code: '0018,0081'
         Value: echo_time
@@ -94,8 +97,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   inversion_time:
-    Desc: inversion_time
+    Desc: A measurement of the time between the inversion and excitation pulses in an inversion recovery pulse sequence.
     Term:
+      - Origin: caDSR
+        Code: '14644131'
+        Value: Imaging Technique Inversion Time Float Number
       - Origin: DICOM
         Code: '0018,0082'
         Value: inversion_time
@@ -105,8 +111,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   flip_angle:
-    Desc: flip_angle
+    Desc: A measurement in magnetic resonance imaging capturing the rotation of the average axis of the protons, relative to the main magnetic field direction, induced by radiofrequency signals.
     Term:
+      - Origin: caDSR
+        Code: '14644137'
+        Value: Imaging Technique Flip Angle Float Number
       - Origin: DICOM
         Code: '0018,1314'
         Value: flip_angle
@@ -138,8 +147,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   echoPulseSequenceCategoryCode:
-    Desc: echoPulseSequenceCategoryCode
+    Desc: A term specifying the echo category of pulse sequences.
     Term:
+      - Origin: caDSR
+        Code: '14645641'
+        Value: Image Acquisition Spin-Echo Pulse Sequence Code Category
       - Origin: DICOM
         Code: '0018,9008'
         Value: echoPulseSequenceCategoryCode
@@ -149,8 +161,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   diffusionBValue:
-    Desc: diffusionBValue
+    Desc: A term specifying the echo category of pulse sequences.
     Term:
+      - Origin: caDSR
+        Code: '14607706'
+        Value: Image Acquisition Spin-Echo Pulse Sequence Code Category
       - Origin: DICOM
         Code: '0018,9087'
         Value: diffusionBValue
@@ -160,8 +175,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   diffusionDirectionalityCode:
-    Desc: diffusionDirectionalityCode
+    Desc: Text describing the kind of diffusion conditions for the frame, directional or isotropic, with respect to direction.
     Term:
+      - Origin: caDSR
+        Code: '14616426'
+        Value: Imaging Technique Diffusion Directionality Type
       - Origin: DICOM
         Code: '0018,9075'
         Value: diffusionDirectionalityCode
@@ -171,8 +189,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   resonantNucleusCode:
-    Desc: resonantNucleusCode
+    Desc: 	Text specifying the atomic nucleus that is resonant at the transmitter frequency.
     Term:
+      - Origin: caDSR
+        Code: '14616427'
+        Value: Image Acquisition Resonant Nucleus Code
       - Origin: DICOM
         Code: '0018,9100'
         Value: resonantNucleusCode
@@ -182,8 +203,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   acquisitionContrastCode:
-    Desc: acquisitionContrastCode
+    Desc: Text specifying the kind of contrast used during the imaging acquisition process.
     Term:
+      - Origin: caDSR
+        Code: '14616428'
+        Value: Image Acquisition Contrast Type
       - Origin: DICOM
         Code: '0008,9209'
         Value: acquisitionContrastCode
@@ -193,8 +217,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   inversionRecoveryIndicator:
-    Desc: inversionRecoveryIndicator
+    Desc: An indicator response as to whether or not the pulse sequence is an inversion recovery pulse preparatory sequence.
     Term:
+      - Origin: caDSR
+        Code: '14607722'
+        Value: Image Acquisition Inversion Recovery Indicator
       - Origin: DICOM
         Code: '0018,9009'
         Value: inversionRecoveryIndicator

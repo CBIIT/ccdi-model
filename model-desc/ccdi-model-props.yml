@@ -543,22 +543,22 @@ PropDefinitions:
     Private: false
   #exposure
   exposure_id:
-    Desc: An internal or external identifier such as exposure record or identifier.
+    Desc: A unique sequence of characters used to identify, name, or characterize the type of chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
     Term:
       - Origin: caDSR
-        Code: '2555531'
-        Value: exposure_id
+        Code: '14570323'
+        Value: Exposure Environment Unique Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   #exposure
   age_at_exposure:
-    Desc: Age at time of event
+    Desc: The age (in days) of subject at a known exposure to a hazardous factor or substance.
     Term:
       - Origin: caDSR
-        Code: '5303151'
-        Value: Age at time of event
+        Code: '14589582'
+        Value: Subject Age at Exposure Day Count
     Type: integer
     Req: true
     Private: false

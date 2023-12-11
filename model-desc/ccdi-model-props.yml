@@ -6385,7 +6385,7 @@ PropDefinitions:
         - "999 : Unknown, to be completed later"
         - "[---- Indication for Study ----]"
         - "see diagnosis_comment"
-        - "[---- Miscelaneous ----]"
+        - "[---- Miscellaneous ----]"
         - "Unknown"
         - "Not Reported"
     Req: true

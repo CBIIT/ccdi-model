@@ -604,10 +604,10 @@ PropDefinitions:
     Private: false
   #exposure
   alcohol_history:
-    Desc: The response indicating whether a patient has ever consumed alcohol.
+    Desc: Has the participant consumed at least 12 drinks of any kind of alcoholic beverage in their lifetime?
     Term:
       - Origin: caDSR
-        Code: '2201918'
+        Code: '7537144'
         Value: Alcohol History Indicator
     Type:
       value_type: string
@@ -625,7 +625,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '3457767'
-        Value: alcohol_intensity
+        Value: Alcohol Exposure Intensity
     Type:
       value_type: string
       Enum:
@@ -641,7 +641,7 @@ PropDefinitions:
     Private: false
   #exposure
   asbestos_exposure:
-    Desc: The yes/no/unknown indicator used to describe whether the patient was exposed to asbestos.
+    Desc: The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
     Term:
       - Origin: caDSR
         Code: '11256813'
@@ -662,13 +662,13 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '2001716'
-        Value: cigarettes_per_day
+        Value: Smoking Use Average Number
     Type: integer
     Req: false
     Private: false
   #exposure
   coal_dust_exposure:
-    Desc: The yes/no/unknown indicator used to describe whether a patient was exposed to fine powder derived by the crushing of coal.
+    Desc: The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
     Term:
       - Origin: caDSR
         Code: '11256813'
@@ -685,7 +685,7 @@ PropDefinitions:
     Private: false
   #exposure
   environmental_tobacco_smoke_exposure:
-    Desc: The yes/no/unknown indicator used to describe whether a patient was exposed to smoke that is emitted from burning tobacco, including cigarettes, pipes, and cigars. This includes tobacco smoke exhaled by smokers.
+    Desc: The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.    
     Term:
       - Origin: caDSR
         Code: '11256813'
@@ -702,7 +702,7 @@ PropDefinitions:
     Private: false
   #exposure
   radon_exposure:
-    Desc: The yes/no/unknown indicator used to describe whether the patient was exposed to radon.
+    Desc: The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
     Term:
       - Origin: caDSR
         Code: '11256813'
@@ -719,7 +719,7 @@ PropDefinitions:
     Private: false
   #exposure
   respirable_crystalline_silica_exposure:
-    Desc: The yes/no/unknown indicator used to describe whether a patient was exposured to respirable crystalline silica, a widespread, naturally occurring, crystalline metal oxide that consists of different forms including quartz, cristobalite, tridymite, tripoli, ganister, chert and novaculite.
+    Desc: The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
     Term:
       - Origin: caDSR
         Code: '11256813'
@@ -736,11 +736,11 @@ PropDefinitions:
     Private: false
   #exposure
   smoking_frequency:
-    Desc: The text term used to generally decribe how often the patient smokes.
+    Desc: The number of occurrences of smoking over a time period.
     Term:
       - Origin: caDSR
-        Code: 'NA'
-        Value: smoking_frequency
+        Code: '14645982'
+        Value: Tobacco Smoking History Day Frequency
     Type:
       value_type: string
       Enum:
@@ -752,11 +752,11 @@ PropDefinitions:
     Private: false
   #exposure
   time_between_waking_and_first_smoke:
-    Desc: The text term used to describe the approximate amount of time elapsed between the time the patient wakes up in the morning to the time they smoke their first cigarette.
+    Desc: Text that describes the time elapsed between waking and smoking a cigarette.
     Term:
       - Origin: caDSR
         Code: '3279220'
-        Value: time_between_waking_and_first_smoke
+        Value: Cigarette Smoking First Morning Time Category
     Type:
       value_type: string
       Enum:
@@ -770,31 +770,31 @@ PropDefinitions:
     Private: false
   #exposure
   tobacco_smoking_onset_year:
-    Desc: The year in which the participant began smoking.
+    Desc: Tobacco Smoking History Onset Year Date
     Term:
       - Origin: caDSR
-        Code: '2228604'
-        Value: tobacco_smoking_onset_year
+        Code: '14494331'
+        Value: Tobacco Smoking History Onset Year Date
     Type: integer
     Req: false
     Private: false
   #exposure
   tobacco_smoking_quit_year:
-    Desc: The year in which the participant quit smoking.
+    Desc: A record of an individual's background in regard to smoking tobacco. This would include such factors as start date, end date (if applicable), number of cigarette smoked, attempts to quit, and others.:The year in which an individual quit smoking.:The particular year an event has happened or will happen.
     Term:
       - Origin: caDSR
-        Code: '2228610'
-        Value: tobacco_smoking_quit_year
+        Code: '14494374'
+        Value: Tobacco Smoking History Cessation Year Date
     Type: integer
     Req: false
     Private: false
   #exposure
   tobacco_smoking_status:
-    Desc: Category describing current smoking status and smoking history as self-reported by a patient
+    Desc: A category which describes an individual's history of smoking tobacco.
     Term:
       - Origin: caDSR
         Code: '6787413'
-        Value: tobacco_smoking_status
+        Value: Smoking History Tobacco Category
     Type:
       value_type: string
       Enum:
@@ -811,11 +811,11 @@ PropDefinitions:
     Private: false
   #exposure
   type_of_smoke_exposure:
-    Desc: The text term used to describe the patient's specific type of smoke exposure.
+    Desc: The type of environmental, occupational or consumer-based exposure to airborne gases and particulates produced when materials undergo combustion or thermal decomposition.
     Term:
       - Origin: caDSR
-        Code: 'NA'
-        Value: type_of_smoke_exposure
+        Code: '14572339'
+        Value: Environmental Smoke Exposure Type
     Type:
       value_type: list
       Enum:

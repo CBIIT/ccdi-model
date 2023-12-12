@@ -2912,8 +2912,11 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file
   Protocols_Link:
-    Desc: Protocols.io ID  or DOI link to a free/open protocol resource describing in detail the assay protocol (e.g. surface markers used in Smart-seq, dissociation duration,  lot/batch numbers for key reagents such as primers, sequencing reagent kits, etc.).
+    Desc: A sequence of letters, numbers, or other characters that uniquely identifies a study protocol or a unique code used by publishers in the identification and exchange of the content of a digital object.
     Term:
+      - Origin: caDSR
+        Code: '7787673'
+        Value: Raw Data Protocol Or Digital Object Identifier Text
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Protocols  Link
@@ -2922,8 +2925,11 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file
   Read1:
-    Desc: Read 1 content description
+    Desc: Sequencing Library Read 1 Text
     Term:
+      - Origin: caDSR
+        Code: '14604321'
+        Value: Sequencing Library Read 1 Text
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Read1
@@ -3191,11 +3197,11 @@ PropDefinitions:
     Private: false
   #pdx
   pdx_id: 
-    Desc: A unique identifier for a pdx.
+    Desc: A unique sequence of characters used to identify, name, or characterize a mouse model for human cancer studies.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14596170'
+        Value: PDX Unique Identifier
     Type: string
     Req: true
     Private: false

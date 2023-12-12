@@ -2409,11 +2409,11 @@ PropDefinitions:
     Private: false
   #molecular_test
   mismatch_repair_mutation:
-    Desc: The yes/no/unknown indicator used to describe whether the mutation included in molecular testing was known to have an affect on the mismatch repair process.
+    Desc: A yes/no/unknown indicator used to describe whether a gene has undergone mismatch repair.
     Term:
       - Origin: caDSR
         Code: '6142534'
-        Value: mismatch_repair_mutation
+        Value: Gene Mutation Mismatch Repair Indicator
     Type: string
     Req: false
     Private: false

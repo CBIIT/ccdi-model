@@ -1987,11 +1987,11 @@ PropDefinitions:
     Private: false
   #molecular_test
   molecular_test_id:
-    Desc: An internal or external identifier such as specimen identifier.
+    Desc: A unique sequence of characters used to identify, name, or characterize a laboratory procedure that involves the study of tissues, cells, and fluids at the molecular level.
     Term:
       - Origin: caDSR
-        Code: '2555531'
-        Value: molecular_test_id
+        Code: '14589997'
+        Value: Molecular Test Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -2025,7 +2025,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142401'
-        Value: molecular_analysis_method
+        Value: Molecular Analysis Test Method Name
     Type:
       value_type: string
       Enum:
@@ -2442,11 +2442,11 @@ PropDefinitions:
     Private: false
   #molecular_test
   pathogenicity:
-    Desc: The text used to describe a variant's level of involvement in the cause of the patient's disease according to the standards outlined by the American College of Medical Genetics and Genomics (ACMG).
+    Desc: The likelihood of an entity to produce pathologic changes or disease.
     Term:
       - Origin: caDSR
-        Code: 'NA'
-        Value: pathogenicity
+        Code: '14532361'
+        Value: Molecular Analysis Pathogenicity Type
     Type: string
     Req: false
     Private: false
@@ -2899,8 +2899,11 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file
   Paired_End:
-    Desc: A library layout type
+    Desc: Sequencing Library Paired End Text
     Term:
+      - Origin: caDSR
+        Code: '14604166'
+        Value: Sequencing Library Paired End Text
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Paired End
@@ -3199,11 +3202,11 @@ PropDefinitions:
     Key: true
   #pdx
   model_id:
-    Desc: The PDX model identifier.
+    Desc: A unique sequence of characters used to identify, name, or characterize a mouse model for human cancer studies.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14596191'
+        Value: PDX Model Unique Identifier
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
@@ -3255,8 +3258,11 @@ PropDefinitions:
     Private: false
   #pdx  
   mouse_strain:  
-    Desc: The host mouse strain to which the tumor is engrafted. May become an enum if terms are provided.
+    Desc: The words by which breeds of mice utilized for biological research are known.
     Term:
+      - Origin: caDSR
+        Code: '14596205'
+        Value: PDX Host Mouse Strain Name
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
@@ -3363,11 +3369,11 @@ PropDefinitions:
     Private: false
   # clinical_measure_file
   participant_list:
-    Desc: The list of participant ids that are found in this clinical file. This is often used for files that have a large number of participants referenced within the file.
+    Desc: A series of characters, one after the other, used to uniquely identify the subjects who have taken part in the investigation or research study.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14608610'
+        Value: Study Subject Identifier List Text
     Type: string
     Reg: false
     Private: false
@@ -3779,11 +3785,11 @@ PropDefinitions:
     Private: false    
   # pathology_file
   pathology_file_id: 
-    Desc: A unique identifier for a pathology file.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528010'
+        Value: Electronic Data File Unique Identifier
     Type: string
     Req: true
     Private: false

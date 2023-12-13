@@ -192,7 +192,7 @@ PropDefinitions:
     Private: false
   #radiology_file
   resonantNucleusCode:
-    Desc: 	Text specifying the atomic nucleus that is resonant at the transmitter frequency.
+    Desc: Text specifying the atomic nucleus that is resonant at the transmitter frequency.
     Term:
       - Origin: caDSR
         Code: '14616427'
@@ -2508,11 +2508,11 @@ PropDefinitions:
     Private: false
   #molecular_test
   second_exon:
-    Desc: The second exon number involved in molecular variation. If a specific genetic variant is being reported, this property can be used to capture the second exon where that variant is located. This property is typically used for a translocation where two different locations are involved in the variation.
+    Desc: A numeral or string of numerals that is used to identify the position of a second exon that is either involved in a molecular variation or of interest in an experiment or study.
     Term:
       - Origin: caDSR
-        Code: 'NA'
-        Value: second_exon
+        Code: '14578182'
+        Value: Molecular Analysis Second Exon of Interest Identification Number
     Type: string
     Req: false
     Private: false
@@ -2953,6 +2953,9 @@ PropDefinitions:
   Reverse_Transcription_Primer_Oligo_dT_Poly_dT:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
+      - Origin: caDSR
+        Code: '14604593'
+        Value: Sequencing Library Reverse Transcription Primer Type
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Reverse Transcription Primer Oligo-dT, Poly-dT
@@ -2976,6 +2979,9 @@ PropDefinitions:
   Reverse_Transcription_Primer_Random:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
+      - Origin: caDSR
+        Code: '14604593'
+        Value: Sequencing Library Reverse Transcription Primer Type
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Reverse Transcription Primer Random
@@ -2986,6 +2992,9 @@ PropDefinitions:
   Sequencing_Library_Construction_Date:
     Desc: Date of sequencing library construction part of library construction
     Term:
+      - Origin: caDSR
+        Code: '14612650'
+        Value: Specimen Collection To cDNA Library Construction Day Count
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Sequencing Library Construction Date
@@ -2996,6 +3005,9 @@ PropDefinitions:
   Single_Cell_Dissociation_Date:
     Desc: The date when the sample was dissociated and cells were isolated
     Term:
+      - Origin: caDSR
+        Code: '14640697'
+        Value: Sequencing Library Tissue Dissociation Day Count
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Single Cell Dissociation Date
@@ -3006,6 +3018,9 @@ PropDefinitions:
   Single_Cell_Isolation_Method:
     Desc: The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)
     Term:
+      - Origin: caDSR
+        Code:  '14606450'
+        Value: Sequencing Library Single Cell Isolation Method Type
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Single Cell Isolation Method
@@ -3370,11 +3385,11 @@ PropDefinitions:
     Key: true
   #synonym
   repository_of_synonym_id:
-    Desc: The repository of the synonym.
+    Desc: A textual description of a storage location for digital data.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14612686'
+        Value: Research Activity Alternate Identifier Repository Text
     Type: string
     Req: true
     Private: false
@@ -4548,11 +4563,11 @@ PropDefinitions:
     Private: false
   # sequencing_file props
   sequencing_file_id: 
-    Desc: A unique identifier for a sequencing file.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528010'
+        Value: Electronic Data File Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -4828,6 +4843,9 @@ PropDefinitions:
   sequence_alignment_software:
     Desc: The name of the software program used to align nucleotide sequencing data. 
     Term:
+      - Origin: caDSR
+        Code: '11529072'
+        Value: Nucleotide Sequence Alignment Software Name Text
       - Origin: NCIt
         Code: 'C175896'
         Value: Sequence Alignment Software Name 

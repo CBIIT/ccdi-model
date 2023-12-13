@@ -420,7 +420,7 @@ Nodes:
       - age_at_treatment_end
       - treatment_outcome
       - treatment_type
-      - therapeutic_agents
+      - therapeutic_agent
       - id
 Relationships:
   of_cell_line:

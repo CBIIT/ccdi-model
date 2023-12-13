@@ -3355,7 +3355,7 @@ PropDefinitions:
     Private: false 
   #pdx
   tumor_not_mus_or_ebv_origin: 
-    Desc: The source of the PDX tumor.
+    Desc: "Tumor confirmed not to be of mouse/EBV origin"
     Term:
       - Origin: caDSR
         Code: '14616759'

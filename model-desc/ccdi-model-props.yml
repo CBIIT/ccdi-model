@@ -3042,8 +3042,11 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file
   Total_Number_of_Input_Cells:
-    Desc: Number of cells loaded/placed on plates
+    Desc: Numeric value used to describe the number of cells used for molecular testing.
     Term:
+      - Origin: caDSR
+        Code: '6142528'
+        Value: Molecular Analysis Cell Count	
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Total Number of Input Cells
@@ -3339,8 +3342,11 @@ PropDefinitions:
     Private: false
   #pdx
   tumor_characterization_method:
-    Desc: How the tumor was evaluated in the mouse host. May become an enum if terms are provided.
+    Desc: The type of characterization used to evaluate the human-derived tumor sample in the mouse model.
     Term:
+      - Origin: caDSR
+        Code: '14596227'
+        Value: PDX Tumor Characterization Method Type
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
@@ -3349,8 +3355,11 @@ PropDefinitions:
     Private: false 
   #pdx
   tumor_not_mus_or_ebv_origin: 
-    Desc: Was tumor evaluated for having a mouse or EBV orgin?
+    Desc: The source of the PDX tumor.
     Term:
+      - Origin: caDSR
+        Code: '14616759'
+        Value: PDX Tumor Origin Evaluated Type
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models

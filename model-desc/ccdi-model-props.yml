@@ -2578,7 +2578,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142402'
-        Value: variant_type
+        Value: Molecular Analysis Gene Variant Type
     Type:
       value_type: list
       Enum:
@@ -2615,7 +2615,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142510'
-        Value: zygosity
+        Value: Molecular Analysis Genetic Zygosity Type
     Type:
       value_type: string
       Enum:
@@ -3057,6 +3057,9 @@ PropDefinitions:
   UMI:
     Desc: Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
     Term:
+      - Origin: caDSR
+        Code: '14607300'
+        Value: Sequencing Library UMI Identifier
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: UMI
@@ -3322,8 +3325,11 @@ PropDefinitions:
     Private: false
   #pdx  
   type_of_humanization:
-    Desc: "How the mouse host was humanized."
+    Desc: The type of process used to make reagents, such as animal antibodies, derived from non-human sources more like the human version.
     Term:
+      - Origin: caDSR
+        Code: '14596213'
+        Value: PDX Host Mouse Strain Humanization Method Type
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
@@ -3332,8 +3338,11 @@ PropDefinitions:
     Private: false
   #pdx
   tumor_preparation:
-    Desc: How the tumor was prepared for grafting.
+    Desc: A mouse model for human cancer studies in which a human-derived tumor sample is transplanted into an immunodeficient mouse.:A benign or malignant tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting significant cytologic atypia, while malignant cells exhibit overt signs such as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative examples of benign neoplasms include papillomas, cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias
     Term:
+      - Origin: caDSR
+        Code: '14616474'
+        Value: PDX Tumor Preparation Text
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models

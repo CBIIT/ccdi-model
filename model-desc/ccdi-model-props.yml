@@ -406,11 +406,11 @@ PropDefinitions:
     Key: true
     Private: false
   source:
-    Desc: Cell line source
+    Desc: The words by which a permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space is known.
     Term:
       - Origin: caDSR
-        Code: '6635976'
-        Value: Laboratory/Vendor Name
+        Code: '14596139'
+        Value: Cell Line Source Name
     Type: string
     Req: true
     Private: false  
@@ -2528,11 +2528,11 @@ PropDefinitions:
     Private: false
   #molecular_test
   specialized_molecular_test:
-    Desc: Text term used to describe a specific test that is not covered in the list of molecular analysis methods.
+    Desc: A textual description of a laboratory procedure that involves the study of tissues, cells, and fluids using DNA/RNA analysis techniques for the identification of characteristics and abnormalities at the molecular level.
     Term:
       - Origin: caDSR
-        Code: '6142526'
-        Value: specialized_molecular_test
+        Code: '14595986'
+        Value: Molecular Test Specialized Text
     Type: string
     Req: false
     Private: false
@@ -2542,7 +2542,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142394'
-        Value: test_analyte_type
+        Value: Molecular Analysis Analyte Type
     Type:
       value_type: string
       Enum:
@@ -2761,11 +2761,11 @@ PropDefinitions:
     Private: false  
   #single_cell_sequencing_file
   single_cell_sequencing_file_id: 
-    Desc: A unique identifier for a single cell sequencing file.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528010'
+        Value: Electronic Data File Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -3031,6 +3031,9 @@ PropDefinitions:
   Spike_In:
     Desc: A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
     Term:
+      - Origin: caDSR
+        Code: '14606468'
+        Value: Sequencing Library RNA Spike-In Type
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Spike In
@@ -3297,8 +3300,11 @@ PropDefinitions:
     Private: false
   #pdx  
   strain_immune_system_humanized: 
-    Desc: "Was the mouse host humanized?"
+    Desc: A response to indicate whether a mouse model was humanized.
     Term:
+      - Origin: caDSR
+        Code: '14596210'
+        Value: PDX Host Mouse Strain Humanization Indicator
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
@@ -3374,11 +3380,11 @@ PropDefinitions:
     Private: false
   #synonym
   synonym_id:
-    Desc: The synonym of the ID that is found in a different repository.
+    Desc: A sequence of characters used to identify, name, or characterize a backup sequence of characters used to identify an entity.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14612666'
+        Value: Research Activity Alternate Identifier	
     Type: string
     Req: true
     Private: false
@@ -6662,7 +6668,7 @@ PropDefinitions:
     Strict: true
     Private: false  
   #therapeutic_procedure
-  therapeutic_agents:
+  therapeutic_agent:
     Desc: The name of the individual therapeutic agent(s) used as part of a treatment regimen..
     Term:
       - Origin: caDSR

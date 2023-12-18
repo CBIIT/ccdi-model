@@ -6401,7 +6401,7 @@ PropDefinitions:
         - "999 : Unknown, to be completed later"
         - "[---- Indication for Study ----]"
         - "see diagnosis_comment"
-         - "[---- WHO CNS5 Integrated Diagnosis ----]"
+        - "[---- WHO CNS5 Integrated Diagnosis ----]"
         - "Adamantinomatous craniopharyngioma"
         - "Anaplastic large cell lymphoma (ALK+/ALK−)"
         - "Angiocentric glioma"

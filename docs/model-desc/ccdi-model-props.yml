@@ -1,19 +1,22 @@
 PropDefinitions:
   #cytogenomic_file
   cytogenomic_file_id:
-    Desc: A unique identifier for a cytogenomic file.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528010'
+        Value: Electronic Data File Unique Identifier
     Type: string
     Key: true
     Req: true
     Private: false
   #cytogenomic_file
   cytogenomic_platform:
-    Desc: The words used to describe the instrument used to carry out a methylation experiment.
+    Desc: Words which describe the the equipment used to perform cytogenomic analysis.
     Term:
+      - Origin: caDSR
+        Code: '14596084'
+        Value: Cytogenomic Analysis Instrumentation Text
       - Origin: Illumina
         Code: 'cytogenomic'
         Value: cytogenomic_platform
@@ -22,11 +25,14 @@ PropDefinitions:
     Private: false
   #radiology_file
   magnetic_field_strength:
-    Desc: magnetic_field_strength
+    Desc: A measurement of the force of magnetism that acts in the region around a magnetic material or a moving electrical charge.
     Term:
+      - Origin: caDSR
+        Code: '14607707'
+        Value: Imaging Technique Magnetic Field Strength Number
       - Origin: DICOM
         Code: '0018,0087'
-        Value: magnetic_field_strength
+        Value: Imaging Technique Magnetic Field Strength Number
     Type: string
     Req: true
     Key: false
@@ -66,8 +72,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   repetition_time:
-    Desc: repetition_time
+    Desc: A measurement of the amount of time in milliseconds between successive pulse sequences applied to the same slice.
     Term:
+      - Origin: caDSR
+        Code: '14643671'
+        Value: Imaging Technique Repetition Time Float Number
       - Origin: DICOM
         Code: '0018,0080'
         Value: repetition_time
@@ -77,8 +86,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   echo_time:
-    Desc: echo_time
+    Desc: A measurement of the time in milliseconds between the application of the excitation pulse and the recording of the peak echo signal.
     Term:
+      - Origin: caDSR
+        Code: '14644117'
+        Value: Imaging Technique Echo Time Float Number
       - Origin: DICOM
         Code: '0018,0081'
         Value: echo_time
@@ -88,8 +100,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   inversion_time:
-    Desc: inversion_time
+    Desc: A measurement of the time between the inversion and excitation pulses in an inversion recovery pulse sequence.
     Term:
+      - Origin: caDSR
+        Code: '14644131'
+        Value: Imaging Technique Inversion Time Float Number
       - Origin: DICOM
         Code: '0018,0082'
         Value: inversion_time
@@ -99,8 +114,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   flip_angle:
-    Desc: flip_angle
+    Desc: A measurement in magnetic resonance imaging capturing the rotation of the average axis of the protons, relative to the main magnetic field direction, induced by radiofrequency signals.
     Term:
+      - Origin: caDSR
+        Code: '14644137'
+        Value: Imaging Technique Flip Angle Float Number
       - Origin: DICOM
         Code: '0018,1314'
         Value: flip_angle
@@ -132,8 +150,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   echoPulseSequenceCategoryCode:
-    Desc: echoPulseSequenceCategoryCode
+    Desc: A term specifying the echo category of pulse sequences.
     Term:
+      - Origin: caDSR
+        Code: '14645641'
+        Value: Image Acquisition Spin-Echo Pulse Sequence Code Category
       - Origin: DICOM
         Code: '0018,9008'
         Value: echoPulseSequenceCategoryCode
@@ -143,8 +164,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   diffusionBValue:
-    Desc: diffusionBValue
+    Desc: A term specifying the echo category of pulse sequences.
     Term:
+      - Origin: caDSR
+        Code: '14607706'
+        Value: Image Acquisition Spin-Echo Pulse Sequence Code Category
       - Origin: DICOM
         Code: '0018,9087'
         Value: diffusionBValue
@@ -154,8 +178,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   diffusionDirectionalityCode:
-    Desc: diffusionDirectionalityCode
+    Desc: Text describing the kind of diffusion conditions for the frame, directional or isotropic, with respect to direction.
     Term:
+      - Origin: caDSR
+        Code: '14616426'
+        Value: Imaging Technique Diffusion Directionality Type
       - Origin: DICOM
         Code: '0018,9075'
         Value: diffusionDirectionalityCode
@@ -165,8 +192,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   resonantNucleusCode:
-    Desc: resonantNucleusCode
+    Desc: Text specifying the atomic nucleus that is resonant at the transmitter frequency.
     Term:
+      - Origin: caDSR
+        Code: '14616427'
+        Value: Image Acquisition Resonant Nucleus Code
       - Origin: DICOM
         Code: '0018,9100'
         Value: resonantNucleusCode
@@ -176,8 +206,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   acquisitionContrastCode:
-    Desc: acquisitionContrastCode
+    Desc: Text specifying the kind of contrast used during the imaging acquisition process.
     Term:
+      - Origin: caDSR
+        Code: '14616428'
+        Value: Image Acquisition Contrast Type
       - Origin: DICOM
         Code: '0008,9209'
         Value: acquisitionContrastCode
@@ -187,8 +220,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   inversionRecoveryIndicator:
-    Desc: inversionRecoveryIndicator
+    Desc: An indicator response as to whether or not the pulse sequence is an inversion recovery pulse preparatory sequence.
     Term:
+      - Origin: caDSR
+        Code: '14607722'
+        Value: Image Acquisition Inversion Recovery Indicator
       - Origin: DICOM
         Code: '0018,9009'
         Value: inversionRecoveryIndicator
@@ -198,8 +234,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   pulseSequenceName:
-    Desc: pulseSequenceName
+    Desc: The process by which an image is acquired or obtained. The literal identifier for the pulse sequence.
     Term:
+      - Origin: caDSR
+        Code: '14608594'
+        Value: Image Acquisition Pulse Sequence Pulse Sequence Name Text
       - Origin: DICOM
         Code: '0018,9005'
         Value: pulseSequenceName
@@ -209,8 +248,11 @@ PropDefinitions:
     Private: false
   #radiology_file
   multipleSpinEchoIndicator:
-    Desc: multipleSpinEchoIndicator
+    Desc: An indicator response as to whether or not the pulse sequence is a multiple spin Echo pulse sequence.
     Term:
+      - Origin: caDSR
+        Code: '14608595'
+        Value: Imaging Technique Multiple Spin Echo Indicator
       - Origin: DICOM
         Code: '0018,9011'
         Value: multipleSpinEchoIndicator
@@ -220,8 +262,11 @@ PropDefinitions:
     Private: false    
   #radiology_file
   phaseContrastIndicator:
-    Desc: phaseContrastIndicator
+    Desc: An indicator response as to whether or not the pulse sequence is a phase contrast sequence.
     Term:
+      - Origin: caDSR
+        Code: '14608601'
+        Value: Image Phase Contrast Indicator
       - Origin: DICOM
         Code: '0018,9014'
         Value: phaseContrastIndicator
@@ -231,8 +276,11 @@ PropDefinitions:
     Private: false     
   #radiology_file
   timeOfFlightContrastIndicator:
-    Desc: timeOfFlightContrastIndicator
+    Desc: An indicator response as to whether or not the contrast is created by the inflow of blood in the saturated plane.
     Term:
+      - Origin: caDSR
+        Code: '14608649'
+        Value: Imaging Technique Time of Flight Contrast Indicator
       - Origin: DICOM
         Code: '0018,9015'
         Value: timeOfFlightContrastIndicator
@@ -242,8 +290,11 @@ PropDefinitions:
     Private: false   
   #radiology_file
   arterialSpinLabelingContrastCode:
-    Desc: arterialSpinLabelingContrastCode
+    Desc: Text specifying the kind of contrast used during the imaging acquisition process.
     Term:
+      - Origin: caDSR
+        Code: '14616428'
+        Value: Image Acquisition Contrast Type
       - Origin: DICOM
         Code: '0018,9250'
         Value: arterialSpinLabelingContrastCode
@@ -253,8 +304,11 @@ PropDefinitions:
     Private: false 
   #radiology_file
   steadyStatePulseSequenceCode:
-    Desc: steadyStatePulseSequenceCode
+    Desc: The process by which an image is acquired or obtained.:A coded value specifying the steady state pulse sequence.:A coded value specifying the steady state pulse sequence._Something distinguishable as an identifiable class based on common qualities.
     Term:
+      - Origin: caDSR
+        Code: '14616430'
+        Value: Image Acquisition Steady State Pulse Sequence Type
       - Origin: DICOM
         Code: '0018,9017'
         Value: steadyStatePulseSequenceCode
@@ -264,8 +318,11 @@ PropDefinitions:
     Private: false   
   #radiology_file
   echoPlanarPulseSequenceIndicator:
-    Desc: echoPlanarPulseSequenceIndicator
+    Desc: The process by which an image is acquired or obtained.:An indication as to whether multiple echos of different phase steps are acquired using rephasing gradients instead of repeated 180-degree pulses. (BRIDG):The preferred Value Domain to indicate a question with permissible values of yes/no.
     Term:
+      - Origin: caDSR
+        Code: '14612651'
+        Value: Image Acquisition Echo Planar Pulse Sequence Indicator
       - Origin: DICOM
         Code: '0018,9018'
         Value: echoPlanarPulseSequenceIndicator
@@ -275,8 +332,11 @@ PropDefinitions:
     Private: false     
   #radiology_file
   saturationRecoveryIndicator:
-    Desc: saturationRecoveryIndicator
+    Desc: An indicator response as to whether or not the pulse sequence is a saturation recovery sequence.
     Term:
+      - Origin: caDSR
+        Code: '14612652'
+        Value: Imaging Technique Saturation Recovery Indicator
       - Origin: DICOM
         Code: '0018,9024'
         Value: saturationRecoveryIndicator
@@ -286,8 +346,11 @@ PropDefinitions:
     Private: false   
   #radiology_file  
   spectrallySelectedSuppressionCode:
-    Desc: spectrallySelectedSuppressionCode
+    Desc: Text specifying the kind of spectrally selected suppression used in an imaging technology or method.
     Term:
+      - Origin: caDSR
+        Code: '14616431'
+        Value: Imaging Technique Spectrally Selected Suppression Type
       - Origin: DICOM
         Code: '0018,9025'
         Value: spectrallySelectedSuppressionCode
@@ -308,8 +371,11 @@ PropDefinitions:
     Private: false  
   #radiology_file
   complexImageComponentCode:
-    Desc: complexImageComponentCode
+    Desc: Text specifying the kind of channel of the quadrature detected data, or the combination derived from those channels, used to reconstruct the image.
     Term:
+      - Origin: caDSR
+        Code: '14616432'
+        Value: Imaging Technique Complex Image Component Type
       - Origin: DICOM
         Code: '0008,9208'
         Value: complexImageComponentCode
@@ -319,32 +385,32 @@ PropDefinitions:
     Private: false 
   #id
   id:
-    Desc: One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.
+    Desc: A unique sequence of characters used to identify, name, or characterize an attribute shared by all members of a class.
     Term:
-      - Origin: NCIt
-        Code: 'C25364'
-        Value: Identifier
+      - Origin: caDSR
+        Code: '14534325'
+        Value: CCDI Property Unique Identifier
     Type: string
     Req: false
     Key: false
     Private: false
   #cell_line
   cell_line_id:
-    Desc: Cell line name
+    Desc: A sequence of characters used to identify, name, or characterize a permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space.
     Term:
       - Origin: caDSR
-        Code: '5042426'
-        Value: Text term that represents the name of the cell line.
+        Code: '14596104'
+        Value: Cell Line Name Identifier
     Type: string
     Req: true
     Key: true
     Private: false
   source:
-    Desc: Cell line source
+    Desc: The words by which a permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space is known.
     Term:
       - Origin: caDSR
-        Code: '6635976'
-        Value: Laboratory/Vendor Name
+        Code: '14596139'
+        Value: Cell Line Source Name
     Type: string
     Req: true
     Private: false  
@@ -420,11 +486,11 @@ PropDefinitions:
     Private: false  
   #radiology_file
   deidentification_method:
-    Desc: Patient Deidentification
+    Desc: The type of means, manner of procedure, or systematic course of action used in the removal of text elements that would make data individually identifiable in an electronic record.
     Term:
       - Origin: caDSR
-        Code: '2475579'
-        Value: Removal of text elements that would make data individually identifiable.
+        Code: '14576319'
+        Value: Electronic Data File Deidentification Method Type
     Type:
       value_type: string
       Enum:
@@ -437,11 +503,11 @@ PropDefinitions:
     Private: false      
   #medical_history
   medical_history_id: 
-    Desc: An internal or external identifier such as medical or clinical history record or identifier.
+    Desc: A unique sequence of characters used to identify, name, or characterize the identifiable class of injuries, disabilities, syndromes, or symptoms found in an individual's health background.
     Term: 
       - Origin: caDSR
-        Code: '2555531'
-        Value: medical_history_id
+        Code: '14570321'
+        Value: Medical History Relevant Condition Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -543,22 +609,22 @@ PropDefinitions:
     Private: false
   #exposure
   exposure_id:
-    Desc: An internal or external identifier such as exposure record or identifier.
+    Desc: A unique sequence of characters used to identify, name, or characterize the type of chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
     Term:
       - Origin: caDSR
-        Code: '2555531'
-        Value: exposure_id
+        Code: '14570323'
+        Value: Exposure Environment Unique Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   #exposure
   age_at_exposure:
-    Desc: Age at time of event
+    Desc: The age (in days) of subject at a known exposure to a hazardous factor or substance.
     Term:
       - Origin: caDSR
-        Code: '5303151'
-        Value: Age at time of event
+        Code: '14589582'
+        Value: Subject Age at Exposure Day Count
     Type: integer
     Req: true
     Private: false
@@ -568,17 +634,17 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '2955385'
-        Value: pack_years_smoked
+        Value: Person Cigarette Smoking History Pack Year Value
     Type: integer
     Req: false
     Private: false
   #exposure
   years_smoked:
-    Desc: Numeric value (or unknown) to represent the number of years a person has been smoking.
+    Desc: Number that represents the years spent smoking cigarettes.
     Term:
       - Origin: caDSR
-        Code: '3137957'
-        Value: years_smoked
+        Code: '3285521'
+        Value: Cigarette Smoking Duration Year Count
     Type: integer
     Req: false
     Private: false
@@ -588,7 +654,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '3114013'
-        Value: alcohol_days_per_week
+        Value: Alcohol Consumption Weekly Days Usage Number
     Type: integer
     Req: false
     Private: false
@@ -598,17 +664,17 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '3124961'
-        Value: alcohol_drinks_per_day
+        Value: Person Daily Alcohol Consumption Count
     Type: integer
     Req: false
     Private: false
   #exposure
   alcohol_history:
-    Desc: A response to a question that asks whether the participant has consumed at least 12 drinks of any kind of alcoholic beverage in their lifetime.
+    Desc: Has the participant consumed at least 12 drinks of any kind of alcoholic beverage in their lifetime?
     Term:
       - Origin: caDSR
-        Code: '2201918'
-        Value: alcohol_history
+        Code: '7537144'
+        Value: Alcohol History Indicator
     Type:
       value_type: string
       Enum:
@@ -625,7 +691,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '3457767'
-        Value: alcohol_intensity
+        Value: Alcohol Exposure Intensity
     Type:
       value_type: string
       Enum:
@@ -641,7 +707,7 @@ PropDefinitions:
     Private: false
   #exposure
   asbestos_exposure:
-    Desc: The yes/no/unknown indicator used to describe whether the patient was exposed to asbestos.
+    Desc: The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
     Term:
       - Origin: caDSR
         Code: '11256813'
@@ -662,13 +728,13 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '2001716'
-        Value: cigarettes_per_day
+        Value: Smoking Use Average Number
     Type: integer
     Req: false
     Private: false
   #exposure
   coal_dust_exposure:
-    Desc: The yes/no/unknown indicator used to describe whether a patient was exposed to fine powder derived by the crushing of coal.
+    Desc: The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
     Term:
       - Origin: caDSR
         Code: '11256813'
@@ -685,7 +751,7 @@ PropDefinitions:
     Private: false
   #exposure
   environmental_tobacco_smoke_exposure:
-    Desc: The yes/no/unknown indicator used to describe whether a patient was exposed to smoke that is emitted from burning tobacco, including cigarettes, pipes, and cigars. This includes tobacco smoke exhaled by smokers.
+    Desc: The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.    
     Term:
       - Origin: caDSR
         Code: '11256813'
@@ -702,7 +768,7 @@ PropDefinitions:
     Private: false
   #exposure
   radon_exposure:
-    Desc: The yes/no/unknown indicator used to describe whether the patient was exposed to radon.
+    Desc: The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
     Term:
       - Origin: caDSR
         Code: '11256813'
@@ -719,7 +785,7 @@ PropDefinitions:
     Private: false
   #exposure
   respirable_crystalline_silica_exposure:
-    Desc: The yes/no/unknown indicator used to describe whether a patient was exposured to respirable crystalline silica, a widespread, naturally occurring, crystalline metal oxide that consists of different forms including quartz, cristobalite, tridymite, tripoli, ganister, chert and novaculite.
+    Desc: The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
     Term:
       - Origin: caDSR
         Code: '11256813'
@@ -736,11 +802,11 @@ PropDefinitions:
     Private: false
   #exposure
   smoking_frequency:
-    Desc: The text term used to generally decribe how often the patient smokes.
+    Desc: The number of occurrences of smoking over a time period.
     Term:
       - Origin: caDSR
-        Code: 'NA'
-        Value: smoking_frequency
+        Code: '14645982'
+        Value: Tobacco Smoking History Day Frequency
     Type:
       value_type: string
       Enum:
@@ -752,11 +818,11 @@ PropDefinitions:
     Private: false
   #exposure
   time_between_waking_and_first_smoke:
-    Desc: The text term used to describe the approximate amount of time elapsed between the time the patient wakes up in the morning to the time they smoke their first cigarette.
+    Desc: Text that describes the time elapsed between waking and smoking a cigarette.
     Term:
       - Origin: caDSR
         Code: '3279220'
-        Value: time_between_waking_and_first_smoke
+        Value: Cigarette Smoking First Morning Time Category
     Type:
       value_type: string
       Enum:
@@ -770,31 +836,31 @@ PropDefinitions:
     Private: false
   #exposure
   tobacco_smoking_onset_year:
-    Desc: The year in which the participant began smoking.
+    Desc: Tobacco Smoking History Onset Year Date
     Term:
       - Origin: caDSR
-        Code: '2228604'
-        Value: tobacco_smoking_onset_year
+        Code: '14494331'
+        Value: Tobacco Smoking History Onset Year Date
     Type: integer
     Req: false
     Private: false
   #exposure
   tobacco_smoking_quit_year:
-    Desc: The year in which the participant quit smoking.
+    Desc: A record of an individual's background in regard to smoking tobacco. This would include such factors as start date, end date (if applicable), number of cigarette smoked, attempts to quit, and others.:The year in which an individual quit smoking.:The particular year an event has happened or will happen.
     Term:
       - Origin: caDSR
-        Code: '2228610'
-        Value: tobacco_smoking_quit_year
+        Code: '14494374'
+        Value: Tobacco Smoking History Cessation Year Date
     Type: integer
     Req: false
     Private: false
   #exposure
   tobacco_smoking_status:
-    Desc: Category describing current smoking status and smoking history as self-reported by a patient
+    Desc: A category which describes an individual's history of smoking tobacco.
     Term:
       - Origin: caDSR
         Code: '6787413'
-        Value: tobacco_smoking_status
+        Value: Smoking History Tobacco Category
     Type:
       value_type: string
       Enum:
@@ -811,11 +877,11 @@ PropDefinitions:
     Private: false
   #exposure
   type_of_smoke_exposure:
-    Desc: The text term used to describe the patient's specific type of smoke exposure.
+    Desc: The type of environmental, occupational or consumer-based exposure to airborne gases and particulates produced when materials undergo combustion or thermal decomposition.
     Term:
       - Origin: caDSR
-        Code: 'NA'
-        Value: type_of_smoke_exposure
+        Code: '14572339'
+        Value: Environmental Smoke Exposure Type
     Type:
       value_type: list
       Enum:
@@ -873,11 +939,11 @@ PropDefinitions:
     Private: false
   #exposure
   type_of_tobacco_used:
-    Desc: The text term used to describe the specific type of tobacco used by the patient.
+    Desc: The response that indicates which smoking products a person has ever used regularly.
     Term:
       - Origin: caDSR
-        Code: 'NA'
-        Value: type_of_tobacco_used
+        Code: '6050093'
+        Value: Tobacco Use Smoking Products Ever Used Regularly Type
     Type:
       value_type: list
       Enum:
@@ -892,18 +958,18 @@ PropDefinitions:
     Private: false
   #follow_up
   follow_up_id:
-    Desc: A unique sequence of alphanumeric characters used to identify the follow up event.
+    Desc: A unique sequence of characters used to identify, name, or characterize the the health status of an individual after a study has officially closed.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14576972'
+        Value: Subject Follow-Up Event Unique Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   #follow_up
   age_at_follow_up:
-    Desc: A text term based on grouping information about the health status of an individual after a study has officially closed
+    Desc: The age (in days) when the follow-up status of the subject was recorded.
     Term:
       - Origin: caDSR
         Code: '14480965'
@@ -913,7 +979,7 @@ PropDefinitions:
     Private: false
   #follow_up
   follow_up_category:
-    Desc: "NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends."
+    Desc: A text term based on grouping information about the health status of an individual after a study has officially closed
     Term:
       - Origin: caDSR
         Code: '14480973'
@@ -1921,19 +1987,22 @@ PropDefinitions:
     Private: false
   #molecular_test
   molecular_test_id:
-    Desc: An internal or external identifier such as specimen identifier.
+    Desc: A unique sequence of characters used to identify, name, or characterize a laboratory procedure that involves the study of tissues, cells, and fluids at the molecular level.
     Term:
       - Origin: caDSR
-        Code: '2555531'
-        Value: molecular_test_id
+        Code: '14589997'
+        Value: Molecular Test Unique Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   #molecular_test
   age_at_molecular_test:
-    Desc:  The age of an individual when the laboratory test was conducted.
+    Desc: The age (in days) of the subject when the molecular test was performed.
     Term:
+      - Origin: caDSR
+        Code: '14590166'
+        Value: Subject Age at Molecular Test Day Count
       - Origin: NCIt
         Code: 'C192254'
         Value: Age at Laboratory Test
@@ -1956,7 +2025,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142401'
-        Value: molecular_analysis_method
+        Value: Molecular Analysis Test Method Name
     Type:
       value_type: string
       Enum:
@@ -1986,55 +2055,98 @@ PropDefinitions:
     Private: false
   #molecular_test
   laboratory_test_name:
-    Desc: The name of the lab test or examination used to obtain the measurement or finding. Any test normally performed by a clinical laboratory is considered a lab test.
+    Desc: The words by which the laboratory assessment is known.
     Term:
       - Origin: caDSR
-        Code: '7275579'
-        Value: Laboratory Test Name
+        Code: '13569486'
+        Value: Laboratory Procedure Test Name
     Type:
       value_type: string
       Enum:
-        - "Absolute Neutrophil"
+        - "5 Prime Nucleotidase"
+        - "Absolute Neutrophil Count"
+        - "AFP"
         - "Albumin"
-        - "Alpha Fetoprotein"
-        - "Neutrophil Bands"
+        - "Alkaline Phophatase"
+        - "ALT"
+        - "AST"
+        - "Auer Rods"
         - "Basophil"
         - "Beta 2 Microglobulin"
-        - "Myeloblasts"
-        - "Lymphoblasts"
-        - "Blood Urea Nitrogen"
+        - "beta-hCG"
+        - "Blasts"
+        - "BUN"
         - "Calcium"
+        - "CD34"
         - "Cellularity"
+        - "cfDNA"
+        - "Chloride"
+        - "CO2"
         - "Creatinine"
-        - "C-Reactive Protein"
-        - "Eosinophil"
+        - "Creatinine Clearance"
+        - "CRP"
+        - "Direct Bilirubin"
+        - "EBV DNA"
+        - "EBV IgG"
+        - "Eosophinils"
+        - "ESR"
+        - "Ferritin"
+        - "Free T3"
+        - "Free T4"
+        - "GGT"
         - "Glucose"
-        - "Hematocrit"
+        - "HCT"
         - "Hemoglobin"
         - "Human Chorionic Gonadotropin"
         - "Immunoglobulin A"
         - "Immunoglobulin G"
         - "Immunoglobulin M"
-        - "Lactate Dehydrogenase"
+        - "INR"
+        - "LDH"
         - "Leukocytes"
+        - "Lipase"
         - "Luteinizing Hormone"
+        - "Lymphoblasts"
         - "Lymphocytes"
         - "M Protein"
+        - "Mch"
+        - "Mchc"
+        - "Mcv"
         - "Metamyelocytes"
+        - "miR-367-3p"
+        - "miR-371a-3p"
+        - "miR-372-3p"
+        - "miR-373-3p"
+        - "miR-375-3p"
+        - "Monocytes"
+        - "Myeloblasts"
         - "Myelocytes"
+        - "Neutrophil Bands"
+        - "Neutrophils"
         - "Platelets"
+        - "Potassium"
         - "Prolymphocytes"
         - "Promonocytes"
         - "Promyelocytes"
+        - "Protein"
+        - "PT"
+        - "PTT"
+        - "RBC"
+        - "Rdw"
         - "Segmented Neutrophil"
         - "Serum Free Immunoglobulin Light Chain, Kappa"
         - "Serum Free Immunoglobulin Light Chain, Lambda"
         - "Serum Free Immunoglobulin Light Chain, NOS"
+        - "Sodium"
+        - "T4"
         - "Testosterone"
         - "Total Bilirubin"
         - "Total Protein"
-        - "Unknown"
+        - "TSH"
+        - "Uric Acid"
         - "Not Reported"
+        - "Other"
+        - "Unknown"
     Req: false
     Strict: false
     Private: false
@@ -2079,11 +2191,11 @@ PropDefinitions:
     Req: false
     Private: false  #molecular_test
   aa_change:
-    Desc: Alphanumeric value used to describe the amino acid change for a specific genetic variant. Example R116Q.
+    Desc: Alphanumeric value used to describe the amino acid change for a specific genetic variant.
     Term:
       - Origin: caDSR
         Code: '6142508'
-        Value: aa_change
+        Value: Molecular Analysis Amino Acid Change Text
     Type: string
     Req: false
     Private: false
@@ -2129,7 +2241,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142535'
-        Value: blood_test_normal_range_upper
+        Value: Laboratory Procedure Upper Limit of Normal Value
     Type: integer
     Req: false
     Private: false
@@ -2139,7 +2251,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142571'
-        Value: blood_test_normal_range_lower
+        Value: Laboratory Procedure Lower Limit of Normal Value
     Type: integer
     Req: false
     Private: false
@@ -2149,7 +2261,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142528'
-        Value: cell_count
+        Value: Molecular Analysis Cell Count
     Type: integer
     Req: false
     Private: false
@@ -2210,17 +2322,17 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142405'
-        Value: cytoband
+        Value: Molecular Analysis Cytoband Text
     Type: string
     Req: false
     Private: false
   #molecular_test
   exon:
-    Desc: Exon number targeted or included in a molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located.
+    Desc: The text term used to describe a specific exon targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located.
     Term:
       - Origin: caDSR
         Code: '6142411'
-        Value: exon
+        Value: Molecular Analysis Exon Identification Number
     Type: string
     Req: false
     Private: false
@@ -2230,7 +2342,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142511'
-        Value: histone_family
+        Value: Molecular Analysis Histone Gene Family Category
     Type:
       value_type: string
       Enum:
@@ -2246,31 +2358,12 @@ PropDefinitions:
     Private: false
   #molecular_test
   histone_variant:
-    Desc: The text term used to describe a specific histone variants, which are proteins that substitute for the core canonical histones.
+    Desc: The text term used to describe a specific histone variant, which are proteins that substitute for the core canonical histones.
     Term:
       - Origin: caDSR
-        Code: '6142515'
-        Value: histone_variant
-    Type:
-      value_type: string
-      Enum:
-        - "CENP-A"
-        - "H2A-Bbd"
-        - "H2A.X"
-        - "H2A.Z"
-        - "H2A.Z.1"
-        - "H2A.Z.2"
-        - "H2A.Z.2.2"
-        - "H3.1"
-        - "H3.2"
-        - "H3.3"
-        - "H3.5"
-        - "H3.X"
-        - "H3.Y"
-        - "H3t (H3.4)"
-        - "mH2A"
-        - "mH2A.1"
-        - "mH2A.2"
+        Code: '14529709'
+        Value: Molecular Analysis Histone Gene Family Variant Type
+    Type: string
     Req: false
     Strict: true
     Private: false
@@ -2280,7 +2373,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6514355'
-        Value: intron
+        Value: Molecular Analysis Intron Identifier
     Type: string
     Req: false
     Private: false
@@ -2316,11 +2409,11 @@ PropDefinitions:
     Private: false
   #molecular_test
   mismatch_repair_mutation:
-    Desc: The yes/no/unknown indicator used to describe whether the mutation included in molecular testing was known to have an affect on the mismatch repair process.
+    Desc: A yes/no/unknown indicator used to describe whether a gene has undergone mismatch repair.
     Term:
       - Origin: caDSR
         Code: '6142534'
-        Value: mismatch_repair_mutation
+        Value: Gene Mutation Mismatch Repair Indicator
     Type: string
     Req: false
     Private: false
@@ -2349,11 +2442,11 @@ PropDefinitions:
     Private: false
   #molecular_test
   pathogenicity:
-    Desc: The text used to describe a variant's level of involvement in the cause of the patient's disease according to the standards outlined by the American College of Medical Genetics and Genomics (ACMG).
+    Desc: The likelihood of an entity to produce pathologic changes or disease.
     Term:
       - Origin: caDSR
-        Code: 'NA'
-        Value: pathogenicity
+        Code: '14532361'
+        Value: Molecular Analysis Pathogenicity Type
     Type: string
     Req: false
     Private: false
@@ -2369,7 +2462,7 @@ PropDefinitions:
     Private: false
   #follow_up
   disease_response:
-    Desc: "Code assigned to describe the patient's response or outcome to the disease."
+    Desc: Code assigned to describe the patient's response or outcome to the disease.
     Term:
       - Origin: caDSR
         Code: '5750671'
@@ -2415,11 +2508,11 @@ PropDefinitions:
     Private: false
   #molecular_test
   second_exon:
-    Desc: The second exon number involved in molecular variation. If a specific genetic variant is being reported, this property can be used to capture the second exon where that variant is located. This property is typically used for a translocation where two different locations are involved in the variation.
+    Desc: A numeral or string of numerals that is used to identify the position of a second exon that is either involved in a molecular variation or of interest in an experiment or study.
     Term:
       - Origin: caDSR
-        Code: 'NA'
-        Value: second_exon
+        Code: '14578182'
+        Value: Molecular Analysis Second Exon of Interest Identification Number
     Type: string
     Req: false
     Private: false
@@ -2435,11 +2528,11 @@ PropDefinitions:
     Private: false
   #molecular_test
   specialized_molecular_test:
-    Desc: Text term used to describe a specific test that is not covered in the list of molecular analysis methods.
+    Desc: A textual description of a laboratory procedure that involves the study of tissues, cells, and fluids using DNA/RNA analysis techniques for the identification of characteristics and abnormalities at the molecular level.
     Term:
       - Origin: caDSR
-        Code: '6142526'
-        Value: specialized_molecular_test
+        Code: '14595986'
+        Value: Molecular Test Specialized Text
     Type: string
     Req: false
     Private: false
@@ -2449,7 +2542,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142394'
-        Value: test_analyte_type
+        Value: Molecular Analysis Analyte Type
     Type:
       value_type: string
       Enum:
@@ -2485,7 +2578,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142402'
-        Value: variant_type
+        Value: Molecular Analysis Gene Variant Type
     Type:
       value_type: list
       Enum:
@@ -2522,7 +2615,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142510'
-        Value: zygosity
+        Value: Molecular Analysis Genetic Zygosity Type
     Type:
       value_type: string
       Enum:
@@ -2668,19 +2761,22 @@ PropDefinitions:
     Private: false  
   #single_cell_sequencing_file
   single_cell_sequencing_file_id: 
-    Desc: A unique identifier for a single cell sequencing file.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528010'
+        Value: Electronic Data File Unique Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   #single_cell_sequencing_file
   cDNA_Offset:
-    Desc: cDNA Offset
+    Desc: A description of the cDNA offset.
     Term:
+      - Origin: caDSR
+        Code: '14599885'
+        Value: Sequencing Library cDNA Offset Text
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: cDNA Offset
@@ -2689,8 +2785,11 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file  
   cDNA_Length:
-    Desc: cDNA Length
+    Desc: The length of the cDNA.
     Term:
+      - Origin: caDSR
+        Code: '14600068'
+        Value: Sequencing Library cDNA Length Text
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: cDNA Length
@@ -2699,8 +2798,11 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file  
   Cell_Barcode:
-    Desc: Unique cell identifier. Determines which cell the read originated from
+    Desc: A unique sequence of characters used to identify the machine-readable representation of the cell from which the read originated.
     Term:
+      - Origin: caDSR
+        Code: '14604339'
+        Value: Sequencing Library Cell Barcode Unique Identifier
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Cell Barcode
@@ -2709,8 +2811,11 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file
   Cryopreserved_Cells_in_Sample:
-    Desc: Indicate if library preparation was based on revived frozen cells.
+    Desc: A response to indicate whether the cells in the library preparation are revived frozen cells.
     Term:
+      - Origin: caDSR
+        Code: '14604345'
+        Value: Sequencing Library Cryopreserved Cell Specimen Indicator
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Cryopreserved Cells in Sample
@@ -2719,8 +2824,11 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file
   Dissociation_Method:
-    Desc: The tissue dissociation method used for scRNASeq assays
+    Desc: The text term to describe the method used to create single cells from tissue samples.
     Term:
+      - Origin: caDSR
+        Code: '14606481'
+        Value: Sequencing Library Tissue Dissociation Method Text
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Dissociation Method
@@ -2729,8 +2837,11 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file
   End_Bias:
-    Desc: The end of the cDNA molecule that is preferentially sequenced, e.g. 3/5 prime tag/end or the full length transcript
+    Desc: The type of overabundance of transcripts seen in a sequencing library.
     Term:
+      - Origin: caDSR
+        Code: '14606486'
+        Value: Sequencing Library End Bias Type
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: End Bias
@@ -2739,8 +2850,11 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file
   Input_Cells_and_Nuclei:
-    Desc: Number of cells and number of nuclei input
+    Desc: A collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing
     Term:
+      - Origin: caDSR
+        Code: '14606491'
+        Value: Sequencing Library Cell Count Nuclei Number Text
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Input Cells and Nuclei
@@ -2749,8 +2863,11 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file
   Library_Construction_Method:
-    Desc: Process which results in the creation of a library from fragments of DNA using cloning vectors or oligonucleotides with the role of adaptors [OBI_0000711]
+    Desc: A textual description of the procedures performed for building a collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
     Term:
+      - Origin: caDSR
+        Code: '14606495'
+        Value: Sequencing Library Construction Method Text
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Library Construction Method
@@ -2758,11 +2875,14 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Library_Preparation_Date:
-    Desc: The date that the libraries were prepared for sequencing
+  Specimen_Collection_To_Sequencing_Library_Preparation_Day_Count:
+    Desc: The number of days from the date a specimen was collected to the date of the sequencing library preparation.
     Term:
+      - Origin: caDSR
+        Code: '14612530'
+        Value: Specimen Collection To Sequencing Library Preparation Day Count
       - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
         Value: Library Preparation Date
     Type: string
     Req: false
@@ -2779,30 +2899,39 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file
   Paired_End:
-    Desc: A library layout type
+    Desc: Sequencing Library Paired End Text
     Term:
+      - Origin: caDSR
+        Code: '14604166'
+        Value: Sequencing Library Paired End Text
       - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
         Value: Paired End
     Type: string
     Req: false
     Private: false
   #single_cell_sequencing_file
   Protocols_Link:
-    Desc: Protocols.io ID  or DOI link to a free/open protocol resource describing in detail the assay protocol (e.g. surface markers used in Smart-seq, dissociation duration,  lot/batch numbers for key reagents such as primers, sequencing reagent kits, etc.).
+    Desc: A sequence of letters, numbers, or other characters that uniquely identifies a study protocol or a unique code used by publishers in the identification and exchange of the content of a digital object.
     Term:
+      - Origin: caDSR
+        Code: '7787673'
+        Value: Raw Data Protocol Or Digital Object Identifier Text
       - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
         Value: Protocols  Link
     Type: string
     Req: false
     Private: false
   #single_cell_sequencing_file
   Read1:
-    Desc: Read 1 content description
+    Desc: Sequencing Library Read 1 Text
     Term:
+      - Origin: caDSR
+        Code: '14604321'
+        Value: Sequencing Library Read 1 Text
       - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
         Value: Read1
     Type: string
     Req: false
@@ -2811,8 +2940,11 @@ PropDefinitions:
   Read2:
     Desc: Read 2 content description
     Term:
+      - Origin: caDSR
+        Ciode: '14604381'
+        Value: Sequencing Library Read 2 Text
       - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
         Value: Read2
     Type: string
     Req: false
@@ -2821,16 +2953,22 @@ PropDefinitions:
   Reverse_Transcription_Primer_Oligo_dT_Poly_dT:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
+      - Origin: caDSR
+        Code: '14604593'
+        Value: Sequencing Library Reverse Transcription Primer Type
       - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
         Value: Reverse Transcription Primer Oligo-dT, Poly-dT
     Type: string
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Reverse_Transcription_Primer_Feature_barcoding:
-    Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
+  feature_barcoding:
+    Desc: A textual description of a proprietary technology platform that uses a known set of oligonucleotide barcodes in combination with methods for assessing single cell gene expression.
     Term:
+      - Origin: caDSR
+        Code: '14608643'
+        Value: Sequencing Library Feature Barcoding Text
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Reverse Transcription Primer Feature barcoding
@@ -2841,6 +2979,9 @@ PropDefinitions:
   Reverse_Transcription_Primer_Random:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
+      - Origin: caDSR
+        Code: '14604593'
+        Value: Sequencing Library Reverse Transcription Primer Type
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Reverse Transcription Primer Random
@@ -2851,6 +2992,9 @@ PropDefinitions:
   Sequencing_Library_Construction_Date:
     Desc: Date of sequencing library construction part of library construction
     Term:
+      - Origin: caDSR
+        Code: '14612650'
+        Value: Specimen Collection To cDNA Library Construction Day Count
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Sequencing Library Construction Date
@@ -2861,6 +3005,9 @@ PropDefinitions:
   Single_Cell_Dissociation_Date:
     Desc: The date when the sample was dissociated and cells were isolated
     Term:
+      - Origin: caDSR
+        Code: '14640697'
+        Value: Sequencing Library Tissue Dissociation Day Count
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Single Cell Dissociation Date
@@ -2871,6 +3018,9 @@ PropDefinitions:
   Single_Cell_Isolation_Method:
     Desc: The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)
     Term:
+      - Origin: caDSR
+        Code:  '14606450'
+        Value: Sequencing Library Single Cell Isolation Method Type
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Single Cell Isolation Method
@@ -2881,6 +3031,9 @@ PropDefinitions:
   Spike_In:
     Desc: A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
     Term:
+      - Origin: caDSR
+        Code: '14606468'
+        Value: Sequencing Library RNA Spike-In Type
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Spike In
@@ -2889,8 +3042,11 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file
   Total_Number_of_Input_Cells:
-    Desc: Number of cells loaded/placed on plates
+    Desc: Numeric value used to describe the number of cells used for molecular testing.
     Term:
+      - Origin: caDSR
+        Code: '6142528'
+        Value: Molecular Analysis Cell Count
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Total Number of Input Cells
@@ -2901,6 +3057,9 @@ PropDefinitions:
   UMI:
     Desc: Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
     Term:
+      - Origin: caDSR
+        Code: '14607300'
+        Value: Sequencing Library UMI Identifier
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: UMI
@@ -2909,26 +3068,26 @@ PropDefinitions:
     Private: false
   #family_relationship
   family_relationship_id:
-    Desc: A unique identifier for a family relationship record or entry.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize the state of connectedness between entities or objects referencing the state of connectedness between people linked through descent.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14540943'
+        Value: Family Relationship Unique Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   related_to_participant_id:
-    Desc: Participant related to another participant
+    Desc: A sequence of characters used to uniquely identify, name, or characterize the state of connectedness between members of the unit of society organized around kinship ties.
     Term:
       - Origin: caDSR
-        Code: '6867052'
-        Value: Biospecimen Source Subject Identifier
+        Code: '14539685'
+        Value: Family Member Relationship Unique Identifier
     Type: string
     Req: true
     Private: false
   relationship:
-    Desc: How is a participant related to another participant
+    Desc: The subgroup that describes the state of connectedness between members of the unit of society organized around kinship ties.
     Term: 
       - Origin: caDSR
         Code: '2690165'
@@ -2936,41 +3095,153 @@ PropDefinitions:
     Type:
       value_type: string
       Enum:
-        - "Mother"
+        - "Adopted Daughter"
+        - "Adopted Son"
+        - "Adoptive Brother"
+        - "Adoptive Father"
+        - "Adoptive Mother"
+        - "Adoptive Sister"
+        - "Aunt"
+        - "Brother-in-law"
+        - "Brother"
+        - "Child"
+        - "Cousin"
+        - "Daughter-in-law"
+        - "Daughter"
+        - "Domestic Partner"
+        - "Don't Know"
+        - "Father-in-law"
         - "Father"
-        - "Sibling"
+        - "Female Cousin"
+        - "First Cousin Once Removed"
+        - "First Cousin"
+        - "Foster Brother"
+        - "Foster Daughter"
+        - "Foster Father"
+        - "Foster Mother"
+        - "Foster Sister"
+        - "Foster Son"
+        - "Fraternal Twin Brother"
+        - "Fraternal Twin Sibling"
+        - "Fraternal Twin Sister"
+        - "Full Brother"
+        - "Full Sister"
+        - "Grand Nephew"
+        - "Grand Niece"
+        - "Grandchild"
+        - "Granddaughter"
+        - "Grandfather"
+        - "Grandmother"
+        - "Grandparent"
+        - "Grandson"
+        - "Great Grandchild"
+        - "Half Brother"
+        - "Half Sibling"
+        - "Half Sister"
+        - "Husband"
+        - "Identical Twin Brother"
+        - "Identical Twin Sibling"
+        - "Identical Twin Sister"
+        - "Legal Guardian"
+        - "Male Cousin"
+        - "Maternal Aunt"
+        - "Maternal First Cousin Once Removed"
+        - "Maternal First Cousin"
+        - "Maternal Grandfather"
+        - "Maternal Grandmother"
+        - "Maternal Grandparent"
+        - "Maternal Great Aunt"
+        - "Maternal Great Grandparent"
+        - "Maternal Great Uncle"
+        - "Maternal Half Brother"
+        - "Maternal Half Sibling"
+        - "Maternal Half Sister"
+        - "Maternal Uncle"
+        - "Mother-in-law"
+        - "Mother"
+        - "Natural Brother"
+        - "Natural Child"
+        - "Natural Daughter"
+        - "Natural Father"
+        - "Natural Grandchild"
+        - "Natural Grandfather"
+        - "Natural Grandmother"
+        - "Natural Grandparent"
+        - "Natural Mother"
+        - "Natural Parent"
+        - "Natural Sibling"
+        - "Natural Sister"
+        - "Natural Son"
+        - "Nephew"
+        - "Niece Second Degree Relative"
+        - "Niece"
+        - "None"
         - "Other"
-        - "None at all"
+        - "Parent"
+        - "Paternal Aunt"
+        - "Paternal First Cousin Once Removed"
+        - "Paternal First Cousin"
+        - "Paternal Grandfather"
+        - "Paternal Grandmother"
+        - "Paternal Grandparent"
+        - "Paternal Great Aunt"
+        - "Paternal Great Grandparent"
+        - "Paternal Great Uncle"
+        - "Paternal Half Brother"
+        - "Paternal Half Sibling"
+        - "Paternal Half Sister"
+        - "Paternal Uncle"
+        - "Refused"
+        - "Sibling"
+        - "Sister-in-law"
+        - "Sister"
+        - "Son-in-law"
+        - "Son"
+        - "Spouse"
+        - "Step Child"
+        - "Step Sibling"
+        - "Stepbrother"
+        - "Stepdaughter"
+        - "Stepfather"
+        - "Stepmother"
+        - "Stepsister"
+        - "Stepson"
+        - "Twin Sibling"
+        - "Uncle"
+        - "Ward"
+        - "Wife"
+        - "Not Reported"
+        - "Unknown"
     Req: true
     Strict: false
     Private: false
   family_id:
-    Desc: Identifer of a family of a group of participants.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize the domestic group of someone who takes part in an activity.
     Term: 
       - Origin: caDSR
-        Code: '6867052'
-        Value: Biospecimen Source Subject Identifier
+        Code: '14540945'
+        Value: Participant Family Unique Identifier
     Type: string
     Req: true
     Private: false
   #pdx
   pdx_id: 
-    Desc: A unique identifier for a pdx.
+    Desc: A unique sequence of characters used to identify, name, or characterize a mouse model for human cancer studies.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14596170'
+        Value: PDX Unique Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   #pdx
   model_id:
-    Desc: The PDX model identifier.
+    Desc: A unique sequence of characters used to identify, name, or characterize a mouse model for human cancer studies.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14596191'
+        Value: PDX Model Unique Identifier
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
@@ -2979,8 +3250,11 @@ PropDefinitions:
     Private: false
   #pdx  
   implantation_type:
-    Desc: How the xenograft was introduced into host.
+    Desc: The type of surgical procedure that places a human-derived tumor sample into an immunodeficient mouse.
     Term:
+      - Origin: caDSR
+        Code: '14596198'
+        Value: PDX Implantation Type
       - Origin: 'EMBL OLS OBI'
         Code: 'OBI_0000426'
         Value: Process which aims at introducing a compound or a mixture into a material entity (either biological entity or instrument) by relying on devices such as syringe or injector connection, attached or forced into a vascular system (veins of an organism or tubes of a machine) or in a tissue
@@ -2996,7 +3270,7 @@ PropDefinitions:
     Private: false
   #pdx  
   implantation_site:
-    Desc: Anatomic site of xenograft.
+    Desc: The location within the body from which a specimen was originally obtained as captured in the Uberon name.
     Term:
       - Origin: caDSR
         Code: '12299653'
@@ -3019,8 +3293,11 @@ PropDefinitions:
     Private: false
   #pdx  
   mouse_strain:  
-    Desc: The host mouse strain to which the tumor is engrafted. May become an enum if terms are provided.
+    Desc: The words by which breeds of mice utilized for biological research are known.
     Term:
+      - Origin: caDSR
+        Code: '14596205'
+        Value: PDX Host Mouse Strain Name
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
@@ -3029,8 +3306,11 @@ PropDefinitions:
     Private: false
   #pdx  
   strain_immune_system_humanized: 
-    Desc: "Was the mouse host humanized?"
+    Desc: A response to indicate whether a mouse model was humanized.
     Term:
+      - Origin: caDSR
+        Code: '14596210'
+        Value: PDX Host Mouse Strain Humanization Indicator
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
@@ -3045,8 +3325,11 @@ PropDefinitions:
     Private: false
   #pdx  
   type_of_humanization:
-    Desc: "How the mouse host was humanized."
+    Desc: The type of process used to make reagents, such as animal antibodies, derived from non-human sources more like the human version.
     Term:
+      - Origin: caDSR
+        Code: '14596213'
+        Value: PDX Host Mouse Strain Humanization Method Type
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
@@ -3055,8 +3338,11 @@ PropDefinitions:
     Private: false
   #pdx
   tumor_preparation:
-    Desc: How the tumor was prepared for grafting.
+    Desc: A mouse model for human cancer studies in which a human-derived tumor sample is transplanted into an immunodeficient mouse.:A benign or malignant tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting significant cytologic atypia, while malignant cells exhibit overt signs such as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative examples of benign neoplasms include papillomas, cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias
     Term:
+      - Origin: caDSR
+        Code: '14616474'
+        Value: PDX Tumor Preparation Text
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
@@ -3065,8 +3351,11 @@ PropDefinitions:
     Private: false
   #pdx
   tumor_characterization_method:
-    Desc: How the tumor was evaluated in the mouse host. May become an enum if terms are provided.
+    Desc: The type of characterization used to evaluate the human-derived tumor sample in the mouse model.
     Term:
+      - Origin: caDSR
+        Code: '14596227'
+        Value: PDX Tumor Characterization Method Type
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
@@ -3075,8 +3364,11 @@ PropDefinitions:
     Private: false 
   #pdx
   tumor_not_mus_or_ebv_origin: 
-    Desc: Was tumor evaluated for having a mouse or EBV orgin?
+    Desc: "Tumor confirmed not to be of mouse/EBV origin"
     Term:
+      - Origin: caDSR
+        Code: '14616759'
+        Value: PDX Tumor Origin Evaluated Type
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
@@ -3085,74 +3377,74 @@ PropDefinitions:
     Private: false  
   #publication
   publication_id: 
-    Desc: PubMed identifier of the publication associated with the study.
+    Desc: A Digital Object Identifier (DOI) of the publication associated with the study.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Study Publication Identification PubMed Identifier
+        Code: '3443454'
+        Value: Study Publication Identification Digital Object Identifier Text
     Type: string
     Req: true
     Private: false
     Key: true
   #publication
   pubmed_id:
-    Desc: The accession number used in PubMed.
+    Desc: PubMed identifier of the publication associated with the study.
     Term:
       - Origin: caDSR
         Code: '3443453'
-        Value: Additional Finding Identifier
+        Value: Study Publication Identification PubMed Identifier
     Type: string
     Req: true
     Private: false
   #synonym
   synonym_id:
-    Desc: The synonym of the ID that is found in a different repository.
+    Desc: A sequence of characters used to identify, name, or characterize a backup sequence of characters used to identify an entity.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14612666'
+        Value: Research Activity Alternate Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   #synonym
   repository_of_synonym_id:
-    Desc: The repository of the synonym.
+    Desc: A textual description of a storage location for digital data.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14612686'
+        Value: Research Activity Alternate Identifier Repository Text
     Type: string
     Req: true
     Private: false
   # clinical_measure_file
   participant_list:
-    Desc: The list of participant ids that are found in this clinical file. This is often used for files that have a large number of participants referenced within the file.
+    Desc: A series of characters, one after the other, used to uniquely identify the subjects who have taken part in the investigation or research study.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14608610'
+        Value: Study Subject Identifier List Text
     Type: string
     Reg: false
     Private: false
   # clinical_measure_file
   clinical_measure_file_id: 
-    Desc: A unique identifier for a clinical measure file.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528010'
+        Value: Electronic Data File Unique Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   # diagnosis
   diagnosis_id:
-    Desc: A unique sequence of alphanumeric characters used to identify the participant diagnosis in the investigation or study, which is used for linking metadata.
+    Desc:  sequence of characters used to uniquely identify, name, or characterize the presence and nature of a disease or condition.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14540952'
+        Value: Diagnosis Disease or Disorder Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -3361,7 +3653,6 @@ PropDefinitions:
         - "Biochemical evidence of disease without structural correlate"
         - "Distant Metastasis"
         - "Localized Disease"
-        - "Never Tumor Free"
         - "New Tumor Event"
         - "Not Allowed To Collect"
         - "Not Applicable"
@@ -3375,11 +3666,11 @@ PropDefinitions:
     Private: false     
   #diagnosis, sample
   age_at_last_known_disease_status:
-    Desc: Age at the time of last known disease status expressed in number of days since birth.
+    Desc: Subject Age at Last Known Disease Status Day Count
     Term:
       - Origin: caDSR
-        Code: '10169253'
-        Value: Person Number of Days Between Index Date and Last Known Disease Status Day Count
+        Code: '14589579'
+        Value: The age (in days) of subject at the time of their last known disease status.
     Type: integer
     Req: false
     Private: false  
@@ -3521,11 +3812,11 @@ PropDefinitions:
     Private: false
   #file
   dcf_indexd_guid:
-    Desc: An assigned globally unique identifier (GUID) that is assigned for the indexing process, making files available. This is usually not supplied by the submitter, but created in the ingestion process.
+    Desc: A unique sequence of characters used to identify, name, or characterize the indexing process that is different from all other UUIDs/GUIDs generated, making it possible to interoperate with data commons and share data within a data ecosystem.    
     Term:
       - Origin: caDSR
-        Code: '6584918'
-        Value: unique universal identifier
+        Code: '14576969'
+        Value: GUID DCFS Indexd Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -3547,22 +3838,22 @@ PropDefinitions:
     Private: false    
   # pathology_file
   pathology_file_id: 
-    Desc: A unique identifier for a pathology file.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528010'
+        Value: Electronic Data File Unique Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   # radiology_file
   radiology_file_id: 
-    Desc: A unique identifier for a pathology file.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528010'
+        Value: Electronic Data File Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -3591,18 +3882,18 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '12220014'
-        Value: Subject Data Origin Identifier
+        Value: Subject Alternate Data Origin Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   #participant
   alternate_participant_id:
-    Desc: A synonymous or alternate ID for a participant that is stored in another study or repository.
+    Desc: An alternate sequence of letters, numbers, or characters that uniquely identifies the subject who has taken part in the investigation or research study.
     Term:
       - Origin: caDSR
-        Code: '6867052'
-        Value: Biospecimen Source Subject Identifier
+        Code: '14528097'
+        Value: Subject Alternate Data Origin Identifier
     Type: string
     Req: false
     Private: false
@@ -3670,20 +3961,24 @@ PropDefinitions:
     Private: false
   #study
   consent:
-    Desc: The human readable value of the consent group as designated by dbGaP, examples GRU, HMB, IRB, NPU, etc.
+    Desc: Words which describe a set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository.
     Term:
       - Origin: caDSR
-        Code: '7218861'
-        Value: Consent Form Comment Text
+        Code: '14534329'
+        Value: Research Activity dbGaP Consent Group Text
     Type: string
     Req: true
     Private: false 
   #study
   consent_number:
-    Desc: The numeric value of the consent group as designated by dbGaP full accession identifier, phs######.v#.p#.c#.
+    Desc: A numeral or string of numerals used to identify the set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository.
+    Term:
+      - Origin: caDSR
+        Code: '14534330'
+        Value: Research Activity dbGaP Consent Group Number
     Type: integer
     Req: true
-    Private: false     
+    Private: false  
   # sample
   sample_id:
     Desc: A unique sequence of alphanumeric characters used to identify the specimen at it's point of origin.
@@ -3697,11 +3992,11 @@ PropDefinitions:
     Key: true
   # sample
   alternate_sample_id:
-    Desc: A synonymous or alternate ID for a sample that is stored in another study or repository.
+    Desc: A backup sequence of characters used to identify, name, or characterize a material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes.
     Term:
       - Origin: caDSR
-        Code: '2003904'
-        Value: Sample ID
+        Code: '14596000'
+        Value: Specimen Alternate Unique Identifier
     Type: string
     Req: false
     Private: false 
@@ -4296,11 +4591,11 @@ PropDefinitions:
     Private: false
   # sequencing_file props
   sequencing_file_id: 
-    Desc: A unique identifier for a sequencing file.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528010'
+        Value: Electronic Data File Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -4465,7 +4760,7 @@ PropDefinitions:
     Private: false
   #sequencing_file
   library_layout: 
-    Desc: Paired-end or Single
+    Desc: The read strategy or method that was used for sequencing and analysis of a nucleotide library.
     Term:
       - Origin: caDSR
         Code: '11527735'
@@ -4551,17 +4846,24 @@ PropDefinitions:
     Private: false
   #seqeuncing_file
   reference_genome_assembly:
-    Desc: A published genetic sequence that is used as a reference sequence against which other sequences are compared. This is only if you are submitting a bam file aligned against a NCBI assembly.
+    Desc: One or more characters used to identify the published NCBI genetic sequence that is used as a reference against which other sequences are compared.
     Term:
+      - Origin: caDSR
+        Code: '11529031'
+        Value: Genome Assembly NCBI Genetic Reference Sequence Identifier
       - Origin: NCIt
         Code: 'C164388'
-        Value: Genetic Reference Sequence 
+        Value: Genetic Reference Sequence
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
+    Req: false
     Private: false
   #sequencing_file
   custom_assembly_fasta_file_for_alignment:
-    Desc: The name of the custom assembly fasta file used during alignment.
+    Desc: The name of the custom assembly fasta file used during sequence alignment.
+    Term:
+      - Origin: caDSR
+        Code: '11636299'
+        Value: Genome Assembly Custom FASTA File Name
     Type: string
     Req: false
     Private: false    
@@ -4569,6 +4871,9 @@ PropDefinitions:
   sequence_alignment_software:
     Desc: The name of the software program used to align nucleotide sequencing data. 
     Term:
+      - Origin: caDSR
+        Code: '11529072'
+        Value: Nucleotide Sequence Alignment Software Name Text
       - Origin: NCIt
         Code: 'C175896'
         Value: Sequence Alignment Software Name 
@@ -4653,7 +4958,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '11524544'
-        Value: dbGaP Accession Number 
+        Value: Research Activity dbGaP Accession Number Identifier 
     Type: string
     Req: false
     Private: false
@@ -4669,7 +4974,11 @@ PropDefinitions:
     Private: false
   # study
   study_acronym:
-    Desc: A one word acronym to represent the study.
+    Desc: The acronym or abbreviated form of the title for a research data collection.
+    Term:
+      - Origin: caDSR
+        Code: '11459812'
+        Value: Study Short Name Text
     Type: string
     Req: true
     Private: false
@@ -4685,7 +4994,11 @@ PropDefinitions:
     Private: false
   # study
   external_url:
-    Desc: The url of the study (often a dbGaP study page).
+    Desc: The specification of a node (file or directory) in a hierarchical file system where an electronic file is located.
+    Term:
+      - Origin: caDSR
+        Code: '11556141'
+        Value: Electronic File Pathname Text
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -4767,11 +5080,11 @@ PropDefinitions:
     Private: false
   # study_admin
   study_admin_id:
-    Desc: A unique sequence of alphanumeric characters used to identify the admin in the investigation or study, which is used for linking metadata.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize the individual who is responsible for managing a detailed examination, analysis, or critical inspection of a subject designed to discover facts about it.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528073'
+        Value: Person Study Administrator Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -4847,11 +5160,11 @@ PropDefinitions:
 #    Private: false    
   # study_funding
   study_funding_id:
-    Desc: A unique identifier for a study funding.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize the study funding organization.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528051'
+        Value: Funding Agency Organization Name Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -4906,54 +5219,42 @@ PropDefinitions:
     Private: false
   #study_arm
   clinical_trial_identifier:
-    Desc: Organization or research site participating in a type of research study that tests how well new medical treatments or other interventions work in people.
+    Desc: Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
     Term:
       - Origin: caDSR
-        Code: '2413202'
+        Code: '2649415'
         Value: Clinical Trial Site Identifier 64 Character Text
     Type: string
     Req: true
     Private: false
   #study_arm
   clinical_trial_repository:
-    Desc: The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
+    Desc: Organization or research site participating in a type of research study that tests how well new medical treatments or other interventions work in people.
     Term:
       - Origin: caDSR
-        Code: '2649415'
+        Code: '2413202'
         Value: Clinical Trial Protocol Identifier 64 Character Text
     Type: string
     Req: false
     Private: false        
   # study_personnel
-  study_personnel_id:  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
-    Desc: A unique sequence of alphanumeric characters used to identify the personnel in the investigation or study, which is used for linking metadata.
+  study_personnel_id:
+    Desc: A sequence of characters used to uniquely identify, name, or characterize the person who performs a particular role within the context of a specific study.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528070'
+        Value: Person Study Personnel Unique Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   # study_personnel
   personnel_name:
-    Desc: The name of personnel who is an organizer in the study.
+    Desc: A formatted means of uniquely identifying an individual derived from multiple naming elements.
     Term:
       - Origin: caDSR
-        Code: '2663165'
-        Value: Person Name Prefix Abbreviation Text
-      - Origin: caDSR
-        Code: '2179589'
-        Value: "A word or group of words indicating a person's first (personal or given) name; the name that precedes the surname. Synonym = Given Name"
-      - Origin: caDSR
-        Code: '2179590'
-        Value: A means of identifying an individual by using a word or group of words indicating a person's middle name.
-      - Origin: caDSR
-        Code: '2179591'
-        Value: "A means of identifying an individual by using a word or group of words indicating a person's last (family) name. Synonym = Last Name, Surname."
-      - Origin: caDSR
-        Code: '2006475'
-        Value: Text term to represent an individual's position in a family lineage or pedigree.
+        Code: '2222323'
+        Value: Derived Person Full Formatted Name
     Type: string
     Req: true
     Private: false
@@ -5148,22 +5449,22 @@ PropDefinitions:
     Private: false  
   #therapeutic_procedure
   therapeutic_procedure_id: 
-    Desc: A unique identifier for a therapeutic procedure.
+    Desc: A unique sequence of characters used to identify, name, or characterize the kind of treatment administered.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14569111'
+        Value: Treatment Method Unique Identifier
     Type: string
     Req: true
     Private: false
     Key: true
   #methylation_array_file
   methylation_array_file_id: 
-    Desc: A unique identifier for a methylation array file.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
     Term:
       - Origin: caDSR
-        Code: '2534569'
-        Value: Additional Finding Identifier
+        Code: '14528010'
+        Value: Electronic Data File Unique Identifier
     Type: string
     Req: true
     Private: false
@@ -6513,12 +6814,12 @@ PropDefinitions:
     Strict: true
     Private: false  
   #therapeutic_procedure
-  therapeutic_agents:
-    Desc: Text identification of the individual agent(s) used as part of a prior treatment regimen.
+  therapeutic_agent:
+    Desc: The name of the individual therapeutic agent(s) used as part of a treatment regimen.
     Term:
       - Origin: caDSR
-        Code: '2975232'
-        Value: Prior Therapy Regimen Text
+        Code: '13579886'
+        Value: Therapeutic Procedure Agent Name
     Type:
       value_type: list
       Enum:

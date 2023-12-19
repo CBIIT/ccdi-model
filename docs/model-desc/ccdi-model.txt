@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit ea9ca30
+commit 418c3c9
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -68,6 +68,7 @@ molecular_test	copy_number	INTEGER
 molecular_test	cytoband	STRING
 molecular_test	exon	STRING
 molecular_test	gene_symbol	STRING
+molecular_test	histone_variant	STRING
 molecular_test	id	STRING
 molecular_test	intron	STRING
 molecular_test	loci_abnormal_count	INTEGER
@@ -177,13 +178,13 @@ single_cell_sequencing_file	Dissociation_Method	STRING
 single_cell_sequencing_file	End_Bias	STRING
 single_cell_sequencing_file	Input_Cells_and_Nuclei	STRING
 single_cell_sequencing_file	Library_Construction_Method	STRING
-single_cell_sequencing_file	Library_Preparation_Date	STRING
+single_cell_sequencing_file	Library_Preparation_Date	NA
 single_cell_sequencing_file	Nucleic_Acid_Capture_Date	STRING
 single_cell_sequencing_file	Paired_End	STRING
 single_cell_sequencing_file	Protocols_Link	STRING
 single_cell_sequencing_file	Read1	STRING
 single_cell_sequencing_file	Read2	STRING
-single_cell_sequencing_file	Reverse_Transcription_Primer_Feature_barcoding	STRING
+single_cell_sequencing_file	Reverse_Transcription_Primer_Feature_barcoding	NA
 single_cell_sequencing_file	Reverse_Transcription_Primer_Oligo_dT_Poly_dT	STRING
 single_cell_sequencing_file	Reverse_Transcription_Primer_Random	STRING
 single_cell_sequencing_file	Sequencing_Library_Construction_Date	STRING
@@ -226,7 +227,7 @@ study	study_id	STRING
 study	study_name	STRING
 study	study_short_title	STRING
 study_admin	data_types	STRING
-study_admin	file_types_and_format	STRING
+study_admin	file_types	NA
 study_admin	id	STRING
 study_admin	number_of_participants	INTEGER
 study_admin	number_of_samples	INTEGER
@@ -255,147 +256,146 @@ therapeutic_procedure	id	STRING
 therapeutic_procedure	therapeutic_procedure_id	STRING
 
 relationship	source_node	destination_node	property	value_or_TYPE
-of_cell_line	cell_line	sample	NA	NA
 of_cell_line	cell_line	participant	NA	NA
 of_cell_line	cell_line	study	NA	NA
+of_cell_line	cell_line	sample	NA	NA
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_clinical_measure_file_participant	clinical_measure_file	participant	NA	NA
 of_cytogenomic_file	cytogenomic_file	sample	NA	NA
-of_cytogenomic_file	cytogenomic_file	cell_line	NA	NA
 of_cytogenomic_file	cytogenomic_file	pdx	NA	NA
+of_cytogenomic_file	cytogenomic_file	cell_line	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
 of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
 of_follow_up	follow_up	participant	NA	NA
 of_medical_history	medical_history	participant	NA	NA
+of_methylation_array_file	methylation_array_file	pdx	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
 of_methylation_array_file	methylation_array_file	cell_line	NA	NA
-of_methylation_array_file	methylation_array_file	pdx	NA	NA
 of_molecular_test	molecular_test	participant	NA	NA
 of_participant	participant	study	NA	NA
+of_pathology_file	pathology_file	pdx	NA	NA
 of_pathology_file	pathology_file	sample	NA	NA
 of_pathology_file	pathology_file	cell_line	NA	NA
-of_pathology_file	pathology_file	pdx	NA	NA
-of_pdx	pdx	study	NA	NA
 of_pdx	pdx	sample	NA	NA
+of_pdx	pdx	study	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
+of_sample	sample	cell_line	NA	NA
 of_sample	sample	pdx	NA	NA
 of_sample	sample	participant	NA	NA
-of_sample	sample	cell_line	NA	NA
-of_sequencing_file	sequencing_file	pdx	NA	NA
 of_sequencing_file	sequencing_file	cell_line	NA	NA
+of_sequencing_file	sequencing_file	pdx	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
-of_single_cell_sequencing_file	single_cell_sequencing_file	pdx	NA	NA
-of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	cell_line	NA	NA
+of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
+of_single_cell_sequencing_file	single_cell_sequencing_file	pdx	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	sample	NA	NA
+of_synonym	synonym	study	NA	NA
 of_synonym	synonym	participant	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
-Cell_Barcode	Unique cell identifier. Determines which cell the read originated from
-Cryopreserved_Cells_in_Sample	Indicate if library preparation was based on revived frozen cells.
-Dissociation_Method	The tissue dissociation method used for scRNASeq assays
-End_Bias	The end of the cDNA molecule that is preferentially sequenced, e.g. 3/5 prime tag/end or the full length transcript
-Input_Cells_and_Nuclei	Number of cells and number of nuclei input
-Library_Construction_Method	Process which results in the creation of a library from fragments of DNA using cloning vectors or oligonucleotides with the role of adaptors [OBI_0000711]
-Library_Preparation_Date	The date that the libraries were prepared for sequencing
+Cell_Barcode	A unique sequence of characters used to identify the machine-readable representation of the cell from which the read originated.
+Cryopreserved_Cells_in_Sample	A response to indicate whether the cells in the library preparation are revived frozen cells.
+Dissociation_Method	The text term to describe the method used to create single cells from tissue samples.
+End_Bias	The type of overabundance of transcripts seen in a sequencing library.
+Input_Cells_and_Nuclei	A collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing
+Library_Construction_Method	A textual description of the procedures performed for building a collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
 Nucleic_Acid_Capture_Date	Date of nucleic acid capture part of library construction
-Paired_End	A library layout type
-Protocols_Link	Protocols.io ID  or DOI link to a free/open protocol resource describing in detail the assay protocol (e.g. surface markers used in Smart-seq, dissociation duration,  lot/batch numbers for key reagents such as primers, sequencing reagent kits, etc.).
-Read1	Read 1 content description
+Paired_End	Sequencing Library Paired End Text
+Protocols_Link	A sequence of letters, numbers, or other characters that uniquely identifies a study protocol or a unique code used by publishers in the identification and exchange of the content of a digital object.
+Read1	Sequencing Library Read 1 Text
 Read2	Read 2 content description
-Reverse_Transcription_Primer_Feature_barcoding	An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
 Reverse_Transcription_Primer_Oligo_dT_Poly_dT	An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
 Reverse_Transcription_Primer_Random	An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
 Sequencing_Library_Construction_Date	Date of sequencing library construction part of library construction
 Single_Cell_Dissociation_Date	The date when the sample was dissociated and cells were isolated
 Single_Cell_Isolation_Method	The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)
+Specimen_Collection_To_Sequencing_Library_Preparation_Day_Count	The number of days from the date a specimen was collected to the date of the sequencing library preparation.
 Spike_In	A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
-Total_Number_of_Input_Cells	Number of cells loaded/placed on plates
+Total_Number_of_Input_Cells	Numeric value used to describe the number of cells used for molecular testing.
 UMI	Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
-aa_change	Alphanumeric value used to describe the amino acid change for a specific genetic variant. Example R116Q.
+aa_change	Alphanumeric value used to describe the amino acid change for a specific genetic variant.
 acl	A free text field used to document whether the data in a repository is open access or controlled access.
-acquisitionContrastCode	acquisitionContrastCode
+acquisitionContrastCode	Text specifying the kind of contrast used during the imaging acquisition process.
 adult_or_childhood_study	The identifiable class of the study participant based upon their age.
 adverse_event	Common Terminology Criteria for Adverse Events Version 4.0 Low Level Term Name
 age_at_diagnosis	Age at the time of diagnosis expressed in number of days since birth.
-age_at_exposure	Age at time of event
-age_at_follow_up	A text term based on grouping information about the health status of an individual after a study has officially closed
-age_at_last_known_disease_status	Age at the time of last known disease status expressed in number of days since birth.
-age_at_molecular_test	The age of an individual when the laboratory test was conducted.
+age_at_exposure	The age (in days) of subject at a known exposure to a hazardous factor or substance.
+age_at_follow_up	The age (in days) when the follow-up status of the subject was recorded.
+age_at_last_known_disease_status	Subject Age at Last Known Disease Status Day Count
+age_at_molecular_test	The age (in days) of the subject when the molecular test was performed.
 age_at_recurrence	The age (in days) of the subject at the time of recurrence.
 age_at_treatment_end	Subject Age in Days at End of Treatment Course Day Count
 age_at_treatment_start	Subject Age in Days at Start of Treatment Course Day Count
 alcohol_days_per_week	Numeric value used to describe the average number of days each week that a person consumes an alcoholic beverage.
 alcohol_drinks_per_day	Numeric value used to describe the average number of alcoholic beverages a person consumes per day.
-alcohol_history	A response to a question that asks whether the participant has consumed at least 12 drinks of any kind of alcoholic beverage in their lifetime.
 alcohol_intensity	Category to describe the patient's current level of alcohol use as self-reported by the patient.
-alternate_participant_id	A synonymous or alternate ID for a participant that is stored in another study or repository.
-alternate_sample_id	A synonymous or alternate ID for a sample that is stored in another study or repository.
+alternate_participant_id	An alternate sequence of letters, numbers, or characters that uniquely identifies the subject who has taken part in the investigation or research study.
+alternate_sample_id	A backup sequence of characters used to identify, name, or characterize a material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes.
 anatomic_site	The location within the body as captured in the topography label of the International Classification of Diseases for Oncology, 3rd Edition (ICD-O-3).
 antigen	The diagnostic test in which an antibody is used to link a cellular antigen specifically to a stain that can be seen with a microscope.
-arterialSpinLabelingContrastCode	arterialSpinLabelingContrastCode
-asbestos_exposure	The yes/no/unknown indicator used to describe whether the patient was exposed to asbestos.
+arterialSpinLabelingContrastCode	Text specifying the kind of contrast used during the imaging acquisition process.
+asbestos_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
 avg_read_length	The average length for nucleic acid sequencing reads obtained after completion of the sequencing process.
 blood_test_normal_range_lower	Numeric value used to describe the lower limit of the normal range used to describe a healthy individual at the institution where the test was completed.
 blood_test_normal_range_upper	Numeric value used to describe the upper limit of the normal range used to describe a healthy individual at the institution where the test was completed.
-cDNA_Length	cDNA Length
-cDNA_Offset	cDNA Offset
+cDNA_Length	The length of the cDNA.
+cDNA_Offset	A description of the cDNA offset.
 cell_count	Numeric value used to describe the number of cells used for molecular testing.
-cell_line_id	Cell line name
+cell_line_id	A sequence of characters used to identify, name, or characterize a permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space.
 checksum_algorithm	The method by which the file checksum was calculated.
 checksum_value	A small-sized block of data derived from a file for the purpose of detecting errors that may have been introduced during file transmission and/or storage and used to verify data integrity.
 chromosome	Threadlike structures made of protein and a single molecule of DNA in a human that serve to carry the genomic information from cell to cell.
 cigarettes_per_day	The average number of cigarettes smoked per day.
-clinical_measure_file_id	A unique identifier for a clinical measure file.
+clinical_measure_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 clinical_trial_arm	Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
-clinical_trial_identifier	Organization or research site participating in a type of research study that tests how well new medical treatments or other interventions work in people.
-clinical_trial_repository	The name of the organization that provides the clinical trial identifier (use if the study is a clinical trial)
-coal_dust_exposure	The yes/no/unknown indicator used to describe whether a patient was exposed to fine powder derived by the crushing of coal.
+clinical_trial_identifier	Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
+clinical_trial_repository	Organization or research site participating in a type of research study that tests how well new medical treatments or other interventions work in people.
+coal_dust_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
 comorbidity	The class or category of the secondary disease(s).
 comorbidity_method_of_diagnosis	The class of clinical or laboratory procedure(s) used to determine the secondary disease diagnosis.
-complexImageComponentCode	complexImageComponentCode
-consent	The human readable value of the consent group as designated by dbGaP, examples GRU, HMB, IRB, NPU, etc.
-consent_number	The numeric value of the consent group as designated by dbGaP full accession identifier, phs######.v#.p#.c#.
+complexImageComponentCode	Text specifying the kind of channel of the quadrature detected data, or the combination derived from those channels, used to reconstruct the image.
+consent	Words which describe a set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository.
+consent_number	A numeral or string of numerals used to identify the set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository.
 copy_number	The quantity of gene copies resulting from a mutation.
 coverage	The number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.
-custom_assembly_fasta_file_for_alignment	The name of the custom assembly fasta file used during alignment.
+custom_assembly_fasta_file_for_alignment	The name of the custom assembly fasta file used during sequence alignment.
 cytoband	Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the cytoband where the variant is located. Format [chromosome][chromosome arm].[band+sub-bands]. Example 17p13.1.
-cytogenomic_file_id	A unique identifier for a cytogenomic file.
-cytogenomic_platform	The words used to describe the instrument used to carry out a methylation experiment.
+cytogenomic_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
+cytogenomic_platform	Words which describe the the equipment used to perform cytogenomic analysis.
 data_types	The types of data files that can be found in the study.
-dcf_indexd_guid	An assigned globally unique identifier (GUID) that is assigned for the indexing process, making files available. This is usually not supplied by the submitter, but created in the ingestion process.
-deidentification_method	Patient Deidentification
+dcf_indexd_guid	A unique sequence of characters used to identify, name, or characterize the indexing process that is different from all other UUIDs/GUIDs generated, making it possible to interoperate with data commons and share data within a data ecosystem.
+deidentification_method	The type of means, manner of procedure, or systematic course of action used in the removal of text elements that would make data individually identifiable in an electronic record.
 design_description	A written description of the materials and methods used to create the sequencing library.
 diagnosis_basis	The type of event for which the diagnosis was obtained.
 diagnosis_classification	The text term used to describe the type of malignant disease, as categorized by diagnosis_classification_system property.
 diagnosis_classification_system	The classification source from which the diagnosis value was obtained.
 diagnosis_comment	Freeform text entry for further details about the diagnosis.
-diagnosis_id	A unique sequence of alphanumeric characters used to identify the participant diagnosis in the investigation or study, which is used for linking metadata.
+diagnosis_id	sequence of characters used to uniquely identify, name, or characterize the presence and nature of a disease or condition.
 diagnosis_verification_status	The type of generic chronology for which the diagnosis was obtained.
-diffusionBValue	diffusionBValue
-diffusionDirectionalityCode	diffusionDirectionalityCode
+diffusionBValue	A term specifying the echo category of pulse sequences.
+diffusionDirectionalityCode	Text describing the kind of diffusion conditions for the frame, directional or isotropic, with respect to direction.
 disease_phase	The stage or period of an individual's treatment process during which relevant observations were recorded.
 disease_response	Code assigned to describe the patient's response or outcome to the disease.
-echoPlanarPulseSequenceIndicator	echoPlanarPulseSequenceIndicator
-echoPulseSequenceCategoryCode	echoPulseSequenceCategoryCode
-echo_time	echo_time
+echoPlanarPulseSequenceIndicator	The process by which an image is acquired or obtained.:An indication as to whether multiple echos of different phase steps are acquired using rephasing gradients instead of repeated 180-degree pulses. (BRIDG):The preferred Value Domain to indicate a question with permissible values of yes/no.
+echoPulseSequenceCategoryCode	A term specifying the echo category of pulse sequences.
+echo_time	A measurement of the time in milliseconds between the application of the excitation pulse and the recording of the peak echo signal.
 email_address	The string of characters that represents the electronic mail address of a person.
-environmental_tobacco_smoke_exposure	The yes/no/unknown indicator used to describe whether a patient was exposed to smoke that is emitted from burning tobacco, including cigarettes, pipes, and cigars. This includes tobacco smoke exhaled by smokers.
+environmental_tobacco_smoke_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
 ethnicity	The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
-exon	Exon number targeted or included in a molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located.
+exon	The text term used to describe a specific exon targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located.
 experimental_strategy_and_data_subtype	The type of systematic investigation using controlled observations and measurements to test hypotheses or develop a plan of action based on the facts discovered.
-exposure_id	An internal or external identifier such as exposure record or identifier.
-external_url	The url of the study (often a dbGaP study page).
-family_id	Identifer of a family of a group of participants.
-family_relationship_id	A unique identifier for a family relationship record or entry.
+exposure_id	A unique sequence of characters used to identify, name, or characterize the type of chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
+external_url	The specification of a node (file or directory) in a hierarchical file system where an electronic file is located.
+family_id	A sequence of characters used to uniquely identify, name, or characterize the domestic group of someone who takes part in an activity.
+family_relationship_id	A sequence of characters used to uniquely identify, name, or characterize the state of connectedness between entities or objects referencing the state of connectedness between people linked through descent.
+feature_barcoding	A textual description of a proprietary technology platform that uses a known set of oligonucleotide barcodes in combination with methods for assessing single cell gene expression.
 file_description	A free text field that can be used to document the content and other details about an electronic file that may not be captured elsewhere.
 file_mapping_level	Describes if the file is associated with the Participant, a Sample, or a Study.
 file_name	The literal label for an electronic data file.
@@ -404,9 +404,9 @@ file_type	A defined organization or layout representing and structuring data in 
 file_types_and_format	A defined organization or layout representing and structuring data in a computer file.
 file_url_in_cds	The specification of a node (file or directory) in a hierarchical file system where an electronic file is located.
 fixation_embedding_method	Text term that represents the method used to maintain the sample or biospecimen in a viable state.
-flip_angle	flip_angle
-follow_up_category	NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends.
-follow_up_id	A unique sequence of alphanumeric characters used to identify the follow up event.
+flip_angle	A measurement in magnetic resonance imaging capturing the rotation of the average axis of the protons, relative to the main magnetic field direction, induced by radiofrequency signals.
+follow_up_category	A text term based on grouping information about the health status of an individual after a study has officially closed
+follow_up_id	A unique sequence of characters used to identify, name, or characterize the the health status of an individual after a study has officially closed.
 follow_up_other	NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends
 funding_agency	The name of the funding source organization or sponsor.
 funding_source_program_name	The name of the program assigned by the funding agency.
@@ -414,21 +414,21 @@ gene_mutation_abnormality_type	The type of transmissible change in the genetic m
 gene_symbol	A short-form abbreviation for a particular gene assigned by the HGNC (HUGO Gene Nomenclature Committee - an organism specific nomenclature committee).
 grant_id	Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
 histone_family	The text term used to describe the family, or classification of a group of basic proteins found in chromatin, called histones.
-histone_variant	The text term used to describe a specific histone variants, which are proteins that substitute for the core canonical histones.
-id	One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.
+histone_variant	The text term used to describe a specific histone variant, which are proteins that substitute for the core canonical histones.
+id	A unique sequence of characters used to identify, name, or characterize an attribute shared by all members of a class.
 image_modality	A system of categories for representing a specific manner, characteristic, pattern of a data acquisition device used in an imaging event whether physical or electronic.
 imaging_frequency	imaging_frequency
-implantation_site	Anatomic site of xenograft.
-implantation_type	How the xenograft was introduced into host.
+implantation_site	The location within the body from which a specimen was originally obtained as captured in the Uberon name.
+implantation_type	The type of surgical procedure that places a human-derived tumor sample into an immunodeficient mouse.
 institution	A sequence of characters used to identify, name, or characterize the laboratory, institute, or consortium that provided the information.
 instrument_model	The words used to describe the specific model of the instrument used to carry out a high-throughput sequencing experiment.
 intron	Intron number targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the intron where that variant is located.
-inversionRecoveryIndicator	inversionRecoveryIndicator
-inversion_time	inversion_time
-laboratory_test_name	The name of the lab test or examination used to obtain the measurement or finding. Any test normally performed by a clinical laboratory is considered a lab test.
+inversionRecoveryIndicator	An indicator response as to whether or not the pulse sequence is an inversion recovery pulse preparatory sequence.
+inversion_time	A measurement of the time between the inversion and excitation pulses in an inversion recovery pulse sequence.
+laboratory_test_name	The words by which the laboratory assessment is known.
 last_known_disease_status	The most recently documented condition or state of an individual's disease.
 library_id	A short unique identifier assigned to a nucleotide sequencing library.
-library_layout	Paired-end or Single
+library_layout	The read strategy or method that was used for sequencing and analysis of a nucleotide library.
 library_selection	The type of systematic actions performed to select or enrich DNA fragments used in analysis by high-throughput sequencing.
 library_source	The source of a sample collection of double stranded DNA fragments analyzed by high-throughput sequencing.
 library_strategy	The overall strategy for the collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
@@ -436,21 +436,21 @@ license	Official or legal permission to do or own a specified thing.
 loci_abnormal_count	Numeric value used to describe the number of loci determined to be abnormal.
 loci_count	Numeric value used to describe the number of loci tested.
 locus	Alphanumeric value used to describe the locus of a specific genetic variant. Example NM_001126114.
-magnetic_field_strength	magnetic_field_strength
+magnetic_field_strength	A measurement of the force of magnetism that acts in the region around a magnetic material or a moving electrical charge.
 magnification	A floating point numerical value describing the nominal magnification of an optical instrument using a combination of lenses to produce an image.
 md5sum	A 32-character hexadecimal number that is computed on a file.
 medical_history_category	A high level grouping of any injuries, disabilities, syndromes, or symptoms present in an individual's background.
 medical_history_condition	The identifiable class of injuries, disabilities, syndromes, or symptoms found in an individual's health background.
-medical_history_id	An internal or external identifier such as medical or clinical history record or identifier.
-methylation_array_file_id	A unique identifier for a methylation array file.
+medical_history_id	A unique sequence of characters used to identify, name, or characterize the identifiable class of injuries, disabilities, syndromes, or symptoms found in an individual's health background.
+methylation_array_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 methylation_platform	The equipment used to detect the presence and/or location of methyl groups during DNA or protein analysis.
-mismatch_repair_mutation	The yes/no/unknown indicator used to describe whether the mutation included in molecular testing was known to have an affect on the mismatch repair process.
-model_id	The PDX model identifier.
+mismatch_repair_mutation	A yes/no/unknown indicator used to describe whether a gene has undergone mismatch repair.
+model_id	A unique sequence of characters used to identify, name, or characterize a mouse model for human cancer studies.
 molecular_analysis_method	The text term used to describe the method used for molecular analysis.
-molecular_test_id	An internal or external identifier such as specimen identifier.
-mouse_strain	The host mouse strain to which the tumor is engrafted. May become an enum if terms are provided.
+molecular_test_id	A unique sequence of characters used to identify, name, or characterize a laboratory procedure that involves the study of tissues, cells, and fluids at the molecular level.
+mouse_strain	The words by which breeds of mice utilized for biological research are known.
 mrImageReconstructionProtocolElement	mrImageReconstructionProtocolElement
-multipleSpinEchoIndicator	multipleSpinEchoIndicator
+multipleSpinEchoIndicator	An indicator response as to whether or not the pulse sequence is a multiple spin Echo pulse sequence.
 number_of_bp	Count of unique basecalls present in the data. Please count each base only once if using secondary alignments.
 number_of_participants	The number of unique participant instances associated with a systematic investigation into a subject.
 number_of_reads	The number of sequencing reaction results that were pooled to assemble a sequence for a genomic region of interest.
@@ -460,92 +460,94 @@ pack_years_smoked	Numeric computed value to represent lifetime tobacco exposure 
 participant_age_at_collection	The age (in days) of the subject at the time of specimen collection.
 participant_age_at_imaging	The age (in days) of the subject at the time of an imaging procedure.
 participant_id	A sequence of letters, numbers, or characters that uniquely identifies the subject who has taken part in the investigation or research study.
-participant_list	The list of participant ids that are found in this clinical file. This is often used for files that have a large number of participants referenced within the file.
-pathogenicity	The text used to describe a variant's level of involvement in the cause of the patient's disease according to the standards outlined by the American College of Medical Genetics and Genomics (ACMG).
-pathology_file_id	A unique identifier for a pathology file.
-pdx_id	A unique identifier for a pdx.
+participant_list	A series of characters, one after the other, used to uniquely identify the subjects who have taken part in the investigation or research study.
+pathogenicity	The likelihood of an entity to produce pathologic changes or disease.
+pathology_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
+pdx_id	A unique sequence of characters used to identify, name, or characterize a mouse model for human cancer studies.
 percent_necrosis	Numeric value to represent the percentage of cell death in a malignant tumor sample or specimen.
 percent_tumor	Numeric value that represents the percentage of infiltration by tumor cells in a sample.
-personnel_name	The name of personnel who is an organizer in the study.
+personnel_name	A formatted means of uniquely identifying an individual derived from multiple naming elements.
 personnel_type	The role of personnel in the study.
-phaseContrastIndicator	phaseContrastIndicator
+phaseContrastIndicator	An indicator response as to whether or not the pulse sequence is a phase contrast sequence.
 phs_accession	A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP).
 pixel_spacing	Physical distance between the center of each pixel in an image.
 platform	The words used to describe the instrument used to carry out a high-throughput sequencing experiment.
 ploidy	Text term used to describe the number of sets of homologous chromosomes.
-publication_id	PubMed identifier of the publication associated with the study.
-pubmed_id	The accession number used in PubMed.
-pulseSequenceName	pulseSequenceName
+publication_id	A Digital Object Identifier (DOI) of the publication associated with the study.
+pubmed_id	PubMed identifier of the publication associated with the study.
+pulseSequenceName	The process by which an image is acquired or obtained. The literal identifier for the pulse sequence.
 race	The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
-radiology_file_id	A unique identifier for a pathology file.
-radon_exposure	The yes/no/unknown indicator used to describe whether the patient was exposed to radon.
-reference_genome_assembly	A published genetic sequence that is used as a reference sequence against which other sequences are compared. This is only if you are submitting a bam file aligned against a NCBI assembly.
-related_to_participant_id	Participant related to another participant
-relationship	How is a participant related to another participant
-repetition_time	repetition_time
+radiology_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
+radon_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
+reference_genome_assembly	One or more characters used to identify the published NCBI genetic sequence that is used as a reference against which other sequences are compared.
+related_to_participant_id	A sequence of characters used to uniquely identify, name, or characterize the state of connectedness between members of the unit of society organized around kinship ties.
+relationship	The subgroup that describes the state of connectedness between members of the unit of society organized around kinship ties.
+repetition_time	A measurement of the amount of time in milliseconds between successive pulse sequences applied to the same slice.
 reporter_label	The text term to describe the labeled methyl group used as a molecular tag.
-repository_of_synonym_id	The repository of the synonym.
-resonantNucleusCode	resonantNucleusCode
-respirable_crystalline_silica_exposure	The yes/no/unknown indicator used to describe whether a patient was exposured to respirable crystalline silica, a widespread, naturally occurring, crystalline metal oxide that consists of different forms including quartz, cristobalite, tridymite, tripoli, ganister, chert and novaculite.
+repository_of_synonym_id	A textual description of a storage location for digital data.
+resonantNucleusCode	Text specifying the atomic nucleus that is resonant at the transmitter frequency.
+respirable_crystalline_silica_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
 risk_factor	The text term used to describe a risk factor the patient had at the time of or prior to their diagnosis.
 sample_description	Text description of a sample or specimen.
 sample_id	A unique sequence of alphanumeric characters used to identify the specimen at it's point of origin.
 sample_tumor_status	Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue.
-saturationRecoveryIndicator	saturationRecoveryIndicator
+saturationRecoveryIndicator	An indicator response as to whether or not the pulse sequence is a saturation recovery sequence.
 scanner_manufacturer	The words that describe an entity that produces finished goods used to perform a diagnostic, therapeutic or research activity.
 scanner_model	The words that describe the style or design of an entity"s finished goods used to perform a diagnostic, therapeutic or research activity.
-second_exon	The second exon number involved in molecular variation. If a specific genetic variant is being reported, this property can be used to capture the second exon where that variant is located. This property is typically used for a translocation where two different locations are involved in the variation.
+second_exon	A numeral or string of numerals that is used to identify the position of a second exon that is either involved in a molecular variation or of interest in an experiment or study.
 second_gene_symbol	The HGNC gene symbol for the second coding region in a mutation that spans two gene locations (Example: fusion, translocation, inversion).
 sequence_alignment_software	The name of the software program used to align nucleotide sequencing data.
-sequencing_file_id	A unique identifier for a sequencing file.
+sequencing_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 sex_at_birth	A textual description of a person's sex at birth.
-single_cell_sequencing_file_id	A unique identifier for a single cell sequencing file.
+single_cell_sequencing_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 size_of_data_being_uploaded	The measure (in bytes) of how much space a data file takes up on a storage medium.
 slice_thickness	A string of characters representing either a fixed point number or a floating point number capturing the nominal slice thickness relative to the patient-based coordinate system expressed in number of millimeters.
-smoking_frequency	The text term used to generally decribe how often the patient smokes.
-source	Cell line source
-specialized_molecular_test	Text term used to describe a specific test that is not covered in the list of molecular analysis methods.
-spectrallySelectedSuppressionCode	spectrallySelectedSuppressionCode
+smoking_frequency	The number of occurrences of smoking over a time period.
+source	The words by which a permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space is known.
+specialized_molecular_test	A textual description of a laboratory procedure that involves the study of tissues, cells, and fluids using DNA/RNA analysis techniques for the identification of characteristics and abnormalities at the molecular level.
+spectrallySelectedSuppressionCode	Text specifying the kind of spectrally selected suppression used in an imaging technology or method.
 staining_method	The name of the dye or other coloring material used in microscopy to make biological sample structures visible.
-steadyStatePulseSequenceCode	steadyStatePulseSequenceCode
-study_acronym	A one word acronym to represent the study.
-study_admin_id	A unique sequence of alphanumeric characters used to identify the admin in the investigation or study, which is used for linking metadata.
+steadyStatePulseSequenceCode	The process by which an image is acquired or obtained.:A coded value specifying the steady state pulse sequence.:A coded value specifying the steady state pulse sequence._Something distinguishable as an identifiable class based on common qualities.
+strain_immune_system_humanized	A response to indicate whether a mouse model was humanized.
+study_acronym	The acronym or abbreviated form of the title for a research data collection.
+study_admin_id	A sequence of characters used to uniquely identify, name, or characterize the individual who is responsible for managing a detailed examination, analysis, or critical inspection of a subject designed to discover facts about it.
 study_arm_id	A sequence of characters used to identify, name, or characterize the specific treatment plan within a clinical trial that describes the activities a pediatric subject will be involved in as he or she progresses through the study.
 study_data_types	The type of study or experimental data generated for testing or research purposes.
 study_description	The long form description of the study.
-study_funding_id	A unique identifier for a study funding.
+study_funding_id	A sequence of characters used to uniquely identify, name, or characterize the study funding organization.
 study_id	A sequence of characters used to identify, name, or characterize a pediatric study.
 study_name	The narrative title used as a textual label for a research data collection.
-study_personnel_id	A unique sequence of alphanumeric characters used to identify the personnel in the investigation or study, which is used for linking metadata.
+study_personnel_id	A sequence of characters used to uniquely identify, name, or characterize the person who performs a particular role within the context of a specific study.
 study_short_title	The acronym or abbreviated form of the title for a research data collection.
-synonym_id	The synonym of the ID that is found in a different repository.
+synonym_id	A sequence of characters used to identify, name, or characterize a backup sequence of characters used to identify an entity.
 test_analyte_type	The text term used to describe the type of analyte used for molecular testing.
 test_result_numeric	The numeric value of the blood, urine, or other body substance laboratory test being recorded.
 test_result_text	A textual description of the outcome of any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting.
 test_unit	The code that represents the name of a unit of measure for reporting a laboratory result.
-therapeutic_agents	Text identification of the individual agent(s) used as part of a prior treatment regimen.
-therapeutic_procedure_id	A unique identifier for a therapeutic procedure.
-timeOfFlightContrastIndicator	timeOfFlightContrastIndicator
-time_between_waking_and_first_smoke	The text term used to describe the approximate amount of time elapsed between the time the patient wakes up in the morning to the time they smoke their first cigarette.
-tobacco_smoking_onset_year	The year in which the participant began smoking.
-tobacco_smoking_quit_year	The year in which the participant quit smoking.
-tobacco_smoking_status	Category describing current smoking status and smoking history as self-reported by a patient
+therapeutic_agent	The name of the individual therapeutic agent(s) used as part of a treatment regimen.
+therapeutic_procedure_id	A unique sequence of characters used to identify, name, or characterize the kind of treatment administered.
+timeOfFlightContrastIndicator	An indicator response as to whether or not the contrast is created by the inflow of blood in the saturated plane.
+time_between_waking_and_first_smoke	Text that describes the time elapsed between waking and smoking a cigarette.
+tobacco_smoking_onset_year	Tobacco Smoking History Onset Year Date
+tobacco_smoking_quit_year	A record of an individual's background in regard to smoking tobacco. This would include such factors as start date, end date (if applicable), number of cigarette smoked, attempts to quit, and others.:The year in which an individual quit smoking.:The particular year an event has happened or will happen.
+tobacco_smoking_status	A category which describes an individual's history of smoking tobacco.
 toronto_childhood_cancer_staging	Cancer stage as captured by the Toronto Childhood Cancer Stage Guidelines.
 transcript	Alphanumeric value used to describe the transcript of a specific genetic variant.
 treatment_outcome	Text term that describes the patient's final outcome after the treatment was administered.
 treatment_type	Text term that describes the kind of treatment administered.
-tumor_characterization_method	How the tumor was evaluated in the mouse host. May become an enum if terms are provided.
+tumor_characterization_method	The type of characterization used to evaluate the human-derived tumor sample in the mouse model.
 tumor_classification	The classification of a tumor based primarily on histopathological characteristics.
 tumor_grade	A text term to express the degree of abnormality of cancer cells as a measure of differentiation and aggressiveness.
-tumor_preparation	How the tumor was prepared for grafting.
+tumor_not_mus_or_ebv_origin	Tumor confirmed not to be of mouse/EBV origin
+tumor_preparation	A mouse model for human cancer studies in which a human-derived tumor sample is transplanted into an immunodeficient mouse.:A benign or malignant tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting significant cytologic atypia, while malignant cells exhibit overt signs such as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative examples of benign neoplasms include papillomas, cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias
 tumor_stage_clinical_m	Extent of the distant metastasis for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
 tumor_stage_clinical_n	Extent of the regional lymph node involvement for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
 tumor_stage_clinical_t	Extent of the primary cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
-type_of_humanization	How the mouse host was humanized.
-type_of_smoke_exposure	The text term used to describe the patient's specific type of smoke exposure.
-type_of_tobacco_used	The text term used to describe the specific type of tobacco used by the patient.
+type_of_humanization	The type of process used to make reagents, such as animal antibodies, derived from non-human sources more like the human version.
+type_of_smoke_exposure	The type of environmental, occupational or consumer-based exposure to airborne gases and particulates produced when materials undergo combustion or thermal decomposition.
+type_of_tobacco_used	The response that indicates which smoking products a person has ever used regularly.
 variant_origin	The text term that describes the origin of a variation in the nucleic acid sequence of a specific gene.
 variant_type	The text term used to describe the type of genetic variation.
 vital_status	Participant vital status
-years_smoked	Numeric value (or unknown) to represent the number of years a person has been smoking.
+years_smoked	Number that represents the years spent smoking cigarettes.
 zygosity	The text term used to describe the zygosity of a specific genetic variant.

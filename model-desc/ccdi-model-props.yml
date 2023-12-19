@@ -32,7 +32,7 @@ PropDefinitions:
         Value: 
       - Origin: DICOM
         Code: '0018,0087'
-        Value: 	Imaging Technique Magnetic Field Strength Number
+        Value: Imaging Technique Magnetic Field Strength Number
     Type: string
     Req: true
     Key: false

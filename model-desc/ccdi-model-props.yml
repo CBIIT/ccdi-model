@@ -4847,12 +4847,12 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '11529031'
-        Vlaue: Genome Assembly NCBI Genetic Reference Sequence Identifier
+        Value: Genome Assembly NCBI Genetic Reference Sequence Identifier
       - Origin: NCIt
         Code: 'C164388'
-        Value: Genetic Reference Sequence 
+        Value: Genetic Reference Sequence
     Type: string
-    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
+    Req: false
     Private: false
   #sequencing_file
   custom_assembly_fasta_file_for_alignment:

@@ -371,7 +371,7 @@ PropDefinitions:
     Private: false  
   #radiology_file
   complexImageComponentCode:
-    Desc: 	Text specifying the kind of channel of the quadrature detected data, or the combination derived from those channels, used to reconstruct the image.
+    Desc: Text specifying the kind of channel of the quadrature detected data, or the combination derived from those channels, used to reconstruct the image.
     Term:
       - Origina: caDSR
         Code: '14616432'

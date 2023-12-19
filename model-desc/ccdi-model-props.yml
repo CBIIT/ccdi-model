@@ -2942,7 +2942,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Ciode: '14604381'
-        Value: Sequencing Library Read 2 Text	
+        Value: Sequencing Library Read 2 Text
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Read2

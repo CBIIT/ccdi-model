@@ -234,7 +234,7 @@ PropDefinitions:
     Private: false
   #radiology_file
   pulseSequenceName:
-    Desc: The process by which an image is acquired or obtained.:The literal identifier for the pulse sequence.:SH: DICOM Short String; A character string that may be padded with leading and/or trailing spaces. The character code 05CH (the BACKSLASH "/" in ISO-IR 6) shall not be present, as it is used as the delimiter between values for multiple data elements.
+    Desc: The process by which an image is acquired or obtained. The literal identifier for the pulse sequence.
     Term:
       - Origin: caDSR
         Code: '14608594'

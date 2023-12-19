@@ -306,7 +306,7 @@ PropDefinitions:
   steadyStatePulseSequenceCode:
     Desc: The process by which an image is acquired or obtained.:A coded value specifying the steady state pulse sequence.:A coded value specifying the steady state pulse sequence._Something distinguishable as an identifiable class based on common qualities.
     Term:
-      - Origina: caDSR
+      - Origin: caDSR
         Code: '14616430'
         Value: Image Acquisition Steady State Pulse Sequence Type
       - Origin: DICOM

@@ -2261,7 +2261,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142528'
-        Value: Molecular Analysis Cell Count	
+        Value: Molecular Analysis Cell Count
     Type: integer
     Req: false
     Private: false

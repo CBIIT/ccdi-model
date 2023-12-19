@@ -5535,7 +5535,7 @@ PropDefinitions:
         - "8000/3 : Neoplasm, malignant"
         - "8000/6 : Neoplasm, metastatic"
         - "8000/9 : Neoplasm, malignant, uncertain whether primary or metastatic"
-        - "8001/0 : Tumor cxells, benign"
+        - "8001/0 : Tumor cells, benign"
         - "8001/1 : Tumor cells, uncertain whether benign or malignant"
         - "8001/3 : Tumor cells, malignant"
         - "8002/3 : Malignant tumor, small cell type"
@@ -6688,7 +6688,7 @@ PropDefinitions:
     Private: false  
   #therapeutic_procedure
   therapeutic_agent:
-    Desc: The name of the individual therapeutic agent(s) used as part of a treatment regimen..
+    Desc: The name of the individual therapeutic agent(s) used as part of a treatment regimen.
     Term:
       - Origin: caDSR
         Code: '13579886'

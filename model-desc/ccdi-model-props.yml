@@ -3577,11 +3577,11 @@ PropDefinitions:
     Type:
       value_type: string
       Enum:
-        - "CT"
-        - "MR"
-        - "PET"
-        - "SM"
-        - "X-ray"
+        - "Computed Tomography"
+        - "Magnetic Resonance"
+        - "Positron Emission Tomography"
+        - "Slide Microscopy"
+        - "Panoramic X-Ray"
     Req: true
     Strict: false
     Private: false

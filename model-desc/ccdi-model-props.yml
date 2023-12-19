@@ -29,7 +29,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '14607707'
-        Value: 
+        Value: Imaging Technique Magnetic Field Strength Number
       - Origin: DICOM
         Code: '0018,0087'
         Value: Imaging Technique Magnetic Field Strength Number

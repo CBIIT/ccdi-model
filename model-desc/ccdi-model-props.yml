@@ -3402,7 +3402,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '14612666'
-        Value: Research Activity Alternate Identifier	
+        Value: Research Activity Alternate Identifier
     Type: string
     Req: true
     Private: false

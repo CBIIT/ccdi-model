@@ -3850,7 +3850,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '14528010'
-        Value: Electronic Data File Unique Identifier	
+        Value: Electronic Data File Unique Identifier
     Type: string
     Req: true
     Private: false

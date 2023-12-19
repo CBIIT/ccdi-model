@@ -16,7 +16,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '14596084'
-        Value: Cytogenomic Analysis Instrumentation Text	
+        Value: Cytogenomic Analysis Instrumentation Text
       - Origin: Illumina
         Code: 'cytogenomic'
         Value: cytogenomic_platform

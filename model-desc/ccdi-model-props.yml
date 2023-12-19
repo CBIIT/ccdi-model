@@ -3046,7 +3046,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '6142528'
-        Value: Molecular Analysis Cell Count	
+        Value: Molecular Analysis Cell Count
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
         Value: Total Number of Input Cells

@@ -5247,7 +5247,7 @@ PropDefinitions:
     Key: true
   # study_personnel
   personnel_name:
-    Desc: 	A formatted means of uniquely identifying an individual derived from multiple naming elements.
+    Desc: A formatted means of uniquely identifying an individual derived from multiple naming elements.
     Term:
       - Origin: caDSR
         Code: '2222323'

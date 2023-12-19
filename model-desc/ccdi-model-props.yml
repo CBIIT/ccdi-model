@@ -2875,7 +2875,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Specimen Collection To Sequencing Library Preparation Day Count:
+  Specimen_Collection_To_Sequencing_Library_Preparation_Day_Count:
     Desc: The number of days from the date a specimen was collected to the date of the sequencing library preparation.
     Term:
       - Origin: caDSR
@@ -2905,7 +2905,7 @@ PropDefinitions:
         Code: '14604166'
         Value: Sequencing Library Paired End Text
       - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
         Value: Paired End
     Type: string
     Req: false
@@ -2918,7 +2918,7 @@ PropDefinitions:
         Code: '7787673'
         Value: Raw Data Protocol Or Digital Object Identifier Text
       - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
         Value: Protocols  Link
     Type: string
     Req: false
@@ -2931,7 +2931,7 @@ PropDefinitions:
         Code: '14604321'
         Value: Sequencing Library Read 1 Text
       - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
         Value: Read1
     Type: string
     Req: false
@@ -2944,7 +2944,7 @@ PropDefinitions:
         Ciode: '14604381'
         Value: Sequencing Library Read 2 Text
       - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
         Value: Read2
     Type: string
     Req: false
@@ -2957,7 +2957,7 @@ PropDefinitions:
         Code: '14604593'
         Value: Sequencing Library Reverse Transcription Primer Type
       - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
         Value: Reverse Transcription Primer Oligo-dT, Poly-dT
     Type: string
     Req: false

@@ -373,7 +373,7 @@ PropDefinitions:
   complexImageComponentCode:
     Desc: Text specifying the kind of channel of the quadrature detected data, or the combination derived from those channels, used to reconstruct the image.
     Term:
-      - Origina: caDSR
+      - Origin: caDSR
         Code: '14616432'
         Value: Imaging Technique Complex Image Component Type
       - Origin: DICOM

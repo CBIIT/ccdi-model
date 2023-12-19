@@ -3172,6 +3172,7 @@ PropDefinitions:
       Enum:
         - 'CNS Diagnosis Category'
         - 'ICD-O-3.2'
+        - 'Indication for Study'
         - 'WHO CNS5 Integrated Diagnosis'
         - 'Unknown'
         - 'Not Reported'

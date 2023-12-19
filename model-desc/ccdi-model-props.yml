@@ -2880,9 +2880,9 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '14612530'
-        Value: 
+        Value: Specimen Collection To Sequencing Library Preparation Day Count
       - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
         Value: Library Preparation Date
     Type: string
     Req: false

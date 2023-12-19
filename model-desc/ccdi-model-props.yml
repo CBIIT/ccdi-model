@@ -400,7 +400,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '14596104'
-        Value: Cell Line Name Identifier	
+        Value: Cell Line Name Identifier
     Type: string
     Req: true
     Key: true

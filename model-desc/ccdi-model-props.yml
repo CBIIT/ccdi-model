@@ -3974,7 +3974,7 @@ PropDefinitions:
         Code: '14534330'
         Value: Research Activity dbGaP Consent Group Number
     Req: true
-    Private: false     
+    Private: false  
   # sample
   sample_id:
     Desc: A unique sequence of alphanumeric characters used to identify the specimen at it's point of origin.

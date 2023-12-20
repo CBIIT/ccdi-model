@@ -3305,7 +3305,7 @@ PropDefinitions:
     Req: true
     Private: false
   #pdx  
-  strain_immune_system_humanized: 
+  is_strain_immune_system_humanized: 
     Desc: A response to indicate whether a mouse model was humanized.
     Term:
       - Origin: caDSR
@@ -3375,7 +3375,7 @@ PropDefinitions:
         - "Yes"
         - "No"
         - "Not Reported"
-    Req: false
+    Req: true
     Strict: false
     Private: false
   #pdx
@@ -3395,7 +3395,20 @@ PropDefinitions:
         - 'Yes'
         - 'Unknown'
     Req: false
-    Private: false  
+    Private: false
+  #pdx
+  passages_tested:
+    Desc: Provide a list of all passages where validation was performed. Passage 0 correspond to first engraftment (if this is not the case please define how passages are numbered).
+    Term:
+      - Origin: CancerModels.org
+        Code: https://www.cancermodels.org/validation/dictionary
+        Value: passages_tested
+      - Origin: PubMedCentral
+        Code: 'PMC5738926'
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+    Type: string
+    Req: true
+    Private: false
   #publication
   publication_id: 
     Desc: A Digital Object Identifier (DOI) of the publication associated with the study.

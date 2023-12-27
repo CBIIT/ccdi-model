@@ -197,13 +197,13 @@ Nodes:
       - pdx_id
       - model_id
       - mouse_strain
-      - strain_immune_system_humanized
+      - sample_type_for_implantation
       - implantation_type
       - implantation_site
-      - type_of_humanization
-      - tumor_preparation
-      - tumor_characterization_method
-      - tumor_not_mus_or_ebv_origin
+      - tumor_confirmed_not_to_be_mus_or_ebv_origin
+      - passage_number
+      - passages_tested
+      - validation_technique
       - id
   publication:
      Props:

@@ -2947,7 +2947,7 @@ PropDefinitions:
     Desc: Read 2 content description
     Term:
       - Origin: caDSR
-        Ciode: '14604381'
+        Code: '14604381'
         Value: Sequencing Library Read 2 Text
       - Origin: HTAN
         Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1

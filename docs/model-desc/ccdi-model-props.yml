@@ -2427,9 +2427,15 @@ PropDefinitions:
     Type:
       value_type: string
       Enum:
+        - "Acceptor Splice Site SNP"
+        - "Exon Mutation"
         - "Frameshift Mutation"
         - "Inframe"
+        - "Inframe Deletion"
+        - "Inframe Insertion"
+        - "Intronic Mutation"
         - "Missense Mutation"
+        - "Non-Coding Gene Mutation"
         - "Nonsense Mutation"
         - "Not Reported"
         - "Splice Acceptor"

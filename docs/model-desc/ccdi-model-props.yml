@@ -3356,6 +3356,7 @@ PropDefinitions:
         - 'Yes'
         - 'Unknown'
     Req: false
+    Strict: true
     Private: false
   #pdx
   passage_number: 

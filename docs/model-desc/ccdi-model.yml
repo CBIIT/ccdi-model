@@ -206,7 +206,7 @@ Nodes:
       - validation_technique
       - id
   publication:
-     Props:
+    Props:
       - publication_id
       - pubmed_id
       - id

@@ -3377,9 +3377,10 @@ PropDefinitions:
   #pdx
   validation_technique:
     Desc: Any technique used to validate PDX against their original patient tumour, including fingerprinting, histology, immunohistochemistry.
-        Term:
+    Term:
       - Origin: CancerModels.org
         Code: https://www.cancermodels.org/validation/dictionary
+        Value: validation_technique
     Type: string
     Req: false
     Private: false    

@@ -1542,6 +1542,12 @@ Terms:
     Code: 3689469
     Version: '1'
     Value: Extrahepatic Bile Duct
+  Exon Mutation:
+    Origin: NCIt
+    Definition: A change in the nucleotide sequence of an exon in a gene.
+    Code: 'C148639'
+    Version: '1'
+    Value: Exon Mutation
   Eye and adnexa:
     Origin: caDSR
     Definition: 'An appendage or accessory structure of an adjacent or related organ.:
@@ -2339,6 +2345,18 @@ Terms:
     Code: 2581319
     Version: '1'
     Value: Inframe  
+  Inframe Deletion:
+    Origin: NCIt
+    Definition: A loss of three consecutive nucleotides (one codon) or multiple codons in a gene that encodes for a protein where one or more canonical amino acids are deleted but does not result in a frameshift mutation.
+    Code: 'C165225'
+    Version: '1'
+    Value: Inframe Deletion
+  Inframe Insertion:
+    Origin: NCIt
+    Definition: A gain of three consecutive nucleotides (one codon) or multiple codons in a gene that encodes for a protein where one or more non-wildtype amino acids are inserted but does not result in a frameshift mutation.    
+    Code: 'C165226'
+    Version: '1'
+    Value: Inframe Insertion
   injection:
     Origin: JAX
     Definition: Injection is a procedure where the human tumor cells are injected into a lateral tail vein of the mouse host using a syringe and the smallest gauge needle possible 
@@ -2406,6 +2424,12 @@ Terms:
     Code: 3566779
     Version: '1'
     Value: Intrathoracic Lymph Node
+  Intronic Mutation:
+    Origin: NCIt
+    Definition: Any mutation within an intron, including the sequences that comprise the intron boundary.
+    Code: C63429
+    Version: '1'
+    Value: Intronic Mutation
   Inverse rRNA:
     Origin: caDSR
     Definition: Depletion of ribosomal RNA by oligo hybridization.
@@ -3469,6 +3493,12 @@ Terms:
     Code: 5654573
     Version: '1'
     Value: No Response
+  Non-Coding Gene Mutation:
+    Origin: NCIt
+    Definition:  A change in the nucleotide sequence of a non-coding gene.
+    Code: C148644
+    Version: '1'
+    Value: Non-Coding Gene Mutation
   No Treatment:
     Origin: caDSR
     Definition: 'An operation in which a term denies or inverts the meaning of another

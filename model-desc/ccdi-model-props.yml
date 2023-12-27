@@ -3310,13 +3310,23 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  #pdx  
-  strain_immune_system_humanized: 
-    Desc: A response to indicate whether a mouse model was humanized.
+  #pdx
+  sample_type_for_implantation:
+    Desc: Description of the type of material grafted into the mouse. (e.g. tissue fragments, cell suspension)
     Term:
       - Origin: caDSR
-        Code: '14596210'
-        Value: PDX Host Mouse Strain Humanization Indicator
+        Code: '14616474'
+        Value: PDX Tumor Preparation Text
+      - Origin: PubMedCentral
+        Code: 'PMC5738926'
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+    Type: string
+    Req: true
+    Private: false
+  #pdx 
+  is_tumor_from_untreated_patient:
+    Desc: "Is tumor from untreated patient?"
+    Term:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
@@ -3329,47 +3339,8 @@ PropDefinitions:
     Req: true
     Strict: false
     Private: false
-  #pdx  
-  type_of_humanization:
-    Desc: The type of process used to make reagents, such as animal antibodies, derived from non-human sources more like the human version.
-    Term:
-      - Origin: caDSR
-        Code: '14596213'
-        Value: PDX Host Mouse Strain Humanization Method Type
-      - Origin: PubMedCentral
-        Code: 'PMC5738926'
-        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
-    Type: string
-    Req: false
-    Private: false
   #pdx
-  tumor_preparation:
-    Desc: A mouse model for human cancer studies in which a human-derived tumor sample is transplanted into an immunodeficient mouse.:A benign or malignant tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting significant cytologic atypia, while malignant cells exhibit overt signs such as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative examples of benign neoplasms include papillomas, cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias
-    Term:
-      - Origin: caDSR
-        Code: '14616474'
-        Value: PDX Tumor Preparation Text
-      - Origin: PubMedCentral
-        Code: 'PMC5738926'
-        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
-    Type: string
-    Req: false
-    Private: false
-  #pdx
-  tumor_characterization_method:
-    Desc: The type of characterization used to evaluate the human-derived tumor sample in the mouse model.
-    Term:
-      - Origin: caDSR
-        Code: '14596227'
-        Value: PDX Tumor Characterization Method Type
-      - Origin: PubMedCentral
-        Code: 'PMC5738926'
-        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
-    Type: string
-    Req: false
-    Private: false 
-  #pdx
-  tumor_not_mus_or_ebv_origin: 
+  tumor_confirmed_not_to_be_mus_or_ebv_origin:
     Desc: "Tumor confirmed not to be of mouse/EBV origin"
     Term:
       - Origin: caDSR
@@ -3378,9 +3349,47 @@ PropDefinitions:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+    Type:
+      value_type: string
+      Enum:
+        - 'No'
+        - 'Yes'
+        - 'Unknown'
+    Req: false
+    Private: false
+  #pdx
+  passage_number: 
+    Desc: When different host strains, or PDX Engraftment Site or PDX Engraftment Type or PDX Engraftment Materia were used during the PDX line generation, please add passage.
+    Term:
+      - Origin: CancerModels.org
+        Code: https://www.cancermodels.org/validation/dictionary
+        Value: passage_number
     Type: string
     Req: false
-    Private: false  
+    Private: false
+  #pdx
+  passages_tested:
+    Desc: Provide a list of all passages where validation was performed. Passage 0 correspond to first engraftment (if this is not the case please define how passages are numbered).
+    Term:
+      - Origin: CancerModels.org
+        Code: https://www.cancermodels.org/validation/dictionary
+        Value: passages_tested
+      - Origin: PubMedCentral
+        Code: 'PMC5738926'
+        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+    Type: string
+    Req: false
+    Private: false
+  #pdx
+  validation_technique:
+    Desc: Any technique used to validate PDX against their original patient tumour, including fingerprinting, histology, immunohistochemistry.
+    Term:
+      - Origin: CancerModels.org
+        Code: https://www.cancermodels.org/validation/dictionary
+        Value: validation_technique
+    Type: string
+    Req: false
+    Private: false    
   #publication
   publication_id: 
     Desc: A Digital Object Identifier (DOI) of the publication associated with the study.

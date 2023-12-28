@@ -306,29 +306,24 @@ Nodes:
       - custom_assembly_fasta_file_for_alignment
       - file_mapping_level
       - sequence_alignment_software
-      - cDNA_Offset
-      - cDNA_Length
-      - Cell_Barcode
-      - Cryopreserved_Cells_in_Sample
+      - cDNA_read
+      - cDNA_read_size
+      - cell_barcode_offset
+      - cell_barcode_read
+      - cell_barcode_size
+      - single_cell_entity
       - Dissociation_Method
       - End_Bias
-      - Input_Cells_and_Nuclei
+      - Total_Number_of_Input_Cells
       - Library_Construction_Method
       - Library_Preparation_Date
-      - Nucleic_Acid_Capture_Date
-      - Paired_End
+      - library_strand
       - Protocols_Link
-      - Read1
-      - Read2
-      - Reverse_Transcription_Primer_Oligo_dT_Poly_dT
+      - Reverse_Transcription_Primer
       - Reverse_Transcription_Primer_Feature_barcoding
-      - Reverse_Transcription_Primer_Random
-      - Sequencing_Library_Construction_Date
-      - Single_Cell_Dissociation_Date
-      - Single_Cell_Isolation_Method
       - Spike_In
-      - Total_Number_of_Input_Cells
-      - UMI
+      - UMI_barcode_offset
+      - UMI_barcode_read
       - id
   sequencing_file: # 01.03.22 pdunn
     Props:

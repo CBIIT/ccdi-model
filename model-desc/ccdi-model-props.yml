@@ -2821,7 +2821,7 @@ PropDefinitions:
     Private: false
   #single_cell_sequencing_file  
   cell_barcode_read:
-    Desc: The type of read that contains the cell barcode: index1/index2/read1/read2.
+    Desc: 'The type of read that contains the cell barcode: index1/index2/read1/read2.'
     Term:
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf

@@ -2881,7 +2881,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Specimen_Collection_To_Sequencing_Library_Preparation_Day_Count:
+  specimen_collection_to_sequencing_library_preparation_day_count:
     Desc: The number of days from the date a specimen was collected to the date of the sequencing library preparation.
     Term:
       - Origin: caDSR

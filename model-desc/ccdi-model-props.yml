@@ -2932,8 +2932,8 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Reverse_Transcription_Primer
-    Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
+  Reverse_Transcription_Primer:
+    Desc: 'An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA'
     Term:
       - Origin: caDSR
         Code: '14604593'

@@ -2777,7 +2777,7 @@ PropDefinitions:
     Private: false
     Key: true
   #single_cell_sequencing_file
-  cDNA_Offset:
+  cDNA_offset:
     Desc: A description of the cDNA offset.
     Term:
       - Origin: caDSR
@@ -2790,7 +2790,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file  
-  cDNA_Length:
+  cDNA_length:
     Desc: The length of the cDNA.
     Term:
       - Origin: caDSR
@@ -2803,7 +2803,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file  
-  Cell_Barcode:
+  cell_barcode:
     Desc: A unique sequence of characters used to identify the machine-readable representation of the cell from which the read originated.
     Term:
       - Origin: caDSR
@@ -2816,7 +2816,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Cryopreserved_Cells_in_Sample:
+  cryopreserved_cells_in_sample:
     Desc: A response to indicate whether the cells in the library preparation are revived frozen cells.
     Term:
       - Origin: caDSR
@@ -2829,7 +2829,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Dissociation_Method:
+  dissociation_method:
     Desc: The text term to describe the method used to create single cells from tissue samples.
     Term:
       - Origin: caDSR
@@ -2842,7 +2842,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  End_Bias:
+  end_bias:
     Desc: The type of overabundance of transcripts seen in a sequencing library.
     Term:
       - Origin: caDSR
@@ -2855,7 +2855,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Input_Cells_and_Nuclei:
+  input_cells_and_nuclei:
     Desc: A collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing
     Term:
       - Origin: caDSR
@@ -2868,7 +2868,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Library_Construction_Method:
+  library_construction_method:
     Desc: A textual description of the procedures performed for building a collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
     Term:
       - Origin: caDSR
@@ -2894,7 +2894,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Nucleic_Acid_Capture_Date:
+  nucleic_acid_capture_date:
     Desc: Date of nucleic acid capture part of library construction
     Term:
       - Origin: HTAN
@@ -2904,7 +2904,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Paired_End:
+  paired_end:
     Desc: Sequencing Library Paired End Text
     Term:
       - Origin: caDSR
@@ -2917,7 +2917,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Protocols_Link:
+  protocols_link:
     Desc: A sequence of letters, numbers, or other characters that uniquely identifies a study protocol or a unique code used by publishers in the identification and exchange of the content of a digital object.
     Term:
       - Origin: caDSR
@@ -2930,7 +2930,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Read1:
+  read1:
     Desc: Sequencing Library Read 1 Text
     Term:
       - Origin: caDSR
@@ -2943,7 +2943,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Read2:
+  read2:
     Desc: Read 2 content description
     Term:
       - Origin: caDSR
@@ -2956,7 +2956,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Reverse_Transcription_Primer_Oligo_dT_Poly_dT:
+  reverse_transcription_primer_oligo_dT_poly_dT:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
       - Origin: caDSR
@@ -2982,7 +2982,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Reverse_Transcription_Primer_Random:
+  reverse_transcription_primer_random:
     Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
     Term:
       - Origin: caDSR
@@ -2995,7 +2995,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Sequencing_Library_Construction_Date:
+  sequencing_library_construction_date:
     Desc: Date of sequencing library construction part of library construction
     Term:
       - Origin: caDSR
@@ -3008,7 +3008,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Single_Cell_Dissociation_Date:
+  single_cell_dissociation_date:
     Desc: The date when the sample was dissociated and cells were isolated
     Term:
       - Origin: caDSR
@@ -3021,7 +3021,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Single_Cell_Isolation_Method:
+  single_cell_isolation_method:
     Desc: The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)
     Term:
       - Origin: caDSR
@@ -3034,7 +3034,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Spike_In:
+  spike_in:
     Desc: A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
     Term:
       - Origin: caDSR
@@ -3047,7 +3047,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Total_Number_of_Input_Cells:
+  total_number_of_input_cells:
     Desc: Numeric value used to describe the number of cells used for molecular testing.
     Term:
       - Origin: caDSR

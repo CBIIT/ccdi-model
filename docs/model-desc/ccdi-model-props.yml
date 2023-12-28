@@ -2876,7 +2876,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Total_Number_of_Input_Cells:
+  total_number_of_input_cells:
     Desc: Numeric value used to describe the number of cells used for molecular testing.
     Term:
       - Origin: caDSR
@@ -2933,7 +2933,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Reverse_Transcription_Primer:
+  reverse_transcription_primer:
     Desc: 'An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA'
     Term:
       - Origin: caDSR

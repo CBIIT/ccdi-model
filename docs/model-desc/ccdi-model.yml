@@ -309,6 +309,7 @@ Nodes:
       - sequence_alignment_software
       - cDNA_read
       - cDNA_read_size
+      - cDNA_read_offset
       - cell_barcode_offset
       - cell_barcode_read
       - cell_barcode_size
@@ -319,8 +320,7 @@ Nodes:
       - library_construction_method
       - library_strand
       - protocols_link
-      - Reverse_Transcription_Primer
-      - Reverse_Transcription_Primer_Feature_barcoding
+      - reverse_transcription_primer
       - spike_in
       - UMI_barcode_offset
       - UMI_barcode_read

@@ -313,18 +313,18 @@ Nodes:
       - cell_barcode_read
       - cell_barcode_size
       - single_cell_entity
-      - Dissociation_Method
-      - End_Bias
-      - Total_Number_of_Input_Cells
-      - Library_Construction_Method
-      - Library_Preparation_Date
+      - dissociation_method
+      - end_bias
+      - total_number_of_input_cells
+      - library_construction_method
       - library_strand
-      - Protocols_Link
+      - protocols_link
       - Reverse_Transcription_Primer
       - Reverse_Transcription_Primer_Feature_barcoding
-      - Spike_In
+      - spike_in
       - UMI_barcode_offset
       - UMI_barcode_read
+      - UMI_barcode_size
       - id
   sequencing_file: # 01.03.22 pdunn
     Props:

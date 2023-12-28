@@ -2777,57 +2777,68 @@ PropDefinitions:
     Private: false
     Key: true
   #single_cell_sequencing_file
-  cDNA_offset:
+  cDNA_read:
+    Desc: The type of read that contains the cDNA read:index1/index2/read1/read2.
+    Term:
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
+        Value: cDNA Offset
+    Type: string
+    Req: false
+    Private: false
+  #single_cell_sequencing_file
+  cDNA_read_offset:
     Desc: A description of the cDNA offset.
     Term:
       - Origin: caDSR
         Code: '14599885'
         Value: Sequencing Library cDNA Offset Text
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: cDNA Offset
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_file  
-  cDNA_length:
-    Desc: The length of the cDNA.
-    Term:
-      - Origin: caDSR
-        Code: '14600068'
-        Value: Sequencing Library cDNA Length Text
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: cDNA Length
-    Type: string
-    Req: false
-    Private: false
-  #single_cell_sequencing_file  
-  cell_barcode:
-    Desc: A unique sequence of characters used to identify the machine-readable representation of the cell from which the read originated.
-    Term:
-      - Origin: caDSR
-        Code: '14604339'
-        Value: Sequencing Library Cell Barcode Unique Identifier
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: Cell Barcode
-    Type: string
-    Req: false
-    Private: false
   #single_cell_sequencing_file
-  cryopreserved_cells_in_sample:
-    Desc: A response to indicate whether the cells in the library preparation are revived frozen cells.
+  cDNA_read_size:
+    Desc: The size of the cDNA read. E.g. "98". 
     Term:
-      - Origin: caDSR
-        Code: '14604345'
-        Value: Sequencing Library Cryopreserved Cell Specimen Indicator
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: Cryopreserved Cells in Sample
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
+        Value: cDNA read size
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file  
+  cell_barcode_offset:
+    Desc: The offset in sequence of the cell identifying barcode.E.g. "0"
+    Term:
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
+        Value: Cell Barcode offset
+    Type: string
+    Req: false
+    Private: false
+  #single_cell_sequencing_file  
+  cell_barcode_read:
+    Desc: 'The type of read that contains the cell barcode: index1/index2/read1/read2.'
+    Term:
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
+        Value: Cell Barcode read
+    Type: string
+    Req: false
+    Private: false  
+  #single_cell_sequencing_file  
+  cell_barcode_size:
+    Desc: The size of the cell identifying barcode. E.g. "16". 
+    Term:
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
+        Value: Cell Barcode size
+    Type: string
+    Req: false
+    Private: false  
   #single_cell_sequencing_file
   dissociation_method:
     Desc: The text term to describe the method used to create single cells from tissue samples.
@@ -2835,12 +2846,22 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14606481'
         Value: Sequencing Library Tissue Dissociation Method Text
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Dissociation Method
     Type: string
     Req: false
     Private: false
+  #single_cell_sequencing_file
+  single_cell_entity:
+    Desc: The type of single cell entity derived from isolation protocol e.g. "whole cell", "nucleus", "cell-cell multimer", "spatially encoded cell barcoding". 
+    Term:
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
+        Value: Dissociation Method
+    Type: string
+    Req: false
+    Private: false  
   #single_cell_sequencing_file
   end_bias:
     Desc: The type of overabundance of transcripts seen in a sequencing library.
@@ -2848,22 +2869,22 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14606486'
         Value: Sequencing Library End Bias Type
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: End Bias
     Type: string
     Req: false
     Private: false
   #single_cell_sequencing_file
-  input_cells_and_nuclei:
-    Desc: A collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing
+  Total_Number_of_Input_Cells:
+    Desc: Numeric value used to describe the number of cells used for molecular testing.
     Term:
       - Origin: caDSR
-        Code: '14606491'
-        Value: Sequencing Library Cell Count Nuclei Number Text
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: Input Cells and Nuclei
+        Code: '6142528'
+        Value: Molecular Analysis Cell Count
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
+        Value: Total Number of Input Cells
     Type: string
     Req: false
     Private: false
@@ -2874,48 +2895,29 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14606495'
         Value: Sequencing Library Construction Method Text
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Library Construction Method
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_file
-  specimen_collection_to_sequencing_library_preparation_day_count:
-    Desc: The number of days from the date a specimen was collected to the date of the sequencing library preparation.
+  #sequencing_file
+  library_strand: 
+    Desc: The strandedness of the library, whether reads come from both strands of the cDNA or only from the first (antisense) or the second (sense) strand.    
     Term:
-      - Origin: caDSR
-        Code: '14612530'
-        Value: Specimen Collection To Sequencing Library Preparation Day Count
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
-        Value: Library Preparation Date
-    Type: string
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
+        Value: Library Strand
+    Type:
+      value_type: string
+      Enum:
+        - "antisense"
+        - "both"
+        - "sense"
+        - "Unknown"
+        - "Not reported" 
     Req: false
-    Private: false
-  #single_cell_sequencing_file
-  nucleic_acid_capture_date:
-    Desc: Date of nucleic acid capture part of library construction
-    Term:
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: Nucleic Acid Capture Date
-    Type: string
-    Req: false
-    Private: false
-  #single_cell_sequencing_file
-  paired_end:
-    Desc: Sequencing Library Paired End Text
-    Term:
-      - Origin: caDSR
-        Code: '14604166'
-        Value: Sequencing Library Paired End Text
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
-        Value: Paired End
-    Type: string
-    Req: false
-    Private: false
+    Private: false  
   #single_cell_sequencing_file
   protocols_link:
     Desc: A sequence of letters, numbers, or other characters that uniquely identifies a study protocol or a unique code used by publishers in the identification and exchange of the content of a digital object.
@@ -2923,114 +2925,29 @@ PropDefinitions:
       - Origin: caDSR
         Code: '7787673'
         Value: Raw Data Protocol Or Digital Object Identifier Text
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Protocols  Link
     Type: string
     Req: false
     Private: false
   #single_cell_sequencing_file
-  read1:
-    Desc: Sequencing Library Read 1 Text
-    Term:
-      - Origin: caDSR
-        Code: '14604321'
-        Value: Sequencing Library Read 1 Text
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
-        Value: Read1
-    Type: string
-    Req: false
-    Private: false
-  #single_cell_sequencing_file
-  read2:
-    Desc: Read 2 content description
-    Term:
-      - Origin: caDSR
-        Code: '14604381'
-        Value: Sequencing Library Read 2 Text
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
-        Value: Read2
-    Type: string
-    Req: false
-    Private: false
-  #single_cell_sequencing_file
-  reverse_transcription_primer_oligo_dT_poly_dT:
-    Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
+  Reverse_Transcription_Primer:
+    Desc: 'An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA'
     Term:
       - Origin: caDSR
         Code: '14604593'
         Value: Sequencing Library Reverse Transcription Primer Type
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Reverse Transcription Primer Oligo-dT, Poly-dT
-    Type: string
-    Req: false
-    Private: false
-  #single_cell_sequencing_file
-  feature_barcoding:
-    Desc: A textual description of a proprietary technology platform that uses a known set of oligonucleotide barcodes in combination with methods for assessing single cell gene expression.
-    Term:
-      - Origin: caDSR
-        Code: '14608643'
-        Value: Sequencing Library Feature Barcoding Text
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: Reverse Transcription Primer Feature barcoding
-    Type: string
-    Req: false
-    Private: false
-  #single_cell_sequencing_file
-  reverse_transcription_primer_random:
-    Desc: An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
-    Term:
-      - Origin: caDSR
-        Code: '14604593'
-        Value: Sequencing Library Reverse Transcription Primer Type
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: Reverse Transcription Primer Random
-    Type: string
-    Req: false
-    Private: false
-  #single_cell_sequencing_file
-  sequencing_library_construction_date:
-    Desc: Date of sequencing library construction part of library construction
-    Term:
-      - Origin: caDSR
-        Code: '14612650'
-        Value: Specimen Collection To cDNA Library Construction Day Count
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: Sequencing Library Construction Date
-    Type: string
-    Req: false
-    Private: false
-  #single_cell_sequencing_file
-  single_cell_dissociation_date:
-    Desc: The date when the sample was dissociated and cells were isolated
-    Term:
-      - Origin: caDSR
-        Code: '14640697'
-        Value: Sequencing Library Tissue Dissociation Day Count
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: Single Cell Dissociation Date
-    Type: string
-    Req: false
-    Private: false
-  #single_cell_sequencing_file
-  single_cell_isolation_method:
-    Desc: The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)
-    Term:
-      - Origin: caDSR
-        Code:  '14606450'
-        Value: Sequencing Library Single Cell Isolation Method Type
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: Single Cell Isolation Method
-    Type: string
+    Type:
+      value_type: string
+      Enum:
+        - "oligo-dT"
+        - "random"
+        - "Other"
+        - "Not Available"
     Req: false
     Private: false
   #single_cell_sequencing_file
@@ -3040,35 +2957,39 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14606468'
         Value: Sequencing Library RNA Spike-In Type
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf 
         Value: Spike In
     Type: string
     Req: false
     Private: false
   #single_cell_sequencing_file
-  total_number_of_input_cells:
-    Desc: Numeric value used to describe the number of cells used for molecular testing.
+  UMI_barcode_offset :
+    Desc: The offset in sequence of the UMI identifying barcode. E.g. "16".
     Term:
-      - Origin: caDSR
-        Code: '6142528'
-        Value: Molecular Analysis Cell Count
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: Total Number of Input Cells
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
+        Value: UMI barcode offset 
     Type: string
     Req: false
     Private: false
   #single_cell_sequencing_file
-  UMI:
+  UMI_barcode_read:
     Desc: Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
     Term:
-      - Origin: caDSR
-        Code: '14607300'
-        Value: Sequencing Library UMI Identifier
-      - Origin: HTAN
-        Code: Single-Cell and Single-Nucleus RNA Sequencing Level 1 
-        Value: UMI
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
+        Value: UMI barcode read
+    Type: string
+    Req: false
+    Private: false
+  #single_cell_sequencing_file
+  UMI_barcode_size:
+    Desc: The size of the UMI identifying barcode. E.g. "10".
+    Term:
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
+        Value: UMI barcode size
     Type: string
     Req: false
     Private: false

@@ -2840,7 +2840,7 @@ PropDefinitions:
     Req: false
     Private: false  
   #single_cell_sequencing_file
-  Dissociation_Method:
+  dissociation_method:
     Desc: The text term to describe the method used to create single cells from tissue samples.
     Term:
       - Origin: caDSR
@@ -2863,7 +2863,7 @@ PropDefinitions:
     Req: false
     Private: false  
   #single_cell_sequencing_file
-  End_Bias:
+  end_bias:
     Desc: The type of overabundance of transcripts seen in a sequencing library.
     Term:
       - Origin: caDSR
@@ -2889,7 +2889,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Library_Construction_Method:
+  library_construction_method:
     Desc: A textual description of the procedures performed for building a collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
     Term:
       - Origin: caDSR
@@ -2918,7 +2918,7 @@ PropDefinitions:
     Req: false
     Private: false  
   #single_cell_sequencing_file
-  Protocols_Link:
+  protocols_link:
     Desc: A sequence of letters, numbers, or other characters that uniquely identifies a study protocol or a unique code used by publishers in the identification and exchange of the content of a digital object.
     Term:
       - Origin: caDSR
@@ -2950,7 +2950,7 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
-  Spike_In:
+  spike_in:
     Desc: A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
     Term:
       - Origin: caDSR

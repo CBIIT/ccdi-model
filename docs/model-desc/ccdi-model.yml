@@ -201,6 +201,7 @@ Nodes:
       - implantation_type
       - implantation_site
       - tumor_confirmed_not_to_be_mus_or_ebv_origin
+      - is_tumor_from_untreated_patient
       - passage_number
       - passages_tested
       - validation_technique
@@ -306,28 +307,30 @@ Nodes:
       - custom_assembly_fasta_file_for_alignment
       - file_mapping_level
       - sequence_alignment_software
-      - cDNA_Offset
-      - cDNA_Length
-      - Cell_Barcode
-      - Cryopreserved_Cells_in_Sample
-      - Dissociation_Method
-      - End_Bias
-      - Input_Cells_and_Nuclei
-      - Library_Construction_Method
-      - Library_Preparation_Date
-      - Nucleic_Acid_Capture_Date
-      - Paired_End
-      - Protocols_Link
-      - Read1
-      - Read2
-      - Reverse_Transcription_Primer_Oligo_dT_Poly_dT
-      - Reverse_Transcription_Primer_Feature_barcoding
-      - Reverse_Transcription_Primer_Random
-      - Sequencing_Library_Construction_Date
-      - Single_Cell_Dissociation_Date
-      - Single_Cell_Isolation_Method
-      - Spike_In
-      - Total_Number_of_Input_Cells
+      - cDNA_offset
+      - cDNA_length
+      - cell_barcode
+      - cryopreserved_cells_in_sample
+      - dissociation_method
+      - end_bias
+      - input_cells_and_nuclei
+      - library_construction_method
+      #- library_preparation_date
+      - nucleic_acid_capture_date
+      - paired_end
+      - protocols_link
+      - read1
+      - read2
+      - reverse_transcription_primer_oligo_dT_poly_dT
+      #- reverse_transcription_primer_feature_barcoding
+      - specimen_collection_to_sequencing_library_preparation_day_count
+      - feature_barcoding
+      - reverse_transcription_primer_random
+      - sequencing_library_construction_date
+      - single_cell_dissociation_date
+      - single_cell_isolation_method
+      - spike_in
+      - total_number_of_input_cells
       - UMI
       - id
   sequencing_file: # 01.03.22 pdunn
@@ -382,7 +385,7 @@ Nodes:
       - organism_species
       - adult_or_childhood_study # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
       - data_types # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
-      - file_types
+      - file_types_and_format
       - number_of_participants
       - number_of_samples
       - id

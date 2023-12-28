@@ -2916,6 +2916,7 @@ PropDefinitions:
         - "sense"
         - "Unknown"
         - "Not reported" 
+    Strict: true
     Req: false
     Private: false  
   #single_cell_sequencing_file
@@ -2948,6 +2949,7 @@ PropDefinitions:
         - "random"
         - "Other"
         - "Not Available"
+    Strict: false
     Req: false
     Private: false
   #single_cell_sequencing_file

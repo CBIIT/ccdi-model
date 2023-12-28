@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 8e33550
+commit d69f69b
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -172,48 +172,46 @@ sequencing_file	number_of_reads	INTEGER
 sequencing_file	reference_genome_assembly	STRING
 sequencing_file	sequence_alignment_software	STRING
 sequencing_file	sequencing_file_id	STRING
-single_cell_sequencing_file	Cell_Barcode	STRING
-single_cell_sequencing_file	Cryopreserved_Cells_in_Sample	STRING
-single_cell_sequencing_file	Dissociation_Method	STRING
-single_cell_sequencing_file	End_Bias	STRING
-single_cell_sequencing_file	Input_Cells_and_Nuclei	STRING
-single_cell_sequencing_file	Library_Construction_Method	STRING
-single_cell_sequencing_file	Library_Preparation_Date	NA
-single_cell_sequencing_file	Nucleic_Acid_Capture_Date	STRING
-single_cell_sequencing_file	Paired_End	STRING
-single_cell_sequencing_file	Protocols_Link	STRING
-single_cell_sequencing_file	Read1	STRING
-single_cell_sequencing_file	Read2	STRING
-single_cell_sequencing_file	Reverse_Transcription_Primer_Feature_barcoding	NA
-single_cell_sequencing_file	Reverse_Transcription_Primer_Oligo_dT_Poly_dT	STRING
-single_cell_sequencing_file	Reverse_Transcription_Primer_Random	STRING
-single_cell_sequencing_file	Sequencing_Library_Construction_Date	STRING
-single_cell_sequencing_file	Single_Cell_Dissociation_Date	STRING
-single_cell_sequencing_file	Single_Cell_Isolation_Method	STRING
-single_cell_sequencing_file	Spike_In	STRING
-single_cell_sequencing_file	Total_Number_of_Input_Cells	STRING
 single_cell_sequencing_file	UMI	STRING
 single_cell_sequencing_file	avg_read_length	NUMBER
-single_cell_sequencing_file	cDNA_Length	STRING
-single_cell_sequencing_file	cDNA_Offset	STRING
+single_cell_sequencing_file	cDNA_length	STRING
+single_cell_sequencing_file	cDNA_offset	STRING
+single_cell_sequencing_file	cell_barcode	STRING
 single_cell_sequencing_file	checksum_algorithm	STRING
 single_cell_sequencing_file	checksum_value	STRING
 single_cell_sequencing_file	coverage	NUMBER
+single_cell_sequencing_file	cryopreserved_cells_in_sample	STRING
 single_cell_sequencing_file	custom_assembly_fasta_file_for_alignment	STRING
 single_cell_sequencing_file	dcf_indexd_guid	STRING
 single_cell_sequencing_file	design_description	STRING
+single_cell_sequencing_file	dissociation_method	STRING
+single_cell_sequencing_file	end_bias	STRING
 single_cell_sequencing_file	file_description	STRING
 single_cell_sequencing_file	file_name	STRING
 single_cell_sequencing_file	file_size	INTEGER
 single_cell_sequencing_file	file_url_in_cds	STRING
 single_cell_sequencing_file	id	STRING
+single_cell_sequencing_file	input_cells_and_nuclei	STRING
+single_cell_sequencing_file	library_construction_method	STRING
 single_cell_sequencing_file	library_id	STRING
 single_cell_sequencing_file	md5sum	STRING
+single_cell_sequencing_file	nucleic_acid_capture_date	STRING
 single_cell_sequencing_file	number_of_bp	INTEGER
 single_cell_sequencing_file	number_of_reads	INTEGER
+single_cell_sequencing_file	paired_end	STRING
+single_cell_sequencing_file	protocols_link	STRING
+single_cell_sequencing_file	read1	STRING
+single_cell_sequencing_file	read2	STRING
 single_cell_sequencing_file	reference_genome_assembly	STRING
+single_cell_sequencing_file	reverse_transcription_primer_oligo_dT_poly_dT	STRING
+single_cell_sequencing_file	reverse_transcription_primer_random	STRING
 single_cell_sequencing_file	sequence_alignment_software	STRING
+single_cell_sequencing_file	sequencing_library_construction_date	STRING
+single_cell_sequencing_file	single_cell_dissociation_date	STRING
+single_cell_sequencing_file	single_cell_isolation_method	STRING
 single_cell_sequencing_file	single_cell_sequencing_file_id	STRING
+single_cell_sequencing_file	spike_in	STRING
+single_cell_sequencing_file	total_number_of_input_cells	STRING
 study	acl	STRING
 study	consent	STRING
 study	consent_number	INTEGER
@@ -256,69 +254,51 @@ therapeutic_procedure	id	STRING
 therapeutic_procedure	therapeutic_procedure_id	STRING
 
 relationship	source_node	destination_node	property	value_or_TYPE
-of_cell_line	cell_line	study	NA	NA
-of_cell_line	cell_line	sample	NA	NA
 of_cell_line	cell_line	participant	NA	NA
-of_clinical_measure_file	clinical_measure_file	participant	NA	NA
+of_cell_line	cell_line	sample	NA	NA
+of_cell_line	cell_line	study	NA	NA
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
-of_cytogenomic_file	cytogenomic_file	sample	NA	NA
+of_clinical_measure_file	clinical_measure_file	participant	NA	NA
 of_cytogenomic_file	cytogenomic_file	cell_line	NA	NA
+of_cytogenomic_file	cytogenomic_file	sample	NA	NA
 of_cytogenomic_file	cytogenomic_file	pdx	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
 of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
 of_follow_up	follow_up	participant	NA	NA
 of_medical_history	medical_history	participant	NA	NA
+of_methylation_array_file	methylation_array_file	cell_line	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
 of_methylation_array_file	methylation_array_file	pdx	NA	NA
-of_methylation_array_file	methylation_array_file	cell_line	NA	NA
 of_molecular_test	molecular_test	participant	NA	NA
 of_participant	participant	study	NA	NA
-of_pathology_file	pathology_file	sample	NA	NA
 of_pathology_file	pathology_file	cell_line	NA	NA
 of_pathology_file	pathology_file	pdx	NA	NA
-of_pdx	pdx	study	NA	NA
+of_pathology_file	pathology_file	sample	NA	NA
 of_pdx	pdx	sample	NA	NA
+of_pdx	pdx	study	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
-of_sample	sample	pdx	NA	NA
 of_sample	sample	cell_line	NA	NA
 of_sample	sample	participant	NA	NA
-of_sequencing_file	sequencing_file	cell_line	NA	NA
+of_sample	sample	pdx	NA	NA
 of_sequencing_file	sequencing_file	pdx	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
+of_sequencing_file	sequencing_file	cell_line	NA	NA
+of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	pdx	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	cell_line	NA	NA
-of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	sample	NA	NA
 of_synonym	synonym	participant	NA	NA
+of_synonym	synonym	sample	NA	NA
 of_synonym	synonym	study	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
-Cell_Barcode	A unique sequence of characters used to identify the machine-readable representation of the cell from which the read originated.
-Cryopreserved_Cells_in_Sample	A response to indicate whether the cells in the library preparation are revived frozen cells.
-Dissociation_Method	The text term to describe the method used to create single cells from tissue samples.
-End_Bias	The type of overabundance of transcripts seen in a sequencing library.
-Input_Cells_and_Nuclei	A collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing
-Library_Construction_Method	A textual description of the procedures performed for building a collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
-Nucleic_Acid_Capture_Date	Date of nucleic acid capture part of library construction
-Paired_End	Sequencing Library Paired End Text
-Protocols_Link	A sequence of letters, numbers, or other characters that uniquely identifies a study protocol or a unique code used by publishers in the identification and exchange of the content of a digital object.
-Read1	Sequencing Library Read 1 Text
-Read2	Read 2 content description
-Reverse_Transcription_Primer_Oligo_dT_Poly_dT	An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
-Reverse_Transcription_Primer_Random	An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
-Sequencing_Library_Construction_Date	Date of sequencing library construction part of library construction
-Single_Cell_Dissociation_Date	The date when the sample was dissociated and cells were isolated
-Single_Cell_Isolation_Method	The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)
 Specimen_Collection_To_Sequencing_Library_Preparation_Day_Count	The number of days from the date a specimen was collected to the date of the sequencing library preparation.
-Spike_In	A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
-Total_Number_of_Input_Cells	Numeric value used to describe the number of cells used for molecular testing.
 UMI	Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
 aa_change	Alphanumeric value used to describe the amino acid change for a specific genetic variant.
 acl	A free text field used to document whether the data in a repository is open access or controlled access.
@@ -345,8 +325,9 @@ asbestos_exposure	The category related to contact with chemical, biological, or 
 avg_read_length	The average length for nucleic acid sequencing reads obtained after completion of the sequencing process.
 blood_test_normal_range_lower	Numeric value used to describe the lower limit of the normal range used to describe a healthy individual at the institution where the test was completed.
 blood_test_normal_range_upper	Numeric value used to describe the upper limit of the normal range used to describe a healthy individual at the institution where the test was completed.
-cDNA_Length	The length of the cDNA.
-cDNA_Offset	A description of the cDNA offset.
+cDNA_length	The length of the cDNA.
+cDNA_offset	A description of the cDNA offset.
+cell_barcode	A unique sequence of characters used to identify the machine-readable representation of the cell from which the read originated.
 cell_count	Numeric value used to describe the number of cells used for molecular testing.
 cell_line_id	A sequence of characters used to identify, name, or characterize a permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space.
 checksum_algorithm	The method by which the file checksum was calculated.
@@ -365,6 +346,7 @@ consent	Words which describe a set of study participants who have signed the sam
 consent_number	A numeral or string of numerals used to identify the set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository.
 copy_number	The quantity of gene copies resulting from a mutation.
 coverage	The number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.
+cryopreserved_cells_in_sample	A response to indicate whether the cells in the library preparation are revived frozen cells.
 custom_assembly_fasta_file_for_alignment	The name of the custom assembly fasta file used during sequence alignment.
 cytoband	Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the cytoband where the variant is located. Format [chromosome][chromosome arm].[band+sub-bands]. Example 17p13.1.
 cytogenomic_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
@@ -383,10 +365,12 @@ diffusionBValue	A term specifying the echo category of pulse sequences.
 diffusionDirectionalityCode	Text describing the kind of diffusion conditions for the frame, directional or isotropic, with respect to direction.
 disease_phase	The stage or period of an individual's treatment process during which relevant observations were recorded.
 disease_response	Code assigned to describe the patient's response or outcome to the disease.
+dissociation_method	The text term to describe the method used to create single cells from tissue samples.
 echoPlanarPulseSequenceIndicator	The process by which an image is acquired or obtained.:An indication as to whether multiple echos of different phase steps are acquired using rephasing gradients instead of repeated 180-degree pulses. (BRIDG):The preferred Value Domain to indicate a question with permissible values of yes/no.
 echoPulseSequenceCategoryCode	A term specifying the echo category of pulse sequences.
 echo_time	A measurement of the time in milliseconds between the application of the excitation pulse and the recording of the peak echo signal.
 email_address	The string of characters that represents the electronic mail address of a person.
+end_bias	The type of overabundance of transcripts seen in a sequencing library.
 environmental_tobacco_smoke_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
 ethnicity	The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
 exon	The text term used to describe a specific exon targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located.
@@ -420,6 +404,7 @@ image_modality	A system of categories for representing a specific manner, charac
 imaging_frequency	imaging_frequency
 implantation_site	The location within the body from which a specimen was originally obtained as captured in the Uberon name.
 implantation_type	The type of surgical procedure that places a human-derived tumor sample into an immunodeficient mouse.
+input_cells_and_nuclei	A collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing
 institution	A sequence of characters used to identify, name, or characterize the laboratory, institute, or consortium that provided the information.
 instrument_model	The words used to describe the specific model of the instrument used to carry out a high-throughput sequencing experiment.
 intron	Intron number targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the intron where that variant is located.
@@ -427,6 +412,7 @@ inversionRecoveryIndicator	An indicator response as to whether or not the pulse 
 inversion_time	A measurement of the time between the inversion and excitation pulses in an inversion recovery pulse sequence.
 laboratory_test_name	The words by which the laboratory assessment is known.
 last_known_disease_status	The most recently documented condition or state of an individual's disease.
+library_construction_method	A textual description of the procedures performed for building a collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
 library_id	A short unique identifier assigned to a nucleotide sequencing library.
 library_layout	The read strategy or method that was used for sequencing and analysis of a nucleotide library.
 library_selection	The type of systematic actions performed to select or enrich DNA fragments used in analysis by high-throughput sequencing.
@@ -451,12 +437,14 @@ molecular_test_id	A unique sequence of characters used to identify, name, or cha
 mouse_strain	The words by which breeds of mice utilized for biological research are known.
 mrImageReconstructionProtocolElement	mrImageReconstructionProtocolElement
 multipleSpinEchoIndicator	An indicator response as to whether or not the pulse sequence is a multiple spin Echo pulse sequence.
+nucleic_acid_capture_date	Date of nucleic acid capture part of library construction
 number_of_bp	Count of unique basecalls present in the data. Please count each base only once if using secondary alignments.
 number_of_participants	The number of unique participant instances associated with a systematic investigation into a subject.
 number_of_reads	The number of sequencing reaction results that were pooled to assemble a sequence for a genomic region of interest.
 number_of_samples	The number of samples associated with a subset of a larger population associated with systematic investigation into a subject.
 organism_species	The organism from which the sample is derived or originated.
 pack_years_smoked	Numeric computed value to represent lifetime tobacco exposure defined as number of cigarettes smoked per day x number of years smoked divided by 20.
+paired_end	Sequencing Library Paired End Text
 participant_age_at_collection	The age (in days) of the subject at the time of specimen collection.
 participant_age_at_imaging	The age (in days) of the subject at the time of an imaging procedure.
 participant_id	A sequence of letters, numbers, or characters that uniquely identifies the subject who has taken part in the investigation or research study.
@@ -475,12 +463,15 @@ phs_accession	A stable unique alphanumeric identifier assigned to a study and an
 pixel_spacing	Physical distance between the center of each pixel in an image.
 platform	The words used to describe the instrument used to carry out a high-throughput sequencing experiment.
 ploidy	Text term used to describe the number of sets of homologous chromosomes.
+protocols_link	A sequence of letters, numbers, or other characters that uniquely identifies a study protocol or a unique code used by publishers in the identification and exchange of the content of a digital object.
 publication_id	A Digital Object Identifier (DOI) of the publication associated with the study.
 pubmed_id	PubMed identifier of the publication associated with the study.
 pulseSequenceName	The process by which an image is acquired or obtained. The literal identifier for the pulse sequence.
 race	The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
 radiology_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 radon_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
+read1	Sequencing Library Read 1 Text
+read2	Read 2 content description
 reference_genome_assembly	One or more characters used to identify the published NCBI genetic sequence that is used as a reference against which other sequences are compared.
 related_to_participant_id	A sequence of characters used to uniquely identify, name, or characterize the state of connectedness between members of the unit of society organized around kinship ties.
 relationship	The subgroup that describes the state of connectedness between members of the unit of society organized around kinship ties.
@@ -489,6 +480,8 @@ reporter_label	The text term to describe the labeled methyl group used as a mole
 repository_of_synonym_id	A textual description of a storage location for digital data.
 resonantNucleusCode	Text specifying the atomic nucleus that is resonant at the transmitter frequency.
 respirable_crystalline_silica_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
+reverse_transcription_primer_oligo_dT_poly_dT	An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
+reverse_transcription_primer_random	An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
 risk_factor	The text term used to describe a risk factor the patient had at the time of or prior to their diagnosis.
 sample_description	Text description of a sample or specimen.
 sample_id	A unique sequence of alphanumeric characters used to identify the specimen at it's point of origin.
@@ -501,7 +494,10 @@ second_exon	A numeral or string of numerals that is used to identify the positio
 second_gene_symbol	The HGNC gene symbol for the second coding region in a mutation that spans two gene locations (Example: fusion, translocation, inversion).
 sequence_alignment_software	The name of the software program used to align nucleotide sequencing data.
 sequencing_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
+sequencing_library_construction_date	Date of sequencing library construction part of library construction
 sex_at_birth	A textual description of a person's sex at birth.
+single_cell_dissociation_date	The date when the sample was dissociated and cells were isolated
+single_cell_isolation_method	The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)
 single_cell_sequencing_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 size_of_data_being_uploaded	The measure (in bytes) of how much space a data file takes up on a storage medium.
 slice_thickness	A string of characters representing either a fixed point number or a floating point number capturing the nominal slice thickness relative to the patient-based coordinate system expressed in number of millimeters.
@@ -509,6 +505,7 @@ smoking_frequency	The number of occurrences of smoking over a time period.
 source	The words by which a permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space is known.
 specialized_molecular_test	A textual description of a laboratory procedure that involves the study of tissues, cells, and fluids using DNA/RNA analysis techniques for the identification of characteristics and abnormalities at the molecular level.
 spectrallySelectedSuppressionCode	Text specifying the kind of spectrally selected suppression used in an imaging technology or method.
+spike_in	A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
 staining_method	The name of the dye or other coloring material used in microscopy to make biological sample structures visible.
 steadyStatePulseSequenceCode	The process by which an image is acquired or obtained.:A coded value specifying the steady state pulse sequence.:A coded value specifying the steady state pulse sequence._Something distinguishable as an identifiable class based on common qualities.
 study_acronym	The acronym or abbreviated form of the title for a research data collection.
@@ -534,6 +531,7 @@ tobacco_smoking_onset_year	Tobacco Smoking History Onset Year Date
 tobacco_smoking_quit_year	A record of an individual's background in regard to smoking tobacco. This would include such factors as start date, end date (if applicable), number of cigarette smoked, attempts to quit, and others.:The year in which an individual quit smoking.:The particular year an event has happened or will happen.
 tobacco_smoking_status	A category which describes an individual's history of smoking tobacco.
 toronto_childhood_cancer_staging	Cancer stage as captured by the Toronto Childhood Cancer Stage Guidelines.
+total_number_of_input_cells	Numeric value used to describe the number of cells used for molecular testing.
 transcript	Alphanumeric value used to describe the transcript of a specific genetic variant.
 treatment_outcome	Text term that describes the patient's final outcome after the treatment was administered.
 treatment_type	Text term that describes the kind of treatment administered.

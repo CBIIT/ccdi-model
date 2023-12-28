@@ -201,6 +201,7 @@ Nodes:
       - implantation_type
       - implantation_site
       - tumor_confirmed_not_to_be_mus_or_ebv_origin
+      - is_tumor_from_untreated_patient
       - passage_number
       - passages_tested
       - validation_technique
@@ -322,6 +323,8 @@ Nodes:
       - read2
       - reverse_transcription_primer_oligo_dT_poly_dT
       #- reverse_transcription_primer_feature_barcoding
+      - specimen_collection_to_sequencing_library_preparation_day_count
+      - feature_barcoding
       - reverse_transcription_primer_random
       - sequencing_library_construction_date
       - single_cell_dissociation_date
@@ -382,7 +385,7 @@ Nodes:
       - organism_species
       - adult_or_childhood_study # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
       - data_types # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
-      - file_types
+      - file_types_and_format
       - number_of_participants
       - number_of_samples
       - id

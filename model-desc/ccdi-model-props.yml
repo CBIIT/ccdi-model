@@ -2903,7 +2903,8 @@ PropDefinitions:
     Private: false
   #sequencing_file
   library_strand: 
-    Desc: The strandedness of the library, whether reads come from both strands of the cDNA or only from the first (antisense) or the second (sense) strand.    Term:
+    Desc: The strandedness of the library, whether reads come from both strands of the cDNA or only from the first (antisense) or the second (sense) strand.    
+    Term:
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Library Strand

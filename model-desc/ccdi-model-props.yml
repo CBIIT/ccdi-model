@@ -2843,6 +2843,16 @@ PropDefinitions:
     Req: false
     Private: false
   #single_cell_sequencing_file
+  single_cell_entity:
+    Desc: The type of single cell entity derived from isolation protocol e.g. "whole cell", "nucleus", "cell-cell multimer", "spatially encoded cell barcoding". 
+    Term:
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
+        Value: Dissociation Method
+    Type: string
+    Req: false
+    Private: false  
+  #single_cell_sequencing_file
   End_Bias:
     Desc: The type of overabundance of transcripts seen in a sequencing library.
     Term:
@@ -2881,6 +2891,22 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #sequencing_file
+  library_strand: 
+    Desc: The strandedness of the library, whether reads come from both strands of the cDNA or only from the first (antisense) or the second (sense) strand.    Term:
+      - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
+        Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
+        Value: Library Strand
+    Type:
+      value_type: string
+      Enum:
+        - "antisense"
+        - "both"
+        - "sense"
+        - "Unknown"
+        - "Not reported" 
+    Req: false
+    Private: false  
   #single_cell_sequencing_file
   Protocols_Link:
     Desc: A sequence of letters, numbers, or other characters that uniquely identifies a study protocol or a unique code used by publishers in the identification and exchange of the content of a digital object.

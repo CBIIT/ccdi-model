@@ -5148,12 +5148,12 @@ PropDefinitions:
     Private: false 
     Key: true
   #study_arm
-  clinical_trial_arm:
-    Desc: Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
+  study_arm_description:
+    Desc: A study population that receives an intervention(s) within a trial. This could include the investigational product(s) or a comparator (e.g., placebo or an approved intervention)._A written or verbal account, representation, statement, or explanation of something.
     Term:
       - Origin: caDSR
-        Code: '2649415'
-        Value: Clinical Trial Protocol Identifier 64 Character Text
+        Code: '7717424'
+        Value: Clinical Trial Arm Description
     Type: string
     Req: false
     Private: false

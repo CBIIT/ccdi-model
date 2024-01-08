@@ -382,10 +382,10 @@ Nodes:
       - number_of_participants
       - number_of_samples
       - id
-  study_arm: # 09.21.22 pd
+  study_arm: 
     Props:
       - study_arm_id
-      - clinical_trial_arm
+      - study_arm_description
       - clinical_trial_identifier
       - clinical_trial_repository
       - id

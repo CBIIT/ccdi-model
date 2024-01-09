@@ -5159,11 +5159,11 @@ PropDefinitions:
     Private: false
   #study_arm
   clinical_trial_identifier:
-    Desc: Identifier for the noted protocol, used by the Clinical Trial Sponsor to uniquely identify the investigational protocol.
+    Desc:One or more characters assigned by the Clinical Trial Sponsor to uniquely identify the investigational protocol or research activity.
     Term:
       - Origin: caDSR
-        Code: '2649415'
-        Value: Clinical Trial Site Identifier 64 Character Text
+        Code: '14673514'
+        Value: Clinical Trial Study Protocol Unique Identifier
     Type: string
     Req: true
     Private: false

@@ -5138,22 +5138,22 @@ PropDefinitions:
     Private: false
   #study_arm
   study_arm_id:
-    Desc: A sequence of characters used to identify, name, or characterize the specific treatment plan within a clinical trial that describes the activities a pediatric subject will be involved in as he or she progresses through the study.
+    Desc: 	One or more characters used to identify, name, or characterize digital data records related to specific treatment plans within a clinical trial.
     Term:
       - Origin: caDSR
-        Code: '12988910'
-        Value: Study Pediatric Protocol Treatment Arm Identifier
+        Code: '14674393'
+        Value: CCDI Study Arm Electronic Record Unique Identifier
     Type: string
     Req: true
     Private: false 
     Key: true
   #study_arm
   study_arm_description:
-    Desc: A study population that receives an intervention(s) within a trial. This could include the investigational product(s) or a comparator (e.g., placebo or an approved intervention)._A written or verbal account, representation, statement, or explanation of something.
+    Desc: Text which describes a treatment arm of the clinical trial.
     Term:
       - Origin: caDSR
-        Code: '7717424'
-        Value: Clinical Trial Arm Description
+        Code: '11524548'
+        Value: Clinical Trial Treatment Arm Text
     Type: string
     Req: false
     Private: false

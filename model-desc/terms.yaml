@@ -171,6 +171,12 @@ Terms:
     Code: 4265117
     Version: '1'
     Value: Abnormal
+  Acceptor Splice Site SNP:
+    Origin: NCIt
+    Definition: A heritable single nucleotide polymorphism located at the acceptor splice site in certain allelic variants of eukaryotic genes. These sites are located in genes at intron to exon junctions at the 3' end of the intron.
+    Code: C45389
+    Version: '1'
+    Value: Acceptor Splice Site SNP
   Accessory sinus, NOS:
     Origin: caDSR
     Definition: Any one of the air-filled spaces within the ethmoid, frontal, maxillary,
@@ -1032,8 +1038,15 @@ Terms:
   cns:
     Origin: CNVKit
     Definition: Segmented log2 ratios (.cns), In addition to the chromosome, start, end, gene, log2, depth and weight columns present in .cnr files, the .cns file format has the additional column probes, indicating the number of bins covered by the segment.
+    Code: NA
     Version: '1'
     Value: Copy Number Segmented log2 ratios
+  Coding Sequence Variant:
+    Origin:  NCIt
+    Definition: A change in the nucleotide sequence of an exon in a gene
+    Code: C148639
+    Version: '1'
+    Value: Exon Mutation
   Colon:
     Origin: caDSR
     Definition: The part of the large intestine measured from the cecum to the rectum
@@ -3462,6 +3475,12 @@ Terms:
     Code: 3242758
     Version: '1'
     Value: Nipple
+  NMD Transcript Variant:
+    Origin: NCIt
+    Definition: A mutation occurring in a sequence that regulates non-sense mediated mRNA decay.
+    Code: C148643
+    Version: '1'
+    Value: Non-Sense Mediated Decay Mutation
   'No':
     Origin: caDSR
     Definition: The non-affirmative response to a question.
@@ -3508,6 +3527,12 @@ Terms:
     Code: 3308097
     Version: '1'
     Value: Negation Therapeutic Procedure
+  Non-coding Transcript Variant:
+    Origin: NCIt
+    Definition: A change in the nucleotide sequence of a non-coding gene.
+    Code: C148644
+    Version: '1'
+    Value: Non-Coding Gene Mutation
   Non-neoplastic:
     Origin: caDSR
     Definition: 'An operation in which a term denies or inverts the meaning of another
@@ -4839,6 +4864,12 @@ Terms:
     Code: 4265274
     Version: '1'
     Value: Prostate Gland
+  Protein Altering Variant:
+    Origin: NCIt
+    Definition: A point mutation occurring within the protein-coding region of a gene, and which codes for a different amino acid than expected.
+    Code: C18133
+    Version: '1'
+    Value: Missense Mutation
   Proteomics:
     Origin: caDSR
     Definition: The global analysis of cellular proteins. Proteomics uses a combination
@@ -5452,6 +5483,12 @@ Terms:
     Code: 6141817
     Version: '1'
     Value: Splice Donor  
+  Splice Region Variant:
+    Origin: NCIt
+    Definition: Any mutation that occurs within the discrete sequences comprising the 5' or 3' splice sites of a gene that has a spliced message. Splice-site mutation may result in a deletion or insertion of extraneous amino acids in the gene product or a change in the reading frame of the spliced message.
+    Code: C19798
+    Version: '1'
+    Value: Splice-Site Mutation
   ssRNA-seq:
     Origin: caDSR
     Definition: Strand-specific RNA sequencing
@@ -5508,6 +5545,12 @@ Terms:
     Code: 3684610
     Version: '1'
     Value: Stomach, Not Otherwise Specified
+  Stop Gain:
+    Origin: NCIt
+    Definition: A point mutation occurring within the protein-coding region of a gene, and which codes for a stop that can truncate the protein.
+    Code: C62198
+    Version: '1'
+    Value: Nonsense Mutation
   Stop Lost:   
     Origin: caDSR
     Definition: A mutation occurring within the stop codon of a gene that results in a sequence that no longer encodes a stop codon and results in the transcription of non-coding regions downstream of the gene.    
@@ -6360,6 +6403,12 @@ Terms:
     Code: 2577115
     Version: '1'
     Value: Upper-Outer Quadrant of the Breast
+  Upstream Gene Variant:
+    Origin: NCIt
+    Definition: Any gene mutation that occurs in the sequences upstream from a coding region of interest.
+    Code: C63430
+    Version: '1'
+    Value: 5' Flank Mutation
   Urachus:
     Origin: caDSR
     Definition: The urinary canal of the fetus; postnatally it is usually a fibrous

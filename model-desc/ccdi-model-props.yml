@@ -2428,6 +2428,7 @@ PropDefinitions:
       value_type: string
       Enum:
         - "Acceptor Splice Site SNP"
+        - "Coding Sequence Variant"
         - "Exon Mutation"
         - "Frameshift Mutation"
         - "Inframe"
@@ -2435,14 +2436,20 @@ PropDefinitions:
         - "Inframe Insertion"
         - "Intronic Mutation"
         - "Missense Mutation"
+        - "NMD Transcript Variant"
         - "Non-Coding Gene Mutation"
+        - "Non-coding Transcript Variant"
         - "Nonsense Mutation"
         - "Not Reported"
+        - "Protein Altering Variant"
         - "Splice Acceptor"
         - "Splice Donor"
+        - "Splice Region Variant"
         - "Start Lost"
+        - "Stop Gain"
         - "Stop Lost"
         - "Synonymous"
+        - "Upstream Gene Variant"
     Req: false
     Strict: false
     Private: false

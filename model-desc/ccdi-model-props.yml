@@ -5145,7 +5145,7 @@ PropDefinitions:
     Private: false
   #study_arm
   study_arm_id:
-    Desc: 	One or more characters used to identify, name, or characterize digital data records related to specific treatment plans within a clinical trial.
+    Desc: One or more characters used to identify, name, or characterize digital data records related to specific treatment plans within a clinical trial.
     Term:
       - Origin: caDSR
         Code: '14674393'

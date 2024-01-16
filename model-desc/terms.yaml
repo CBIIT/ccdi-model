@@ -5545,7 +5545,7 @@ Terms:
     Code: 3684610
     Version: '1'
     Value: Stomach, Not Otherwise Specified
-  Stop Gain:
+  Stop Gained:
     Origin: NCIt
     Definition: A point mutation occurring within the protein-coding region of a gene, and which codes for a stop that can truncate the protein.
     Code: C62198

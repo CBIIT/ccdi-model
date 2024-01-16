@@ -1,4 +1,5 @@
 Handle: CCDI
+Version: v1.7.2
 Nodes:
   cell_line:
     Props:

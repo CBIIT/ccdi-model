@@ -3664,7 +3664,9 @@ PropDefinitions:
     Type:
       value_type: string
       Enum:
-        - "American Joint Committee on Cancer (AJCC)"
+        - "AJCC Metastasis M Stage"
+        - "AJCC Lymph Node N Stage"
+        - "AJCC Tumor T Stage"
         - "Toronto Childhood Cancer Stage Guidelines"
     Req: false
     Strict: false

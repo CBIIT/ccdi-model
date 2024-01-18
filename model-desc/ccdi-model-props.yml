@@ -3651,6 +3651,24 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
+  #diagnosis, sample
+  tumor_stage_source: 
+    Desc: Code of pathological T (primary tumor) to define the size or contiguous extension of the primary tumor (T), using staging criteria from the American Joint Committee on Cancer (AJCC).
+    Term:
+      - Origin: caDSR
+        Code: '3045435'
+        Value: American Joint Committee on Cancer Tumor Stage Code
+      - Origin: caDSR
+        Code: '13299113'
+        Value: Childhood Cancer Toronto Guidelines Stage
+    Type:
+      value_type: string
+      Enum:
+        - "American Joint Committee on Cancer (AJCC)"
+        - "Toronto Childhood Cancer Stage Guidelines"
+    Req: false
+    Strict: false
+    Private: false
   #diagnosis
   age_at_recurrence:
     Desc: The age (in days) of the subject at the time of recurrence.
@@ -4418,56 +4436,6 @@ PropDefinitions:
     Req: false
     Strict: false
     Private: false
-  # sample
-  tumor_stage_clinical_t: 
-    Desc: Extent of the primary cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
-    Term:
-      - Origin: caDSR
-        Code: '3440328'
-        Value: Neoplasm American Joint Committee on Cancer Clinical Primary Tumor T Stage
-    Type:
-      value_type: string
-      Enum:
-        - "T0"
-        - "T1"
-        - "T1a"
-        - "T1a1"
-        - "T1a2"
-        - "T1b"
-        - "T1b1"
-        - "T1b2"
-        - "T1c"
-        - "T1mi"
-        - "T2"
-        - "T2a"
-        - "T2a1"
-        - "T2a2"
-        - "T2b"
-        - "T2c"
-        - "T2d"
-        - "T3"
-        - "T3a"
-        - "T3b"
-        - "T3c"
-        - "T3d"
-        - "T4"
-        - "T4a"
-        - "T4b"
-        - "T4c"
-        - "T4d"
-        - "T4e"
-        - "T5"
-        - "Ta"
-        - "Tis"
-        - "Tis (DCIS)"
-        - "Tis (LCIS)"
-        - "Tis (Paget's)"
-        - "TX"
-    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
-    Strict: false
-    Private: false
-
-# tumor_morphology: CCDIDC-360
   #diagnosis
   disease_phase:
     Desc: The stage or period of an individual's treatment process during which relevant observations were recorded.

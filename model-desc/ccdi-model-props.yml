@@ -3484,15 +3484,97 @@ PropDefinitions:
     Strict: true
     Private: false
   #diagnosis, sample
-  toronto_childhood_cancer_staging:
-    Desc: Cancer stage as captured by the Toronto Childhood Cancer Stage Guidelines.
-    Term: 
+  tumor_stage:
+    Desc: Code of pathological T (primary tumor) to define the size or contiguous extension of the primary tumor (T), using staging criteria from the American Joint Committee on Cancer (AJCC).
+    Term:
+      - Origin: caDSR
+        Code: '3045435'
+        Value: American Joint Committee on Cancer Tumor Stage Code
+      - Origin: caDSR
+        Code: '3440331'
+        Value: Neoplasm American Joint Committee on Cancer Clinical Distant Metastasis M Stage
+      - Origin: caDSR
+        Code: '3440330'
+        Value: Neoplasm American Joint Committee on Cancer Clinical Regional Lymph Node N Stage
+      - Origin: caDSR
+        Code: '3440328'
+        Value: Neoplasm American Joint Committee on Cancer Clinical Primary Tumor T Stage
       - Origin: caDSR
         Code: '13299113'
         Value: Childhood Cancer Toronto Guidelines Stage
     Type:
       value_type: string
       Enum:
+        - "[---- American Joint Committee on Cancer Clinical Primary Tumor M Stage ----]"
+        - "cM0 (i+)"
+        - "M0"
+        - "M1"
+        - "M1a"
+        - "M1b"
+        - "M1c"
+        - "MX"
+        - "[--- American Joint Committee on Cancer Clinical Primary Tumor N Stage ----]"
+        - "N0"
+        - "N0 (i-)"
+        - "N0 (i+)"
+        - "N0 (mol-)"
+        - "N0 (mol+)"
+        - "N1"
+        - "N1a"
+        - "N1b"
+        - "N1bI"
+        - "N1bII"
+        - "N1bIII"
+        - "N1bIV"
+        - "N1c"
+        - "N1mi"
+        - "N2"
+        - "N2a"
+        - "N2b"
+        - "N2c"
+        - "N3"
+        - "N3a"
+        - "N3b"
+        - "N3c"
+        - "N4"
+        - "NX"
+        - "[---- American Joint Committee on Cancer Clinical Primary Tumor T Stage ----]"
+        - "T0"
+        - "T1"
+        - "T1a"
+        - "T1a1"
+        - "T1a2"
+        - "T1b"
+        - "T1b1"
+        - "T1b2"
+        - "T1c"
+        - "T1mi"
+        - "T2"
+        - "T2a"
+        - "T2a1"
+        - "T2a2"
+        - "T2b"
+        - "T2c"
+        - "T2d"
+        - "T3"
+        - "T3a"
+        - "T3b"
+        - "T3c"
+        - "T3d"
+        - "T4"
+        - "T4a"
+        - "T4b"
+        - "T4c"
+        - "T4d"
+        - "T4e"
+        - "T5"
+        - "Ta"
+        - "Tis"
+        - "Tis (DCIS)"
+        - "Tis (LCIS)"
+        - "Tis (Paget's)"
+        - "TX" 
+        - "[---- Toronto Childhood Cancer Stage ----]"
         - "Acute lymphoblastic leukemia CNS1"
         - "Acute lymphoblastic leukemia CNS2"
         - "Acute lymphoblastic leukemia CNS3"
@@ -3565,7 +3647,7 @@ PropDefinitions:
         - "Testicular germ cell tumor Stage IIIA"
         - "Testicular germ cell tumor Stage IIIB"
         - "Testicular germ cell tumor Stage IIIC"
-        - "Testicular germ cell tumor Stage IS"
+        - "Testicular germ cell tumor Stage IS"     
     Req: false
     Strict: true
     Private: false
@@ -4384,63 +4466,7 @@ PropDefinitions:
     Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
     Strict: false
     Private: false
-  # sample
-  tumor_stage_clinical_n:
-    Desc: Extent of the regional lymph node involvement for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
-    Term:
-      - Origin: caDSR
-        Code: '3440330'
-        Value: Neoplasm American Joint Committee on Cancer Clinical Regional Lymph Node N Stage
-    Type:
-      value_type: string
-      Enum:
-        - "N0"
-        - "N0 (i-)"
-        - "N0 (i+)"
-        - "N0 (mol-)"
-        - "N0 (mol+)"
-        - "N1"
-        - "N1a"
-        - "N1b"
-        - "N1bI"
-        - "N1bII"
-        - "N1bIII"
-        - "N1bIV"
-        - "N1c"
-        - "N1mi"
-        - "N2"
-        - "N2a"
-        - "N2b"
-        - "N2c"
-        - "N3"
-        - "N3a"
-        - "N3b"
-        - "N3c"
-        - "N4"
-        - "NX"
-    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
-    Strict: false
-    Private: false
-  # sample
-  tumor_stage_clinical_m:
-    Desc: Extent of the distant metastasis for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment.
-    Term:
-      - Origin: caDSR
-        Code: '3440331'
-        Value: Neoplasm American Joint Committee on Cancer Clinical Distant Metastasis M Stage
-    Type:
-      value_type: string
-      Enum:
-        - "cM0 (i+)"
-        - "M0"
-        - "M1"
-        - "M1a"
-        - "M1b"
-        - "M1c"
-        - "MX"
-    Req: false  # 02/22/2022 adeforge, not required? correct: 28feb22 pdunn
-    Strict: false
-    Private: false
+
 # tumor_morphology: CCDIDC-360
   #diagnosis
   disease_phase:

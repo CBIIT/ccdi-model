@@ -270,11 +270,10 @@ Nodes:
       - alternate_sample_id
       - last_known_disease_status
       - age_at_last_known_disease_status
-      - toronto_childhood_cancer_staging
       - tumor_grade
-      - tumor_stage_clinical_t
-      - tumor_stage_clinical_n
-      - tumor_stage_clinical_m
+      - tumor_grade_source
+      - tumor_stage
+      - tumor_stage_source
       - id
   #   - sample_type
   #   - biosample_accession captured in synonym 

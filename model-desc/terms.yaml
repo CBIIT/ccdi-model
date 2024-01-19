@@ -2358,9 +2358,9 @@ Terms:
     Version: '1'
     Value: Inframe Insertion
   injection:
-    Origin: JAX
-    Definition: Injection is a procedure where the human tumor cells are injected into a lateral tail vein of the mouse host using a syringe and the smallest gauge needle possible 
-    Code: 
+    Origin: NCIt
+    Definition: Administration of a drug into a location within the body; this can be achieved either through an established access or via a needle.    
+    Code: C28160
     Version: '1'
     Value: injection
   instrument_model:
@@ -2424,6 +2424,12 @@ Terms:
     Code: 3566779
     Version: '1'
     Value: Intrathoracic Lymph Node
+  intravenous:
+    Origin: NCIt
+    Definition: Into or within a vein. Intravenous usually refers to a way of giving a drug or other substance through a needle or tube inserted into a vein.
+    Code: C13346
+    Version: '1'
+    Value: Intravenous
   Intronic Mutation:
     Origin: NCIt
     Definition: Any mutation within an intron, including the sequences that comprise the intron boundary.

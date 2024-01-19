@@ -3209,7 +3209,7 @@ PropDefinitions:
       value_type: string
       Enum:
         - 'brain stem'
-        - 'intra peritoneal cavity'
+        - 'intraperitoneal cavity'
         - 'left cerebrum'
         - 'mammary fat pad'
         - 'muscle'

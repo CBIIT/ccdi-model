@@ -3191,9 +3191,10 @@ PropDefinitions:
       value_type: string
       Enum:
         - 'injection'
-        - 'trocar'
-        - 'surgical'
+        - 'intravenous'
         - 'orthotopic'
+        - 'surgical'
+        - 'trocar'
     Req: true
     Strict: false
     Private: false

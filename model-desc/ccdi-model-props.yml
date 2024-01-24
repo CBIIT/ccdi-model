@@ -3401,10 +3401,10 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '14714144'
-        Value: 'Diagnosis Term Source Name'
+        Value: Diagnosis Term Source Name
       - Origin: NCIt
-        Code: ' C42673'
-        Value: 'Definition Source'
+        Code: 'C42673'
+        Value: Definition Source
     Type:
       value_type: string
       Enum:
@@ -3423,7 +3423,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '14714145'
-        Value: 'Diagnosis Level of Certainty Status'
+        Value: Diagnosis Level of Certainty Status
     Type:
       value_type: string
       Enum:
@@ -3441,7 +3441,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '14714146'
-        Value: 'Diagnosis Assessment Basis Source'
+        Value: Diagnosis Assessment Basis Source
     Type:
       value_type: list
       Enum:

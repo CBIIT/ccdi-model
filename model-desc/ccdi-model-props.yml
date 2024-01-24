@@ -3443,7 +3443,7 @@ PropDefinitions:
         Code: '14714146'
         Value: Diagnosis Assessment Basis Source
     Type:
-      value_type: list
+      value_type: string
       Enum:
         - 'Clinical'
         - 'Molecular'

@@ -1,4 +1,10 @@
 Terms:
+  3-Dimensional Conformal Radiation Therapy:
+    Origin: NCIt
+    Definition: A process by which a dose of radiation is automatically shaped to closely conform to the entire volume of the tumor, so that surrounding normal tissue is spared and treatment toxicity is decreased.
+    Code: C16035
+    Version: '1'
+    Value: 3-Dimensional Conformal Radiation Therapy
   80 degrees C:
     Origin: caDSR
     Definition: "The act or event which causes the transition from a liquid to solid matter phase when the temperature is lowered.: Used to indicate position, location, or state.: A temperature of minus 80 celsius."
@@ -231,6 +237,12 @@ Terms:
     Code: 2580948
     Version: '1'
     Value: alive
+  Allogeneic Hematopoietic Stem Cell Transplantation:
+    Origin: NCIt
+    Definition: A clinical treatment in which HSC capable of reconstituting the immune system and blood production (hematopoiesis) are transferred from one genetically dissimilar individual to another. The donor and recipient may or may not be related. 2005
+    Code: C46089
+    Version: '1'
+    Value: Allogeneic Hematopoietic Stem Cell Transplantation
   alternate_participant_id:
     Origin: caDSR
     Definition: A unique sequence of alphanumeric characters used to identify the
@@ -378,6 +390,12 @@ Terms:
     Code: 6273353
     Version: '1'
     Value: ATAC-seq
+  Autologous Stem Cell Transplantation:
+    Origin: NCIt
+    Definition: The transference of stem cells within the same individual.
+    Code: C16039
+    Version: '1'
+    Value: Autologous Stem Cell Transplantation    
   Autonomic nervous system, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: The part of the nervous system
@@ -618,20 +636,6 @@ Terms:
     Code: 7656734
     Version: '1'
     Value: Anatomic Border Tongue
-  Brachytherapy, High Dose:
-    Origin: caDSR
-    Definition: Internal radiation treatment that targets a cancerous tissue with
-      accurate, high doses of radiation through the use of inserted temporary implants.
-    Code: 2584511
-    Version: '1'
-    Value: High-Dose Rate Brachytherapy
-  Brachytherapy, Low Dose:
-    Origin: caDSR
-    Definition: Internal radiation treatment that targets a cancerous tissue with
-      low doses of radiation through the use of inserted temporary or permanent implants.
-    Code: 3028886
-    Version: '1'
-    Value: Low-Dose Rate Brachytherapy
   Brain:
     Origin: caDSR
     Definition: That part of the central nervous system contained within the cranium,
@@ -925,10 +929,9 @@ Terms:
     Version: '1'
     Value: Buccal Mucosa
   Chemotherapy:
-    Origin: caDSR
-    Definition: The use of synthetic or naturally-occurring chemicals for the treatment
-      of diseases.
-    Code: 5102333
+    Origin: NCIt
+    Definition: The use of synthetic or naturally-occurring chemicals for the treatment of diseases.
+    Code: C15632
     Version: '1'
     Value: Chemotherapy
   Chest wall, NOS: 
@@ -1085,6 +1088,12 @@ Terms:
     Code: 5612204
     Version: '1'
     Value: Computed Tomography
+  Concurrent Chemoradiation:
+    Origin: NCIt
+    Definition: Treatment in which radiation therapy is administered at the same time as chemotherapy.
+    Code: C141342
+    Version: '1'
+    Value: Concurrent Chemoradiation
   Conjunctiva:
     Origin: caDSR
     Definition: A thin, transparent tissue divided into the palpebral conjunctiva
@@ -1163,6 +1172,12 @@ Terms:
     Code: 7656744
     Version: '1'
     Value: Connective, subcutaneous and other soft tissues, NOS
+  Conventional Radiotherapy:
+    Origin: NCIt
+    Definition: A course of radiotherapy where minimal imaging support (i.e. X-rays films) is used to determine the positioning of radiotherapy.
+    Code: C165189
+    Version: '1'
+    Value: Conventional Radiotherapy
   Cornea, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: A dome-shaped, transparent,
@@ -1270,13 +1285,7 @@ Terms:
     Definition: Technique or procedure for manipulation of cells and analysis of cell properties and subcellular features.
     Code: 3452321
     Version: '1'
-    Value: Cytology  
-  Cytotoxic chemotherapy:
-    Origin: caDSR
-    Definition: Anticancer drugs that kill cells, especially cancer cells.
-    Code: 4780585
-    Version: '1'
-    Value: Cytotoxic Chemotherapy
+    Value: Cytology
   days_to_last_followup:
     Origin: caDSR
     Definition: Time interval from the date of last followup to the date of initial
@@ -1503,6 +1512,12 @@ Terms:
     Code: 3242717
     Version: '1'
     Value: Ectocervix
+  External Beam Radiation Therapy:
+    Origin: NCIt
+    Definition: A type of radiation therapy that uses a machine to aim high-energy rays at the cancer from outside of the body.
+    Code: C15751
+    Version: '1'
+    Value: External Beam Radiation Therapy
   External ear:
     Origin: caDSR
     Definition: The external part of the ear.
@@ -1522,13 +1537,6 @@ Terms:
     Code: 6402403
     Version: '1'
     Value: External Lower Lip
-  External Radiation:
-    Origin: caDSR
-    Definition: A type of radiation therapy that uses a machine to aim high-energy
-      rays at the cancer from outside of the body.
-    Code: 4947832
-    Version: '1'
-    Value: External Beam Radiation Therapy
   External upper lip:
     Origin: caDSR
     Definition: The external surface of the upper lip.
@@ -2077,6 +2085,12 @@ Terms:
     Code: 3288211
     Version: '1'
     Value: High Grade
+  High-Dose Rate Brachytherapy:
+    Origin: NCIt
+    Definition: Internal radiation treatment that targets a cancerous tissue with accurate, high doses of radiation through the use of inserted temporary implants.
+    Code: C15651
+    Version: '1'
+    Value: High-Dose Rate Brachytherapy
   HiSeq X Five:
     Origin: caDSR
     Definition: The HiSeq X Five is a model type of the Illumina sequencing library
@@ -2106,15 +2120,11 @@ Terms:
     Version: '1'
     Value: HMPR
   Hormone Therapy:
-    Origin: caDSR
-    Definition: Various treatment modalities that produce the desired therapeutic
-      effect by means of change of hormone/hormones level. The treatment may include
-      administration of hormones or hormone analogs to the patient, or decreasing
-      the level of hormones in the body by using hormone antagonists, or hormone ablation
-      therapy.
-    Code: 4340414
+    Origin: NCIt
+    Definition: Various treatment modalities that produce the desired therapeutic effect by means of change of hormone/hormones level. The treatment may include administration of hormones or hormone analogs to the patient, or decreasing the level of hormones in the body by using hormone antagonists, or hormone ablation therapy.
+    Code: C15445
     Version: '1'
-    Value: Endocrine Therapy
+    Value: Hormone Therapy
   html:
     Origin: NCIt
     Definition:  A standard markup language used to display content on a web page, as specified by the World Wide Web Consortium (W3C).
@@ -2328,9 +2338,9 @@ Terms:
     Version: '1'
     Value: Imaging  
   Immunotherapy:
-    Origin: caDSR
-    Definition: Therapy designed to induce changes in a patient's immune status in order to treat disease.
-    Code: 5102332
+    Origin: NCIt
+    Definition: Therapy designed to induce changes in a patient's immune status in order to treat disease._Including the stated limits._Preparations containing substances with antigenic properties administered to activate the immune system, thereby inducing an immune response.
+    Code: C15262
     Version: '1'
     Value: Immunotherapy
   In situ hybridization:
@@ -2376,6 +2386,12 @@ Terms:
     Code: 8002761
     Version: '1'
     Value: 8002761
+  Intensity-Modulated Radiation Therapy:
+    Origin: NCIt
+    Definition: An advanced form of 3-Dimensional Conformal Radiation Therapy
+    Code: C16135
+    Version: '1'
+    Value: Intensity-Modulated Radiation Therapy
   Intermediate Grade:
     Origin: caDSR
     Definition: A term referring to the degree of differentiation of a malignant neoplasm
@@ -2383,13 +2399,6 @@ Terms:
     Code: 3335158
     Version: '1'
     Value: Intermediate Grade
-  Internal Radiation:
-    Origin: caDSR
-    Definition: A type of radiation therapy in which radioactive material sealed in
-      needles, seeds, wires, or catheters is placed directly into or near a tumor.
-    Code: 5102334
-    Version: '1'
-    Value: Internal Radiation Therapy
   Intersex:
     Origin: caDSR
     Definition: A person (one of unisexual specimens) who is born with genitalia and/or
@@ -2688,6 +2697,12 @@ Terms:
     Code: 7670048
     Version: '1'
     Value: Long bones of upper limb, scapula and associated joints
+  Low-Dose Rate Brachytherapy:
+    Origin: NCIt
+    Definition: Internal radiation treatment that targets a cancerous tissue with low doses of radiation through the use of inserted temporary or permanent implants.
+    Code: C85254
+    Version: '1'
+    Value: Low-Dose Rate Brachytherapy
   Low Grade:
     Origin: caDSR
     Definition: Used to describe tumor samples that exhibit well to moderately well
@@ -3775,14 +3790,6 @@ Terms:
     Code: 7670600
     Version: '1'
     Value: Other Specified Parts of Pancreas
-  Other Treatment Type:
-    Origin: caDSR
-    Definition: 'An action or administration of therapeutic agents to produce an effect
-      that is intended to alter the course of a pathologic process.: Not otherwise
-      specified.'
-    Code: 2761986
-    Version: '1'
-    Value: Therapeutic Procedure Other
   Ovary:
     Origin: caDSR
     Definition: One of the paired female reproductive glands containing the ova or
@@ -4252,21 +4259,6 @@ Terms:
     Code: 7670674
     Version: '1'
     Value: Not Otherwise Specified Palate
-  Palliative Care:
-    Origin: caDSR
-    Definition: 'Palliative care is the patient-and family-centered active holistic
-      care of patients with advanced, progressive disease. Traditional models reflect
-      abandonment of proactive treatment and a simultaneous increase in symptom control
-      and comfort-related services, as a disease progressed in linear fashion through
-      its course. Essential components of palliative care are: pain and symptom control,
-      communication regarding treatment and alternatives, prognosis, and available
-      services, rehabilitation services, care that addresses treatment and palliative
-      concerns, intellectual, emotional, social, and spiritual needs, terminal care,
-      support in bereavement. The goal of palliative care is an achievement of the
-      best quality of life for patients and their families.'
-    Code: 2971623
-    Version: '1'
-    Value: Palliative
   Pancreas:
     Origin: caDSR
     Definition: An organ behind the lower part of the stomach that is the shape of
@@ -4595,18 +4587,12 @@ Terms:
     Code: 4136341
     Version: '1'
     Value: PET-MRI 
-  Pharmaceutical Therapy:
-    Origin: caDSR
-    Definition: 'An action or administration of therapeutic agents to produce an effect
-      that is intended to alter or stop a pathologic process.: Any natural, endogenously-derived,
-      synthetic or semi-synthetic compound with pharmacologic activity. A pharmacologic
-      substance has one or more specific mechanism of action(s) through which it exerts
-      one or more effect(s) on the human or animal body. They can be used to potentially
-      prevent, diagnose, treat or relieve symptoms of a disease. Formulation specific
-      agents and some combination agents are also classified as pharmacologic substances.'
-    Code: 5102351
+  Pharmacotherapy:
+    Origin: NCIt
+    Definition: Treatment of disease through the use of drugs.
+    Code: C15986
     Version: '1'
-    Value: Therapeutic Procedure Pharmacologic Substance
+    Value: Pharmacotherapy
   Pharynx, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: The hollow tube inside the neck
@@ -4850,6 +4836,12 @@ Terms:
     Code: 3534033
     Version: '1'
     Value: Proteomics Profile
+  Proton Beam Radiation Therapy:
+    Origin: NCIt
+    Definition: A type of external beam radiation therapy using a beam of protons. It has the advantage of precisely localizing the radiation dose on the targeted tissue and avoiding damage to the healthy surrounding tissues.
+    Code: C66897
+    Version: '1'
+    Value: Proton Beam Radiation Therapy
   Pylorus:
     Origin: caDSR
     Definition: The lower part of the stomach that connects to the duodenum.
@@ -4882,73 +4874,18 @@ Terms:
     Code: 6273383
     Version: '1'
     Value: RAD-Seq
-  Radiation (NOS):
-    Origin: caDSR
-    Definition: 'Not characterized in any other way.: Treatment of a disease by means
-      of exposure of the target or the whole body to radiation. Radiation therapy
-      is often used as part of curative therapy and occasionally as a component of
-      palliative treatment for cancer. Other uses include total body irradiation prior
-      to transplantation.'
-    Code: 4630312
+  Radiation Therapy, NOS:
+    Origin: NCIt
+    Definition: Treatment of a disease by means of exposure of the target or the whole body to radiation. Radiation therapy is often used as part of curative therapy and occasionally as a component of palliative treatment for cancer. Other uses include total body irradiation prior to transplantation.
+    Code: C15313
     Version: '1'
-    Value: Not Otherwise Specified Radiation Therapy
-  Radiation Therapy:
-    Origin: caDSR
-    Definition: Treatment of a disease by means of exposure of the target or the whole
-      body to radiation. Radiation therapy is often used as part of curative therapy
-      and occasionally as a component of palliative treatment for cancer. Other uses
-      include total body irradiation prior to transplantation.
-    Code: 2567129
+    Value: Radiation Therapy, NOS
+  Radiofrequency Ablation:
+    Origin: NCIt
+    Definition: A therapeutic procedure to eradicate or reduce small tumors using radiowaves to generate heat. The procedure is performed by the insertion of a thin needle through the skin and into a tumor, which is guided by computed tomography (CT) or ultrasound. Electrical energy delivered through this needle (electrode) heats and destroys the tumor. This therapeutic option is widely utilized by patients that have inoperable cancers, or are unsuitable chemotherapy candidates.
+    Code: C15666
     Version: '1'
-    Value: Radiation Therapy
-  Radiation therapy, NOS:
-    Origin: caDSR
-    Definition: 'Not characterized in any other way.: Treatment of a disease by means
-      of exposure of the target or the whole body to radiation. Radiation therapy
-      is often used as part of curative therapy and occasionally as a component of
-      palliative treatment for cancer. Other uses include total body irradiation prior
-      to transplantation.'
-    Code: 4630312
-    Version: '1'
-    Value: Not Otherwise Specified Radiation Therapy
-  Radiation, 3D conformal:
-    Origin: caDSR
-    Definition: A process by which a dose of radiation is automatically shaped to
-      closely conform to the entire volume of the tumor, so that surrounding normal
-      tissue is spared and treatment toxicity is decreased.
-    Code: 3245269
-    Version: '1'
-    Value: 3-Dimensional Conformal Radiation Therapy
-  Radiation, intensity-modulated radiotherapy:
-    Origin: caDSR
-    Definition: An advanced form of 3-Dimensional Conformal Radiation Therapy
-    Code: 3991473
-    Version: '1'
-    Value: IMRT
-  Radiation, proton beam:
-    Origin: caDSR
-    Definition: A type of external beam radiation therapy using a beam of protons.
-      It has the advantage of precisely localizing the radiation dose on the targeted
-      tissue and avoiding damage to the healthy surrounding tissues.
-    Code: 3287226
-    Version: '1'
-    Value: Proton Beam Radiation Therapy
-  Radiation, stereotactic body:
-    Origin: caDSR
-    Definition: Stereotactic radiation therapy in which one or several maximum dose
-      radiation treatments are delivered targeting cancers of the body, excluding
-      the brain or spine.
-    Code: 3193538
-    Version: '1'
-    Value: Stereotactic Body Radiation Therapy
-  Radiation, whole brain radiation therapy:
-    Origin: caDSR
-    Definition: Radiation treatment modality used as major component in treatment
-      of primary and metastatic brain tumors. This is a standard treatment for multiple
-      brain metastases.
-    Code: 2578538
-    Version: '1'
-    Value: Whole Brain Radiation Therapy
+    Value: Radiofrequency Ablation
   Radiology:
     Origin: caDSR
     Definition: The branch of medical science dealing with the medical use of X-rays
@@ -5470,26 +5407,16 @@ Terms:
     Code: 13347948
     Version: '1'
     Value: Start Lost  
-  Stem Cell Transplant:
-    Origin: caDSR
-    Definition: A method of hematopoietic reconstitution, Peripheral Stem Cell Transplants
-      utilize (transfuse) hematopoietic stem cells harvested from circulating blood
-      of an autologous, syngeneic, or allogeneic donor to reconstitute the bone marrow
-      of the transplant recipient. Peripheral stem cell transplants are performed
-      following partial or complete bone marrow ablation of a patient, done as therapy
-      for certain blood diseases or following high dose chemotherapy or radiation
-      treatment for cancer. (NCI04)
-    Code: 5438252
+  Stereotactic Body Radiation Therapy:
+    Origin: NCIt
+    Definition: Stereotactic radiation therapy in which one or several maximum dose radiation treatments are delivered targeting cancers of the body, excluding the brain or spine.
+    Code: C118286
     Version: '1'
-    Value: Peripheral Stem Cell Transplant
-  Stereotactic radiosurgery:
-    Origin: caDSR
-    Definition: A type of external radiation therapy that uses special equipment to
-      position the patient and precisely give a single large dose of radiation to
-      a tumor. It is used to treat brain tumors and other brain disorders that cannot
-      be treated by regular surgery. It is also being studied in the treatment of
-      other types of cancer.
-    Code: 2578537
+    Value: Stereotactic Body Radiation Therapy
+  Stereotactic Radiosurgery:
+    Origin: NCIt
+    Definition: A type of external radiation therapy that uses special equipment to position the patient and precisely give a single large dose of radiation to a tumor. It is used to treat brain tumors and other brain disorders that cannot be treated by regular surgery. It is also being studied in the treatment of other types of cancer.
+    Code: C15358
     Version: '1'
     Value: Stereotactic Radiosurgery
   Stomach:
@@ -5581,6 +5508,12 @@ Terms:
     Code:
     Version: '1'
     Value: surgical
+  Surgical Procedure:
+    Origin: NCIt
+    Definition: A diagnostic or treatment procedure performed by manual and/or instrumental means, often involving an incision and the removal or replacement of a diseased organ or tissue; of or relating to or involving or used in surgery or requiring or amenable to treatment by surgery.
+    Code: C15329
+    Version: '1'
+    Value: Surgical Procedure
   Surgical Resection:
     Origin: caDSR
     Definition: A surgical procedure in which tissue is removed.
@@ -5605,15 +5538,6 @@ Terms:
     Code: 6273378
     Version: '1'
     Value: Synthetic-Long-Read
-  Systemic Radiation:
-    Origin: caDSR
-    Definition: A type of radiation therapy in which a radioactive substance, such
-      radioactive iodine or a radioactively labeled monoclonal antibody, is swallowed
-      or injected into the body and travels through the blood, locating and killing
-      tumor cells.
-    Code: 3428270
-    Version: '1'
-    Value: Systemic Radiation Therapy
   T0:
     Origin: caDSR
     Definition: A primary tumor TNM finding indicating that there is no evidence of
@@ -5937,19 +5861,18 @@ Terms:
     Code: C190189
     Version: '1'
     Value: tape archive
-  Targeted Molecular Therapy:
-    Origin: caDSR
-    Definition: Cancer therapies designed to act upon specific molecules in metabolic
-      pathways or processes involved in carcinogenesis, tumor growth, or tumor spread.
-    Code: 2793528
-    Version: '1'
-    Value: Targeted Molecular Therapy
   Targeted-Capture:
     Origin: caDSR
     Definition: Sequencing specific genomic regions in a high-throughput manner.
     Code: 6273377
     Version: '1'
     Value: Targeted-Capture
+  Targeted Molecular Therapy:
+    Origin: NCIt
+    Definition: Cancer therapies designed to act upon specific molecules in metabolic pathways or processes involved in carcinogenesis, tumor growth, or tumor spread.
+    Code: C76243
+    Version: '1'
+    Value: Targeted Molecular Therapy
   Temporal lobe:
     Origin: caDSR
     Definition: Lower lateral part of the cerebral hemisphere.

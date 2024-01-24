@@ -3458,8 +3458,8 @@ PropDefinitions:
     Desc: Words that describe observations or explanations related to the diagnosis.
     Term:
       - Origin: caDSR
-      - Code: '14714147'
-      - Value: Diagnosis Comment Text
+        Code: '14714147'
+        Value: Diagnosis Comment Text
     Type: string
     Req: false
     Private: false    

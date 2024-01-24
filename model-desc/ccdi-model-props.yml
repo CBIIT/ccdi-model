@@ -3386,7 +3386,7 @@ PropDefinitions:
     Key: true
   # diagnosis
   diagnosis_id:
-    Desc:  sequence of characters used to uniquely identify, name, or characterize the presence and nature of a disease or condition.
+    Desc: A sequence of characters used to uniquely identify, name, or characterize the presence and nature of a disease or condition.
     Term:
       - Origin: caDSR
         Code: '14540952'
@@ -3397,11 +3397,11 @@ PropDefinitions:
     Key: true
   #diagnosis, sample
   diagnosis_classification_system:
-    Desc: 'The classification source from which the diagnosis value was obtained.'
+    Desc: 'The standard or agency upon which the specific term used as the diagnosis value was obtained.'
     Term:
       - Origin: caDSR
-        Code: ''
-        Value: ''
+        Code: '14714144'
+        Value: 'Diagnosis Term Source Name'
       - Origin: NCIt
         Code: ' C42673'
         Value: 'Definition Source'
@@ -3418,16 +3418,16 @@ PropDefinitions:
     Strict: false
     Private: false 
   #diagnosis, sample
-  diagnosis_verification_status: 
-    Desc: 'The type of generic chronology for which the diagnosis was obtained.'
+  diagnosis_certainty: 
+    Desc: 'The degree of certainty which differentiates between multiple diagnosis observations being asserted.'
     Term:
       - Origin: caDSR
-        Code: ''
-        Value: ''
+        Code: '14714145'
+        Value: 'Diagnosis Level of Certainty Status'
     Type:
       value_type: string
       Enum:
-        - 'Initial'
+        - 'Provisional'
         - 'Update'
         - 'Final'
         - 'Unknown'
@@ -3437,11 +3437,11 @@ PropDefinitions:
     Private: false 
   #diagnosis, sample
   diagnosis_basis: 
-    Desc: 'The type of event for which the diagnosis was obtained.'
+    Desc: 'The origin of the diagnosis.'
     Term:
       - Origin: caDSR
-        Code: ''
-        Value: ''
+        Code: '14714146'
+        Value: 'Diagnosis Assessment Basis Source'
     Type:
       value_type: list
       Enum:
@@ -3455,7 +3455,11 @@ PropDefinitions:
     Private: false 
   #diagnosis, sample
   diagnosis_comment:
-    Desc: Freeform text entry for further details about the diagnosis.
+    Desc: Words that describe observations or explanations related to the diagnosis.
+    Term:
+      - Origin: caDSR
+      - Code: '14714147'
+      - Value: Diagnosis Comment Text
     Type: string
     Req: false
     Private: false    
@@ -5473,11 +5477,10 @@ PropDefinitions:
     Private: false
   #diagnosis, sample
   diagnosis:
-    Desc: The text term used to describe the type of malignant disease, as categorized by diagnosis_classification_system property.    
-    Term:
+    Desc: The term which identifies normal and abnormal cells and tissues used to define the presence and nature of disease, as categorized by diagnosis_classification_system property.    Term:
       - Origin: caDSR
-        Code: '13594090'
-        Value: Disease Morphology ICD-O-3 Code Label Text
+        Code: '14714127'
+        Value: Diagnosis Disease or Disorder Text
     Type:
       value_type: string
       Enum:

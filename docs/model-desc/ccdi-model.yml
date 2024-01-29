@@ -46,14 +46,16 @@ Nodes:
       - tumor_classification
       - anatomic_site
       - age_at_diagnosis
-      - toronto_childhood_cancer_staging
       - age_at_recurrence
       - last_known_disease_status
       - age_at_last_known_disease_status
-      - tumor_grade
+      - toronto_childhood_cancer_staging
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m
+      - tumor_stage_source
+      - tumor_grade
+      - tumor_grade_source
       - id
     # - tumor_morphology
     # - tumor_incidence_type # primary, metastatic, recurrence, progression
@@ -272,10 +274,12 @@ Nodes:
       - last_known_disease_status
       - age_at_last_known_disease_status
       - toronto_childhood_cancer_staging
-      - tumor_grade
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n
       - tumor_stage_clinical_m
+      - tumor_stage_source
+      - tumor_grade
+      - tumor_grade_source
       - id
   #   - sample_type
   #   - biosample_accession captured in synonym 

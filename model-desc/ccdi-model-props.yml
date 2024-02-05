@@ -3372,7 +3372,7 @@ PropDefinitions:
         Code: '14608610'
         Value: Study Subject Identifier List Text
     Type: string
-    Reg: false
+    Req: false
     Private: false
   # clinical_measure_file
   clinical_measure_file_id: 

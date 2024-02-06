@@ -974,6 +974,12 @@ Terms:
     Code: 6273350
     Version: '1'
     Value: ChIP-Seq
+  CHOP regimen:
+    Origin: NCI
+    Definition: Regimen contains the chemotherapy drugs cyclophosphamide, doxorubicin hydrochloride (hydroxydaunomycin), and vincristine sulfate (Oncovin) and the steroid hormone prednisone.
+    Code: NA
+    Version: '1'
+    Value: CHOP regimen
   Choroid:
     Origin: caDSR
     Definition: A blood vessel-containing membrane of the eye that lies between the

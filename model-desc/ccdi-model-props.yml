@@ -6731,8 +6731,9 @@ PropDefinitions:
         - "Supratentorial ependymoma, ZFTA fusion-positive"
         - "T-cell and NK/T-cell lymphomas"         
         - "[---- Miscellaneous ----]"
-        - "Unknown"
+        - "Normal"
         - "Not Reported"
+        - "Unknown"
     Req: true
     Strict: true
     Private: false  

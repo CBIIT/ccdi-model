@@ -2425,7 +2425,7 @@ PropDefinitions:
         Code: '13367935'
         Value: Gene Mutation Abnormality Type
     Type:
-      value_type: string
+      value_type: list
       Enum:
         - "Acceptor Splice Site SNP"
         - "Coding Sequence Variant"

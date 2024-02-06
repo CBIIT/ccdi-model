@@ -431,8 +431,6 @@ Relationships:
       - Src: cell_line
         Dst: sample
       - Src: cell_line
-        Dst: participant
-      - Src: cell_line
         Dst: study   
   of_clinical_measure_file: # #09.20.22 pd
     Props: null

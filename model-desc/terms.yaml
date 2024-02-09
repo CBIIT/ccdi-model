@@ -4806,6 +4806,12 @@ Terms:
     #Code: 6161019
     #Version: '1'
     #Value: ICD-O Primary Anatomic Site Category
+  Proband:
+    Origin: NCIt
+    Definition: Person serving as the starting point for the genetic study of a family. 
+    Code: NA
+    Version: '1'
+    Value: Proband
   Progression:
     Origin: caDSR
     Definition: The worsening of a disease over time.

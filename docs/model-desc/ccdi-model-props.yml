@@ -3127,6 +3127,7 @@ PropDefinitions:
         - "Paternal Half Sibling"
         - "Paternal Half Sister"
         - "Paternal Uncle"
+        - "Proband"
         - "Refused"
         - "Sibling"
         - "Sister-in-law"

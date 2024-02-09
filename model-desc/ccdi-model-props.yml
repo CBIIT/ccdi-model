@@ -3429,7 +3429,6 @@ PropDefinitions:
       value_type: string
       Enum:
         - 'Provisional'
-        - 'Update'
         - 'Final'
         - 'Unknown'
         - 'Not Reported'

@@ -812,6 +812,7 @@ PropDefinitions:
       Enum:
         - "Every day"
         - "Some days"
+        - "Not Reported"
         - "Unknown"
     Req: false
     Strict: true
@@ -830,6 +831,7 @@ PropDefinitions:
         - "6-30 Minutes"
         - "31-60 Minutes"
         - "After 60 Minutes"
+        - "Not Reported"
         - "Unknown"
     Req: false
     Strict: true
@@ -919,7 +921,6 @@ PropDefinitions:
         - "Tobacco smoke, cigar"
         - "Tobacco smoke, cigarettes"
         - "Tobacco smoke, pipe"
-        - "Unknown"
         - "Volcanic smoke"
         - "Waste burning smoke"
         - "Wood burning smoke, factory"
@@ -934,6 +935,8 @@ PropDefinitions:
         - "Work-related smoke, plastics factory"
         - "Work-related smoke, plumbing"
         - "Work-related smoke, soldering/welding"
+        - "Not Reported"
+        - "Unknown"
     Req: false
     Strict: true
     Private: false
@@ -953,6 +956,8 @@ PropDefinitions:
         - "Other"
         - "Pipe"
         - "Smokeless Tobacco"
+        - "Not Reported"
+        - "Unkown"
     Req: false
     Strict: true
     Private: false

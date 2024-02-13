@@ -3786,6 +3786,7 @@ PropDefinitions:
         - "crai"
         - "csi"
         - "csv"
+        - "dict"
         - "dicom"
         - "docx"
         - "fasta"

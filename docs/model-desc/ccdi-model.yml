@@ -445,10 +445,6 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: cytogenomic_file
-        Dst: cell_line
-      - Src: cytogenomic_file
-        Dst: pdx
-      - Src: cytogenomic_file
         Dst: sample
   of_diagnosis: 
     Props: null
@@ -479,10 +475,6 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: pathology_file
-        Dst: cell_line
-      - Src: pathology_file
-        Dst: pdx
-      - Src: pathology_file
         Dst: sample
   of_medical_history:
     Props: null
@@ -490,14 +482,10 @@ Relationships:
     Ends:
       - Src: medical_history
         Dst: participant
-  of_methylation_array_file: # 09.20.22 pd
+  of_methylation_array_file:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: methylation_array_file
-        Dst: cell_line
-      - Src: methylation_array_file
-        Dst: pdx
       - Src: methylation_array_file
         Dst: sample
   of_molecular_test:
@@ -545,24 +533,16 @@ Relationships:
       - Src: sample
         Dst: participant  
   #of_sample_diagnosis: 
-  of_sequencing_file: #09.20.22 pd
+  of_sequencing_file: 
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: sequencing_file
-        Dst: cell_line
-      - Src: sequencing_file
-        Dst: pdx
       - Src: sequencing_file
         Dst: sample
   of_single_cell_sequencing_file:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: single_cell_sequencing_file
-        Dst: cell_line
-      - Src: single_cell_sequencing_file
-        Dst: pdx
       - Src: single_cell_sequencing_file
         Dst: sample
   of_study_admin: 
@@ -571,7 +551,7 @@ Relationships:
     Ends:
       - Src: study_admin
         Dst: study
-  of_study_arm: # 09.21.22 pd
+  of_study_arm: 
     Props: null
     Mul: many_to_one
     Ends:
@@ -589,13 +569,13 @@ Relationships:
     Ends:
       - Src: study_personnel  
         Dst: study     
-  of_therapeutic_procedure: # 09.07.22 svburke
+  of_therapeutic_procedure:
     Props: null
     Mul: many_to_many
     Ends:
       - Src: therapeutic_procedure
         Dst: participant
-  of_synonym: # 09.20.22 pd
+  of_synonym:
     Props: null
     Mul: many_to_one
     Ends:

@@ -365,7 +365,6 @@ Nodes:
       - study_id
       - phs_accession #dbGaP accession
       - acl
-      - study_name
       - study_short_title
       - study_acronym
       - study_description

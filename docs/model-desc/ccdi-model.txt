@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit af20656
+commit e6edbcb
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -219,7 +219,6 @@ study	size_of_data_being_uploaded	STRING
 study	study_acronym	STRING
 study	study_description	STRING
 study	study_id	STRING
-study	study_name	STRING
 study	study_short_title	STRING
 study_admin	data_types	STRING
 study_admin	file_types_and_format	STRING
@@ -253,8 +252,8 @@ therapeutic_procedure	therapeutic_procedure_id	STRING
 relationship	source_node	destination_node	property	value_or_TYPE
 of_cell_line	cell_line	sample	NA	NA
 of_cell_line	cell_line	study	NA	NA
-of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_clinical_measure_file	clinical_measure_file	participant	NA	NA
+of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_cytogenomic_file	cytogenomic_file	sample	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
 of_exposure	exposure	participant	NA	NA
@@ -269,18 +268,18 @@ of_pdx	pdx	sample	NA	NA
 of_pdx	pdx	study	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
-of_sample	sample	participant	NA	NA
-of_sample	sample	pdx	NA	NA
 of_sample	sample	cell_line	NA	NA
+of_sample	sample	pdx	NA	NA
+of_sample	sample	participant	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	participant	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	sample	NA	NA
+of_synonym	synonym	study	NA	NA
+of_synonym	synonym	participant	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
@@ -496,7 +495,6 @@ study_data_types	The type of study or experimental data generated for testing or
 study_description	The long form description of the study.
 study_funding_id	A sequence of characters used to uniquely identify, name, or characterize the study funding organization.
 study_id	A sequence of characters used to identify, name, or characterize a pediatric study.
-study_name	The narrative title used as a textual label for a research data collection.
 study_personnel_id	A sequence of characters used to uniquely identify, name, or characterize the person who performs a particular role within the context of a specific study.
 study_short_title	The acronym or abbreviated form of the title for a research data collection.
 synonym_id	A sequence of characters used to identify, name, or characterize a backup sequence of characters used to identify an entity.

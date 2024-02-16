@@ -5055,16 +5055,6 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
-  #study_admin
-  study_name:
-    Desc: The narrative title used as a textual label for a research data collection.
-    Term:
-      - Origin: caDSR
-        Code: '11459810'
-        Value: Study Name Text
-    Type: string
-    Req: false
-    Private: false
   # study_admin
   study_admin_id:
     Desc: A sequence of characters used to uniquely identify, name, or characterize the individual who is responsible for managing a detailed examination, analysis, or critical inspection of a subject designed to discover facts about it.

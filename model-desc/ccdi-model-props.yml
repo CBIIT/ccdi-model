@@ -3420,23 +3420,6 @@ PropDefinitions:
     Strict: false
     Private: false 
   #diagnosis, sample
-  diagnosis_certainty: 
-    Desc: 'The degree of certainty which differentiates between multiple diagnosis observations being asserted.'
-    Term:
-      - Origin: caDSR
-        Code: '14714145'
-        Value: Diagnosis Level of Certainty Status
-    Type:
-      value_type: string
-      Enum:
-        - 'Provisional'
-        - 'Final'
-        - 'Unknown'
-        - 'Not Reported'
-    Req: true
-    Strict: false
-    Private: false 
-  #diagnosis, sample
   diagnosis_basis: 
     Desc: 'The origin of the diagnosis.'
     Term:

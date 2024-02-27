@@ -39,7 +39,6 @@ Nodes:
       - diagnosis_id
       - diagnosis
       - diagnosis_classification_system
-      - diagnosis_certainty
       - diagnosis_basis
       - diagnosis_comment
       - disease_phase
@@ -264,7 +263,6 @@ Nodes:
       - participant_age_at_collection # 28.02.22 pdunn
       - diagnosis
       - diagnosis_classification_system
-      - diagnosis_certainty
       - diagnosis_basis
       - diagnosis_comment
       - sample_tumor_status

@@ -1378,6 +1378,12 @@ Terms:
     Code: 11326261
     Version: '1'
     Value: Specimen Tumor Tissue ICD-O-3 Morphology Code
+  dict:
+    Origin: NCIt
+    Definition: Dictionary
+    Code: C49461
+    Version: '1'
+    Value: Dictionary
   disease_phase:
     Origin: caDSR
     Definition: The stage or period of an individual's treatment process during which relevant observations were recorded.

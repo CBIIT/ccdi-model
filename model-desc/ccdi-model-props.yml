@@ -4553,6 +4553,7 @@ PropDefinitions:
         - 'Normal'
         - 'Peritumoral'
         - 'Tumor'
+        - 'Not Reported'
         - 'Unavailable'
         - 'Unknown'
         - 'Unspecified'

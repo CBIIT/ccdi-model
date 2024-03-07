@@ -4543,20 +4543,15 @@ PropDefinitions:
     Desc: Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue.
     Term:
       - Origin: caDSR
-        Code: '5432687'
-        Value: Tissue Sample Description Category
+        Code: '14688604'
+        Value: Specimen Neoplasm Category
     Type:
       value_type: string
       Enum:
-        - 'Abnormal'
-        - 'Non-neoplastic'
         - 'Normal'
         - 'Peritumoral'
         - 'Tumor'
         - 'Not Reported'
-        - 'Unavailable'
-        - 'Unknown'
-        - 'Unspecified'
     Req: true
     Strict: false
     Private: false

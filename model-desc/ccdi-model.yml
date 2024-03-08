@@ -128,7 +128,6 @@ Nodes:
       - blood_test_normal_range_upper
       - blood_test_normal_range_lower
       - cell_count
-      - chromosome
       - copy_number
       - cytoband
       - exon

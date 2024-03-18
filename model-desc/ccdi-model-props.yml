@@ -3901,6 +3901,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12220014'
         Value: Subject Alternate Data Origin Identifier
+        Version: '1'
     Type: string
     Req: true
     Private: false

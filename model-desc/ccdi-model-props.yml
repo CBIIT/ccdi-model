@@ -6,6 +6,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14528010'
         Value: Electronic Data File Unique Identifier
+        Version: "null"
     Type: string
     Key: true
     Req: true
@@ -17,9 +18,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14596084'
         Value: Cytogenomic Analysis Instrumentation Text
+        Version: "null"
       - Origin: Illumina
         Code: 'cytogenomic'
         Value: cytogenomic_platform
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -30,9 +33,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14607707'
         Value: Imaging Technique Magnetic Field Strength Number
+        Version: "null"
       - Origin: DICOM
         Code: '0018,0087'
         Value: Imaging Technique Magnetic Field Strength Number
+        Version: "null"
     Type: string
     Req: true
     Key: false
@@ -44,6 +49,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2866141'
         Value: Equipment Manufacturer Model Name Text
+        Version: "null"
     Type: string
     Req: true
     Key: false
@@ -55,6 +61,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2413274'
         Value: Equipment Manufacturer Model Name Text
+        Version: "null"
     Type: string
     Req: true
     Key: false
@@ -66,6 +73,7 @@ PropDefinitions:
       - Origin: DICOM
         Code: '0018,0084'
         Value: imaging_frequency
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -77,9 +85,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14643671'
         Value: Imaging Technique Repetition Time Float Number
+        Version: "null"
       - Origin: DICOM
         Code: '0018,0080'
         Value: repetition_time
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -91,9 +101,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14644117'
         Value: Imaging Technique Echo Time Float Number
+        Version: "null"
       - Origin: DICOM
         Code: '0018,0081'
         Value: echo_time
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -105,9 +117,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14644131'
         Value: Imaging Technique Inversion Time Float Number
+        Version: "null"
       - Origin: DICOM
         Code: '0018,0082'
         Value: inversion_time
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -119,9 +133,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14644137'
         Value: Imaging Technique Flip Angle Float Number
+        Version: "null"
       - Origin: DICOM
         Code: '0018,1314'
         Value: flip_angle
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -133,6 +149,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2903393'
         Value: Image Pixel Spacing Float or Fixed-point Millimeter Number
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -144,6 +161,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3113185'
         Value: Image Plane Slice Thickness Float or Fixed-point Millimeter Number
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -155,9 +173,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14645641'
         Value: Image Acquisition Spin-Echo Pulse Sequence Code Category
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9008'
         Value: echoPulseSequenceCategoryCode
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -169,9 +189,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14607706'
         Value: Image Acquisition Spin-Echo Pulse Sequence Code Category
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9087'
         Value: diffusionBValue
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -183,9 +205,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14616426'
         Value: Imaging Technique Diffusion Directionality Type
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9075'
         Value: diffusionDirectionalityCode
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -197,9 +221,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14616427'
         Value: Image Acquisition Resonant Nucleus Code
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9100'
         Value: resonantNucleusCode
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -211,9 +237,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14616428'
         Value: Image Acquisition Contrast Type
+        Version: "null"
       - Origin: DICOM
         Code: '0008,9209'
         Value: acquisitionContrastCode
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -225,9 +253,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14607722'
         Value: Image Acquisition Inversion Recovery Indicator
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9009'
         Value: inversionRecoveryIndicator
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -239,9 +269,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14608594'
         Value: Image Acquisition Pulse Sequence Pulse Sequence Name Text
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9005'
         Value: pulseSequenceName
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -253,9 +285,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14608595'
         Value: Imaging Technique Multiple Spin Echo Indicator
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9011'
         Value: multipleSpinEchoIndicator
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -267,9 +301,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14608601'
         Value: Image Phase Contrast Indicator
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9014'
         Value: phaseContrastIndicator
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -281,9 +317,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14608649'
         Value: Imaging Technique Time of Flight Contrast Indicator
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9015'
         Value: timeOfFlightContrastIndicator
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -295,9 +333,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14616428'
         Value: Image Acquisition Contrast Type
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9250'
         Value: arterialSpinLabelingContrastCode
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -309,9 +349,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14616430'
         Value: Image Acquisition Steady State Pulse Sequence Type
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9017'
         Value: steadyStatePulseSequenceCode
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -323,9 +365,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14612651'
         Value: Image Acquisition Echo Planar Pulse Sequence Indicator
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9018'
         Value: echoPlanarPulseSequenceIndicator
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -337,9 +381,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14612652'
         Value: Imaging Technique Saturation Recovery Indicator
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9024'
         Value: saturationRecoveryIndicator
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -351,9 +397,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14616431'
         Value: Imaging Technique Spectrally Selected Suppression Type
+        Version: "null"
       - Origin: DICOM
         Code: '0018,9025'
         Value: spectrallySelectedSuppressionCode
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -365,6 +413,7 @@ PropDefinitions:
       - Origin: DICOM
         Code: '0018,9933'
         Value: mrImageReconstructionProtocolElement
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -376,9 +425,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14616432'
         Value: Imaging Technique Complex Image Component Type
+        Version: "null"
       - Origin: DICOM
         Code: '0008,9208'
         Value: complexImageComponentCode
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -390,6 +441,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14534325'
         Value: CCDI Property Unique Identifier
+        Version: "null"
     Type: string
     Req: false
     Key: false
@@ -401,6 +453,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14596104'
         Value: Cell Line Name Identifier
+        Version: "null"
     Type: string
     Req: true
     Key: true
@@ -411,6 +464,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14596139'
         Value: Cell Line Source Name
+        Version: "null"
     Type: string
     Req: true
     Private: false  
@@ -421,6 +475,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '7788940'
         Value: Microscope Device Nominal Magnification Float Value
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -431,6 +486,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '8028962'
         Value: Biospecimen Preservation Procedure Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -463,6 +519,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '8120269'
         Value: Biospecimen Stain Type
+        Version: "null"
     Type:
       value_type: string
       Enum: 
@@ -481,6 +538,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12307007'
         Value: Subject Age at Imaging Day Count
+        Version: "null"
     Type: integer
     Req: true
     Private: false  
@@ -491,6 +549,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14576319'
         Value: Electronic Data File Deidentification Method Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -508,6 +567,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14570321'
         Value: Medical History Relevant Condition Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -519,6 +579,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '13209646'
         Value: Medical History Relevant Condition Category
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -539,6 +600,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '13212141'
         Value: Medical History Relevant Condition Type
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -614,6 +676,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14570323'
         Value: Exposure Environment Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -625,6 +688,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14589582'
         Value: Subject Age at Exposure Day Count
+        Version: "null"
     Type: integer
     Req: true
     Private: false
@@ -635,6 +699,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2955385'
         Value: Person Cigarette Smoking History Pack Year Value
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -645,6 +710,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3285521'
         Value: Cigarette Smoking Duration Year Count
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -655,6 +721,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3114013'
         Value: Alcohol Consumption Weekly Days Usage Number
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -665,6 +732,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3124961'
         Value: Person Daily Alcohol Consumption Count
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -675,6 +743,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '7537144'
         Value: Alcohol History Indicator
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -692,6 +761,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3457767'
         Value: Alcohol Exposure Intensity
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -712,6 +782,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11256813'
         Value: Environmental Exposure Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -729,6 +800,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2001716'
         Value: Smoking Use Average Number
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -739,6 +811,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11256813'
         Value: Environmental Exposure Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -756,6 +829,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11256813'
         Value: Environmental Exposure Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -773,6 +847,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11256813'
         Value: Environmental Exposure Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -790,6 +865,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11256813'
         Value: Environmental Exposure Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -807,6 +883,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14645982'
         Value: Tobacco Smoking History Day Frequency
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -823,6 +900,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3279220'
         Value: Cigarette Smoking First Morning Time Category
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -841,6 +919,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14494331'
         Value: Tobacco Smoking History Onset Year Date
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -851,6 +930,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14494374'
         Value: Tobacco Smoking History Cessation Year Date
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -861,6 +941,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6787413'
         Value: Smoking History Tobacco Category
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -882,6 +963,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14572339'
         Value: Environmental Smoke Exposure Type
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -944,6 +1026,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6050093'
         Value: Tobacco Use Smoking Products Ever Used Regularly Type
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -963,6 +1046,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14576972'
         Value: Subject Follow-Up Event Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -974,6 +1058,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14480965'
         Value: Subject Age Follow-Up Day Count
+        Version: "null"
     Type: integer
     Req: true
     Private: false
@@ -984,6 +1069,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14480973'
         Value: Subject Follow-Up Category
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -1002,6 +1088,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3125302'
         Value: adverse event
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -1805,6 +1892,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14483678'
         Value: Person Comorbidity Type
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -1961,6 +2049,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14483681'
         Value: Comorbidity Disease Diagnosis Method Type
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -1992,6 +2081,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14589997'
         Value: Molecular Test Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -2003,9 +2093,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14590166'
         Value: Subject Age at Molecular Test Day Count
+        Version: "null"
       - Origin: NCIt
         Code: 'C192254'
         Value: Age at Laboratory Test
+        Version: "null"
     Type: integer
     Req: true
     Private: false
@@ -2016,6 +2108,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11280318'
         Value: Gene Occurrence HGNC Symbol Name
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2026,6 +2119,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142401'
         Value: Molecular Analysis Test Method Name
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -2060,6 +2154,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '13569486'
         Value: Laboratory Procedure Test Name
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -2157,6 +2252,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '13336306'
         Value: Laboratory Procedure Numeric Test Result Float
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2167,6 +2263,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '13362271'
         Value: Laboratory Procedure Test Result Text
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2177,6 +2274,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2179671'
         Value: Lab Test Result Unit of Measure Code
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2187,6 +2285,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142465'
         Value: transcript
+        Version: "null"
     Type: string
     Req: false
     Private: false  #molecular_test
@@ -2196,6 +2295,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142508'
         Value: Molecular Analysis Amino Acid Change Text
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2206,6 +2306,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '13362273'
         Value: Immunohistochemical Test Method Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -2242,6 +2343,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142535'
         Value: Laboratory Procedure Upper Limit of Normal Value
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -2252,6 +2354,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142571'
         Value: Laboratory Procedure Lower Limit of Normal Value
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -2262,6 +2365,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142528'
         Value: Molecular Analysis Cell Count
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -2272,6 +2376,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '13367966'
         Value: Gene Mutation Copy Number Count
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -2282,6 +2387,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142405'
         Value: Molecular Analysis Cytoband Text
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2292,6 +2398,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142411'
         Value: Molecular Analysis Exon Identification Number
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2302,6 +2409,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142511'
         Value: Molecular Analysis Histone Gene Family Category
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -2322,6 +2430,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14529709'
         Value: Molecular Analysis Histone Gene Family Variant Type
+        Version: "null"
     Type: string
     Req: false
     Strict: true
@@ -2333,6 +2442,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6514355'
         Value: Molecular Analysis Intron Identifier
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2343,6 +2453,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6074182'
         Value: loci_abnormal_count
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -2353,6 +2464,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6074183'
         Value: loci_count
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -2363,6 +2475,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142506'
         Value: locus
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2373,6 +2486,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142534'
         Value: Gene Mutation Mismatch Repair Indicator
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2383,6 +2497,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '13367935'
         Value: Gene Mutation Abnormality Type
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -2419,6 +2534,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14532361'
         Value: Molecular Analysis Pathogenicity Type
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2429,6 +2545,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142527'
         Value: ploidy
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2439,6 +2556,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '5750671'
         Value: Disease Response Code
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -2485,6 +2603,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14578182'
         Value: Molecular Analysis Second Exon of Interest Identification Number
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2495,6 +2614,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '13367968'
         Value: Gene Mutation Second Gene HGNC Symbol Name
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2505,6 +2625,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14595986'
         Value: Molecular Test Specialized Text
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2515,6 +2636,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142394'
         Value: Molecular Analysis Analyte Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -2535,6 +2657,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14473382'
         Value: Molecular Analysis Gene Variant Genomic Source Category
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -2551,6 +2674,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142402'
         Value: Molecular Analysis Gene Variant Type
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -2588,6 +2712,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142510'
         Value: Molecular Analysis Genetic Zygosity Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -2607,6 +2732,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142389'
         Value: Risk Factor 
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -2713,6 +2839,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3119787'
         Value: Follow Up
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -2738,6 +2865,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14528010'
         Value: Electronic Data File Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -2749,6 +2877,7 @@ PropDefinitions:
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: cDNA Offset
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2759,9 +2888,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14599885'
         Value: Sequencing Library cDNA Offset Text
+        Version: "null"
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: cDNA Offset
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2772,6 +2903,7 @@ PropDefinitions:
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: cDNA read size
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2782,6 +2914,7 @@ PropDefinitions:
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Cell Barcode offset
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2792,6 +2925,7 @@ PropDefinitions:
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Cell Barcode read
+        Version: "null"
     Type: string
     Req: false
     Private: false  
@@ -2802,6 +2936,7 @@ PropDefinitions:
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Cell Barcode size
+        Version: "null"
     Type: string
     Req: false
     Private: false  
@@ -2812,9 +2947,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14606481'
         Value: Sequencing Library Tissue Dissociation Method Text
+        Version: "null"
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Dissociation Method
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2825,6 +2962,7 @@ PropDefinitions:
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Dissociation Method
+        Version: "null"
     Type: string
     Req: false
     Private: false  
@@ -2835,9 +2973,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14606486'
         Value: Sequencing Library End Bias Type
+        Version: "null"
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: End Bias
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2848,9 +2988,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6142528'
         Value: Molecular Analysis Cell Count
+        Version: "null"
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Total Number of Input Cells
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2861,9 +3003,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14606495'
         Value: Sequencing Library Construction Method Text
+        Version: "null"
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Library Construction Method
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2874,6 +3018,7 @@ PropDefinitions:
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Library Strand
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -2892,9 +3037,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '7787673'
         Value: Raw Data Protocol Or Digital Object Identifier Text
+        Version: "null"
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Protocols  Link
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2905,9 +3052,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14604593'
         Value: Sequencing Library Reverse Transcription Primer Type
+        Version: "null"
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: Reverse Transcription Primer Oligo-dT, Poly-dT
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -2925,9 +3074,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14606468'
         Value: Sequencing Library RNA Spike-In Type
+        Version: "null"
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf 
         Value: Spike In
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2938,6 +3089,7 @@ PropDefinitions:
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: UMI barcode offset 
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2948,6 +3100,7 @@ PropDefinitions:
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: UMI barcode read
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2958,6 +3111,7 @@ PropDefinitions:
       - Origin: HTAN Guidelines for reporting single-cell RNA-Seq experiments
         Code: https://arxiv.org/ftp/arxiv/papers/1910/1910.14623.pdf
         Value: UMI barcode size
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -2968,6 +3122,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14540943'
         Value: Family Relationship Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -2978,6 +3133,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14539685'
         Value: Family Member Relationship Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -2987,6 +3143,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2690165'
         Value: Family Member Relationship Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3117,6 +3274,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14540945'
         Value: Participant Family Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3127,6 +3285,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14596170'
         Value: PDX Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3138,9 +3297,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14596191'
         Value: PDX Model Unique Identifier
+        Version: "null"
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3151,9 +3312,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14596198'
         Value: PDX Implantation Type
+        Version: "null"
       - Origin: 'EMBL OLS OBI'
         Code: 'OBI_0000426'
         Value: Process which aims at introducing a compound or a mixture into a material entity (either biological entity or instrument) by relying on devices such as syringe or injector connection, attached or forced into a vascular system (veins of an organism or tubes of a machine) or in a tissue
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3172,6 +3335,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12299653'
         Value: Specimen Original Anatomic Site Uberon Name
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3195,9 +3359,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14596205'
         Value: PDX Host Mouse Strain Name
+        Version: "null"
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3208,9 +3374,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14616474'
         Value: PDX Tumor Preparation Text
+        Version: "null"
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3221,6 +3389,7 @@ PropDefinitions:
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3237,9 +3406,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14616759'
         Value: PDX Tumor Origin Evaluated Type
+        Version: "null"
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3256,6 +3427,7 @@ PropDefinitions:
       - Origin: CancerModels.org
         Code: https://www.cancermodels.org/validation/dictionary
         Value: passage_number
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -3266,9 +3438,11 @@ PropDefinitions:
       - Origin: CancerModels.org
         Code: https://www.cancermodels.org/validation/dictionary
         Value: passages_tested
+        Version: "null"
       - Origin: PubMedCentral
         Code: 'PMC5738926'
         Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -3279,6 +3453,7 @@ PropDefinitions:
       - Origin: CancerModels.org
         Code: https://www.cancermodels.org/validation/dictionary
         Value: validation_technique
+        Version: "null"
     Type: string
     Req: false
     Private: false    
@@ -3289,6 +3464,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3443454'
         Value: Study Publication Identification Digital Object Identifier Text
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3300,6 +3476,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3443453'
         Value: Study Publication Identification PubMed Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3310,6 +3487,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14612666'
         Value: Research Activity Alternate Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3321,6 +3499,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14612686'
         Value: Research Activity Alternate Identifier Repository Text
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3331,6 +3510,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14608610'
         Value: Study Subject Identifier List Text
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -3341,6 +3521,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14528010'
         Value: Electronic Data File Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3352,6 +3533,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14540952'
         Value: Diagnosis Disease or Disorder Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3363,9 +3545,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14714144'
         Value: Diagnosis Term Source Name
+        Version: "null"
       - Origin: NCIt
         Code: 'C42673'
         Value: Definition Source
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3385,6 +3569,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14714146'
         Value: Diagnosis Assessment Basis Source
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3403,6 +3588,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14714147'
         Value: Diagnosis Comment Text
+        Version: "null"
     Type: string
     Req: false
     Private: false    
@@ -3413,9 +3599,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '10609539'
         Value: Subject Age at Diagnosis Integer
+        Version: "null"
       - Origin: NCIt
         Code: 'C156420'
         Value: Age at Diagnosis 
+        Version: "null"
     Type: integer
     Req: true
     Private: false
@@ -3426,6 +3614,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2847330'
         Value: Participant Vital Status Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3444,6 +3633,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '13299113'
         Value: Childhood Cancer Toronto Guidelines Stage
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3530,6 +3720,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3440331'
         Value: Neoplasm American Joint Committee on Cancer Clinical Distant Metastasis M Stage
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3550,6 +3741,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3440330'
         Value: Neoplasm American Joint Committee on Cancer Clinical Regional Lymph Node N Stage
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3587,6 +3779,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3440328'
         Value: Neoplasm American Joint Committee on Cancer Clinical Primary Tumor T Stage
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3635,9 +3828,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3045435'
         Value: American Joint Committee on Cancer Tumor Stage Code
+        Version: "null"
       - Origin: caDSR
         Code: '13299113'
         Value: Childhood Cancer Toronto Guidelines Stage
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3655,6 +3850,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14483684'
         Value: Subject Age at Recurrence Day Count
+        Version: "null"
     Type: integer
     Req: false
     Private: false     
@@ -3665,6 +3861,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12447172'
         Value: Subject Last Known Disease Status
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3689,6 +3886,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14589579'
         Value: The age (in days) of subject at the time of their last known disease status.
+        Version: "null"
     Type: integer
     Req: false
     Private: false  
@@ -3702,6 +3900,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11284037'
         Value: Electronic Data File Name
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3712,6 +3911,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11416926'
         Value: Electronic Data File Format Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3775,6 +3975,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11280338'
         Value: Electronic Data File Description Text   
+        Version: "null"
     Type: string
     Req: false 
     Private: false
@@ -3785,6 +3986,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11479876'
         Value: Electronic Data File Size Integer
+        Version: "null"
     Type: integer
     Req: true
     Private: false
@@ -3795,6 +3997,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11556150'
         Value: Electronic Data File MD5 Checksum Text
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3805,6 +4008,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11480133'
         Value: Electronic Data File Checksum Value
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -3815,6 +4019,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11475057'
         Value: Electronic Data File Checksum Type
+        Version: "null"
     Type: string
     Req: false
     Private: false    
@@ -3825,6 +4030,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11556141'
         Value: Electronic File Pathname Text
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3835,6 +4041,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14576969'
         Value: GUID DCFS Indexd Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3845,6 +4052,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11595478'
         Value: Electronic File Relationship Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3861,6 +4069,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14528010'
         Value: Electronic Data File Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3872,6 +4081,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14528010'
         Value: Electronic Data File Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -3883,6 +4093,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12137353'
         Value: Imaging Technology DICOM Modality Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3913,6 +4124,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14528097'
         Value: Subject Alternate Data Origin Identifier
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -3923,6 +4135,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2192199'
         Value: Race Category Text
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -3944,6 +4157,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '7572817'
         Value: Person Sex at Birth Category
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -3967,6 +4181,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2192217'
         Value: Ethnic Group Category Text
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -3985,6 +4200,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14534329'
         Value: Research Activity dbGaP Consent Group Text
+        Version: "null"
     Type: string
     Req: true
     Private: false 
@@ -3995,6 +4211,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14534330'
         Value: Research Activity dbGaP Consent Group Number
+        Version: "null"
     Type: integer
     Req: true
     Private: false  
@@ -4005,6 +4222,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6921892'
         Value: Biospecimen Source Laboratory Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -4016,6 +4234,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14596000'
         Value: Specimen Alternate Unique Identifier
+        Version: "null"
     Type: string
     Req: false
     Private: false 
@@ -4026,6 +4245,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14156279'
         Value: Disease Anatomic Site ICD-O-3 Label Text
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -4396,6 +4616,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14473376'
         Value: Subject Age At Specimen Collection Day Count
+        Version: "null"
     Type: integer
     Req: true  
     Private: false
@@ -4406,6 +4627,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11325685'
         Value: Diagnosis Tumor Grade
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -4428,6 +4650,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11325685'
         Value: Diagnosis Tumor Grade
+        Version: "null"
     Type: string
     Req: false
     Strict: false
@@ -4439,6 +4662,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12217251'
         Value: Disease Phase Timepoint Category
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -4461,6 +4685,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12922545'
         Value: Tumor Classification Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -4492,9 +4717,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2003907'
         Value: Sample Description Text
+        Version: "null"
       - Origin: caDSR
         Code: '5432687'
         Value: Tissue Sample Description
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -4505,6 +4732,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14688604'
         Value: Specimen Neoplasm Category
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -4522,6 +4750,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14528010'
         Value: Electronic Data File Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -4533,9 +4762,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11555660'
         Value: Sequencing Library Unique Identifier Text
+        Version: "null"
       - Origin: NCIt
         Code: 'C175893'
         Value: Sequencing Library Unique Identifier 
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -4546,6 +4777,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6273393'
         Value: Sequencing Library Technique Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -4596,9 +4828,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6347771'
         Value: Sequencing Library Platform Name
+        Version: "null"
       - Origin: NCIt
         Code: 'C172274'
         Value: Sequencing Platform Name 
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -4624,6 +4858,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6352164'
         Value: Sequencing Library Platform Model Name
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -4691,6 +4926,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11527735'
         Value: Sequencing Library Read Layout Type 
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -4707,9 +4943,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6285979'
         Value: Sequencing Library Specimen Source
+        Version: "null"
       - Origin: NCIt
         Code: 'C175895'
         Value: Sequencing Library Source Indicator
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -4747,6 +4985,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11529035'
         Value: Sequencing Library Sequence Read Count 
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -4757,6 +4996,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12426615'
         Value: Nucleotide Sequence Average Read Length Count
+        Version: "null"
     Type: number
     Req: false
     Private: false
@@ -4767,6 +5007,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11556322'
         Value: Genome Assembly Sequence Depth of Coverage Number
+        Version: "null"
     Type: number
     Req: false
     Private: false
@@ -4777,9 +5018,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11529031'
         Value: Genome Assembly NCBI Genetic Reference Sequence Identifier
+        Version: "null"
       - Origin: NCIt
         Code: 'C164388'
         Value: Genetic Reference Sequence
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -4790,6 +5033,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11636299'
         Value: Genome Assembly Custom FASTA File Name
+        Version: "null"
     Type: string
     Req: false
     Private: false    
@@ -4800,9 +5044,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11529072'
         Value: Nucleotide Sequence Alignment Software Name Text
+        Version: "null"
       - Origin: NCIt
         Code: 'C175896'
         Value: Sequence Alignment Software Name 
+        Version: "null"
     Type: string
     Req: false
     Private: false    
@@ -4813,6 +5059,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6347743'
         Value: Sequencing Library Creation Method Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -4864,6 +5111,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11529028'
         Value: Sequencing Library Design Description Text
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -4874,6 +5122,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12960571'
         Value: Study Pediatric Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -4885,6 +5134,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11524544'
         Value: Research Activity dbGaP Accession Number Identifier 
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -4895,6 +5145,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11459812'
         Value: Study Short Name Text
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -4905,6 +5156,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11459812'
         Value: Study Short Name Text
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -4915,6 +5167,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3444002'
         Value: Study Research Identification Descriptive Text
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -4925,6 +5178,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11556141'
         Value: Electronic File Pathname Text
+        Version: "null"
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -4935,6 +5189,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12373576'
         Value: Research Activity Experimental Method Type 
+        Version: "null"
     Type:
       value_type: list
       Type: string
@@ -4947,6 +5202,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11555662'
         Value: Research Activity Unique Subjects Count
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -4957,6 +5213,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11555663'
         Value: Research Activity Sample Size Count
+        Version: "null"
     Type: integer
     Req: false
     Private: false    
@@ -4967,9 +5224,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12373576'
         Value: Data File Size Value
+        Version: "null"
       - Origin: NCIt
         Code: 'C171192'
         Value: Electronic Data File Size Integer
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -4980,9 +5239,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12571096'
         Value: Data Collection Scientific Data Type Category
+        Version: "null"
       - Origin: NCIt
         Code: 'C175886'
         Value: Scientific Data Type
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -5001,6 +5262,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14528073'
         Value: Person Study Administrator Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -5012,9 +5274,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '6118266'
         Value: Sample Organism Type
+        Version: "null"
       - Origin: NCIt
         Code: 'C14250'
         Value: Organism 
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -5032,6 +5296,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11524549'
         Value: Subject Legal Adult Or Pediatric Participant Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -5053,6 +5318,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11416926'
         Value: Electronic Data File Format Type 
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -5062,6 +5328,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11555664'
         Value: Electronic Data File Access Level Text 
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -5081,6 +5348,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14528051'
         Value: Funding Agency Organization Name Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -5091,6 +5359,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11524545'
         Value: Funding Agency Organization Name Text 
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -5100,6 +5369,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11524546'
         Value: Funding Agency Program Name Text 
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -5109,6 +5379,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3434057'
         Value: Grant Funding Identifier Number
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -5119,6 +5390,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14674393'
         Value: CCDI Study Arm Electronic Record Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false 
@@ -5130,6 +5402,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11524548'
         Value: Clinical Trial Treatment Arm Text
+        Version: "null"
     Type: string
     Req: false
     Private: false
@@ -5140,6 +5413,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14673514'
         Value: Clinical Trial Study Protocol Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -5150,6 +5424,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2413202'
         Value: Clinical Trial Protocol Identifier 64 Character Text
+        Version: "null"
     Type: string
     Req: false
     Private: false        
@@ -5160,6 +5435,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14528070'
         Value: Person Study Personnel Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -5171,6 +5447,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2222323'
         Value: Derived Person Full Formatted Name
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -5181,6 +5458,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2201713'
         Value: Person Affiliation Role Text Type
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -5198,6 +5476,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2517550'
         Value: Person Email Address Text
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -5208,6 +5487,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12662779'
         Value: Data Source Organizational Unit Identifier
+        Version: "null"
     Type: string
     Req: true  # 28feb22 pdunn
     Private: false
@@ -5218,6 +5498,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '5102383'
         Value: Treatment Outcome Type
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -5253,6 +5534,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '5102381'
         Value: Treatment Method Type
+        Version: "null"
     Type:
       value_type: list
       Enum:
@@ -5288,6 +5570,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12304720'
         Value: Subject Age at Start of Treatment Course Day Count
+        Version: "null"
     Type: integer
     Req: true
     Private: false
@@ -5298,6 +5581,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12304723'
         Value: Subject Age at End of Treatment Course Day Count
+        Version: "null"
     Type: integer
     Req: true
     Private: false  
@@ -5308,6 +5592,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14569111'
         Value: Treatment Method Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -5319,6 +5604,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14528010'
         Value: Electronic Data File Unique Identifier
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -5330,6 +5616,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12033935'
         Value: Methylation Analysis Instrumentation Text
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -5340,6 +5627,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12033929'
         Value: Methylation Analysis Methyl Tag Text
+        Version: "null"
     Type: string
     Req: true
     Private: false
@@ -5350,6 +5638,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '5432686'
         Value: Specimen Tumor Cell Percentage Value
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -5360,6 +5649,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2841237'
         Value: Malignant Neoplasm Necrosis Percentage Value
+        Version: "null"
     Type: integer
     Req: false
     Private: false
@@ -5370,6 +5660,7 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C43611'
         Value: License
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -5385,6 +5676,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14714127'
         Value: Diagnosis Disease or Disorder Text
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -6683,6 +6975,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '13579886'
         Value: Therapeutic Procedure Agent Name
+        Version: "null"
     Type:
       value_type: list
       Enum:

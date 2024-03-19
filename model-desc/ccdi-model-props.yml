@@ -4937,17 +4937,17 @@ PropDefinitions:
     Strict: true
     Private: false
   #sequencing_file
-  library_source: 
+  library_source_material: 
     Desc: The source of a sample collection of double stranded DNA fragments analyzed by high-throughput sequencing.
     Term:
       - Origin: caDSR
-        Code: '6285979'
-        Value: Sequencing Library Specimen Source
+        Code: '14808227'
+        Value: Sequencing Library Cellular Material Source
         Version: "null"
       - Origin: NCIt
         Code: 'C175895'
         Value: Sequencing Library Source Indicator
-        Version: "null"
+        Version: "1.00"
     Type:
       value_type: string
       Enum:

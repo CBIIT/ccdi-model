@@ -4112,7 +4112,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12220014'
         Value: Subject Alternate Data Origin Identifier
-        Version: "null"
+        Version: '1'
     Type: string
     Req: true
     Private: false
@@ -5874,6 +5874,7 @@ PropDefinitions:
         - "8230/2 : Ductal carcinoma in situ, solid type"
         - "8230/3 : Solid carcinoma, NOS"
         - "8231/3 : Carcinoma simplex"
+        - "8240/1 : Carcinoid tumor of uncertain malignant potential"
         - "8240/3 : Neuroendocrine tumor, NOS"
         - "8241/3 : Enterochromaffin cell carcinoid"
         - "8242/3 : Enterochromaffin-like cell tumor"
@@ -6342,6 +6343,7 @@ PropDefinitions:
         - "8935/0 : Stromal tumor, benign"
         - "8935/1 : Stromal tumor, NOS"
         - "8935/3 : Stromal sarcoma, NOS"
+        - "8936/0 : Gastrointestinal stromal tumor, benign"
         - "8936/1 : Gastrointestinal stromal tumor"
         - "8936/3 : Gastrointestinal stromal tumor"
         - "8940/0 : Pleomorphic adenoma"
@@ -6458,6 +6460,7 @@ PropDefinitions:
         - "9130/3 : Hemangioendothelioma, malignant"
         - "9131/0 : Capillary hemangioma"
         - "9132/0 : Intramuscular hemangioma"
+        - "9133/1 : Epithelioid hemangioendothelioma, NOS"
         - "9133/3 : Epithelioid hemangioendothelioma, NOS"
         - "9135/1 : Papillary intralymphatic angioendothelioma"
         - "9136/1 : Spindle cell hemangioendothelioma"
@@ -6648,6 +6651,7 @@ PropDefinitions:
         - "9522/3 : Olfactory neuroblastoma"
         - "9523/3 : Olfactory neuroepithelioma"
         - "9530/0 : Meningioma, NOS"
+        - "9530/1 : Meningiomatosis, NOS"
         - "9530/3 : Meningioma, malignant"
         - "9531/0 : Meningothelial meningioma"
         - "9532/0 : Fibrous meningioma"
@@ -6916,7 +6920,7 @@ PropDefinitions:
         - "Medulloblastoma, Group 3"
         - "Medulloblastoma, Group 4"
         - "Medulloblastoma, non-WNT/non-SHH"
-        - "Medulloblastoma, NOS on NEC"
+        - "Medulloblastoma, NOS or NEC"
         - "Medulloblastoma, SHH-activated and TP53-mutant"
         - "Medulloblastoma, SHH-activated and TP53-wildtype"
         - "Medulloblastoma, WNT-activated"

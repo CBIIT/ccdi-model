@@ -503,12 +503,6 @@ Relationships:
     Ends:
       - Src: sequencing_file
         Dst: sample
-  of_single_cell_sequencing_file:
-    Props: null
-    Mul: many_to_one
-    Ends:
-      - Src: single_cell_sequencing_file
-        Dst: sample
   of_study_admin: 
     Props: null
     Mul: many_to_one

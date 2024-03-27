@@ -328,7 +328,7 @@ Nodes:
       - UMI_barcode_read
       - UMI_barcode_size
       - id
-  sequencing_file: # 01.03.22 pdunn
+  sequencing_file: 
     Props:
       - sequencing_file_id
       - file_name
@@ -356,6 +356,24 @@ Nodes:
       - custom_assembly_fasta_file_for_alignment
       - file_mapping_level
       - sequence_alignment_software
+      - cDNA_read
+      - cDNA_read_size
+      - cDNA_read_offset
+      - cell_barcode_offset
+      - cell_barcode_read
+      - cell_barcode_size
+      - single_cell_entity
+      - dissociation_method
+      - end_bias
+      - total_number_of_input_cells
+      - library_construction_method
+      - library_strand
+      - protocols_link
+      - reverse_transcription_primer
+      - spike_in
+      - UMI_barcode_offset
+      - UMI_barcode_read
+      - UMI_barcode_size
       - id
   study:
     Props:

@@ -4901,6 +4901,8 @@ PropDefinitions:
         - "Illumina MiniSeq"
         - "Illumina MiSeq"
         - "Illumina NextSeq"
+        - "Illumina NextSeq 1000"
+        - "Illumina NextSeq 2000"
         - "Illumina NovaSeq"
         - "Illumina NovaSeq 6000"
         - "Ion Torrent PGM"

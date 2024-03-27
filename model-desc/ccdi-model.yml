@@ -447,6 +447,8 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: diagnosis
+        Dst: sample
+      - Src: diagnosis
         Dst: participant
   of_exposure:
     Props: null

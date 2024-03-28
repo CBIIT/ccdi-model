@@ -5413,9 +5413,9 @@ PropDefinitions:
     Desc: One or more characters assigned by the Clinical Trial Sponsor to uniquely identify the investigational protocol or research activity.
     Term:
       - Origin: caDSR
-        Code: '14673514'
-        Value: Clinical Trial Study Protocol Unique Identifier
-        Version: "null"
+        Code: '11524548'
+        Value: Clinical Trial Treatment Arm Text
+        Version: "1"
     Type: string
     Req: true
     Private: false
@@ -5535,8 +5535,8 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '5102381'
-        Value: Treatment Method Type
-        Version: "null"
+        Value: Therapeutic Procedure Performed Type
+        Version: "1"
     Type:
       value_type: list
       Enum:

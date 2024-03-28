@@ -5415,7 +5415,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11524548'
         Value: Clinical Trial Treatment Arm Text
-        Version: "1.00"
+        Version: "1"
     Type: string
     Req: true
     Private: false
@@ -5536,7 +5536,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '5102381'
         Value: Therapeutic Procedure Performed Type
-        Version: "1.00"
+        Version: "1"
     Type:
       value_type: list
       Enum:

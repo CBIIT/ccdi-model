@@ -4962,7 +4962,7 @@ PropDefinitions:
     Strict: true
     Private: false
   #sequencing_file
-  library_source_material: 
+  library_source_molecule: 
     Desc: The molecular source of the nucleic acid fragments analyzed by high-throughput sequencing.
     Term:
       - Origin: caDSR

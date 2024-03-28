@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 3de30b7
+commit 728cfc2
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -250,8 +250,8 @@ therapeutic_procedure	id	STRING
 therapeutic_procedure	therapeutic_procedure_id	STRING
 
 relationship	source_node	destination_node	property	value_or_TYPE
-of_cell_line	cell_line	sample	NA	NA
 of_cell_line	cell_line	study	NA	NA
+of_cell_line	cell_line	sample	NA	NA
 of_clinical_measure_file	clinical_measure_file	participant	NA	NA
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_cytogenomic_file	cytogenomic_file	sample	NA	NA
@@ -277,9 +277,9 @@ of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	sample	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	participant	NA	NA
+of_synonym	synonym	study	NA	NA
+of_synonym	synonym	sample	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description

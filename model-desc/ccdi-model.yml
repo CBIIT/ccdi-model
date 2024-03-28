@@ -263,7 +263,6 @@ Nodes:
       - sample_tumor_status
       - tumor_classification
       - sample_description
-      - alternate_sample_id
       - id
   single_cell_sequencing_file:
     Props:

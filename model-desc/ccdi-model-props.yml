@@ -4939,41 +4939,50 @@ PropDefinitions:
     Strict: true
     Private: false
   #sequencing_file
-  library_source: 
+  library_source_material: 
     Desc: The source of a sample collection of double stranded DNA fragments analyzed by high-throughput sequencing.
     Term:
       - Origin: caDSR
-        Code: '6285979'
-        Value: Sequencing Library Specimen Source
-        Version: "null"
+        Code: '14808227'
+        Value: Sequencing Library Cellular Material Source
+        Version: "1.00"
       - Origin: NCIt
         Code: 'C175895'
         Value: Sequencing Library Source Indicator
-        Version: "null"
+        Version: "1.00"
     Type:
       value_type: string
       Enum:
         - "Bulk cells"
         - "Bulk nuclei"
         - "Bulk tissue"
-        - "DNA"
-        - "Genomic"
-        - "Genomic Single Cell"
-        - "Metagenomic"
-        - "Metatranscriptomic"
-        - "RNA"
         - "Single-cells"
         - "Single-nuclei"
-        - "Synthetic"
-        - "Transcriptomic"
-        - "Transcriptomic Single Cell"
-        - "Viral RNA"
-        - "Viral"
-        - "Not Applicable"  
+        - "Not Reported"  
         - "Other"
     Req: true
     Strict: true
     Private: false
+  #sequencing_file
+  library_source_molecule: 
+    Desc: The molecular source of the nucleic acid fragments analyzed by high-throughput sequencing.
+    Term:
+      - Origin: caDSR
+        Code: '14808232'
+        Value: Sequencing Library Molecule Source
+        Version: "1.00"
+    Type:
+      value_type: string
+      Enum:
+        - "Genomic"
+        - "Metagenomic"
+        - "Metatranscriptomic"
+        - "Transcriptomic"
+        - "Viral RNA"
+        - "Not Reported"  
+    Req: true
+    Strict: false
+    Private: false  
   #sequencing_file
   number_of_bp:
     Desc: Count of unique basecalls present in the data. Please count each base only once if using secondary alignments.
@@ -5415,7 +5424,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11524548'
         Value: Clinical Trial Treatment Arm Text
-        Version: "1"
+        Version: "1.00"
     Type: string
     Req: true
     Private: false
@@ -5536,7 +5545,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '5102381'
         Value: Therapeutic Procedure Performed Type
-        Version: "1"
+        Version: "1.00"
     Type:
       value_type: list
       Enum:

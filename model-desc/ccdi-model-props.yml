@@ -5422,7 +5422,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14673514'
         Value: Clinical Trial Study Protocol Unique Identifier
-        Version: "null"
+        Version: "1.00"
     Type: string
     Req: true
     Private: false
@@ -5543,7 +5543,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '5102381'
         Value: Treatment Method Type
-        Version: "null"
+        Version: "1.00"
     Type:
       value_type: list
       Enum:

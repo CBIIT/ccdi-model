@@ -33,11 +33,11 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14607707'
         Value: Imaging Technique Magnetic Field Strength Number
-        Version: "null"
+        "null"
       - Origin: DICOM
         Code: '0018,0087'
         Value: Imaging Technique Magnetic Field Strength Number
-        Version: "null"
+        "null"
     Type: string
     Req: true
     Key: false
@@ -49,7 +49,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2866141'
         Value: Equipment Manufacturer Model Name Text
-        Version: "null"
+        "null"
     Type: string
     Req: true
     Key: false
@@ -61,7 +61,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2413274'
         Value: Equipment Manufacturer Model Name Text
-        Version: "null"
+        "null"
     Type: string
     Req: true
     Key: false
@@ -73,7 +73,7 @@ PropDefinitions:
       - Origin: DICOM
         Code: '0018,0084'
         Value: imaging_frequency
-        Version: "null"
+        "null"
     Type: string
     Req: false
     Key: false
@@ -5422,7 +5422,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14673514'
         Value: Clinical Trial Study Protocol Unique Identifier
-        Version: "null"
+        Version: "1.00"
     Type: string
     Req: true
     Private: false
@@ -5543,7 +5543,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '5102381'
         Value: Treatment Method Type
-        Version: "null"
+        Version: "1.00"
     Type:
       value_type: list
       Enum:

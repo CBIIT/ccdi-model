@@ -5161,17 +5161,6 @@ PropDefinitions:
     Req: true
     Private: false
   # study
-  study_acronym:
-    Desc: The acronym or abbreviated form of the title for a research data collection.
-    Term:
-      - Origin: caDSR
-        Code: '11459812'
-        Value: Study Short Name Text
-        Version: "null"
-    Type: string
-    Req: true
-    Private: false
-  # study
   study_description:
     Desc: The long form description of the study.
     Term:

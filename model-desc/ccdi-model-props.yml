@@ -1113,12 +1113,12 @@ PropDefinitions:
     Private: false
   #survival
   follow_up_category:
-    Desc: yy
+    Desc: A text term based on grouping information about the health status of an individual after a study has officially closed
     Term:
       - Origin: caDSR
         Code: '14480973'
         Value: Subject Follow-Up Category
-        Version: "1.00"
+        Version: "null"
     Type:
       value_type: string
       Enum:
@@ -1137,7 +1137,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3125302'
         Value: adverse event
-        Version: "null"
+        Version: "1.00"
     Type:
       value_type: list
       Enum:

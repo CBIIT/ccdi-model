@@ -1083,24 +1083,32 @@ PropDefinitions:
     Private: false
   #survival
   event_free_survival_status:
-    Desc: yy
+    Desc: Identify the nature of the event that best characterizes the endpoint of the study.
     Term:
       - Origin: caDSR
-        Code: 'nn'
-        Value: yy
-        Version: "null"
+        Code: '3070936'
+        Value: Study End Point Event Type
     Type: integer
     Req: false
     Private: false
   #survival
   first_event:
-    Desc: yy
+    Desc: Identify the nature of the event that best characterizes the endpoint of the study.
     Term:
       - Origin: caDSR
-        Code: 'nn'
-        Value: yy
+        Code: '3070936'
+        Value: Study End Point Event Type
         Version: "null"
-    Type: integer
+    Type:
+      value_type: string
+      Enum:
+        - "Progression"
+        - "Relapse"
+        - "Second Malignant Neoplasm"
+        - "Death"
+        - 'Not Reported'
+        - "Not Applicable"
+        - "Unknown"
     Req: false
     Private: false
   #survival

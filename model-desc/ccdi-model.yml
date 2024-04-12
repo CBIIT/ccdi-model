@@ -93,11 +93,14 @@ Nodes:
       - relationship
       - family_id
       - id
-  follow_up:
+  survival:
     Props:
-      - follow_up_id
-      - vital_status
-      - age_at_follow_up 
+      - survival_id
+      - last_known_survival_status
+      - age_at_last_known_survival_status 
+      - event_free_survival_status
+      - first_event
+      - age_at_event_free_survival_status
       - follow_up_category
       - adverse_event
       - comorbidity

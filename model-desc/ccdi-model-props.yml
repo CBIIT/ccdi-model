@@ -1053,14 +1053,22 @@ PropDefinitions:
     Key: true
   #survival
   last_known_survival_status:
-    Desc: nnn
+    Desc: Participant vital status
     Term:
       - Origin: caDSR
-        Code: 'nn'
-        Value: nn
-        Version: "1.00"
-    Type: string
+        Code: '2847330'
+        Value: Participant Vital Status Type
+        Version: "null"
+    Type:
+      value_type: string
+      Enum:
+        - "Alive"
+        - "Dead"
+        - "Not Reported"
+        - "Unknown"
+        - "Unspecified"
     Req: true
+    Strict: true
     Private: false
   #survival
   age_at_last_known_survival_status:
@@ -3641,25 +3649,7 @@ PropDefinitions:
     Req: true
     Private: false
   #diagnosis
-  vital_status:
-    Desc: Participant vital status
-    Term:
-      - Origin: caDSR
-        Code: '2847330'
-        Value: Participant Vital Status Type
-        Version: "null"
-    Type:
-      value_type: string
-      Enum:
-        - "Alive"
-        - "Dead"
-        - "Not Reported"
-        - "Unknown"
-        - "Unspecified"
-    Req: true
-    Strict: true
-    Private: false
-  #diagnosis, sample
+  #diagnosis
   toronto_childhood_cancer_staging:
     Desc: Cancer stage as captured by the Toronto Childhood Cancer Stage Guidelines.
     Term: 

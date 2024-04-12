@@ -1039,37 +1039,70 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
-  #follow_up
-  follow_up_id:
-    Desc: A unique sequence of characters used to identify, name, or characterize the the health status of an individual after a study has officially closed.
+  #survival
+  survival_id:
+    Desc: nnn
     Term:
       - Origin: caDSR
-        Code: '14576972'
-        Value: Subject Follow-Up Event Unique Identifier
-        Version: "null"
+        Code: 'nn'
+        Value: nn
+        Version: "1.00"
     Type: string
     Req: true
     Private: false
     Key: true
-  #follow_up
-  age_at_follow_up:
+  #survival
+  last_known_survival_status:
+    Desc: nnn
+    Term:
+      - Origin: caDSR
+        Code: 'nn'
+        Value: nn
+        Version: "1.00"
+    Type: string
+    Req: true
+    Private: false
+  #survival
+  age_at_last_known_survival_status:
     Desc: The age (in days) when the follow-up status of the subject was recorded.
     Term:
       - Origin: caDSR
-        Code: '14480965'
-        Value: Subject Age Follow-Up Day Count
+        Code: 'nn'
+        Value: yy
         Version: "null"
     Type: integer
     Req: true
     Private: false
-  #follow_up
+  #survival
+  event_free_survival_status:
+    Desc: yy
+    Term:
+      - Origin: caDSR
+        Code: 'nn'
+        Value: yy
+        Version: "null"
+    Type: integer
+    Req: false
+    Private: false
+  #survival
+  first_event:
+    Desc: yy
+    Term:
+      - Origin: caDSR
+        Code: 'nn'
+        Value: yy
+        Version: "null"
+    Type: integer
+    Req: false
+    Private: false
+  #survival
   follow_up_category:
-    Desc: A text term based on grouping information about the health status of an individual after a study has officially closed
+    Desc: yy
     Term:
       - Origin: caDSR
         Code: '14480973'
         Value: Subject Follow-Up Category
-        Version: "null"
+        Version: "1.00"
     Type:
       value_type: string
       Enum:
@@ -1081,7 +1114,7 @@ PropDefinitions:
     Req: false
     Strict: false
     Private: false
-  #follow_up
+  #survival
   adverse_event:
     Desc: Common Terminology Criteria for Adverse Events Version 4.0 Low Level Term Name
     Term:
@@ -1885,7 +1918,7 @@ PropDefinitions:
     Req: false
     Strict: false
     Private: false
-  #follow_up
+  #survival
   comorbidity:
     Desc: The class or category of the secondary disease(s).
     Term:
@@ -2042,7 +2075,7 @@ PropDefinitions:
     Req: false
     Strict: false
     Private: false          
-  #follow_up
+  #survival
   comorbidity_method_of_diagnosis:
     Desc: The class of clinical or laboratory procedure(s) used to determine the secondary disease diagnosis.
     Term: 

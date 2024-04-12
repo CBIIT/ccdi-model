@@ -1072,12 +1072,12 @@ PropDefinitions:
     Private: false
   #survival
   age_at_last_known_survival_status:
-    Desc: The age (in days) when the follow-up status of the subject was recorded.
+    Desc: The age (in days) of the subject when the vitals measurement was taken.
     Term:
       - Origin: caDSR
-        Code: 'nn'
-        Value: yy
-        Version: "null"
+        Code: '12306025'
+        Value: Subject Age at Vitals Day Count
+        Version: "1.00"
     Type: integer
     Req: true
     Private: false

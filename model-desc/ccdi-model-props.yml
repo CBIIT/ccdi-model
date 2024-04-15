@@ -4142,6 +4142,8 @@ PropDefinitions:
         - "American Indian or Alaska Native"
         - "Asian"
         - "Black or African American"
+        - "Hispanic or Latino"
+        - "Middle Eastern or North African"
         - "Native Hawaiian or other Pacific Islander"
         - "Not Allowed to Collect"
         - "Not Reported"

@@ -4130,7 +4130,7 @@ PropDefinitions:
     Private: false
   #participant
   race: 
-    Desc: The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
+    Desc: The text for reporting information about race based on the Office of Management and Budget (OMB) categories SPD 15 (spd15revision.gov).
     Term:
       - Origin: caDSR
         Code: '2192199'
@@ -4173,25 +4173,6 @@ PropDefinitions:
         - "Decline to answer"
         - "None of These Describe Me"
         - "Prefer Not to Answer"
-    Req: true
-    Strict: false
-    Private: false
-  #participant
-  ethnicity:
-    Desc: The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
-    Term:
-      - Origin: caDSR
-        Code: '2192217'
-        Value: Ethnic Group Category Text
-        Version: "null"
-    Type:
-      value_type: list
-      Enum:
-        - "Hispanic or Latino"
-        - "Not Allowed to Collect"
-        - "Not Hispanic or Latino"
-        - "Not Reported"
-        - "Unknown" 
     Req: true
     Strict: false
     Private: false

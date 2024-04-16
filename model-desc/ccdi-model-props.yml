@@ -1082,16 +1082,6 @@ PropDefinitions:
     Req: true
     Private: false
   #survival
-  event_free_survival_status:
-    Desc: Identify the nature of the event that best characterizes the endpoint of the study.
-    Term:
-      - Origin: caDSR
-        Code: '3070936'
-        Value: Study End Point Event Type
-    Type: integer
-    Req: false
-    Private: false
-  #survival
   first_event:
     Desc: Identify the nature of the event that best characterizes the endpoint of the study.
     Term:
@@ -1110,6 +1100,34 @@ PropDefinitions:
         - "Not Applicable"
         - "Unknown"
     Req: false
+    Private: false
+  #survival
+  event_free_survival_status:
+    Desc: Identify the nature of the event that best characterizes the endpoint of the study.
+    Term:
+      - Origin: caDSR
+        Code: '3070936'
+        Value: Study End Point Event Type
+        Version: "null"
+    Type:
+      value_type: string
+      Enum:
+        - "Censored"
+        - "Not Censored"
+        - 'Not Reported'
+        - "Unknown"
+    Req: false
+    Private: false
+  #survival
+  age_at_event_free_survival_status:
+    Desc: Time from diagnosis to first event (or censoring), in days.
+    Term:
+      - Origin: caDSR
+        Code: '3229334'
+        Value: Study End Point Event Occurrence Day Count
+        Version: "null"
+    Type: integer
+    Req: true
     Private: false
   #survival
   follow_up_category:

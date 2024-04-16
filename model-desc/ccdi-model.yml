@@ -463,11 +463,11 @@ Relationships:
     Ends:
       - Src: family_relationship
         Dst: participant      
-  of_follow_up:
+  of_survival:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: follow_up
+      - Src: survival
         Dst: participant
   of_pathology_file:
     Props: null

@@ -402,6 +402,14 @@ Nodes:
       - treatment_type
       - therapeutic_agent
       - id
+  treatment_response:
+    Props:
+      - treatment_response_id
+      - response
+      - age_at_response
+      - response_category
+      - response_system
+      - id
 Relationships:
   of_cell_line:
     Props: null
@@ -556,6 +564,12 @@ Relationships:
     Ends:
       - Src: therapeutic_procedure
         Dst: participant
+  of_treatment_response:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      -Src: treatment_response
+       Dst: participant
   of_synonym:
     Props: null
     Mul: many_to_one

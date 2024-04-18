@@ -259,28 +259,11 @@ Nodes:
     Props:
       - sample_id
       - anatomic_site
-      - participant_age_at_collection # 28.02.22 pdunn
-      - diagnosis
-      - diagnosis_classification_system
-      - diagnosis_basis
-      - diagnosis_comment
+      - participant_age_at_collection
       - sample_tumor_status
       - tumor_classification
       - sample_description
-      - alternate_sample_id
-      - last_known_disease_status
-      - age_at_last_known_disease_status
-      - toronto_childhood_cancer_staging
-      - tumor_stage_clinical_t
-      - tumor_stage_clinical_n
-      - tumor_stage_clinical_m
-      - tumor_stage_source
-      - tumor_grade
-      - tumor_grade_source
       - id
-  #   - sample_type
-  #   - biosample_accession captured in synonym 
-  #   - disease_phase
   single_cell_sequencing_file:
     Props:
       - single_cell_sequencing_file_id
@@ -446,6 +429,8 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
+      - Src: diagnosis
+        Dst: sample
       - Src: diagnosis
         Dst: participant
   of_exposure:

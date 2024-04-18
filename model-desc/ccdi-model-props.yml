@@ -11469,3 +11469,55 @@ PropDefinitions:
     Req: false
     Strict: false
     Private: false
+  #treatment_response
+  treatment_response_id:
+    Desc: In medicine, an improvement related to treatment. One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.
+    Term:
+      - Origin: caDSR
+        Code: '2608389'
+        Value: Response Identifier
+        Version: "1.00"
+    Type: string
+    Req: true
+    Private: false 
+    Key: true
+  #treatment_response
+  response:
+    Desc: The result of an evaluation to determine whether pathologic and/or clinical changes resulted from treatment.
+    Term:
+      - Origin: caDSR
+        Code: '13383448'
+        Value: Disease Response Assessment Outcome
+        Version: "1.00"
+    Type: string
+    Req: true
+    Private: false
+  #treatment_response
+  age_at_response:
+    Desc: The age (in days) of subject when the response assessment was made.
+    Term:
+      - Origin: caDSR
+        Code: '12326598'
+        Value: Subject Age at Response Assessment Day Count
+        Version: "1.00"
+    Type: string
+    Req: true
+    Private: false
+  #treatment_response
+  response_category:
+    Desc: A text term based on categorization of the pathologic and/or clinical changes that result from treatment, including eradication of detectable disease, stabilization of disease, or disease progression.    Term:
+      - Origin: caDSR
+        Code: '13383449'
+        Value: Disease Response Assessment Category
+        Version: "1.00"
+    Type: string
+    Req: true
+    Private: false
+  response_system:
+    Desc: 	The type of standard from which a judgment concerning tumor response to therapy can be established.      - Origin: caDSR
+        Code: '13381490'
+        Value: Disease Tumor Response System Type
+        Version: "1.00"
+    Type: string
+    Req: true
+    Private: false

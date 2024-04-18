@@ -5099,6 +5099,7 @@ PropDefinitions:
         - "Other"
         - "Padlock Probes Capture Method"
         - "PCR"
+        - "PolyA"
         - "Poly-A Enriched Genomic Library"
         - "RACE"
         - "Random"

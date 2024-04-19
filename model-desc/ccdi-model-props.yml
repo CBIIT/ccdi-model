@@ -1075,7 +1075,6 @@ PropDefinitions:
       Enum:
         - "adverse_event"
         - "comorbidity"
-        - "disease_response"
         - "risk_factor"
         - "other"
     Req: false

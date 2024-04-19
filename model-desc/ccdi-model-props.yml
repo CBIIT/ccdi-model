@@ -11441,7 +11441,7 @@ PropDefinitions:
         Code: '13383448'
         Value: Disease Response Assessment Outcome
         Version: "1.00"
-        Type:
+    Type:
       value_type: list
       Enum:
         - "Complete Remission"

@@ -11468,7 +11468,7 @@ PropDefinitions:
         Code: '12326598'
         Value: Subject Age at Response Assessment Day Count
         Version: "1.00"
-    Type: string
+    Type: integer
     Req: true
     Private: false
   #treatment_response
@@ -11495,7 +11495,8 @@ PropDefinitions:
     Req: true
     Private: false
   response_system:
-    Desc: 	The type of standard from which a judgment concerning tumor response to therapy can be established.      - Origin: caDSR
+    Desc: The type of standard from which a judgment concerning tumor response to therapy can be established.      
+      - Origin: caDSR
         Code: '13381490'
         Value: Disease Tumor Response System Type
         Version: "1.00"

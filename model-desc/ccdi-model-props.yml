@@ -11494,6 +11494,7 @@ PropDefinitions:
         - "Unknown"
     Req: true
     Private: false
+  #treatment_response
   response_system:
     Desc: The type of standard from which a judgment concerning tumor response to therapy can be established.      
       - Origin: caDSR

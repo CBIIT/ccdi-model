@@ -568,8 +568,8 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
-      -Src: treatment_response
-       Dst: participant
+      - Src: treatment_response
+        Dst: participant
   of_synonym:
     Props: null
     Mul: many_to_one

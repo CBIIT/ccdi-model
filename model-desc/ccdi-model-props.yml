@@ -11489,7 +11489,23 @@ PropDefinitions:
         Code: '13383448'
         Value: Disease Response Assessment Outcome
         Version: "1.00"
-    Type: string
+        Type:
+      value_type: list
+      Enum:
+        - "Complete Remission"
+        - "Minor Response"
+        - "Mixed Response"
+        - "No Evidence of Disease"
+        - "Non-Response"
+        - "Not Applicable"
+        - "Not Done"
+        - "Not Evaluable"
+        - "Not Reported"
+        - "Partial Response"
+        - "Progressive Disease"
+        - "Stable Disease"
+        - "Unknown"
+        - "Very Good Partial Response"
     Req: true
     Private: false
   #treatment_response
@@ -11510,7 +11526,20 @@ PropDefinitions:
         Code: '13383449'
         Value: Disease Response Assessment Category
         Version: "1.00"
-    Type: string
+    Type:
+      value_type: list
+      Enum:        
+        - "Bone Marrow Response"
+        - "CNS Response"
+        - "Metastatic Soft Tissue and Bone Response"
+        - "Myeloid Sarcoma Response"
+        - "Non-Target Lesions"
+        - "Not Reported"
+        - "Other"
+        - "Overall Response"
+        - "Primary Site Response"
+        - "Target Lesions"
+        - "Unknown"
     Req: true
     Private: false
   response_system:
@@ -11518,6 +11547,21 @@ PropDefinitions:
         Code: '13381490'
         Value: Disease Tumor Response System Type
         Version: "1.00"
-    Type: string
+    Type:
+      value_type: list
+      Enum:
+        - "Choi"
+        - "INRC, Brodeur 1993"
+        - "INRC, Park 2017"
+        - "iRANO"
+        - "Modified MacDonald"
+        - "mRECIST"
+        - "Not Reported"
+        - "PERCIST"
+        - "RANO"
+        - "RAPNO"
+        - "RECIST"
+        - "Unknown"
+        - "WHO
     Req: true
     Private: false

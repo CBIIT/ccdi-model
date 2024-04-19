@@ -2548,53 +2548,6 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #follow_up
-  disease_response:
-    Desc: Code assigned to describe the patient's response or outcome to the disease.
-    Term:
-      - Origin: caDSR
-        Code: '5750671'
-        Value: Disease Response Code
-        Version: "null"
-    Type:
-      value_type: list
-      Enum:
-        - "AJ-Adjuvant Therapy"
-        - "BED-Biochemical Evidence of Disease"
-        - "CPD-Clinical Progression"
-        - "CR-Complete Response"
-        - "CRU-Complete Response Unconfirmed"
-        - "DU-Disease Unchanged"
-        - "IMR-Immunoresponse"
-        - "IPD-Immunoprogression"
-        - "MR-Minimal/Marginal response"
-        - "MX-Mixed Response"
-        - "Non-CR/Non-PD-Non-CR/Non-PD"
-        - "NPB-No Palliative Benefit"
-        - "NR-No Response"
-        - "PA-Palliative Therapy"
-        - "PB-Palliative Benefit"
-        - "PD-Progressive Disease"
-        - "PDM-Persistent Distant Metastasis"
-        - "PLD-Persistent Locoregional Disease"
-        - "PPD-Pseudoprogression"
-        - "PR-Partial Response"
-        - "PSR-Pseudoresponse"
-        - "RD-Responsive Disease"
-        - "RP-Response"
-        - "RPD-Radiographic Progressive Disease"
-        - "sCR-Stringent Complete Response"
-        - "SD-Stable Disease"
-        - "SPD-Surgical Progression"
-        - "TE-Too Early"
-        - "TF-Tumor Free"
-        - "VGPR-Very Good Partial Response"
-        - "WT-With Tumor"
-        - "Unknown"
-        - "Not Reported"
-    Req: false
-    Strict: true
-    Private: false
   #molecular_test
   second_exon:
     Desc: A numeral or string of numerals that is used to identify the position of a second exon that is either involved in a molecular variation or of interest in an experiment or study.

@@ -11518,6 +11518,6 @@ PropDefinitions:
         - "RAPNO"
         - "RECIST"
         - "Unknown"
-        - "WHO
+        - "WHO"
     Req: true
     Private: false

@@ -6938,7 +6938,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '13579886'
         Value: Therapeutic Procedure Agent Name
-        Version: "null"
+        Version: "1.00"
     Type:
       value_type: string
       Enum:

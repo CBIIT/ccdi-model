@@ -5452,7 +5452,7 @@ PropDefinitions:
         Value: Data Source Organizational Unit Identifier
         Version: "null"
     Type: string
-    Req: true  # 28feb22 pdunn
+    Req: true
     Private: false
   #therapeutic_procedure
   treatment_outcome:

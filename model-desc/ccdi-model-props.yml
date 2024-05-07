@@ -5147,16 +5147,16 @@ PropDefinitions:
         Value: Research Activity dbGaP Accession Number Identifier 
         Version: "1.00"
     Type: string
-    Req: false
+    Req: true
     Private: false
   # study
-  study_short_title:
-    Desc: The acronym or abbreviated form of the title for a research data collection.
+  study_name:
+    Desc: The narrative title used as a textual label for a research data collection.
     Term:
       - Origin: caDSR
-        Code: '11459812'
-        Value: Study Short Name Text
-        Version: "null"
+        Code: '11459810'
+        Value: Study Name Text
+        Version: "1.00"
     Type: string
     Req: true
     Private: false
@@ -5167,7 +5167,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11459812'
         Value: Study Short Name Text
-        Version: "null"
+        Version: "1.00"
     Type: string
     Req: true
     Private: false
@@ -5178,7 +5178,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3444002'
         Value: Study Research Identification Descriptive Text
-        Version: "null"
+        Version: "1.00"
     Type: string
     Req: true
     Private: false

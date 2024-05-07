@@ -5139,13 +5139,13 @@ PropDefinitions:
     Private: false
     Key: true
   # study
-  phs_accession:
+  dbgap_accession:
     Desc: A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP). 
     Term:
       - Origin: caDSR
         Code: '11524544'
         Value: Research Activity dbGaP Accession Number Identifier 
-        Version: "null"
+        Version: "1.00"
     Type: string
     Req: false
     Private: false

@@ -4940,7 +4940,7 @@ PropDefinitions:
     Private: false
   #sequencing_file
   library_source_material: 
-    Desc: The source of a sample collection of double stranded DNA fragments analyzed by high-throughput sequencing.
+    Desc: The cellular source of the double stranded DNA fragments analyzed by high-throughput sequencing.
     Term:
       - Origin: caDSR
         Code: '14808227'
@@ -4953,15 +4953,15 @@ PropDefinitions:
     Type:
       value_type: string
       Enum:
-        - "Bulk cells"
-        - "Bulk nuclei"
-        - "Bulk tissue"
+        - "Bulk Cells"
+        - "Bulk Nuclei"
+        - "Bulk Tissue"
         - "Single-cells"
         - "Single-nuclei"
         - "Not Reported"  
         - "Other"
     Req: true
-    Strict: true
+    Strict: false
     Private: false
   #sequencing_file
   library_source_molecule: 
@@ -4980,8 +4980,8 @@ PropDefinitions:
         - "Transcriptomic"
         - "Viral RNA"
         - "Not Reported"  
-    Req: true
-    Strict: false
+    Req: false
+    Strict: true
     Private: false  
   #sequencing_file
   number_of_bp:

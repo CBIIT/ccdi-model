@@ -2017,6 +2017,12 @@ Terms:
     Code: 2571132
     Version: '1'
     Value: Head, face or neck, NOS
+  Healthy Control:
+    Origin: NCIt
+    Definition: A healthy subject that is matched with an affected individual in a trial.
+    Code: C94342
+    Version: '1'
+    Value: Healthy Control
   Heart:
     Origin: caDSR
     Definition: A hollow muscular organ which receives the blood from the veins and

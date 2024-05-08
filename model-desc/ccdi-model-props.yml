@@ -889,6 +889,7 @@ PropDefinitions:
       Enum:
         - "Every day"
         - "Some days"
+        - "Not Reported"
         - "Unknown"
     Req: false
     Strict: true
@@ -908,6 +909,7 @@ PropDefinitions:
         - "6-30 Minutes"
         - "31-60 Minutes"
         - "After 60 Minutes"
+        - "Not Reported"
         - "Unknown"
     Req: false
     Strict: true
@@ -1001,7 +1003,6 @@ PropDefinitions:
         - "Tobacco smoke, cigar"
         - "Tobacco smoke, cigarettes"
         - "Tobacco smoke, pipe"
-        - "Unknown"
         - "Volcanic smoke"
         - "Waste burning smoke"
         - "Wood burning smoke, factory"
@@ -1016,6 +1017,8 @@ PropDefinitions:
         - "Work-related smoke, plastics factory"
         - "Work-related smoke, plumbing"
         - "Work-related smoke, soldering/welding"
+        - "Not Reported"
+        - "Unknown"
     Req: false
     Strict: true
     Private: false
@@ -1036,6 +1039,8 @@ PropDefinitions:
         - "Other"
         - "Pipe"
         - "Smokeless Tobacco"
+        - "Not Reported"
+        - "Unkown"
     Req: false
     Strict: true
     Private: false
@@ -3569,13 +3574,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14714146'
         Value: Diagnosis Assessment Basis Source
-        Version: "null"
+        Version: "1.00"
     Type:
       value_type: string
       Enum:
         - 'Clinical'
         - 'Molecular'
-        - 'Pathological'
+        - 'Pathology'
         - 'Unknown'
         - 'Not Reported'
     Req: true
@@ -3928,6 +3933,7 @@ PropDefinitions:
         - "crai"
         - "csi"
         - "csv"
+        - "dict"
         - "dicom"
         - "docx"
         - "fasta"
@@ -4939,41 +4945,50 @@ PropDefinitions:
     Strict: true
     Private: false
   #sequencing_file
-  library_source: 
+  library_source_material: 
     Desc: The source of a sample collection of double stranded DNA fragments analyzed by high-throughput sequencing.
     Term:
       - Origin: caDSR
-        Code: '6285979'
-        Value: Sequencing Library Specimen Source
-        Version: "null"
+        Code: '14808227'
+        Value: Sequencing Library Cellular Material Source
+        Version: "1.00"
       - Origin: NCIt
         Code: 'C175895'
         Value: Sequencing Library Source Indicator
-        Version: "null"
+        Version: "1.00"
     Type:
       value_type: string
       Enum:
         - "Bulk cells"
         - "Bulk nuclei"
         - "Bulk tissue"
-        - "DNA"
-        - "Genomic"
-        - "Genomic Single Cell"
-        - "Metagenomic"
-        - "Metatranscriptomic"
-        - "RNA"
         - "Single-cells"
         - "Single-nuclei"
-        - "Synthetic"
-        - "Transcriptomic"
-        - "Transcriptomic Single Cell"
-        - "Viral RNA"
-        - "Viral"
-        - "Not Applicable"  
+        - "Not Reported"  
         - "Other"
     Req: true
     Strict: true
     Private: false
+  #sequencing_file
+  library_source_molecule: 
+    Desc: The molecular source of the nucleic acid fragments analyzed by high-throughput sequencing.
+    Term:
+      - Origin: caDSR
+        Code: '14808232'
+        Value: Sequencing Library Molecule Source
+        Version: "1.00"
+    Type:
+      value_type: string
+      Enum:
+        - "Genomic"
+        - "Metagenomic"
+        - "Metatranscriptomic"
+        - "Transcriptomic"
+        - "Viral RNA"
+        - "Not Reported"  
+    Req: true
+    Strict: false
+    Private: false  
   #sequencing_file
   number_of_bp:
     Desc: Count of unique basecalls present in the data. Please count each base only once if using secondary alignments.
@@ -5413,9 +5428,9 @@ PropDefinitions:
     Desc: One or more characters assigned by the Clinical Trial Sponsor to uniquely identify the investigational protocol or research activity.
     Term:
       - Origin: caDSR
-        Code: '14673514'
-        Value: Clinical Trial Study Protocol Unique Identifier
-        Version: "null"
+        Code: '11524548'
+        Value: Clinical Trial Treatment Arm Text
+        Version: "1.00"
     Type: string
     Req: true
     Private: false
@@ -5534,15 +5549,16 @@ PropDefinitions:
     Desc: Text term that describes the kind of treatment administered.
     Term:
       - Origin: caDSR
-        Code: '5102381'
-        Value: Treatment Method Type
-        Version: "null"
+        Code: '14737565'
+        Value: Therapeutic Procedure Performed Type
+        Version: "1.00"
     Type:
       value_type: list
       Enum:
         - "3-Dimensional Conformal Radiation Therapy"
         - "Allogeneic Hematopoietic Stem Cell Transplantation"
         - "Autologous Stem Cell Transplantation"
+        - "Cellular Therapy"
         - "Chemotherapy"
         - "Concurrent Chemoradiation"
         - "Conventional Radiotherapy"
@@ -6136,8 +6152,8 @@ PropDefinitions:
         - "8601/0 : Thecoma, luteinized"
         - "8602/0 : Sclerosing stromal tumor"
         - "8610/0 : Luteoma, NOS"
-        - "8620/1 : Adult granulosa cell tumor of testis"
-        - "8620/3 : Adult granulosa cell tumor of ovary"
+        - "8620/1 : Granulosa cell tumor, NOS"
+        - "8620/3 : Granulosa cell tumor, malignant"
         - "8621/1 : Granulosa cell-theca cell tumor"
         - "8622/0 : Granulosa cell tumor of testis, juvenile"
         - "8622/1 : Granulosa cell tumor, juvenile"
@@ -6157,15 +6173,18 @@ PropDefinitions:
         - "8641/0 : Sertoli cell tumor with lipid storage"
         - "8642/1 : Large cell calcifying Sertoli cell tumor"
         - "8643/1 : Intratubular large cell hyalinizing Sertoli cell neoplasia"
-        - "8650/0 : Leydig cell tumor of ovary, NOS"
-        - "8650/1 : Leydig cell tumor of testis, NOS"
+        - "8650/0 : Leydig cell tumor, benign"
+        - "8650/0 : Interstitial cell tumor, benign"
+        - "8650/1 : Leydig cell tumor, NOS"
+        - "8650/1 : Interstitial cell tumor, NOS"
         - "8650/3 : Leydig cell tumor, malignant"
+        - "8650/3 : Interstitial cell tumor, malignant"
         - "8660/0 : Hilus cell tumor"
         - "8670/0 : Lipid cell tumor of ovary"
         - "8670/3 : Steroid cell tumor, malignant"
         - "8671/0 : Adrenal rest tumor"
         - "8680/1 : Paraganglioma, NOS"
-        - "8680/3 : Paraganglioma, NOS"
+        - "8680/3 : Paraganglioma, malignant"
         - "8681/3 : Sympathetic paraganglioma"
         - "8682/3 : Parasympathetic paraganglioma"
         - "8683/0 : Gangliocytic paraganglioma"
@@ -6346,7 +6365,7 @@ PropDefinitions:
         - "8935/1 : Stromal tumor, NOS"
         - "8935/3 : Stromal sarcoma, NOS"
         - "8936/0 : Gastrointestinal stromal tumor, benign"
-        - "8936/1 : Gastrointestinal stromal tumor"
+        - "8936/1 : Gastrointestinal stromal tumor, NOS"
         - "8936/3 : Gastrointestinal stromal tumor"
         - "8940/0 : Pleomorphic adenoma"
         - "8940/3 : Mixed tumor, malignant, NOS"
@@ -6910,6 +6929,7 @@ PropDefinitions:
         - "High-grade astrocytoma with piloid features"
         - "High-grade glioma, NOS or NEC"
         - "Histiocytic sarcoma"
+        - "Hybrid nerve sheath tumor"
         - "Immunodeficiency-associated CNS lymphoma"
         - "Infant-type hemispheric glioma"
         - "Intracranial mesenchymal tumor, FET-CREB fusion-positive"
@@ -6918,6 +6938,8 @@ PropDefinitions:
         - "Langerhans cell histiocytosis"
         - "Low-grade glioma, NOS or NEC"
         - "Lymphomatoid granulomatosis"
+        - "Malignant melanotic nerve sheath tumor"
+        - "Malignant peripheral nerve sheath tumor"
         - "MALT lymphoma of the dura"
         - "Medulloblastoma, Group 3"
         - "Medulloblastoma, Group 4"
@@ -6932,11 +6954,14 @@ PropDefinitions:
         - "Multinodular and vacuolating neuronal tumor"
         - "Myxoid glioneuronal tumor"
         - "Myxopapillary ependymoma"
+        - "Neurofibroma"
         - "Oligodendroglioma, IDH-mutant, and 1p/19q-codeleted"
         - "Other low-grade B-cell lymphomas of the CNS"
         - "Papillary craniopharyngioma"
         - "Papillary glioneuronal tumor"
         - "Papillary tumor of the pineal region"
+        - "Paraganglioma"
+        - "Perineurioma"
         - "Pilocytic astrocytoma"
         - "Pineal parenchymal tumor of intermediate differentiation"
         - "Pineoblastoma"
@@ -6954,6 +6979,7 @@ PropDefinitions:
         - "Rhabdomyosarcoma"
         - "Rosai-Dorfman disease"
         - "Rosette-forming glioneuronal tumor"
+        - "Schwannoma"
         - "Solitary fibrous tumor"
         - "Spinal ependymoma, MYCN-amplified"
         - "Spinal ependymoma, NOS or NEC"

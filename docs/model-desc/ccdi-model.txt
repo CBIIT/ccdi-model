@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 262e960
+commit 329c7a4
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -45,9 +45,6 @@ family_relationship	family_id	STRING
 family_relationship	family_relationship_id	STRING
 family_relationship	id	STRING
 family_relationship	related_to_participant_id	STRING
-follow_up	age_at_follow_up	INTEGER
-follow_up	follow_up_id	STRING
-follow_up	id	STRING
 medical_history	id	STRING
 medical_history	medical_history_id	STRING
 methylation_array_file	dcf_indexd_guid	STRING
@@ -239,6 +236,10 @@ study_personnel	id	STRING
 study_personnel	institution	STRING
 study_personnel	personnel_name	STRING
 study_personnel	study_personnel_id	STRING
+survival	age_at_event_free_survival_status	INTEGER
+survival	age_at_last_known_survival_status	INTEGER
+survival	id	STRING
+survival	survival_id	STRING
 synonym	id	STRING
 synonym	repository_of_synonym_id	STRING
 synonym	synonym_id	STRING
@@ -257,7 +258,6 @@ of_diagnosis	diagnosis	participant	NA	NA
 of_diagnosis	diagnosis	sample	NA	NA
 of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
-of_follow_up	follow_up	participant	NA	NA
 of_medical_history	medical_history	participant	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
 of_molecular_test	molecular_test	participant	NA	NA
@@ -267,18 +267,19 @@ of_pdx	pdx	study	NA	NA
 of_pdx	pdx	sample	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
-of_sample	sample	pdx	NA	NA
-of_sample	sample	participant	NA	NA
 of_sample	sample	cell_line	NA	NA
+of_sample	sample	participant	NA	NA
+of_sample	sample	pdx	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
+of_survival	survival	participant	NA	NA
+of_synonym	synonym	sample	NA	NA
 of_synonym	synonym	participant	NA	NA
 of_synonym	synonym	study	NA	NA
-of_synonym	synonym	sample	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
 property	description
@@ -291,9 +292,10 @@ acquisitionContrastCode	Text specifying the kind of contrast used during the ima
 adult_or_childhood_study	The identifiable class of the study participant based upon their age.
 adverse_event	Common Terminology Criteria for Adverse Events Version 4.0 Low Level Term Name
 age_at_diagnosis	Age at the time of diagnosis expressed in number of days since birth.
+age_at_event_free_survival_status	Time from diagnosis to first event (or censoring), in days.
 age_at_exposure	The age (in days) of subject at a known exposure to a hazardous factor or substance.
-age_at_follow_up	The age (in days) when the follow-up status of the subject was recorded.
 age_at_last_known_disease_status	Subject Age at Last Known Disease Status Day Count
+age_at_last_known_survival_status	The age (in days) of the subject when the vitals measurement was taken.
 age_at_molecular_test	The age (in days) of the subject when the molecular test was performed.
 age_at_recurrence	The age (in days) of the subject at the time of recurrence.
 age_at_treatment_end	Subject Age in Days at End of Treatment Course Day Count
@@ -356,6 +358,7 @@ echo_time	A measurement of the time in milliseconds between the application of t
 email_address	The string of characters that represents the electronic mail address of a person.
 end_bias	The type of overabundance of transcripts seen in a sequencing library.
 environmental_tobacco_smoke_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
+event_free_survival_status	Identify the nature of the event that best characterizes the endpoint of the study.
 exon	The text term used to describe a specific exon targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located.
 experimental_strategy_and_data_subtype	The type of systematic investigation using controlled observations and measurements to test hypotheses or develop a plan of action based on the facts discovered.
 exposure_id	A unique sequence of characters used to identify, name, or characterize the type of chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
@@ -369,10 +372,10 @@ file_size	The measure (in bytes) of how much space a data file takes up on a sto
 file_type	A defined organization or layout representing and structuring data in a computer file.
 file_types_and_format	A defined organization or layout representing and structuring data in a computer file.
 file_url_in_cds	The specification of a node (file or directory) in a hierarchical file system where an electronic file is located.
+first_event	Identify the nature of the event that best characterizes the endpoint of the study.
 fixation_embedding_method	Text term that represents the method used to maintain the sample or biospecimen in a viable state.
 flip_angle	A measurement in magnetic resonance imaging capturing the rotation of the average axis of the protons, relative to the main magnetic field direction, induced by radiofrequency signals.
 follow_up_category	A text term based on grouping information about the health status of an individual after a study has officially closed
-follow_up_id	A unique sequence of characters used to identify, name, or characterize the the health status of an individual after a study has officially closed.
 follow_up_other	NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends
 funding_agency	The name of the funding source organization or sponsor.
 funding_source_program_name	The name of the program assigned by the funding agency.
@@ -393,6 +396,7 @@ inversionRecoveryIndicator	An indicator response as to whether or not the pulse 
 inversion_time	A measurement of the time between the inversion and excitation pulses in an inversion recovery pulse sequence.
 laboratory_test_name	The words by which the laboratory assessment is known.
 last_known_disease_status	The most recently documented condition or state of an individual's disease.
+last_known_survival_status	Participant vital status
 library_construction_method	A textual description of the procedures performed for building a collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
 library_id	A short unique identifier assigned to a nucleotide sequencing library.
 library_layout	The read strategy or method that was used for sequencing and analysis of a nucleotide library.
@@ -494,6 +498,7 @@ study_funding_id	A sequence of characters used to uniquely identify, name, or ch
 study_id	A sequence of characters used to identify, name, or characterize a pediatric study.
 study_personnel_id	A sequence of characters used to uniquely identify, name, or characterize the person who performs a particular role within the context of a specific study.
 study_short_title	The acronym or abbreviated form of the title for a research data collection.
+survival_id	nnn
 synonym_id	A sequence of characters used to identify, name, or characterize a backup sequence of characters used to identify an entity.
 test_analyte_type	The text term used to describe the type of analyte used for molecular testing.
 test_result_numeric	The numeric value of the blood, urine, or other body substance laboratory test being recorded.
@@ -524,6 +529,5 @@ type_of_tobacco_used	The response that indicates which smoking products a person
 validation_technique	Any technique used to validate PDX against their original patient tumour, including fingerprinting, histology, immunohistochemistry.
 variant_origin	The text term that describes the origin of a variation in the nucleic acid sequence of a specific gene.
 variant_type	The text term used to describe the type of genetic variation.
-vital_status	Participant vital status
 years_smoked	Number that represents the years spent smoking cigarettes.
 zygosity	The text term used to describe the zygosity of a specific genetic variant.

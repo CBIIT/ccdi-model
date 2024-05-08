@@ -169,7 +169,6 @@ Nodes:
       - participant_id
       - race       
       - sex_at_birth
-      - ethnicity
       - alternate_participant_id
       - id
       # - dbgap_subject_id : store in synonym

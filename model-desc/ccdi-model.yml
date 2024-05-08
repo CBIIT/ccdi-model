@@ -93,11 +93,14 @@ Nodes:
       - relationship
       - family_id
       - id
-  follow_up:
+  survival:
     Props:
-      - follow_up_id
-      - vital_status
-      - age_at_follow_up 
+      - survival_id
+      - last_known_survival_status
+      - age_at_last_known_survival_status 
+      - first_event
+      - event_free_survival_status
+      - age_at_event_free_survival_status
       - follow_up_category
       - adverse_event
       - comorbidity
@@ -444,11 +447,11 @@ Relationships:
     Ends:
       - Src: family_relationship
         Dst: participant      
-  of_follow_up:
+  of_survival:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: follow_up
+      - Src: survival
         Dst: participant
   of_pathology_file:
     Props: null

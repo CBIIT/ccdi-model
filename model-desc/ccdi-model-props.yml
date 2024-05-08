@@ -7013,6 +7013,7 @@ PropDefinitions:
         - "Supratentorial ependymoma, ZFTA fusion-positive"
         - "T-cell and NK/T-cell lymphomas"         
         - "[---- Miscellaneous ----]"
+        - "Healthy Control"
         - "Normal"
         - "Not Reported"
         - "Unknown"

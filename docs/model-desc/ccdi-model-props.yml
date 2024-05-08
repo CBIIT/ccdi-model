@@ -4978,7 +4978,7 @@ PropDefinitions:
     Private: false
   #sequencing_file
   library_source_material: 
-    Desc: The source of a sample collection of double stranded DNA fragments analyzed by high-throughput sequencing.
+    Desc: The cellular source of the double stranded DNA fragments analyzed by high-throughput sequencing.
     Term:
       - Origin: caDSR
         Code: '14808227'
@@ -4991,15 +4991,15 @@ PropDefinitions:
     Type:
       value_type: string
       Enum:
-        - "Bulk cells"
-        - "Bulk nuclei"
-        - "Bulk tissue"
+        - "Bulk Cells"
+        - "Bulk Nuclei"
+        - "Bulk Tissue"
         - "Single-cells"
         - "Single-nuclei"
         - "Not Reported"  
         - "Other"
     Req: true
-    Strict: true
+    Strict: false
     Private: false
   #sequencing_file
   library_source_molecule: 
@@ -5018,8 +5018,8 @@ PropDefinitions:
         - "Transcriptomic"
         - "Viral RNA"
         - "Not Reported"  
-    Req: true
-    Strict: false
+    Req: false
+    Strict: true
     Private: false  
   #sequencing_file
   number_of_bp:
@@ -5175,7 +5175,7 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  #study
+  # study
   dbgap_accession:
     Desc: A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP). 
     Term:
@@ -5186,14 +5186,14 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  #study
-  study_short_title:
-    Desc: The acronym or abbreviated form of the title for a research data collection.
+  # study
+  study_name:
+    Desc: The narrative title used as a textual label for a research data collection.
     Term:
       - Origin: caDSR
-        Code: '11459812'
-        Value: Study Short Name Text
-        Version: "null"
+        Code: '11459810'
+        Value: Study Name Text
+        Version: "1.00"
     Type: string
     Req: true
     Private: false
@@ -5204,7 +5204,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11459812'
         Value: Study Short Name Text
-        Version: "null"
+        Version: "1.00"
     Type: string
     Req: true
     Private: false
@@ -5215,7 +5215,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3444002'
         Value: Study Research Identification Descriptive Text
-        Version: "null"
+        Version: "1.00"
     Type: string
     Req: true
     Private: false
@@ -7013,6 +7013,7 @@ PropDefinitions:
         - "Supratentorial ependymoma, ZFTA fusion-positive"
         - "T-cell and NK/T-cell lymphomas"         
         - "[---- Miscellaneous ----]"
+        - "Healthy Control"
         - "Normal"
         - "Not Reported"
         - "Unknown"

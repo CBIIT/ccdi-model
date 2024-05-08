@@ -316,7 +316,7 @@ Nodes:
   study:
     Props:
       - study_id
-      - phs_accession #dbGaP accession
+      - dbgap_accession
       - acl
       - study_short_title
       - study_acronym

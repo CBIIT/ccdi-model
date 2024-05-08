@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 5bdac03
+commit 262e960
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -253,8 +253,8 @@ of_cell_line	cell_line	study	NA	NA
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_clinical_measure_file	clinical_measure_file	participant	NA	NA
 of_cytogenomic_file	cytogenomic_file	sample	NA	NA
-of_diagnosis	diagnosis	sample	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
+of_diagnosis	diagnosis	sample	NA	NA
 of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
 of_follow_up	follow_up	participant	NA	NA
@@ -268,16 +268,16 @@ of_pdx	pdx	sample	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
 of_sample	sample	pdx	NA	NA
-of_sample	sample	cell_line	NA	NA
 of_sample	sample	participant	NA	NA
+of_sample	sample	cell_line	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_single_cell_sequencing_file	single_cell_sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	participant	NA	NA
+of_synonym	synonym	study	NA	NA
 of_synonym	synonym	sample	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
 
@@ -356,7 +356,6 @@ echo_time	A measurement of the time in milliseconds between the application of t
 email_address	The string of characters that represents the electronic mail address of a person.
 end_bias	The type of overabundance of transcripts seen in a sequencing library.
 environmental_tobacco_smoke_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
-ethnicity	The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
 exon	The text term used to describe a specific exon targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located.
 experimental_strategy_and_data_subtype	The type of systematic investigation using controlled observations and measurements to test hypotheses or develop a plan of action based on the facts discovered.
 exposure_id	A unique sequence of characters used to identify, name, or characterize the type of chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
@@ -449,7 +448,7 @@ protocols_link	A sequence of letters, numbers, or other characters that uniquely
 publication_id	A Digital Object Identifier (DOI) of the publication associated with the study.
 pubmed_id	PubMed identifier of the publication associated with the study.
 pulseSequenceName	The process by which an image is acquired or obtained. The literal identifier for the pulse sequence.
-race	The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
+race	The text for reporting information about race based on the Office of Management and Budget (OMB) categories SPD 15 (spd15revision.gov).
 radiology_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 radon_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
 reference_genome_assembly	One or more characters used to identify the published NCBI genetic sequence that is used as a reference against which other sequences are compared.

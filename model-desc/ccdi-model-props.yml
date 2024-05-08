@@ -5175,18 +5175,18 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  # study
-  phs_accession:
+  #study
+  dbgap_accession:
     Desc: A stable unique alphanumeric identifier assigned to a study and any objects by the database of Genotypes and Phenotypes (dbGaP). 
     Term:
       - Origin: caDSR
         Code: '11524544'
         Value: Research Activity dbGaP Accession Number Identifier 
-        Version: "null"
+        Version: "1.00"
     Type: string
-    Req: false
+    Req: true
     Private: false
-  # study
+  #study
   study_short_title:
     Desc: The acronym or abbreviated form of the title for a research data collection.
     Term:

@@ -280,7 +280,8 @@ Nodes:
       - library_selection # sra req'd
       - library_strategy  # sra req'd
       - library_layout  # sra req'd # paired end, single, moved from submission
-      - library_source  # sra req'd # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
+      - library_source_material  # nee library_source for SRA req'd 
+      - library_source_molecule
       - number_of_bp  # sra req'd
       - number_of_reads  # sra req'd
       - design_description

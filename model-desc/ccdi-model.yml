@@ -93,11 +93,14 @@ Nodes:
       - relationship
       - family_id
       - id
-  follow_up:
+  survival:
     Props:
-      - follow_up_id
-      - vital_status
-      - age_at_follow_up 
+      - survival_id
+      - last_known_survival_status
+      - age_at_last_known_survival_status 
+      - first_event
+      - event_free_survival_status
+      - age_at_event_free_survival_status
       - follow_up_category
       - adverse_event
       - comorbidity
@@ -169,7 +172,6 @@ Nodes:
       - participant_id
       - race       
       - sex_at_birth
-      - ethnicity
       - alternate_participant_id
       - id
       # - dbgap_subject_id : store in synonym
@@ -264,9 +266,9 @@ Nodes:
       - tumor_classification
       - sample_description
       - id
-  single_cell_sequencing_file:
+  sequencing_file: 
     Props:
-      - single_cell_sequencing_file_id
+      - sequencing_file_id
       - file_name
       - file_type
       - file_description
@@ -310,35 +312,6 @@ Nodes:
       - UMI_barcode_offset
       - UMI_barcode_read
       - UMI_barcode_size
-      - id
-  sequencing_file: # 01.03.22 pdunn
-    Props:
-      - sequencing_file_id
-      - file_name
-      - file_type
-      - file_description
-      - file_size
-      - md5sum
-      - file_url_in_cds
-      - dcf_indexd_guid
-      - library_id # sra req'd
-      - library_selection # sra req'd
-      - library_strategy  # sra req'd
-      - library_layout  # sra req'd # paired end, single, moved from submission
-      - library_source  # sra req'd # genomic, transcriptome, metagenomic, viral, synthetic; move from submission
-      - number_of_bp  # sra req'd
-      - number_of_reads  # sra req'd
-      - design_description
-      - platform
-      - instrument_model
-      - avg_read_length # sra req'd
-      - coverage  # sra req'd
-      - reference_genome_assembly  # sra req'd
-      - checksum_algorithm
-      - checksum_value
-      - custom_assembly_fasta_file_for_alignment
-      - file_mapping_level
-      - sequence_alignment_software
       - id
   study:
     Props:
@@ -445,11 +418,11 @@ Relationships:
     Ends:
       - Src: family_relationship
         Dst: participant      
-  of_follow_up:
+  of_survival:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: follow_up
+      - Src: survival
         Dst: participant
   of_pathology_file:
     Props: null
@@ -519,12 +492,6 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: sequencing_file
-        Dst: sample
-  of_single_cell_sequencing_file:
-    Props: null
-    Mul: many_to_one
-    Ends:
-      - Src: single_cell_sequencing_file
         Dst: sample
   of_study_admin: 
     Props: null

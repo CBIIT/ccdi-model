@@ -889,6 +889,7 @@ PropDefinitions:
       Enum:
         - "Every day"
         - "Some days"
+        - "Not Reported"
         - "Unknown"
     Req: false
     Strict: true
@@ -908,6 +909,7 @@ PropDefinitions:
         - "6-30 Minutes"
         - "31-60 Minutes"
         - "After 60 Minutes"
+        - "Not Reported"
         - "Unknown"
     Req: false
     Strict: true
@@ -1001,7 +1003,6 @@ PropDefinitions:
         - "Tobacco smoke, cigar"
         - "Tobacco smoke, cigarettes"
         - "Tobacco smoke, pipe"
-        - "Unknown"
         - "Volcanic smoke"
         - "Waste burning smoke"
         - "Wood burning smoke, factory"
@@ -1016,6 +1017,8 @@ PropDefinitions:
         - "Work-related smoke, plastics factory"
         - "Work-related smoke, plumbing"
         - "Work-related smoke, soldering/welding"
+        - "Not Reported"
+        - "Unknown"
     Req: false
     Strict: true
     Private: false
@@ -1036,33 +1039,102 @@ PropDefinitions:
         - "Other"
         - "Pipe"
         - "Smokeless Tobacco"
+        - "Not Reported"
+        - "Unkown"
     Req: false
     Strict: true
     Private: false
-  #follow_up
-  follow_up_id:
-    Desc: A unique sequence of characters used to identify, name, or characterize the the health status of an individual after a study has officially closed.
+  #survival
+  survival_id:
+    Desc: nnn
     Term:
       - Origin: caDSR
-        Code: '14576972'
-        Value: Subject Follow-Up Event Unique Identifier
-        Version: "null"
+        Code: 'nn'
+        Value: nn
+        Version: "1.00"
     Type: string
     Req: true
     Private: false
     Key: true
-  #follow_up
-  age_at_follow_up:
-    Desc: The age (in days) when the follow-up status of the subject was recorded.
+  #survival
+  last_known_survival_status:
+    Desc: Participant vital status
     Term:
       - Origin: caDSR
-        Code: '14480965'
-        Value: Subject Age Follow-Up Day Count
+        Code: '2847330'
+        Value: Participant Vital Status Type
+        Version: "null"
+    Type:
+      value_type: string
+      Enum:
+        - "Alive"
+        - "Dead"
+        - "Not Reported"
+        - "Unknown"
+        - "Unspecified"
+    Req: true
+    Strict: true
+    Private: false
+  #survival
+  age_at_last_known_survival_status:
+    Desc: The age (in days) of the subject when the vitals measurement was taken.
+    Term:
+      - Origin: caDSR
+        Code: '12306025'
+        Value: Subject Age at Vitals Day Count
+        Version: "1.00"
+    Type: integer
+    Req: true
+    Private: false
+  #survival
+  first_event:
+    Desc: Identify the nature of the event that best characterizes the endpoint of the study.
+    Term:
+      - Origin: caDSR
+        Code: '3070936'
+        Value: Study End Point Event Type
+        Version: "null"
+    Type:
+      value_type: string
+      Enum:
+        - "Progression"
+        - "Relapse"
+        - "Second Malignant Neoplasm"
+        - "Death"
+        - 'Not Reported'
+        - "Not Applicable"
+        - "Unknown"
+    Req: false
+    Private: false
+  #survival
+  event_free_survival_status:
+    Desc: Identify the nature of the event that best characterizes the endpoint of the study.
+    Term:
+      - Origin: caDSR
+        Code: '3070936'
+        Value: Study End Point Event Type
+        Version: "null"
+    Type:
+      value_type: string
+      Enum:
+        - "Censored"
+        - "Not Censored"
+        - 'Not Reported'
+        - "Unknown"
+    Req: false
+    Private: false
+  #survival
+  age_at_event_free_survival_status:
+    Desc: Time from diagnosis to first event (or censoring), in days.
+    Term:
+      - Origin: caDSR
+        Code: '3229334'
+        Value: Study End Point Event Occurrence Day Count
         Version: "null"
     Type: integer
     Req: true
     Private: false
-  #follow_up
+  #survival
   follow_up_category:
     Desc: A text term based on grouping information about the health status of an individual after a study has officially closed
     Term:
@@ -1081,14 +1153,14 @@ PropDefinitions:
     Req: false
     Strict: false
     Private: false
-  #follow_up
+  #survival
   adverse_event:
     Desc: Common Terminology Criteria for Adverse Events Version 4.0 Low Level Term Name
     Term:
       - Origin: caDSR
         Code: '3125302'
         Value: adverse event
-        Version: "null"
+        Version: "1.00"
     Type:
       value_type: list
       Enum:
@@ -1885,7 +1957,7 @@ PropDefinitions:
     Req: false
     Strict: false
     Private: false
-  #follow_up
+  #survival
   comorbidity:
     Desc: The class or category of the secondary disease(s).
     Term:
@@ -2042,7 +2114,7 @@ PropDefinitions:
     Req: false
     Strict: false
     Private: false          
-  #follow_up
+  #survival
   comorbidity_method_of_diagnosis:
     Desc: The class of clinical or laboratory procedure(s) used to determine the secondary disease diagnosis.
     Term: 
@@ -3608,25 +3680,7 @@ PropDefinitions:
     Req: true
     Private: false
   #diagnosis
-  vital_status:
-    Desc: Participant vital status
-    Term:
-      - Origin: caDSR
-        Code: '2847330'
-        Value: Participant Vital Status Type
-        Version: "null"
-    Type:
-      value_type: string
-      Enum:
-        - "Alive"
-        - "Dead"
-        - "Not Reported"
-        - "Unknown"
-        - "Unspecified"
-    Req: true
-    Strict: true
-    Private: false
-  #diagnosis, sample
+  #diagnosis
   toronto_childhood_cancer_staging:
     Desc: Cancer stage as captured by the Toronto Childhood Cancer Stage Guidelines.
     Term: 
@@ -3928,6 +3982,7 @@ PropDefinitions:
         - "crai"
         - "csi"
         - "csv"
+        - "dict"
         - "dicom"
         - "docx"
         - "fasta"
@@ -4130,7 +4185,7 @@ PropDefinitions:
     Private: false
   #participant
   race: 
-    Desc: The text for reporting information about race based on the Office of Management and Budget (OMB) categories.
+    Desc: The text for reporting information about race based on the Office of Management and Budget (OMB) categories SPD 15 (spd15revision.gov).
     Term:
       - Origin: caDSR
         Code: '2192199'
@@ -4142,6 +4197,8 @@ PropDefinitions:
         - "American Indian or Alaska Native"
         - "Asian"
         - "Black or African American"
+        - "Hispanic or Latino"
+        - "Middle Eastern or North African"
         - "Native Hawaiian or other Pacific Islander"
         - "Not Allowed to Collect"
         - "Not Reported"
@@ -4171,25 +4228,6 @@ PropDefinitions:
         - "Decline to answer"
         - "None of These Describe Me"
         - "Prefer Not to Answer"
-    Req: true
-    Strict: false
-    Private: false
-  #participant
-  ethnicity:
-    Desc: The text for reporting information about ethnicity based on the Office of Management and Budget (OMB) categories.
-    Term:
-      - Origin: caDSR
-        Code: '2192217'
-        Value: Ethnic Group Category Text
-        Version: "null"
-    Type:
-      value_type: list
-      Enum:
-        - "Hispanic or Latino"
-        - "Not Allowed to Collect"
-        - "Not Hispanic or Latino"
-        - "Not Reported"
-        - "Unknown" 
     Req: true
     Strict: false
     Private: false
@@ -5552,6 +5590,7 @@ PropDefinitions:
         - "3-Dimensional Conformal Radiation Therapy"
         - "Allogeneic Hematopoietic Stem Cell Transplantation"
         - "Autologous Stem Cell Transplantation"
+        - "Cellular Therapy"
         - "Chemotherapy"
         - "Concurrent Chemoradiation"
         - "Conventional Radiotherapy"

@@ -1275,6 +1275,7 @@ Terms:
     Version: '1'
     Value: Cryopreservation of live cells in liquid nitrogen
   Cryopreserved:
+    Origin: caDSR
     Definition: Preservation of cells, tissues, organs, or embryos by storage at low temperatures.    
     Code: '2568180'
     Version: '1'
@@ -2417,7 +2418,7 @@ Terms:
     Definition: The first diagnosis of the individual's condition.    
     Code: '8002761'
     Version: '1'
-    Value: 8002761
+    Value: '8002761'
   Intensity-Modulated Radiation Therapy:
     Origin: NCIt
     Definition: An advanced form of 3-Dimensional Conformal Radiation Therapy
@@ -2692,6 +2693,7 @@ Terms:
     Version: '1'
     Value: Not Otherwise Specified Lip
   Liquid nitrogen:
+    Origin: caDSR
     Definition: An indication that a material has been stored in liquid nitrogen.
     Code: '8015821'
     Version: '1'
@@ -4446,7 +4448,7 @@ Terms:
     Version: '1'
     Value: Polymerase Chain Reaction
   ped:
-    Orgin: GATK
+    Origin: GATK
     Definition: The PED files used as input for GATK tools are based on PLINK pedigree files.
     Code: 'ped'
     Version: '1'
@@ -5985,7 +5987,7 @@ Terms:
     Value: Tibia
   Thigh, NOS:
     Origin: ICD-O-3.2
-    Definition: 
+    Definition: ""
     Code: 'C76.5'
     Version: '1'
     Value: Not otherwise specified tibia

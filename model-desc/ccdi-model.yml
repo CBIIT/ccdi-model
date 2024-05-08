@@ -319,7 +319,7 @@ Nodes:
       - study_id
       - dbgap_accession
       - acl
-      - study_short_title
+      - study_name
       - study_acronym
       - study_description
       - consent

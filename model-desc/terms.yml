@@ -3637,6 +3637,12 @@ Terms:
     Code: '7590024'
     Version: '1'
     Value: Not Applicable
+  Not Available:
+    Origin: NCIt
+    Definition: The desired information is not available.
+    Code: 'C126101'
+    Version: '1'
+    Value: Not Available   
   Not Hispanic or Latino:
     Origin: caDSR
     Definition: A person not of Cuban, Mexican, Puerto Rican, South or Central American,
@@ -3645,9 +3651,9 @@ Terms:
     Version: '1'
     Value: Not Hispanic or Latino
   Not Reported:
-    Origin: caDSR
+    Origin: NCIt
     Definition: Not provided or available.
-    Code: '5612322'
+    Code: 'C43234'
     Version: '1'
     Value: Not Reported
   NX:
@@ -6274,9 +6280,9 @@ Terms:
     Version: '1'
     Value: Ultrasound  
   Unavailable:
-    Origin: caDSR
+    Origin: NCIt
     Definition: The desired information is not available.
-    Code: '5828000'
+    Code: 'C126101'
     Version: '1'
     Value: Unavailable
   Undescended testis:

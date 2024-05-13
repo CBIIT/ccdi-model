@@ -1105,6 +1105,7 @@ PropDefinitions:
         - "Not Applicable"
         - "Unknown"
     Req: false
+    Strict: false
     Private: false
   #survival
   event_free_survival_status:
@@ -1122,6 +1123,7 @@ PropDefinitions:
         - 'Not Reported'
         - "Unknown"
     Req: false
+    Strict: false
     Private: false
   #survival
   age_at_event_free_survival_status:
@@ -4066,7 +4068,7 @@ PropDefinitions:
         - "Participiant"
         - "Sample"
         - "Study"
-    Req: false
+    Req: true
     Strict: true
     Private: false    
   # pathology_file

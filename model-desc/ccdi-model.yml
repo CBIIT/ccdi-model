@@ -488,7 +488,6 @@ Relationships:
         Dst: cell_line
       - Src: sample
         Dst: participant  
-  #of_sample_diagnosis: 
   of_sequencing_file: 
     Props: null
     Mul: many_to_one
@@ -519,11 +518,11 @@ Relationships:
     Ends:
       - Src: study_personnel  
         Dst: study     
-  of_therapeutic_procedure:
+  of_treatment:
     Props: null
     Mul: many_to_many
     Ends:
-      - Src: therapeutic_procedure
+      - Src: treatment
         Dst: participant
   of_treatment_response:
     Props: null

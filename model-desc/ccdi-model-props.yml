@@ -11459,6 +11459,7 @@ PropDefinitions:
         - "Unknown"
         - "Very Good Partial Response"
     Req: true
+    Strict: false
     Private: false
   #treatment_response
   age_at_response:
@@ -11470,6 +11471,7 @@ PropDefinitions:
         Version: "1.00"
     Type: integer
     Req: true
+    Strict: false
     Private: false
   #treatment_response
   response_category:
@@ -11494,6 +11496,7 @@ PropDefinitions:
         - "Target Lesions"
         - "Unknown"
     Req: true
+    Strict: false
     Private: false
   #treatment_response
   response_system:
@@ -11520,4 +11523,5 @@ PropDefinitions:
         - "Unknown"
         - "WHO"
     Req: true
+    Strict: false
     Private: false

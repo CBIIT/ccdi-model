@@ -1147,7 +1147,6 @@ PropDefinitions:
       Enum:
         - "adverse_event"
         - "comorbidity"
-        - "disease_response"
         - "risk_factor"
         - "other"
     Req: false
@@ -2620,53 +2619,6 @@ PropDefinitions:
         Version: "null"
     Type: string
     Req: false
-    Private: false
-  #follow_up
-  disease_response:
-    Desc: Code assigned to describe the patient's response or outcome to the disease.
-    Term:
-      - Origin: caDSR
-        Code: '5750671'
-        Value: Disease Response Code
-        Version: "null"
-    Type:
-      value_type: list
-      Enum:
-        - "AJ-Adjuvant Therapy"
-        - "BED-Biochemical Evidence of Disease"
-        - "CPD-Clinical Progression"
-        - "CR-Complete Response"
-        - "CRU-Complete Response Unconfirmed"
-        - "DU-Disease Unchanged"
-        - "IMR-Immunoresponse"
-        - "IPD-Immunoprogression"
-        - "MR-Minimal/Marginal response"
-        - "MX-Mixed Response"
-        - "Non-CR/Non-PD-Non-CR/Non-PD"
-        - "NPB-No Palliative Benefit"
-        - "NR-No Response"
-        - "PA-Palliative Therapy"
-        - "PB-Palliative Benefit"
-        - "PD-Progressive Disease"
-        - "PDM-Persistent Distant Metastasis"
-        - "PLD-Persistent Locoregional Disease"
-        - "PPD-Pseudoprogression"
-        - "PR-Partial Response"
-        - "PSR-Pseudoresponse"
-        - "RD-Responsive Disease"
-        - "RP-Response"
-        - "RPD-Radiographic Progressive Disease"
-        - "sCR-Stringent Complete Response"
-        - "SD-Stable Disease"
-        - "SPD-Surgical Progression"
-        - "TE-Too Early"
-        - "TF-Tumor Free"
-        - "VGPR-Very Good Partial Response"
-        - "WT-With Tumor"
-        - "Unknown"
-        - "Not Reported"
-    Req: false
-    Strict: true
     Private: false
   #molecular_test
   second_exon:
@@ -5537,7 +5489,7 @@ PropDefinitions:
         Value: Data Source Organizational Unit Identifier
         Version: "null"
     Type: string
-    Req: true  # 28feb22 pdunn
+    Req: true
     Private: false
   #therapeutic_procedure
   treatment_outcome:
@@ -7027,9 +6979,9 @@ PropDefinitions:
       - Origin: caDSR
         Code: '13579886'
         Value: Therapeutic Procedure Agent Name
-        Version: "null"
+        Version: "1.00"
     Type:
-      value_type: list
+      value_type: string
       Enum:
         - "10-Deacetyltaxol"
         - "11C Topotecan"
@@ -11508,5 +11460,109 @@ PropDefinitions:
         - "Unknown"
         - "Not Reported"
     Req: false
+    Strict: false
+    Private: false
+  #treatment_response
+  treatment_response_id:
+    Desc: In medicine, an improvement related to treatment. One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.
+    Term:
+      - Origin: caDSR
+        Code: '2608389'
+        Value: Response Identifier
+        Version: "1.00"
+    Type: string
+    Req: true
+    Private: false 
+    Key: true
+  #treatment_response
+  response:
+    Desc: The result of an evaluation to determine whether pathologic and/or clinical changes resulted from treatment.
+    Term:
+      - Origin: caDSR
+        Code: '13383448'
+        Value: Disease Response Assessment Outcome
+        Version: "1.00"
+    Type:
+      value_type: list
+      Enum:
+        - "Complete Remission"
+        - "Minor Response"
+        - "Mixed Response"
+        - "No Evidence of Disease"
+        - "Non-Response"
+        - "Not Applicable"
+        - "Not Done"
+        - "Not Evaluable"
+        - "Not Reported"
+        - "Partial Response"
+        - "Progressive Disease"
+        - "Stable Disease"
+        - "Unknown"
+        - "Very Good Partial Response"
+    Req: true
+    Strict: false
+    Private: false
+  #treatment_response
+  age_at_response:
+    Desc: The age (in days) of subject when the response assessment was made.
+    Term:
+      - Origin: caDSR
+        Code: '12326598'
+        Value: Subject Age at Response Assessment Day Count
+        Version: "1.00"
+    Type: integer
+    Req: true
+    Strict: false
+    Private: false
+  #treatment_response
+  response_category:
+    Desc: A text term based on categorization of the pathologic and/or clinical changes that result from treatment, including eradication of detectable disease, stabilization of disease, or disease progression.    
+    Term:
+      - Origin: caDSR
+        Code: '13383449'
+        Value: Disease Response Assessment Category
+        Version: "1.00"
+    Type:
+      value_type: list
+      Enum:        
+        - "Bone Marrow Response"
+        - "CNS Response"
+        - "Metastatic Soft Tissue and Bone Response"
+        - "Myeloid Sarcoma Response"
+        - "Non-Target Lesions"
+        - "Not Reported"
+        - "Other"
+        - "Overall Response"
+        - "Primary Site Response"
+        - "Target Lesions"
+        - "Unknown"
+    Req: true
+    Strict: false
+    Private: false
+  #treatment_response
+  response_system:
+    Desc: The type of standard from which a judgment concerning tumor response to therapy can be established.      
+    Term:
+      - Origin: caDSR
+        Code: '13381490'
+        Value: Disease Tumor Response System Type
+        Version: "1.00"
+    Type:
+      value_type: list
+      Enum:
+        - "Choi"
+        - "INRC, Brodeur 1993"
+        - "INRC, Park 2017"
+        - "iRANO"
+        - "Modified MacDonald"
+        - "mRECIST"
+        - "Not Reported"
+        - "PERCIST"
+        - "RANO"
+        - "RAPNO"
+        - "RECIST"
+        - "Unknown"
+        - "WHO"
+    Req: true
     Strict: false
     Private: false

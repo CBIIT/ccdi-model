@@ -700,7 +700,7 @@ PropDefinitions:
         Code: '2955385'
         Value: Person Cigarette Smoking History Pack Year Value
         Version: "null"
-    Type: integer
+    Type: number
     Req: false
     Private: false
   #exposure
@@ -711,7 +711,7 @@ PropDefinitions:
         Code: '3285521'
         Value: Cigarette Smoking Duration Year Count
         Version: "null"
-    Type: integer
+    Type: number
     Req: false
     Private: false
   #exposure
@@ -722,7 +722,7 @@ PropDefinitions:
         Code: '3114013'
         Value: Alcohol Consumption Weekly Days Usage Number
         Version: "null"
-    Type: integer
+    Type: number
     Req: false
     Private: false
   #exposure
@@ -733,7 +733,7 @@ PropDefinitions:
         Code: '3124961'
         Value: Person Daily Alcohol Consumption Count
         Version: "null"
-    Type: integer
+    Type: number
     Req: false
     Private: false
   #exposure

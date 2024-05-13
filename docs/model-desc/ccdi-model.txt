@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 69ad802
+commit 883f60c
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -217,6 +217,7 @@ study_personnel	personnel_name	STRING
 study_personnel	study_personnel_id	STRING
 survival	age_at_event_free_survival_status	INTEGER
 survival	age_at_last_known_survival_status	INTEGER
+survival	disease_response	NA
 survival	id	STRING
 survival	survival_id	STRING
 synonym	id	STRING
@@ -226,6 +227,9 @@ therapeutic_procedure	age_at_treatment_end	INTEGER
 therapeutic_procedure	age_at_treatment_start	INTEGER
 therapeutic_procedure	id	STRING
 therapeutic_procedure	therapeutic_procedure_id	STRING
+treatment_response	age_at_response	INTEGER
+treatment_response	id	STRING
+treatment_response	treatment_response_id	STRING
 
 relationship	source_node	destination_node	property	value_or_TYPE
 of_cell_line	cell_line	study	NA	NA
@@ -255,10 +259,11 @@ of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
 of_survival	survival	participant	NA	NA
-of_synonym	synonym	sample	NA	NA
 of_synonym	synonym	participant	NA	NA
+of_synonym	synonym	sample	NA	NA
 of_synonym	synonym	study	NA	NA
 of_therapeutic_procedure	therapeutic_procedure	participant	NA	NA
+of_treatment_response	treatment_response	participant	NA	NA
 
 property	description
 UMI_barcode_offset	The offset in sequence of the UMI identifying barcode. E.g. "16".
@@ -276,6 +281,7 @@ age_at_last_known_disease_status	Subject Age at Last Known Disease Status Day Co
 age_at_last_known_survival_status	The age (in days) of the subject when the vitals measurement was taken.
 age_at_molecular_test	The age (in days) of the subject when the molecular test was performed.
 age_at_recurrence	The age (in days) of the subject at the time of recurrence.
+age_at_response	The age (in days) of subject when the response assessment was made.
 age_at_treatment_end	Subject Age in Days at End of Treatment Course Day Count
 age_at_treatment_start	Subject Age in Days at Start of Treatment Course Day Count
 alcohol_days_per_week	Numeric value used to describe the average number of days each week that a person consumes an alcoholic beverage.
@@ -329,7 +335,6 @@ diagnosis_id	A sequence of characters used to uniquely identify, name, or charac
 diffusionBValue	A term specifying the echo category of pulse sequences.
 diffusionDirectionalityCode	Text describing the kind of diffusion conditions for the frame, directional or isotropic, with respect to direction.
 disease_phase	The stage or period of an individual's treatment process during which relevant observations were recorded.
-disease_response	Code assigned to describe the patient's response or outcome to the disease.
 dissociation_method	The text term to describe the method used to create single cells from tissue samples.
 echoPlanarPulseSequenceIndicator	The process by which an image is acquired or obtained.:An indication as to whether multiple echos of different phase steps are acquired using rephasing gradients instead of repeated 180-degree pulses. (BRIDG):The preferred Value Domain to indicate a question with permissible values of yes/no.
 echoPulseSequenceCategoryCode	A term specifying the echo category of pulse sequences.
@@ -441,6 +446,9 @@ reporter_label	The text term to describe the labeled methyl group used as a mole
 repository_of_synonym_id	A textual description of a storage location for digital data.
 resonantNucleusCode	Text specifying the atomic nucleus that is resonant at the transmitter frequency.
 respirable_crystalline_silica_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
+response	The result of an evaluation to determine whether pathologic and/or clinical changes resulted from treatment.
+response_category	A text term based on categorization of the pathologic and/or clinical changes that result from treatment, including eradication of detectable disease, stabilization of disease, or disease progression.
+response_system	The type of standard from which a judgment concerning tumor response to therapy can be established.
 reverse_transcription_primer	An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA
 risk_factor	The text term used to describe a risk factor the patient had at the time of or prior to their diagnosis.
 sample_description	Text description of a sample or specimen.
@@ -493,6 +501,7 @@ toronto_childhood_cancer_staging	Cancer stage as captured by the Toronto Childho
 total_number_of_input_cells	Numeric value used to describe the number of cells used for molecular testing.
 transcript	Alphanumeric value used to describe the transcript of a specific genetic variant.
 treatment_outcome	Text term that describes the patient's final outcome after the treatment was administered.
+treatment_response_id	In medicine, an improvement related to treatment. One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.
 treatment_type	Text term that describes the kind of treatment administered.
 tumor_classification	The classification of a tumor based primarily on histopathological characteristics.
 tumor_confirmed_not_to_be_mus_or_ebv_origin	Tumor confirmed not to be of mouse/EBV origin

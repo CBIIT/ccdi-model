@@ -15,10 +15,10 @@ Nodes:
       - file_size
       - md5sum
       - file_url_in_cds
+      - file_mapping_level
       - dcf_indexd_guid
       - checksum_algorithm
       - checksum_value
-      - file_mapping_level
       - participant_list
       - id
   cytogenomic_file:
@@ -30,8 +30,8 @@ Nodes:
       - file_size
       - md5sum
       - file_url_in_cds
-      - dcf_indexd_guid
       - file_mapping_level
+      - dcf_indexd_guid
       - cytogenomic_platform
       - id
   diagnosis:
@@ -140,8 +140,8 @@ Nodes:
       - file_size
       - md5sum
       - file_url_in_cds
-      - dcf_indexd_guid
       - file_mapping_level
+      - dcf_indexd_guid
       - methylation_platform
       - reporter_label
       - id
@@ -162,6 +162,7 @@ Nodes:
       - file_size
       - md5sum
       - file_url_in_cds
+      - file_mapping_level
       - dcf_indexd_guid
       - image_modality
       - license
@@ -171,7 +172,6 @@ Nodes:
       - deidentification_method
       - percent_tumor
       - percent_necrosis
-      - file_mapping_level
       - id
   pdx:
     Props: 
@@ -201,6 +201,7 @@ Nodes:
       - file_size
       - md5sum
       - file_url_in_cds
+      - file_mapping_level
       - dcf_indexd_guid
       - anatomic_site
       - participant_age_at_imaging
@@ -233,7 +234,6 @@ Nodes:
       - spectrallySelectedSuppressionCode 
       - mrImageReconstructionProtocolElement
       - complexImageComponentCode
-      - file_mapping_level
       - id
   sample:
     Props:
@@ -253,6 +253,7 @@ Nodes:
       - file_size
       - md5sum
       - file_url_in_cds
+      - file_mapping_level
       - dcf_indexd_guid
       - library_id # sra req'd
       - library_selection # sra req'd
@@ -271,7 +272,6 @@ Nodes:
       - checksum_algorithm
       - checksum_value
       - custom_assembly_fasta_file_for_alignment
-      - file_mapping_level
       - sequence_alignment_software
       - cDNA_read
       - cDNA_read_size
@@ -352,7 +352,7 @@ Nodes:
       - adverse_event
       - comorbidity
       - comorbidity_method_of_diagnosis
-      - disease_response
+      - response
       - risk_factor
       - follow_up_other
       - id

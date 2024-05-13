@@ -56,12 +56,6 @@ Nodes:
       - tumor_grade
       - tumor_grade_source
       - id
-    # - tumor_morphology
-    # - tumor_incidence_type # primary, metastatic, recurrence, progression
-    # - progression_or_recurrence
-    # - tissue_or_organ_of_origin
-    # - site_of_resection_or_biopsy
-    # - days_to_last_followup
   exposure:
     Props:
       - exposure_id
@@ -92,22 +86,6 @@ Nodes:
       - related_to_participant_id
       - relationship
       - family_id
-      - id
-  survival:
-    Props:
-      - survival_id
-      - last_known_survival_status
-      - age_at_last_known_survival_status 
-      - first_event
-      - event_free_survival_status
-      - age_at_event_free_survival_status
-      - follow_up_category
-      - adverse_event
-      - comorbidity
-      - comorbidity_method_of_diagnosis
-      - disease_response
-      - risk_factor
-      - follow_up_other
       - id
   medical_history:
     Props:
@@ -153,7 +131,7 @@ Nodes:
       - variant_type
       - zygosity  
       - id
-  methylation_array_file: # 09.20.22 pd
+  methylation_array_file:
     Props:
       - methylation_array_file_id
       - file_name
@@ -356,25 +334,40 @@ Nodes:
       - id
   study_personnel:
     Props:
-      - study_personnel_id  # 02/03/2022 adeforge, used to be 'study_personnel_ID'
+      - study_personnel_id
       - personnel_name
       - personnel_type #enum: PI, Co-PI, Data Submitter, etc
       - email_address
       - institution
       - id
-  synonym:  # 09.20.22 pd, nee alias
+  survival:
+    Props:
+      - survival_id
+      - last_known_survival_status
+      - age_at_last_known_survival_status 
+      - first_event
+      - event_free_survival_status
+      - age_at_event_free_survival_status
+      - follow_up_category
+      - adverse_event
+      - comorbidity
+      - comorbidity_method_of_diagnosis
+      - disease_response
+      - risk_factor
+      - follow_up_other
+      - id
+  synonym:
     Props:
       - synonym_id #the alternate or alias id in another repo
       - repository_of_synonym_id #the name of the other repo
       - id
-  therapeutic_procedure:
+  treatment:
     Props:
-      - therapeutic_procedure_id
+      - treatment_id
       - age_at_treatment_start
       - age_at_treatment_end
-      - treatment_outcome
       - treatment_type
-      - therapeutic_agent
+      - treatment_agent
       - id
   treatment_response:
     Props:

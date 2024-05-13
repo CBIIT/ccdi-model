@@ -4066,7 +4066,7 @@ PropDefinitions:
         - "Participiant"
         - "Sample"
         - "Study"
-    Req: false
+    Req: true
     Strict: true
     Private: false    
   # pathology_file

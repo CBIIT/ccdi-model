@@ -4909,10 +4909,11 @@ PropDefinitions:
         - "PacBio RS II"
         - "PromethION"
         - "Not Reported"
+        - "Not Applicable"
         - "Other"
         - "Unknown"
     Req: true
-    Strict: true
+    Strict: false
     Private: false
   #sequencing_file
   library_layout: 

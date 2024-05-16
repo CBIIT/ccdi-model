@@ -6946,7 +6946,7 @@ PropDefinitions:
         - "Not Reported"
         - "Unknown"
     Req: true
-    Strict: true
+    Strict: false
     Private: false  
   #treatment
   treatment_agent:

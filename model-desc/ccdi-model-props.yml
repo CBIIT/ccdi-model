@@ -1134,7 +1134,7 @@ PropDefinitions:
         Value: Study End Point Event Occurrence Day Count
         Version: "null"
     Type: integer
-    Req: true
+    Req: false
     Private: false
   #survival
   follow_up_category:

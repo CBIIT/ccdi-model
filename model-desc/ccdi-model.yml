@@ -14,8 +14,8 @@ Nodes:
       - file_description
       - file_size
       - md5sum
-      - file_url_in_cds
       - file_mapping_level
+      - file_url_in_cds
       - dcf_indexd_guid
       - checksum_algorithm
       - checksum_value
@@ -29,8 +29,8 @@ Nodes:
       - file_description
       - file_size
       - md5sum
-      - file_url_in_cds
       - file_mapping_level
+      - file_url_in_cds
       - dcf_indexd_guid
       - cytogenomic_platform
       - id
@@ -96,6 +96,7 @@ Nodes:
   molecular_test:
     Props:
       - molecular_test_id
+      - anatomic_site
       - age_at_molecular_test
       - gene_symbol
       - molecular_analysis_method
@@ -105,7 +106,6 @@ Nodes:
       - test_unit
       - aa_change
       - antigen
-      - anatomic_site
       - blood_test_normal_range_upper
       - blood_test_normal_range_lower
       - cell_count
@@ -139,8 +139,8 @@ Nodes:
       - file_description
       - file_size
       - md5sum
-      - file_url_in_cds
       - file_mapping_level
+      - file_url_in_cds
       - dcf_indexd_guid
       - methylation_platform
       - reporter_label
@@ -161,8 +161,8 @@ Nodes:
       - file_description
       - file_size
       - md5sum
-      - file_url_in_cds
       - file_mapping_level
+      - file_url_in_cds
       - dcf_indexd_guid
       - image_modality
       - license
@@ -200,8 +200,8 @@ Nodes:
       - file_description
       - file_size
       - md5sum
-      - file_url_in_cds
       - file_mapping_level
+      - file_url_in_cds
       - dcf_indexd_guid
       - anatomic_site
       - participant_age_at_imaging
@@ -252,8 +252,8 @@ Nodes:
       - file_description
       - file_size
       - md5sum
-      - file_url_in_cds
       - file_mapping_level
+      - file_url_in_cds
       - dcf_indexd_guid
       - library_id # sra req'd
       - library_selection # sra req'd
@@ -344,7 +344,8 @@ Nodes:
     Props:
       - survival_id
       - last_known_survival_status
-      - age_at_last_known_survival_status 
+      - age_at_last_known_survival_status
+      - response
       - first_event
       - event_free_survival_status
       - age_at_event_free_survival_status
@@ -352,7 +353,6 @@ Nodes:
       - adverse_event
       - comorbidity
       - comorbidity_method_of_diagnosis
-      - response
       - risk_factor
       - follow_up_other
       - id
@@ -483,11 +483,11 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: sample
+        Dst: participant 
+      - Src: sample
         Dst: pdx
       - Src: sample
-        Dst: cell_line
-      - Src: sample
-        Dst: participant  
+        Dst: cell_line 
   of_sequencing_file: 
     Props: null
     Mul: many_to_one
@@ -518,6 +518,16 @@ Relationships:
     Ends:
       - Src: study_personnel  
         Dst: study     
+  of_synonym:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: synonym
+        Dst: participant
+      - Src: synonym
+        Dst: sample
+      - Src: synonym
+        Dst: study
   of_treatment:
     Props: null
     Mul: many_to_one
@@ -530,14 +540,5 @@ Relationships:
     Ends:
       - Src: treatment_response
         Dst: participant
-  of_synonym:
-    Props: null
-    Mul: many_to_one
-    Ends:
-      - Src: synonym
-        Dst: sample
-      - Src: synonym
-        Dst: participant
-      - Src: synonym
-        Dst: study
+
 

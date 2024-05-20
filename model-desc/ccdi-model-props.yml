@@ -4128,17 +4128,6 @@ PropDefinitions:
     Private: false
     Key: true
   #participant
-  alternate_participant_id:
-    Desc: An alternate sequence of letters, numbers, or characters that uniquely identifies the subject who has taken part in the investigation or research study.
-    Term:
-      - Origin: caDSR
-        Code: '14528097'
-        Value: Subject Alternate Data Origin Identifier
-        Version: "null"
-    Type: string
-    Req: false
-    Private: false
-  #participant
   race: 
     Desc: The text for reporting information about race based on the Office of Management and Budget (OMB) categories SPD 15 (spd15revision.gov).
     Term:

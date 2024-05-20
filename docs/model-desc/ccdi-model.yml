@@ -150,7 +150,6 @@ Nodes:
       - participant_id
       - race       
       - sex_at_birth
-      - alternate_participant_id
       - id
       # - dbgap_subject_id : store in synonym
   pathology_file: 
@@ -345,7 +344,6 @@ Nodes:
       - survival_id
       - last_known_survival_status
       - age_at_last_known_survival_status
-      - response
       - first_event
       - event_free_survival_status
       - age_at_event_free_survival_status

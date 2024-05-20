@@ -383,17 +383,17 @@ Relationships:
     Mul: many_to_one
     Ends: 
       - Src: cell_line
-        Dst: sample
+        Dst: study  
       - Src: cell_line
-        Dst: study   
+        Dst: sample 
   of_clinical_measure_file: # #09.20.22 pd
     Props: null
     Mul: many_to_one 
     Ends:
       - Src: clinical_measure_file
-        Dst: participant
-      - Src: clinical_measure_file
         Dst: study
+      - Src: clinical_measure_file
+        Dst: participant
   of_cytogenomic_file:
     Props: null
     Mul: many_to_one
@@ -463,9 +463,9 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: pdx
-        Dst: sample
-      - Src: pdx
         Dst: study
+      - Src: pdx
+        Dst: sample
   of_publication: # 09.20.22 pd
     Props: null
     Mul: many_to_one
@@ -523,11 +523,11 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: synonym
+        Dst: study
+      - Src: synonym
         Dst: participant
       - Src: synonym
         Dst: sample
-      - Src: synonym
-        Dst: study
   of_treatment:
     Props: null
     Mul: many_to_one

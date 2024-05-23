@@ -3571,18 +3571,26 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14714144'
         Value: Diagnosis Term Source Name
-        Version: "null"
+        Version: "1.00"
       - Origin: NCIt
         Code: 'C42673'
         Value: Definition Source
         Version: "null"
+      - Origin: NCIt
+        Code: 'C91220'
+        Value: French-American-British Classification
+      - Origin: NCIt
+        Code: 'C159157'
+        Value: WHO AML Classification of Tumors
     Type:
       value_type: string
       Enum:
         - 'CNS Diagnosis Category'
+        - 'French-American-British Classification'
         - 'ICD-O-3.2'
         - 'Indication for Study'
-        - "St. Jude Cloud's Disease Ontology"
+        - 'St. Jude Cloud Disease Ontology'
+        - 'WHO AML Classification of Tumors'
         - 'WHO CNS5 Integrated Diagnosis'
         - 'Unknown'
         - 'Not Reported'

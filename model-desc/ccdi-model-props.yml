@@ -5183,11 +5183,22 @@ PropDefinitions:
       - Origin: caDSR
         Code: '12373576'
         Value: Research Activity Experimental Method Type 
-        Version: "null"
+        Version: "1.00"
     Type:
       value_type: list
-      Type: string
+      Enum:
+        - "Archer Fusion"
+        - "Bisulfite-Seq"
+        - "DNA-Seq"
+        - "Methylation Array"
+        - "Pathological"
+        - "Radiological"
+        - "RNA-Seq"
+        - "scRNA-Seq"
+        - "WGA"
+        - "WXS"  
     Req: false
+    Strict: true
     Private: false  
   #study_admin
   number_of_participants:

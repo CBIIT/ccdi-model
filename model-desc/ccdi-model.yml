@@ -15,6 +15,8 @@ Nodes:
       - file_size
       - md5sum
       - file_mapping_level
+      - acl
+      - authz
       - file_url_in_cds
       - dcf_indexd_guid
       - checksum_algorithm
@@ -30,6 +32,8 @@ Nodes:
       - file_size
       - md5sum
       - file_mapping_level
+      - acl
+      - authz
       - file_url_in_cds
       - dcf_indexd_guid
       - cytogenomic_platform
@@ -140,6 +144,8 @@ Nodes:
       - file_size
       - md5sum
       - file_mapping_level
+      - acl
+      - authz
       - file_url_in_cds
       - dcf_indexd_guid
       - methylation_platform
@@ -161,6 +167,8 @@ Nodes:
       - file_size
       - md5sum
       - file_mapping_level
+      - acl
+      - authz
       - file_url_in_cds
       - dcf_indexd_guid
       - image_modality
@@ -200,6 +208,8 @@ Nodes:
       - file_size
       - md5sum
       - file_mapping_level
+      - acl
+      - authz
       - file_url_in_cds
       - dcf_indexd_guid
       - anatomic_site
@@ -252,6 +262,8 @@ Nodes:
       - file_size
       - md5sum
       - file_mapping_level
+      - acl
+      - authz
       - file_url_in_cds
       - dcf_indexd_guid
       - library_id # sra req'd

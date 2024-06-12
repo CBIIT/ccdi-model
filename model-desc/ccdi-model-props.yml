@@ -4042,7 +4042,7 @@ PropDefinitions:
     Req: false
     Private: false    
   #file
-  file_url_in_cds:
+  file_url:
     Desc: The specification of a node (file or directory) in a hierarchical file system where an electronic file is located.
     Term:
       - Origin: caDSR

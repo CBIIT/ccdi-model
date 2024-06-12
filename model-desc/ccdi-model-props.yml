@@ -5331,17 +5331,27 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11416926'
         Value: Electronic Data File Format Type 
-        Version: "null"
+        Version: "1.00"
     Type: string
     Req: false
     Private: false
   acl:
-    Desc: A free text field used to document whether the data in a repository is open access or controlled access. 
+    Desc: A free text field used to document whether the data in a repository is open access or controlled access. If access to the data are unrestricted, the acl field should be listed [“*”]. Controlled access should be denoted as a comma delimited list of phs accession numbers, for example, [“phs000123”] or [“phs000123”,”phs000124”].
     Term:
       - Origin: caDSR
         Code: '11555664'
         Value: Electronic Data File Access Level Text 
-        Version: "null"
+        Version: "1.00"
+    Type: string
+    Req: true
+    Private: false
+  authz:
+    Desc: A free text field used to document whether the data in a repository is open access or controlled access. Open access files should have authz = ['/open']. Controlled access files have an acl value format of ['/programs/phsNNN'] (e.g.  ['/programs/1234'].
+    Term:
+      - Origin: caDSR
+        Code: '11555664'
+        Value: Electronic Data File Access Level Text 
+        Version: "1.00"
     Type: string
     Req: true
     Private: false

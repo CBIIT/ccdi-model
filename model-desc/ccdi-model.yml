@@ -2,11 +2,23 @@ Handle: CCDI
 Version: v1.8.0
 Nodes:
   cell_line:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - cell_line_id
       - source
       - id
   clinical_measure_file: # 09.20.22 pdunn
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - clinical_measure_file_id
       - file_name
@@ -24,6 +36,12 @@ Nodes:
       - participant_list
       - id
   cytogenomic_file:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - cytogenomic_file_id
       - file_name
@@ -39,6 +57,12 @@ Nodes:
       - cytogenomic_platform
       - id
   diagnosis:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - diagnosis_id
       - diagnosis
@@ -61,6 +85,12 @@ Nodes:
       - tumor_grade_source
       - id
   exposure:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - exposure_id
       - age_at_exposure
@@ -85,6 +115,12 @@ Nodes:
       - type_of_tobacco_used
       - id
   family_relationship:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - family_relationship_id
       - related_to_participant_id
@@ -92,12 +128,24 @@ Nodes:
       - family_id
       - id
   medical_history:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - medical_history_id
       - medical_history_category
       - medical_history_condition
       - id
   molecular_test:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - molecular_test_id
       - anatomic_site
@@ -136,6 +184,12 @@ Nodes:
       - zygosity  
       - id
   methylation_array_file:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - methylation_array_file_id
       - file_name
@@ -152,6 +206,12 @@ Nodes:
       - reporter_label
       - id
   participant:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - participant_id
       - race       
@@ -159,6 +219,12 @@ Nodes:
       - id
       # - dbgap_subject_id : store in synonym
   pathology_file: 
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - pathology_file_id
       - file_name
@@ -181,6 +247,12 @@ Nodes:
       - percent_necrosis
       - id
   pdx:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props: 
       - pdx_id
       - model_id
@@ -195,11 +267,23 @@ Nodes:
       - validation_technique
       - id
   publication:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - publication_id
       - pubmed_id
       - id
   radiology_file: 
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - radiology_file_id
       - file_name
@@ -245,6 +329,12 @@ Nodes:
       - complexImageComponentCode
       - id
   sample:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - sample_id
       - anatomic_site
@@ -254,6 +344,12 @@ Nodes:
       - sample_description
       - id
   sequencing_file: 
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - sequencing_file_id
       - file_name
@@ -304,6 +400,12 @@ Nodes:
       - UMI_barcode_size
       - id
   study:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - study_id
       - dbgap_accession
@@ -319,6 +421,12 @@ Nodes:
       - id
       # - bioproject_accession : store in synonym
   study_admin:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - study_admin_id
       - organism_species
@@ -329,6 +437,12 @@ Nodes:
       - number_of_samples
       - id
   study_arm: 
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - study_arm_id
       - study_arm_description
@@ -336,6 +450,12 @@ Nodes:
       - clinical_trial_repository
       - id
   study_funding: # 0 or many grant or contract IDs
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props: 
       - study_funding_id
       - funding_agency # 0 or many per study
@@ -343,6 +463,12 @@ Nodes:
       - funding_source_program_name
       - id
   study_personnel:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - study_personnel_id
       - personnel_name
@@ -351,6 +477,12 @@ Nodes:
       - institution
       - id
   survival:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - survival_id
       - last_known_survival_status
@@ -366,11 +498,23 @@ Nodes:
       - follow_up_other
       - id
   synonym:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - synonym_id #the alternate or alias id in another repo
       - repository_of_synonym_id #the name of the other repo
       - id
   treatment:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - treatment_id
       - age_at_treatment_start
@@ -379,6 +523,12 @@ Nodes:
       - treatment_agent
       - id
   treatment_response:
+    Desc: 
+    Tags:
+      Category: 
+      Assignment: 
+      Class: 
+      Template: 'Yes'
     Props:
       - treatment_response_id
       - response

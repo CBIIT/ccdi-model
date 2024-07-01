@@ -29,7 +29,7 @@ Nodes:
       - file_mapping_level
       - acl
       - authz
-      - file_url_in_cds
+      - file_url
       - dcf_indexd_guid
       - checksum_algorithm
       - checksum_value
@@ -52,7 +52,7 @@ Nodes:
       - file_mapping_level
       - acl
       - authz
-      - file_url_in_cds
+      - file_url
       - dcf_indexd_guid
       - cytogenomic_platform
       - id
@@ -200,7 +200,7 @@ Nodes:
       - file_mapping_level
       - acl
       - authz
-      - file_url_in_cds
+      - file_url
       - dcf_indexd_guid
       - methylation_platform
       - reporter_label
@@ -235,7 +235,7 @@ Nodes:
       - file_mapping_level
       - acl
       - authz
-      - file_url_in_cds
+      - file_url
       - dcf_indexd_guid
       - image_modality
       - license
@@ -294,7 +294,7 @@ Nodes:
       - file_mapping_level
       - acl
       - authz
-      - file_url_in_cds
+      - file_url
       - dcf_indexd_guid
       - anatomic_site
       - participant_age_at_imaging
@@ -360,7 +360,7 @@ Nodes:
       - file_mapping_level
       - acl
       - authz
-      - file_url_in_cds
+      - file_url
       - dcf_indexd_guid
       - library_id # sra req'd
       - library_selection # sra req'd

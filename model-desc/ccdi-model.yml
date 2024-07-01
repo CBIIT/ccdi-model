@@ -247,7 +247,7 @@ Nodes:
       - percent_necrosis
       - id
   pdx:
-    Desc: "The pdx node is comprised of properties which describe the patient derived xenografts models derived from samples or commercially obtained."
+    Desc: "The pdx node is comprised of properties which describe the patient derived xenografts models either from samples or commercially obtained."
     Tags:
       Category: biospecimen
       Assignment: Extended
@@ -267,7 +267,7 @@ Nodes:
       - validation_technique
       - id
   publication:
-    Desc: "The publication node is comprised of properties which describe the publications that were published from this study."
+    Desc: "The publication node is comprised of properties which describe the publications that were created this study."
     Tags:
       Category: study
       Assignment: Extended
@@ -329,7 +329,7 @@ Nodes:
       - complexImageComponentCode
       - id
   sample:
-    Desc: "The sample node is comprised of properties which describe the sample attributes as collected from participant, cell line or pdx model."
+    Desc: "The sample node is comprised of properties which describe the sample attributes as collected from participant, cell line, or pdx model."
     Tags:
       Category: biospecimen
       Assignment: Core
@@ -400,7 +400,7 @@ Nodes:
       - UMI_barcode_size
       - id
   study:
-    Desc: "The study node is comprised of properties which describe high level metadata."
+    Desc: "The study node is comprised of properties which describe high level metadata that applies to all facets of the study."
     Tags:
       Category: study
       Assignment: Core
@@ -421,7 +421,7 @@ Nodes:
       - id
       # - bioproject_accession : store in synonym
   study_admin:
-    Desc: "The study admin node is comprised of properties which describe general structure of the study."
+    Desc: "The study admin node is comprised of properties which describe the general structure of the study."
     Tags:
       Category: study
       Assignment: Core
@@ -463,7 +463,7 @@ Nodes:
       - funding_source_program_name
       - id
   study_personnel:
-    Desc: "The study personnel node is comprised of properties which describe the personnel and their relation to the study."
+    Desc: "The study personnel node is comprised of properties which describe the personnel and their position in the study."
     Tags:
       Category: study
       Assignment: Core
@@ -477,7 +477,7 @@ Nodes:
       - institution
       - id
   survival:
-    Desc: "The survival node is comprised of properties which describe metadata related to vital status and medical events at timepoints."
+    Desc: "The survival node is comprised of properties which describe metadata related to vital status and medical events at timepoints for a participant."
     Tags:
       Category: clinical
       Assignment: Core

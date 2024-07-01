@@ -2,22 +2,22 @@ Handle: CCDI
 Version: v1.8.0
 Nodes:
   cell_line:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: biospecimen
+      Assignment: Extended
+      Class: Secondary
       Template: 'Yes'
     Props:
       - cell_line_id
       - source
       - id
   clinical_measure_file: # 09.20.22 pdunn
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: data file
+      Assignment: Core
+      Class: Primary
       Template: 'Yes'
     Props:
       - clinical_measure_file_id
@@ -36,11 +36,11 @@ Nodes:
       - participant_list
       - id
   cytogenomic_file:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: data file
+      Assignment: Extended
+      Class: Secondary
       Template: 'Yes'
     Props:
       - cytogenomic_file_id
@@ -57,11 +57,11 @@ Nodes:
       - cytogenomic_platform
       - id
   diagnosis:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: clinical
+      Assignment: Core
+      Class: Primary
       Template: 'Yes'
     Props:
       - diagnosis_id
@@ -85,11 +85,11 @@ Nodes:
       - tumor_grade_source
       - id
   exposure:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: clinical
+      Assignment: Extended
+      Class: Secondary
       Template: 'Yes'
     Props:
       - exposure_id
@@ -115,11 +115,11 @@ Nodes:
       - type_of_tobacco_used
       - id
   family_relationship:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: participant
+      Assignment: Extended
+      Class: Secondary
       Template: 'Yes'
     Props:
       - family_relationship_id
@@ -128,11 +128,11 @@ Nodes:
       - family_id
       - id
   medical_history:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: clinical
+      Assignment: Extended
+      Class: Secondary
       Template: 'Yes'
     Props:
       - medical_history_id
@@ -140,11 +140,11 @@ Nodes:
       - medical_history_condition
       - id
   molecular_test:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: analysis
+      Assignment: Extended
+      Class: Secondary
       Template: 'Yes'
     Props:
       - molecular_test_id
@@ -184,11 +184,11 @@ Nodes:
       - zygosity  
       - id
   methylation_array_file:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: data file
+      Assignment: Extended
+      Class: Secondary
       Template: 'Yes'
     Props:
       - methylation_array_file_id
@@ -206,11 +206,11 @@ Nodes:
       - reporter_label
       - id
   participant:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: participant
+      Assignment: Core
+      Class: Primary
       Template: 'Yes'
     Props:
       - participant_id
@@ -219,11 +219,11 @@ Nodes:
       - id
       # - dbgap_subject_id : store in synonym
   pathology_file: 
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: data file
+      Assignment: Extended
+      Class: Secondary
       Template: 'Yes'
     Props:
       - pathology_file_id
@@ -247,11 +247,11 @@ Nodes:
       - percent_necrosis
       - id
   pdx:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: biospecimen
+      Assignment: Extended
+      Class: Secondary
       Template: 'Yes'
     Props: 
       - pdx_id
@@ -267,22 +267,22 @@ Nodes:
       - validation_technique
       - id
   publication:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: study
+      Assignment: Extended
+      Class: Secondary
       Template: 'Yes'
     Props:
       - publication_id
       - pubmed_id
       - id
   radiology_file: 
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: data file
+      Assignment: Extended
+      Class: Secondary
       Template: 'Yes'
     Props:
       - radiology_file_id
@@ -329,11 +329,11 @@ Nodes:
       - complexImageComponentCode
       - id
   sample:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: biospecimen
+      Assignment: Core
+      Class: Primary
       Template: 'Yes'
     Props:
       - sample_id
@@ -344,11 +344,11 @@ Nodes:
       - sample_description
       - id
   sequencing_file: 
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: data file
+      Assignment: Core
+      Class: Primary
       Template: 'Yes'
     Props:
       - sequencing_file_id
@@ -400,11 +400,11 @@ Nodes:
       - UMI_barcode_size
       - id
   study:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: study
+      Assignment: Core
+      Class: Primary
       Template: 'Yes'
     Props:
       - study_id
@@ -421,11 +421,11 @@ Nodes:
       - id
       # - bioproject_accession : store in synonym
   study_admin:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: study
+      Assignment: Core
+      Class: Primary
       Template: 'Yes'
     Props:
       - study_admin_id
@@ -437,11 +437,11 @@ Nodes:
       - number_of_samples
       - id
   study_arm: 
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: study
+      Assignment: Extended
+      Class: Secondary
       Template: 'Yes'
     Props:
       - study_arm_id
@@ -450,11 +450,11 @@ Nodes:
       - clinical_trial_repository
       - id
   study_funding: # 0 or many grant or contract IDs
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: study
+      Assignment: Core
+      Class: Secondary
       Template: 'Yes'
     Props: 
       - study_funding_id
@@ -463,11 +463,11 @@ Nodes:
       - funding_source_program_name
       - id
   study_personnel:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: study
+      Assignment: Core
+      Class: Primary
       Template: 'Yes'
     Props:
       - study_personnel_id
@@ -477,11 +477,11 @@ Nodes:
       - institution
       - id
   survival:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: clinical
+      Assignment: Core
+      Class: Secondary
       Template: 'Yes'
     Props:
       - survival_id
@@ -498,22 +498,22 @@ Nodes:
       - follow_up_other
       - id
   synonym:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: administrative
+      Assignment: Core
+      Class: Secondary
       Template: 'Yes'
     Props:
       - synonym_id #the alternate or alias id in another repo
       - repository_of_synonym_id #the name of the other repo
       - id
   treatment:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: clinical
+      Assignment: Core
+      Class: Primary
       Template: 'Yes'
     Props:
       - treatment_id
@@ -523,11 +523,11 @@ Nodes:
       - treatment_agent
       - id
   treatment_response:
-    Desc: 
+    Desc: "TBD"
     Tags:
-      Category: 
-      Assignment: 
-      Class: 
+      Category: clinical
+      Assignment: Core
+      Class: Secondary
       Template: 'Yes'
     Props:
       - treatment_response_id

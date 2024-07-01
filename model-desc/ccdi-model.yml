@@ -2,7 +2,7 @@ Handle: CCDI
 Version: v1.8.0
 Nodes:
   cell_line:
-    Desc: "TBD"
+    Desc: "The cell line node is comprised of properties which describes cell lines that are either derived from samples or commercially bought."
     Tags:
       Category: biospecimen
       Assignment: Extended
@@ -13,7 +13,7 @@ Nodes:
       - source
       - id
   clinical_measure_file: # 09.20.22 pdunn
-    Desc: "TBD"
+    Desc: "The clinical measure file node is comprised of properties which describes file metadata for clinical and study level files."
     Tags:
       Category: data file
       Assignment: Core
@@ -36,7 +36,7 @@ Nodes:
       - participant_list
       - id
   cytogenomic_file:
-    Desc: "TBD"
+    Desc: "The cytogenomic file node is comprised of properties which describes file metadata for cytogenomic files."
     Tags:
       Category: data file
       Assignment: Extended
@@ -57,7 +57,7 @@ Nodes:
       - cytogenomic_platform
       - id
   diagnosis:
-    Desc: "TBD"
+    Desc: "The diagnosis node is comprised of properties which describes the participant's disease(s)."
     Tags:
       Category: clinical
       Assignment: Core
@@ -85,7 +85,7 @@ Nodes:
       - tumor_grade_source
       - id
   exposure:
-    Desc: "TBD"
+    Desc: "The exposure node is comprised of properties which describes the participant's habits and environmental factors."
     Tags:
       Category: clinical
       Assignment: Extended
@@ -115,7 +115,7 @@ Nodes:
       - type_of_tobacco_used
       - id
   family_relationship:
-    Desc: "TBD"
+    Desc: "The family relationship node is comprised of properties which describes the participant's relationships among other participants."
     Tags:
       Category: participant
       Assignment: Extended
@@ -128,7 +128,7 @@ Nodes:
       - family_id
       - id
   medical_history:
-    Desc: "TBD"
+    Desc: "The medical history node is comprised of properties which describes the participant's previous medical conditions."
     Tags:
       Category: clinical
       Assignment: Extended
@@ -140,7 +140,7 @@ Nodes:
       - medical_history_condition
       - id
   molecular_test:
-    Desc: "TBD"
+    Desc: "The molecular test node is comprised of properties which describes"
     Tags:
       Category: analysis
       Assignment: Extended
@@ -184,7 +184,7 @@ Nodes:
       - zygosity  
       - id
   methylation_array_file:
-    Desc: "TBD"
+    Desc: "The methylation array file node is comprised of properties which describes"
     Tags:
       Category: data file
       Assignment: Extended
@@ -206,7 +206,7 @@ Nodes:
       - reporter_label
       - id
   participant:
-    Desc: "TBD"
+    Desc: "The participant node is comprised of properties which describes"
     Tags:
       Category: participant
       Assignment: Core
@@ -219,7 +219,7 @@ Nodes:
       - id
       # - dbgap_subject_id : store in synonym
   pathology_file: 
-    Desc: "TBD"
+    Desc: "The pathology file node is comprised of properties which describes"
     Tags:
       Category: data file
       Assignment: Extended
@@ -247,7 +247,7 @@ Nodes:
       - percent_necrosis
       - id
   pdx:
-    Desc: "TBD"
+    Desc: "The pdx node is comprised of properties which describes"
     Tags:
       Category: biospecimen
       Assignment: Extended
@@ -267,7 +267,7 @@ Nodes:
       - validation_technique
       - id
   publication:
-    Desc: "TBD"
+    Desc: "The publication node is comprised of properties which describes"
     Tags:
       Category: study
       Assignment: Extended
@@ -278,7 +278,7 @@ Nodes:
       - pubmed_id
       - id
   radiology_file: 
-    Desc: "TBD"
+    Desc: "The radiology file node is comprised of properties which describes"
     Tags:
       Category: data file
       Assignment: Extended
@@ -329,7 +329,7 @@ Nodes:
       - complexImageComponentCode
       - id
   sample:
-    Desc: "TBD"
+    Desc: "The sample node is comprised of properties which describes"
     Tags:
       Category: biospecimen
       Assignment: Core
@@ -344,7 +344,7 @@ Nodes:
       - sample_description
       - id
   sequencing_file: 
-    Desc: "TBD"
+    Desc: "The sequencing file node is comprised of properties which describes"
     Tags:
       Category: data file
       Assignment: Core
@@ -400,7 +400,7 @@ Nodes:
       - UMI_barcode_size
       - id
   study:
-    Desc: "TBD"
+    Desc: "The study node is comprised of properties which describes"
     Tags:
       Category: study
       Assignment: Core
@@ -421,7 +421,7 @@ Nodes:
       - id
       # - bioproject_accession : store in synonym
   study_admin:
-    Desc: "TBD"
+    Desc: "The study admin node is comprised of properties which describes"
     Tags:
       Category: study
       Assignment: Core
@@ -437,7 +437,7 @@ Nodes:
       - number_of_samples
       - id
   study_arm: 
-    Desc: "TBD"
+    Desc: "The study arm node is comprised of properties which describes"
     Tags:
       Category: study
       Assignment: Extended
@@ -450,7 +450,7 @@ Nodes:
       - clinical_trial_repository
       - id
   study_funding: # 0 or many grant or contract IDs
-    Desc: "TBD"
+    Desc: "The study funding node is comprised of properties which describes"
     Tags:
       Category: study
       Assignment: Core
@@ -463,7 +463,7 @@ Nodes:
       - funding_source_program_name
       - id
   study_personnel:
-    Desc: "TBD"
+    Desc: "The study personnel node is comprised of properties which describes"
     Tags:
       Category: study
       Assignment: Core
@@ -477,7 +477,7 @@ Nodes:
       - institution
       - id
   survival:
-    Desc: "TBD"
+    Desc: "The survival node is comprised of properties which describes"
     Tags:
       Category: clinical
       Assignment: Core
@@ -498,7 +498,7 @@ Nodes:
       - follow_up_other
       - id
   synonym:
-    Desc: "TBD"
+    Desc: "The synonym node is comprised of properties which describes"
     Tags:
       Category: administrative
       Assignment: Core
@@ -509,7 +509,7 @@ Nodes:
       - repository_of_synonym_id #the name of the other repo
       - id
   treatment:
-    Desc: "TBD"
+    Desc: "The treatment node is comprised of properties which describes"
     Tags:
       Category: clinical
       Assignment: Core
@@ -523,7 +523,7 @@ Nodes:
       - treatment_agent
       - id
   treatment_response:
-    Desc: "TBD"
+    Desc: "The treatment response node is comprised of properties which describes"
     Tags:
       Category: clinical
       Assignment: Core

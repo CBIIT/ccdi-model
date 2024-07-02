@@ -4218,17 +4218,6 @@ PropDefinitions:
     Private: false
     Key: true
   # sample
-  alternate_sample_id:
-    Desc: A backup sequence of characters used to identify, name, or characterize a material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes.
-    Term:
-      - Origin: caDSR
-        Code: '14596000'
-        Value: Specimen Alternate Unique Identifier
-        Version: "null"
-    Type: string
-    Req: false
-    Private: false 
-  # sample
   anatomic_site:
     Desc: The location within the body as captured in the topography label of the International Classification of Diseases for Oncology, 3rd Edition (ICD-O-3).
     Term:

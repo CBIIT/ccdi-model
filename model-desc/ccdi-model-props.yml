@@ -2147,6 +2147,26 @@ PropDefinitions:
     Req: false
     Strict: false
     Private: false
+  #survival
+  cause_of_death:
+    Desc: A high level grouping of the circumstance or condition of greatest rank or importance that results in the death of a living being.
+    Term:
+      - Origin: caDSR
+        Code: '4783273'
+        Value: Primary Cause of Death Reason
+        Version: "1.00"
+    Type:
+      value_type: string
+      Enum:
+        - "Due to non-study treatment"
+        - "Due to other cause"
+        - "Due to protocol treatment"
+        - "Due to secondary primary cancer"
+        - "Due to this disease"
+        - "Unknown"
+    Req: false
+    Strict: true
+    Private: false
   #molecular_test
   molecular_test_id:
     Desc: A unique sequence of characters used to identify, name, or characterize a laboratory procedure that involves the study of tissues, cells, and fluids at the molecular level.

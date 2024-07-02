@@ -5,8 +5,8 @@ Nodes:
     Desc: "The cell line node is comprised of properties which describe cell lines that are either derived from samples or commercially obtained."
     Tags:
       Category: biospecimen
-      Assignment: Extended
-      Class: Secondary
+      Assignment: extended
+      Class: secondary
       Template: 'Yes'
     Props:
       - cell_line_id
@@ -15,9 +15,9 @@ Nodes:
   clinical_measure_file: # 09.20.22 pdunn
     Desc: "The clinical measure file node is comprised of properties which describe file metadata for clinical and study level files."
     Tags:
-      Category: data file
-      Assignment: Core
-      Class: Primary
+      Category: data_file
+      Assignment: core
+      Class: primary
       Template: 'Yes'
     Props:
       - clinical_measure_file_id
@@ -38,9 +38,9 @@ Nodes:
   cytogenomic_file:
     Desc: "The cytogenomic file node is comprised of properties which describe file metadata for cytogenomic files."
     Tags:
-      Category: data file
-      Assignment: Extended
-      Class: Secondary
+      Category: data_file
+      Assignment: extended
+      Class: secondary
       Template: 'Yes'
     Props:
       - cytogenomic_file_id
@@ -60,8 +60,8 @@ Nodes:
     Desc: "The diagnosis node is comprised of properties which describe the participant's disease(s)."
     Tags:
       Category: clinical
-      Assignment: Core
-      Class: Primary
+      Assignment: core
+      Class: primary
       Template: 'Yes'
     Props:
       - diagnosis_id
@@ -88,8 +88,8 @@ Nodes:
     Desc: "The exposure node is comprised of properties which describe the participant's habits and environmental factors."
     Tags:
       Category: clinical
-      Assignment: Extended
-      Class: Secondary
+      Assignment: extended
+      Class: secondary
       Template: 'Yes'
     Props:
       - exposure_id
@@ -118,8 +118,8 @@ Nodes:
     Desc: "The family relationship node is comprised of properties which describe the participant's relationships among other participants."
     Tags:
       Category: participant
-      Assignment: Extended
-      Class: Secondary
+      Assignment: extended
+      Class: secondary
       Template: 'Yes'
     Props:
       - family_relationship_id
@@ -131,8 +131,8 @@ Nodes:
     Desc: "The medical history node is comprised of properties which describe the participant's previous medical conditions."
     Tags:
       Category: clinical
-      Assignment: Extended
-      Class: Secondary
+      Assignment: extended
+      Class: secondary
       Template: 'Yes'
     Props:
       - medical_history_id
@@ -143,8 +143,8 @@ Nodes:
     Desc: "The molecular test node is comprised of properties which describe varying tests results for participants."
     Tags:
       Category: analysis
-      Assignment: Extended
-      Class: Secondary
+      Assignment: extended
+      Class: secondary
       Template: 'Yes'
     Props:
       - molecular_test_id
@@ -186,9 +186,9 @@ Nodes:
   methylation_array_file:
     Desc: "The methylation array file node is comprised of properties which describe file metadata specific to methylation array analysis."
     Tags:
-      Category: data file
-      Assignment: Extended
-      Class: Secondary
+      Category: data_file
+      Assignment: extended
+      Class: secondary
       Template: 'Yes'
     Props:
       - methylation_array_file_id
@@ -209,8 +209,8 @@ Nodes:
     Desc: "The participant node is comprised of properties which describe the participant attributes."
     Tags:
       Category: participant
-      Assignment: Core
-      Class: Primary
+      Assignment: core
+      Class: primary
       Template: 'Yes'
     Props:
       - participant_id
@@ -221,9 +221,9 @@ Nodes:
   pathology_file: 
     Desc: "The pathology file node is comprised of properties which describe file metadata about the pathology image files."
     Tags:
-      Category: data file
-      Assignment: Extended
-      Class: Secondary
+      Category: data_file
+      Assignment: extended
+      Class: secondary
       Template: 'Yes'
     Props:
       - pathology_file_id
@@ -250,8 +250,8 @@ Nodes:
     Desc: "The pdx node is comprised of properties which describe the patient derived xenografts models either from samples or commercially obtained."
     Tags:
       Category: biospecimen
-      Assignment: Extended
-      Class: Secondary
+      Assignment: extended
+      Class: secondary
       Template: 'Yes'
     Props: 
       - pdx_id
@@ -270,8 +270,8 @@ Nodes:
     Desc: "The publication node is comprised of properties which describe the publications that were created this study."
     Tags:
       Category: study
-      Assignment: Extended
-      Class: Secondary
+      Assignment: extended
+      Class: secondary
       Template: 'Yes'
     Props:
       - publication_id
@@ -280,9 +280,9 @@ Nodes:
   radiology_file: 
     Desc: "The radiology file node is comprised of properties which describe file metadata about the radiology image files."
     Tags:
-      Category: data file
-      Assignment: Extended
-      Class: Secondary
+      Category: data_file
+      Assignment: extended
+      Class: secondary
       Template: 'Yes'
     Props:
       - radiology_file_id
@@ -332,8 +332,8 @@ Nodes:
     Desc: "The sample node is comprised of properties which describe the sample attributes as collected from participant, cell line, or pdx model."
     Tags:
       Category: biospecimen
-      Assignment: Core
-      Class: Primary
+      Assignment: core
+      Class: primary
       Template: 'Yes'
     Props:
       - sample_id
@@ -346,9 +346,9 @@ Nodes:
   sequencing_file: 
     Desc: "The sequencing file node is comprised of properties which describe file metadata for the sequencing file."
     Tags:
-      Category: data file
-      Assignment: Core
-      Class: Primary
+      Category: data_file
+      Assignment: core
+      Class: primary
       Template: 'Yes'
     Props:
       - sequencing_file_id
@@ -403,8 +403,8 @@ Nodes:
     Desc: "The study node is comprised of properties which describe high level metadata that applies to all facets of the study."
     Tags:
       Category: study
-      Assignment: Core
-      Class: Primary
+      Assignment: core
+      Class: primary
       Template: 'Yes'
     Props:
       - study_id
@@ -424,8 +424,8 @@ Nodes:
     Desc: "The study admin node is comprised of properties which describe the general structure of the study."
     Tags:
       Category: study
-      Assignment: Core
-      Class: Primary
+      Assignment: core
+      Class: primary
       Template: 'Yes'
     Props:
       - study_admin_id
@@ -440,8 +440,8 @@ Nodes:
     Desc: "The study arm node is comprised of properties which describe the arms that are present in the study."
     Tags:
       Category: study
-      Assignment: Extended
-      Class: Secondary
+      Assignment: extended
+      Class: secondary
       Template: 'Yes'
     Props:
       - study_arm_id
@@ -453,8 +453,8 @@ Nodes:
     Desc: "The study funding node is comprised of properties which describe the funding sources associated with the study."
     Tags:
       Category: study
-      Assignment: Core
-      Class: Secondary
+      Assignment: core
+      Class: secondary
       Template: 'Yes'
     Props: 
       - study_funding_id
@@ -466,8 +466,8 @@ Nodes:
     Desc: "The study personnel node is comprised of properties which describe the personnel and their position in the study."
     Tags:
       Category: study
-      Assignment: Core
-      Class: Primary
+      Assignment: core
+      Class: primary
       Template: 'Yes'
     Props:
       - study_personnel_id
@@ -480,8 +480,8 @@ Nodes:
     Desc: "The survival node is comprised of properties which describe metadata related to vital status and medical events at timepoints for a participant."
     Tags:
       Category: clinical
-      Assignment: Core
-      Class: Secondary
+      Assignment: core
+      Class: secondary
       Template: 'Yes'
     Props:
       - survival_id
@@ -501,8 +501,8 @@ Nodes:
     Desc: "The synonym node is comprised of properties which describe how specific ids are related between multiple data repositories."
     Tags:
       Category: administrative
-      Assignment: Core
-      Class: Secondary
+      Assignment: core
+      Class: secondary
       Template: 'Yes'
     Props:
       - synonym_id #the alternate or alias id in another repo
@@ -512,8 +512,8 @@ Nodes:
     Desc: "The treatment node is comprised of properties which describe the treatment regiments and time periods for a participant."
     Tags:
       Category: clinical
-      Assignment: Core
-      Class: Primary
+      Assignment: core
+      Class: primary
       Template: 'Yes'
     Props:
       - treatment_id
@@ -526,8 +526,8 @@ Nodes:
     Desc: "The treatment response node is comprised of properties which describe the patient's response to a treatment."
     Tags:
       Category: clinical
-      Assignment: Core
-      Class: Secondary
+      Assignment: core
+      Class: secondary
       Template: 'Yes'
     Props:
       - treatment_response_id

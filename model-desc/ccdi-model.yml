@@ -1,5 +1,5 @@
 Handle: CCDI
-Version: v1.8.0
+Version: v1.9.0
 Nodes:
   cell_line:
     Desc: "The cell line node is comprised of properties which describe cell lines that are either derived from samples or commercially obtained."
@@ -27,6 +27,7 @@ Nodes:
       - file_size
       - md5sum
       - file_mapping_level
+      - file_access
       - acl
       - authz
       - file_url
@@ -50,6 +51,7 @@ Nodes:
       - file_size
       - md5sum
       - file_mapping_level
+      - file_access
       - acl
       - authz
       - file_url
@@ -198,6 +200,7 @@ Nodes:
       - file_size
       - md5sum
       - file_mapping_level
+      - file_access
       - acl
       - authz
       - file_url
@@ -233,6 +236,7 @@ Nodes:
       - file_size
       - md5sum
       - file_mapping_level
+      - file_access
       - acl
       - authz
       - file_url
@@ -292,6 +296,7 @@ Nodes:
       - file_size
       - md5sum
       - file_mapping_level
+      - file_access
       - acl
       - authz
       - file_url
@@ -358,6 +363,7 @@ Nodes:
       - file_size
       - md5sum
       - file_mapping_level
+      - file_access
       - acl
       - authz
       - file_url

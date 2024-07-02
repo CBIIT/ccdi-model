@@ -5324,6 +5324,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  #file
   acl:
     Desc: A free text field used to document whether the data in a repository is open access or controlled access. If access to the data are unrestricted, the acl field should be listed [“*”]. Controlled access should be denoted as a comma delimited list of phs accession numbers, for example, [“phs000123”] or [“phs000123”,”phs000124”].
     Term:
@@ -5334,6 +5335,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+  #file
   authz:
     Desc: A free text field used to document whether the data in a repository is open access or controlled access. Open access files should have authz = ['/open']. Controlled access files have an acl value format of ['/programs/phsNNN'] (e.g.  ['/programs/1234'].
     Term:
@@ -5343,16 +5345,22 @@ PropDefinitions:
         Version: "1.00"
     Type: string
     Req: true
-    Private: false
-#  bioproject_accession:
-#    Desc: An alphanumeric identifier (PRJ accession number) assigned to a collection of experimental data associated with a project by the National Center for Biotechnology Information (NCBI) BioProject repository.
-#    Term:
-#      - Origin: NCIt
-#        Code: 'C175890'
-#        Value: BioProject Accession Number 
-#    Type: string
-#    Req: false
-#    Private: false    
+    Private: false 
+  #file
+  file_access:
+    Desc: A enumerated value text field used to document whether the data in a repository is open access or controlled access. 
+    Term:
+      - Origin: caDSR
+        Code: '11555664'
+        Value: Electronic Data File Access Level Text 
+        Version: "1.00"
+    Type:
+      value_type: string
+      Enum:
+        - "Controlled"
+        - "Open"
+    Req: true
+    Private: false 
   # study_funding
   study_funding_id:
     Desc: A sequence of characters used to uniquely identify, name, or characterize the study funding organization.
@@ -5365,6 +5373,7 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
+  # study_funding
   funding_agency:
     Desc: The name of the funding source organization or sponsor.
     Term:
@@ -5375,6 +5384,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
+  # study_funding
   funding_source_program_name:
     Desc: The name of the program assigned by the funding agency.
     Term:
@@ -5385,6 +5395,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
+  # study_funding
   grant_id: 
     Desc: Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
     Term:

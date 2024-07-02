@@ -1441,6 +1441,36 @@ Terms:
     Code: '7656740'
     Version: '1'
     Value: Not Otherwise Specified Dorsal Surface of the Tongue
+  Due to non-study treatment:
+    Origin: caDSR
+    Definition: 'An indication or description of the correlation between a finding or event of interest and a treatment outside the specifications of a study.'
+    Code: '6229716'
+    Version: '1'
+    Value: Non-Study Treatment Relationship
+  Due to other cause:
+    Origin: caDSR
+    Definition: 'Different than the one(s) previously specified or mentioned.: An explanation of the cause of some phenomenon or action.'
+    Code: '2561132'
+    Version: '1'
+    Value: Other Reason
+  Due to protocol treatment:
+    Origin: caDSR
+    Definition: 'The finding of bodily harm due to the poisonous effects associated with the action or administration of therapeutic agents.'
+    Code: '3340602'
+    Version: '1'
+    Value: Therapy-Related Toxicity
+  Due to secondary primary cancer:
+    Origin: caDSR
+    Definition: 'A primary malignant neoplasm in a patient who has been already diagnosed with a primary malignant neoplasm in another anatomic site.'
+    Code: '3436375'
+    Version: '1'
+    Value: Second Primary Malignant Neoplasm
+  Due to this disease:
+    Origin: caDSR
+    Definition: 'Occurring first in time or sequence; original; of greatest rank or importance or value.: Any abnormal condition of the body or mind that causes discomfort, dysfunction, or distress to the person affected or those in contact with the person. The term is often used broadly to include injuries, disabilities, syndromes, symptoms, deviant behaviors, and atypical variations of structure and function.'
+    Code: '3837929'
+    Version: '1'
+    Value: Primary Disease or Disorder
   Duodenum:
     Origin: caDSR
     Definition: A jointed tube 25-30 cm long that connects the stomach to the jejunum.

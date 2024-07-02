@@ -7449,7 +7449,7 @@ PropDefinitions:
         Value: Therapeutic Procedure Agent Name
         Version: "1.00"
     Type:
-      value_type: string
+      value_type: list
       Enum:
         - "10-Deacetyltaxol"
         - "11C Topotecan"

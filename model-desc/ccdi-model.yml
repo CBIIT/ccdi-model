@@ -497,11 +497,12 @@ Nodes:
       - event_free_survival_status
       - age_at_event_free_survival_status
       - follow_up_category
+      - follow_up_other
       - adverse_event
       - comorbidity
       - comorbidity_method_of_diagnosis
       - risk_factor
-      - follow_up_other
+      - cause_of_death
       - id
   synonym:
     Desc: "The synonym node is comprised of properties which describe how specific ids are related between multiple data repositories."

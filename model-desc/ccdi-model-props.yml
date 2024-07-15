@@ -4820,7 +4820,7 @@ PropDefinitions:
       value_type: string
       Enum:
         - "AMPLICON"
-        - "Archer_Fusion"
+        - "Archer Fusion"
         - "ATAC-seq"
         - "Bisulfite-Seq"
         - "ChIA-PET"

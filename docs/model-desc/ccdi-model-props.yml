@@ -4132,7 +4132,7 @@ PropDefinitions:
     Type:
       value_type: string
       Enum:
-        - "Participiant"
+        - "Participant"
         - "Sample"
         - "Study"
     Req: true

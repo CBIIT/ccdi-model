@@ -5549,10 +5549,12 @@ PropDefinitions:
         - "3-Dimensional Conformal Radiation Therapy"
         - "Allogeneic Hematopoietic Stem Cell Transplantation"
         - "Autologous Stem Cell Transplantation"
+        - “Brachytherapy”
         - "Cellular Therapy"
         - "Chemotherapy"
         - "Concurrent Chemoradiation"
         - "Conventional Radiotherapy"
+        - “Electron Beam Radiation Therapy”
         - "External Beam Radiation Therapy"
         - "High-Dose Rate Brachytherapy"
         - "Hormone Therapy"
@@ -5561,9 +5563,11 @@ PropDefinitions:
         - "Low-Dose Rate Brachytherapy"
         - "Not Reported"
         - "Pharmacotherapy"
+        - “Photon Beam Radiation Therapy”
         - "Proton Beam Radiation Therapy"
         - "Radiation Therapy, NOS"
         - "Radiofrequency Ablation"
+        - “Radiopharmaceutical”
         - "Stereotactic Body Radiation Therapy"
         - "Stereotactic Radiosurgery"
         - "Surgical Procedure"

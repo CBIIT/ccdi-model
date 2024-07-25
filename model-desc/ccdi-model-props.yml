@@ -4224,14 +4224,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: '7572817'
         Value: Person Sex at Birth Category
-        Version: "null"
+        Version: "2.0"
     Type:
       value_type: string
       Enum:
         - "Female"
         - "Intersex"
         - "Male"
-        - "X"
         - "Not Reported"
         - "Unknown"
         - "Don't Know"

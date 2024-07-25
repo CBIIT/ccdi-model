@@ -642,6 +642,12 @@ Terms:
     Code: '7656734'
     Version: '1'
     Value: Anatomic Border Tongue
+  Brachytherapy:
+    Origin: NCIt
+    Definition: A type of radiation therapy in which radioactive material is placed inside the body, into a tumor or body cavity.
+    Code: 'C15195'
+    Version: '1'
+    Value: Brachytherapy
   Brain:
     Origin: caDSR
     Definition: That part of the central nervous system contained within the cranium,
@@ -849,6 +855,12 @@ Terms:
     Code: '3081866'
     Version: '1'
     Value: Cell Line
+  Cellular Therapy:
+    Origin: NCIt
+    Definition: Utilization of specific cells, modified or not, for treatment of diseases. Donor lymphocyte infusion is a type of cellular therapy.
+    Code: 'C70601'
+    Version: '1'
+    Value: Cellular Therapy
   Central portion of breast:
     Origin: caDSR
     Definition: The part of the breast which is in the center.
@@ -1477,6 +1489,12 @@ Terms:
     Code: '4265332'
     Version: '1'
     Value: Duodenum
+  Electron Beam Radiation Therapy:
+    Origin: NCIt
+    Definition: Radiation therapy using electron beam.
+    Code: 'C15650'
+    Version: '1'
+    Value: Electron Beam Therapy
   Elevated Tumor Markers and Residual Mass:
     Origin: caDSR
     Definition: 'Raised or increased above normal levels or limits.: A substance that
@@ -4687,6 +4705,12 @@ Terms:
     Code: '7701712'
     Version: '1'
     Value: Not Otherwise Specified Pharynx
+  Photon Beam Radiation Therapy:
+    Origin: NCIt
+    Definition: Radiation therapy using photon beam.
+    Code: 'C104914'
+    Version: '1'
+    Value: Photon Beam Radiation Therapy
   Physical Examination:
     Origin: caDSR
     Definition: A systemic evaluation of the body and its functions using visual inspection, palpation, percussion and auscultation. The purpose is to determine the presence or absence of physical signs of disease or abnormality for an individual's health assessment.
@@ -4983,6 +5007,12 @@ Terms:
     Code: 'C15666'
     Version: '1'
     Value: Radiofrequency Ablation
+  Radiopharmaceutical:
+    Origin: NCIt
+    Definition: An agent that contains a radioactive isotope and is used for diagnostic or therapeutic purposes.
+    Code: 'C1446'
+    Version: '1'
+    Value: Radiopharmaceutical Compound
   Radiology:
     Origin: caDSR
     Definition: The branch of medical science dealing with the medical use of X-rays
@@ -5510,6 +5540,12 @@ Terms:
     Code: '13347948'
     Version: '1'
     Value: Start Lost  
+  Stem Cell Transplant:
+    Origin: NCIt
+    Definition: A therapeutic procedure that involves the transplantation of hematopoietic stem cells, either with the patient as their own donor or from a donor to a patient. This can be used for treatment of malignant and non-malignant diseases.
+    Code: 'C15431'
+    Version: '1'
+    Value: Hematopoietic Cell Transplantation
   Stereotactic Body Radiation Therapy:
     Origin: NCIt
     Definition: Stereotactic radiation therapy in which one or several maximum dose radiation treatments are delivered targeting cancers of the body, excluding the brain or spine.

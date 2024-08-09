@@ -1,0 +1,69 @@
+Properties:
+  domain: ccdi.cancer.gov
+  rel_prop_delimiter: "$"
+
+  plurals:
+    cell_line: cell_lines
+    clinical_measure_file: clinical_measure_files
+    cytogenomic_file: cytogenomic_files
+    diagnosis: diagnosises
+    exposure: exposures
+    family_relationship: family_relationships
+    medical_history: medical_historys
+    molecular_test: molecular_tests
+    methylation_array_file: methylation_array_files
+    participant: participants
+    pathology_file: pathology_files
+    pdx: pdxs
+    publication: publications
+    radiology_file: radiology_files
+    sample: samples
+    sequencing_file: sequencing_files
+    study: studies
+    study_admin: study_admins
+    study_arm: study_arms
+    study_funding: study_fundings
+    study_personnel: study_personnels
+    survival: survivals
+    synonym: synonyms
+    treatment: treatments
+    treatment_response: treatment_responses
+
+  type_mapping:
+    string: String
+    number: Float
+    integer: Int
+    boolean: Boolean
+    array: Array
+    object: Object
+    datetime: DateTime
+    date: Date
+    TBD: String
+
+  id_fields:
+    cell_line: id
+    clinical_measure_file: id
+    cytogenomic_file: id
+    diagnosis: id
+    exposure: id
+    family_relationship: id
+    medical_history: id
+    molecular_test: id
+    methylation_array_file: id
+    participant: id
+    pathology_file: id
+    pdx: id
+    publication: id
+    radiology_file: id
+    sample: id
+    sequencing_file: id
+    study: id
+    study_admin: id
+    study_arm: id
+    study_funding: id
+    study_personnel: id
+    survival: id
+    synonym: id
+    treatment: id
+    treatment_response: id
+    

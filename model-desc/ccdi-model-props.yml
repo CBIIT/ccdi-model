@@ -3596,8 +3596,8 @@ PropDefinitions:
         Code: 'C42673'
         Value: Definition Source
         Version: "null"
-      - Origin: NCIt
-        Code: 'C91220'
+      - Origin: caDSR
+        Code: '15026558'
         Value: French-American-British Classification
       - Origin: NCIt
         Code: 'C159157'

@@ -22,6 +22,7 @@ Nodes:
     Props:
       - clinical_measure_file_id
       - file_name
+      - data_category
       - file_type
       - file_description
       - file_size
@@ -46,6 +47,7 @@ Nodes:
     Props:
       - cytogenomic_file_id
       - file_name
+      - data_category
       - file_type
       - file_description
       - file_size
@@ -195,6 +197,7 @@ Nodes:
     Props:
       - methylation_array_file_id
       - file_name
+      - data_category
       - file_type
       - file_description
       - file_size
@@ -231,6 +234,7 @@ Nodes:
     Props:
       - pathology_file_id
       - file_name
+      - data_category
       - file_type
       - file_description
       - file_size
@@ -291,6 +295,7 @@ Nodes:
     Props:
       - radiology_file_id
       - file_name
+      - data_category
       - file_type
       - file_description
       - file_size
@@ -358,6 +363,7 @@ Nodes:
     Props:
       - sequencing_file_id
       - file_name
+      - data_category
       - file_type
       - file_description
       - file_size

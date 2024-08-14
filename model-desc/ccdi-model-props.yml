@@ -3652,13 +3652,9 @@ PropDefinitions:
     Desc: Age at the time of diagnosis expressed in number of days since birth.
     Term:
       - Origin: caDSR
-        Code: '10609539'
-        Value: Subject Age at Diagnosis Integer
-        Version: "null"
-      - Origin: NCIt
-        Code: 'C156420'
-        Value: Age at Diagnosis 
-        Version: "null"
+        Code: '15019300'
+        Value: Subject Age at Diagnosis Day Count
+        Version: "1.00"
     Type: integer
     Req: true
     Private: false

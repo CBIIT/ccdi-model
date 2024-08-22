@@ -1,0 +1,432 @@
+lift_from_node	lift_from_property	lift_from_version	lift_to_node	lift_to_property	lift_to_version
+cell_line	cell_line_id	1.7.2	cell_line	cell_line_id	1.9.1
+cell_line	source	1.7.2	cell_line	source	1.9.1
+cell_line	id	1.7.2	cell_line	id	1.9.1
+clinical_measure_file	clinical_measure_file_id	1.7.2	clinical_measure_file	clinical_measure_file_id	1.9.1
+clinical_measure_file	file_name	1.7.2	clinical_measure_file	file_name	1.9.1
+clinical_measure_file	file_type	1.7.2	clinical_measure_file	file_type	1.9.1
+clinical_measure_file	file_description	1.7.2	clinical_measure_file	file_description	1.9.1
+clinical_measure_file	file_size	1.7.2	clinical_measure_file	file_size	1.9.1
+clinical_measure_file	md5sum	1.7.2	clinical_measure_file	md5sum	1.9.1
+clinical_measure_file	file_url_in_cds	1.7.2	clinical_measure_file	file_url	1.9.1
+clinical_measure_file	dcf_indexd_guid	1.7.2	clinical_measure_file	dcf_indexd_guid	1.9.1
+clinical_measure_file	checksum_algorithm	1.7.2	clinical_measure_file	checksum_algorithm	1.9.1
+clinical_measure_file	checksum_value	1.7.2	clinical_measure_file	checksum_value	1.9.1
+clinical_measure_file	file_mapping_level	1.7.2	clinical_measure_file	file_mapping_level	1.9.1
+clinical_measure_file	participant_list	1.7.2	clinical_measure_file	participant_list	1.9.1
+clinical_measure_file	id	1.7.2	clinical_measure_file	id	1.9.1
+cytogenomic_file	cytogenomic_file_id	1.7.2	cytogenomic_file	cytogenomic_file_id	1.9.1
+cytogenomic_file	file_name	1.7.2	cytogenomic_file	file_name	1.9.1
+cytogenomic_file	file_type	1.7.2	cytogenomic_file	file_type	1.9.1
+cytogenomic_file	file_description	1.7.2	cytogenomic_file	file_description	1.9.1
+cytogenomic_file	file_size	1.7.2	cytogenomic_file	file_size	1.9.1
+cytogenomic_file	md5sum	1.7.2	cytogenomic_file	md5sum	1.9.1
+cytogenomic_file	file_url_in_cds	1.7.2	cytogenomic_file	file_url	1.9.1
+cytogenomic_file	dcf_indexd_guid	1.7.2	cytogenomic_file	dcf_indexd_guid	1.9.1
+cytogenomic_file	file_mapping_level	1.7.2	cytogenomic_file	file_mapping_level	1.9.1
+cytogenomic_file	cytogenomic_platform	1.7.2	cytogenomic_file	cytogenomic_platform	1.9.1
+cytogenomic_file	id	1.7.2	cytogenomic_file	id	1.9.1
+diagnosis	diagnosis_id	1.7.2	diagnosis	diagnosis_id	1.9.1
+diagnosis	diagnosis_classification	1.7.2	diagnosis	diagnosis	1.9.1
+diagnosis	diagnosis_classification_system	1.7.2	diagnosis	diagnosis_classification_system	1.9.1
+diagnosis	diagnosis_verification_status	1.7.2			1.9.1
+diagnosis	diagnosis_basis	1.7.2	diagnosis	diagnosis_basis	1.9.1
+diagnosis	diagnosis_comment	1.7.2	diagnosis	diagnosis_comment	1.9.1
+diagnosis	disease_phase	1.7.2	diagnosis	disease_phase	1.9.1
+diagnosis	tumor_classification	1.7.2	diagnosis	tumor_classification	1.9.1
+diagnosis	anatomic_site	1.7.2	diagnosis	anatomic_site	1.9.1
+diagnosis	age_at_diagnosis	1.7.2	diagnosis	age_at_diagnosis	1.9.1
+diagnosis	toronto_childhood_cancer_staging	1.7.2	diagnosis	toronto_childhood_cancer_staging	1.9.1
+diagnosis	age_at_recurrence	1.7.2	diagnosis	age_at_recurrence	1.9.1
+diagnosis	last_known_disease_status	1.7.2	diagnosis	last_known_disease_status	1.9.1
+diagnosis	age_at_last_known_disease_status	1.7.2	diagnosis	age_at_last_known_disease_status	1.9.1
+diagnosis	tumor_grade	1.7.2	diagnosis	tumor_grade	1.9.1
+diagnosis	tumor_stage_clinical_t	1.7.2	diagnosis	tumor_stage_clinical_t	1.9.1
+diagnosis	tumor_stage_clinical_n	1.7.2	diagnosis	tumor_stage_clinical_n	1.9.1
+diagnosis	tumor_stage_clinical_m	1.7.2	diagnosis	tumor_stage_clinical_m	1.9.1
+diagnosis	id	1.7.2	diagnosis	id	1.9.1
+exposure	exposure_id	1.7.2	exposure	exposure_id	1.9.1
+exposure	age_at_exposure	1.7.2	exposure	age_at_exposure	1.9.1
+exposure	pack_years_smoked	1.7.2	exposure	pack_years_smoked	1.9.1
+exposure	years_smoked	1.7.2	exposure	years_smoked	1.9.1
+exposure	alcohol_days_per_week	1.7.2	exposure	alcohol_days_per_week	1.9.1
+exposure	alcohol_drinks_per_day	1.7.2	exposure	alcohol_drinks_per_day	1.9.1
+exposure	alcohol_history	1.7.2	exposure	alcohol_history	1.9.1
+exposure	alcohol_intensity	1.7.2	exposure	alcohol_intensity	1.9.1
+exposure	asbestos_exposure	1.7.2	exposure	asbestos_exposure	1.9.1
+exposure	cigarettes_per_day	1.7.2	exposure	cigarettes_per_day	1.9.1
+exposure	coal_dust_exposure	1.7.2	exposure	coal_dust_exposure	1.9.1
+exposure	environmental_tobacco_smoke_exposure	1.7.2	exposure	environmental_tobacco_smoke_exposure	1.9.1
+exposure	radon_exposure	1.7.2	exposure	radon_exposure	1.9.1
+exposure	respirable_crystalline_silica_exposure	1.7.2	exposure	respirable_crystalline_silica_exposure	1.9.1
+exposure	smoking_frequency	1.7.2	exposure	smoking_frequency	1.9.1
+exposure	time_between_waking_and_first_smoke	1.7.2	exposure	time_between_waking_and_first_smoke	1.9.1
+exposure	tobacco_smoking_onset_year	1.7.2	exposure	tobacco_smoking_onset_year	1.9.1
+exposure	tobacco_smoking_quit_year	1.7.2	exposure	tobacco_smoking_quit_year	1.9.1
+exposure	tobacco_smoking_status	1.7.2	exposure	tobacco_smoking_status	1.9.1
+exposure	type_of_smoke_exposure	1.7.2	exposure	type_of_smoke_exposure	1.9.1
+exposure	type_of_tobacco_used	1.7.2	exposure	type_of_tobacco_used	1.9.1
+exposure	id	1.7.2	exposure	id	1.9.1
+family_relationship	family_relationship_id	1.7.2	family_relationship	family_relationship_id	1.9.1
+family_relationship	related_to_participant_id	1.7.2	family_relationship	related_to_participant_id	1.9.1
+family_relationship	relationship	1.7.2	family_relationship	relationship	1.9.1
+family_relationship	family_id	1.7.2	family_relationship	family_id	1.9.1
+family_relationship	id	1.7.2	family_relationship	id	1.9.1
+follow_up	follow_up_id	1.7.2	survival	survival_id	1.9.1
+follow_up	vital_status	1.7.2	survival	last_known_survival_status	1.9.1
+follow_up	age_at_follow_up	1.7.2	survival	age_at_last_known_survival_status	1.9.1
+follow_up	follow_up_category	1.7.2	survival	follow_up_category	1.9.1
+follow_up	adverse_event	1.7.2	survival	adverse_event	1.9.1
+follow_up	comorbidity	1.7.2	survival	comorbidity	1.9.1
+follow_up	comorbidity_method_of_diagnosis	1.7.2	survival	comorbidity_method_of_diagnosis	1.9.1
+follow_up	disease_response	1.7.2	treatment_response	response	1.9.1
+follow_up	risk_factor	1.7.2	survival	risk_factor	1.9.1
+follow_up	follow_up_other	1.7.2	survival	follow_up_other	1.9.1
+follow_up	id	1.7.2	survival	id	1.9.1
+medical_history	medical_history_id	1.7.2	medical_history	medical_history_id	1.9.1
+medical_history	medical_history_category	1.7.2	medical_history	medical_history_category	1.9.1
+medical_history	medical_history_condition	1.7.2	medical_history	medical_history_condition	1.9.1
+medical_history	id	1.7.2	medical_history	id	1.9.1
+molecular_test	molecular_test_id	1.7.2	molecular_test	molecular_test_id	1.9.1
+molecular_test	age_at_molecular_test	1.7.2	molecular_test	age_at_molecular_test	1.9.1
+molecular_test	gene_symbol	1.7.2	molecular_test	gene_symbol	1.9.1
+molecular_test	molecular_analysis_method	1.7.2	molecular_test	molecular_analysis_method	1.9.1
+molecular_test	laboratory_test_name	1.7.2	molecular_test	laboratory_test_name	1.9.1
+molecular_test	test_result_text	1.7.2	molecular_test	test_result_text	1.9.1
+molecular_test	test_result_numeric	1.7.2	molecular_test	test_result_numeric	1.9.1
+molecular_test	test_unit	1.7.2	molecular_test	test_unit	1.9.1
+molecular_test	aa_change	1.7.2	molecular_test	aa_change	1.9.1
+molecular_test	antigen	1.7.2	molecular_test	antigen	1.9.1
+molecular_test	anatomic_site	1.7.2	molecular_test	anatomic_site	1.9.1
+molecular_test	blood_test_normal_range_upper	1.7.2	molecular_test	blood_test_normal_range_upper	1.9.1
+molecular_test	blood_test_normal_range_lower	1.7.2	molecular_test	blood_test_normal_range_lower	1.9.1
+molecular_test	cell_count	1.7.2	molecular_test	cell_count	1.9.1
+molecular_test	chromosome	1.7.2			1.9.1
+molecular_test	copy_number	1.7.2	molecular_test	copy_number	1.9.1
+molecular_test	cytoband	1.7.2	molecular_test	cytoband	1.9.1
+molecular_test	exon	1.7.2	molecular_test	exon	1.9.1
+molecular_test	gene_mutation_abnormality_type	1.7.2	molecular_test	gene_mutation_abnormality_type	1.9.1
+molecular_test	histone_family	1.7.2	molecular_test	histone_family	1.9.1
+molecular_test	histone_variant	1.7.2	molecular_test	histone_variant	1.9.1
+molecular_test	intron	1.7.2	molecular_test	intron	1.9.1
+molecular_test	loci_abnormal_count	1.7.2	molecular_test	loci_abnormal_count	1.9.1
+molecular_test	loci_count	1.7.2	molecular_test	loci_count	1.9.1
+molecular_test	locus	1.7.2	molecular_test	locus	1.9.1
+molecular_test	mismatch_repair_mutation	1.7.2	molecular_test	mismatch_repair_mutation	1.9.1
+molecular_test	pathogenicity	1.7.2	molecular_test	pathogenicity	1.9.1
+molecular_test	ploidy	1.7.2	molecular_test	ploidy	1.9.1
+molecular_test	second_exon	1.7.2	molecular_test	second_exon	1.9.1
+molecular_test	second_gene_symbol	1.7.2	molecular_test	second_gene_symbol	1.9.1
+molecular_test	specialized_molecular_test	1.7.2	molecular_test	specialized_molecular_test	1.9.1
+molecular_test	test_analyte_type	1.7.2	molecular_test	test_analyte_type	1.9.1
+molecular_test	transcript	1.7.2	molecular_test	transcript	1.9.1
+molecular_test	variant_origin	1.7.2	molecular_test	variant_origin	1.9.1
+molecular_test	variant_type	1.7.2	molecular_test	variant_type	1.9.1
+molecular_test	zygosity	1.7.2	molecular_test	zygosity	1.9.1
+molecular_test	id	1.7.2	molecular_test	id	1.9.1
+methylation_array_file	methylation_array_file_id	1.7.2	methylation_array_file	methylation_array_file_id	1.9.1
+methylation_array_file	file_name	1.7.2	methylation_array_file	file_name	1.9.1
+methylation_array_file	file_type	1.7.2	methylation_array_file	file_type	1.9.1
+methylation_array_file	file_description	1.7.2	methylation_array_file	file_description	1.9.1
+methylation_array_file	file_size	1.7.2	methylation_array_file	file_size	1.9.1
+methylation_array_file	md5sum	1.7.2	methylation_array_file	md5sum	1.9.1
+methylation_array_file	file_url_in_cds	1.7.2	methylation_array_file	file_url	1.9.1
+methylation_array_file	dcf_indexd_guid	1.7.2	methylation_array_file	dcf_indexd_guid	1.9.1
+methylation_array_file	file_mapping_level	1.7.2	methylation_array_file	file_mapping_level	1.9.1
+methylation_array_file	methylation_platform	1.7.2	methylation_array_file	methylation_platform	1.9.1
+methylation_array_file	reporter_label	1.7.2	methylation_array_file	reporter_label	1.9.1
+methylation_array_file	id	1.7.2	methylation_array_file	id	1.9.1
+participant	participant_id	1.7.2	participant	participant_id	1.9.1
+participant	race	1.7.2	participant	race	1.9.1
+participant	sex_at_birth	1.7.2	participant	sex_at_birth	1.9.1
+participant	ethnicity	1.7.2	participant	race	1.9.1
+participant	alternate_participant_id	1.7.2	synonym	synonym_id	1.9.1
+participant	id	1.7.2	participant	id	1.9.1
+pathology_file	pathology_file_id	1.7.2	pathology_file	pathology_file_id	1.9.1
+pathology_file	file_name	1.7.2	pathology_file	file_name	1.9.1
+pathology_file	file_type	1.7.2	pathology_file	file_type	1.9.1
+pathology_file	file_description	1.7.2	pathology_file	file_description	1.9.1
+pathology_file	file_size	1.7.2	pathology_file	file_size	1.9.1
+pathology_file	md5sum	1.7.2	pathology_file	md5sum	1.9.1
+pathology_file	file_url_in_cds	1.7.2	pathology_file	file_url	1.9.1
+pathology_file	dcf_indexd_guid	1.7.2	pathology_file	dcf_indexd_guid	1.9.1
+pathology_file	image_modality	1.7.2	pathology_file	image_modality	1.9.1
+pathology_file	license	1.7.2	pathology_file	license	1.9.1
+pathology_file	magnification	1.7.2	pathology_file	magnification	1.9.1
+pathology_file	fixation_embedding_method	1.7.2	pathology_file	fixation_embedding_method	1.9.1
+pathology_file	staining_method	1.7.2	pathology_file	staining_method	1.9.1
+pathology_file	deidentification_method	1.7.2	pathology_file	deidentification_method	1.9.1
+pathology_file	percent_tumor	1.7.2	pathology_file	percent_tumor	1.9.1
+pathology_file	percent_necrosis	1.7.2	pathology_file	percent_necrosis	1.9.1
+pathology_file	file_mapping_level	1.7.2	pathology_file	file_mapping_level	1.9.1
+pathology_file	id	1.7.2	pathology_file	id	1.9.1
+pdx	pdx_id	1.7.2	pdx	pdx_id	1.9.1
+pdx	model_id	1.7.2	pdx	model_id	1.9.1
+pdx	mouse_strain	1.7.2	pdx	mouse_strain	1.9.1
+pdx	sample_type_for_implantation	1.7.2	pdx	sample_type_for_implantation	1.9.1
+pdx	implantation_type	1.7.2	pdx	implantation_type	1.9.1
+pdx	implantation_site	1.7.2	pdx	implantation_site	1.9.1
+pdx	tumor_confirmed_not_to_be_mus_or_ebv_origin	1.7.2	pdx	tumor_confirmed_not_to_be_mus_or_ebv_origin	1.9.1
+pdx	is_tumor_from_untreated_patient	1.7.2	pdx	is_tumor_from_untreated_patient	1.9.1
+pdx	passage_number	1.7.2	pdx	passage_number	1.9.1
+pdx	passages_tested	1.7.2	pdx	passages_tested	1.9.1
+pdx	validation_technique	1.7.2	pdx	validation_technique	1.9.1
+pdx	id	1.7.2	pdx	id	1.9.1
+publication	publication_id	1.7.2	publication	publication_id	1.9.1
+publication	pubmed_id	1.7.2	publication	pubmed_id	1.9.1
+publication	id	1.7.2	publication	id	1.9.1
+radiology_file	radiology_file_id	1.7.2	radiology_file	radiology_file_id	1.9.1
+radiology_file	file_name	1.7.2	radiology_file	file_name	1.9.1
+radiology_file	file_type	1.7.2	radiology_file	file_type	1.9.1
+radiology_file	file_description	1.7.2	radiology_file	file_description	1.9.1
+radiology_file	file_size	1.7.2	radiology_file	file_size	1.9.1
+radiology_file	md5sum	1.7.2	radiology_file	md5sum	1.9.1
+radiology_file	file_url_in_cds	1.7.2	radiology_file	file_url	1.9.1
+radiology_file	dcf_indexd_guid	1.7.2	radiology_file	dcf_indexd_guid	1.9.1
+radiology_file	anatomic_site	1.7.2	radiology_file	anatomic_site	1.9.1
+radiology_file	participant_age_at_imaging	1.7.2	radiology_file	participant_age_at_imaging	1.9.1
+radiology_file	image_modality	1.7.2	radiology_file	image_modality	1.9.1
+radiology_file	deidentification_method	1.7.2	radiology_file	deidentification_method	1.9.1
+radiology_file	magnetic_field_strength	1.7.2	radiology_file	magnetic_field_strength	1.9.1
+radiology_file	scanner_manufacturer	1.7.2	radiology_file	scanner_manufacturer	1.9.1
+radiology_file	scanner_model	1.7.2	radiology_file	scanner_model	1.9.1
+radiology_file	imaging_frequency	1.7.2	radiology_file	imaging_frequency	1.9.1
+radiology_file	repetition_time	1.7.2	radiology_file	repetition_time	1.9.1
+radiology_file	echo_time	1.7.2	radiology_file	echo_time	1.9.1
+radiology_file	inversion_time	1.7.2	radiology_file	inversion_time	1.9.1
+radiology_file	flip_angle	1.7.2	radiology_file	flip_angle	1.9.1
+radiology_file	pixel_spacing	1.7.2	radiology_file	pixel_spacing	1.9.1
+radiology_file	slice_thickness	1.7.2	radiology_file	slice_thickness	1.9.1
+radiology_file	echoPulseSequenceCategoryCode	1.7.2	radiology_file	echoPulseSequenceCategoryCode	1.9.1
+radiology_file	diffusionBValue	1.7.2	radiology_file	diffusionBValue	1.9.1
+radiology_file	diffusionDirectionalityCode	1.7.2	radiology_file	diffusionDirectionalityCode	1.9.1
+radiology_file	resonantNucleusCode	1.7.2	radiology_file	resonantNucleusCode	1.9.1
+radiology_file	acquisitionContrastCode	1.7.2	radiology_file	acquisitionContrastCode	1.9.1
+radiology_file	inversionRecoveryIndicator	1.7.2	radiology_file	inversionRecoveryIndicator	1.9.1
+radiology_file	pulseSequenceName	1.7.2	radiology_file	pulseSequenceName	1.9.1
+radiology_file	multipleSpinEchoIndicator	1.7.2	radiology_file	multipleSpinEchoIndicator	1.9.1
+radiology_file	phaseContrastIndicator	1.7.2	radiology_file	phaseContrastIndicator	1.9.1
+radiology_file	timeOfFlightContrastIndicator	1.7.2	radiology_file	timeOfFlightContrastIndicator	1.9.1
+radiology_file	arterialSpinLabelingContrastCode	1.7.2	radiology_file	arterialSpinLabelingContrastCode	1.9.1
+radiology_file	steadyStatePulseSequenceCode	1.7.2	radiology_file	steadyStatePulseSequenceCode	1.9.1
+radiology_file	echoPlanarPulseSequenceIndicator	1.7.2	radiology_file	echoPlanarPulseSequenceIndicator	1.9.1
+radiology_file	saturationRecoveryIndicator	1.7.2	radiology_file	saturationRecoveryIndicator	1.9.1
+radiology_file	spectrallySelectedSuppressionCode	1.7.2	radiology_file	spectrallySelectedSuppressionCode	1.9.1
+radiology_file	mrImageReconstructionProtocolElement	1.7.2	radiology_file	mrImageReconstructionProtocolElement	1.9.1
+radiology_file	complexImageComponentCode	1.7.2	radiology_file	complexImageComponentCode	1.9.1
+radiology_file	file_mapping_level	1.7.2	radiology_file	file_mapping_level	1.9.1
+radiology_file	id	1.7.2	radiology_file	id	1.9.1
+sample	sample_id	1.7.2	sample	sample_id	1.9.1
+sample	anatomic_site	1.7.2	sample	anatomic_site	1.9.1
+sample	participant_age_at_collection	1.7.2	sample	participant_age_at_collection	1.9.1
+sample	diagnosis_classification	1.7.2	diagnosis	diagnosis	1.9.1
+sample	diagnosis_classification_system	1.7.2	diagnosis	diagnosis_classification_system	1.9.1
+sample	diagnosis_verification_status	1.7.2			1.9.1
+sample	diagnosis_basis	1.7.2	diagnosis	diagnosis_basis	1.9.1
+sample	diagnosis_comment	1.7.2	diagnosis	diagnosis_comment	1.9.1
+sample	sample_tumor_status	1.7.2	sample	sample_tumor_status	1.9.1
+sample	tumor_classification	1.7.2	sample	tumor_classification	1.9.1
+sample	sample_description	1.7.2	sample	sample_description	1.9.1
+sample	alternate_sample_id	1.7.2	synonym	synonym_id	1.9.1
+sample	last_known_disease_status	1.7.2	diagnosis	last_known_disease_status	1.9.1
+sample	age_at_last_known_disease_status	1.7.2	diagnosis	age_at_last_known_disease_status	1.9.1
+sample	toronto_childhood_cancer_staging	1.7.2	diagnosis	toronto_childhood_cancer_staging	1.9.1
+sample	tumor_grade	1.7.2	diagnosis	tumor_grade	1.9.1
+sample	tumor_stage_clinical_t	1.7.2	diagnosis	tumor_stage_clinical_t	1.9.1
+sample	tumor_stage_clinical_n	1.7.2	diagnosis	tumor_stage_clinical_n	1.9.1
+sample	tumor_stage_clinical_m	1.7.2	diagnosis	tumor_stage_clinical_m	1.9.1
+sample	id	1.7.2	sample	id	1.9.1
+single_cell_sequencing_file	single_cell_sequencing_file_id	1.7.2	sequencing_file	sequencing_file_id	1.9.1
+single_cell_sequencing_file	file_name	1.7.2	sequencing_file	file_name	1.9.1
+single_cell_sequencing_file	file_type	1.7.2	sequencing_file	file_type	1.9.1
+single_cell_sequencing_file	file_description	1.7.2	sequencing_file	file_description	1.9.1
+single_cell_sequencing_file	file_size	1.7.2	sequencing_file	file_size	1.9.1
+single_cell_sequencing_file	md5sum	1.7.2	sequencing_file	md5sum	1.9.1
+single_cell_sequencing_file	file_url_in_cds	1.7.2	sequencing_file	file_url	1.9.1
+single_cell_sequencing_file	dcf_indexd_guid	1.7.2	sequencing_file	dcf_indexd_guid	1.9.1
+single_cell_sequencing_file	library_id	1.7.2	sequencing_file	library_id	1.9.1
+single_cell_sequencing_file	library_selection	1.7.2	sequencing_file	library_selection	1.9.1
+single_cell_sequencing_file	library_strategy	1.7.2	sequencing_file	library_strategy	1.9.1
+single_cell_sequencing_file	library_layout	1.7.2	sequencing_file	library_layout	1.9.1
+single_cell_sequencing_file	library_source	1.7.2	sequencing_file	library_source_molecule	1.9.1
+single_cell_sequencing_file	number_of_bp	1.7.2	sequencing_file	number_of_bp	1.9.1
+single_cell_sequencing_file	number_of_reads	1.7.2	sequencing_file	number_of_reads	1.9.1
+single_cell_sequencing_file	design_description	1.7.2	sequencing_file	design_description	1.9.1
+single_cell_sequencing_file	platform	1.7.2	sequencing_file	platform	1.9.1
+single_cell_sequencing_file	instrument_model	1.7.2	sequencing_file	instrument_model	1.9.1
+single_cell_sequencing_file	avg_read_length	1.7.2	sequencing_file	avg_read_length	1.9.1
+single_cell_sequencing_file	coverage	1.7.2	sequencing_file	coverage	1.9.1
+single_cell_sequencing_file	reference_genome_assembly	1.7.2	sequencing_file	reference_genome_assembly	1.9.1
+single_cell_sequencing_file	checksum_algorithm	1.7.2	sequencing_file	checksum_algorithm	1.9.1
+single_cell_sequencing_file	checksum_value	1.7.2	sequencing_file	checksum_value	1.9.1
+single_cell_sequencing_file	custom_assembly_fasta_file_for_alignment	1.7.2	sequencing_file	custom_assembly_fasta_file_for_alignment	1.9.1
+single_cell_sequencing_file	file_mapping_level	1.7.2	sequencing_file	file_mapping_level	1.9.1
+single_cell_sequencing_file	sequence_alignment_software	1.7.2	sequencing_file	sequence_alignment_software	1.9.1
+single_cell_sequencing_file	cDNA_read	1.7.2	sequencing_file	cDNA_read	1.9.1
+single_cell_sequencing_file	cDNA_read_size	1.7.2	sequencing_file	cDNA_read_size	1.9.1
+single_cell_sequencing_file	cDNA_read_offset	1.7.2	sequencing_file	cDNA_read_offset	1.9.1
+single_cell_sequencing_file	cell_barcode_offset	1.7.2	sequencing_file	cell_barcode_offset	1.9.1
+single_cell_sequencing_file	cell_barcode_read	1.7.2	sequencing_file	cell_barcode_read	1.9.1
+single_cell_sequencing_file	cell_barcode_size	1.7.2	sequencing_file	cell_barcode_size	1.9.1
+single_cell_sequencing_file	single_cell_entity	1.7.2	sequencing_file	single_cell_entity	1.9.1
+single_cell_sequencing_file	dissociation_method	1.7.2	sequencing_file	dissociation_method	1.9.1
+single_cell_sequencing_file	end_bias	1.7.2	sequencing_file	end_bias	1.9.1
+single_cell_sequencing_file	total_number_of_input_cells	1.7.2	sequencing_file	total_number_of_input_cells	1.9.1
+single_cell_sequencing_file	library_construction_method	1.7.2	sequencing_file	library_construction_method	1.9.1
+single_cell_sequencing_file	library_strand	1.7.2	sequencing_file	library_strand	1.9.1
+single_cell_sequencing_file	protocols_link	1.7.2	sequencing_file	protocols_link	1.9.1
+single_cell_sequencing_file	reverse_transcription_primer	1.7.2	sequencing_file	reverse_transcription_primer	1.9.1
+single_cell_sequencing_file	spike_in	1.7.2	sequencing_file	spike_in	1.9.1
+single_cell_sequencing_file	UMI_barcode_offset	1.7.2	sequencing_file	UMI_barcode_offset	1.9.1
+single_cell_sequencing_file	UMI_barcode_read	1.7.2	sequencing_file	UMI_barcode_read	1.9.1
+single_cell_sequencing_file	UMI_barcode_size	1.7.2	sequencing_file	UMI_barcode_size	1.9.1
+single_cell_sequencing_file	id	1.7.2	sequencing_file	id	1.9.1
+sequencing_file	sequencing_file_id	1.7.2	sequencing_file	sequencing_file_id	1.9.1
+sequencing_file	file_name	1.7.2	sequencing_file	file_name	1.9.1
+sequencing_file	file_type	1.7.2	sequencing_file	file_type	1.9.1
+sequencing_file	file_description	1.7.2	sequencing_file	file_description	1.9.1
+sequencing_file	file_size	1.7.2	sequencing_file	file_size	1.9.1
+sequencing_file	md5sum	1.7.2	sequencing_file	md5sum	1.9.1
+sequencing_file	file_url_in_cds	1.7.2	sequencing_file	file_url	1.9.1
+sequencing_file	dcf_indexd_guid	1.7.2	sequencing_file	dcf_indexd_guid	1.9.1
+sequencing_file	library_id	1.7.2	sequencing_file	library_id	1.9.1
+sequencing_file	library_selection	1.7.2	sequencing_file	library_selection	1.9.1
+sequencing_file	library_strategy	1.7.2	sequencing_file	library_strategy	1.9.1
+sequencing_file	library_layout	1.7.2	sequencing_file	library_layout	1.9.1
+sequencing_file	library_source	1.7.2	sequencing_file	library_source_molecule	1.9.1
+sequencing_file	number_of_bp	1.7.2	sequencing_file	number_of_bp	1.9.1
+sequencing_file	number_of_reads	1.7.2	sequencing_file	number_of_reads	1.9.1
+sequencing_file	design_description	1.7.2	sequencing_file	design_description	1.9.1
+sequencing_file	platform	1.7.2	sequencing_file	platform	1.9.1
+sequencing_file	instrument_model	1.7.2	sequencing_file	instrument_model	1.9.1
+sequencing_file	avg_read_length	1.7.2	sequencing_file	avg_read_length	1.9.1
+sequencing_file	coverage	1.7.2	sequencing_file	coverage	1.9.1
+sequencing_file	reference_genome_assembly	1.7.2	sequencing_file	reference_genome_assembly	1.9.1
+sequencing_file	checksum_algorithm	1.7.2	sequencing_file	checksum_algorithm	1.9.1
+sequencing_file	checksum_value	1.7.2	sequencing_file	checksum_value	1.9.1
+sequencing_file	custom_assembly_fasta_file_for_alignment	1.7.2	sequencing_file	custom_assembly_fasta_file_for_alignment	1.9.1
+sequencing_file	file_mapping_level	1.7.2	sequencing_file	file_mapping_level	1.9.1
+sequencing_file	sequence_alignment_software	1.7.2	sequencing_file	sequence_alignment_software	1.9.1
+sequencing_file	id	1.7.2	sequencing_file	id	1.9.1
+study	study_id	1.7.2	study	study_id	1.9.1
+study	phs_accession	1.7.2	study	dbgap_accession	1.9.1
+study	acl	1.7.2	clinical_measure_file	acl	1.9.1
+study	acl	1.7.2	cytogenomic_file	acl	1.9.1
+study	acl	1.7.2	methylation_array_file	acl	1.9.1
+study	acl	1.7.2	pathology_file	acl	1.9.1
+study	acl	1.7.2	radiology_file	acl	1.9.1
+study	acl	1.7.2	sequencing_file	acl	1.9.1
+study	study_name	1.7.2	study	study_name	1.9.1
+study	study_short_title	1.7.2			1.9.1
+study	study_acronym	1.7.2	study	study_acronym	1.9.1
+study	study_description	1.7.2	study	study_description	1.9.1
+study	consent	1.7.2	study	consent	1.9.1
+study	consent_number	1.7.2	study	consent_number	1.9.1
+study	external_url	1.7.2	study	external_url	1.9.1
+study	experimental_strategy_and_data_subtype	1.7.2	study	experimental_strategy_and_data_subtype	1.9.1
+study	study_data_types	1.7.2	study	study_data_types	1.9.1
+study	size_of_data_being_uploaded	1.7.2	study	size_of_data_being_uploaded	1.9.1
+study	id	1.7.2	study	id	1.9.1
+study_admin	study_admin_id	1.7.2	study_admin	study_admin_id	1.9.1
+study_admin	organism_species	1.7.2	study_admin	organism_species	1.9.1
+study_admin	adult_or_childhood_study	1.7.2	study_admin	adult_or_childhood_study	1.9.1
+study_admin	data_types	1.7.2	study_admin	data_types	1.9.1
+study_admin	file_types_and_format	1.7.2	study_admin	file_types_and_format	1.9.1
+study_admin	number_of_participants	1.7.2	study_admin	number_of_participants	1.9.1
+study_admin	number_of_samples	1.7.2	study_admin	number_of_samples	1.9.1
+study_admin	id	1.7.2	study_admin	id	1.9.1
+study_arm	study_arm_id	1.7.2	study_arm	study_arm_id	1.9.1
+study_arm	clinical_trial_arm	1.7.2			1.9.1
+study_arm	clinical_trial_identifier	1.7.2	study_arm	clinical_trial_identifier	1.9.1
+study_arm	clinical_trial_repository	1.7.2	study_arm	clinical_trial_repository	1.9.1
+study_arm	id	1.7.2	study_arm	id	1.9.1
+study_funding	study_funding_id	1.7.2	study_funding	study_funding_id	1.9.1
+study_funding	funding_agency	1.7.2	study_funding	funding_agency	1.9.1
+study_funding	grant_id	1.7.2	study_funding	grant_id	1.9.1
+study_funding	funding_source_program_name	1.7.2	study_funding	funding_source_program_name	1.9.1
+study_funding	id	1.7.2	study_funding	id	1.9.1
+study_personnel	study_personnel_id	1.7.2	study_personnel	study_personnel_id	1.9.1
+study_personnel	personnel_name	1.7.2	study_personnel	personnel_name	1.9.1
+study_personnel	personnel_type	1.7.2	study_personnel	personnel_type	1.9.1
+study_personnel	email_address	1.7.2	study_personnel	email_address	1.9.1
+study_personnel	institution	1.7.2	study_personnel	institution	1.9.1
+study_personnel	id	1.7.2	study_personnel	id	1.9.1
+synonym	synonym_id	1.7.2	synonym	synonym_id	1.9.1
+synonym	repository_of_synonym_id	1.7.2	synonym	repository_of_synonym_id	1.9.1
+synonym	id	1.7.2	synonym	id	1.9.1
+therapeutic_procedure	therapeutic_procedure_id	1.7.2	treatment	treatment_id	1.9.1
+therapeutic_procedure	age_at_treatment_start	1.7.2	treatment	age_at_treatment_start	1.9.1
+therapeutic_procedure	age_at_treatment_end	1.7.2	treatment	age_at_treatment_end	1.9.1
+therapeutic_procedure	treatment_outcome	1.7.2			1.9.1
+therapeutic_procedure	treatment_type	1.7.2	treatment	treatment_type	1.9.1
+therapeutic_procedure	therapeutic_agent	1.7.2	treatment	treatment_agent	1.9.1
+therapeutic_procedure	id	1.7.2	treatment	id	1.9.1
+		1.7.2	clinical_measure_file	file_access	1.9.1
+		1.7.2	clinical_measure_file	authz	1.9.1
+		1.7.2	cytogenomic_file	file_access	1.9.1
+		1.7.2	cytogenomic_file	authz	1.9.1
+		1.7.2	diagnosis	tumor_stage_source	1.9.1
+		1.7.2	diagnosis	tumor_grade_source	1.9.1
+		1.7.2	methylation_array_file	file_access	1.9.1
+		1.7.2	methylation_array_file	authz	1.9.1
+		1.7.2	pathology_file	file_access	1.9.1
+		1.7.2	pathology_file	authz	1.9.1
+		1.7.2	radiology_file	file_access	1.9.1
+		1.7.2	radiology_file	authz	1.9.1
+		1.7.2	sequencing_file	file_access	1.9.1
+		1.7.2	sequencing_file	authz	1.9.1
+		1.7.2	sequencing_file	library_source_material	1.9.1
+		1.7.2	study_arm	study_arm_description	1.9.1
+		1.7.2	survival	first_event	1.9.1
+		1.7.2	survival	event_free_survival_status	1.9.1
+		1.7.2	survival	age_at_event_free_survival_status	1.9.1
+		1.7.2	survival	cause_of_death	1.9.1
+		1.7.2	treatment_response	treatment_response_id	1.9.1
+		1.7.2	treatment_response	age_at_response	1.9.1
+		1.7.2	treatment_response	response_category	1.9.1
+		1.7.2	treatment_response	response_system	1.9.1
+		1.7.2	treatment_response	id	1.9.1
+cell_line	sample.sample_id	1.7.2	cell_line	sample.sample_id	1.9.1
+cell_line	participant.participant_id	1.7.2			1.9.1
+cell_line	study.study_id	1.7.2	cell_line	study.study_id	1.9.1
+clinical_measure_file	participant.participant_id	1.7.2	clinical_measure_file	participant.participant_id	1.9.1
+clinical_measure_file	study.study_id	1.7.2	clinical_measure_file	study.study_id	1.9.1
+cytogenomic_file	cell_line.cell_line_id	1.7.2			1.9.1
+cytogenomic_file	pdx.pdx_id	1.7.2			1.9.1
+cytogenomic_file	sample.sample_id	1.7.2	cytogenomic_file	sample.sample_id	1.9.1
+diagnosis	participant.participant_id	1.7.2	diagnosis	participant.participant_id	1.9.1
+exposure	participant.participant_id	1.7.2	exposure	participant.participant_id	1.9.1
+family_relationship	participant.participant_id	1.7.2	family_relationship	participant.participant_id	1.9.1
+follow_up	participant.participant_id	1.7.2	survival	participant.participant_id	1.9.1
+pathology_file	cell_line.cell_line_id	1.7.2			1.9.1
+pathology_file	pdx.pdx_id	1.7.2			1.9.1
+pathology_file	sample.sample_id	1.7.2	pathology_file	sample.sample_id	1.9.1
+medical_history	participant.participant_id	1.7.2	medical_history	participant.participant_id	1.9.1
+methylation_array_file	cell_line.cell_line_id	1.7.2			1.9.1
+methylation_array_file	pdx.pdx_id	1.7.2			1.9.1
+methylation_array_file	sample.sample_id	1.7.2	methylation_array_file	sample.sample_id	1.9.1
+molecular_test	participant.participant_id	1.7.2	molecular_test	participant.participant_id	1.9.1
+participant	study.study_id	1.7.2	participant	study.study_id	1.9.1
+pdx	sample.sample_id	1.7.2	pdx	sample.sample_id	1.9.1
+pdx	study.study_id	1.7.2	pdx	study.study_id	1.9.1
+publication	study.study_id	1.7.2	publication	study.study_id	1.9.1
+radiology_file	participant.participant_id	1.7.2	radiology_file	participant.participant_id	1.9.1
+sample	pdx.pdx_id	1.7.2	sample	pdx.pdx_id	1.9.1
+sample	cell_line.cell_line_id	1.7.2	sample	cell_line.cell_line_id	1.9.1
+sample	participant.participant_id	1.7.2	sample	participant.participant_id	1.9.1
+sequencing_file	cell_line.cell_line_id	1.7.2			1.9.1
+sequencing_file	pdx.pdx_id	1.7.2			1.9.1
+sequencing_file	sample.sample_id	1.7.2	sequencing_file	sample.sample_id	1.9.1
+single_cell_sequencing_file	cell_line.cell_line_id	1.7.2			1.9.1
+single_cell_sequencing_file	pdx.pdx_id	1.7.2			1.9.1
+single_cell_sequencing_file	sample.sample_id	1.7.2	sequencing_file	sample.sample_id	1.9.1
+study_admin	study.study_id	1.7.2	study_admin	study.study_id	1.9.1
+study_arm	study.study_id	1.7.2	study_arm	study.study_id	1.9.1
+study_funding	study.study_id	1.7.2	study_funding	study.study_id	1.9.1
+study_personnel	study.study_id	1.7.2	study_personnel	study.study_id	1.9.1
+therapeutic_procedure	participant.participant_id	1.7.2	treatment	participant.participant_id	1.9.1
+synonym	sample.sample_id	1.7.2	synonym	sample.sample_id	1.9.1
+synonym	participant.participant_id	1.7.2	synonym	participant.participant_id	1.9.1
+synonym	study.study_id	1.7.2	synonym	study.study_id	1.9.1
+sample	sample_id	1.7.2	diagnosis	sample.sample_id	1.9.1
+follow_up	participant.participant_id	1.7.2	treatment_response	participant.participant_id	1.9.1

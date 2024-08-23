@@ -5560,6 +5560,8 @@ PropDefinitions:
         - "Intensity-Modulated Radiation Therapy"
         - "Low-Dose Rate Brachytherapy"
         - "Not Reported"
+        - "Organ Transplantation"
+        - "Palliative Care"
         - "Pharmacotherapy"
         - "Proton Beam Radiation Therapy"
         - "Radiation Therapy, NOS"

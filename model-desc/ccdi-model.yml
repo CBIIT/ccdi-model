@@ -220,6 +220,7 @@ Nodes:
       - race       
       - sex_at_birth
       - id
+      - crdc_id
       # - dbgap_subject_id : store in synonym
   pathology_file: 
     Desc: "The pathology file node is comprised of properties which describe file metadata about the pathology image files."
@@ -348,6 +349,7 @@ Nodes:
       - tumor_classification
       - sample_description
       - id
+      - crdc_id
   sequencing_file: 
     Desc: "The sequencing file node is comprised of properties which describe file metadata for the sequencing file."
     Tags:
@@ -425,6 +427,7 @@ Nodes:
       - study_data_types
       - size_of_data_being_uploaded
       - id
+      - crdc_id
       # - bioproject_accession : store in synonym
   study_admin:
     Desc: "The study admin node is comprised of properties which describe the general structure of the study."
@@ -442,6 +445,7 @@ Nodes:
       - number_of_participants
       - number_of_samples
       - id
+      - crdc_id
   study_arm: 
     Desc: "The study arm node is comprised of properties which describe the arms that are present in the study."
     Tags:

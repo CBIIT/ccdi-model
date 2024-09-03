@@ -481,6 +481,7 @@ Nodes:
       - personnel_type #enum: PI, Co-PI, Data Submitter, etc
       - email_address
       - institution
+      - orcid
       - id
   survival:
     Desc: "The survival node is comprised of properties which describe metadata related to vital status and medical events at timepoints for a participant."

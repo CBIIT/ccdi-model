@@ -5468,7 +5468,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false        
-  # study_personnel
+  #study_personnel
   study_personnel_id:
     Desc: A sequence of characters used to uniquely identify, name, or characterize the person who performs a particular role within the context of a specific study.
     Term:
@@ -5480,7 +5480,7 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  # study_personnel
+  #study_personnel
   personnel_name:
     Desc: A formatted means of uniquely identifying an individual derived from multiple naming elements.
     Term:
@@ -5491,7 +5491,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  # study_personnel
+  #study_personnel
   personnel_type:
     Desc: The role of personnel in the study.
     Term:
@@ -5509,7 +5509,7 @@ PropDefinitions:
     Req: true
     Strict: false
     Private: false
-  # study_personnel
+  #study_personnel
   email_address:
     Desc: The string of characters that represents the electronic mail address of a person.
     Term:
@@ -5520,7 +5520,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  # study_personnel
+  #study_personnel
   institution:
     Desc: A sequence of characters used to identify, name, or characterize the laboratory, institute, or consortium that provided the information.
     Term:
@@ -5528,6 +5528,17 @@ PropDefinitions:
         Code: '12662779'
         Value: Data Source Organizational Unit Identifier
         Version: "null"
+    Type: string
+    Req: true
+    Private: false
+  #study_personnel
+  orcid:
+    Desc: A persistent unique digital identifier assigned to a person by the Open Researcher and Contributor ID (ORCID) organization.
+    Term:
+      - Origin: caDSR
+        Code: '10624734'
+        Value: Person ORCID Text
+        Version: "2.00"
     Type: string
     Req: true
     Private: false

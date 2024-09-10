@@ -5664,8 +5664,8 @@ PropDefinitions:
     Desc: Numeric value to represent the percentage of cell death in a malignant tumor sample or specimen.
     Term:
       - Origin: caDSR
-        Code: '2841237'
-        Value: Malignant Neoplasm Necrosis Percentage Value
+        Code: '13368719'
+        Value: Disease Response Percent Necrosis Percentage Value
         Version: "null"
     Type: integer
     Req: false

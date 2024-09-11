@@ -445,7 +445,6 @@ Nodes:
       - number_of_participants
       - number_of_samples
       - id
-      - crdc_id
   study_arm: 
     Desc: "The study arm node is comprised of properties which describe the arms that are present in the study."
     Tags:

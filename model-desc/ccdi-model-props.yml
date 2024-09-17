@@ -3876,56 +3876,6 @@ PropDefinitions:
     Req: false
     Strict: false
     Private: false
-  #diagnosis
-  age_at_recurrence:
-    Desc: The age (in days) of the subject at the time of recurrence.
-    Term:
-      - Origin: caDSR
-        Code: '14483684'
-        Value: Subject Age at Recurrence Day Count
-        Version: "null"
-    Type: integer
-    Req: false
-    Private: false     
-   #diagnosis, sample
-  last_known_disease_status:
-    Desc: The most recently documented condition or state of an individual's disease.
-    Term:
-      - Origin: caDSR
-        Code: '12447172'
-        Value: Subject Last Known Disease Status
-        Version: "null"
-    Type:
-      value_type: string
-      Enum:
-        - "Biochemical evidence of disease without structural correlate"
-        - "Distant Metastasis"
-        - "Localized Disease"
-        - "New Tumor Event"
-        - "Not Allowed To Collect"
-        - "Not Applicable"
-        - "Not Reported"
-        - "Regional Disease"
-        - "Tumor Free"
-        - "Unknown"
-        - "With Tumor"
-    Req: false
-    Strict: true
-    Private: false     
-  #diagnosis, sample
-  age_at_last_known_disease_status:
-    Desc: Subject Age at Last Known Disease Status Day Count
-    Term:
-      - Origin: caDSR
-        Code: '14589579'
-        Value: The age (in days) of subject at the time of their last known disease status.
-        Version: "null"
-    Type: integer
-    Req: false
-    Private: false  
-  # tissue_or_organ_of_origin: CCDIDC-360    
-  # progression_or_recurrence:    CCDIDC-360
-  # site_of_resection_or_biopsy:     CCDIDC-360
   #sequencing_file, imaging_file, clinical_measure_file
   file_name:
     Desc: The literal label for an electronic data file.

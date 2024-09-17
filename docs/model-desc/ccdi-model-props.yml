@@ -4020,7 +4020,7 @@ PropDefinitions:
     Private: false
   #file
   acl:
-    Desc: A free text field used to document whether the data in a repository is open access or controlled access. If access to the data are unrestricted, the acl field should be listed [“*”]. Controlled access should be denoted as a comma delimited list of phs accession numbers, for example, [“phs000123”] or [“phs000123”,”phs000124”].
+    Desc: A free text field used to document whether the data in a repository is open access or controlled access. If access to the data are unrestricted, the acl field should be listed [“*]. Controlled access should be denoted as a comma delimited list of phs accession numbers, for example, [“phs000123] or [“phs000123,phs000124].
     Term:
       - Origin: caDSR
         Code: '11555664'
@@ -5505,10 +5505,12 @@ PropDefinitions:
         - "3-Dimensional Conformal Radiation Therapy"
         - "Allogeneic Hematopoietic Stem Cell Transplantation"
         - "Autologous Stem Cell Transplantation"
+        - "Brachytherapy"
         - "Cellular Therapy"
         - "Chemotherapy"
         - "Concurrent Chemoradiation"
         - "Conventional Radiotherapy"
+        - "Electron Beam Radiation Therapy"
         - "External Beam Radiation Therapy"
         - "High-Dose Rate Brachytherapy"
         - "Hormone Therapy"
@@ -5519,6 +5521,7 @@ PropDefinitions:
         - "Organ Transplantation"
         - "Palliative Care"
         - "Pharmacotherapy"
+        - "Photon Beam Radiation Therapy"
         - "Proton Beam Radiation Therapy"
         - "Radiation Therapy"
         - "Radiofrequency Ablation"

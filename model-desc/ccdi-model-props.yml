@@ -3596,8 +3596,8 @@ PropDefinitions:
         Code: 'C42673'
         Value: Definition Source
         Version: "null"
-      - Origin: NCIt
-        Code: 'C91220'
+      - Origin: caDSR
+        Code: '15026558'
         Value: French-American-British Classification
       - Origin: NCIt
         Code: 'C159157'
@@ -3652,13 +3652,9 @@ PropDefinitions:
     Desc: Age at the time of diagnosis expressed in number of days since birth.
     Term:
       - Origin: caDSR
-        Code: '10609539'
-        Value: Subject Age at Diagnosis Integer
-        Version: "null"
-      - Origin: NCIt
-        Code: 'C156420'
-        Value: Age at Diagnosis 
-        Version: "null"
+        Code: '15019300'
+        Value: Subject Age at Diagnosis Day Count
+        Version: "1.00"
     Type: integer
     Req: true
     Private: false
@@ -3880,56 +3876,6 @@ PropDefinitions:
     Req: false
     Strict: false
     Private: false
-  #diagnosis
-  age_at_recurrence:
-    Desc: The age (in days) of the subject at the time of recurrence.
-    Term:
-      - Origin: caDSR
-        Code: '14483684'
-        Value: Subject Age at Recurrence Day Count
-        Version: "null"
-    Type: integer
-    Req: false
-    Private: false     
-   #diagnosis, sample
-  last_known_disease_status:
-    Desc: The most recently documented condition or state of an individual's disease.
-    Term:
-      - Origin: caDSR
-        Code: '12447172'
-        Value: Subject Last Known Disease Status
-        Version: "null"
-    Type:
-      value_type: string
-      Enum:
-        - "Biochemical evidence of disease without structural correlate"
-        - "Distant Metastasis"
-        - "Localized Disease"
-        - "New Tumor Event"
-        - "Not Allowed To Collect"
-        - "Not Applicable"
-        - "Not Reported"
-        - "Regional Disease"
-        - "Tumor Free"
-        - "Unknown"
-        - "With Tumor"
-    Req: false
-    Strict: true
-    Private: false     
-  #diagnosis, sample
-  age_at_last_known_disease_status:
-    Desc: Subject Age at Last Known Disease Status Day Count
-    Term:
-      - Origin: caDSR
-        Code: '14589579'
-        Value: The age (in days) of subject at the time of their last known disease status.
-        Version: "null"
-    Type: integer
-    Req: false
-    Private: false  
-  # tissue_or_organ_of_origin: CCDIDC-360    
-  # progression_or_recurrence:    CCDIDC-360
-  # site_of_resection_or_biopsy:     CCDIDC-360
   #sequencing_file, imaging_file, clinical_measure_file
   file_name:
     Desc: The literal label for an electronic data file.
@@ -4224,14 +4170,13 @@ PropDefinitions:
       - Origin: caDSR
         Code: '7572817'
         Value: Person Sex at Birth Category
-        Version: "null"
+        Version: "2.0"
     Type:
       value_type: string
       Enum:
         - "Female"
         - "Intersex"
         - "Male"
-        - "X"
         - "Not Reported"
         - "Unknown"
         - "Don't Know"
@@ -5472,7 +5417,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false        
-  # study_personnel
+  #study_personnel
   study_personnel_id:
     Desc: A sequence of characters used to uniquely identify, name, or characterize the person who performs a particular role within the context of a specific study.
     Term:
@@ -5484,7 +5429,7 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  # study_personnel
+  #study_personnel
   personnel_name:
     Desc: A formatted means of uniquely identifying an individual derived from multiple naming elements.
     Term:
@@ -5495,7 +5440,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  # study_personnel
+  #study_personnel
   personnel_type:
     Desc: The role of personnel in the study.
     Term:
@@ -5513,7 +5458,7 @@ PropDefinitions:
     Req: true
     Strict: false
     Private: false
-  # study_personnel
+  #study_personnel
   email_address:
     Desc: The string of characters that represents the electronic mail address of a person.
     Term:
@@ -5524,7 +5469,7 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-  # study_personnel
+  #study_personnel
   institution:
     Desc: A sequence of characters used to identify, name, or characterize the laboratory, institute, or consortium that provided the information.
     Term:
@@ -5532,6 +5477,17 @@ PropDefinitions:
         Code: '12662779'
         Value: Data Source Organizational Unit Identifier
         Version: "null"
+    Type: string
+    Req: true
+    Private: false
+  #study_personnel
+  orcid:
+    Desc: A persistent unique digital identifier assigned to a person by the Open Researcher and Contributor ID (ORCID) organization.
+    Term:
+      - Origin: caDSR
+        Code: '10624734'
+        Value: Person ORCID Text
+        Version: "2.00"
     Type: string
     Req: true
     Private: false
@@ -5660,8 +5616,8 @@ PropDefinitions:
     Desc: Numeric value to represent the percentage of cell death in a malignant tumor sample or specimen.
     Term:
       - Origin: caDSR
-        Code: '2841237'
-        Value: Malignant Neoplasm Necrosis Percentage Value
+        Code: '13368719'
+        Value: Disease Response Percent Necrosis Percentage Value
         Version: "null"
     Type: integer
     Req: false
@@ -12038,3 +11994,18 @@ PropDefinitions:
     Req: true
     Strict: false
     Private: false
+  crdc_id:
+    Desc: The crdc_id is a unique identifier that is generated by Data Hub
+    Type: string
+    Template: 'No'      
+    Term:
+      - Origin: caDSR
+        Code: '14534325'
+        Value: CCDI Property Unique Identifier
+        Version: "1.00"
+    Req: false
+    Strict: false
+    Private: false
+
+
+

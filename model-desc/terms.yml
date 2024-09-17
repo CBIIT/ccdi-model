@@ -1800,6 +1800,12 @@ Terms:
     Code: '2581318'
     Version: '1'
     Value: Frameshift Mutation
+  French-American-British Classification:
+    Origin: caDSR
+    Definition: The type of acute myeloid leukemia, acute lymphoblastic leukemia, or myelodysplastic syndrome as captured by the French-American-British Classification system.
+    Code: '15026558'
+    Version: '1'
+    Value: Diagnosis Disease FAB Classification System Type
   Fresh:
     Origin: caDSR
     Definition: Not previously used.

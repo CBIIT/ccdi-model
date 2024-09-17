@@ -1315,14 +1315,6 @@ Terms:
     Version: '1'
     Value: Last Communication Contact Less Initial Pathologic Diagnosis Date Calculated
       Day Value
-  days_to_last_known_disease_status:
-    Origin: caDSR
-    Definition: Time interval from the date of last followup to the date of initial
-      pathologic diagnosis, represented as a calculated number of days.
-    Code: '3008273'
-    Version: '1'
-    Value: Last Communication Contact Less Initial Pathologic Diagnosis Date Calculated
-      Day Value
   days_to_recurrence:
     Origin: caDSR
     Definition: Number of days between the date used for index and the date the patient's
@@ -1800,6 +1792,12 @@ Terms:
     Code: '2581318'
     Version: '1'
     Value: Frameshift Mutation
+  French-American-British Classification:
+    Origin: caDSR
+    Definition: The type of acute myeloid leukemia, acute lymphoblastic leukemia, or myelodysplastic syndrome as captured by the French-American-British Classification system.
+    Code: '15026558'
+    Version: '1'
+    Value: Diagnosis Disease FAB Classification System Type
   Fresh:
     Origin: caDSR
     Definition: Not previously used.
@@ -2640,13 +2638,6 @@ Terms:
     Code: '4742912'
     Version: '1'
     Value: Not Otherwise Specified Larynx
-  last_known_disease_status:
-    Origin: caDSR
-    Definition: The text term that describes the last known state or condition of
-      an individual's neoplasm.
-    Code: '5424231'
-    Version: '1'
-    Value: Person Last Known Neoplasm Status
   Lateral floor of mouth:
     Origin: caDSR
     Definition: 'Situated at or extending to the side.: The area of the mouth under

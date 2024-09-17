@@ -75,9 +75,6 @@ Nodes:
       - tumor_classification
       - anatomic_site
       - age_at_diagnosis
-      - age_at_recurrence
-      - last_known_disease_status
-      - age_at_last_known_disease_status
       - toronto_childhood_cancer_staging
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n

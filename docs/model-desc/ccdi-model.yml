@@ -75,9 +75,6 @@ Nodes:
       - tumor_classification
       - anatomic_site
       - age_at_diagnosis
-      - age_at_recurrence
-      - last_known_disease_status
-      - age_at_last_known_disease_status
       - toronto_childhood_cancer_staging
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n
@@ -220,6 +217,7 @@ Nodes:
       - race       
       - sex_at_birth
       - id
+      - crdc_id
       # - dbgap_subject_id : store in synonym
   pathology_file: 
     Desc: "The pathology file node is comprised of properties which describe file metadata about the pathology image files."
@@ -348,6 +346,7 @@ Nodes:
       - tumor_classification
       - sample_description
       - id
+      - crdc_id
   sequencing_file: 
     Desc: "The sequencing file node is comprised of properties which describe file metadata for the sequencing file."
     Tags:
@@ -425,6 +424,7 @@ Nodes:
       - study_data_types
       - size_of_data_being_uploaded
       - id
+      - crdc_id
       # - bioproject_accession : store in synonym
   study_admin:
     Desc: "The study admin node is comprised of properties which describe the general structure of the study."

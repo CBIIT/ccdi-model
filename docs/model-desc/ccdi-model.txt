@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit f9f5026
+commit 809763a
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -29,8 +29,6 @@ cytogenomic_file	file_url	STRING
 cytogenomic_file	id	STRING
 cytogenomic_file	md5sum	STRING
 diagnosis	age_at_diagnosis	INTEGER
-diagnosis	age_at_last_known_disease_status	INTEGER
-diagnosis	age_at_recurrence	INTEGER
 diagnosis	diagnosis_comment	STRING
 diagnosis	diagnosis_id	STRING
 diagnosis	id	STRING
@@ -89,6 +87,7 @@ molecular_test	test_result_numeric	STRING
 molecular_test	test_result_text	STRING
 molecular_test	test_unit	STRING
 molecular_test	transcript	STRING
+participant	crdc_id	STRING
 participant	id	STRING
 participant	participant_id	STRING
 pathology_file	acl	STRING
@@ -153,6 +152,7 @@ radiology_file	slice_thickness	STRING
 radiology_file	spectrallySelectedSuppressionCode	STRING
 radiology_file	steadyStatePulseSequenceCode	STRING
 radiology_file	timeOfFlightContrastIndicator	STRING
+sample	crdc_id	STRING
 sample	id	STRING
 sample	participant_age_at_collection	INTEGER
 sample	sample_description	STRING
@@ -196,6 +196,7 @@ sequencing_file	spike_in	STRING
 sequencing_file	total_number_of_input_cells	STRING
 study	consent	STRING
 study	consent_number	INTEGER
+study	crdc_id	STRING
 study	dbgap_accession	STRING
 study	external_url	STRING
 study	id	STRING
@@ -242,8 +243,8 @@ treatment_response	id	STRING
 treatment_response	treatment_response_id	STRING
 
 relationship	source_node	destination_node	property	value_or_TYPE
-of_cell_line	cell_line	sample	NA	NA
 of_cell_line	cell_line	study	NA	NA
+of_cell_line	cell_line	sample	NA	NA
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_clinical_measure_file	clinical_measure_file	participant	NA	NA
 of_cytogenomic_file	cytogenomic_file	sample	NA	NA
@@ -260,18 +261,18 @@ of_pdx	pdx	sample	NA	NA
 of_pdx	pdx	study	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
-of_sample	sample	participant	NA	NA
 of_sample	sample	cell_line	NA	NA
 of_sample	sample	pdx	NA	NA
+of_sample	sample	participant	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
 of_survival	survival	participant	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	sample	NA	NA
 of_synonym	synonym	participant	NA	NA
+of_synonym	synonym	study	NA	NA
 of_treatment	treatment	participant	NA	NA
 of_treatment_response	treatment_response	participant	NA	NA
 
@@ -280,17 +281,15 @@ UMI_barcode_offset	The offset in sequence of the UMI identifying barcode. E.g. "
 UMI_barcode_read	Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
 UMI_barcode_size	The size of the UMI identifying barcode. E.g. "10".
 aa_change	Alphanumeric value used to describe the amino acid change for a specific genetic variant.
-acl	A free text field used to document whether the data in a repository is open access or controlled access. If access to the data are unrestricted, the acl field should be listed [“*”]. Controlled access should be denoted as a comma delimited list of phs accession numbers, for example, [“phs000123”] or [“phs000123”,”phs000124”].
+acl	A free text field used to document whether the data in a repository is open access or controlled access. If access to the data are unrestricted, the acl field should be listed [“*]. Controlled access should be denoted as a comma delimited list of phs accession numbers, for example, [“phs000123] or [“phs000123,phs000124].
 acquisitionContrastCode	Text specifying the kind of contrast used during the imaging acquisition process.
 adult_or_childhood_study	The identifiable class of the study participant based upon their age.
 adverse_event	Common Terminology Criteria for Adverse Events Version 4.0 Low Level Term Name
 age_at_diagnosis	Age at the time of diagnosis expressed in number of days since birth.
 age_at_event_free_survival_status	Time from diagnosis to first event (or censoring), in days.
 age_at_exposure	The age (in days) of subject at a known exposure to a hazardous factor or substance.
-age_at_last_known_disease_status	Subject Age at Last Known Disease Status Day Count
 age_at_last_known_survival_status	The age (in days) of the subject when the vitals measurement was taken.
 age_at_molecular_test	The age (in days) of the subject when the molecular test was performed.
-age_at_recurrence	The age (in days) of the subject at the time of recurrence.
 age_at_response	The age (in days) of subject when the response assessment was made.
 age_at_treatment_end	Subject Age in Days at End of Treatment Course Day Count
 age_at_treatment_start	Subject Age in Days at Start of Treatment Course Day Count
@@ -328,6 +327,7 @@ consent	Words which describe a set of study participants who have signed the sam
 consent_number	A numeral or string of numerals used to identify the set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository.
 copy_number	The quantity of gene copies resulting from a mutation.
 coverage	The number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.
+crdc_id	The crdc_id is a unique identifier that is generated by Data Hub
 custom_assembly_fasta_file_for_alignment	The name of the custom assembly fasta file used during sequence alignment.
 cytoband	Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the cytoband where the variant is located. Format [chromosome][chromosome arm].[band+sub-bands]. Example 17p13.1.
 cytogenomic_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
@@ -390,7 +390,6 @@ intron	Intron number targeted or included in molecular analysis. If a specific g
 inversionRecoveryIndicator	An indicator response as to whether or not the pulse sequence is an inversion recovery pulse preparatory sequence.
 inversion_time	A measurement of the time between the inversion and excitation pulses in an inversion recovery pulse sequence.
 laboratory_test_name	The words by which the laboratory assessment is known.
-last_known_disease_status	The most recently documented condition or state of an individual's disease.
 last_known_survival_status	Participant vital status
 library_construction_method	A textual description of the procedures performed for building a collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
 library_id	A short unique identifier assigned to a nucleotide sequencing library.

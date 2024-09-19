@@ -595,7 +595,7 @@ PropDefinitions:
         Version: "null"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "13q Syndrome"
         - "Adenomatous Polyposis Coli"
         - "Beckwith-Wiedemann Syndrome"
@@ -940,7 +940,7 @@ PropDefinitions:
         Version: "null"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "Accidental building fire smoke"
         - "Accidental fire smoke, grass"
         - "Accidental fire smoke, NOS"
@@ -1004,7 +1004,7 @@ PropDefinitions:
         Version: "null"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "Cigarettes"
         - "Cigar"
         - "Electronic Cigarette"
@@ -1128,7 +1128,7 @@ PropDefinitions:
         Version: "1.00"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "Abdominal Distension"
         - "Abdominal Infection"
         - "Abdominal Pain"
@@ -1932,7 +1932,7 @@ PropDefinitions:
         Version: "null"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "Acute Renal Failure"
         - "Adenocarcinoma"
         - "Adrenocortical Insufficiency"
@@ -2089,7 +2089,7 @@ PropDefinitions:
         Version: "null"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "Biopsy"
         - "Bone Scan"
         - "CSF"
@@ -2547,7 +2547,7 @@ PropDefinitions:
         Version: "null"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "Acceptor Splice Site SNP"
         - "Coding Sequence Variant"
         - "Exon Mutation"
@@ -2673,7 +2673,7 @@ PropDefinitions:
         Version: "null"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "Alleles"
         - "Amplification"
         - "Chrimerism"
@@ -2729,7 +2729,7 @@ PropDefinitions:
         Version: "null"
     Type:
       value_type: list
-      Enum:
+      item_type:
           - "Alcohol Consumption"
           - "Alcoholic Liver Disease"
           - "Allergy, Animal, NOS"
@@ -4107,7 +4107,7 @@ PropDefinitions:
         Version: "null"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "American Indian or Alaska Native"
         - "Asian"
         - "Black or African American"
@@ -4187,7 +4187,7 @@ PropDefinitions:
         Version: "null"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "C76.2 : Abdomen, NOS"
         - "C15.2 : Abdominal esophagus"
         - "C31.9 : Accessory sinus, NOS"
@@ -5121,7 +5121,7 @@ PropDefinitions:
         Version: "1.00"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "Archer Fusion"
         - "Bisulfite-Seq"
         - "DNA-Seq"
@@ -5186,7 +5186,7 @@ PropDefinitions:
         Version: "null"
     Type:
       value_type: list
-      Enum:
+      item_type:
           - "Genomic"
           - "Imaging"
           - "Pathology"
@@ -5430,7 +5430,7 @@ PropDefinitions:
         Version: "1.00"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "3-Dimensional Conformal Radiation Therapy"
         - "Allogeneic Hematopoietic Stem Cell Transplantation"
         - "Autologous Stem Cell Transplantation"
@@ -7332,7 +7332,7 @@ PropDefinitions:
         Version: "1.00"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "10-Deacetyltaxol"
         - "11C Topotecan"
         - "11D10 AluGel Anti-Idiotype Monoclonal Antibody"
@@ -11834,7 +11834,7 @@ PropDefinitions:
         Version: "1.00"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "Complete Remission"
         - "Minor Response"
         - "Mixed Response"
@@ -11874,7 +11874,7 @@ PropDefinitions:
         Version: "1.00"
     Type:
       value_type: list
-      Enum:        
+      item_type:        
         - "Bone Marrow Response"
         - "CNS Response"
         - "Metastatic Soft Tissue and Bone Response"
@@ -11899,7 +11899,7 @@ PropDefinitions:
         Version: "1.00"
     Type:
       value_type: list
-      Enum:
+      item_type:
         - "Choi"
         - "INRC, Brodeur 1993"
         - "INRC, Park 2017"

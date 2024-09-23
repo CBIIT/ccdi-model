@@ -2851,18 +2851,6 @@ PropDefinitions:
     Strict: false
     Private: false  
   #single_cell_sequencing_file
-  single_cell_sequencing_file_id: 
-    Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
-    Term:
-      - Origin: caDSR
-        Code: '14528010'
-        Value: Electronic Data File Unique Identifier
-        Version: "null"
-    Type: string
-    Req: true
-    Private: false
-    Key: true
-  #single_cell_sequencing_file
   cDNA_read:
     Desc: The type of read that contains the cDNA read:index1/index2/read1/read2.
     Term:

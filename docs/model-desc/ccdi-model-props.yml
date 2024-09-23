@@ -4081,18 +4081,16 @@ PropDefinitions:
         Code: '7572817'
         Value: Person Sex at Birth Category
         Version: "2.0"
-    Type:
-      value_type: string
-      Enum:
-        - "Female"
-        - "Intersex"
-        - "Male"
-        - "Not Reported"
-        - "Unknown"
-        - "Don't Know"
-        - "Decline to answer"
-        - "None of These Describe Me"
-        - "Prefer Not to Answer"
+    Enum:
+      - "Female"
+      - "Intersex"
+      - "Male"
+      - "Not Reported"
+      - "Unknown"
+      - "Don't Know"
+      - "Decline to answer"
+      - "None of These Describe Me"
+      - "Prefer Not to Answer"
     Req: true
     Strict: false
     Private: false

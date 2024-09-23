@@ -3801,7 +3801,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11284037'
         Value: Electronic Data File Name
-        Version: "null"
+        Version: "2.0"
     Type: string
     Req: true
     Private: false

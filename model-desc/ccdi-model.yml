@@ -331,6 +331,27 @@ Nodes:
       - mrImageReconstructionProtocolElement
       - complexImageComponentCode
       - id
+  reference_file_node: # 09.20.22 pdunn
+    Desc: "The reference file node is comprised of properties which describe file metadata for reference files."
+    Tags:
+      Category: data_file
+      Assignment: extended
+      Class: secondary
+      Template: 'Yes'
+    Props:
+      - reference_file_id
+      - file_name
+      - file_type
+      - file_description
+      - file_size
+      - md5sum
+      - file_mapping_level
+      - file_access
+      - acl
+      - authz
+      - file_url
+      - dcf_indexd_guid
+      - id    
   sample:
     Desc: "The sample node is comprised of properties which describe the sample attributes as collected from participant, cell line, or pdx model."
     Tags:
@@ -645,6 +666,16 @@ Relationships:
     Ends:
       - Src: radiology_file
         Dst: participant
+  of_reference_file:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: reference_file
+        Dst: study
+      - Src: reference_file
+        Dst: participant
+      - Src: reference_file
+        Dst: sample
   of_sample: 
     Props: null
     Mul: many_to_one

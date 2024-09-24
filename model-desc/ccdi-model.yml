@@ -331,15 +331,15 @@ Nodes:
       - mrImageReconstructionProtocolElement
       - complexImageComponentCode
       - id
-  reference_file_node: # 09.20.22 pdunn
-    Desc: "The reference file node is comprised of properties which describe file metadata for reference files."
+  generic_file_node: # 09.20.22 pdunn
+    Desc: "The generic file node is comprised of properties which describe file metadata for generic files that do not fall under any other node."
     Tags:
       Category: data_file
       Assignment: extended
       Class: secondary
       Template: 'Yes'
     Props:
-      - reference_file_id
+      - generic_file_id
       - file_name
       - file_type
       - file_description
@@ -666,15 +666,15 @@ Relationships:
     Ends:
       - Src: radiology_file
         Dst: participant
-  of_reference_file:
+  of_generic_file:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: reference_file
+      - Src: generic_file
         Dst: study
-      - Src: reference_file
+      - Src: generic_file
         Dst: participant
-      - Src: reference_file
+      - Src: generic_file
         Dst: sample
   of_sample: 
     Props: null

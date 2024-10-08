@@ -1021,7 +1021,7 @@ PropDefinitions:
     Desc: nnn
     Term:
       - Origin: caDSR
-        Code: 'nn'
+        Code: '14534325'
         Value: nn
         Version: "1.00"
     Type: string

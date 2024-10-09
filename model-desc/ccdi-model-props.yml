@@ -3991,7 +3991,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14528010'
         Value: Electronic Data File Unique Identifier
-        Version: "null"
+        Version: "1.00"
     Type: string
     Key: true
     Req: true

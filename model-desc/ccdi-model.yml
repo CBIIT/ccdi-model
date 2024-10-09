@@ -331,7 +331,7 @@ Nodes:
       - mrImageReconstructionProtocolElement
       - complexImageComponentCode
       - id
-  generic_file_node: # 09.20.22 pdunn
+  generic_file: # 09.20.22 pdunn
     Desc: "The generic file node is comprised of properties which describe file metadata for generic files that do not fall under any other node."
     Tags:
       Category: data_file

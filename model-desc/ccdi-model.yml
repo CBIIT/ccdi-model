@@ -36,6 +36,7 @@ Nodes:
       - checksum_value
       - participant_list
       - id
+      - crdc_id
   cytogenomic_file:
     Desc: "The cytogenomic file node is comprised of properties which describe file metadata for cytogenomic files."
     Tags:
@@ -58,6 +59,7 @@ Nodes:
       - dcf_indexd_guid
       - cytogenomic_platform
       - id
+      - crdc_id
   diagnosis:
     Desc: "The diagnosis node is comprised of properties which describe the participant's disease(s)."
     Tags:
@@ -205,6 +207,7 @@ Nodes:
       - methylation_platform
       - reporter_label
       - id
+      - crdc_id
   participant:
     Desc: "The participant node is comprised of properties which describe the participant attributes."
     Tags:
@@ -248,6 +251,7 @@ Nodes:
       - percent_tumor
       - percent_necrosis
       - id
+      - crdc_id
   pdx:
     Desc: "The pdx node is comprised of properties which describe the patient derived xenografts models either from samples or commercially obtained."
     Tags:
@@ -331,6 +335,7 @@ Nodes:
       - mrImageReconstructionProtocolElement
       - complexImageComponentCode
       - id
+      - crdc_id
   generic_file: # 09.20.22 pdunn
     Desc: "The generic file node is comprised of properties which describe file metadata for generic files that do not fall under any other node."
     Tags:
@@ -351,7 +356,8 @@ Nodes:
       - authz
       - file_url
       - dcf_indexd_guid
-      - id    
+      - id
+      - crdc_id
   sample:
     Desc: "The sample node is comprised of properties which describe the sample attributes as collected from participant, cell line, or pdx model."
     Tags:
@@ -425,6 +431,7 @@ Nodes:
       - UMI_barcode_read
       - UMI_barcode_size
       - id
+      - crdc_id
   study:
     Desc: "The study node is comprised of properties which describe high level metadata that applies to all facets of the study."
     Tags:
@@ -504,6 +511,7 @@ Nodes:
       - institution
       - orcid
       - id
+      - crdc_id
   survival:
     Desc: "The survival node is comprised of properties which describe metadata related to vital status and medical events at timepoints for a participant."
     Tags:

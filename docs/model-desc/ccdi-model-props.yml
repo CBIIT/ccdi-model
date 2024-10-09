@@ -3984,6 +3984,18 @@ PropDefinitions:
     Req: true
     Strict: true
     Private: false    
+  # generic_file
+  generic_file_id:
+    Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
+    Term:
+      - Origin: caDSR
+        Code: '14528010'
+        Value: Electronic Data File Unique Identifier
+        Version: "1.00"
+    Type: string
+    Key: true
+    Req: true
+    Private: false
   # pathology_file
   pathology_file_id: 
     Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.

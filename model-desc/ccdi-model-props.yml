@@ -17,6 +17,7 @@ PropDefinitions:
       - "Right"
       - "Unknown"
     Req: false
+    Strict: true
     Private: false
   #diagnosis
   year_of_diagnosis:

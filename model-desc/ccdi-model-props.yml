@@ -7,7 +7,15 @@ PropDefinitions:
         Code: '15157293'
         Value: Disease Laterality Type
         Version: "1.00"
-    Type: string
+    Enum:
+      - "Bilateral"
+      - "Left"
+      - "Midline"
+      - "Not Applicable"
+      - "Not Reported"
+      - "Not Specified"
+      - "Right"
+      - "Unknown"
     Req: false
     Private: false
   #diagnosis

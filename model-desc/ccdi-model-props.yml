@@ -3948,24 +3948,23 @@ PropDefinitions:
       - Origin: GDC
         Code: 'null'
         Value: data type and data subtype categories used to classify imported data files
-        Version: "null"
-    Type:
-      value_type: list
-      Enum:
-        - "Clinical Measure"
-        - "Copy Number Variation"
-        - "COG Clinical Report"
-        - "Gene Expression"
-        - "Gene Fusion Clinical Report"
-        - "IGM Clinical Sequence File"
-        - "Methylation Array"
-        - "Methylation Clinical Report"
-        - "Pathology Imaging"
-        - "Radiology Imaging"
-        - "Sequencing"
-        - "Simple Nucleotide Variation"
-        - "Structural Variation"
-        - "Tumor Normal Clinical Report"
+        Version: "1.00"
+    Enum:
+        - "Clinical Measure"
+        - "Copy Number Variation"
+        - "COG Clinical Report"
+        - "Gene Expression"
+        - "Gene Fusion Clinical Report"
+        - "Generic"
+        - "IGM Clinical Sequence"
+        - "Methylation Array"
+        - "Methylation Clinical Report"
+        - "Pathology Imaging"
+        - "Radiology Imaging"
+        - "Sequencing"
+        - "Simple Nucleotide Variation"
+        - "Structural Variation"
+        - "Tumor Normal Clinical Report"
     Req: true
     Private: false  
   #sequencing_file, imaging_file, clinical_measure_file

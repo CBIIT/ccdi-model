@@ -1,4 +1,15 @@
 PropDefinitions:
+  #diagnosis
+  year_of_diagnosis:
+    Desc: The year in which a subject was diagnosed.
+    Term:
+      - Origin: caDSR
+        Code: '15157224'
+        Value: Subject Diagnosis Year Number
+        Version: "1.00"
+    Type: string
+    Req: false
+    Private: false
   #cytogenomic_file
   cytogenomic_file_id:
     Desc: A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.

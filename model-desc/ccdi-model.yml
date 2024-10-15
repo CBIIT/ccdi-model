@@ -85,6 +85,7 @@ Nodes:
       - tumor_grade
       - tumor_grade_source
       - year_of_diagnosis
+      - laterality
       - id
   exposure:
     Desc: "The exposure node is comprised of properties which describe the participant's habits and environmental factors."

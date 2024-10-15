@@ -36,6 +36,7 @@ Nodes:
       - checksum_value
       - participant_list
       - id
+      - crdc_id
   cytogenomic_file:
     Desc: "The cytogenomic file node is comprised of properties which describe file metadata for cytogenomic files."
     Tags:
@@ -58,6 +59,7 @@ Nodes:
       - dcf_indexd_guid
       - cytogenomic_platform
       - id
+      - crdc_id
   diagnosis:
     Desc: "The diagnosis node is comprised of properties which describe the participant's disease(s)."
     Tags:
@@ -75,9 +77,6 @@ Nodes:
       - tumor_classification
       - anatomic_site
       - age_at_diagnosis
-      - age_at_recurrence
-      - last_known_disease_status
-      - age_at_last_known_disease_status
       - toronto_childhood_cancer_staging
       - tumor_stage_clinical_t
       - tumor_stage_clinical_n
@@ -85,6 +84,7 @@ Nodes:
       - tumor_stage_source
       - tumor_grade
       - tumor_grade_source
+      - year_of_diagnosis
       - id
   exposure:
     Desc: "The exposure node is comprised of properties which describe the participant's habits and environmental factors."
@@ -208,6 +208,7 @@ Nodes:
       - methylation_platform
       - reporter_label
       - id
+      - crdc_id
   participant:
     Desc: "The participant node is comprised of properties which describe the participant attributes."
     Tags:
@@ -220,6 +221,7 @@ Nodes:
       - race       
       - sex_at_birth
       - id
+      - crdc_id
       # - dbgap_subject_id : store in synonym
   pathology_file: 
     Desc: "The pathology file node is comprised of properties which describe file metadata about the pathology image files."
@@ -250,6 +252,7 @@ Nodes:
       - percent_tumor
       - percent_necrosis
       - id
+      - crdc_id
   pdx:
     Desc: "The pdx node is comprised of properties which describe the patient derived xenografts models either from samples or commercially obtained."
     Tags:
@@ -333,6 +336,29 @@ Nodes:
       - mrImageReconstructionProtocolElement
       - complexImageComponentCode
       - id
+      - crdc_id
+  generic_file: # 09.20.22 pdunn
+    Desc: "The generic file node is comprised of properties which describe file metadata for generic files that do not fall under any other node."
+    Tags:
+      Category: data_file
+      Assignment: extended
+      Class: secondary
+      Template: 'Yes'
+    Props:
+      - generic_file_id
+      - file_name
+      - file_type
+      - file_description
+      - file_size
+      - md5sum
+      - file_mapping_level
+      - file_access
+      - acl
+      - authz
+      - file_url
+      - dcf_indexd_guid
+      - id
+      - crdc_id
   sample:
     Desc: "The sample node is comprised of properties which describe the sample attributes as collected from participant, cell line, or pdx model."
     Tags:
@@ -348,6 +374,7 @@ Nodes:
       - tumor_classification
       - sample_description
       - id
+      - crdc_id
   sequencing_file: 
     Desc: "The sequencing file node is comprised of properties which describe file metadata for the sequencing file."
     Tags:
@@ -405,6 +432,7 @@ Nodes:
       - UMI_barcode_read
       - UMI_barcode_size
       - id
+      - crdc_id
   study:
     Desc: "The study node is comprised of properties which describe high level metadata that applies to all facets of the study."
     Tags:
@@ -425,6 +453,7 @@ Nodes:
       - study_data_types
       - size_of_data_being_uploaded
       - id
+      - crdc_id
       # - bioproject_accession : store in synonym
   study_admin:
     Desc: "The study admin node is comprised of properties which describe the general structure of the study."
@@ -481,7 +510,9 @@ Nodes:
       - personnel_type #enum: PI, Co-PI, Data Submitter, etc
       - email_address
       - institution
+      - orcid
       - id
+      - crdc_id
   survival:
     Desc: "The survival node is comprised of properties which describe metadata related to vital status and medical events at timepoints for a participant."
     Tags:
@@ -644,6 +675,16 @@ Relationships:
     Ends:
       - Src: radiology_file
         Dst: participant
+  of_generic_file:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: generic_file
+        Dst: study
+      - Src: generic_file
+        Dst: participant
+      - Src: generic_file
+        Dst: sample
   of_sample: 
     Props: null
     Mul: many_to_one

@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 0ab76eb
+commit c7cf8eb
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -9,54 +9,2388 @@ clinical_measure_file	authz	STRING
 clinical_measure_file	checksum_algorithm	STRING
 clinical_measure_file	checksum_value	STRING
 clinical_measure_file	clinical_measure_file_id	STRING
+clinical_measure_file	crdc_id	STRING
 clinical_measure_file	dcf_indexd_guid	STRING
+clinical_measure_file	file_access	Controlled
+clinical_measure_file	file_access	Open
 clinical_measure_file	file_description	STRING
+clinical_measure_file	file_mapping_level	Participant
+clinical_measure_file	file_mapping_level	Sample
+clinical_measure_file	file_mapping_level	Study
 clinical_measure_file	file_name	STRING
 clinical_measure_file	file_size	INTEGER
+clinical_measure_file	file_type	bai
+clinical_measure_file	file_type	bam
+clinical_measure_file	file_type	bam_index
+clinical_measure_file	file_type	bcf
+clinical_measure_file	file_type	bed
+clinical_measure_file	file_type	bif
+clinical_measure_file	file_type	bw
+clinical_measure_file	file_type	cns
+clinical_measure_file	file_type	crai
+clinical_measure_file	file_type	cram
+clinical_measure_file	file_type	cram_index
+clinical_measure_file	file_type	csi
+clinical_measure_file	file_type	csv
+clinical_measure_file	file_type	dicom
+clinical_measure_file	file_type	dict
+clinical_measure_file	file_type	docx
+clinical_measure_file	file_type	fasta
+clinical_measure_file	file_type	fastq
+clinical_measure_file	file_type	gvcf
+clinical_measure_file	file_type	html
+clinical_measure_file	file_type	idat
+clinical_measure_file	file_type	jpg
+clinical_measure_file	file_type	json
+clinical_measure_file	file_type	maf
+clinical_measure_file	file_type	mrxs
+clinical_measure_file	file_type	ndpi
+clinical_measure_file	file_type	nifti
+clinical_measure_file	file_type	pdf
+clinical_measure_file	file_type	ped
+clinical_measure_file	file_type	png
+clinical_measure_file	file_type	rda
+clinical_measure_file	file_type	rdata
+clinical_measure_file	file_type	rds
+clinical_measure_file	file_type	sas7bdat
+clinical_measure_file	file_type	scn
+clinical_measure_file	file_type	seg
+clinical_measure_file	file_type	svg
+clinical_measure_file	file_type	svs
+clinical_measure_file	file_type	tar
+clinical_measure_file	file_type	tbi
+clinical_measure_file	file_type	tif
+clinical_measure_file	file_type	tiff
+clinical_measure_file	file_type	tsv
+clinical_measure_file	file_type	txt
+clinical_measure_file	file_type	vcf
+clinical_measure_file	file_type	vcf_index
+clinical_measure_file	file_type	vms
+clinical_measure_file	file_type	vmu
+clinical_measure_file	file_type	xls
+clinical_measure_file	file_type	xlsx
+clinical_measure_file	file_type	xml
 clinical_measure_file	file_url	STRING
 clinical_measure_file	id	STRING
 clinical_measure_file	md5sum	STRING
 clinical_measure_file	participant_list	STRING
 cytogenomic_file	acl	STRING
 cytogenomic_file	authz	STRING
+cytogenomic_file	crdc_id	STRING
 cytogenomic_file	cytogenomic_file_id	STRING
 cytogenomic_file	cytogenomic_platform	STRING
 cytogenomic_file	dcf_indexd_guid	STRING
+cytogenomic_file	file_access	Controlled
+cytogenomic_file	file_access	Open
 cytogenomic_file	file_description	STRING
+cytogenomic_file	file_mapping_level	Participant
+cytogenomic_file	file_mapping_level	Sample
+cytogenomic_file	file_mapping_level	Study
 cytogenomic_file	file_name	STRING
 cytogenomic_file	file_size	INTEGER
+cytogenomic_file	file_type	bai
+cytogenomic_file	file_type	bam
+cytogenomic_file	file_type	bam_index
+cytogenomic_file	file_type	bcf
+cytogenomic_file	file_type	bed
+cytogenomic_file	file_type	bif
+cytogenomic_file	file_type	bw
+cytogenomic_file	file_type	cns
+cytogenomic_file	file_type	crai
+cytogenomic_file	file_type	cram
+cytogenomic_file	file_type	cram_index
+cytogenomic_file	file_type	csi
+cytogenomic_file	file_type	csv
+cytogenomic_file	file_type	dicom
+cytogenomic_file	file_type	dict
+cytogenomic_file	file_type	docx
+cytogenomic_file	file_type	fasta
+cytogenomic_file	file_type	fastq
+cytogenomic_file	file_type	gvcf
+cytogenomic_file	file_type	html
+cytogenomic_file	file_type	idat
+cytogenomic_file	file_type	jpg
+cytogenomic_file	file_type	json
+cytogenomic_file	file_type	maf
+cytogenomic_file	file_type	mrxs
+cytogenomic_file	file_type	ndpi
+cytogenomic_file	file_type	nifti
+cytogenomic_file	file_type	pdf
+cytogenomic_file	file_type	ped
+cytogenomic_file	file_type	png
+cytogenomic_file	file_type	rda
+cytogenomic_file	file_type	rdata
+cytogenomic_file	file_type	rds
+cytogenomic_file	file_type	sas7bdat
+cytogenomic_file	file_type	scn
+cytogenomic_file	file_type	seg
+cytogenomic_file	file_type	svg
+cytogenomic_file	file_type	svs
+cytogenomic_file	file_type	tar
+cytogenomic_file	file_type	tbi
+cytogenomic_file	file_type	tif
+cytogenomic_file	file_type	tiff
+cytogenomic_file	file_type	tsv
+cytogenomic_file	file_type	txt
+cytogenomic_file	file_type	vcf
+cytogenomic_file	file_type	vcf_index
+cytogenomic_file	file_type	vms
+cytogenomic_file	file_type	vmu
+cytogenomic_file	file_type	xls
+cytogenomic_file	file_type	xlsx
+cytogenomic_file	file_type	xml
 cytogenomic_file	file_url	STRING
 cytogenomic_file	id	STRING
 cytogenomic_file	md5sum	STRING
 diagnosis	age_at_diagnosis	INTEGER
-diagnosis	age_at_last_known_disease_status	INTEGER
-diagnosis	age_at_recurrence	INTEGER
+diagnosis	diagnosis	8000/0 : Neoplasm, benign
+diagnosis	diagnosis	8000/1 : Neoplasm, uncertain whether benign or malignant
+diagnosis	diagnosis	8000/3 : Neoplasm, malignant
+diagnosis	diagnosis	8000/6 : Neoplasm, metastatic
+diagnosis	diagnosis	8000/9 : Neoplasm, malignant, uncertain whether primary or metastatic
+diagnosis	diagnosis	8001/0 : Tumor cells, benign
+diagnosis	diagnosis	8001/1 : Tumor cells, uncertain whether benign or malignant
+diagnosis	diagnosis	8001/3 : Tumor cells, malignant
+diagnosis	diagnosis	8002/3 : Malignant tumor, small cell type
+diagnosis	diagnosis	8003/3 : Malignant tumor, giant cell type
+diagnosis	diagnosis	8004/3 : Malignant tumor, spindle cell type
+diagnosis	diagnosis	8005/0 : Clear cell tumor, NOS
+diagnosis	diagnosis	8005/3 : Malignant tumor, clear cell type
+diagnosis	diagnosis	8010/0 : Epithelial tumor, benign
+diagnosis	diagnosis	8010/2 : Carcinoma in situ, NOS
+diagnosis	diagnosis	8010/3 : Carcinoma, NOS
+diagnosis	diagnosis	8010/6 : Carcinoma, metastatic, NOS
+diagnosis	diagnosis	8010/9 : Carcinomatosis
+diagnosis	diagnosis	8011/0 : Epithelioma, benign
+diagnosis	diagnosis	8011/3 : Epithelioma, malignant
+diagnosis	diagnosis	8012/3 : Large cell carcinoma, NOS
+diagnosis	diagnosis	8013/3 : Large cell neuroendocrine carcinoma
+diagnosis	diagnosis	8014/3 : Large cell carcinoma with rhabdoid phenotype
+diagnosis	diagnosis	8015/3 : Glassy cell carcinoma
+diagnosis	diagnosis	8020/3 : Carcinoma, undifferentiated, NOS
+diagnosis	diagnosis	8021/3 : Carcinoma, anaplastic, NOS
+diagnosis	diagnosis	8022/3 : Pleomorphic carcinoma
+diagnosis	diagnosis	8023/3 : Nuclear protein in testis (NUT)-associated carcinoma
+diagnosis	diagnosis	8030/3 : Giant cell and spindle cell carcinoma
+diagnosis	diagnosis	8031/3 : Giant cell carcinoma
+diagnosis	diagnosis	8032/3 : Spindle cell carcinoma, NOS
+diagnosis	diagnosis	8033/3 : Pseudosarcomatous carcinoma
+diagnosis	diagnosis	8034/3 : Polygonal cell carcinoma
+diagnosis	diagnosis	8035/3 : Carcinoma with osteoclast-like giant cells
+diagnosis	diagnosis	8040/0 : Tumorlet, benign
+diagnosis	diagnosis	8040/1 : Tumorlet, NOS
+diagnosis	diagnosis	8041/3 : Small cell carcinoma, NOS
+diagnosis	diagnosis	8042/3 : Oat cell carcinoma
+diagnosis	diagnosis	8043/3 : Small cell carcinoma, fusiform cell
+diagnosis	diagnosis	8044/3 : Small cell carcinoma, intermediate cell
+diagnosis	diagnosis	8045/3 : Combined small cell carcinoma
+diagnosis	diagnosis	8046/3 : Non-small cell carcinoma
+diagnosis	diagnosis	8050/0 : Papilloma, NOS
+diagnosis	diagnosis	8050/2 : Papillary carcinoma in situ, NOS
+diagnosis	diagnosis	8050/3 : Papillary carcinoma, NOS
+diagnosis	diagnosis	8051/0 : Verrucous papilloma
+diagnosis	diagnosis	8051/3 : Verrucous carcinoma, NOS
+diagnosis	diagnosis	8052/0 : Squamous cell papilloma, NOS
+diagnosis	diagnosis	8052/2 : Papillary squamous cell carcinoma, non-invasive
+diagnosis	diagnosis	8052/3 : Papillary squamous cell carcinoma
+diagnosis	diagnosis	8053/0 : Squamous cell papilloma, inverted
+diagnosis	diagnosis	8054/0 : Warty dyskeratoma
+diagnosis	diagnosis	8054/3 : Warty carcinoma
+diagnosis	diagnosis	8060/0 : Squamous papillomatosis
+diagnosis	diagnosis	8070/0 : Actinic keratosis
+diagnosis	diagnosis	8070/2 : Squamous cell carcinoma in situ, NOS
+diagnosis	diagnosis	8070/3 : Squamous cell carcinoma, NOS
+diagnosis	diagnosis	8070/6 : Squamous cell carcinoma, metastatic, NOS
+diagnosis	diagnosis	8071/2 : Differentiated intraepithelial neoplasia
+diagnosis	diagnosis	8071/3 : Squamous cell carcinoma, keratinizing, NOS
+diagnosis	diagnosis	8072/0 : Large cell acanthoma
+diagnosis	diagnosis	8072/3 : Squamous cell carcinoma, large cell, nonkeratinizing, NOS
+diagnosis	diagnosis	8073/3 : Squamous cell carcinoma, small cell, nonkeratinizing
+diagnosis	diagnosis	8074/3 : Squamous cell carcinoma, spindle cell
+diagnosis	diagnosis	8075/3 : Squamous cell carcinoma, adenoid
+diagnosis	diagnosis	8076/2 : Squamous cell carcinoma in situ with questionable stromal invasion
+diagnosis	diagnosis	8076/3 : Squamous cell carcinoma, microinvasive
+diagnosis	diagnosis	8077/0 : Squamous intraepithelial neoplasia, low grade
+diagnosis	diagnosis	8077/2 : Squamous intraepithelial neoplasia, high grade
+diagnosis	diagnosis	8078/3 : Squamous cell carcinoma with horn formation
+diagnosis	diagnosis	8080/2 : Queyrat erythroplasia
+diagnosis	diagnosis	8081/2 : Bowen disease
+diagnosis	diagnosis	8082/3 : Lymphoepithelial carcinoma
+diagnosis	diagnosis	8083/3 : Basaloid squamous cell carcinoma
+diagnosis	diagnosis	8084/0 : Clear cell acanthoma
+diagnosis	diagnosis	8084/3 : Squamous cell carcinoma, clear cell type
+diagnosis	diagnosis	8085/3 : Squamous cell carcinoma, HPV positive
+diagnosis	diagnosis	8086/3 : Squamous cell carcinoma, HPV negative
+diagnosis	diagnosis	8090/1 : Basal cell tumor
+diagnosis	diagnosis	8090/3 : Basal cell carcinoma, NOS
+diagnosis	diagnosis	8091/3 : Superficial basal cell carcinoma
+diagnosis	diagnosis	8092/3 : Infiltrating basal cell carcinoma, NOS
+diagnosis	diagnosis	8093/3 : Basal cell carcinoma, fibroepithelial
+diagnosis	diagnosis	8094/3 : Basosquamous carcinoma
+diagnosis	diagnosis	8095/3 : Metatypical carcinoma
+diagnosis	diagnosis	8096/0 : Intraepidermal epithelioma of Jadassohn
+diagnosis	diagnosis	8097/3 : Basal cell carcinoma, nodular
+diagnosis	diagnosis	8098/3 : Adenoid basal carcinoma
+diagnosis	diagnosis	8100/0 : Trichoepithelioma
+diagnosis	diagnosis	8100/3 : Trichoblastic carcinoma
+diagnosis	diagnosis	8101/0 : Trichofolliculoma
+diagnosis	diagnosis	8102/0 : Trichilemmoma
+diagnosis	diagnosis	8102/3 : Trichilemmocarcinoma
+diagnosis	diagnosis	8103/0 : Pilar tumor
+diagnosis	diagnosis	8103/1 : Proliferating trichilemmal cyst
+diagnosis	diagnosis	8104/0 : Pilar sheath acanthoma
+diagnosis	diagnosis	8110/0 : Pilomatricoma, NOS
+diagnosis	diagnosis	8110/3 : Pilomatrical carcinoma
+diagnosis	diagnosis	8120/0 : Urothelial papilloma, NOS
+diagnosis	diagnosis	8120/2 : Urothelial carcinoma in situ
+diagnosis	diagnosis	8120/3 : Transitional cell carcinoma, NOS
+diagnosis	diagnosis	8121/0 : Sinonasal papilloma, exophytic
+diagnosis	diagnosis	8121/1 : Sinonasal papilloma, inverted
+diagnosis	diagnosis	8121/3 : Schneiderian carcinoma
+diagnosis	diagnosis	8122/3 : Urothelial carcinoma, sarcomatoid
+diagnosis	diagnosis	8123/3 : Basaloid carcinoma
+diagnosis	diagnosis	8124/3 : Cloacogenic carcinoma
+diagnosis	diagnosis	8130/1 : Papillary urothelial neoplasm of low malignant potential
+diagnosis	diagnosis	8130/2 : Papillary urothelial carcinoma, non-invasive
+diagnosis	diagnosis	8130/3 : Papillary urothelial carcinoma
+diagnosis	diagnosis	8131/3 : Urothelial carcinoma, micropapillary
+diagnosis	diagnosis	8140/0 : Adenoma, NOS
+diagnosis	diagnosis	8140/1 : Atypical adenoma
+diagnosis	diagnosis	8140/2 : Adenocarcinoma in situ, NOS
+diagnosis	diagnosis	8140/3 : Adenocarcinoma, NOS
+diagnosis	diagnosis	8140/6 : Adenocarcinoma, metastatic, NOS
+diagnosis	diagnosis	8141/3 : Scirrhous adenocarcinoma
+diagnosis	diagnosis	8142/3 : Linitis plastica
+diagnosis	diagnosis	8143/3 : Superficial spreading adenocarcinoma
+diagnosis	diagnosis	8144/0 : Adenoma, intestinal type
+diagnosis	diagnosis	8144/3 : Adenocarcinoma, intestinal type
+diagnosis	diagnosis	8145/3 : Carcinoma, diffuse type
+diagnosis	diagnosis	8146/0 : Monomorphic adenoma
+diagnosis	diagnosis	8147/0 : Basal cell adenoma
+diagnosis	diagnosis	8147/3 : Basal cell adenocarcinoma
+diagnosis	diagnosis	8148/0 : Glandular intraepithelial neoplasia, low grade
+diagnosis	diagnosis	8148/2 : Glandular intraepithelial neoplasia, high grade
+diagnosis	diagnosis	8149/0 : Canalicular adenoma
+diagnosis	diagnosis	8150/0 : Pancreatic neuroendocrine microadenoma
+diagnosis	diagnosis	8150/1 : Islet cell tumor, NOS
+diagnosis	diagnosis	8150/3 : Pancreatic neuroendocrine tumor, nonfunctioning
+diagnosis	diagnosis	8151/3 : Insulinoma, NOS
+diagnosis	diagnosis	8152/3 : Glucagonoma
+diagnosis	diagnosis	8153/3 : Gastrinoma
+diagnosis	diagnosis	8154/3 : Mixed neuroendocrine non-neuroendocrine neoplasm (MiNEN)
+diagnosis	diagnosis	8155/3 : Vipoma
+diagnosis	diagnosis	8156/3 : Somatostatinoma
+diagnosis	diagnosis	8158/3 : ACTH-producing tumor
+diagnosis	diagnosis	8160/0 : Bile duct adenoma
+diagnosis	diagnosis	8160/3 : Cholangiocarcinoma
+diagnosis	diagnosis	8161/0 : Bile duct cystadenoma
+diagnosis	diagnosis	8161/3 : Bile duct cystadenocarcinoma
+diagnosis	diagnosis	8162/3 : Perihilar cholangiocarcinoma
+diagnosis	diagnosis	8163/0 : Pancreatobiliary neoplasm, non-invasive
+diagnosis	diagnosis	8163/2 : Papillary neoplasm, pancreatobiliary type, with high grade intraepithelial neoplasia
+diagnosis	diagnosis	8163/3 : Pancreatobiliary type carcinoma
+diagnosis	diagnosis	8170/0 : Liver cell adenoma
+diagnosis	diagnosis	8170/3 : Hepatocellular carcinoma, NOS
+diagnosis	diagnosis	8171/3 : Hepatocellular carcinoma, fibrolamellar
+diagnosis	diagnosis	8172/3 : Hepatocellular carcinoma, scirrhous
+diagnosis	diagnosis	8173/3 : Hepatocellular carcinoma, spindle cell variant
+diagnosis	diagnosis	8174/3 : Hepatocellular carcinoma, clear cell type
+diagnosis	diagnosis	8175/3 : Hepatocellular carcinoma, pleomorphic type
+diagnosis	diagnosis	8180/3 : Combined hepatocellular carcinoma and cholangiocarcinoma
+diagnosis	diagnosis	8190/0 : Trabecular adenoma
+diagnosis	diagnosis	8190/3 : Trabecular adenocarcinoma
+diagnosis	diagnosis	8191/0 : Embryonal adenoma
+diagnosis	diagnosis	8200/0 : Eccrine dermal cylindroma
+diagnosis	diagnosis	8200/3 : Adenoid cystic carcinoma
+diagnosis	diagnosis	8201/2 : Cribriform carcinoma in situ
+diagnosis	diagnosis	8201/3 : Cribriform carcinoma, NOS
+diagnosis	diagnosis	8202/0 : Microcystic adenoma
+diagnosis	diagnosis	8204/0 : Lactating adenoma
+diagnosis	diagnosis	8210/0 : Adenomatous polyp, NOS
+diagnosis	diagnosis	8210/2 : Adenocarcinoma in situ in adenomatous polyp
+diagnosis	diagnosis	8210/3 : Adenocarcinoma in adenomatous polyp
+diagnosis	diagnosis	8211/0 : Tubular adenoma, NOS
+diagnosis	diagnosis	8211/3 : Tubular adenocarcinoma
+diagnosis	diagnosis	8212/0 : Flat adenoma
+diagnosis	diagnosis	8213/0 : Serrated adenoma, NOS
+diagnosis	diagnosis	8213/3 : Serrated adenocarcinoma
+diagnosis	diagnosis	8214/3 : Parietal cell carcinoma
+diagnosis	diagnosis	8215/3 : Adenocarcinoma of anal glands
+diagnosis	diagnosis	8220/0 : Adenomatous polyposis coli
+diagnosis	diagnosis	8220/3 : Adenocarcinoma in adenomatous polyposis coli
+diagnosis	diagnosis	8221/0 : Multiple adenomatous polyps
+diagnosis	diagnosis	8221/3 : Adenocarcinoma in multiple adenomatous polyps
+diagnosis	diagnosis	8230/2 : Ductal carcinoma in situ, solid type
+diagnosis	diagnosis	8230/3 : Solid carcinoma, NOS
+diagnosis	diagnosis	8231/3 : Carcinoma simplex
+diagnosis	diagnosis	8240/1 : Carcinoid tumor of uncertain malignant potential
+diagnosis	diagnosis	8240/3 : Neuroendocrine tumor, NOS
+diagnosis	diagnosis	8241/3 : Enterochromaffin cell carcinoid
+diagnosis	diagnosis	8242/3 : Enterochromaffin-like cell tumor
+diagnosis	diagnosis	8243/3 : Goblet cell carcinoid
+diagnosis	diagnosis	8244/3 : Mixed adenoneuroendocrine carcinoma
+diagnosis	diagnosis	8245/1 : Tubular carcinoid
+diagnosis	diagnosis	8245/3 : Adenocarcinoid tumor
+diagnosis	diagnosis	8246/3 : Neuroendocrine carcinoma, NOS
+diagnosis	diagnosis	8247/3 : Merkel cell carcinoma
+diagnosis	diagnosis	8248/1 : Apudoma
+diagnosis	diagnosis	8249/3 : Neuroendocrine tumor, grade 2
+diagnosis	diagnosis	8250/0 : Atypical adenomatous hyperplasia
+diagnosis	diagnosis	8250/1 : Pulmonary adenomatosis
+diagnosis	diagnosis	8250/2 : Adenocarcinoma in situ of lung, non-mucinous
+diagnosis	diagnosis	8250/3 : Lepidic adenocarcinoma
+diagnosis	diagnosis	8251/0 : Alveolar adenoma
+diagnosis	diagnosis	8251/3 : Alveolar adenocarcinoma
+diagnosis	diagnosis	8252/3 : Bronchiolo-alveolar carcinoma, non-mucinous
+diagnosis	diagnosis	8253/2 : Adenocarcinoma in situ of lung, mucinous
+diagnosis	diagnosis	8253/3 : Adenocarcinoma of lung, mucinous
+diagnosis	diagnosis	8254/3 : Adenocarcinoma of lung, mixed mucinous and non-mucinous
+diagnosis	diagnosis	8255/3 : Adenocarcinoma with mixed subtypes
+diagnosis	diagnosis	8256/3 : Minimally invasive adenocarcinoma, non-mucinous
+diagnosis	diagnosis	8257/3 : Minimally invasive adenocarcinoma, mucinous
+diagnosis	diagnosis	8260/0 : Papillary adenoma, NOS
+diagnosis	diagnosis	8260/1 : Aggressive papillary tumor
+diagnosis	diagnosis	8260/3 : Papillary adenocarcinoma, NOS
+diagnosis	diagnosis	8261/0 : Villous adenoma, NOS
+diagnosis	diagnosis	8261/2 : Adenocarcinoma in situ in villous adenoma
+diagnosis	diagnosis	8261/3 : Adenocarcinoma in villous adenoma
+diagnosis	diagnosis	8262/3 : Villous adenocarcinoma
+diagnosis	diagnosis	8263/0 : Tubulovillous adenoma, NOS
+diagnosis	diagnosis	8263/2 : Adenocarcinoma in situ in tubulovillous adenoma
+diagnosis	diagnosis	8263/3 : Adenocarcinoma in tubulovillous adenoma
+diagnosis	diagnosis	8264/0 : Papillomatosis, glandular
+diagnosis	diagnosis	8265/3 : Micropapillary carcinoma, NOS
+diagnosis	diagnosis	8270/0 : Chromophobe adenoma
+diagnosis	diagnosis	8270/3 : Chromophobe carcinoma
+diagnosis	diagnosis	8271/0 : Lactotroph adenoma
+diagnosis	diagnosis	8272/0 : Pituitary adenoma, NOS
+diagnosis	diagnosis	8272/3 : Pituitary carcinoma, NOS
+diagnosis	diagnosis	8273/3 : Pituitary blastoma
+diagnosis	diagnosis	8280/0 : Acidophil adenoma
+diagnosis	diagnosis	8280/3 : Acidophil carcinoma
+diagnosis	diagnosis	8281/0 : Mixed acidophil-basophil adenoma
+diagnosis	diagnosis	8281/3 : Mixed acidophil-basophil carcinoma
+diagnosis	diagnosis	8290/0 : Oxyphilic adenoma
+diagnosis	diagnosis	8290/3 : Oxyphilic adenocarcinoma
+diagnosis	diagnosis	8300/0 : Basophil adenoma
+diagnosis	diagnosis	8300/3 : Basophil carcinoma
+diagnosis	diagnosis	8310/0 : Clear cell adenoma
+diagnosis	diagnosis	8310/3 : Clear cell adenocarcinoma, NOS
+diagnosis	diagnosis	8311/1 : Hypernephroid tumor
+diagnosis	diagnosis	8311/3 : Hereditary leiomyomatosis and renal cell carcinoma (HLRCC) syndrome-associated renal cell carcinoma
+diagnosis	diagnosis	8312/3 : Renal cell carcinoma, NOS
+diagnosis	diagnosis	8313/0 : Clear cell adenofibroma
+diagnosis	diagnosis	8313/1 : Clear cell borderline tumor
+diagnosis	diagnosis	8313/3 : Clear cell adenocarcinofibroma
+diagnosis	diagnosis	8314/3 : Lipid-rich carcinoma
+diagnosis	diagnosis	8315/3 : Glycogen-rich carcinoma
+diagnosis	diagnosis	8316/1 : Multilocular cystic renal neoplasm of low malignant potential
+diagnosis	diagnosis	8316/3 : Cyst-associated renal cell carcinoma
+diagnosis	diagnosis	8317/3 : Renal cell carcinoma, chromophobe type
+diagnosis	diagnosis	8318/3 : Renal cell carcinoma, sarcomatoid
+diagnosis	diagnosis	8319/3 : Collecting duct carcinoma
+diagnosis	diagnosis	8320/3 : Granular cell carcinoma
+diagnosis	diagnosis	8321/0 : Chief cell adenoma
+diagnosis	diagnosis	8322/0 : Water-clear cell adenoma
+diagnosis	diagnosis	8322/3 : Water-clear cell adenocarcinoma
+diagnosis	diagnosis	8323/0 : Mixed cell adenoma
+diagnosis	diagnosis	8323/1 : Clear cell papillary renal cell carcinoma
+diagnosis	diagnosis	8323/3 : Mixed cell adenocarcinoma
+diagnosis	diagnosis	8324/0 : Lipoadenoma
+diagnosis	diagnosis	8325/0 : Metanephric adenoma
+diagnosis	diagnosis	8330/0 : Follicular adenoma, NOS
+diagnosis	diagnosis	8330/1 : Atypical follicular adenoma
+diagnosis	diagnosis	8330/3 : Follicular carcinoma, NOS
+diagnosis	diagnosis	8331/3 : Follicular adenocarcinoma, well differentiated
+diagnosis	diagnosis	8332/3 : Follicular adenocarcinoma, trabecular
+diagnosis	diagnosis	8333/0 : Microfollicular adenoma, NOS
+diagnosis	diagnosis	8333/3 : Fetal adenocarcinoma
+diagnosis	diagnosis	8334/0 : Macrofollicular adenoma
+diagnosis	diagnosis	8335/1 : Follicular tumor of uncertain malignant potential
+diagnosis	diagnosis	8335/3 : Follicular carcinoma, minimally invasive
+diagnosis	diagnosis	8336/1 : Hyalinizing trabecular tumor
+diagnosis	diagnosis	8337/3 : Poorly differentiated thyroid carcinoma
+diagnosis	diagnosis	8339/3 : Follicular carcinoma, encapsulated, angioinvasive
+diagnosis	diagnosis	8340/3 : Papillary carcinoma, follicular variant
+diagnosis	diagnosis	8341/3 : Papillary microcarcinoma
+diagnosis	diagnosis	8342/3 : Papillary carcinoma, oncocytic variant
+diagnosis	diagnosis	8343/3 : Papillary carcinoma, encapsulated, of thyroid
+diagnosis	diagnosis	8344/3 : Papillary carcinoma, columnar cell
+diagnosis	diagnosis	8345/3 : Medullary thyroid carcinoma
+diagnosis	diagnosis	8346/3 : Mixed medullary-follicular carcinoma
+diagnosis	diagnosis	8347/3 : Mixed medullary-papillary carcinoma
+diagnosis	diagnosis	8348/1 : Well differentiated tumor of uncertain malignant potential
+diagnosis	diagnosis	8349/1 : Non-invasive follicular thyroid neoplasm with papillary-like nuclear features (NIFTP)
+diagnosis	diagnosis	8350/3 : Nonencapsulated sclerosing carcinoma
+diagnosis	diagnosis	8360/1 : Multiple endocrine adenomas
+diagnosis	diagnosis	8361/0 : Juxtaglomerular tumor
+diagnosis	diagnosis	8370/0 : Adrenal cortical adenoma, NOS
+diagnosis	diagnosis	8370/3 : Adrenal cortical carcinoma
+diagnosis	diagnosis	8371/0 : Adrenal cortical adenoma, compact cell
+diagnosis	diagnosis	8372/0 : Adrenal cortical adenoma, pigmented
+diagnosis	diagnosis	8373/0 : Adrenal cortical adenoma, clear cell
+diagnosis	diagnosis	8374/0 : Adrenal cortical adenoma, glomerulosa cell
+diagnosis	diagnosis	8375/0 : Adrenal cortical adenoma, mixed cell
+diagnosis	diagnosis	8380/0 : Endometrioid adenoma, NOS
+diagnosis	diagnosis	8380/1 : Endometrioid adenoma, borderline malignancy
+diagnosis	diagnosis	8380/2 : Endometrioid intraepithelial neoplasia
+diagnosis	diagnosis	8380/3 : Endometrioid adenocarcinoma, NOS
+diagnosis	diagnosis	8381/0 : Endometrioid adenofibroma, NOS
+diagnosis	diagnosis	8381/1 : Endometrioid adenofibroma, borderline malignancy
+diagnosis	diagnosis	8381/3 : Endometrioid adenofibroma, malignant
+diagnosis	diagnosis	8382/3 : Endometrioid adenocarcinoma, secretory variant
+diagnosis	diagnosis	8383/3 : Endometrioid adenocarcinoma, ciliated cell variant
+diagnosis	diagnosis	8384/3 : Adenocarcinoma, endocervical type, NOS
+diagnosis	diagnosis	8390/0 : Skin appendage adenoma
+diagnosis	diagnosis	8390/3 : Adnexal adenocarcinoma, NOS
+diagnosis	diagnosis	8391/0 : Follicular fibroma
+diagnosis	diagnosis	8392/0 : Syringofibroadenoma
+diagnosis	diagnosis	8400/0 : Sweat gland adenoma
+diagnosis	diagnosis	8400/1 : Sweat gland tumor, NOS
+diagnosis	diagnosis	8400/3 : Sweat gland adenocarcinoma
+diagnosis	diagnosis	8401/0 : Apocrine adenoma
+diagnosis	diagnosis	8401/3 : Apocrine adenocarcinoma
+diagnosis	diagnosis	8402/0 : Hidradenoma, NOS
+diagnosis	diagnosis	8402/3 : Hidradenocarcinoma
+diagnosis	diagnosis	8403/0 : Spiradenoma, NOS
+diagnosis	diagnosis	8403/3 : Malignant eccrine spiradenoma
+diagnosis	diagnosis	8404/0 : Hidrocystoma
+diagnosis	diagnosis	8405/0 : Papillary hidradenoma
+diagnosis	diagnosis	8406/0 : Syringocystadenoma papilliferum
+diagnosis	diagnosis	8406/3 : Syringocystadenocarcinoma papilliferum
+diagnosis	diagnosis	8407/0 : Syringoma, NOS
+diagnosis	diagnosis	8407/3 : Microcystic adnexal carcinoma
+diagnosis	diagnosis	8408/0 : Eccrine papillary adenoma
+diagnosis	diagnosis	8408/3 : Digital papillary adenocarcinoma
+diagnosis	diagnosis	8409/0 : Poroma, NOS
+diagnosis	diagnosis	8409/2 : Porocarcinoma in situ
+diagnosis	diagnosis	8409/3 : Porocarcinoma, NOS
+diagnosis	diagnosis	8410/0 : Sebaceoma
+diagnosis	diagnosis	8410/3 : Sebaceous carcinoma
+diagnosis	diagnosis	8413/3 : Eccrine adenocarcinoma
+diagnosis	diagnosis	8420/0 : Ceruminous adenoma
+diagnosis	diagnosis	8420/3 : Ceruminous adenocarcinoma
+diagnosis	diagnosis	8430/1 : Mucoepidermoid tumor
+diagnosis	diagnosis	8430/3 : Mucoepidermoid carcinoma
+diagnosis	diagnosis	8440/0 : Cystadenoma, NOS
+diagnosis	diagnosis	8440/3 : Cystadenocarcinoma, NOS
+diagnosis	diagnosis	8441/0 : Serous cystadenoma, NOS
+diagnosis	diagnosis	8441/2 : Serous intraepithelial carcinoma
+diagnosis	diagnosis	8441/3 : Serous carcinoma, NOS
+diagnosis	diagnosis	8442/1 : Serous borderline tumor, NOS
+diagnosis	diagnosis	8443/0 : Clear cell cystadenoma
+diagnosis	diagnosis	8450/0 : Papillary cystadenoma, NOS
+diagnosis	diagnosis	8450/3 : Papillary cystadenocarcinoma, NOS
+diagnosis	diagnosis	8451/1 : Papillary cystadenoma, borderline malignancy
+diagnosis	diagnosis	8452/1 : Solid pseudopapillary tumor of ovary
+diagnosis	diagnosis	8452/3 : Solid pseudopapillary neoplasm of pancreas
+diagnosis	diagnosis	8453/0 : Intraductal papillary mucinous adenoma
+diagnosis	diagnosis	8453/2 : Intraductal papillary mucinous neoplasm with high grade dysplasia
+diagnosis	diagnosis	8453/3 : Intraductal papillary mucinous neoplasm with an associated invasive carcinoma
+diagnosis	diagnosis	8454/0 : Cystic tumor of atrio-ventricular node
+diagnosis	diagnosis	8460/2 : Serous borderline tumor, micropapillary variant
+diagnosis	diagnosis	8460/3 : Low grade serous carcinoma
+diagnosis	diagnosis	8461/0 : Serous surface papilloma
+diagnosis	diagnosis	8461/3 : High grade serous carcinoma
+diagnosis	diagnosis	8470/0 : Mucinous cystadenoma, NOS
+diagnosis	diagnosis	8470/2 : Mucinous cystic neoplasm with high grade dysplasia
+diagnosis	diagnosis	8470/3 : Mucinous cystadenocarcinoma, NOS
+diagnosis	diagnosis	8472/1 : Mucinous cystic tumor of borderline malignancy
+diagnosis	diagnosis	8474/0 : Seromucinous cystadenoma
+diagnosis	diagnosis	8474/1 : Seromucinous borderline tumor
+diagnosis	diagnosis	8474/3 : Seromucinous carcinoma
+diagnosis	diagnosis	8480/0 : Mucinous adenoma
+diagnosis	diagnosis	8480/1 : Low grade appendiceal mucinous neoplasm
+diagnosis	diagnosis	8480/3 : Mucinous adenocarcinoma
+diagnosis	diagnosis	8480/6 : Pseudomyxoma peritonei
+diagnosis	diagnosis	8481/3 : Mucin-producing adenocarcinoma
+diagnosis	diagnosis	8482/3 : Mucinous carcinoma, gastric type
+diagnosis	diagnosis	8490/3 : Signet ring cell carcinoma
+diagnosis	diagnosis	8490/6 : Metastatic signet ring cell carcinoma
+diagnosis	diagnosis	8500/2 : Intraductal carcinoma, noninfiltrating, NOS
+diagnosis	diagnosis	8500/3 : Infiltrating duct carcinoma, NOS
+diagnosis	diagnosis	8501/2 : Comedocarcinoma, noninfiltrating
+diagnosis	diagnosis	8501/3 : Comedocarcinoma, NOS
+diagnosis	diagnosis	8502/3 : Secretory carcinoma
+diagnosis	diagnosis	8503/0 : Intraductal papilloma
+diagnosis	diagnosis	8503/2 : Noninfiltrating intraductal papillary adenocarcinoma
+diagnosis	diagnosis	8503/3 : Intraductal papillary adenocarcinoma with invasion
+diagnosis	diagnosis	8504/0 : Intracystic papillary adenoma
+diagnosis	diagnosis	8504/2 : Encapsulated papillary carcinoma
+diagnosis	diagnosis	8504/3 : Encapsulated papillary carcinoma with invasion
+diagnosis	diagnosis	8505/0 : Intraductal papillomatosis, NOS
+diagnosis	diagnosis	8506/0 : Adenoma of nipple
+diagnosis	diagnosis	8507/2 : Intraductal micropapillary carcinoma
+diagnosis	diagnosis	8507/3 : Invasive micropapillary carcinoma of breast
+diagnosis	diagnosis	8508/3 : Cystic hypersecretory carcinoma
+diagnosis	diagnosis	8509/2 : Solid papillary carcinoma in situ
+diagnosis	diagnosis	8509/3 : Solid papillary carcinoma with invasion
+diagnosis	diagnosis	8510/3 : Medullary carcinoma, NOS
+diagnosis	diagnosis	8512/3 : Medullary carcinoma with lymphoid stroma
+diagnosis	diagnosis	8513/3 : Atypical medullary carcinoma
+diagnosis	diagnosis	8514/3 : Duct carcinoma, desmoplastic type
+diagnosis	diagnosis	8519/2 : Lobular carcinoma in situ, pleomorphic
+diagnosis	diagnosis	8520/2 : Lobular carcinoma in situ, NOS
+diagnosis	diagnosis	8520/3 : Lobular carcinoma, NOS
+diagnosis	diagnosis	8521/3 : Infiltrating ductular carcinoma
+diagnosis	diagnosis	8522/2 : Intraductal carcinoma and lobular carcinoma in situ
+diagnosis	diagnosis	8522/3 : Infiltrating duct and lobular carcinoma
+diagnosis	diagnosis	8523/3 : Infiltrating duct mixed with other types of carcinoma
+diagnosis	diagnosis	8524/3 : Infiltrating lobular mixed with other types of carcinoma
+diagnosis	diagnosis	8525/3 : Polymorphous adenocarcinoma
+diagnosis	diagnosis	8530/3 : Inflammatory carcinoma
+diagnosis	diagnosis	8540/3 : Paget disease, mammary
+diagnosis	diagnosis	8541/3 : Paget disease and infiltrating duct carcinoma of breast
+diagnosis	diagnosis	8542/3 : Paget disease, extramammary
+diagnosis	diagnosis	8543/3 : Paget disease and intraductal carcinoma of breast
+diagnosis	diagnosis	8550/0 : Acinar cell adenoma
+diagnosis	diagnosis	8550/1 : Acinar cell tumor
+diagnosis	diagnosis	8550/3 : Acinar cell carcinoma
+diagnosis	diagnosis	8551/3 : Acinar cell cystadenocarcinoma
+diagnosis	diagnosis	8552/3 : Mixed acinar-ductal carcinoma
+diagnosis	diagnosis	8560/0 : Mixed squamous cell and glandular papilloma
+diagnosis	diagnosis	8560/3 : Adenosquamous carcinoma
+diagnosis	diagnosis	8561/0 : Adenolymphoma
+diagnosis	diagnosis	8562/3 : Epithelial-myoepithelial carcinoma
+diagnosis	diagnosis	8563/0 : Lymphadenoma
+diagnosis	diagnosis	8570/3 : Adenocarcinoma with squamous metaplasia
+diagnosis	diagnosis	8571/3 : Adenocarcinoma with cartilaginous and osseous metaplasia
+diagnosis	diagnosis	8572/3 : Adenocarcinoma with spindle cell metaplasia
+diagnosis	diagnosis	8573/3 : Adenocarcinoma with apocrine metaplasia
+diagnosis	diagnosis	8574/3 : Adenocarcinoma with neuroendocrine differentiation
+diagnosis	diagnosis	8575/3 : Metaplastic carcinoma, NOS
+diagnosis	diagnosis	8576/3 : Hepatoid adenocarcinoma
+diagnosis	diagnosis	8580/0 : Microscopic thymoma
+diagnosis	diagnosis	8580/1 : Micronodular thymoma with lymphoid stroma
+diagnosis	diagnosis	8580/3 : Thymoma, NOS
+diagnosis	diagnosis	8581/3 : Thymoma, type A
+diagnosis	diagnosis	8582/3 : Thymoma, type AB
+diagnosis	diagnosis	8583/3 : Thymoma, type B1
+diagnosis	diagnosis	8584/3 : Thymoma, type B2
+diagnosis	diagnosis	8585/3 : Thymoma, type B3
+diagnosis	diagnosis	8586/3 : Thymic carcinoma, NOS
+diagnosis	diagnosis	8587/0 : Ectopic hamartomatous thymoma
+diagnosis	diagnosis	8588/3 : Spindle epithelial tumor with thymus-like element
+diagnosis	diagnosis	8589/3 : Intrathyroid thymic carcinoma
+diagnosis	diagnosis	8590/0 : Sex cord-stromal tumor, benign
+diagnosis	diagnosis	8590/1 : Sex cord-gonadal stromal tumor, NOS
+diagnosis	diagnosis	8591/1 : Sex cord-gonadal stromal tumor, incompletely differentiated
+diagnosis	diagnosis	8592/1 : Sex cord-gonadal stromal tumor, mixed forms
+diagnosis	diagnosis	8593/1 : Stromal tumor with minor sex cord elements
+diagnosis	diagnosis	8594/1 : Mixed germ cell-sex cord-stromal tumor, NOS
+diagnosis	diagnosis	8600/0 : Thecoma, NOS
+diagnosis	diagnosis	8600/3 : Thecoma, malignant
+diagnosis	diagnosis	8601/0 : Thecoma, luteinized
+diagnosis	diagnosis	8602/0 : Sclerosing stromal tumor
+diagnosis	diagnosis	8610/0 : Luteoma, NOS
+diagnosis	diagnosis	8620/1 : Granulosa cell tumor, NOS
+diagnosis	diagnosis	8620/3 : Granulosa cell tumor, malignant
+diagnosis	diagnosis	8621/1 : Granulosa cell-theca cell tumor
+diagnosis	diagnosis	8622/0 : Granulosa cell tumor of testis, juvenile
+diagnosis	diagnosis	8622/1 : Granulosa cell tumor, juvenile
+diagnosis	diagnosis	8623/1 : Sex cord tumor with annular tubules
+diagnosis	diagnosis	8630/0 : Androblastoma, benign
+diagnosis	diagnosis	8630/1 : Androblastoma, NOS
+diagnosis	diagnosis	8630/3 : Androblastoma, malignant
+diagnosis	diagnosis	8631/0 : Sertoli-Leydig cell tumor, well differentiated
+diagnosis	diagnosis	8631/1 : Sertoli-Leydig cell tumor of intermediate differentiation, NOS
+diagnosis	diagnosis	8631/3 : Sertoli-Leydig cell tumor, poorly differentiated
+diagnosis	diagnosis	8632/1 : Gynandroblastoma
+diagnosis	diagnosis	8633/1 : Sertoli-Leydig cell tumor, retiform
+diagnosis	diagnosis	8634/1 : Sertoli-Leydig cell tumor, intermediate differentiation, with heterologous elements
+diagnosis	diagnosis	8634/3 : Sertoli-Leydig cell tumor, poorly differentiated, with heterologous elements
+diagnosis	diagnosis	8640/1 : Sertoli cell tumor, NOS
+diagnosis	diagnosis	8640/3 : Sertoli cell carcinoma
+diagnosis	diagnosis	8641/0 : Sertoli cell tumor with lipid storage
+diagnosis	diagnosis	8642/1 : Large cell calcifying Sertoli cell tumor
+diagnosis	diagnosis	8643/1 : Intratubular large cell hyalinizing Sertoli cell neoplasia
+diagnosis	diagnosis	8650/0 : Interstitial cell tumor, benign
+diagnosis	diagnosis	8650/0 : Leydig cell tumor, benign
+diagnosis	diagnosis	8650/1 : Interstitial cell tumor, NOS
+diagnosis	diagnosis	8650/1 : Leydig cell tumor, NOS
+diagnosis	diagnosis	8650/3 : Interstitial cell tumor, malignant
+diagnosis	diagnosis	8650/3 : Leydig cell tumor, malignant
+diagnosis	diagnosis	8660/0 : Hilus cell tumor
+diagnosis	diagnosis	8670/0 : Lipid cell tumor of ovary
+diagnosis	diagnosis	8670/3 : Steroid cell tumor, malignant
+diagnosis	diagnosis	8671/0 : Adrenal rest tumor
+diagnosis	diagnosis	8680/1 : Paraganglioma, NOS
+diagnosis	diagnosis	8680/3 : Paraganglioma, malignant
+diagnosis	diagnosis	8681/3 : Sympathetic paraganglioma
+diagnosis	diagnosis	8682/3 : Parasympathetic paraganglioma
+diagnosis	diagnosis	8683/0 : Gangliocytic paraganglioma
+diagnosis	diagnosis	8690/3 : Middle ear paraganglioma
+diagnosis	diagnosis	8691/3 : Aortic body tumor
+diagnosis	diagnosis	8692/3 : Carotid body paraganglioma
+diagnosis	diagnosis	8693/3 : Extra-adrenal paraganglioma, NOS
+diagnosis	diagnosis	8700/0 : Pheochromocytoma, NOS
+diagnosis	diagnosis	8700/3 : Pheochromocytoma, NOS
+diagnosis	diagnosis	8710/3 : Glomangiosarcoma
+diagnosis	diagnosis	8711/0 : Glomus tumor, NOS
+diagnosis	diagnosis	8711/1 : Glomangiomatosis
+diagnosis	diagnosis	8711/3 : Glomus tumor, malignant
+diagnosis	diagnosis	8712/0 : Glomangioma
+diagnosis	diagnosis	8713/0 : Glomangiomyoma
+diagnosis	diagnosis	8714/0 : Perivascular epithelioid tumor, benign
+diagnosis	diagnosis	8714/3 : Perivascular epithelioid tumor, malignant
+diagnosis	diagnosis	8720/0 : Pigmented nevus, NOS
+diagnosis	diagnosis	8720/2 : Melanoma in situ
+diagnosis	diagnosis	8720/3 : Malignant melanoma, NOS
+diagnosis	diagnosis	8721/3 : Nodular melanoma
+diagnosis	diagnosis	8722/0 : Balloon cell nevus
+diagnosis	diagnosis	8722/3 : Balloon cell melanoma
+diagnosis	diagnosis	8723/0 : Halo nevus
+diagnosis	diagnosis	8723/3 : Malignant melanoma, regressing
+diagnosis	diagnosis	8725/0 : Neuronevus
+diagnosis	diagnosis	8726/0 : Magnocellular nevus
+diagnosis	diagnosis	8727/0 : Dysplastic nevus
+diagnosis	diagnosis	8728/0 : Meningeal melanocytosis
+diagnosis	diagnosis	8728/1 : Meningeal melanocytoma
+diagnosis	diagnosis	8728/3 : Meningeal melanomatosis
+diagnosis	diagnosis	8730/0 : Nonpigmented nevus
+diagnosis	diagnosis	8730/3 : Amelanotic melanoma
+diagnosis	diagnosis	8740/0 : Junctional nevus, NOS
+diagnosis	diagnosis	8740/3 : Malignant melanoma in junctional nevus
+diagnosis	diagnosis	8741/2 : Precancerous melanosis, NOS
+diagnosis	diagnosis	8741/3 : Malignant melanoma in precancerous melanosis
+diagnosis	diagnosis	8742/0 : Lentiginous melanocytic nevus
+diagnosis	diagnosis	8742/2 : Lentigo maligna
+diagnosis	diagnosis	8742/3 : Lentigo maligna melanoma
+diagnosis	diagnosis	8743/3 : Low cumulative sun damage melanoma
+diagnosis	diagnosis	8744/0 : Acral nevus
+diagnosis	diagnosis	8744/3 : Acral melanoma
+diagnosis	diagnosis	8745/3 : Desmoplastic melanoma, NOS
+diagnosis	diagnosis	8746/3 : Mucosal lentiginous melanoma
+diagnosis	diagnosis	8750/0 : Dermal nevus
+diagnosis	diagnosis	8760/0 : Compound nevus
+diagnosis	diagnosis	8761/0 : Congenital melanocytic nevus, NOS
+diagnosis	diagnosis	8761/1 : Giant pigmented nevus, NOS
+diagnosis	diagnosis	8761/3 : Malignant melanoma arising in giant congenital nevus
+diagnosis	diagnosis	8762/1 : Proliferative dermal lesion in congenital nevus
+diagnosis	diagnosis	8770/0 : Epithelioid and spindle cell nevus
+diagnosis	diagnosis	8770/3 : Malignant Spitz tumor
+diagnosis	diagnosis	8771/0 : Epithelioid cell nevus
+diagnosis	diagnosis	8771/3 : Epithelioid cell melanoma
+diagnosis	diagnosis	8772/0 : Spindle cell nevus, NOS
+diagnosis	diagnosis	8772/3 : Spindle cell melanoma, NOS
+diagnosis	diagnosis	8773/3 : Spindle cell melanoma, type A
+diagnosis	diagnosis	8774/3 : Spindle cell melanoma, type B
+diagnosis	diagnosis	8780/0 : Blue nevus, NOS
+diagnosis	diagnosis	8780/1 : Pigmented epithelioid melanocytoma
+diagnosis	diagnosis	8780/3 : Blue nevus, malignant
+diagnosis	diagnosis	8790/0 : Cellular blue nevus
+diagnosis	diagnosis	8800/0 : Soft tissue tumor, benign
+diagnosis	diagnosis	8800/3 : Sarcoma, NOS
+diagnosis	diagnosis	8800/9 : Sarcomatosis, NOS
+diagnosis	diagnosis	8801/3 : Spindle cell sarcoma
+diagnosis	diagnosis	8802/1 : Pleomorphic hyalinizing angiectatic tumor
+diagnosis	diagnosis	8802/3 : Giant cell sarcoma
+diagnosis	diagnosis	8803/3 : Small cell sarcoma
+diagnosis	diagnosis	8804/3 : Epithelioid sarcoma, NOS
+diagnosis	diagnosis	8805/3 : Undifferentiated sarcoma
+diagnosis	diagnosis	8806/3 : Desmoplastic small round cell tumor
+diagnosis	diagnosis	8810/0 : Fibroma, NOS
+diagnosis	diagnosis	8810/1 : Cellular fibroma
+diagnosis	diagnosis	8810/3 : Fibrosarcoma, NOS
+diagnosis	diagnosis	8811/0 : Fibromyxoma, NOS
+diagnosis	diagnosis	8811/1 : Myxoinflammatory fibroblastic sarcoma
+diagnosis	diagnosis	8811/3 : Myxofibrosarcoma
+diagnosis	diagnosis	8812/0 : Periosteal fibroma
+diagnosis	diagnosis	8812/3 : Periosteal fibrosarcoma
+diagnosis	diagnosis	8813/0 : Fibroma of tendon sheath
+diagnosis	diagnosis	8813/1 : Palmar/plantar type fibromatosis
+diagnosis	diagnosis	8813/3 : Fascial fibrosarcoma
+diagnosis	diagnosis	8814/3 : Infantile fibrosarcoma
+diagnosis	diagnosis	8815/0 : Solitary fibrous tumor/Hemangiopericytoma, grade 1
+diagnosis	diagnosis	8815/1 : Solitary fibrous tumor, NOS
+diagnosis	diagnosis	8815/3 : Solitary fibrous tumor, malignant
+diagnosis	diagnosis	8816/0 : Calcifying aponeurotic fibroma
+diagnosis	diagnosis	8817/0 : Calcifying fibrous tumor
+diagnosis	diagnosis	8818/0 : Fibrous dysplasia
+diagnosis	diagnosis	8820/0 : Elastofibroma
+diagnosis	diagnosis	8821/1 : Aggressive fibromatosis
+diagnosis	diagnosis	8822/1 : Abdominal fibromatosis
+diagnosis	diagnosis	8823/0 : Sclerotic fibroma
+diagnosis	diagnosis	8823/1 : Desmoplastic fibroma
+diagnosis	diagnosis	8824/0 : Myofibroma
+diagnosis	diagnosis	8824/1 : Myofibromatosis
+diagnosis	diagnosis	8825/0 : Myofibroblastoma
+diagnosis	diagnosis	8825/1 : Myofibroblastic tumor, NOS
+diagnosis	diagnosis	8825/3 : Myofibroblastic sarcoma
+diagnosis	diagnosis	8826/0 : Angiomyofibroblastoma
+diagnosis	diagnosis	8827/1 : Myofibroblastic tumor, peribronchial
+diagnosis	diagnosis	8828/0 : Nodular fasciitis
+diagnosis	diagnosis	8830/0 : Benign fibrous histiocytoma, NOS
+diagnosis	diagnosis	8830/1 : Atypical fibrous histiocytoma
+diagnosis	diagnosis	8830/3 : Malignant fibrous histiocytoma
+diagnosis	diagnosis	8831/0 : Histiocytoma, NOS
+diagnosis	diagnosis	8832/0 : Dermatofibroma, NOS
+diagnosis	diagnosis	8832/1 : Dermatofibrosarcoma protuberans, NOS
+diagnosis	diagnosis	8832/3 : Dermatofibrosarcoma protuberans, fibrosarcomatous
+diagnosis	diagnosis	8833/1 : Pigmented dermatofibrosarcoma protuberans
+diagnosis	diagnosis	8833/3 : Pigmented dermatofibrosarcoma protuberans
+diagnosis	diagnosis	8834/1 : Giant cell fibroblastoma
+diagnosis	diagnosis	8835/1 : Plexiform fibrohistiocytic tumor
+diagnosis	diagnosis	8836/1 : Angiomatoid fibrous histiocytoma
+diagnosis	diagnosis	8840/0 : Myxoma, NOS
+diagnosis	diagnosis	8840/3 : Myxosarcoma
+diagnosis	diagnosis	8841/0 : Angiomyxoma, NOS
+diagnosis	diagnosis	8842/0 : Ossifying fibromyxoid tumor, NOS
+diagnosis	diagnosis	8842/3 : Ossifying fibromyxoid tumor, malignant
+diagnosis	diagnosis	8850/0 : Lipoma, NOS
+diagnosis	diagnosis	8850/1 : Atypical lipomatous tumor
+diagnosis	diagnosis	8850/3 : Liposarcoma, NOS
+diagnosis	diagnosis	8851/0 : Fibrolipoma
+diagnosis	diagnosis	8851/1 : Lipofibromatosis
+diagnosis	diagnosis	8851/3 : Liposarcoma, well differentiated, NOS
+diagnosis	diagnosis	8852/0 : Fibromyxolipoma
+diagnosis	diagnosis	8852/3 : Myxoid liposarcoma
+diagnosis	diagnosis	8853/3 : Round cell liposarcoma
+diagnosis	diagnosis	8854/0 : Pleomorphic lipoma
+diagnosis	diagnosis	8854/3 : Pleomorphic liposarcoma
+diagnosis	diagnosis	8855/3 : Mixed liposarcoma
+diagnosis	diagnosis	8856/0 : Intramuscular lipoma
+diagnosis	diagnosis	8857/0 : Spindle cell lipoma
+diagnosis	diagnosis	8857/3 : Fibroblastic liposarcoma
+diagnosis	diagnosis	8858/3 : Dedifferentiated liposarcoma
+diagnosis	diagnosis	8860/0 : Angiomyolipoma
+diagnosis	diagnosis	8860/1 : Angiomyolipoma, epithelioid
+diagnosis	diagnosis	8861/0 : Angiolipoma, NOS
+diagnosis	diagnosis	8862/0 : Chondroid lipoma
+diagnosis	diagnosis	8870/0 : Myelolipoma
+diagnosis	diagnosis	8880/0 : Hibernoma
+diagnosis	diagnosis	8881/0 : Lipoblastomatosis
+diagnosis	diagnosis	8890/0 : Leiomyoma, NOS
+diagnosis	diagnosis	8890/1 : Leiomyomatosis, NOS
+diagnosis	diagnosis	8890/3 : Leiomyosarcoma, NOS
+diagnosis	diagnosis	8891/0 : Epithelioid leiomyoma
+diagnosis	diagnosis	8891/3 : Epithelioid leiomyosarcoma
+diagnosis	diagnosis	8892/0 : Cellular leiomyoma
+diagnosis	diagnosis	8893/0 : Bizarre leiomyoma
+diagnosis	diagnosis	8894/0 : Angioleiomyoma
+diagnosis	diagnosis	8894/3 : Angiomyosarcoma
+diagnosis	diagnosis	8895/0 : Myoma
+diagnosis	diagnosis	8895/3 : Myosarcoma
+diagnosis	diagnosis	8896/0 : Myxoid leiomyoma
+diagnosis	diagnosis	8896/3 : Myxoid leiomyosarcoma
+diagnosis	diagnosis	8897/1 : Smooth muscle tumor of uncertain malignant potential
+diagnosis	diagnosis	8898/1 : Metastasizing leiomyoma
+diagnosis	diagnosis	8900/0 : Rhabdomyoma, NOS
+diagnosis	diagnosis	8900/3 : Rhabdomyosarcoma, NOS
+diagnosis	diagnosis	8901/3 : Pleomorphic rhabdomyosarcoma, adult type
+diagnosis	diagnosis	8902/3 : Mixed type rhabdomyosarcoma
+diagnosis	diagnosis	8903/0 : Fetal rhabdomyoma
+diagnosis	diagnosis	8904/0 : Adult cellular rhabdomyoma
+diagnosis	diagnosis	8905/0 : Genital rhabdomyoma
+diagnosis	diagnosis	8910/3 : Embryonal rhabdomyosarcoma, NOS
+diagnosis	diagnosis	8912/3 : Spindle cell rhabdomyosarcoma
+diagnosis	diagnosis	8920/3 : Alveolar rhabdomyosarcoma
+diagnosis	diagnosis	8921/3 : Ectomesenchymoma
+diagnosis	diagnosis	8930/0 : Endometrial stromal nodule
+diagnosis	diagnosis	8930/3 : Endometrial stromal sarcoma, NOS
+diagnosis	diagnosis	8931/3 : Endometrial stromal sarcoma, low grade
+diagnosis	diagnosis	8932/0 : Adenomyoma, NOS
+diagnosis	diagnosis	8933/3 : Adenosarcoma
+diagnosis	diagnosis	8934/3 : Carcinofibroma
+diagnosis	diagnosis	8935/0 : Stromal tumor, benign
+diagnosis	diagnosis	8935/1 : Stromal tumor, NOS
+diagnosis	diagnosis	8935/3 : Stromal sarcoma, NOS
+diagnosis	diagnosis	8936/0 : Gastrointestinal stromal tumor, benign
+diagnosis	diagnosis	8936/1 : Gastrointestinal stromal tumor, NOS
+diagnosis	diagnosis	8936/3 : Gastrointestinal stromal tumor
+diagnosis	diagnosis	8940/0 : Pleomorphic adenoma
+diagnosis	diagnosis	8940/3 : Mixed tumor, malignant, NOS
+diagnosis	diagnosis	8941/3 : Carcinoma ex pleomorphic adenoma
+diagnosis	diagnosis	8950/3 : Mullerian mixed tumor
+diagnosis	diagnosis	8951/3 : Mesodermal mixed tumor
+diagnosis	diagnosis	8959/0 : Benign cystic nephroma
+diagnosis	diagnosis	8959/1 : Cystic partially differentiated nephroblastoma
+diagnosis	diagnosis	8959/3 : Malignant cystic nephroma
+diagnosis	diagnosis	8960/1 : Mesoblastic nephroma
+diagnosis	diagnosis	8960/3 : Nephroblastoma, NOS
+diagnosis	diagnosis	8963/3 : Rhabdoid tumor, NOS
+diagnosis	diagnosis	8964/3 : Clear cell sarcoma of kidney
+diagnosis	diagnosis	8966/0 : Renomedullary interstitial cell tumor
+diagnosis	diagnosis	8967/0 : Ossifying renal tumor
+diagnosis	diagnosis	8970/3 : Hepatoblastoma, NOS
+diagnosis	diagnosis	8971/3 : Pancreatoblastoma
+diagnosis	diagnosis	8972/3 : Pulmonary blastoma
+diagnosis	diagnosis	8973/3 : Pleuropulmonary blastoma
+diagnosis	diagnosis	8974/1 : Sialoblastoma
+diagnosis	diagnosis	8975/1 : Calcifying nested stromal-epithelial tumor
+diagnosis	diagnosis	8980/3 : Carcinosarcoma, NOS
+diagnosis	diagnosis	8981/3 : Carcinosarcoma, embryonal
+diagnosis	diagnosis	8982/0 : Myoepithelioma, NOS
+diagnosis	diagnosis	8982/3 : Myoepithelial carcinoma
+diagnosis	diagnosis	8983/0 : Adenomyoepithelioma, NOS
+diagnosis	diagnosis	8983/3 : Adenomyoepithelioma with carcinoma
+diagnosis	diagnosis	8990/0 : Mesenchymoma, benign
+diagnosis	diagnosis	8990/1 : Mesenchymoma, NOS
+diagnosis	diagnosis	8990/3 : Mesenchymoma, malignant
+diagnosis	diagnosis	8991/3 : Embryonal sarcoma
+diagnosis	diagnosis	8992/0 : Pulmonary hamartoma
+diagnosis	diagnosis	9000/0 : Brenner tumor, NOS
+diagnosis	diagnosis	9000/1 : Brenner tumor, borderline malignancy
+diagnosis	diagnosis	9000/3 : Brenner tumor, malignant
+diagnosis	diagnosis	9010/0 : Fibroadenoma, NOS
+diagnosis	diagnosis	9011/0 : Intracanalicular fibroadenoma
+diagnosis	diagnosis	9012/0 : Pericanalicular fibroadenoma
+diagnosis	diagnosis	9013/0 : Adenofibroma, NOS
+diagnosis	diagnosis	9014/0 : Serous adenofibroma, NOS
+diagnosis	diagnosis	9014/1 : Serous adenofibroma of borderline malignancy
+diagnosis	diagnosis	9014/3 : Serous adenocarcinofibroma
+diagnosis	diagnosis	9015/0 : Mucinous adenofibroma, NOS
+diagnosis	diagnosis	9015/1 : Mucinous adenofibroma of borderline malignancy
+diagnosis	diagnosis	9015/3 : Mucinous adenocarcinofibroma
+diagnosis	diagnosis	9016/0 : Giant fibroadenoma
+diagnosis	diagnosis	9020/0 : Phyllodes tumor, benign
+diagnosis	diagnosis	9020/1 : Phyllodes tumor, borderline
+diagnosis	diagnosis	9020/3 : Phyllodes tumor, malignant
+diagnosis	diagnosis	9030/0 : Juvenile fibroadenoma
+diagnosis	diagnosis	9040/0 : Synovioma, benign
+diagnosis	diagnosis	9040/3 : Synovial sarcoma, NOS
+diagnosis	diagnosis	9041/3 : Synovial sarcoma, spindle cell
+diagnosis	diagnosis	9042/3 : Synovial sarcoma, epithelioid cell
+diagnosis	diagnosis	9043/3 : Synovial sarcoma, biphasic
+diagnosis	diagnosis	9044/3 : Clear cell sarcoma, NOS
+diagnosis	diagnosis	9045/3 : Biphenotypic sinonasal sarcoma
+diagnosis	diagnosis	9050/0 : Mesothelioma, benign
+diagnosis	diagnosis	9050/3 : Mesothelioma, malignant
+diagnosis	diagnosis	9051/0 : Fibrous mesothelioma, benign
+diagnosis	diagnosis	9051/3 : Fibrous mesothelioma, malignant
+diagnosis	diagnosis	9052/0 : Epithelioid mesothelioma, benign
+diagnosis	diagnosis	9052/1 : Well differentiated papillary mesothelioma of pleura
+diagnosis	diagnosis	9052/3 : Epithelioid mesothelioma, malignant
+diagnosis	diagnosis	9053/3 : Mesothelioma, biphasic, malignant
+diagnosis	diagnosis	9054/0 : Adenomatoid tumor, NOS
+diagnosis	diagnosis	9055/0 : Peritoneal inclusion cysts
+diagnosis	diagnosis	9060/3 : Dysgerminoma
+diagnosis	diagnosis	9061/3 : Seminoma, NOS
+diagnosis	diagnosis	9062/3 : Seminoma, anaplastic
+diagnosis	diagnosis	9063/3 : Spermatocytic seminoma
+diagnosis	diagnosis	9064/2 : Intratubular malignant germ cells
+diagnosis	diagnosis	9064/3 : Germinoma
+diagnosis	diagnosis	9065/3 : Germ cell tumor, nonseminomatous
+diagnosis	diagnosis	9070/3 : Embryonal carcinoma, NOS
+diagnosis	diagnosis	9071/3 : Yolk sac tumor, NOS
+diagnosis	diagnosis	9072/3 : Polyembryoma
+diagnosis	diagnosis	9073/1 : Gonadoblastoma
+diagnosis	diagnosis	9080/0 : Teratoma, benign
+diagnosis	diagnosis	9080/1 : Teratoma, NOS
+diagnosis	diagnosis	9080/3 : Teratoma, malignant, NOS
+diagnosis	diagnosis	9081/3 : Teratocarcinoma
+diagnosis	diagnosis	9082/3 : Malignant teratoma, undifferentiated
+diagnosis	diagnosis	9083/3 : Malignant teratoma, intermediate
+diagnosis	diagnosis	9084/0 : Dermoid cyst, NOS
+diagnosis	diagnosis	9084/3 : Teratoma with malignant transformation
+diagnosis	diagnosis	9085/3 : Mixed germ cell tumor
+diagnosis	diagnosis	9086/3 : Germ cell tumor with associated hematological malignancy
+diagnosis	diagnosis	9090/0 : Struma ovarii, NOS
+diagnosis	diagnosis	9090/3 : Struma ovarii, malignant
+diagnosis	diagnosis	9091/1 : Strumal carcinoid
+diagnosis	diagnosis	9100/0 : Hydatidiform mole, NOS
+diagnosis	diagnosis	9100/1 : Invasive hydatidiform mole
+diagnosis	diagnosis	9100/3 : Choriocarcinoma, NOS
+diagnosis	diagnosis	9101/3 : Choriocarcinoma combined with other germ cell elements
+diagnosis	diagnosis	9102/3 : Malignant teratoma, trophoblastic
+diagnosis	diagnosis	9103/0 : Partial hydatidiform mole
+diagnosis	diagnosis	9104/1 : Placental site trophoblastic tumor
+diagnosis	diagnosis	9105/3 : Trophoblastic tumor, epithelioid
+diagnosis	diagnosis	9110/0 : Adenoma of rete ovarii
+diagnosis	diagnosis	9110/1 : Wolffian tumor
+diagnosis	diagnosis	9110/3 : Mesonephroma, malignant
+diagnosis	diagnosis	9120/0 : Hemangioma, NOS
+diagnosis	diagnosis	9120/3 : Hemangiosarcoma
+diagnosis	diagnosis	9121/0 : Cavernous hemangioma
+diagnosis	diagnosis	9122/0 : Venous hemangioma
+diagnosis	diagnosis	9123/0 : Racemose hemangioma
+diagnosis	diagnosis	9124/3 : Kupffer cell sarcoma
+diagnosis	diagnosis	9125/0 : Epithelioid hemangioma
+diagnosis	diagnosis	9126/0 : Atypical vascular lesion
+diagnosis	diagnosis	9130/0 : Hemangioendothelioma, benign
+diagnosis	diagnosis	9130/1 : Hemangioendothelioma, NOS
+diagnosis	diagnosis	9130/3 : Hemangioendothelioma, malignant
+diagnosis	diagnosis	9131/0 : Capillary hemangioma
+diagnosis	diagnosis	9132/0 : Intramuscular hemangioma
+diagnosis	diagnosis	9133/1 : Epithelioid hemangioendothelioma, NOS
+diagnosis	diagnosis	9133/3 : Epithelioid hemangioendothelioma, NOS
+diagnosis	diagnosis	9135/1 : Papillary intralymphatic angioendothelioma
+diagnosis	diagnosis	9136/1 : Spindle cell hemangioendothelioma
+diagnosis	diagnosis	9137/0 : Myointimoma
+diagnosis	diagnosis	9137/3 : Intimal sarcoma
+diagnosis	diagnosis	9138/1 : Pseudomyogenic (epithelioid sarcoma-like) hemangioendothelioma
+diagnosis	diagnosis	9140/3 : Kaposi sarcoma
+diagnosis	diagnosis	9141/0 : Angiokeratoma
+diagnosis	diagnosis	9142/0 : Verrucous keratotic hemangioma
+diagnosis	diagnosis	9160/0 : Angiofibroma, NOS
+diagnosis	diagnosis	9161/0 : Acquired tufted hemangioma
+diagnosis	diagnosis	9161/1 : Hemangioblastoma
+diagnosis	diagnosis	9170/0 : Lymphangioma, NOS
+diagnosis	diagnosis	9170/3 : Lymphangiosarcoma
+diagnosis	diagnosis	9171/0 : Capillary lymphangioma
+diagnosis	diagnosis	9172/0 : Cavernous lymphangioma
+diagnosis	diagnosis	9173/0 : Cystic lymphangioma
+diagnosis	diagnosis	9174/0 : Lymphangiomyoma
+diagnosis	diagnosis	9174/1 : Lymphangioleiomyomatosis
+diagnosis	diagnosis	9175/0 : Hemolymphangioma
+diagnosis	diagnosis	9180/0 : Osteoma, NOS
+diagnosis	diagnosis	9180/3 : Osteosarcoma, NOS
+diagnosis	diagnosis	9181/3 : Chondroblastic osteosarcoma
+diagnosis	diagnosis	9182/3 : Fibroblastic osteosarcoma
+diagnosis	diagnosis	9183/3 : Telangiectatic osteosarcoma
+diagnosis	diagnosis	9184/3 : Osteosarcoma in Paget disease of bone
+diagnosis	diagnosis	9185/3 : Small cell osteosarcoma
+diagnosis	diagnosis	9186/3 : Central osteosarcoma, NOS
+diagnosis	diagnosis	9187/3 : Low grade central osteosarcoma
+diagnosis	diagnosis	9191/0 : Osteoid osteoma, NOS
+diagnosis	diagnosis	9192/3 : Parosteal osteosarcoma
+diagnosis	diagnosis	9193/3 : Periosteal osteosarcoma
+diagnosis	diagnosis	9194/3 : High grade surface osteosarcoma
+diagnosis	diagnosis	9195/3 : Intracortical osteosarcoma
+diagnosis	diagnosis	9200/0 : Osteoblastoma, NOS
+diagnosis	diagnosis	9200/1 : Aggressive osteoblastoma
+diagnosis	diagnosis	9210/0 : Osteochondroma
+diagnosis	diagnosis	9210/1 : Osteochondromatosis, NOS
+diagnosis	diagnosis	9211/0 : Osteochondromyxoma
+diagnosis	diagnosis	9212/0 : Bizarre parosteal osteochondromatous proliferation
+diagnosis	diagnosis	9213/0 : Subungual exostosis
+diagnosis	diagnosis	9220/0 : Chondroma, NOS
+diagnosis	diagnosis	9220/1 : Chondromatosis, NOS
+diagnosis	diagnosis	9220/3 : Chondrosarcoma, NOS
+diagnosis	diagnosis	9221/0 : Periosteal chondroma
+diagnosis	diagnosis	9221/3 : Periosteal chondrosarcoma
+diagnosis	diagnosis	9222/1 : Atypical cartilaginous tumor
+diagnosis	diagnosis	9230/1 : Chondroblastoma, NOS
+diagnosis	diagnosis	9230/3 : Chondroblastoma, malignant
+diagnosis	diagnosis	9231/3 : Myxoid chondrosarcoma
+diagnosis	diagnosis	9240/3 : Mesenchymal chondrosarcoma
+diagnosis	diagnosis	9241/0 : Chondromyxoid fibroma
+diagnosis	diagnosis	9242/3 : Clear cell chondrosarcoma
+diagnosis	diagnosis	9243/3 : Dedifferentiated chondrosarcoma
+diagnosis	diagnosis	9250/1 : Giant cell tumor of bone, NOS
+diagnosis	diagnosis	9250/3 : Giant cell tumor of bone, malignant
+diagnosis	diagnosis	9251/1 : Giant cell tumor of soft parts, NOS
+diagnosis	diagnosis	9251/3 : Malignant giant cell tumor of soft parts
+diagnosis	diagnosis	9252/0 : Tenosynovial giant cell tumor, NOS
+diagnosis	diagnosis	9252/1 : Tenosynovial giant cell tumor, diffuse
+diagnosis	diagnosis	9252/3 : Malignant tenosynovial giant cell tumor
+diagnosis	diagnosis	9260/0 : Aneurysmal bone cyst
+diagnosis	diagnosis	9260/3 : Ewing sarcoma
+diagnosis	diagnosis	9261/3 : Adamantinoma of long bones
+diagnosis	diagnosis	9262/0 : Ossifying fibroma
+diagnosis	diagnosis	9270/0 : Odontogenic tumor, benign
+diagnosis	diagnosis	9270/1 : Odontogenic tumor, NOS
+diagnosis	diagnosis	9270/3 : Odontogenic tumor, malignant
+diagnosis	diagnosis	9271/0 : Ameloblastic fibrodentinoma
+diagnosis	diagnosis	9272/0 : Cementoma, NOS
+diagnosis	diagnosis	9273/0 : Cementoblastoma, benign
+diagnosis	diagnosis	9274/0 : Cemento-ossifying fibroma
+diagnosis	diagnosis	9275/0 : Gigantiform cementoma
+diagnosis	diagnosis	9280/0 : Odontoma, NOS
+diagnosis	diagnosis	9281/0 : Compound odontoma
+diagnosis	diagnosis	9282/0 : Complex odontoma
+diagnosis	diagnosis	9290/0 : Ameloblastic fibro-odontoma
+diagnosis	diagnosis	9290/3 : Ameloblastic odontosarcoma
+diagnosis	diagnosis	9300/0 : Adenomatoid odontogenic tumor
+diagnosis	diagnosis	9301/0 : Calcifying odontogenic cyst
+diagnosis	diagnosis	9302/0 : Dentinogenic ghost cell tumor
+diagnosis	diagnosis	9302/3 : Ghost cell odontogenic carcinoma
+diagnosis	diagnosis	9310/0 : Ameloblastoma, NOS
+diagnosis	diagnosis	9310/3 : Ameloblastoma, metastasizing
+diagnosis	diagnosis	9311/0 : Odontoameloblastoma
+diagnosis	diagnosis	9312/0 : Squamous odontogenic tumor
+diagnosis	diagnosis	9320/0 : Odontogenic myxoma
+diagnosis	diagnosis	9321/0 : Odontogenic fibroma, NOS
+diagnosis	diagnosis	9322/0 : Peripheral odontogenic fibroma
+diagnosis	diagnosis	9330/0 : Ameloblastic fibroma
+diagnosis	diagnosis	9330/3 : Ameloblastic fibrosarcoma
+diagnosis	diagnosis	9340/0 : Calcifying epithelial odontogenic tumor
+diagnosis	diagnosis	9341/3 : Clear cell odontogenic carcinoma
+diagnosis	diagnosis	9342/3 : Odontogenic Carcinosarcoma
+diagnosis	diagnosis	9350/1 : Craniopharyngioma, NOS
+diagnosis	diagnosis	9351/1 : Craniopharyngioma, adamantinomatous
+diagnosis	diagnosis	9352/1 : Craniopharyngioma, papillary
+diagnosis	diagnosis	9360/1 : Pinealoma
+diagnosis	diagnosis	9361/1 : Pineocytoma
+diagnosis	diagnosis	9362/3 : Pineoblastoma
+diagnosis	diagnosis	9363/0 : Melanotic neuroectodermal tumor
+diagnosis	diagnosis	9364/3 : Ewing sarcoma
+diagnosis	diagnosis	9365/3 : Askin tumor
+diagnosis	diagnosis	9370/0 : Benign notochordal cell tumor
+diagnosis	diagnosis	9370/3 : Chordoma, NOS
+diagnosis	diagnosis	9371/3 : Chondroid chordoma
+diagnosis	diagnosis	9372/3 : Dedifferentiated chordoma
+diagnosis	diagnosis	9373/0 : Parachordoma
+diagnosis	diagnosis	9380/3 : Glioma, malignant
+diagnosis	diagnosis	9381/3 : Gliomatosis cerebri
+diagnosis	diagnosis	9382/3 : Oligoastrocytoma, NOS
+diagnosis	diagnosis	9383/1 : Subependymoma
+diagnosis	diagnosis	9384/1 : Subependymal giant cell astrocytoma
+diagnosis	diagnosis	9385/3 : Diffuse midline glioma, H3 K27M-mutant
+diagnosis	diagnosis	9390/0 : Choroid plexus papilloma, NOS
+diagnosis	diagnosis	9390/1 : Atypical choroid plexus papilloma
+diagnosis	diagnosis	9390/3 : Choroid plexus carcinoma
+diagnosis	diagnosis	9391/1 : Sellar ependymoma
+diagnosis	diagnosis	9391/3 : Ependymoma, NOS
+diagnosis	diagnosis	9392/3 : Ependymoma, anaplastic
+diagnosis	diagnosis	9393/3 : Papillary ependymoma
+diagnosis	diagnosis	9394/1 : Myxopapillary ependymoma
+diagnosis	diagnosis	9395/3 : Papillary tumor of pineal region
+diagnosis	diagnosis	9396/3 : Ependymoma, RELA fusion positive
+diagnosis	diagnosis	9400/0 : Astrocytoma, benign
+diagnosis	diagnosis	9400/3 : Astrocytoma, NOS
+diagnosis	diagnosis	9401/3 : Astrocytoma, anaplastic, NOS
+diagnosis	diagnosis	9410/3 : Protoplasmic astrocytoma
+diagnosis	diagnosis	9411/3 : Gemistocytic astrocytoma, NOS
+diagnosis	diagnosis	9412/1 : Desmoplastic infantile astrocytoma
+diagnosis	diagnosis	9413/0 : Dysembryoplastic neuroepithelial tumor
+diagnosis	diagnosis	9420/3 : Fibrillary astrocytoma
+diagnosis	diagnosis	9421/1 : Pilocytic astrocytoma
+diagnosis	diagnosis	9423/3 : Polar spongioblastoma
+diagnosis	diagnosis	9424/3 : Pleomorphic xanthoastrocytoma, NOS
+diagnosis	diagnosis	9425/3 : Pilomyxoid astrocytoma
+diagnosis	diagnosis	9430/3 : Astroblastoma
+diagnosis	diagnosis	9431/1 : Angiocentric glioma
+diagnosis	diagnosis	9432/1 : Pituicytoma
+diagnosis	diagnosis	9440/3 : Glioblastoma, NOS
+diagnosis	diagnosis	9441/3 : Giant cell glioblastoma
+diagnosis	diagnosis	9442/1 : Gliofibroma
+diagnosis	diagnosis	9442/3 : Gliosarcoma
+diagnosis	diagnosis	9444/1 : Chordoid glioma
+diagnosis	diagnosis	9445/3 : Glioblastoma, IDH-mutant
+diagnosis	diagnosis	9450/3 : Oligodendroglioma, NOS
+diagnosis	diagnosis	9451/3 : Oligodendroglioma, anaplastic, NOS
+diagnosis	diagnosis	9460/3 : Oligodendroblastoma
+diagnosis	diagnosis	9470/3 : Medulloblastoma, NOS
+diagnosis	diagnosis	9471/3 : Desmoplastic nodular medulloblastoma
+diagnosis	diagnosis	9472/3 : Medullomyoblastoma
+diagnosis	diagnosis	9473/3 : CNS embryonal tumor, NOS
+diagnosis	diagnosis	9473/3 : Central primitive neuroectodermal tumor
+diagnosis	diagnosis	9474/3 : Large cell medulloblastoma
+diagnosis	diagnosis	9475/3 : Medulloblastoma, WNT-activated, NOS
+diagnosis	diagnosis	9476/3 : Medulloblastoma, SHH-activated and TP53-mutant
+diagnosis	diagnosis	9477/3 : Medulloblastoma, non-WNT/non-SHH
+diagnosis	diagnosis	9478/3 : Embryonal tumor with multilayered rosettes with C19MC alteration
+diagnosis	diagnosis	9480/3 : Cerebellar sarcoma, NOS
+diagnosis	diagnosis	9490/0 : Ganglioneuroma
+diagnosis	diagnosis	9490/3 : Ganglioneuroblastoma
+diagnosis	diagnosis	9491/0 : Ganglioneuromatosis
+diagnosis	diagnosis	9492/0 : Gangliocytoma, NOS
+diagnosis	diagnosis	9493/0 : Dysplastic gangliocytoma of cerebellum (Lhermitte-Duclos)
+diagnosis	diagnosis	9500/3 : Neuroblastoma, NOS
+diagnosis	diagnosis	9501/0 : Medulloepithelioma, benign
+diagnosis	diagnosis	9501/3 : Medulloepithelioma, NOS
+diagnosis	diagnosis	9502/0 : Teratoid medulloepithelioma, benign
+diagnosis	diagnosis	9502/3 : Teratoid medulloepithelioma, NOS
+diagnosis	diagnosis	9503/3 : Neuroepithelioma, NOS
+diagnosis	diagnosis	9504/3 : Spongioneuroblastoma
+diagnosis	diagnosis	9505/0 : Ganglioglioma, benign
+diagnosis	diagnosis	9505/1 : Ganglioglioma, NOS
+diagnosis	diagnosis	9505/3 : Ganglioglioma, anaplastic
+diagnosis	diagnosis	9506/1 : Central neurocytoma
+diagnosis	diagnosis	9507/0 : Pacinian tumor
+diagnosis	diagnosis	9508/3 : Atypical teratoid/rhabdoid tumor
+diagnosis	diagnosis	9508/3 : CNS embryonal tumor with rhabdoid features
+diagnosis	diagnosis	9509/1 : Papillary glioneuronal tumor
+diagnosis	diagnosis	9510/0 : Retinocytoma
+diagnosis	diagnosis	9510/3 : Retinoblastoma, NOS
+diagnosis	diagnosis	9511/3 : Retinoblastoma, differentiated
+diagnosis	diagnosis	9512/3 : Retinoblastoma, undifferentiated
+diagnosis	diagnosis	9513/3 : Retinoblastoma, diffuse
+diagnosis	diagnosis	9514/1 : Retinoblastoma, spontaneously regressed
+diagnosis	diagnosis	9520/3 : Olfactory neurogenic tumor
+diagnosis	diagnosis	9521/3 : Olfactory neurocytoma
+diagnosis	diagnosis	9522/3 : Olfactory neuroblastoma
+diagnosis	diagnosis	9523/3 : Olfactory neuroepithelioma
+diagnosis	diagnosis	9530/0 : Meningioma, NOS
+diagnosis	diagnosis	9530/1 : Meningiomatosis, NOS
+diagnosis	diagnosis	9530/3 : Meningioma, malignant
+diagnosis	diagnosis	9531/0 : Meningothelial meningioma
+diagnosis	diagnosis	9532/0 : Fibrous meningioma
+diagnosis	diagnosis	9533/0 : Psammomatous meningioma
+diagnosis	diagnosis	9534/0 : Angiomatous meningioma
+diagnosis	diagnosis	9535/0 : Hemangioblastic meningioma
+diagnosis	diagnosis	9537/0 : Transitional meningioma
+diagnosis	diagnosis	9538/1 : Clear cell meningioma
+diagnosis	diagnosis	9538/3 : Papillary meningioma
+diagnosis	diagnosis	9539/1 : Atypical meningioma
+diagnosis	diagnosis	9539/3 : Meningeal sarcomatosis
+diagnosis	diagnosis	9540/0 : Neurofibroma, NOS
+diagnosis	diagnosis	9540/1 : Neurofibromatosis, NOS
+diagnosis	diagnosis	9540/3 : Malignant peripheral nerve sheath tumor, NOS
+diagnosis	diagnosis	9541/0 : Melanotic neurofibroma
+diagnosis	diagnosis	9542/3 : Malignant peripheral nerve sheath tumor, epithelioid
+diagnosis	diagnosis	9550/0 : Plexiform neurofibroma
+diagnosis	diagnosis	9560/0 : Schwannoma, NOS
+diagnosis	diagnosis	9560/1 : Melanotic schwannoma
+diagnosis	diagnosis	9560/3 : Neurilemoma, malignant
+diagnosis	diagnosis	9561/3 : Malignant peripheral nerve sheath tumor with rhabdomyoblastic differentiation
+diagnosis	diagnosis	9562/0 : Nerve sheath myxoma
+diagnosis	diagnosis	9563/0 : Nerve sheath tumor, NOS
+diagnosis	diagnosis	9570/0 : Neuroma, NOS
+diagnosis	diagnosis	9571/0 : Perineurioma, NOS
+diagnosis	diagnosis	9571/3 : Perineurioma, malignant
+diagnosis	diagnosis	9580/0 : Granular cell tumor, NOS
+diagnosis	diagnosis	9580/3 : Granular cell tumor, malignant
+diagnosis	diagnosis	9581/3 : Alveolar soft part sarcoma
+diagnosis	diagnosis	9582/0 : Granular cell tumor of sellar region
+diagnosis	diagnosis	9590/3 : Malignant lymphoma, NOS
+diagnosis	diagnosis	9591/1 : Monoclonal B-cell lymphocytosis, NOS
+diagnosis	diagnosis	9591/3 : Malignant lymphoma, non-Hodgkin, NOS
+diagnosis	diagnosis	9596/3 : Composite Hodgkin and non-Hodgkin lymphoma
+diagnosis	diagnosis	9597/3 : Primary cutaneous follicle center lymphoma
+diagnosis	diagnosis	9650/3 : Hodgkin lymphoma, NOS
+diagnosis	diagnosis	9651/3 : Hodgkin lymphoma, lymphocyte-rich
+diagnosis	diagnosis	9652/3 : Hodgkin lymphoma, mixed cellularity, NOS
+diagnosis	diagnosis	9653/3 : Hodgkin lymphoma, lymphocyte depletion, NOS
+diagnosis	diagnosis	9654/3 : Hodgkin lymphoma, lymphocyte depletion, diffuse fibrosis
+diagnosis	diagnosis	9655/3 : Hodgkin lymphoma, lymphocyte depletion, reticular
+diagnosis	diagnosis	9659/3 : Hodgkin lymphoma, nodular lymphocyte predominant
+diagnosis	diagnosis	9661/3 : Hodgkin granuloma
+diagnosis	diagnosis	9662/3 : Hodgkin sarcoma
+diagnosis	diagnosis	9663/3 : Hodgkin lymphoma, nodular sclerosis, NOS
+diagnosis	diagnosis	9664/3 : Hodgkin lymphoma, nodular sclerosis, cellular phase
+diagnosis	diagnosis	9665/3 : Hodgkin lymphoma, nodular sclerosis, grade 1
+diagnosis	diagnosis	9667/3 : Hodgkin lymphoma, nodular sclerosis, grade 2
+diagnosis	diagnosis	9671/3 : Lymphoplasmacytic lymphoma
+diagnosis	diagnosis	9673/1 : In situ mantle cell neoplasia
+diagnosis	diagnosis	9673/3 : Mantle cell lymphoma
+diagnosis	diagnosis	9675/3 : Malignant lymphoma, mixed small and large cell, diffuse
+diagnosis	diagnosis	9678/3 : Primary effusion lymphoma
+diagnosis	diagnosis	9679/3 : Mediastinal large B-cell lymphoma
+diagnosis	diagnosis	9680/1 : EBV positive mucocutaneous ulcer
+diagnosis	diagnosis	9680/3 : Diffuse large B-cell lymphoma, NOS
+diagnosis	diagnosis	9684/3 : Malignant lymphoma, large B-cell, diffuse, immunoblastic, NOS
+diagnosis	diagnosis	9687/3 : Burkitt lymphoma, NOS
+diagnosis	diagnosis	9688/3 : T-cell/histiocyte rich large B-cell lymphoma
+diagnosis	diagnosis	9689/3 : Splenic marginal zone B-cell lymphoma
+diagnosis	diagnosis	9690/3 : Follicular lymphoma, NOS
+diagnosis	diagnosis	9691/3 : Follicular lymphoma, grade 2
+diagnosis	diagnosis	9695/1 : In situ follicular neoplasia
+diagnosis	diagnosis	9695/3 : Follicular lymphoma, grade 1
+diagnosis	diagnosis	9698/3 : Follicular lymphoma, grade 3
+diagnosis	diagnosis	9699/3 : Marginal zone B-cell lymphoma, NOS
+diagnosis	diagnosis	9700/3 : Mycosis fungoides
+diagnosis	diagnosis	9701/3 : Sezary syndrome
+diagnosis	diagnosis	9702/1 : Indolent T-cell lymphoproliferative disorder of gastrointestinal tract
+diagnosis	diagnosis	9702/3 : Mature T-cell lymphoma, NOS
+diagnosis	diagnosis	9705/3 : Angioimmunoblastic T-cell lymphoma
+diagnosis	diagnosis	9708/3 : Subcutaneous panniculitis-like T-cell lymphoma
+diagnosis	diagnosis	9709/1 : Primary cutaneous CD4 positive small/medium T-cell lymphoproliferative disorder
+diagnosis	diagnosis	9709/3 : Cutaneous T-cell lymphoma, NOS
+diagnosis	diagnosis	9712/3 : Intravascular large B-cell lymphoma
+diagnosis	diagnosis	9714/3 : Anaplastic large cell lymphoma, ALK positive
+diagnosis	diagnosis	9714/3 : Anaplastic large cell lymphoma, T-cell and Null-cell type
+diagnosis	diagnosis	9715/3 : Anaplastic large cell lymphoma, ALK negative
+diagnosis	diagnosis	9716/3 : Hepatosplenic T-cell lymphoma
+diagnosis	diagnosis	9717/3 : Intestinal T-cell lymphoma
+diagnosis	diagnosis	9718/1 : Primary cutaneous CD30 positive T-cell lymphoproliferative disorder
+diagnosis	diagnosis	9718/3 : Primary cutaneous anaplastic large cell lymphoma
+diagnosis	diagnosis	9719/3 : NK/T-cell lymphoma, nasal and nasal type
+diagnosis	diagnosis	9724/3 : Systemic EBV positive T-cell lymphoproliferative disease of childhood
+diagnosis	diagnosis	9725/1 : Hydroa vacciniforme-like lymphoproliferative disorder
+diagnosis	diagnosis	9726/3 : Primary cutaneous gamma-delta T-cell lymphoma
+diagnosis	diagnosis	9727/3 : Precursor cell lymphoblastic lymphoma, NOS
+diagnosis	diagnosis	9731/3 : Plasmacytoma, NOS
+diagnosis	diagnosis	9732/3 : Plasma cell myeloma
+diagnosis	diagnosis	9733/3 : Plasma cell leukemia
+diagnosis	diagnosis	9734/3 : Plasmacytoma, extramedullary
+diagnosis	diagnosis	9735/3 : Plasmablastic lymphoma
+diagnosis	diagnosis	9737/3 : ALK positive large B-cell lymphoma
+diagnosis	diagnosis	9738/3 : HHV8 positive diffuse large B-cell lymphoma
+diagnosis	diagnosis	9740/1 : Mastocytoma, NOS
+diagnosis	diagnosis	9740/3 : Mast cell sarcoma
+diagnosis	diagnosis	9741/1 : Indolent systemic mastocytosis
+diagnosis	diagnosis	9741/3 : Malignant mastocytosis
+diagnosis	diagnosis	9742/3 : Mast cell leukemia
+diagnosis	diagnosis	9749/3 : Erdheim-Chester disease
+diagnosis	diagnosis	9750/3 : Malignant histiocytosis
+diagnosis	diagnosis	9751/1 : Langerhans cell histiocytosis, NOS
+diagnosis	diagnosis	9751/3 : Langerhans cell histiocytosis, disseminated
+diagnosis	diagnosis	9755/3 : Histiocytic sarcoma
+diagnosis	diagnosis	9756/3 : Langerhans cell sarcoma
+diagnosis	diagnosis	9757/3 : Interdigitating dendritic cell sarcoma
+diagnosis	diagnosis	9758/3 : Follicular dendritic cell sarcoma
+diagnosis	diagnosis	9759/3 : Fibroblastic reticular cell tumor
+diagnosis	diagnosis	9760/3 : Immunoproliferative disease, NOS
+diagnosis	diagnosis	9761/1 : IgM monoclonal gammopathy of undetermined significance
+diagnosis	diagnosis	9761/3 : Waldenstrom macroglobulinemia
+diagnosis	diagnosis	9762/3 : Heavy chain disease, NOS
+diagnosis	diagnosis	9764/3 : Immunoproliferative small intestinal disease
+diagnosis	diagnosis	9765/1 : Monoclonal gammopathy of undetermined significance, NOS
+diagnosis	diagnosis	9766/1 : Angiocentric immunoproliferative lesion
+diagnosis	diagnosis	9766/3 : Lymphomatoid granulomatosis, grade 3
+diagnosis	diagnosis	9767/1 : Angioimmunoblastic lymphadenopathy (AIL)
+diagnosis	diagnosis	9768/1 : T-gamma lymphoproliferative disease
+diagnosis	diagnosis	9769/1 : Immunoglobulin deposition disease
+diagnosis	diagnosis	9800/3 : Leukemia, NOS
+diagnosis	diagnosis	9801/3 : Acute leukemia, NOS
+diagnosis	diagnosis	9805/3 : Acute biphenotypic leukemia
+diagnosis	diagnosis	9806/3 : Mixed phenotype acute leukemia with t(9;22)(q34;q11.2); BCR-ABL1
+diagnosis	diagnosis	9807/3 : Mixed phenotype acute leukemia with t(v;11q23); MLL rearranged
+diagnosis	diagnosis	9808/3 : Mixed phenotype acute leukemia, B/myeloid, NOS
+diagnosis	diagnosis	9809/3 : Mixed phenotype acute leukemia, T/myeloid, NOS
+diagnosis	diagnosis	9811/3 : B lymphoblastic leukemia/lymphoma, NOS
+diagnosis	diagnosis	9812/3 : B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1
+diagnosis	diagnosis	9813/3 : B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged
+diagnosis	diagnosis	9814/3 : B lymphoblastic leukemia/lymphoma with t(12;21)(p13;q22); TEL-AML1 (ETV6-RUNX1)
+diagnosis	diagnosis	9815/3 : B lymphoblastic leukemia/lymphoma with hyperdiploidy
+diagnosis	diagnosis	9816/3 : B lymphoblastic leukemia/lymphoma with hypodiploidy (Hypodiploid ALL)
+diagnosis	diagnosis	9817/3 : B lymphoblastic leukemia/lymphoma with t(5;14)(q31;q32); IL3-IGH
+diagnosis	diagnosis	9818/3 : B lymphoblastic leukemia/lymphoma with t(1;19)(q23;p13.3); E2A-PBX1 (TCF3-PBX1)
+diagnosis	diagnosis	9819/3 : B lymphoblastic leukemia/lymphoma, BCR-ABL1-like
+diagnosis	diagnosis	9820/3 : Lymphoid leukemia, NOS
+diagnosis	diagnosis	9823/1 : Monoclonal B-cell lymphocytosis, CLL type
+diagnosis	diagnosis	9823/3 : B-cell chronic lymphocytic leukemia/small lymphocytic lymphoma
+diagnosis	diagnosis	9827/3 : Adult T-cell leukemia/lymphoma (HTLV-1 positive)
+diagnosis	diagnosis	9831/3 : T-cell large granular lymphocytic leukemia
+diagnosis	diagnosis	9832/3 : Prolymphocytic leukemia, NOS
+diagnosis	diagnosis	9833/3 : Prolymphocytic leukemia, B-cell type
+diagnosis	diagnosis	9834/3 : Prolymphocytic leukemia, T-cell type
+diagnosis	diagnosis	9835/3 : Precursor cell lymphoblastic leukemia, NOS
+diagnosis	diagnosis	9836/3 : Precursor B-cell lymphoblastic leukemia
+diagnosis	diagnosis	9837/3 : Precursor T-cell lymphoblastic leukemia
+diagnosis	diagnosis	9837/3 : T lymphoblastic leukemia/lymphoma
+diagnosis	diagnosis	9840/3 : Acute erythroid leukemia
+diagnosis	diagnosis	9860/3 : Myeloid leukemia, NOS
+diagnosis	diagnosis	9861/3 : Acute myeloid leukemia, NOS
+diagnosis	diagnosis	9863/3 : Chronic myeloid leukemia, NOS
+diagnosis	diagnosis	9865/3 : Acute myeloid leukemia with t(6;9)(p23;q34); DEK-NUP214
+diagnosis	diagnosis	9866/3 : Acute promyelocytic leukemia, t(15;17)(q22;q11-12)
+diagnosis	diagnosis	9867/3 : Acute myelomonocytic leukemia, NOS
+diagnosis	diagnosis	9869/3 : Acute myeloid leukemia with inv(3)(q21;q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1
+diagnosis	diagnosis	9870/3 : Acute basophilic leukemia
+diagnosis	diagnosis	9871/3 : Acute myeloid leukemia with abnormal marrow eosinophils
+diagnosis	diagnosis	9872/3 : Acute myeloid leukemia, minimal differentiation
+diagnosis	diagnosis	9873/3 : Acute myeloid leukemia without maturation
+diagnosis	diagnosis	9874/3 : Acute myeloid leukemia with maturation
+diagnosis	diagnosis	9875/3 : Chronic myelogenous leukemia, BCR/ABL positive
+diagnosis	diagnosis	9876/3 : Atypical chronic myeloid leukemia, BCR/ABL negative
+diagnosis	diagnosis	9877/3 : Acute myeloid leukemia with mutated NPM1
+diagnosis	diagnosis	9878/3 : Acute myeloid leukemia with biallelic mutation of CEBPA
+diagnosis	diagnosis	9879/3 : Acute myeloid leukemia with mutated RUNX1
+diagnosis	diagnosis	9891/3 : Acute monocytic leukemia
+diagnosis	diagnosis	9895/3 : Acute myeloid leukemia with myelodysplasia-related changes
+diagnosis	diagnosis	9896/3 : Acute myeloid leukemia, t(8;21)(q22;q22)
+diagnosis	diagnosis	9897/3 : Acute myeloid leukemia, 11q23 abnormalities
+diagnosis	diagnosis	9898/1 : Transient abnormal myelopoiesis
+diagnosis	diagnosis	9898/3 : Myeloid leukemia associated with Down syndrome
+diagnosis	diagnosis	9910/3 : Acute megakaryoblastic leukemia
+diagnosis	diagnosis	9911/3 : Acute myeloid leukemia (megakaryoblastic) with t(1;22)(p13;q13); RBM15-MKL1
+diagnosis	diagnosis	9912/3 : Acute myeleoid leukemia with BCR-ABL1
+diagnosis	diagnosis	9920/3 : Therapy-related myeloid neoplasm
+diagnosis	diagnosis	9930/3 : Myeloid sarcoma
+diagnosis	diagnosis	9931/3 : Acute panmyelosis with myelofibrosis
+diagnosis	diagnosis	9940/3 : Hairy cell leukemia, NOS
+diagnosis	diagnosis	9945/3 : Chronic myelomonocytic leukemia, NOS
+diagnosis	diagnosis	9946/3 : Juvenile myelomonocytic leukemia, NOS
+diagnosis	diagnosis	9948/3 : Aggressive NK-cell leukemia
+diagnosis	diagnosis	9950/3 : Polycythemia vera
+diagnosis	diagnosis	9960/3 : Myeloproliferative neoplasm, NOS
+diagnosis	diagnosis	9961/3 : Primary myelofibrosis
+diagnosis	diagnosis	9962/3 : Essential thrombocythemia
+diagnosis	diagnosis	9963/3 : Chronic neutrophilic leukemia
+diagnosis	diagnosis	9964/3 : Chronic eosinophilic leukemia
+diagnosis	diagnosis	9965/3 : Myeloid or lymphoid neoplasm with PDGFRA rearrangement
+diagnosis	diagnosis	9966/3 : Myeloid neoplasm with PDGFRB rearrangement
+diagnosis	diagnosis	9967/3 : Myeloid or lymphoid neoplasm with FGFR1 abnormalities
+diagnosis	diagnosis	9968/3 : Myeloid or lymphoid neoplasm with PCM1-JAK2
+diagnosis	diagnosis	9970/1 : Lymphoproliferative disorder, NOS
+diagnosis	diagnosis	9971/1 : Post-transplant lymphoproliferative disorder, NOS
+diagnosis	diagnosis	9975/3 : Myeloproliferative neoplasm, unclassifiable
+diagnosis	diagnosis	9980/3 : Myelodysplastic syndrome with single lineage dysplasia
+diagnosis	diagnosis	9982/3 : Myelodysplastic syndrome with ring sideroblasts and single lineage dysplasia
+diagnosis	diagnosis	9983/3 : Myelodysplastic syndrome with excess blasts
+diagnosis	diagnosis	9984/3 : Refractory anemia with excess blasts in transformation
+diagnosis	diagnosis	9985/3 : Myelodysplastic syndrome with multilineage dysplasia
+diagnosis	diagnosis	9986/3 : Myelodysplastic syndrome with isolated del (5q)
+diagnosis	diagnosis	9987/3 : Therapy-related myelodysplastic syndrome, NOS
+diagnosis	diagnosis	9989/3 : Myelodysplastic syndrome, NOS
+diagnosis	diagnosis	999 : Unknown, to be completed later
+diagnosis	diagnosis	ATRT, NOS or NEC
+diagnosis	diagnosis	ATRT-MYC
+diagnosis	diagnosis	ATRT-SHH
+diagnosis	diagnosis	ATRT-TYR
+diagnosis	diagnosis	Acoustic Neuroma
+diagnosis	diagnosis	Acute Basophilic Leukemia
+diagnosis	diagnosis	Acute Erythroid Leukemia : M6
+diagnosis	diagnosis	Acute Leukemias of Ambiguous Lineage
+diagnosis	diagnosis	Acute Lymphoblastic Leukemia, NOS
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia : M7
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia, BCR-ABL1
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia, CBFA2T3-GLIS2
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia, ETS family rearrangement
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia, GATA1 ateration
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia, HOX rearranged
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia, KMT2A rearrangement
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia, NOS
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia, NPM1 alteration
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia, NUP98 alteration
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia, PICALM-MLLT10
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia, RBM15-MKL1
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia, UBTF tandem duplication
+diagnosis	diagnosis	Acute Megakaryoblastic Leukemia, biallelic CEBPA alteration
+diagnosis	diagnosis	Acute Monoblastic/Monocytic Leukemia
+diagnosis	diagnosis	Acute Monoblastic/Monocytic Leukemia, KMT2A rearrangement
+diagnosis	diagnosis	Acute Monocytic Leukemia : M5
+diagnosis	diagnosis	Acute Myeloid Leukemia
+diagnosis	diagnosis	Acute Myeloid Leukemia (megakaryoblastic) with t(1;22)(p13.3;q13.3); RBM15-MKL1
+diagnosis	diagnosis	Acute Myeloid Leukemia with BCR-ABL1, Provisional Entity
+diagnosis	diagnosis	Acute Myeloid Leukemia with Biallelic Mutations of CEBPA
+diagnosis	diagnosis	Acute Myeloid Leukemia with Maturation : M2
+diagnosis	diagnosis	Acute Myeloid Leukemia with Minimal Differentiation : M0
+diagnosis	diagnosis	Acute Myeloid Leukemia with Mutated NPM1
+diagnosis	diagnosis	Acute Myeloid Leukemia with Mutated RUNX1, Provisional Entity
+diagnosis	diagnosis	Acute Myeloid Leukemia with Myelodysplasia-related Changes
+diagnosis	diagnosis	Acute Myeloid Leukemia with inv(16)(p13.1q22) or t(16;16)(p13.1;q22); CBFB-MYH11
+diagnosis	diagnosis	Acute Myeloid Leukemia with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM
+diagnosis	diagnosis	Acute Myeloid Leukemia with t(6;9)(p23;q34.1);DEK-NUP214
+diagnosis	diagnosis	Acute Myeloid Leukemia with t(8;21)(q22;q22.1); RUNX1-RUNX1T1
+diagnosis	diagnosis	Acute Myeloid Leukemia with t(9;11)(p21.3;q23.3); KMT2A-MLLT3
+diagnosis	diagnosis	Acute Myeloid Leukemia without Maturation : M1
+diagnosis	diagnosis	Acute Myeloid Leukemia, BCL11B rearrangement
+diagnosis	diagnosis	Acute Myeloid Leukemia, CBFA2T3-GLIS2
+diagnosis	diagnosis	Acute Myeloid Leukemia, CBFB-MYH11
+diagnosis	diagnosis	Acute Myeloid Leukemia, Core Binding Factor, NOS
+diagnosis	diagnosis	Acute Myeloid Leukemia, DEK-NUP214
+diagnosis	diagnosis	Acute Myeloid Leukemia, ETS family rearrangement
+diagnosis	diagnosis	Acute Myeloid Leukemia, GATA1 alteration
+diagnosis	diagnosis	Acute Myeloid Leukemia, HOX rearrangement
+diagnosis	diagnosis	Acute Myeloid Leukemia, JMML-like
+diagnosis	diagnosis	Acute Myeloid Leukemia, KAT6A rearrangement
+diagnosis	diagnosis	Acute Myeloid Leukemia, KMT2A partial tandem duplication
+diagnosis	diagnosis	Acute Myeloid Leukemia, KMT2A rearrangement
+diagnosis	diagnosis	Acute Myeloid Leukemia, MECOM rearrangement
+diagnosis	diagnosis	Acute Myeloid Leukemia, MNX1 rearrangement
+diagnosis	diagnosis	Acute Myeloid Leukemia, NOS
+diagnosis	diagnosis	Acute Myeloid Leukemia, NPM1 alteration
+diagnosis	diagnosis	Acute Myeloid Leukemia, NUP98 rearrangement
+diagnosis	diagnosis	Acute Myeloid Leukemia, PICALM-MLLT10
+diagnosis	diagnosis	Acute Myeloid Leukemia, RBM15-MKL1
+diagnosis	diagnosis	Acute Myeloid Leukemia, RUNX1-RUNX1T1
+diagnosis	diagnosis	Acute Myeloid Leukemia, RUNX1-RUNX1T1 like
+diagnosis	diagnosis	Acute Myeloid Leukemia, UBTF tandem duplication
+diagnosis	diagnosis	Acute Myeloid Leukemia, biallelic CEBPA alteration
+diagnosis	diagnosis	Acute Myelomonocytic Leukemia
+diagnosis	diagnosis	Acute Myelomonocytic Leukemia : M4
+diagnosis	diagnosis	Acute Myelomonocytic Leukemia with Abnormal Eosinophils : M4eo
+diagnosis	diagnosis	Acute Myelomonocytic Leukemia, KAT6A rearrangement
+diagnosis	diagnosis	Acute Myelomonocytic Leukemia, KMT2A rearrangement
+diagnosis	diagnosis	Acute Myelomonocytic Leukemia, NPM1 alteration
+diagnosis	diagnosis	Acute Myelomonocytic Leukemia, NUP98 alteration
+diagnosis	diagnosis	Acute Myelomonocytic Leukemia, UBTF tandem duplication
+diagnosis	diagnosis	Acute Myelomonocytic Leukemia, biallelic CEBPA alteration
+diagnosis	diagnosis	Acute Panmyelosis with Myelofibrosis
+diagnosis	diagnosis	Acute Promyelocytic Leukemia
+diagnosis	diagnosis	Acute Promyelocytic Leukemia in which the promyelocytes in the peripheral blood have paucity or absence of cytoplasmic granules and characteristic bilobed nuclei. : M3 Variant
+diagnosis	diagnosis	Acute Promyelocytic Leukemia with PML-RARA : M3
+diagnosis	diagnosis	Acute Undifferentiated Leukemia
+diagnosis	diagnosis	Acute Undifferentiated Leukemia, KMT2A rearrangement
+diagnosis	diagnosis	Adamantinomatous craniopharyngioma
+diagnosis	diagnosis	Adenocarcinoma, NOS
+diagnosis	diagnosis	Adenoid Cystic Carcinoma of the Eyelid
+diagnosis	diagnosis	Adenoid Cystic Carcinoma of the Lacrimal Gland
+diagnosis	diagnosis	Adenoid Cystic Carcinoma of the Salivary Gland
+diagnosis	diagnosis	Adenoma, NOS
+diagnosis	diagnosis	Adenomatoid Odontogenic Tumor
+diagnosis	diagnosis	Adrenocortical Adenoma
+diagnosis	diagnosis	Adrenocortical Carcinoma
+diagnosis	diagnosis	Adrenocortical Tumor
+diagnosis	diagnosis	Adrenocortical Tumor, NOS
+diagnosis	diagnosis	Adrenocortical Tumor, Uncertain Malignant Potential
+diagnosis	diagnosis	Alveolar Rhabdomyosarcoma
+diagnosis	diagnosis	Alveolar Soft Part Sarcoma
+diagnosis	diagnosis	Anaplastic Astrocytoma
+diagnosis	diagnosis	Anaplastic Ependymoma, Posterior Fossa
+diagnosis	diagnosis	Anaplastic Ganglioglioma
+diagnosis	diagnosis	Anaplastic Large Cell Lymphoma
+diagnosis	diagnosis	Anaplastic Large Cell Lymphoma, ALK Positive
+diagnosis	diagnosis	Anaplastic Medulloblastoma, Group 3
+diagnosis	diagnosis	Anaplastic Medulloblastoma, Group 4
+diagnosis	diagnosis	Anaplastic Oligoastrocytoma
+diagnosis	diagnosis	Anaplastic Pleomorphic Xanthoastrocytoma
+diagnosis	diagnosis	Anaplastic Sarcoma, NOS
+diagnosis	diagnosis	Anaplastic large cell lymphoma (ALK+/ALK-)
+diagnosis	diagnosis	Aneurysmal Bone Cyst
+diagnosis	diagnosis	Angiocentric Glioma
+diagnosis	diagnosis	Angiomatoid Fibrous Histiocytoma
+diagnosis	diagnosis	Angiomyxoma
+diagnosis	diagnosis	Angiosarcoma
+diagnosis	diagnosis	Astroblastoma, MN1-altered
+diagnosis	diagnosis	Astrocytoma, IDH-mutant
+diagnosis	diagnosis	Astrocytoma, NOS
+diagnosis	diagnosis	Atypical Choroid Plexus Papilloma
+diagnosis	diagnosis	Atypical Dendritic Cell Tumor
+diagnosis	diagnosis	Atypical Melanocytic Neoplasm
+diagnosis	diagnosis	Atypical Nevus
+diagnosis	diagnosis	Atypical Osteocartilaginous Lesion
+diagnosis	diagnosis	Atypical Spitzoid Melanocytic Neoplasm
+diagnosis	diagnosis	Atypical Spitzoid Neoplasm
+diagnosis	diagnosis	Atypical Teratoid/Rhabdoid Tumor
+diagnosis	diagnosis	Atypical Teratoid/Rhabdoid Tumor, MYC subgroup
+diagnosis	diagnosis	Atypical Teratoid/Rhabdoid Tumor, SHH subgroup
+diagnosis	diagnosis	Atypical Teratoid/Rhabdoid Tumor, TYR subgroup
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, BCR-ABL1
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, BCR-ABL1 like
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, CRLF2 rearrangement
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, DUX4-IGH
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, DUX4-IGH like
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, Dicentric
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, Down Syndrome
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, ETV6-RUNX1
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, ETV6-RUNX1 like
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, HLF rearrangement
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, Hyperdiploidy
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, Hypodiploidy
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, IGH-CEBPD
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, IKZF1 N159Y
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, KMT2A rearrangement
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, KMT2A rearrangement like
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, MEF2D rearrangement
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, MYC rearrangement
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, NOS
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, NUTM1 rearrangement
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, PAX5 P80R
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, PAX5 alteration
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, TCF3-HLF
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, TCF3-PBX1
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, ZEB2 alteration and CEBPE rearrangement
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, ZNF384 rearrangement
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, ZNF384 rearrangement like
+diagnosis	diagnosis	B-Cell Acute Lymphoblastic Leukemia, iAMP21
+diagnosis	diagnosis	B-Cell Lymphoblastic Leukemia
+diagnosis	diagnosis	B-Cell Lymphoblastic Lymphoma, BCR-ABL1 like
+diagnosis	diagnosis	B-Cell Lymphoblastic Lymphoma, NOS
+diagnosis	diagnosis	B-Cell Lymphoblastic Lymphoma, TCF3-HLF
+diagnosis	diagnosis	B-Cell Lymphoblastic Lymphoma, TCF3-PBX1
+diagnosis	diagnosis	BCOR Sarcoma
+diagnosis	diagnosis	Basal Cell Carcinoma
+diagnosis	diagnosis	Bizarre Parosteal Osteochondromatous Proliferation
+diagnosis	diagnosis	Blood Cancer of Unknown Primary
+diagnosis	diagnosis	Botryoid Type Embryonal Rhabdomyosarcoma
+diagnosis	diagnosis	Brain Sarcoma
+diagnosis	diagnosis	Brain Tumor, NOS
+diagnosis	diagnosis	Burkitt Lymphoma
+diagnosis	diagnosis	CIC-Rearranged Sarcoma, Brain
+diagnosis	diagnosis	CIC-rearranged sarcoma
+diagnosis	diagnosis	CNS Ewing Sarcoma Family Tumor, CIC alteration
+diagnosis	diagnosis	CNS Germ Cell Tumors
+diagnosis	diagnosis	CNS Germinoma
+diagnosis	diagnosis	CNS Non-Germinomatous Germ Cell Tumor
+diagnosis	diagnosis	CNS Sarcoma
+diagnosis	diagnosis	CNS Sarcoma, NOS or NEC
+diagnosis	diagnosis	CNS embryonal tumor, NOS or NEC
+diagnosis	diagnosis	CNS neuroblastoma, FOXR2-activated
+diagnosis	diagnosis	CNS tumor with BCOR internal tandem duplication
+diagnosis	diagnosis	Carcinoma, NOS
+diagnosis	diagnosis	Cellular Myofibroma
+diagnosis	diagnosis	Central Neurocytoma
+diagnosis	diagnosis	Cerebellar liponeurocytoma
+diagnosis	diagnosis	Chondroblastic Osteosarcoma
+diagnosis	diagnosis	Chondroblastoma
+diagnosis	diagnosis	Chondromesenchymal Hamartoma
+diagnosis	diagnosis	Chondrosarcoma
+diagnosis	diagnosis	Chordoid glioma
+diagnosis	diagnosis	Chordoma
+diagnosis	diagnosis	Chordoma (including poorly differentiated chordoma)
+diagnosis	diagnosis	Choriocarcinoma, Ovary
+diagnosis	diagnosis	Choriocarcinoma, Testis
+diagnosis	diagnosis	Choriocarcinoma, Uterus
+diagnosis	diagnosis	Choroid Plexus Carcinoma
+diagnosis	diagnosis	Choroid Plexus Papilloma
+diagnosis	diagnosis	Choroid Plexus tumors
+diagnosis	diagnosis	Chromophobe Renal Cell Carcinoma
+diagnosis	diagnosis	Chronic Myeloid Leukemia
+diagnosis	diagnosis	Chronic Neutrophilic Leukemia
+diagnosis	diagnosis	Clear Cell Sarcoma
+diagnosis	diagnosis	Clear Cell Sarcoma of Kidney
+diagnosis	diagnosis	Congenital Melanocytic Nevus
+diagnosis	diagnosis	Congenital Mesoblastic Nephroma
+diagnosis	diagnosis	Control Sample
+diagnosis	diagnosis	Craniopharyngioma, Adamantinomatous Type
+diagnosis	diagnosis	Craniopharyngioma, NOS or NEC
+diagnosis	diagnosis	Cribriform neuroepithelial tumor
+diagnosis	diagnosis	Cutaneous Melanoma, CRTC1-TRIM11
+diagnosis	diagnosis	Cutaneous Myxoma
+diagnosis	diagnosis	Cystic Nephroma
+diagnosis	diagnosis	Dermatofibrosarcoma Protuberans
+diagnosis	diagnosis	Desmoid/Aggressive Fibromatosis
+diagnosis	diagnosis	Desmoplastic Infantile Astrocytoma
+diagnosis	diagnosis	Desmoplastic Infantile Ganglioglioma
+diagnosis	diagnosis	Desmoplastic Small Round Cell Tumor
+diagnosis	diagnosis	Desmoplastic infantile ganglioglioma / desmoplastic infantile astrocytoma
+diagnosis	diagnosis	Desmoplastic myxoid tumor of the pineal region, SMARCB1-mutant
+diagnosis	diagnosis	Desmoplastic/Nodular Medulloblastoma, SHH subtype
+diagnosis	diagnosis	Diffuse Astrocytoma
+diagnosis	diagnosis	Diffuse Glioma
+diagnosis	diagnosis	Diffuse Intrinsic Pontine Glioma
+diagnosis	diagnosis	Diffuse Large B-Cell Lymphoma, NOS
+diagnosis	diagnosis	Diffuse astrocytoma, MYB- or MYBL1-altered
+diagnosis	diagnosis	Diffuse glioneuronal tumor with oligodendroglioma-like features and nuclear clusters
+diagnosis	diagnosis	Diffuse hemispheric glioma, H3 G34-mutant
+diagnosis	diagnosis	Diffuse leptomeningeal glioneuronal tumor
+diagnosis	diagnosis	Diffuse low-grade glioma, MAPK pathway-altered
+diagnosis	diagnosis	Diffuse midline glioma, H3 K27-altered
+diagnosis	diagnosis	Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype
+diagnosis	diagnosis	Dysembryoplastic Neuroepithelial Tumor
+diagnosis	diagnosis	Dysgerminoma, Ovarian
+diagnosis	diagnosis	Dysgerminoma, Pelvis
+diagnosis	diagnosis	Dysplastic cerebellar gangliocytoma (Lhermitte-Duclos disease)
+diagnosis	diagnosis	Ectomesenchymoma
+diagnosis	diagnosis	Embryonal Rhabdomyosarcoma
+diagnosis	diagnosis	Embryonal Tumor with Multilayered Rosettes, Brain
+diagnosis	diagnosis	Embryonal Tumor, Brain
+diagnosis	diagnosis	Embryonal tumor with multilayered rosettes, C19MC altered
+diagnosis	diagnosis	Embryonal tumor with multilayered rosettes, NOS
+diagnosis	diagnosis	Encapsulated Glioma
+diagnosis	diagnosis	Eosinophilia, NOS
+diagnosis	diagnosis	Eosinophilic Renal Cell Carcinoma
+diagnosis	diagnosis	Ependymoma
+diagnosis	diagnosis	Ependymoma, NOS or NEC
+diagnosis	diagnosis	Ependymomal Tumor, Anaplastic
+diagnosis	diagnosis	Ependymomal Tumor, Posterior Fossa
+diagnosis	diagnosis	Ependymomal Tumor, Spinal Tumor
+diagnosis	diagnosis	Ependymomal Tumor, Supratentorial
+diagnosis	diagnosis	Epitheliod Neoplasm, NOS
+diagnosis	diagnosis	Epithelioid Fibro-Osseous Tumor
+diagnosis	diagnosis	Epithelioid Glioblastoma
+diagnosis	diagnosis	Epithelioid Sarcoma
+diagnosis	diagnosis	Epstein-Barr Virus Positive smooth muscle tumors
+diagnosis	diagnosis	Erdheim-Chester disease
+diagnosis	diagnosis	Ewing Sarcoma
+diagnosis	diagnosis	Ewing Sarcoma of Soft Tissue
+diagnosis	diagnosis	Extranodal Marginal Zone Lymphoma
+diagnosis	diagnosis	Extraventricular neurocytoma
+diagnosis	diagnosis	Fibroblastic/Myofibroblastic Tumor
+diagnosis	diagnosis	Fibrolamellar Carcinoma
+diagnosis	diagnosis	Fibroma, NOS
+diagnosis	diagnosis	Fibromatosis
+diagnosis	diagnosis	Fibromyxoid Neoplasm 
+diagnosis	diagnosis	Fibromyxoid Sarcoma
+diagnosis	diagnosis	Fibrosarcoma, Abdominal
+diagnosis	diagnosis	Fibrosarcoma, NOS
+diagnosis	diagnosis	Fibrous Hamartoma of Infancy
+diagnosis	diagnosis	Fibrous Umbilical Polyp
+diagnosis	diagnosis	Fibrous dysplasia
+diagnosis	diagnosis	Follicular Adenoma, Thyroid
+diagnosis	diagnosis	Follicular Lymphoma
+diagnosis	diagnosis	Follicular Thyroid Cancer
+diagnosis	diagnosis	Gangliocytoma
+diagnosis	diagnosis	Ganglioglioma
+diagnosis	diagnosis	Ganglioneuroblastoma
+diagnosis	diagnosis	Ganglioneuroma
+diagnosis	diagnosis	Gastrointestinal Neuroendocrine Tumor
+diagnosis	diagnosis	Gastrointestinal Stromal Tumor
+diagnosis	diagnosis	General Bone Tumor
+diagnosis	diagnosis	General Leukemia
+diagnosis	diagnosis	Germ Cell Tumor, Brain
+diagnosis	diagnosis	Germ Cell Tumor, NOS
+diagnosis	diagnosis	Germinoma
+diagnosis	diagnosis	Giant Cell Fibroblastoma
+diagnosis	diagnosis	Giant Cell Tumor of Bone
+diagnosis	diagnosis	Giant Cell Tumor, NOS
+diagnosis	diagnosis	Glioblastoma
+diagnosis	diagnosis	Glioblastoma, IDH-wildtype
+diagnosis	diagnosis	Glioma, NOS
+diagnosis	diagnosis	Glioneuronal Neoplasm, NOS
+diagnosis	diagnosis	Glioneuronal and neuronal tumors
+diagnosis	diagnosis	Glioneuronal and neuronal tumors, NOS or NEC
+diagnosis	diagnosis	Healthy Control
+diagnosis	diagnosis	Hemangioblastoma
+diagnosis	diagnosis	Hemangiomas and vascular malformations
+diagnosis	diagnosis	Hepatic Focal Nodular Hyperplasia
+diagnosis	diagnosis	Hepatoblastoma
+diagnosis	diagnosis	Hepatocellular Carcinoma
+diagnosis	diagnosis	High Grade Sarcoma
+diagnosis	diagnosis	High-Grade B-Cell Lymphoma, NOS
+diagnosis	diagnosis	High-Grade Calvarium Sarcoma
+diagnosis	diagnosis	High-Grade Glioma
+diagnosis	diagnosis	High-Grade Glioneuronal Tumor
+diagnosis	diagnosis	High-Grade Neuroepithelial Tumor
+diagnosis	diagnosis	High-grade astrocytoma with piloid features
+diagnosis	diagnosis	High-grade glioma, NOS or NEC
+diagnosis	diagnosis	Histiocytic sarcoma
+diagnosis	diagnosis	Hodgkin Lymphoma
+diagnosis	diagnosis	Hurthle Cell Thyroid Cancer
+diagnosis	diagnosis	Hybrid nerve sheath tumor
+diagnosis	diagnosis	Immunodeficiency-associated CNS lymphoma
+diagnosis	diagnosis	Infant-type hemispheric glioma
+diagnosis	diagnosis	Infantile Fibrosarcoma
+diagnosis	diagnosis	Infantile Hemangioendothelioma
+diagnosis	diagnosis	Inflammatory Myofibroblastic Lung Tumor
+diagnosis	diagnosis	Inflammatory Myofibroblastic Stomach Tumor
+diagnosis	diagnosis	Inflammatory Myofibroblastic Tumor
+diagnosis	diagnosis	Inflammatory Pseudotumor, Lung
+diagnosis	diagnosis	Intracranial Mesenchymal Tumor, FET-CREB
+diagnosis	diagnosis	Intracranial mesenchymal tumor, FET-CREB fusion-positive
+diagnosis	diagnosis	Intravascular large B-cell lymphoma
+diagnosis	diagnosis	Islet Cell Carcinoma
+diagnosis	diagnosis	Juvenile Granulosa Cell Ovarian Tumor
+diagnosis	diagnosis	Juvenile Myelomonocytic Leukemia
+diagnosis	diagnosis	Juvenile Xanthogranuloma
+diagnosis	diagnosis	Juxtagliomerular Cell Tumor
+diagnosis	diagnosis	Kaposiform Hemangioendothelioma
+diagnosis	diagnosis	Kidney Tumor, NOS
+diagnosis	diagnosis	Langerhans Cell Histiocytosis
+diagnosis	diagnosis	Large Cell/Anaplastic Medulloblastoma
+diagnosis	diagnosis	Large Cell/Anaplastic Medulloblastoma, SHH subtype
+diagnosis	diagnosis	Leiomyoma
+diagnosis	diagnosis	Lipoblastoma
+diagnosis	diagnosis	Lipofibromatosis
+diagnosis	diagnosis	Lipoma
+diagnosis	diagnosis	Liposarcoma
+diagnosis	diagnosis	Liver Angiosarcoma
+diagnosis	diagnosis	Liver Malignancy, NOS
+diagnosis	diagnosis	Liver, NOS
+diagnosis	diagnosis	Low-Grade Dermal Lesion
+diagnosis	diagnosis	Low-Grade Glioneuronal Tumor
+diagnosis	diagnosis	Low-Grade Mesenchymal Neoplasm
+diagnosis	diagnosis	Low-Grade Neuroepithelial Tumor
+diagnosis	diagnosis	Low-Grade Oncocytic Renal Tumor
+diagnosis	diagnosis	Low-Grade Peripheral Nerve Sheath Tumor
+diagnosis	diagnosis	Low-grade glioma, NOS or NEC
+diagnosis	diagnosis	Lymphomatoid granulomatosis
+diagnosis	diagnosis	MALT lymphoma of the dura
+diagnosis	diagnosis	Malignant Peripheral Nerve Sheath Tumor
+diagnosis	diagnosis	Malignant Rhabdoid Tumor of the Bladder
+diagnosis	diagnosis	Malignant Rhabdoid Tumor of the Liver
+diagnosis	diagnosis	Malignant Thymoma
+diagnosis	diagnosis	Malignant melanotic nerve sheath tumor
+diagnosis	diagnosis	Mammary Analogue Secretory Carcinoma of Salivary Gland Origin
+diagnosis	diagnosis	Mature B-Cell Neoplasms
+diagnosis	diagnosis	Mature Teratoma
+diagnosis	diagnosis	Mature Teratoma, Ovarian
+diagnosis	diagnosis	Medullary Thyroid Cancer
+diagnosis	diagnosis	Medulloblastoma
+diagnosis	diagnosis	Medulloblastoma with Extensive Nodularity, SHH subtype
+diagnosis	diagnosis	Medulloblastoma, Group 3
+diagnosis	diagnosis	Medulloblastoma, Group 4
+diagnosis	diagnosis	Medulloblastoma, NOS or NEC
+diagnosis	diagnosis	Medulloblastoma, SHH subtype
+diagnosis	diagnosis	Medulloblastoma, SHH-activated and TP53-mutant
+diagnosis	diagnosis	Medulloblastoma, SHH-activated and TP53-wildtype
+diagnosis	diagnosis	Medulloblastoma, WNT subtype
+diagnosis	diagnosis	Medulloblastoma, WNT-activated
+diagnosis	diagnosis	Medulloblastoma, non-WNT/non-SHH
+diagnosis	diagnosis	Melanocytic Nevus
+diagnosis	diagnosis	Melanoma
+diagnosis	diagnosis	Meningeal melanocytic neoplasms (includes melanoma)
+diagnosis	diagnosis	Meningioma
+diagnosis	diagnosis	Mesenchymal Chondrosarcoma
+diagnosis	diagnosis	Mesenchymal Tumor, NOS
+diagnosis	diagnosis	Metanephric Adenofibroma
+diagnosis	diagnosis	Metastatic Tumor, NOS
+diagnosis	diagnosis	Miscellaneous Brain Tumor
+diagnosis	diagnosis	Mixed Germ Cell Tumor, Brain
+diagnosis	diagnosis	Mixed Germ Cell Tumor, NOS
+diagnosis	diagnosis	Mixed Germ Cell Tumor, Ovary
+diagnosis	diagnosis	Mixed Germ Cell Tumor, Testis
+diagnosis	diagnosis	Mixed Myxopapillary Anaplastic Ependymoma, Spinal Tumor
+diagnosis	diagnosis	Mixed Phenotype Acute Leukemia, B/Myeloid, NOS
+diagnosis	diagnosis	Mixed Phenotype Acute Leukemia, T/Myeloid, NOS
+diagnosis	diagnosis	Monomorphic Posttransplant Lymphoproliferative Disorder
+diagnosis	diagnosis	Mucinous Adenocarcinoma of the Colon and Rectum
+diagnosis	diagnosis	Mucinous Adenocarcinoma, Ovarian
+diagnosis	diagnosis	Mucinous Borderline Ovarian Tumor
+diagnosis	diagnosis	Mucinous Cystadenocarcinoma, Ovary
+diagnosis	diagnosis	Mucinous Ovarian Cancer
+diagnosis	diagnosis	Mucoepidermoid Carcinoma
+diagnosis	diagnosis	Multinodular and vacuolating neuronal tumor
+diagnosis	diagnosis	Myelodysplastic Syndromes
+diagnosis	diagnosis	Myelodysplastic/Myeloproliferative Neoplasm
+diagnosis	diagnosis	Myeloid Leukemia Associated with Down Syndrome
+diagnosis	diagnosis	Myeloid Proliferations Related to Down Syndrome
+diagnosis	diagnosis	Myeloid Sarcoma
+diagnosis	diagnosis	Myeloproliferative Neoplasms
+diagnosis	diagnosis	Myoepithelial Carcinoma
+diagnosis	diagnosis	Myofibroblastic Neoplasm, NOS
+diagnosis	diagnosis	Myofibroblastic Sarcoma, NOS
+diagnosis	diagnosis	Myofibroma
+diagnosis	diagnosis	Myofibromatosis
+diagnosis	diagnosis	Myopericytoma
+diagnosis	diagnosis	Myositis Ossificans
+diagnosis	diagnosis	Myxofibrosarcoma
+diagnosis	diagnosis	Myxoid Neoplasm, NOS
+diagnosis	diagnosis	Myxoid glioneuronal tumor
+diagnosis	diagnosis	Myxoid/Round Cell Liposarcoma
+diagnosis	diagnosis	Myxopapillary Ependymoma
+diagnosis	diagnosis	Myxopapillary Ependymoma, Fourth Ventricle
+diagnosis	diagnosis	Myxopapillary Ependymoma, Posterior Fossa
+diagnosis	diagnosis	Nasopharyngeal Carcinoma
+diagnosis	diagnosis	Nephroblastic Process, Consistent With Either WT or NR
+diagnosis	diagnosis	Nephrogenic Rest
+diagnosis	diagnosis	Nerve Sheath Tumor
+diagnosis	diagnosis	Neuroblastoma
+diagnosis	diagnosis	Neuroendocrine Tumor, Liver
+diagnosis	diagnosis	Neuroendocrine Tumor, NOS
+diagnosis	diagnosis	Neurofibroma
+diagnosis	diagnosis	Neuromuscular Choristoma
+diagnosis	diagnosis	Neurothekeoma
+diagnosis	diagnosis	Nodular Malignant Melanoma
+diagnosis	diagnosis	Nodular Thyroid Hyperplasia
+diagnosis	diagnosis	Non-Hodgkin Lymphoma
+diagnosis	diagnosis	Non-Invasive Follicular Thyroid Neoplasm with Papillary Like Nuclear Features
+diagnosis	diagnosis	Non-Rhabdomyosarcoma Soft Tissue Tumor
+diagnosis	diagnosis	Normal
+diagnosis	diagnosis	Not Reported
+diagnosis	diagnosis	Odontogenic Carcinoma
+diagnosis	diagnosis	Oligoastrocytoma
+diagnosis	diagnosis	Oligodendroglioma
+diagnosis	diagnosis	Oligodendroglioma, IDH-mutant, and 1p/19q-codeleted
+diagnosis	diagnosis	Oncocytic Adenoma of the Thyroid
+diagnosis	diagnosis	Osteoblastic Osteosarcoma
+diagnosis	diagnosis	Osteoblastoma
+diagnosis	diagnosis	Osteoid Osteoma
+diagnosis	diagnosis	Osteosarcoma
+diagnosis	diagnosis	Other CNS Embryonal tumors
+diagnosis	diagnosis	Other low-grade B-cell lymphomas of the CNS
+diagnosis	diagnosis	Other, NOS or NEC
+diagnosis	diagnosis	Ovarian Fibroma
+diagnosis	diagnosis	Ovarian Germ Cell Tumor
+diagnosis	diagnosis	Pancreatic Neuroendocrine Tumor
+diagnosis	diagnosis	Papillary Renal Cell Carcinoma
+diagnosis	diagnosis	Papillary Thyroid Cancer
+diagnosis	diagnosis	Papillary Tumor of the Pineal Region
+diagnosis	diagnosis	Papillary craniopharyngioma
+diagnosis	diagnosis	Papillary glioneuronal tumor
+diagnosis	diagnosis	Paraganglioma
+diagnosis	diagnosis	Pediatric Cystic Nephroma
+diagnosis	diagnosis	Perineurioma
+diagnosis	diagnosis	Pheochromocytoma
+diagnosis	diagnosis	Pilocytic Astrocytoma
+diagnosis	diagnosis	Pilomyxoid Astrocytoma
+diagnosis	diagnosis	Pineal Anlage Tumor
+diagnosis	diagnosis	Pineal Parenchymal Tumor
+diagnosis	diagnosis	Pineal Parenchymal Tumor of Intermediate Differentiation
+diagnosis	diagnosis	Pineal Tumor
+diagnosis	diagnosis	Pineoblastoma
+diagnosis	diagnosis	Pineocytoma
+diagnosis	diagnosis	Pituicytoma, granular cell tumor of the sellar region, and spindle cell oncocytoma
+diagnosis	diagnosis	Pituitary adenoma/PitNET
+diagnosis	diagnosis	Pituitary blastoma
+diagnosis	diagnosis	Pleomorphic Adenoma
+diagnosis	diagnosis	Pleomorphic Rhabdomyosarcoma
+diagnosis	diagnosis	Pleomorphic Xanthoastrocytoma
+diagnosis	diagnosis	Pleuropulmonary Blastoma
+diagnosis	diagnosis	Polymorphic Post-Transplant Lymphoproliferative Disorder
+diagnosis	diagnosis	Polymorphous low-grade neuroepithelial tumor of the young
+diagnosis	diagnosis	Poorly Differentiated Thyroid Cancer
+diagnosis	diagnosis	Posterior fossa ependymoma, NOS or NEC
+diagnosis	diagnosis	Posterior fossa ependymoma, group PFA
+diagnosis	diagnosis	Posterior fossa ependymoma, group PFB
+diagnosis	diagnosis	Primary diffuse large B-cell lymphoma of the CNS
+diagnosis	diagnosis	Primary intracranial sarcoma, DICER1-mutant
+diagnosis	diagnosis	Primitive Myxoid Mesenchymal Tumor of Infancy
+diagnosis	diagnosis	Primitive Neuroectodermal Tumor
+diagnosis	diagnosis	Primitive Round Cell Neoplasm
+diagnosis	diagnosis	Pulmonary Blastoma
+diagnosis	diagnosis	Pure Erythroid Leukemia
+diagnosis	diagnosis	Renal Angiomyolipoma
+diagnosis	diagnosis	Renal Cell Carcinoma
+diagnosis	diagnosis	Renal Epitheloid Angiomyolipoma
+diagnosis	diagnosis	Renal Oncocytoma
+diagnosis	diagnosis	Retinoblastoma
+diagnosis	diagnosis	Rhabdoid Cancer, Kidney
+diagnosis	diagnosis	Rhabdoid Tumor, NOS
+diagnosis	diagnosis	Rhabdomyosarcoma
+diagnosis	diagnosis	Rhabdomyosarcoma, NOS
+diagnosis	diagnosis	Rosai-Dorfman disease
+diagnosis	diagnosis	Rosette-forming Glioneuronal Tumor
+diagnosis	diagnosis	Round Cell Sarcoma, NOS
+diagnosis	diagnosis	Salivary Gland Anlage Tumor
+diagnosis	diagnosis	Sarcoma, NOS
+diagnosis	diagnosis	Schwannoma
+diagnosis	diagnosis	Sclerosing Microcystic Adenocarcinoma
+diagnosis	diagnosis	Sebaceous Carcinoma
+diagnosis	diagnosis	Seminoma
+diagnosis	diagnosis	Serous cystadenoma
+diagnosis	diagnosis	Sertoli-Leydig Cell Tumor
+diagnosis	diagnosis	Sex Cord Stromal Tumor
+diagnosis	diagnosis	Sialoblastoma
+diagnosis	diagnosis	Signet Ring Cell Carcinoma of the Stomach
+diagnosis	diagnosis	Signet Ring Cell Carcinoma, NOS
+diagnosis	diagnosis	Sinonasal Squamous Cell Carcinoma
+diagnosis	diagnosis	Small Cell Carcinoma of the Ovary
+diagnosis	diagnosis	Soft Tissue Perineuroma
+diagnosis	diagnosis	Soft Tissue Sarcoma, NOS
+diagnosis	diagnosis	Solid Cancer of Unknown Primary
+diagnosis	diagnosis	Solid Pseudopapillary Neoplasm of the Pancreas
+diagnosis	diagnosis	Solitary Fibrous Tumor/Hemangiopericytoma
+diagnosis	diagnosis	Solitary fibrous tumor
+diagnosis	diagnosis	Spinal ependymoma, MYCN-amplified
+diagnosis	diagnosis	Spinal ependymoma, NOS or NEC
+diagnosis	diagnosis	Spindle Cell Neoplasm
+diagnosis	diagnosis	Spindle Cell Rhabdomyosarcoma
+diagnosis	diagnosis	Spindle Cell Sarcoma, NOS
+diagnosis	diagnosis	Spindle Cell Tumor, NOS
+diagnosis	diagnosis	Spindle Cell/Sclerosing Rhabdomyosarcoma
+diagnosis	diagnosis	Spindle Epithelial Tumor with Thymus-Like Differentiation
+diagnosis	diagnosis	Spitzoid Melanoma
+diagnosis	diagnosis	Squamous Cell Carcinoma, NOS
+diagnosis	diagnosis	Stomach Adenocarcinoma
+diagnosis	diagnosis	Subependymal Giant Cell Astrocytoma
+diagnosis	diagnosis	Subependymoma
+diagnosis	diagnosis	Supratentorial ependymoma, NOS or NEC
+diagnosis	diagnosis	Supratentorial ependymoma, YAP1 fusion-positive
+diagnosis	diagnosis	Supratentorial ependymoma, ZFTA fusion-positive
+diagnosis	diagnosis	Synovial Sarcoma
+diagnosis	diagnosis	T-Cell Acute Lymphoblastic Leukemia, BCL11B rearrangement
+diagnosis	diagnosis	T-Cell Acute Lymphoblastic Leukemia, HOXA activation
+diagnosis	diagnosis	T-Cell Acute Lymphoblastic Leukemia, LMO2 activation
+diagnosis	diagnosis	T-Cell Acute Lymphoblastic Leukemia, LYL1 activation
+diagnosis	diagnosis	T-Cell Acute Lymphoblastic Leukemia, NKX2 activation
+diagnosis	diagnosis	T-Cell Acute Lymphoblastic Leukemia, NOS
+diagnosis	diagnosis	T-Cell Acute Lymphoblastic Leukemia, SPI1 rearrangement
+diagnosis	diagnosis	T-Cell Acute Lymphoblastic Leukemia, TAL1 activation
+diagnosis	diagnosis	T-Cell Acute Lymphoblastic Leukemia, TAL2 activation
+diagnosis	diagnosis	T-Cell Acute Lymphoblastic Leukemia, TLX1 activation
+diagnosis	diagnosis	T-Cell Acute Lymphoblastic Leukemia, TLX3 activation
+diagnosis	diagnosis	T-Cell Lymphoblastic Leukemia
+diagnosis	diagnosis	T-Cell Lymphoblastic Lymphoma, LMO1 rearrangement
+diagnosis	diagnosis	T-Cell Lymphoblastic Lymphoma, NKX2 rearrangement
+diagnosis	diagnosis	T-Cell Lymphoblastic Lymphoma, NOS
+diagnosis	diagnosis	T-Cell Lymphoblastic Lymphoma, TAL1 rearrangement
+diagnosis	diagnosis	T-cell and NK/T-cell lymphomas
+diagnosis	diagnosis	Tenosynovial Giant Cell Tumor Diffuse Type
+diagnosis	diagnosis	Teratoma, NOS
+diagnosis	diagnosis	Teratoma, Testis
+diagnosis	diagnosis	Testicular Leydig Cell Tumor
+diagnosis	diagnosis	Therapy Related Myeloproliferative Neoplasm
+diagnosis	diagnosis	Therapy-Related Acute Myeloid Leukemia
+diagnosis	diagnosis	Therapy-Related Acute Myeloid Leukemia, NPM1 alteration
+diagnosis	diagnosis	Therapy-Related Myelodysplastic Syndrome
+diagnosis	diagnosis	Therapy-Related Myeloid Neoplasm
+diagnosis	diagnosis	Thymic Carcinoma
+diagnosis	diagnosis	Thyroid Gland Follicular Adenoma with Papillary Hyperplasia
+diagnosis	diagnosis	Thyroid Hyperplastic Nodule
+diagnosis	diagnosis	Transient Abnormal Myelopoiesis (TAM)
+diagnosis	diagnosis	Tubular Adenoma of the Breast
+diagnosis	diagnosis	Tubular Adenoma of the Colon
+diagnosis	diagnosis	Tubulovillous Adenoma
+diagnosis	diagnosis	Undifferentiated Embryonal Sarcoma of the Liver
+diagnosis	diagnosis	Undifferentiated Pleomorphic Sarcoma
+diagnosis	diagnosis	Undifferentiated Round Cell Sarcoma
+diagnosis	diagnosis	Unknown
+diagnosis	diagnosis	Wilms
+diagnosis	diagnosis	Wilms, Bilateral
+diagnosis	diagnosis	Yolk Sac Tumor, Brain
+diagnosis	diagnosis	Yolk Sac Tumor, NOS
+diagnosis	diagnosis	Yolk Sac Tumor, Ovary
+diagnosis	diagnosis	Yolk Sac Tumor, Parotid
+diagnosis	diagnosis	Yolk Sac Tumor, Sacrococcygeal or Presacral
+diagnosis	diagnosis	Yolk Sac Tumor, Testis
+diagnosis	diagnosis	[---- Childhood Cancer Diagnosis ----]
+diagnosis	diagnosis	[---- ICD-O 3.2 ----]
+diagnosis	diagnosis	[---- Indication for Study ----]
+diagnosis	diagnosis	[---- Miscellaneous ----]
+diagnosis	diagnosis	see diagnosis_comment
+diagnosis	diagnosis_basis	Clinical
+diagnosis	diagnosis_basis	Molecular
+diagnosis	diagnosis_basis	Not Reported
+diagnosis	diagnosis_basis	Pathology
+diagnosis	diagnosis_basis	Unknown
+diagnosis	diagnosis_classification_system	CNS Diagnosis Category
+diagnosis	diagnosis_classification_system	French-American-British Classification
+diagnosis	diagnosis_classification_system	ICD-O-3.2
+diagnosis	diagnosis_classification_system	Indication for Study
+diagnosis	diagnosis_classification_system	Not Reported
+diagnosis	diagnosis_classification_system	St. Jude Cloud Disease Ontology
+diagnosis	diagnosis_classification_system	Unknown
+diagnosis	diagnosis_classification_system	WHO AML Classification of Tumors
+diagnosis	diagnosis_classification_system	WHO CNS5 Integrated Diagnosis
 diagnosis	diagnosis_comment	STRING
 diagnosis	diagnosis_id	STRING
+diagnosis	disease_phase	Initial Diagnosis
+diagnosis	disease_phase	Not Reported
+diagnosis	disease_phase	Post-Mortem
+diagnosis	disease_phase	Progression
+diagnosis	disease_phase	Recurrent Disease
+diagnosis	disease_phase	Refractory
+diagnosis	disease_phase	Relapse
+diagnosis	disease_phase	Relapse/Progression
+diagnosis	disease_phase	Unknown
 diagnosis	id	STRING
+diagnosis	toronto_childhood_cancer_staging	Acute lymphoblastic leukemia CNS1
+diagnosis	toronto_childhood_cancer_staging	Acute lymphoblastic leukemia CNS2
+diagnosis	toronto_childhood_cancer_staging	Acute lymphoblastic leukemia CNS3
+diagnosis	toronto_childhood_cancer_staging	Astrocytomas Localized
+diagnosis	toronto_childhood_cancer_staging	Astrocytomas Metastatic
+diagnosis	toronto_childhood_cancer_staging	Ependymoma M0
+diagnosis	toronto_childhood_cancer_staging	Ependymoma M1
+diagnosis	toronto_childhood_cancer_staging	Ependymoma M2
+diagnosis	toronto_childhood_cancer_staging	Ependymoma M3
+diagnosis	toronto_childhood_cancer_staging	Ependymoma M4
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Localized PRETEXT I
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Localized PRETEXT II
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Localized PRETEXT III
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Localized PRETEXT IV
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Metastatic PRETEXT I
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Metastatic PRETEXT II
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Metastatic PRETEXT III
+diagnosis	toronto_childhood_cancer_staging	Hepatoblastoma Metastatic PRETEXT IV
+diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma Stage I
+diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma Stage II
+diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma Stage III
+diagnosis	toronto_childhood_cancer_staging	Hodgkin lymphoma Stage IV
+diagnosis	toronto_childhood_cancer_staging	Malignant bone tumor Localized
+diagnosis	toronto_childhood_cancer_staging	Malignant bone tumor Metastatic
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma M0
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma M1
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma M2
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma M3
+diagnosis	toronto_childhood_cancer_staging	Medulloblastoma M4
+diagnosis	toronto_childhood_cancer_staging	Neuroblastoma Stage L1
+diagnosis	toronto_childhood_cancer_staging	Neuroblastoma Stage L2
+diagnosis	toronto_childhood_cancer_staging	Neuroblastoma Stage M
+diagnosis	toronto_childhood_cancer_staging	Neuroblastoma Stage MS
+diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma Stage I
+diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma Stage II
+diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma Stage III
+diagnosis	toronto_childhood_cancer_staging	Non-Hodgkin lymphoma Stage IV
+diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma Stage I
+diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma Stage II
+diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma Stage III
+diagnosis	toronto_childhood_cancer_staging	Non-rhabdomyosarcoma soft tissue sarcoma Stage IV
+diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumor Stage I
+diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumor Stage II
+diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumor Stage III
+diagnosis	toronto_childhood_cancer_staging	Ovarian germ cell tumor Stage IV
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage I
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage II
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage III
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage IV
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage y-I
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage y-II
+diagnosis	toronto_childhood_cancer_staging	Renal tumor (excluding renal cell carcinomas) Stage y-III
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma Stage 0
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma Stage I
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma Stage II
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma Stage III
+diagnosis	toronto_childhood_cancer_staging	Retinoblastoma Stage IV
+diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma Stage I
+diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma Stage II
+diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma Stage III
+diagnosis	toronto_childhood_cancer_staging	Rhabdomyosarcoma Stage IV
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage I
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IA
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IB
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage II
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIA
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIB
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIC
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage III
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIIA
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIIB
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IIIC
+diagnosis	toronto_childhood_cancer_staging	Testicular germ cell tumor Stage IS
+diagnosis	tumor_classification	Metastatic
+diagnosis	tumor_classification	Not Applicable
+diagnosis	tumor_classification	Not Reported
+diagnosis	tumor_classification	Primary
+diagnosis	tumor_classification	Regional
+diagnosis	tumor_classification	Unknown
+diagnosis	tumor_grade	G1
+diagnosis	tumor_grade	G2
+diagnosis	tumor_grade	G3
+diagnosis	tumor_grade	G4
+diagnosis	tumor_grade	GB
+diagnosis	tumor_grade	GX
+diagnosis	tumor_grade	High Grade
+diagnosis	tumor_grade	Intermediate Grade
+diagnosis	tumor_grade	Low Grade
+diagnosis	tumor_grade	Not Applicable
 diagnosis	tumor_grade_source	STRING
+diagnosis	tumor_stage_clinical_m	M0
+diagnosis	tumor_stage_clinical_m	M1
+diagnosis	tumor_stage_clinical_m	M1a
+diagnosis	tumor_stage_clinical_m	M1b
+diagnosis	tumor_stage_clinical_m	M1c
+diagnosis	tumor_stage_clinical_m	MX
+diagnosis	tumor_stage_clinical_m	cM0 (i+)
+diagnosis	tumor_stage_clinical_n	N0
+diagnosis	tumor_stage_clinical_n	N0 (i+)
+diagnosis	tumor_stage_clinical_n	N0 (i-)
+diagnosis	tumor_stage_clinical_n	N0 (mol+)
+diagnosis	tumor_stage_clinical_n	N0 (mol-)
+diagnosis	tumor_stage_clinical_n	N1
+diagnosis	tumor_stage_clinical_n	N1a
+diagnosis	tumor_stage_clinical_n	N1b
+diagnosis	tumor_stage_clinical_n	N1bI
+diagnosis	tumor_stage_clinical_n	N1bII
+diagnosis	tumor_stage_clinical_n	N1bIII
+diagnosis	tumor_stage_clinical_n	N1bIV
+diagnosis	tumor_stage_clinical_n	N1c
+diagnosis	tumor_stage_clinical_n	N1mi
+diagnosis	tumor_stage_clinical_n	N2
+diagnosis	tumor_stage_clinical_n	N2a
+diagnosis	tumor_stage_clinical_n	N2b
+diagnosis	tumor_stage_clinical_n	N2c
+diagnosis	tumor_stage_clinical_n	N3
+diagnosis	tumor_stage_clinical_n	N3a
+diagnosis	tumor_stage_clinical_n	N3b
+diagnosis	tumor_stage_clinical_n	N3c
+diagnosis	tumor_stage_clinical_n	N4
+diagnosis	tumor_stage_clinical_n	NX
+diagnosis	tumor_stage_clinical_t	T0
+diagnosis	tumor_stage_clinical_t	T1
+diagnosis	tumor_stage_clinical_t	T1a
+diagnosis	tumor_stage_clinical_t	T1a1
+diagnosis	tumor_stage_clinical_t	T1a2
+diagnosis	tumor_stage_clinical_t	T1b
+diagnosis	tumor_stage_clinical_t	T1b1
+diagnosis	tumor_stage_clinical_t	T1b2
+diagnosis	tumor_stage_clinical_t	T1c
+diagnosis	tumor_stage_clinical_t	T1mi
+diagnosis	tumor_stage_clinical_t	T2
+diagnosis	tumor_stage_clinical_t	T2a
+diagnosis	tumor_stage_clinical_t	T2a1
+diagnosis	tumor_stage_clinical_t	T2a2
+diagnosis	tumor_stage_clinical_t	T2b
+diagnosis	tumor_stage_clinical_t	T2c
+diagnosis	tumor_stage_clinical_t	T2d
+diagnosis	tumor_stage_clinical_t	T3
+diagnosis	tumor_stage_clinical_t	T3a
+diagnosis	tumor_stage_clinical_t	T3b
+diagnosis	tumor_stage_clinical_t	T3c
+diagnosis	tumor_stage_clinical_t	T3d
+diagnosis	tumor_stage_clinical_t	T4
+diagnosis	tumor_stage_clinical_t	T4a
+diagnosis	tumor_stage_clinical_t	T4b
+diagnosis	tumor_stage_clinical_t	T4c
+diagnosis	tumor_stage_clinical_t	T4d
+diagnosis	tumor_stage_clinical_t	T4e
+diagnosis	tumor_stage_clinical_t	T5
+diagnosis	tumor_stage_clinical_t	TX
+diagnosis	tumor_stage_clinical_t	Ta
+diagnosis	tumor_stage_clinical_t	Tis
+diagnosis	tumor_stage_clinical_t	Tis (DCIS)
+diagnosis	tumor_stage_clinical_t	Tis (LCIS)
+diagnosis	tumor_stage_clinical_t	Tis (Paget's)
+diagnosis	tumor_stage_source	AJCC Lymph Node N Stage
+diagnosis	tumor_stage_source	AJCC Metastasis M Stage
+diagnosis	tumor_stage_source	AJCC Tumor T Stage
+diagnosis	tumor_stage_source	Toronto Childhood Cancer Stage Guidelines
+diagnosis	year_of_diagnosis	STRING
 exposure	age_at_exposure	INTEGER
 exposure	alcohol_days_per_week	NUMBER
 exposure	alcohol_drinks_per_day	NUMBER
+exposure	alcohol_history	No
+exposure	alcohol_history	Not Reported
+exposure	alcohol_history	Unknown
+exposure	alcohol_history	Yes
+exposure	alcohol_intensity	Drinker
+exposure	alcohol_intensity	Heavy Drinker
+exposure	alcohol_intensity	Lifelong Non-Drinker
+exposure	alcohol_intensity	Non-Drinker
+exposure	alcohol_intensity	Not Reported
+exposure	alcohol_intensity	Occasional Drinker
+exposure	alcohol_intensity	Unknown
+exposure	asbestos_exposure	No
+exposure	asbestos_exposure	Not Reported
+exposure	asbestos_exposure	Unknown
+exposure	asbestos_exposure	Yes
 exposure	cigarettes_per_day	INTEGER
+exposure	coal_dust_exposure	No
+exposure	coal_dust_exposure	Not Reported
+exposure	coal_dust_exposure	Unknown
+exposure	coal_dust_exposure	Yes
+exposure	environmental_tobacco_smoke_exposure	No
+exposure	environmental_tobacco_smoke_exposure	Not Reported
+exposure	environmental_tobacco_smoke_exposure	Unknown
+exposure	environmental_tobacco_smoke_exposure	Yes
 exposure	exposure_id	STRING
 exposure	id	STRING
 exposure	pack_years_smoked	NUMBER
+exposure	radon_exposure	No
+exposure	radon_exposure	Not Reported
+exposure	radon_exposure	Unknown
+exposure	radon_exposure	Yes
+exposure	respirable_crystalline_silica_exposure	No
+exposure	respirable_crystalline_silica_exposure	Not Reported
+exposure	respirable_crystalline_silica_exposure	Unknown
+exposure	respirable_crystalline_silica_exposure	Yes
+exposure	smoking_frequency	Every day
+exposure	smoking_frequency	Not Reported
+exposure	smoking_frequency	Some days
+exposure	smoking_frequency	Unknown
+exposure	time_between_waking_and_first_smoke	31-60 Minutes
+exposure	time_between_waking_and_first_smoke	6-30 Minutes
+exposure	time_between_waking_and_first_smoke	After 60 Minutes
+exposure	time_between_waking_and_first_smoke	Not Reported
+exposure	time_between_waking_and_first_smoke	Unknown
+exposure	time_between_waking_and_first_smoke	Within 5 Minutes
 exposure	tobacco_smoking_onset_year	INTEGER
 exposure	tobacco_smoking_quit_year	INTEGER
+exposure	tobacco_smoking_status	1 (Lifelong Non-Smoker)
+exposure	tobacco_smoking_status	2 (Current Smoker)
+exposure	tobacco_smoking_status	3 (Current Reformed Smoker for > 15 yrs)
+exposure	tobacco_smoking_status	4 (Current Reformed Smoker for < or = 15 yrs)
+exposure	tobacco_smoking_status	5 (Current Reformed Smoker, Duration Not Specified)
+exposure	tobacco_smoking_status	7 (Smoking history not documented)
+exposure	tobacco_smoking_status	Not Reported
+exposure	tobacco_smoking_status	Unknown
 exposure	years_smoked	NUMBER
 family_relationship	family_id	STRING
 family_relationship	family_relationship_id	STRING
 family_relationship	id	STRING
 family_relationship	related_to_participant_id	STRING
+family_relationship	relationship	Adopted Daughter
+family_relationship	relationship	Adopted Son
+family_relationship	relationship	Adoptive Brother
+family_relationship	relationship	Adoptive Father
+family_relationship	relationship	Adoptive Mother
+family_relationship	relationship	Adoptive Sister
+family_relationship	relationship	Aunt
+family_relationship	relationship	Brother
+family_relationship	relationship	Brother-in-law
+family_relationship	relationship	Child
+family_relationship	relationship	Cousin
+family_relationship	relationship	Daughter
+family_relationship	relationship	Daughter-in-law
+family_relationship	relationship	Domestic Partner
+family_relationship	relationship	Don't Know
+family_relationship	relationship	Father
+family_relationship	relationship	Father-in-law
+family_relationship	relationship	Female Cousin
+family_relationship	relationship	First Cousin
+family_relationship	relationship	First Cousin Once Removed
+family_relationship	relationship	Foster Brother
+family_relationship	relationship	Foster Daughter
+family_relationship	relationship	Foster Father
+family_relationship	relationship	Foster Mother
+family_relationship	relationship	Foster Sister
+family_relationship	relationship	Foster Son
+family_relationship	relationship	Fraternal Twin Brother
+family_relationship	relationship	Fraternal Twin Sibling
+family_relationship	relationship	Fraternal Twin Sister
+family_relationship	relationship	Full Brother
+family_relationship	relationship	Full Sister
+family_relationship	relationship	Grand Nephew
+family_relationship	relationship	Grand Niece
+family_relationship	relationship	Grandchild
+family_relationship	relationship	Granddaughter
+family_relationship	relationship	Grandfather
+family_relationship	relationship	Grandmother
+family_relationship	relationship	Grandparent
+family_relationship	relationship	Grandson
+family_relationship	relationship	Great Grandchild
+family_relationship	relationship	Half Brother
+family_relationship	relationship	Half Sibling
+family_relationship	relationship	Half Sister
+family_relationship	relationship	Husband
+family_relationship	relationship	Identical Twin Brother
+family_relationship	relationship	Identical Twin Sibling
+family_relationship	relationship	Identical Twin Sister
+family_relationship	relationship	Legal Guardian
+family_relationship	relationship	Male Cousin
+family_relationship	relationship	Maternal Aunt
+family_relationship	relationship	Maternal First Cousin
+family_relationship	relationship	Maternal First Cousin Once Removed
+family_relationship	relationship	Maternal Grandfather
+family_relationship	relationship	Maternal Grandmother
+family_relationship	relationship	Maternal Grandparent
+family_relationship	relationship	Maternal Great Aunt
+family_relationship	relationship	Maternal Great Grandparent
+family_relationship	relationship	Maternal Great Uncle
+family_relationship	relationship	Maternal Half Brother
+family_relationship	relationship	Maternal Half Sibling
+family_relationship	relationship	Maternal Half Sister
+family_relationship	relationship	Maternal Uncle
+family_relationship	relationship	Mother
+family_relationship	relationship	Mother-in-law
+family_relationship	relationship	Natural Brother
+family_relationship	relationship	Natural Child
+family_relationship	relationship	Natural Daughter
+family_relationship	relationship	Natural Father
+family_relationship	relationship	Natural Grandchild
+family_relationship	relationship	Natural Grandfather
+family_relationship	relationship	Natural Grandmother
+family_relationship	relationship	Natural Grandparent
+family_relationship	relationship	Natural Mother
+family_relationship	relationship	Natural Parent
+family_relationship	relationship	Natural Sibling
+family_relationship	relationship	Natural Sister
+family_relationship	relationship	Natural Son
+family_relationship	relationship	Nephew
+family_relationship	relationship	Niece
+family_relationship	relationship	Niece Second Degree Relative
+family_relationship	relationship	None
+family_relationship	relationship	Not Reported
+family_relationship	relationship	Other
+family_relationship	relationship	Parent
+family_relationship	relationship	Paternal Aunt
+family_relationship	relationship	Paternal First Cousin
+family_relationship	relationship	Paternal First Cousin Once Removed
+family_relationship	relationship	Paternal Grandfather
+family_relationship	relationship	Paternal Grandmother
+family_relationship	relationship	Paternal Grandparent
+family_relationship	relationship	Paternal Great Aunt
+family_relationship	relationship	Paternal Great Grandparent
+family_relationship	relationship	Paternal Great Uncle
+family_relationship	relationship	Paternal Half Brother
+family_relationship	relationship	Paternal Half Sibling
+family_relationship	relationship	Paternal Half Sister
+family_relationship	relationship	Paternal Uncle
+family_relationship	relationship	Proband
+family_relationship	relationship	Refused
+family_relationship	relationship	Sibling
+family_relationship	relationship	Sister
+family_relationship	relationship	Sister-in-law
+family_relationship	relationship	Son
+family_relationship	relationship	Son-in-law
+family_relationship	relationship	Spouse
+family_relationship	relationship	Step Child
+family_relationship	relationship	Step Sibling
+family_relationship	relationship	Stepbrother
+family_relationship	relationship	Stepdaughter
+family_relationship	relationship	Stepfather
+family_relationship	relationship	Stepmother
+family_relationship	relationship	Stepsister
+family_relationship	relationship	Stepson
+family_relationship	relationship	Twin Sibling
+family_relationship	relationship	Uncle
+family_relationship	relationship	Unknown
+family_relationship	relationship	Ward
+family_relationship	relationship	Wife
+generic_file	acl	STRING
+generic_file	authz	STRING
+generic_file	crdc_id	STRING
+generic_file	dcf_indexd_guid	STRING
+generic_file	file_access	Controlled
+generic_file	file_access	Open
+generic_file	file_description	STRING
+generic_file	file_mapping_level	Participant
+generic_file	file_mapping_level	Sample
+generic_file	file_mapping_level	Study
+generic_file	file_name	STRING
+generic_file	file_size	INTEGER
+generic_file	file_type	bai
+generic_file	file_type	bam
+generic_file	file_type	bam_index
+generic_file	file_type	bcf
+generic_file	file_type	bed
+generic_file	file_type	bif
+generic_file	file_type	bw
+generic_file	file_type	cns
+generic_file	file_type	crai
+generic_file	file_type	cram
+generic_file	file_type	cram_index
+generic_file	file_type	csi
+generic_file	file_type	csv
+generic_file	file_type	dicom
+generic_file	file_type	dict
+generic_file	file_type	docx
+generic_file	file_type	fasta
+generic_file	file_type	fastq
+generic_file	file_type	gvcf
+generic_file	file_type	html
+generic_file	file_type	idat
+generic_file	file_type	jpg
+generic_file	file_type	json
+generic_file	file_type	maf
+generic_file	file_type	mrxs
+generic_file	file_type	ndpi
+generic_file	file_type	nifti
+generic_file	file_type	pdf
+generic_file	file_type	ped
+generic_file	file_type	png
+generic_file	file_type	rda
+generic_file	file_type	rdata
+generic_file	file_type	rds
+generic_file	file_type	sas7bdat
+generic_file	file_type	scn
+generic_file	file_type	seg
+generic_file	file_type	svg
+generic_file	file_type	svs
+generic_file	file_type	tar
+generic_file	file_type	tbi
+generic_file	file_type	tif
+generic_file	file_type	tiff
+generic_file	file_type	tsv
+generic_file	file_type	txt
+generic_file	file_type	vcf
+generic_file	file_type	vcf_index
+generic_file	file_type	vms
+generic_file	file_type	vmu
+generic_file	file_type	xls
+generic_file	file_type	xlsx
+generic_file	file_type	xml
+generic_file	file_url	STRING
+generic_file	generic_file_id	STRING
+generic_file	id	STRING
+generic_file	md5sum	STRING
 medical_history	id	STRING
+medical_history	medical_history_category	Autoimmune Disease
+medical_history	medical_history_category	Cancer
+medical_history	medical_history_category	Congenital Anomaly
+medical_history	medical_history_category	Genetic Syndrome
+medical_history	medical_history_category	Not Reported
+medical_history	medical_history_category	Structural Birth Defect
+medical_history	medical_history_category	Unknown
 medical_history	medical_history_id	STRING
 methylation_array_file	acl	STRING
 methylation_array_file	authz	STRING
+methylation_array_file	crdc_id	STRING
 methylation_array_file	dcf_indexd_guid	STRING
+methylation_array_file	file_access	Controlled
+methylation_array_file	file_access	Open
 methylation_array_file	file_description	STRING
+methylation_array_file	file_mapping_level	Participant
+methylation_array_file	file_mapping_level	Sample
+methylation_array_file	file_mapping_level	Study
 methylation_array_file	file_name	STRING
 methylation_array_file	file_size	INTEGER
+methylation_array_file	file_type	bai
+methylation_array_file	file_type	bam
+methylation_array_file	file_type	bam_index
+methylation_array_file	file_type	bcf
+methylation_array_file	file_type	bed
+methylation_array_file	file_type	bif
+methylation_array_file	file_type	bw
+methylation_array_file	file_type	cns
+methylation_array_file	file_type	crai
+methylation_array_file	file_type	cram
+methylation_array_file	file_type	cram_index
+methylation_array_file	file_type	csi
+methylation_array_file	file_type	csv
+methylation_array_file	file_type	dicom
+methylation_array_file	file_type	dict
+methylation_array_file	file_type	docx
+methylation_array_file	file_type	fasta
+methylation_array_file	file_type	fastq
+methylation_array_file	file_type	gvcf
+methylation_array_file	file_type	html
+methylation_array_file	file_type	idat
+methylation_array_file	file_type	jpg
+methylation_array_file	file_type	json
+methylation_array_file	file_type	maf
+methylation_array_file	file_type	mrxs
+methylation_array_file	file_type	ndpi
+methylation_array_file	file_type	nifti
+methylation_array_file	file_type	pdf
+methylation_array_file	file_type	ped
+methylation_array_file	file_type	png
+methylation_array_file	file_type	rda
+methylation_array_file	file_type	rdata
+methylation_array_file	file_type	rds
+methylation_array_file	file_type	sas7bdat
+methylation_array_file	file_type	scn
+methylation_array_file	file_type	seg
+methylation_array_file	file_type	svg
+methylation_array_file	file_type	svs
+methylation_array_file	file_type	tar
+methylation_array_file	file_type	tbi
+methylation_array_file	file_type	tif
+methylation_array_file	file_type	tiff
+methylation_array_file	file_type	tsv
+methylation_array_file	file_type	txt
+methylation_array_file	file_type	vcf
+methylation_array_file	file_type	vcf_index
+methylation_array_file	file_type	vms
+methylation_array_file	file_type	vmu
+methylation_array_file	file_type	xls
+methylation_array_file	file_type	xlsx
+methylation_array_file	file_type	xml
 methylation_array_file	file_url	STRING
 methylation_array_file	id	STRING
 methylation_array_file	md5sum	STRING
@@ -65,6 +2399,29 @@ methylation_array_file	methylation_platform	STRING
 methylation_array_file	reporter_label	STRING
 molecular_test	aa_change	STRING
 molecular_test	age_at_molecular_test	INTEGER
+molecular_test	antigen	Blood
+molecular_test	antigen	Bone Marrow
+molecular_test	antigen	Buccal Mucosa
+molecular_test	antigen	Buffy Coat
+molecular_test	antigen	Cerebrospinal Fluid
+molecular_test	antigen	Connective Tissue
+molecular_test	antigen	Embryonic Fluid
+molecular_test	antigen	Embryonic Tissue
+molecular_test	antigen	Feces
+molecular_test	antigen	Granulocyte
+molecular_test	antigen	Muscle Tissue
+molecular_test	antigen	Nerve Tissue
+molecular_test	antigen	Not Reported
+molecular_test	antigen	Peritoneal Fluid
+molecular_test	antigen	Plasma
+molecular_test	antigen	Pleural Fluid
+molecular_test	antigen	Saliva
+molecular_test	antigen	Serum
+molecular_test	antigen	Skin
+molecular_test	antigen	Soft Tissue
+molecular_test	antigen	Tissue, NOS
+molecular_test	antigen	Unknown
+molecular_test	antigen	Urine
 molecular_test	blood_test_normal_range_lower	INTEGER
 molecular_test	blood_test_normal_range_upper	INTEGER
 molecular_test	cell_count	INTEGER
@@ -72,45 +2429,296 @@ molecular_test	copy_number	INTEGER
 molecular_test	cytoband	STRING
 molecular_test	exon	STRING
 molecular_test	gene_symbol	STRING
+molecular_test	histone_family	H1
+molecular_test	histone_family	H2A
+molecular_test	histone_family	H2B
+molecular_test	histone_family	H3
+molecular_test	histone_family	H4
+molecular_test	histone_family	Not Reported
+molecular_test	histone_family	Unknown
 molecular_test	histone_variant	STRING
 molecular_test	id	STRING
 molecular_test	intron	STRING
+molecular_test	laboratory_test_name	5 Prime Nucleotidase
+molecular_test	laboratory_test_name	AFP
+molecular_test	laboratory_test_name	ALT
+molecular_test	laboratory_test_name	AST
+molecular_test	laboratory_test_name	Absolute Neutrophil Count
+molecular_test	laboratory_test_name	Albumin
+molecular_test	laboratory_test_name	Alkaline Phophatase
+molecular_test	laboratory_test_name	Auer Rods
+molecular_test	laboratory_test_name	BUN
+molecular_test	laboratory_test_name	Basophil
+molecular_test	laboratory_test_name	Beta 2 Microglobulin
+molecular_test	laboratory_test_name	Blasts
+molecular_test	laboratory_test_name	CD34
+molecular_test	laboratory_test_name	CO2
+molecular_test	laboratory_test_name	CRP
+molecular_test	laboratory_test_name	Calcium
+molecular_test	laboratory_test_name	Cellularity
+molecular_test	laboratory_test_name	Chloride
+molecular_test	laboratory_test_name	Creatinine
+molecular_test	laboratory_test_name	Creatinine Clearance
+molecular_test	laboratory_test_name	Direct Bilirubin
+molecular_test	laboratory_test_name	EBV DNA
+molecular_test	laboratory_test_name	EBV IgG
+molecular_test	laboratory_test_name	ESR
+molecular_test	laboratory_test_name	Eosophinils
+molecular_test	laboratory_test_name	Ferritin
+molecular_test	laboratory_test_name	Free T3
+molecular_test	laboratory_test_name	Free T4
+molecular_test	laboratory_test_name	GGT
+molecular_test	laboratory_test_name	Glucose
+molecular_test	laboratory_test_name	HCT
+molecular_test	laboratory_test_name	Hemoglobin
+molecular_test	laboratory_test_name	Human Chorionic Gonadotropin
+molecular_test	laboratory_test_name	INR
+molecular_test	laboratory_test_name	Immunoglobulin A
+molecular_test	laboratory_test_name	Immunoglobulin G
+molecular_test	laboratory_test_name	Immunoglobulin M
+molecular_test	laboratory_test_name	LDH
+molecular_test	laboratory_test_name	Leukocytes
+molecular_test	laboratory_test_name	Lipase
+molecular_test	laboratory_test_name	Luteinizing Hormone
+molecular_test	laboratory_test_name	Lymphoblasts
+molecular_test	laboratory_test_name	Lymphocytes
+molecular_test	laboratory_test_name	M Protein
+molecular_test	laboratory_test_name	Mch
+molecular_test	laboratory_test_name	Mchc
+molecular_test	laboratory_test_name	Mcv
+molecular_test	laboratory_test_name	Metamyelocytes
+molecular_test	laboratory_test_name	Monocytes
+molecular_test	laboratory_test_name	Myeloblasts
+molecular_test	laboratory_test_name	Myelocytes
+molecular_test	laboratory_test_name	Neutrophil Bands
+molecular_test	laboratory_test_name	Neutrophils
+molecular_test	laboratory_test_name	Not Reported
+molecular_test	laboratory_test_name	Other
+molecular_test	laboratory_test_name	PT
+molecular_test	laboratory_test_name	PTT
+molecular_test	laboratory_test_name	Platelets
+molecular_test	laboratory_test_name	Potassium
+molecular_test	laboratory_test_name	Prolymphocytes
+molecular_test	laboratory_test_name	Promonocytes
+molecular_test	laboratory_test_name	Promyelocytes
+molecular_test	laboratory_test_name	Protein
+molecular_test	laboratory_test_name	RBC
+molecular_test	laboratory_test_name	Rdw
+molecular_test	laboratory_test_name	Segmented Neutrophil
+molecular_test	laboratory_test_name	Serum Free Immunoglobulin Light Chain, Kappa
+molecular_test	laboratory_test_name	Serum Free Immunoglobulin Light Chain, Lambda
+molecular_test	laboratory_test_name	Serum Free Immunoglobulin Light Chain, NOS
+molecular_test	laboratory_test_name	Sodium
+molecular_test	laboratory_test_name	T4
+molecular_test	laboratory_test_name	TSH
+molecular_test	laboratory_test_name	Testosterone
+molecular_test	laboratory_test_name	Total Bilirubin
+molecular_test	laboratory_test_name	Total Protein
+molecular_test	laboratory_test_name	Unknown
+molecular_test	laboratory_test_name	Uric Acid
+molecular_test	laboratory_test_name	beta-hCG
+molecular_test	laboratory_test_name	cfDNA
+molecular_test	laboratory_test_name	miR-367-3p
+molecular_test	laboratory_test_name	miR-371a-3p
+molecular_test	laboratory_test_name	miR-372-3p
+molecular_test	laboratory_test_name	miR-373-3p
+molecular_test	laboratory_test_name	miR-375-3p
 molecular_test	loci_abnormal_count	INTEGER
 molecular_test	loci_count	INTEGER
 molecular_test	locus	STRING
 molecular_test	mismatch_repair_mutation	STRING
+molecular_test	molecular_analysis_method	Comparative Genomic Hybridization
+molecular_test	molecular_analysis_method	Cytogenetics, NOS
+molecular_test	molecular_analysis_method	FISH
+molecular_test	molecular_analysis_method	Flow Cytometry
+molecular_test	molecular_analysis_method	IHC
+molecular_test	molecular_analysis_method	ISH
+molecular_test	molecular_analysis_method	Karyotype
+molecular_test	molecular_analysis_method	Microarray
+molecular_test	molecular_analysis_method	Microsatellite Analysis
+molecular_test	molecular_analysis_method	Not Applicable
+molecular_test	molecular_analysis_method	Not Reported
+molecular_test	molecular_analysis_method	Nuclear Staining
+molecular_test	molecular_analysis_method	Other
+molecular_test	molecular_analysis_method	RNA Sequencing
+molecular_test	molecular_analysis_method	RT-PCR
+molecular_test	molecular_analysis_method	Sequencing, NOS
+molecular_test	molecular_analysis_method	Southern Blotting
+molecular_test	molecular_analysis_method	Targeted Sequencing
+molecular_test	molecular_analysis_method	Unknown
+molecular_test	molecular_analysis_method	WGS
+molecular_test	molecular_analysis_method	WXS
 molecular_test	molecular_test_id	STRING
 molecular_test	pathogenicity	STRING
 molecular_test	ploidy	STRING
 molecular_test	second_exon	STRING
 molecular_test	second_gene_symbol	STRING
 molecular_test	specialized_molecular_test	STRING
+molecular_test	test_analyte_type	DNA
+molecular_test	test_analyte_type	Not Reported
+molecular_test	test_analyte_type	Protein
+molecular_test	test_analyte_type	Total RNA
+molecular_test	test_analyte_type	Unknown
+molecular_test	test_analyte_type	mRNA
+molecular_test	test_analyte_type	miRNA
 molecular_test	test_result_numeric	STRING
 molecular_test	test_result_text	STRING
 molecular_test	test_unit	STRING
 molecular_test	transcript	STRING
+molecular_test	variant_origin	Germline
+molecular_test	variant_origin	Somatic
+molecular_test	variant_origin	Unknown
+molecular_test	zygosity	Hemizygous
+molecular_test	zygosity	Heterozygous
+molecular_test	zygosity	Homozygous
+molecular_test	zygosity	Not Reported
+molecular_test	zygosity	Nullizygous
+molecular_test	zygosity	Unknown
+participant	crdc_id	STRING
 participant	id	STRING
 participant	participant_id	STRING
+participant	sex_at_birth	Decline to answer
+participant	sex_at_birth	Don't Know
+participant	sex_at_birth	Female
+participant	sex_at_birth	Intersex
+participant	sex_at_birth	Male
+participant	sex_at_birth	None of These Describe Me
+participant	sex_at_birth	Not Reported
+participant	sex_at_birth	Prefer Not to Answer
+participant	sex_at_birth	Unknown
 pathology_file	acl	STRING
 pathology_file	authz	STRING
+pathology_file	crdc_id	STRING
 pathology_file	dcf_indexd_guid	STRING
+pathology_file	deidentification_method	Not applicable
+pathology_file	deidentification_method	automatic
+pathology_file	deidentification_method	manual
+pathology_file	deidentification_method	semiautomatic
+pathology_file	file_access	Controlled
+pathology_file	file_access	Open
 pathology_file	file_description	STRING
+pathology_file	file_mapping_level	Participant
+pathology_file	file_mapping_level	Sample
+pathology_file	file_mapping_level	Study
 pathology_file	file_name	STRING
 pathology_file	file_size	INTEGER
+pathology_file	file_type	bai
+pathology_file	file_type	bam
+pathology_file	file_type	bam_index
+pathology_file	file_type	bcf
+pathology_file	file_type	bed
+pathology_file	file_type	bif
+pathology_file	file_type	bw
+pathology_file	file_type	cns
+pathology_file	file_type	crai
+pathology_file	file_type	cram
+pathology_file	file_type	cram_index
+pathology_file	file_type	csi
+pathology_file	file_type	csv
+pathology_file	file_type	dicom
+pathology_file	file_type	dict
+pathology_file	file_type	docx
+pathology_file	file_type	fasta
+pathology_file	file_type	fastq
+pathology_file	file_type	gvcf
+pathology_file	file_type	html
+pathology_file	file_type	idat
+pathology_file	file_type	jpg
+pathology_file	file_type	json
+pathology_file	file_type	maf
+pathology_file	file_type	mrxs
+pathology_file	file_type	ndpi
+pathology_file	file_type	nifti
+pathology_file	file_type	pdf
+pathology_file	file_type	ped
+pathology_file	file_type	png
+pathology_file	file_type	rda
+pathology_file	file_type	rdata
+pathology_file	file_type	rds
+pathology_file	file_type	sas7bdat
+pathology_file	file_type	scn
+pathology_file	file_type	seg
+pathology_file	file_type	svg
+pathology_file	file_type	svs
+pathology_file	file_type	tar
+pathology_file	file_type	tbi
+pathology_file	file_type	tif
+pathology_file	file_type	tiff
+pathology_file	file_type	tsv
+pathology_file	file_type	txt
+pathology_file	file_type	vcf
+pathology_file	file_type	vcf_index
+pathology_file	file_type	vms
+pathology_file	file_type	vmu
+pathology_file	file_type	xls
+pathology_file	file_type	xlsx
+pathology_file	file_type	xml
 pathology_file	file_url	STRING
+pathology_file	fixation_embedding_method	-80 degrees C
+pathology_file	fixation_embedding_method	Cryopreservation in dry ice (dead tissue)
+pathology_file	fixation_embedding_method	Cryopreservation in liquid nitrogen (dead tissue)
+pathology_file	fixation_embedding_method	Cryopreservation of live cells in liquid nitrogen
+pathology_file	fixation_embedding_method	Cryopreserved
+pathology_file	fixation_embedding_method	Formalin fixed - buffered
+pathology_file	fixation_embedding_method	Formalin fixed - unbuffered
+pathology_file	fixation_embedding_method	Formalin fixed paraffin embedded (FFPE)
+pathology_file	fixation_embedding_method	Fresh
+pathology_file	fixation_embedding_method	Fresh dissociated
+pathology_file	fixation_embedding_method	Fresh dissociated and single cell sorted
+pathology_file	fixation_embedding_method	Fresh dissociated and single cell sorted into plates
+pathology_file	fixation_embedding_method	Frozen
+pathology_file	fixation_embedding_method	Liquid nitrogen
+pathology_file	fixation_embedding_method	Not reported
+pathology_file	fixation_embedding_method	OCT
+pathology_file	fixation_embedding_method	Other
+pathology_file	fixation_embedding_method	Snap frozen
+pathology_file	fixation_embedding_method	Unknown
 pathology_file	id	STRING
+pathology_file	image_modality	Computed Tomography
+pathology_file	image_modality	Magnetic Resonance
+pathology_file	image_modality	Panoramic X-Ray
+pathology_file	image_modality	Positron Emission Tomography
+pathology_file	image_modality	Slide Microscopy
+pathology_file	license	CC by 3.0
+pathology_file	license	CC by 4.0
 pathology_file	magnification	STRING
 pathology_file	md5sum	STRING
 pathology_file	pathology_file_id	STRING
 pathology_file	percent_necrosis	INTEGER
 pathology_file	percent_tumor	INTEGER
+pathology_file	staining_method	H&E
+pathology_file	staining_method	IHC
+pathology_file	staining_method	In situ hybridization
+pathology_file	staining_method	Other
+pathology_file	staining_method	mIHC
 pdx	id	STRING
+pdx	implantation_site	brain stem
+pdx	implantation_site	intraperitoneal cavity
+pdx	implantation_site	left cerebrum
+pdx	implantation_site	mammary fat pad
+pdx	implantation_site	muscle
+pdx	implantation_site	renal capsule
+pdx	implantation_site	right cerebrum
+pdx	implantation_site	subcutaneous
+pdx	implantation_site	subrenal capsule
+pdx	implantation_site	tail vein
+pdx	implantation_type	injection
+pdx	implantation_type	intravenous
+pdx	implantation_type	orthotopic
+pdx	implantation_type	surgical
+pdx	implantation_type	trocar
+pdx	is_tumor_from_untreated_patient	No
+pdx	is_tumor_from_untreated_patient	Not Reported
+pdx	is_tumor_from_untreated_patient	Yes
 pdx	model_id	STRING
 pdx	mouse_strain	STRING
 pdx	passage_number	STRING
 pdx	passages_tested	STRING
 pdx	pdx_id	STRING
 pdx	sample_type_for_implantation	STRING
+pdx	tumor_confirmed_not_to_be_mus_or_ebv_origin	No
+pdx	tumor_confirmed_not_to_be_mus_or_ebv_origin	Unknown
+pdx	tumor_confirmed_not_to_be_mus_or_ebv_origin	Yes
 pdx	validation_technique	STRING
 publication	id	STRING
 publication	publication_id	STRING
@@ -120,18 +2728,84 @@ radiology_file	acquisitionContrastCode	STRING
 radiology_file	arterialSpinLabelingContrastCode	STRING
 radiology_file	authz	STRING
 radiology_file	complexImageComponentCode	STRING
+radiology_file	crdc_id	STRING
 radiology_file	dcf_indexd_guid	STRING
+radiology_file	deidentification_method	Not applicable
+radiology_file	deidentification_method	automatic
+radiology_file	deidentification_method	manual
+radiology_file	deidentification_method	semiautomatic
 radiology_file	diffusionBValue	STRING
 radiology_file	diffusionDirectionalityCode	STRING
 radiology_file	echoPlanarPulseSequenceIndicator	STRING
 radiology_file	echoPulseSequenceCategoryCode	STRING
 radiology_file	echo_time	STRING
+radiology_file	file_access	Controlled
+radiology_file	file_access	Open
 radiology_file	file_description	STRING
+radiology_file	file_mapping_level	Participant
+radiology_file	file_mapping_level	Sample
+radiology_file	file_mapping_level	Study
 radiology_file	file_name	STRING
 radiology_file	file_size	INTEGER
+radiology_file	file_type	bai
+radiology_file	file_type	bam
+radiology_file	file_type	bam_index
+radiology_file	file_type	bcf
+radiology_file	file_type	bed
+radiology_file	file_type	bif
+radiology_file	file_type	bw
+radiology_file	file_type	cns
+radiology_file	file_type	crai
+radiology_file	file_type	cram
+radiology_file	file_type	cram_index
+radiology_file	file_type	csi
+radiology_file	file_type	csv
+radiology_file	file_type	dicom
+radiology_file	file_type	dict
+radiology_file	file_type	docx
+radiology_file	file_type	fasta
+radiology_file	file_type	fastq
+radiology_file	file_type	gvcf
+radiology_file	file_type	html
+radiology_file	file_type	idat
+radiology_file	file_type	jpg
+radiology_file	file_type	json
+radiology_file	file_type	maf
+radiology_file	file_type	mrxs
+radiology_file	file_type	ndpi
+radiology_file	file_type	nifti
+radiology_file	file_type	pdf
+radiology_file	file_type	ped
+radiology_file	file_type	png
+radiology_file	file_type	rda
+radiology_file	file_type	rdata
+radiology_file	file_type	rds
+radiology_file	file_type	sas7bdat
+radiology_file	file_type	scn
+radiology_file	file_type	seg
+radiology_file	file_type	svg
+radiology_file	file_type	svs
+radiology_file	file_type	tar
+radiology_file	file_type	tbi
+radiology_file	file_type	tif
+radiology_file	file_type	tiff
+radiology_file	file_type	tsv
+radiology_file	file_type	txt
+radiology_file	file_type	vcf
+radiology_file	file_type	vcf_index
+radiology_file	file_type	vms
+radiology_file	file_type	vmu
+radiology_file	file_type	xls
+radiology_file	file_type	xlsx
+radiology_file	file_type	xml
 radiology_file	file_url	STRING
 radiology_file	flip_angle	STRING
 radiology_file	id	STRING
+radiology_file	image_modality	Computed Tomography
+radiology_file	image_modality	Magnetic Resonance
+radiology_file	image_modality	Panoramic X-Ray
+radiology_file	image_modality	Positron Emission Tomography
+radiology_file	image_modality	Slide Microscopy
 radiology_file	imaging_frequency	STRING
 radiology_file	inversionRecoveryIndicator	STRING
 radiology_file	inversion_time	STRING
@@ -153,10 +2827,21 @@ radiology_file	slice_thickness	STRING
 radiology_file	spectrallySelectedSuppressionCode	STRING
 radiology_file	steadyStatePulseSequenceCode	STRING
 radiology_file	timeOfFlightContrastIndicator	STRING
+sample	crdc_id	STRING
 sample	id	STRING
 sample	participant_age_at_collection	INTEGER
 sample	sample_description	STRING
 sample	sample_id	STRING
+sample	sample_tumor_status	Normal
+sample	sample_tumor_status	Not Reported
+sample	sample_tumor_status	Peritumoral
+sample	sample_tumor_status	Tumor
+sample	tumor_classification	Metastatic
+sample	tumor_classification	Not Applicable
+sample	tumor_classification	Not Reported
+sample	tumor_classification	Primary
+sample	tumor_classification	Regional
+sample	tumor_classification	Unknown
 sequencing_file	UMI_barcode_offset	STRING
 sequencing_file	UMI_barcode_read	STRING
 sequencing_file	UMI_barcode_size	STRING
@@ -172,23 +2857,248 @@ sequencing_file	cell_barcode_size	STRING
 sequencing_file	checksum_algorithm	STRING
 sequencing_file	checksum_value	STRING
 sequencing_file	coverage	NUMBER
+sequencing_file	crdc_id	STRING
 sequencing_file	custom_assembly_fasta_file_for_alignment	STRING
 sequencing_file	dcf_indexd_guid	STRING
 sequencing_file	design_description	STRING
 sequencing_file	dissociation_method	STRING
 sequencing_file	end_bias	STRING
+sequencing_file	file_access	Controlled
+sequencing_file	file_access	Open
 sequencing_file	file_description	STRING
+sequencing_file	file_mapping_level	Participant
+sequencing_file	file_mapping_level	Sample
+sequencing_file	file_mapping_level	Study
 sequencing_file	file_name	STRING
 sequencing_file	file_size	INTEGER
+sequencing_file	file_type	bai
+sequencing_file	file_type	bam
+sequencing_file	file_type	bam_index
+sequencing_file	file_type	bcf
+sequencing_file	file_type	bed
+sequencing_file	file_type	bif
+sequencing_file	file_type	bw
+sequencing_file	file_type	cns
+sequencing_file	file_type	crai
+sequencing_file	file_type	cram
+sequencing_file	file_type	cram_index
+sequencing_file	file_type	csi
+sequencing_file	file_type	csv
+sequencing_file	file_type	dicom
+sequencing_file	file_type	dict
+sequencing_file	file_type	docx
+sequencing_file	file_type	fasta
+sequencing_file	file_type	fastq
+sequencing_file	file_type	gvcf
+sequencing_file	file_type	html
+sequencing_file	file_type	idat
+sequencing_file	file_type	jpg
+sequencing_file	file_type	json
+sequencing_file	file_type	maf
+sequencing_file	file_type	mrxs
+sequencing_file	file_type	ndpi
+sequencing_file	file_type	nifti
+sequencing_file	file_type	pdf
+sequencing_file	file_type	ped
+sequencing_file	file_type	png
+sequencing_file	file_type	rda
+sequencing_file	file_type	rdata
+sequencing_file	file_type	rds
+sequencing_file	file_type	sas7bdat
+sequencing_file	file_type	scn
+sequencing_file	file_type	seg
+sequencing_file	file_type	svg
+sequencing_file	file_type	svs
+sequencing_file	file_type	tar
+sequencing_file	file_type	tbi
+sequencing_file	file_type	tif
+sequencing_file	file_type	tiff
+sequencing_file	file_type	tsv
+sequencing_file	file_type	txt
+sequencing_file	file_type	vcf
+sequencing_file	file_type	vcf_index
+sequencing_file	file_type	vms
+sequencing_file	file_type	vmu
+sequencing_file	file_type	xls
+sequencing_file	file_type	xlsx
+sequencing_file	file_type	xml
 sequencing_file	file_url	STRING
 sequencing_file	id	STRING
+sequencing_file	instrument_model	454 GS
+sequencing_file	instrument_model	454 GS 20
+sequencing_file	instrument_model	454 GS FLX
+sequencing_file	instrument_model	454 GS FLX Titanium
+sequencing_file	instrument_model	454 GS FLX+
+sequencing_file	instrument_model	454 GS Junior
+sequencing_file	instrument_model	AB 310 Genetic Analyzer
+sequencing_file	instrument_model	AB 3130 Genetic Analyzer
+sequencing_file	instrument_model	AB 3130xL Genetic Analyzer
+sequencing_file	instrument_model	AB 3500 Genetic Analyzer
+sequencing_file	instrument_model	AB 3500xL Genetic Analyzer
+sequencing_file	instrument_model	AB 3730 Genetic Analyzer
+sequencing_file	instrument_model	AB 3730xL Genetic Analyzer
+sequencing_file	instrument_model	AB SOLiD 2
+sequencing_file	instrument_model	AB SOLiD 3
+sequencing_file	instrument_model	AB SOLiD 4
+sequencing_file	instrument_model	BGISEQ-500
+sequencing_file	instrument_model	Complete Genomics
+sequencing_file	instrument_model	DNBSEQ-G400
+sequencing_file	instrument_model	GridION
+sequencing_file	instrument_model	HeliScope
+sequencing_file	instrument_model	HiSeq X Five
+sequencing_file	instrument_model	HiSeq X Ten
+sequencing_file	instrument_model	Illumina Genome Analyzer
+sequencing_file	instrument_model	Illumina Genome Analyzer II
+sequencing_file	instrument_model	Illumina Genome Analyzer IIx
+sequencing_file	instrument_model	Illumina HiScanSQ
+sequencing_file	instrument_model	Illumina HiSeq
+sequencing_file	instrument_model	Illumina HiSeq 1000
+sequencing_file	instrument_model	Illumina HiSeq 1500
+sequencing_file	instrument_model	Illumina HiSeq 2000
+sequencing_file	instrument_model	Illumina HiSeq 2500
+sequencing_file	instrument_model	Illumina HiSeq 3000
+sequencing_file	instrument_model	Illumina HiSeq 4000
+sequencing_file	instrument_model	Illumina HiSeq X Five
+sequencing_file	instrument_model	Illumina HiSeq X Ten
+sequencing_file	instrument_model	Illumina MiSeq
+sequencing_file	instrument_model	Illumina MiniSeq
+sequencing_file	instrument_model	Illumina NextSeq
+sequencing_file	instrument_model	Illumina NextSeq 1000
+sequencing_file	instrument_model	Illumina NextSeq 2000
+sequencing_file	instrument_model	Illumina NovaSeq
+sequencing_file	instrument_model	Illumina NovaSeq 6000
+sequencing_file	instrument_model	Ion Torrent PGM
+sequencing_file	instrument_model	Ion Torrent Proton
+sequencing_file	instrument_model	Ion Torrent S5
+sequencing_file	instrument_model	Ion Torrent S5 XL
+sequencing_file	instrument_model	MinION
+sequencing_file	instrument_model	NextSeq 500
+sequencing_file	instrument_model	NextSeq 550
+sequencing_file	instrument_model	Not Applicable
+sequencing_file	instrument_model	Not Reported
+sequencing_file	instrument_model	Other
+sequencing_file	instrument_model	PacBio RS
+sequencing_file	instrument_model	PacBio RS II
+sequencing_file	instrument_model	PromethION
+sequencing_file	instrument_model	Unknown
 sequencing_file	library_construction_method	STRING
 sequencing_file	library_id	STRING
+sequencing_file	library_layout	Not Applicable
+sequencing_file	library_layout	Paired end
+sequencing_file	library_layout	Single end
+sequencing_file	library_selection	5-Methylcytidine Antibody
+sequencing_file	library_selection	Affinity Enrichment
+sequencing_file	library_selection	CAGE
+sequencing_file	library_selection	CF-H
+sequencing_file	library_selection	CF-M
+sequencing_file	library_selection	CF-S
+sequencing_file	library_selection	CF-T
+sequencing_file	library_selection	ChIP
+sequencing_file	library_selection	DNAse
+sequencing_file	library_selection	HMPR
+sequencing_file	library_selection	Hybrid Selection
+sequencing_file	library_selection	Inverse rRNA
+sequencing_file	library_selection	MBD2 Protein Methyl-CpG Binding Domain
+sequencing_file	library_selection	MDA
+sequencing_file	library_selection	MF
+sequencing_file	library_selection	MNase
+sequencing_file	library_selection	MSLL
+sequencing_file	library_selection	Not Applicable
+sequencing_file	library_selection	Other
+sequencing_file	library_selection	PCR
+sequencing_file	library_selection	Padlock Probes Capture Method
+sequencing_file	library_selection	Poly-A Enriched Genomic Library
+sequencing_file	library_selection	PolyA
+sequencing_file	library_selection	RACE
+sequencing_file	library_selection	RT-PCR
+sequencing_file	library_selection	Random
+sequencing_file	library_selection	Random PCR
+sequencing_file	library_selection	Reduced Representation
+sequencing_file	library_selection	Repeat Fractionation
+sequencing_file	library_selection	Restriction Digest
+sequencing_file	library_selection	Size Fractionation
+sequencing_file	library_selection	Unspecified
+sequencing_file	library_selection	cDNA
+sequencing_file	library_selection	cDNA Oligo dT
+sequencing_file	library_selection	cDNA Random Priming
+sequencing_file	library_selection	miRNA Size Fractionation
+sequencing_file	library_selection	rRNA Depletion
+sequencing_file	library_source_material	Bulk Cells
+sequencing_file	library_source_material	Bulk Nuclei
+sequencing_file	library_source_material	Bulk Tissue
+sequencing_file	library_source_material	Not Reported
+sequencing_file	library_source_material	Other
+sequencing_file	library_source_material	Single-cells
+sequencing_file	library_source_material	Single-nuclei
+sequencing_file	library_source_molecule	Genomic
+sequencing_file	library_source_molecule	Metagenomic
+sequencing_file	library_source_molecule	Metatranscriptomic
+sequencing_file	library_source_molecule	Not Reported
+sequencing_file	library_source_molecule	Transcriptomic
+sequencing_file	library_source_molecule	Viral RNA
+sequencing_file	library_strand	Not reported
+sequencing_file	library_strand	Unknown
+sequencing_file	library_strand	antisense
+sequencing_file	library_strand	both
+sequencing_file	library_strand	sense
+sequencing_file	library_strategy	AMPLICON
+sequencing_file	library_strategy	ATAC-seq
+sequencing_file	library_strategy	Archer Fusion
+sequencing_file	library_strategy	Bisulfite-Seq
+sequencing_file	library_strategy	CLONE
+sequencing_file	library_strategy	CLONEEND
+sequencing_file	library_strategy	CTS
+sequencing_file	library_strategy	ChIA-PET
+sequencing_file	library_strategy	ChIP-Seq
+sequencing_file	library_strategy	DNase-Hypersensitivity
+sequencing_file	library_strategy	EST
+sequencing_file	library_strategy	FAIRE-seq
+sequencing_file	library_strategy	FINISHING
+sequencing_file	library_strategy	FL-cDNA
+sequencing_file	library_strategy	Hi-C
+sequencing_file	library_strategy	MBD-Seq
+sequencing_file	library_strategy	MNase-Seq
+sequencing_file	library_strategy	MRE-Seq
+sequencing_file	library_strategy	MeDIP-Seq
+sequencing_file	library_strategy	Other
+sequencing_file	library_strategy	POOLCLONE
+sequencing_file	library_strategy	RAD-Seq
+sequencing_file	library_strategy	RIP-Seq
+sequencing_file	library_strategy	RNA-Seq
+sequencing_file	library_strategy	SELEX
+sequencing_file	library_strategy	Synthetic-Long-Read
+sequencing_file	library_strategy	Targeted-Capture
+sequencing_file	library_strategy	Tethered Chromatin Conformation Capture
+sequencing_file	library_strategy	Tn-Seq
+sequencing_file	library_strategy	Validation
+sequencing_file	library_strategy	WCS
+sequencing_file	library_strategy	WGA
+sequencing_file	library_strategy	WGS
+sequencing_file	library_strategy	WXS
+sequencing_file	library_strategy	miRNA-Seq
+sequencing_file	library_strategy	ncRNA-Seq
+sequencing_file	library_strategy	ssRNA-seq
 sequencing_file	md5sum	STRING
 sequencing_file	number_of_bp	INTEGER
 sequencing_file	number_of_reads	INTEGER
+sequencing_file	platform	AB Capillary
+sequencing_file	platform	ABI Solid
+sequencing_file	platform	BGISEQ
+sequencing_file	platform	Complete Genomics
+sequencing_file	platform	Helicos
+sequencing_file	platform	Illumina
+sequencing_file	platform	Ion Torrent
+sequencing_file	platform	LS 454
+sequencing_file	platform	MGI
+sequencing_file	platform	Other
+sequencing_file	platform	Oxford Nanopore
+sequencing_file	platform	PacBio SMRT
 sequencing_file	protocols_link	STRING
 sequencing_file	reference_genome_assembly	STRING
+sequencing_file	reverse_transcription_primer	Not Available
+sequencing_file	reverse_transcription_primer	Other
+sequencing_file	reverse_transcription_primer	oligo-dT
+sequencing_file	reverse_transcription_primer	random
 sequencing_file	sequence_alignment_software	STRING
 sequencing_file	sequencing_file_id	STRING
 sequencing_file	single_cell_entity	STRING
@@ -196,6 +3106,7 @@ sequencing_file	spike_in	STRING
 sequencing_file	total_number_of_input_cells	STRING
 study	consent	STRING
 study	consent_number	INTEGER
+study	crdc_id	STRING
 study	dbgap_accession	STRING
 study	external_url	STRING
 study	id	STRING
@@ -204,11 +3115,17 @@ study	study_acronym	STRING
 study	study_description	STRING
 study	study_id	STRING
 study	study_name	STRING
+study_admin	adult_or_childhood_study	Adult
+study_admin	adult_or_childhood_study	Pediatric
 study_admin	data_types	STRING
 study_admin	file_types_and_format	STRING
 study_admin	id	STRING
 study_admin	number_of_participants	INTEGER
 study_admin	number_of_samples	INTEGER
+study_admin	organism_species	Canine
+study_admin	organism_species	Cell Line
+study_admin	organism_species	Human
+study_admin	organism_species	Mouse
 study_admin	study_admin_id	STRING
 study_arm	clinical_trial_identifier	STRING
 study_arm	clinical_trial_repository	STRING
@@ -220,14 +3137,58 @@ study_funding	funding_source_program_name	STRING
 study_funding	grant_id	STRING
 study_funding	id	STRING
 study_funding	study_funding_id	STRING
+study_personnel	crdc_id	STRING
 study_personnel	email_address	STRING
 study_personnel	id	STRING
 study_personnel	institution	STRING
+study_personnel	orcid	STRING
 study_personnel	personnel_name	STRING
+study_personnel	personnel_type	Co-PI
+study_personnel	personnel_type	Data Manager
+study_personnel	personnel_type	Data Submitter
+study_personnel	personnel_type	PI
 study_personnel	study_personnel_id	STRING
 survival	age_at_event_free_survival_status	INTEGER
 survival	age_at_last_known_survival_status	INTEGER
+survival	cause_of_death	Due to non-study treatment
+survival	cause_of_death	Due to other cause
+survival	cause_of_death	Due to protocol treatment
+survival	cause_of_death	Due to secondary primary cancer
+survival	cause_of_death	Due to this disease
+survival	cause_of_death	Unknown
+survival	event_free_survival_status	Censored
+survival	event_free_survival_status	Not Censored
+survival	event_free_survival_status	Not Reported
+survival	event_free_survival_status	Unknown
+survival	first_event	Death
+survival	first_event	Not Applicable
+survival	first_event	Not Reported
+survival	first_event	Progression
+survival	first_event	Relapse
+survival	first_event	Second Malignant Neoplasm
+survival	first_event	Unknown
+survival	follow_up_category	adverse_event
+survival	follow_up_category	comorbidity
+survival	follow_up_category	other
+survival	follow_up_category	risk_factor
+survival	follow_up_other	barretts_esophagus_goblet_cells_present
+survival	follow_up_other	bmi
+survival	follow_up_other	cause_of_response
+survival	follow_up_other	diabetes_treatment_type
+survival	follow_up_other	dlco_ref_predictive_percent
+survival	follow_up_other	ecog_performance_status
+survival	follow_up_other	fev1_fvc_post_bronch_percent
+survival	follow_up_other	fev1_fvc_pre_bronch_percent
+survival	follow_up_other	fev1_ref_post_bronch_percent
+survival	follow_up_other	fev1_ref_pre_bronch_percent
+survival	follow_up_other	height
+survival	follow_up_other	hepatitis_sustained_virological_response
 survival	id	STRING
+survival	last_known_survival_status	Alive
+survival	last_known_survival_status	Dead
+survival	last_known_survival_status	Not Reported
+survival	last_known_survival_status	Unknown
+survival	last_known_survival_status	Unspecified
 survival	survival_id	STRING
 synonym	id	STRING
 synonym	repository_of_synonym_id	STRING
@@ -241,15 +3202,18 @@ treatment_response	id	STRING
 treatment_response	treatment_response_id	STRING
 
 relationship	source_node	destination_node	property	value_or_TYPE
-of_cell_line	cell_line	study	NA	NA
 of_cell_line	cell_line	sample	NA	NA
+of_cell_line	cell_line	study	NA	NA
 of_clinical_measure_file	clinical_measure_file	participant	NA	NA
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_cytogenomic_file	cytogenomic_file	sample	NA	NA
-of_diagnosis	diagnosis	sample	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
+of_diagnosis	diagnosis	sample	NA	NA
 of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
+of_generic_file	generic_file	participant	NA	NA
+of_generic_file	generic_file	study	NA	NA
+of_generic_file	generic_file	sample	NA	NA
 of_medical_history	medical_history	participant	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
 of_molecular_test	molecular_test	participant	NA	NA
@@ -259,9 +3223,9 @@ of_pdx	pdx	study	NA	NA
 of_pdx	pdx	sample	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
-of_sample	sample	participant	NA	NA
-of_sample	sample	pdx	NA	NA
 of_sample	sample	cell_line	NA	NA
+of_sample	sample	pdx	NA	NA
+of_sample	sample	participant	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
@@ -269,8 +3233,8 @@ of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
 of_survival	survival	participant	NA	NA
 of_synonym	synonym	participant	NA	NA
-of_synonym	synonym	study	NA	NA
 of_synonym	synonym	sample	NA	NA
+of_synonym	synonym	study	NA	NA
 of_treatment	treatment	participant	NA	NA
 of_treatment_response	treatment_response	participant	NA	NA
 
@@ -279,17 +3243,15 @@ UMI_barcode_offset	The offset in sequence of the UMI identifying barcode. E.g. "
 UMI_barcode_read	Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
 UMI_barcode_size	The size of the UMI identifying barcode. E.g. "10".
 aa_change	Alphanumeric value used to describe the amino acid change for a specific genetic variant.
-acl	A free text field used to document whether the data in a repository is open access or controlled access. If access to the data are unrestricted, the acl field should be listed [“*”]. Controlled access should be denoted as a comma delimited list of phs accession numbers, for example, [“phs000123”] or [“phs000123”,”phs000124”].
+acl	A free text field used to document whether the data in a repository is open access or controlled access. If access to the data are unrestricted, the acl field should be listed [“*]. Controlled access should be denoted as a comma delimited list of phs accession numbers, for example, [“phs000123] or [“phs000123,phs000124].
 acquisitionContrastCode	Text specifying the kind of contrast used during the imaging acquisition process.
 adult_or_childhood_study	The identifiable class of the study participant based upon their age.
 adverse_event	Common Terminology Criteria for Adverse Events Version 4.0 Low Level Term Name
 age_at_diagnosis	Age at the time of diagnosis expressed in number of days since birth.
 age_at_event_free_survival_status	Time from diagnosis to first event (or censoring), in days.
 age_at_exposure	The age (in days) of subject at a known exposure to a hazardous factor or substance.
-age_at_last_known_disease_status	Subject Age at Last Known Disease Status Day Count
 age_at_last_known_survival_status	The age (in days) of the subject when the vitals measurement was taken.
 age_at_molecular_test	The age (in days) of the subject when the molecular test was performed.
-age_at_recurrence	The age (in days) of the subject at the time of recurrence.
 age_at_response	The age (in days) of subject when the response assessment was made.
 age_at_treatment_end	Subject Age in Days at End of Treatment Course Day Count
 age_at_treatment_start	Subject Age in Days at Start of Treatment Course Day Count
@@ -327,6 +3289,7 @@ consent	Words which describe a set of study participants who have signed the sam
 consent_number	A numeral or string of numerals used to identify the set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository.
 copy_number	The quantity of gene copies resulting from a mutation.
 coverage	The number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.
+crdc_id	The crdc_id is a unique identifier that is generated by CRDC Data Submission Portal.
 custom_assembly_fasta_file_for_alignment	The name of the custom assembly fasta file used during sequence alignment.
 cytoband	Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the cytoband where the variant is located. Format [chromosome][chromosome arm].[band+sub-bands]. Example 17p13.1.
 cytogenomic_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
@@ -375,6 +3338,7 @@ funding_agency	The name of the funding source organization or sponsor.
 funding_source_program_name	The name of the program assigned by the funding agency.
 gene_mutation_abnormality_type	The type of transmissible change in the genetic material of an organism, which can result from radiation, viral infection, transposition, treatment with mutagenic chemicals and errors during DNA replication or meiosis.
 gene_symbol	A short-form abbreviation for a particular gene assigned by the HGNC (HUGO Gene Nomenclature Committee - an organism specific nomenclature committee).
+generic_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 grant_id	Unique alphanumeric Identifier of a grant funding resource used to treat a patient on a study.
 histone_family	The text term used to describe the family, or classification of a group of basic proteins found in chromatin, called histones.
 histone_variant	The text term used to describe a specific histone variant, which are proteins that substitute for the core canonical histones.
@@ -389,7 +3353,6 @@ intron	Intron number targeted or included in molecular analysis. If a specific g
 inversionRecoveryIndicator	An indicator response as to whether or not the pulse sequence is an inversion recovery pulse preparatory sequence.
 inversion_time	A measurement of the time between the inversion and excitation pulses in an inversion recovery pulse sequence.
 laboratory_test_name	The words by which the laboratory assessment is known.
-last_known_disease_status	The most recently documented condition or state of an individual's disease.
 last_known_survival_status	Participant vital status
 library_construction_method	A textual description of the procedures performed for building a collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
 library_id	A short unique identifier assigned to a nucleotide sequencing library.
@@ -422,6 +3385,7 @@ number_of_bp	Count of unique basecalls present in the data. Please count each ba
 number_of_participants	The number of unique participant instances associated with a systematic investigation into a subject.
 number_of_reads	The number of sequencing reaction results that were pooled to assemble a sequence for a genomic region of interest.
 number_of_samples	The number of samples associated with a subset of a larger population associated with systematic investigation into a subject.
+orcid	A persistent unique digital identifier assigned to a person by the Open Researcher and Contributor ID (ORCID) organization.
 organism_species	The organism from which the sample is derived or originated.
 pack_years_smoked	Numeric computed value to represent lifetime tobacco exposure defined as number of cigarettes smoked per day x number of years smoked divided by 20.
 participant_age_at_collection	The age (in days) of the subject at the time of specimen collection.
@@ -474,7 +3438,6 @@ sequence_alignment_software	The name of the software program used to align nucle
 sequencing_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 sex_at_birth	A textual description of a person's sex at birth.
 single_cell_entity	The type of single cell entity derived from isolation protocol e.g. "whole cell", "nucleus", "cell-cell multimer", "spatially encoded cell barcoding".
-single_cell_sequencing_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 size_of_data_being_uploaded	The measure (in bytes) of how much space a data file takes up on a storage medium.
 slice_thickness	A string of characters representing either a fixed point number or a floating point number capturing the nominal slice thickness relative to the patient-based coordinate system expressed in number of millimeters.
 smoking_frequency	The number of occurrences of smoking over a time period.
@@ -525,5 +3488,6 @@ type_of_tobacco_used	The response that indicates which smoking products a person
 validation_technique	Any technique used to validate PDX against their original patient tumour, including fingerprinting, histology, immunohistochemistry.
 variant_origin	The text term that describes the origin of a variation in the nucleic acid sequence of a specific gene.
 variant_type	The text term used to describe the type of genetic variation.
+year_of_diagnosis	The year in which a subject was diagnosed.
 years_smoked	Number that represents the years spent smoking cigarettes.
 zygosity	The text term used to describe the zygosity of a specific genetic variant.

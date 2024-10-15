@@ -3806,7 +3806,7 @@ PropDefinitions:
     Private: false
   #sequencing_file, imaging_file, clinical_measure_file
   data_category:
-    Desc: 
+    Desc: The data type and data subtype categories used to classify imported data files.
     Term: 
       - Origin: GDC
         Code: 'null'
@@ -3830,7 +3830,7 @@ PropDefinitions:
       - "Tumor Normal Clinical Report"
     Req: true
     Strict: false
-    Private: false  
+    Private: false
   #sequencing_file, imaging_file, clinical_measure_file
   file_type:
     Desc: A defined organization or layout representing and structuring data in a computer file.

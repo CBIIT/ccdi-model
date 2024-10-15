@@ -3966,6 +3966,7 @@ PropDefinitions:
         - "Structural Variation"
         - "Tumor Normal Clinical Report"
     Req: true
+    Strict: false
     Private: false  
   #sequencing_file, imaging_file, clinical_measure_file
   file_type:

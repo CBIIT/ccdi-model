@@ -1,5 +1,25 @@
 PropDefinitions:
   #diagnosis
+  laterality:
+    Desc: Designates the side of the body where disease is found.
+    Term:
+      - Origin: caDSR
+        Code: '15157293'
+        Value: Disease Laterality Type
+        Version: "1.00"
+    Enum:
+      - "Bilateral"
+      - "Left"
+      - "Midline"
+      - "Not Applicable"
+      - "Not Reported"
+      - "Not Specified"
+      - "Right"
+      - "Unknown"
+    Req: false
+    Strict: true
+    Private: false
+  #diagnosis
   year_of_diagnosis:
     Desc: The year in which a subject was diagnosed.
     Term:

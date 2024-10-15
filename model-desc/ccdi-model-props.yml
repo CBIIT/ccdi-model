@@ -3812,7 +3812,7 @@ PropDefinitions:
         Code: 'null'
         Value: data type and data subtype categories used to classify imported data files
         Version: "1.00"
-    Enum:
+    Enum:
       - "Clinical Measure"
       - "Copy Number Variation"
       - "COG Clinical Report"

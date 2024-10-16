@@ -3811,7 +3811,7 @@ PropDefinitions:
       - Origin: GDC
         Code: 'null'
         Value: data type and data subtype categories used to classify imported data files
-        Version: "1.00"
+        Version: "1.00"
     Enum:
       - "Clinical Measure"
       - "Copy Number Variation"

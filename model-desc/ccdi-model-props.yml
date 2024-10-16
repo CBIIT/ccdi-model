@@ -3833,7 +3833,7 @@ PropDefinitions:
     Private: false
   #sequencing_file, imaging_file, clinical_measure_file
   file_type:
-  Desc: A defined organization or layout representing and structuring data in a computer file.
+    Desc: A defined organization or layout representing and structuring data in a computer file.
     Term:
       - Origin: caDSR
         Code: '11416926'

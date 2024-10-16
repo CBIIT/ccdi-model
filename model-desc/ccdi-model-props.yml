@@ -2881,7 +2881,7 @@ PropDefinitions:
     Req: false
     Strict: false
     Private: false  
-  #single_cell_sequencing_file
+  #sequencing_file
   cDNA_read:
     Desc: The type of read that contains the cDNA read:index1/index2/read1/read2.
     Term:
@@ -2892,7 +2892,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_file
+  #sequencing_file
   cDNA_read_offset:
     Desc: A description of the cDNA offset.
     Term:
@@ -2907,7 +2907,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_file
+  #sequencing_file
   cDNA_read_size:
     Desc: The size of the cDNA read. E.g. "98". 
     Term:
@@ -2918,7 +2918,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_file  
+  #sequencing_file  
   cell_barcode_offset:
     Desc: The offset in sequence of the cell identifying barcode.E.g. "0"
     Term:
@@ -2929,7 +2929,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_file  
+  #sequencing_file  
   cell_barcode_read:
     Desc: 'The type of read that contains the cell barcode: index1/index2/read1/read2.'
     Term:
@@ -2940,7 +2940,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false  
-  #single_cell_sequencing_file  
+  #sequencing_file  
   cell_barcode_size:
     Desc: The size of the cell identifying barcode. E.g. "16". 
     Term:
@@ -2951,7 +2951,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false  
-  #single_cell_sequencing_file
+  #sequencing_file
   dissociation_method:
     Desc: The text term to describe the method used to create single cells from tissue samples.
     Term:
@@ -2966,7 +2966,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_file
+  #sequencing_file
   single_cell_entity:
     Desc: The type of single cell entity derived from isolation protocol e.g. "whole cell", "nucleus", "cell-cell multimer", "spatially encoded cell barcoding". 
     Term:
@@ -2977,7 +2977,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false  
-  #single_cell_sequencing_file
+  #sequencing_file
   end_bias:
     Desc: The type of overabundance of transcripts seen in a sequencing library.
     Term:
@@ -2992,7 +2992,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_file
+  #sequencing_file
   total_number_of_input_cells:
     Desc: Numeric value used to describe the number of cells used for molecular testing.
     Term:
@@ -3007,7 +3007,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_file
+  #sequencing_file
   library_construction_method:
     Desc: A textual description of the procedures performed for building a collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
     Term:
@@ -3039,7 +3039,7 @@ PropDefinitions:
     Strict: true
     Req: false
     Private: false  
-  #single_cell_sequencing_file
+  #sequencing_file
   protocols_link:
     Desc: A sequence of letters, numbers, or other characters that uniquely identifies a study protocol or a unique code used by publishers in the identification and exchange of the content of a digital object.
     Term:
@@ -3054,7 +3054,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_file
+  #sequencing_file
   reverse_transcription_primer:
     Desc: 'An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA'
     Term:
@@ -3074,7 +3074,7 @@ PropDefinitions:
     Strict: false
     Req: false
     Private: false
-  #single_cell_sequencing_file
+  #sequencing_file
   spike_in:
     Desc: A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
     Term:
@@ -3089,7 +3089,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_file
+  #sequencing_file
   UMI_barcode_offset :
     Desc: The offset in sequence of the UMI identifying barcode. E.g. "16".
     Term:
@@ -3100,7 +3100,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_file
+  #sequencing_file
   UMI_barcode_read:
     Desc: Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
     Term:
@@ -3111,7 +3111,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #single_cell_sequencing_file
+  #sequencing_file
   UMI_barcode_size:
     Desc: The size of the UMI identifying barcode. E.g. "10".
     Term:
@@ -3823,6 +3823,33 @@ PropDefinitions:
         Version: "2.0"
     Type: string
     Req: true
+    Private: false
+  #sequencing_file, imaging_file, clinical_measure_file
+  data_category:
+    Desc: The data type and data subtype categories used to classify imported data files.
+    Term: 
+      - Origin: GDC
+        Code: 'null'
+        Value: data type and data subtype categories used to classify imported data files
+        Version: "1.00"
+    Enum:
+      - "Clinical Measure"
+      - "Copy Number Variation"
+      - "COG Clinical Report"
+      - "Gene Expression"
+      - "Gene Fusion Clinical Report"
+      - "Generic"
+      - "IGM Clinical Sequence"
+      - "Methylation Array"
+      - "Methylation Clinical Report"
+      - "Pathology Imaging"
+      - "Radiology Imaging"
+      - "Sequencing"
+      - "Simple Nucleotide Variation"
+      - "Structural Variation"
+      - "Tumor Normal Clinical Report"
+    Req: true
+    Strict: false
     Private: false
   #sequencing_file, imaging_file, clinical_measure_file
   file_type:

@@ -3832,22 +3832,25 @@ PropDefinitions:
         Code: 'null'
         Value: data type and data subtype categories used to classify imported data files
         Version: "1.00"
-    Enum:
-      - "Clinical Measure"
-      - "Copy Number Variation"
-      - "COG Clinical Report"
-      - "Gene Expression"
-      - "Gene Fusion Clinical Report"
-      - "Generic"
-      - "IGM Clinical Sequence"
-      - "Methylation Array"
-      - "Methylation Clinical Report"
-      - "Pathology Imaging"
-      - "Radiology Imaging"
-      - "Sequencing"
-      - "Simple Nucleotide Variation"
-      - "Structural Variation"
-      - "Tumor Normal Clinical Report"
+    Type:
+      value_type: list
+      item_type:
+        - "Clinical Measure"
+        - "Copy Number Variation"
+        - "COG Clinical Report"
+        - "Gene Expression"
+        - "Gene Fusion Clinical Report"
+        - "Generic"
+        - "IGM Clinical Report"
+        - "IGM Clinical Sequence"
+        - "Methylation Array"
+        - "Methylation Clinical Report"
+        - "Pathology Imaging"
+        - "Radiology Imaging"
+        - "Sequencing"
+        - "Simple Nucleotide Variation"
+        - "Structural Variation"
+        - "Tumor Normal Clinical Report"
     Req: true
     Strict: false
     Private: false

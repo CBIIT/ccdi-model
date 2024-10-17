@@ -3835,7 +3835,7 @@ PropDefinitions:
     Type:
       value_type: list
       item_type:
-        - "Clinical Report"
+        - "Clinical"
         - "Copy Number Variation"
         - "COG Clinical Report"
         - "Gene Expression"

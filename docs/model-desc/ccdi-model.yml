@@ -353,6 +353,7 @@ Nodes:
     Props:
       - generic_file_id
       - file_name
+      - data_category
       - file_type
       - file_description
       - file_size

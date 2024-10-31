@@ -4877,11 +4877,11 @@ PropDefinitions:
     Private: false
   #sequencing_file
   library_source_material: 
-    Desc: The cellular source of the double stranded DNA fragments analyzed by high-throughput sequencing.
+    Desc: The cell or cellular component that makes up the sample that has been prepared for testing or research purposes.
     Term:
       - Origin: caDSR
-        Code: '14808227'
-        Value: Sequencing Library Cellular Material Source
+        Code: '15235975'
+        Value: Molecular Specimen Material Source
         Version: "1.00"
       - Origin: NCIt
         Code: 'C175895'
@@ -4900,11 +4900,11 @@ PropDefinitions:
     Private: false
   #sequencing_file
   library_source_molecule: 
-    Desc: The molecular source of the nucleic acid fragments analyzed by high-throughput sequencing.
+    Desc: The molecular component, such as carbohydrate, protein, lipid, or nucleic acid, that has been prepared for testing or research purposes.
     Term:
       - Origin: caDSR
-        Code: '14808232'
-        Value: Sequencing Library Molecule Source
+        Code: '15235981'
+        Value: Molecular Specimen Molecule Source
         Version: "1.00"
     Enum:
       - "Genomic"

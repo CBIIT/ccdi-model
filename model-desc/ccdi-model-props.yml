@@ -4121,16 +4121,7 @@ PropDefinitions:
     Type:
       value_type: list
       item_type:
-        - "American Indian or Alaska Native"
-        - "Asian"
-        - "Black or African American"
-        - "Hispanic or Latino"
-        - "Middle Eastern or North African"
-        - "Native Hawaiian or other Pacific Islander"
-        - "Not Allowed to Collect"
-        - "Not Reported"
-        - "Unknown"
-        - "White"
+        - https://raw.githubusercontent.com/CBIIT/ccdi-model/refs/heads/CCDIDC-1353-enum_structure_updates/model-desc/enum_lists/race.yml
     Req: true
     Strict: false
     Private: false

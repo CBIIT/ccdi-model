@@ -4134,15 +4134,7 @@ PropDefinitions:
         Value: Person Sex at Birth Category
         Version: "2.0"
     Enum:
-      - "Female"
-      - "Intersex"
-      - "Male"
-      - "Not Reported"
-      - "Unknown"
-      - "Don't Know"
-      - "Decline to answer"
-      - "None of These Describe Me"
-      - "Prefer Not to Answer"
+      - https://raw.githubusercontent.com/CBIIT/ccdi-model/refs/heads/CCDIDC-1353-enum_structure_updates/model-desc/enum_lists/sex_at_birth.yml
     Req: true
     Strict: false
     Private: false

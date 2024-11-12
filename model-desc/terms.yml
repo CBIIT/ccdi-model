@@ -1693,13 +1693,6 @@ Terms:
     Code: '2582195'
     Version: '1'
     Value: Feces
-  Female:
-    Origin: caDSR
-    Definition: An individual who reports belonging to the cultural gender role distinction
-      of female.
-    Code: '2567172'
-    Version: '1'
-    Value: Female
   Female genital tract, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: The sex organs of the female.'
@@ -2955,13 +2948,6 @@ Terms:
     Code: '7670583'
     Version: '1'
     Value: Not Otherwise Specified Major Salivary Gland
-  Male:
-    Origin: caDSR
-    Definition: An individual who reports belonging to the cultural gender role distinction
-      of male.
-    Code: '2567171'
-    Version: '1'
-    Value: Male
   Male genital organs, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: The external male sexual organs.'

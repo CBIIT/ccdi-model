@@ -9,6 +9,7 @@ Properties:
     diagnosis: diagnosises
     exposure: exposures
     family_relationship: family_relationships
+    generic_file: generic_files
     medical_history: medical_historys
     molecular_test: molecular_tests
     methylation_array_file: methylation_array_files
@@ -47,6 +48,7 @@ Properties:
     diagnosis: id
     exposure: id
     family_relationship: id
+    generic_file: id
     medical_history: id
     molecular_test: id
     methylation_array_file: id

@@ -1,0 +1,26 @@
+PropDefinitions:
+  sex_at_birth:
+    - "Female"
+    - "Intersex"
+    - "Male"
+    - "Not Reported"
+    - "Unknown"
+    - "Don't Know"
+    - "Decline to answer"
+    - "None of These Describe Me"
+    - "Prefer Not to Answer"
+Terms:
+  Female:
+    Origin: caDSR
+    Definition: An individual who reports belonging to the cultural gender role distinction
+      of female.
+    Code: '2567172'
+    Version: '1'
+    Value: Female
+  Male:
+    Origin: caDSR
+    Definition: An individual who reports belonging to the cultural gender role distinction
+      of male.
+    Code: '2567171'
+    Version: '1'
+    Value: Male  

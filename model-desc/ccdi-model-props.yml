@@ -1,4 +1,70 @@
 PropDefinitions:
+  #diagnosis_term_source
+  diagnosis_source_id
+    Desc: 
+    Term:
+      - Origin: caDSR
+        Code: ''
+        Value: diagnosis_source_id
+        Version: "1.00"
+    Type: string
+    Req: true
+    Private: false
+#diagnosis_term_source
+diagnosis_term:
+  Desc: Designates the side of the body where disease is found.
+  Term:
+    - Origin: caDSR
+      Code: ''
+      Value: diagnosis_term
+      Version: "1.00"
+    Type: string
+    Req: true
+    Private: false
+  #diagnosis_term_source
+  source:
+    Desc: 
+    Term:
+      - Origin: caDSR
+        Code: ''
+        Value: 
+        Version: "1.00"
+    Type: string
+    Req: true
+    Private: false
+  #diagnosis_term_source
+  source_code:
+    Desc:
+    Term:
+      - Origin: caDSR
+        Code: ''
+        Value: diagnosis_term
+        Version: "1.00"
+    Type: string
+    Req: false
+    Private: false
+  #diagnosis_term_source
+  comment:
+    Desc: 
+    Term:
+      - Origin: caDSR
+        Code: '15157293'
+        Value: 
+        Version: "1.00"
+    Type: string
+    Req: false
+    Private: false
+  #diagnosis_term_source
+  id:
+    Desc: 
+    Term:
+      - Origin: caDSR
+        Code: '15157293'
+        Value: 
+        Version: "1.00"
+    Type: string
+    Req: false
+    Private: false
   #diagnosis
   laterality:
     Desc: Designates the side of the body where disease is found.

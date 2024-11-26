@@ -89,6 +89,20 @@ Nodes:
       - year_of_diagnosis
       - laterality
       - id
+  diagnosis_term_source:
+    Desc: "The reference source for a diagnosis term or value."
+    Tags: 
+      Category: reference
+      Assignment: reference
+      Class: secondary
+      Template: 'No'
+    Props:
+      - diagnosis_source_id
+      - diagnosis_term
+      - source
+      - code
+      - comment
+      - id
   exposure:
     Desc: "The exposure node is comprised of properties which describe the participant's habits and environmental factors."
     Tags:
@@ -659,11 +673,9 @@ Relationships:
     Props: null
     Mul: many_to_one #will need to mod this to many_to_many if a participant is in >1 study
     Ends:
-      #- Src: participant
-      #  Dst: study_arm
       - Src: participant
         Dst: study
-  of_pdx: #27jan2023 pd
+  of_pdx:
     Props: null
     Mul: many_to_one
     Ends:
@@ -671,7 +683,7 @@ Relationships:
         Dst: study
       - Src: pdx
         Dst: sample
-  of_publication: # 09.20.22 pd
+  of_publication:
     Props: null
     Mul: many_to_one
     Ends:

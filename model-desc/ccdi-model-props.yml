@@ -10,30 +10,8 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-#diagnosis_term_source
-diagnosis_term:
-  Desc: Designates the side of the body where disease is found.
-  Term:
-    - Origin: caDSR
-      Code: ''
-      Value: diagnosis_term
-      Version: "1.00"
-    Type: string
-    Req: true
-    Private: false
   #diagnosis_term_source
-  source:
-    Desc: 
-    Term:
-      - Origin: caDSR
-        Code: ''
-        Value: 
-        Version: "1.00"
-    Type: string
-    Req: true
-    Private: false
-  #diagnosis_term_source
-  source_code:
+  diagnosis_code:
     Desc:
     Term:
       - Origin: caDSR

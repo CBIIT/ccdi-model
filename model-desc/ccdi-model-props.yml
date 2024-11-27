@@ -23,22 +23,11 @@ PropDefinitions:
     Private: false
   #diagnosis_term_source
   comment:
-    Desc: 
+    Desc: Diagnosis Comment Text
     Term:
       - Origin: caDSR
-        Code: '15157293'
-        Value: 
-        Version: "1.00"
-    Type: string
-    Req: false
-    Private: false
-  #diagnosis_term_source
-  id:
-    Desc: 
-    Term:
-      - Origin: caDSR
-        Code: '15157293'
-        Value: 
+        Code: '14714147'
+        Value: Words that describe observations or explanations related to the diagnosis.
         Version: "1.00"
     Type: string
     Req: false

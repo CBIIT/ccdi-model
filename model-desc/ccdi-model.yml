@@ -98,7 +98,7 @@ Nodes:
       Template: 'No'
     Props:
       - diagnosis_source_id
-      - diagnosis_term
+      - diagnosis
       - diagnosis_classification_system
       - code
       - comment

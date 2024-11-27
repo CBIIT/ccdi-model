@@ -99,7 +99,7 @@ Nodes:
     Props:
       - diagnosis_source_id
       - diagnosis_term
-      - source
+      - diagnosis_classification_system
       - code
       - comment
       - id

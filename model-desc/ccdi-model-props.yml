@@ -22,6 +22,17 @@ PropDefinitions:
     Req: false
     Private: false
   #diagnosis_term_source
+  diagnosis_alternate
+    Desc:
+    Term:
+      - Origin: caDSR
+        Code: ''
+        Value: diagnosis_alternate
+        Version: "1.00"
+    Type: string
+    Req: false
+    Private_false
+  #diagnosis_term_source
   comment:
     Desc: Diagnosis Comment Text
     Term:

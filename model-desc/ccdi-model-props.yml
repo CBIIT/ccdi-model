@@ -5254,12 +5254,6 @@ PropDefinitions:
     Strict: true
     Private: false
   # study_admin
-  data_types: # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
-    Desc: The types of data files that can be found in the study.
-    Type: string
-    Req: false
-    Private: false
-  # study_admin
   file_types_and_format: 
     Desc: A defined organization or layout representing and structuring data in a computer file.
     Term:

@@ -473,8 +473,7 @@ Nodes:
     Props:
       - study_admin_id
       - organism_species
-      - adult_or_childhood_study # adult, pediatric - needs review, there are many other facets of study type (interventional, longitudinal), should this be added after a query of study_subject.age
-      - data_types # generate from a DB query of list of data_types vs. template based entry?, generate from a query of list from enumerated values
+      - adult_or_childhood_study 
       - file_types_and_format
       - number_of_participants
       - number_of_samples

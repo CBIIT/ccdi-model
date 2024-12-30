@@ -520,6 +520,7 @@ PropDefinitions:
         Version: "1.00"
     Enum:
       - "-80 degrees C"
+      - "Cytospin Slide"
       - "Cryopreservation in dry ice (dead tissue)"
       - "Cryopreservation in liquid nitrogen (dead tissue)"
       - "Cryopreservation of live cells in liquid nitrogen"

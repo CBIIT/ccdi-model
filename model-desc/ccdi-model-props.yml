@@ -3568,11 +3568,11 @@ PropDefinitions:
     Private: false 
   #diagnosis, sample
   diagnosis_basis: 
-    Desc: 'The origin of the diagnosis.'
+    Desc: The underlying scientific foundation used to determine the diagnosis.
     Term:
       - Origin: caDSR
         Code: '14714146'
-        Value: The underlying scientific foundation used to determine the diagnosis.
+        Value: Diagnosis Assessment Basis Source
         Version: "1.00"
     Enum:
       - 'Clinical'

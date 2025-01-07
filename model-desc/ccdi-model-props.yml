@@ -3572,7 +3572,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: '14714146'
-        Value: Diagnosis Assessment Basis Source
+        Value: The underlying scientific foundation used to determine the diagnosis.
         Version: "1.00"
     Enum:
       - 'Clinical'

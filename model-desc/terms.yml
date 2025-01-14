@@ -7379,4 +7379,9 @@ Terms:
     Code: '13299113'
     Version: '1'
     Value: Childhood Cancer Toronto Guidelines Stage
-
+  Wright-Giemsa: 
+    Origin: NCIt
+    Definition: A microscopy staining method that is a combination of the Wright and Giemsa staining protocols and utilizes the Romanowsky stains, which are mixtures of eosin and thiazine dyes such as methylene blue. It produces darker blue and magenta shades than the giemsa stain alone, which may provide better contrast in microscopy.
+    Code: 'C23041'
+    Version: '1'
+    Value: Wright-Giemsa Staining Method

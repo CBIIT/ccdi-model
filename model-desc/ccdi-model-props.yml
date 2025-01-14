@@ -555,6 +555,7 @@ PropDefinitions:
         - "IHC"
         - "In situ hybridization"
         - "mIHC"
+        - "Wright-Giemsa"
         - "Other"
     Req: true
     Strict: false

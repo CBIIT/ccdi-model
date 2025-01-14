@@ -1319,6 +1319,12 @@ Terms:
     Code: '3452321'
     Version: '1'
     Value: Cytology
+  Cytospin Slide:
+    Origin: NCIt
+    Definition: A microscope slide prepared by depositing cells directly onto a slide by centrifugation. The cytocentrifuge spins at an angle, at low speeds, allowing the cells to adhere to the slide in a monolayer format.
+    Code: 'C115350'
+    Version: '1'
+    Value: Centrifuged Smear Slide
   days_to_last_followup:
     Origin: caDSR
     Definition: Time interval from the date of last followup to the date of initial

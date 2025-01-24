@@ -1,4 +1,19 @@
 PropDefinitions:
+  #study
+  study_status:
+    Desc: A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it.
+    Term:
+      - Origin: NCIt
+        Code: 'C63536'
+        Value: Study
+        Version: "1.00"
+    Enum:
+      - Active
+      - Completed
+      - Provisional
+    Req: true
+    Strict: true
+    Private: false
   #diagnosis
   laterality:
     Desc: Designates the side of the body where disease is found.

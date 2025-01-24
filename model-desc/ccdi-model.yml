@@ -457,7 +457,8 @@ Nodes:
       - consent
       - consent_number
       - external_url
-      - experimental_strategy_and_data_subtype
+      - study_status
+      - data_category
       - study_data_types
       - size_of_data_being_uploaded
       - id

@@ -19,7 +19,7 @@ PropDefinitions:
     Desc: Year a study begins.
     Term: 
       - Origin: caDSR
-        Code: 2902330
+        Code: '2902330'
         Value: Image Study Start Date
         Version: "2.00"
     Type: integer
@@ -30,7 +30,7 @@ PropDefinitions:
     Desc: Year a study ends.
     Term: 
       - Origin: caDSR
-        Code: 2529060
+        Code: '2529060'
         Value: Study End Date java.util.Date
         Version: "1.00"
     Type: integer

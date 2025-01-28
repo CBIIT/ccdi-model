@@ -5137,15 +5137,12 @@ PropDefinitions:
       value_type: list
       item_type:
         - "Archer Fusion"
-        - "Bisulfite-Seq"
         - "DNA-Seq"
+        - "Methylation Analysis"
         - "Methylation Array"
         - "Pathological"
         - "Radiological"
-        - "RNA-Seq"
-        - "scRNA-Seq"
-        - "WGA"
-        - "WXS"  
+        - "RNA-Seq" 
     Req: false
     Strict: true
     Private: false  

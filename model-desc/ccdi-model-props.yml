@@ -1,11 +1,11 @@
 PropDefinitions:
   #study
   study_status:
-    Desc: A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it.
+    Desc: The status of the study.
     Term:
-      - Origin: NCIt
-        Code: 'C63536'
-        Value: Study
+      - Origin: caDSR
+        Code: '15607838'
+        Value: Administrative Activity Study Status
         Version: "1.00"
     Enum:
       - Active
@@ -16,22 +16,22 @@ PropDefinitions:
     Private: false
   #study
   study_period_start:
-    Desc: Year a study begins.
+    Desc: The year in which the study started.
     Term: 
       - Origin: caDSR
-        Code: '2902330'
-        Value: Image Study Start Date
-        Version: "2.00"
+        Code: '15607845'
+        Value: Administrative Activity Study Period Start Year Date
+        Version: "1.00"
     Type: integer
     Req: false
     Private: false
   #study
   study_period_stop:
-    Desc: Year a study ends.
+    Desc: The year in which the study ended.
     Term: 
       - Origin: caDSR
-        Code: '2529060'
-        Value: Study End Date java.util.Date
+        Code: '15607913'
+        Value: Administrative Activity Study Period End Year Date
         Version: "1.00"
     Type: integer
     Req: false

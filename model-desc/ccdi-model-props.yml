@@ -5172,10 +5172,6 @@ PropDefinitions:
   size_of_data_being_uploaded:
     Desc: The measure (in bytes) of how much space a data file takes up on a storage medium.
     Term:
-      - Origin: caDSR
-        Code: '12373576'
-        Value: Data File Size Value
-        Version: "1.00"
       - Origin: NCIt
         Code: 'C171192'
         Value: Electronic Data File Size Integer

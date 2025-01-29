@@ -132,6 +132,32 @@ Nodes:
       - relationship
       - family_id
       - id
+  genetic_analysis:
+    Desc: 
+    Tags: 
+      Category: analysis
+      Assignment: extended
+      Class: secondary
+      Template: 'Yes'
+    Props:
+      - genetic_analysis_id
+      - gene_symbol
+      - transcript
+      - age_at_genetic_analysis
+      - genomic_source_category
+      - reported_significance
+      - reported_significance_system
+      - hgvs_coding
+      - hgvs_protein
+      - hgvs_genome
+      - allelic_ratio
+      - vaf_numeric
+      - alteration
+      - dna_index_numeric
+      - iscn
+      - status
+      - second_gene_symbol
+      - id
   medical_history:
     Desc: "The medical history node is comprised of properties which describe the participant's previous medical conditions."
     Tags:

@@ -616,7 +616,7 @@ Relationships:
         Dst: study  
       - Src: cell_line
         Dst: sample 
-  of_clinical_measure_file: # #09.20.22 pd
+  of_clinical_measure_file:
     Props: null
     Mul: many_to_one 
     Ends:
@@ -650,17 +650,21 @@ Relationships:
     Ends:
       - Src: family_relationship
         Dst: participant      
-  of_survival:
+  of_generic_file:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: survival
+      - Src: generic_file
+        Dst: study
+      - Src: generic_file
         Dst: participant
-  of_pathology_file:
+      - Src: generic_file
+        Dst: sample
+  of_genetic_analysis:
     Props: null
     Mul: many_to_one
-    Ends:
-      - Src: pathology_file
+    Ends: 
+      - Src: genetic_analysis
         Dst: sample
   of_medical_history:
     Props: null
@@ -680,15 +684,19 @@ Relationships:
     Ends:
       - Src: molecular_test
         Dst: participant
+  of_pathology_file:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: pathology_file
+        Dst: sample
   of_participant:
     Props: null
-    Mul: many_to_one #will need to mod this to many_to_many if a participant is in >1 study
+    Mul: many_to_one
     Ends:
-      #- Src: participant
-      #  Dst: study_arm
       - Src: participant
         Dst: study
-  of_pdx: #27jan2023 pd
+  of_pdx:
     Props: null
     Mul: many_to_one
     Ends:
@@ -696,7 +704,7 @@ Relationships:
         Dst: study
       - Src: pdx
         Dst: sample
-  of_publication: # 09.20.22 pd
+  of_publication: 
     Props: null
     Mul: many_to_one
     Ends:
@@ -708,16 +716,6 @@ Relationships:
     Ends:
       - Src: radiology_file
         Dst: participant
-  of_generic_file:
-    Props: null
-    Mul: many_to_one
-    Ends:
-      - Src: generic_file
-        Dst: study
-      - Src: generic_file
-        Dst: participant
-      - Src: generic_file
-        Dst: sample
   of_sample: 
     Props: null
     Mul: many_to_one
@@ -758,6 +756,12 @@ Relationships:
     Ends:
       - Src: study_personnel  
         Dst: study     
+  of_survival:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: survival
+        Dst: participant
   of_synonym:
     Props: null
     Mul: many_to_one

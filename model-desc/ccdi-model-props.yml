@@ -3843,7 +3843,6 @@ PropDefinitions:
         - "Gene Expression"
         - "Gene Fusion Clinical Report"
         - "Generic"
-        - "IGM Clinical Report"
         - "IGM Clinical Sequence"
         - "Methylation Array"
         - "Methylation Clinical Report"

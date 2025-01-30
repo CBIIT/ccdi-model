@@ -3378,10 +3378,6 @@ PropDefinitions:
         Code: '14616474'
         Value: PDX Tumor Preparation Text
         Version: "1.00"
-      - Origin: PubMedCentral
-        Code: 'PMC5738926'
-        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
-        Version: "1.00"
     Type: string
     Req: true
     Private: false
@@ -4645,19 +4641,7 @@ PropDefinitions:
       - 'Not Applicable'
     Req: true
     Strict: false
-    Private: false
-#  biosample_accession:
-#    Desc: An alphanumeric identifier (SAMN accession number) assigned to a set of descriptive information for biological materials used to generate data that has been or will be submitted to archives provided by the National Center for Biotechnology Information (NCBI).  The alphanumeric identifier assigned to the specimen to uniquely identify it.
-#    Term:
-#      - Origin: caDSR
-#        Code: '2230047'
-#        Value: Specimen Accession Number
-#      - Origin: NCIt
-#        Code: 'C175889'
-#        Value: BioSample Accession Number 
-#    Type: string
-#    Req: false
-#    Private: false    
+    Private: false 
   #sample
   sample_description:
     Desc: Text description of a sample or specimen.

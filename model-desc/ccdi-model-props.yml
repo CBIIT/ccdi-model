@@ -3152,7 +3152,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2690165'
         Value: Family Member Relationship Type
-        Version: "1.00"
+        Version: "2.00"
     Enum:
       - "Adopted Daughter"
       - "Adopted Son"
@@ -4964,7 +4964,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11529031'
         Value: Genome Assembly NCBI Genetic Reference Sequence Identifier
-        Version: "1.00"
+        Version: "2.00"
       - Origin: NCIt
         Code: 'C164388'
         Value: Genetic Reference Sequence
@@ -5285,7 +5285,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11524545'
         Value: Funding Agency Organization Name Text 
-        Version: "1.00"
+        Version: "2.00"
     Type: string
     Req: true
     Private: false
@@ -5296,7 +5296,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11524546'
         Value: Funding Agency Program Name Text 
-        Version: "1.00"
+        Version: "2.00"
     Type: string
     Req: false
     Private: false

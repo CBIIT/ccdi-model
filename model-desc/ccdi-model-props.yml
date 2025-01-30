@@ -517,7 +517,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '8028962'
         Value: Biospecimen Preservation Procedure Type
-        Version: "1.00"
+        Version: "2.00"
     Enum:
       - "-80 degrees C"
       - "Cytospin Slide"
@@ -1158,7 +1158,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '3125302'
         Value: adverse event
-        Version: "1.00"
+        Version: "1.10"
     Type:
       value_type: list
       item_type:
@@ -3948,7 +3948,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11556150'
         Value: Electronic Data File MD5 Checksum Text
-        Version: "1.00"
+        Version: "2.00"
     Type: string
     Req: true
     Private: false
@@ -3981,7 +3981,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11556141'
         Value: Electronic File Pathname Text
-        Version: "1.00"
+        Version: "2.00"
     Type: string
     Req: true
     Private: false
@@ -3992,7 +3992,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11555664'
         Value: Electronic Data File Access Level Text 
-        Version: "1.00"
+        Version: "2.00"
     Type: string
     Req: true
     Private: false
@@ -4003,7 +4003,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11555664'
         Value: Electronic Data File Access Level Text 
-        Version: "1.00"
+        Version: "2.00"
     Type: string
     Req: true
     Private: false 
@@ -4014,7 +4014,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11555664'
         Value: Electronic Data File Access Level Text 
-        Version: "1.00"
+        Version: "2.00"
     Enum:
       - "Controlled"
       - "Open"
@@ -4184,7 +4184,7 @@ PropDefinitions:
     Desc: A unique sequence of alphanumeric characters used to identify the specimen at it's point of origin.
     Term:
       - Origin: caDSR
-        Code: '6921892'
+        Code: '15100774'
         Value: Biospecimen Source Laboratory Identifier
         Version: "1.00"
     Type: string
@@ -5121,7 +5121,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11556141'
         Value: Electronic File Pathname Text
-        Version: "1.00"
+        Version: "2.00"
     Type: string
     Req: false  # 02/22/2022 adeforge, not required?
     Private: false
@@ -5330,7 +5330,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11524548'
         Value: Clinical Trial Treatment Arm Text
-        Version: "1.00"
+        Version: "2.00"
     Type: string
     Req: false
     Private: false
@@ -5352,7 +5352,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2413202'
         Value: Clinical Trial Protocol Identifier 64 Character Text
-        Version: "1.00"
+        Version: "2.00"
     Type: string
     Req: false
     Private: false        
@@ -5386,7 +5386,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '2201713'
         Value: Person Affiliation Role Text Type
-        Version: "1.00"
+        Version: "2.00"
     Enum:
       - "PI"
       - "Co-PI"

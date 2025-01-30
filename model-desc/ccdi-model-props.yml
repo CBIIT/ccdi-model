@@ -332,7 +332,7 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11529031'
         Value: Genome Assembly NCBI Genetic Reference Sequence Text
-        Version: "1.00"
+        Version: "2.00"
     Type: string
     Req: true
     Private: false 

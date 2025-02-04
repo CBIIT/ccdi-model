@@ -1,4 +1,39 @@
 PropDefinitions:
+  #study
+  study_status:
+    Desc: The status of the study.
+    Term:
+      - Origin: caDSR
+        Code: '15607838'
+        Value: Administrative Activity Study Status
+        Version: "1.00"
+    Enum:
+      - Active
+      - Completed
+      - Provisional
+    Req: true
+    Strict: true
+    Private: false
+  #study
+  study_period_start:
+    Desc: The year in which the study started.
+    Term: 
+      - Origin: caDSR
+        Code: '15607845'
+        Value: Administrative Activity Study Period Start Year Date
+        Version: "1.00"
+    Type: integer
+    Req: false
+    Private: false
+  #study
+  study_period_stop:
+    Desc: The year in which the study ended.
+    Term: 
+      - Origin: caDSR
+        Code: '15607913'
+        Value: Administrative Activity Study Period End Year Date
+        Version: "1.00"
+    Type: integer
   #pathology_file
   slim_url:
     Desc: File path to IDS SLIM viewer

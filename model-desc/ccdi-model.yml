@@ -256,6 +256,7 @@ Nodes:
       - deidentification_method
       - percent_tumor
       - percent_necrosis
+      - slim_url
       - id
       - crdc_id
   pdx:

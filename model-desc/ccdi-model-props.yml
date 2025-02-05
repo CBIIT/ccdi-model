@@ -3881,19 +3881,19 @@ PropDefinitions:
       item_type:
         - "Clinical"
         - "Copy Number Variation"
-        - "COG Clinical Report"
+        - "COG Clinical Data"
         - "Gene Expression"
-        - "Gene Fusion Clinical Report"
+        - "Gene Fusion Clinical Data"
         - "Generic"
         - "IGM Clinical Sequence"
         - "Methylation Array"
-        - "Methylation Clinical Report"
+        - "Methylation Clinical Data"
         - "Pathology Imaging"
         - "Radiology Imaging"
         - "Sequencing"
         - "Simple Nucleotide Variation"
         - "Structural Variation"
-        - "Tumor Normal Clinical Report"
+        - "Tumor Normal Clinical Data"
     Req: true
     Strict: false
     Private: false

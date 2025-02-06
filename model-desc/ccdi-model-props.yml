@@ -1,4 +1,48 @@
 PropDefinitions:
+  #treatment
+  dose:
+    Desc: 
+    Term:
+      - Origin: caDSR
+        Code: ''
+        Value: 
+        Version: "1.00"
+    Type: string
+    Req: false
+    Private: false 
+  #treatment
+  dose_unit:
+    Desc: 
+    Term:
+      - Origin: caDSR
+        Code: ''
+        Value: 
+        Version: "1.00"
+    Type: string
+    Req: false
+    Private: false
+  #treatment
+  dose_route:
+    Desc: 
+    Term:
+      - Origin: caDSR
+        Code: ''
+        Value: 
+        Version: "1.00"
+    Type: string
+    Req: false
+    Private: false 
+  #treatment
+  dose_frequency:
+    Desc: 
+    Term:
+      - Origin: caDSR
+        Code: ''
+        Value: 
+        Version: "1.00"
+    Type: string
+    Req: false
+    Private: false 
   #synonym
   associated_id:
     Desc: Text to identify the other name or alias of a person.

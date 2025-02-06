@@ -1,45 +1,45 @@
 PropDefinitions:
   #synonym
   associated_id:
-    Desc:
+    Desc: Text to identify the other name or alias of a person.
     Term:
       - Origin: caDSR
-        Code:''
-        Value:
-        Version: ""
+        Code:'3773730'
+        Value: Person Other Name Text
+        Version: "1.00"
     Type: string
     Req: false
     Private: false  
   #synonym
   domain_description:
-    Desc:
+    Desc: A textual description of a storage location for digital data.
     Term:
       - Origin: caDSR
-        Code:''
-        Value:
-        Version: ""
+        Code: '14612686'
+        Value: Research Activity Alternate Identifier Repository Text
+        Version: "1.00"
     Type: string
     Req: false
     Private: false 
   #synonym
   domain_category:
-    Desc:
+    Desc: A textual description of a storage location for digital data.
     Term:
       - Origin: caDSR
-        Code:''
-        Value:
-        Version: ""
+        Code: '14612686'
+        Value: Research Activity Alternate Identifier Repository Text
+        Version: "1.00"
     Type: string
     Req: false
     Private: false
   #synonym
   data_location:
-    Desc:
-    Term:
+    Desc: Data location.
+    Term: 
       - Origin: caDSR
-        Code:''
-        Value:
-        Version: ""
+        Code: '11556141'
+        Value: Electronic File Pathname Text
+        Version: "2.00"
     Type: string
     Req: false
     Private: false 

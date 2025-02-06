@@ -1,4 +1,48 @@
 PropDefinitions:
+  #synonym
+  associated_id:
+    Desc:
+    Term:
+      - Origin: caDSR
+        Code:''
+        Value:
+        Version: ""
+    Type: string
+    Req: false
+    Private: false  
+  #synonym
+  domain_description:
+    Desc:
+    Term:
+      - Origin: caDSR
+        Code:''
+        Value:
+        Version: ""
+    Type: string
+    Req: false
+    Private: false 
+  #synonym
+  domain_category:
+    Desc:
+    Term:
+      - Origin: caDSR
+        Code:''
+        Value:
+        Version: ""
+    Type: string
+    Req: false
+    Private: false
+  #synonym
+  data_location:
+    Desc:
+    Term:
+      - Origin: caDSR
+        Code:''
+        Value:
+        Version: ""
+    Type: string
+    Req: false
+    Private: false 
   #study
   study_status:
     Desc: The status of the study.

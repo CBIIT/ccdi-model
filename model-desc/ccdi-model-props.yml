@@ -1,44 +1,44 @@
 PropDefinitions:
   #treatment
   dose:
-    Desc: 
+    Desc: The amount of exposure that a subject actually receives.
     Term:
       - Origin: caDSR
-        Code: ''
-        Value: 
+        Code: '6642895'
+        Value: Dose
         Version: "1.00"
     Type: string
     Req: false
     Private: false 
   #treatment
   dose_unit:
-    Desc: 
+    Desc: The unit of measure for the dosage form related to agents used as part of a procedure.
     Term:
       - Origin: caDSR
-        Code: ''
-        Value: 
-        Version: "1.00"
+        Code: '6824805'
+        Value: Dose Units
+        Version: "5.00"
     Type: string
     Req: false
     Private: false
   #treatment
   dose_route:
-    Desc: 
+    Desc: The text that describe the dosage route.
     Term:
       - Origin: caDSR
-        Code: ''
-        Value: 
+        Code: '2179582'
+        Value: Dose Route Text
         Version: "1.00"
     Type: string
     Req: false
     Private: false 
   #treatment
   dose_frequency:
-    Desc: 
+    Desc: The text that represents the planned dosage frequency for a agent.
     Term:
       - Origin: caDSR
-        Code: ''
-        Value: 
+        Code: '2179580'
+        Value: Dose Frequency Text
         Version: "1.00"
     Type: string
     Req: false

@@ -572,6 +572,10 @@ Nodes:
       - age_at_treatment_end
       - treatment_type
       - treatment_agent
+      - dose
+      - dose_unit
+      - dose_route
+      - dose_frequency
       - id
   treatment_response:
     Desc: "The treatment response node is comprised of properties which describe the patient's response to a treatment."

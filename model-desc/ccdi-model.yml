@@ -1,5 +1,5 @@
 Handle: CCDI
-Version: v2.0.0
+Version: v2.1.0
 Nodes:
   cell_line:
     Desc: "The cell line node is comprised of properties which describe cell lines that are either derived from samples or commercially obtained."

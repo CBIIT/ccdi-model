@@ -4978,8 +4978,6 @@ PropDefinitions:
       - "Unknown"
     Req: true
     Strict: false
-    Req: true
-    Strict: false
     Private: false
   #sequencing_file
   library_layout: 

@@ -4703,7 +4703,7 @@ PropDefinitions:
     Type: integer
     Req: true  
     Private: false
-  # sample
+  #diagnosis
   tumor_grade:
     Desc: A text term to express the degree of abnormality of cancer cells as a measure of differentiation and aggressiveness.
     Term:

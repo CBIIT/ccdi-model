@@ -4779,9 +4779,9 @@ PropDefinitions:
     Desc: Text description of a sample or specimen.
     Term:
       - Origin: caDSR
-        Code: '14688604'
-        Value: Tissue Sample Description
-        Version: "1.00"
+        Code: '2003907'
+        Value: Sample Description Text
+        Version: "3.00"
     Type: string
     Req: false
     Private: false

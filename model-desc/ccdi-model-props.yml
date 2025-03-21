@@ -4710,18 +4710,17 @@ PropDefinitions:
       - Origin: caDSR
         Code: '11325685'
         Value: Diagnosis Tumor Grade
-        Version: "1.00"
+        Version: "2.00"
     Enum:
-      - "G1"
-      - "G2"
-      - "G3"
-      - "G4"
-      - "GB"
-      - "GX"
-      - "High Grade"
-      - "Intermediate Grade"
-      - "Low Grade"
+      - "G1 Low Grade"
+      - "G2 Intermediate Grade"
+      - "G3 High Grade"
+      - "G4 Anaplastic"
+      - "GB Borderline"
+      - "GX Grade Cannot Be Assessed"
       - "Not Applicable"
+      - "Not Reported"
+      - "Unknown"
     Req: false
     Strict: false
     Private: false

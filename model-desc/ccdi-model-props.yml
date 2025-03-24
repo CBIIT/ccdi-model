@@ -4703,25 +4703,24 @@ PropDefinitions:
     Type: integer
     Req: true  
     Private: false
-  # sample
+  #diagnosis
   tumor_grade:
     Desc: A text term to express the degree of abnormality of cancer cells as a measure of differentiation and aggressiveness.
     Term:
       - Origin: caDSR
         Code: '11325685'
         Value: Diagnosis Tumor Grade
-        Version: "1.00"
+        Version: "2.00"
     Enum:
-      - "G1"
-      - "G2"
-      - "G3"
-      - "G4"
-      - "GB"
-      - "GX"
-      - "High Grade"
-      - "Intermediate Grade"
-      - "Low Grade"
+      - "G1 Low Grade"
+      - "G2 Intermediate Grade"
+      - "G3 High Grade"
+      - "G4 Anaplastic"
+      - "GB Borderline"
+      - "GX Grade Cannot Be Assessed"
       - "Not Applicable"
+      - "Not Reported"
+      - "Unknown"
     Req: false
     Strict: false
     Private: false
@@ -4780,9 +4779,9 @@ PropDefinitions:
     Desc: Text description of a sample or specimen.
     Term:
       - Origin: caDSR
-        Code: '14688604'
-        Value: Tissue Sample Description
-        Version: "1.00"
+        Code: '2003907'
+        Value: Sample Description Text
+        Version: "3.00"
     Type: string
     Req: false
     Private: false

@@ -73,7 +73,12 @@ PropDefinitions:
         Code: '14612686'
         Value: Research Activity Alternate Identifier Repository Text
         Version: "1.00"
-    Type: string
+    Type: 
+      value_type: list
+      item_type:
+        - "study"
+        - "dataset"
+        - "organizational_identifier"
     Req: false
     Private: false
   #synonym

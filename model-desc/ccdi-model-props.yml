@@ -4027,6 +4027,7 @@ PropDefinitions:
       - "fasta"
       - "fastq"
       - "gvcf"
+      - "hdf5"
       - "html"
       - "idat"
       - "jpg"

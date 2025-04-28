@@ -6086,7 +6086,8 @@ PropDefinitions:
         Code: '14714127'
         Value: Diagnosis Disease or Disorder Text
         Version: "1.00"
-    Enum:      - "Abdominal fibromatosis"
+    Enum:
+      - "Abdominal fibromatosis"
       - "Acinar cell carcinoma"
       - "Acute erythroid leukemia"
       - "Acute leukemia, NOS"

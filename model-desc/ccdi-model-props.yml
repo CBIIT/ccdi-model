@@ -6455,12 +6455,11 @@ PropDefinitions:
       - "Wilms"
       - "Yolk sac tumor"
       - "Yolk sac tumor, NOS"
-      - "[---- Indication for Study ----]"
-      - "see diagnosis_comment"
       - "[---- Miscellaneous ----]"
       - "Healthy Control"
       - "Normal"
       - "Not Reported"
+      - "see diagnosis_comment"
       - "Unknown"
     Req: true
     Strict: false

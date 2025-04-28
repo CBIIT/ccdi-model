@@ -1,5 +1,5 @@
 Handle: CCDI
-Version: v2.0.0
+Version: v2.1.0
 Nodes:
   cell_line:
     Desc: "The cell line node is comprised of properties which describe cell lines that are either derived from samples or commercially obtained."
@@ -252,7 +252,6 @@ Nodes:
       - sex_at_birth
       - id
       - crdc_id
-      # - dbgap_subject_id : store in synonym
   pathology_file: 
     Desc: "The pathology file node is comprised of properties which describe file metadata about the pathology image files."
     Tags:
@@ -282,6 +281,7 @@ Nodes:
       - deidentification_method
       - percent_tumor
       - percent_necrosis
+      - slim_url
       - id
       - crdc_id
   pdx:
@@ -484,11 +484,13 @@ Nodes:
       - consent_number
       - external_url
       - experimental_strategy_and_data_subtype
+      - study_status
+      - study_period_start
+      - study_period_stop
       - study_data_types
       - size_of_data_being_uploaded
       - id
       - crdc_id
-      # - bioproject_accession : store in synonym
   study_admin:
     Desc: "The study admin node is comprised of properties which describe the general structure of the study."
     Tags:
@@ -576,8 +578,12 @@ Nodes:
       Class: secondary
       Template: 'Yes'
     Props:
-      - synonym_id #the alternate or alias id in another repo
-      - repository_of_synonym_id #the name of the other repo
+      - synonym_id
+      - repository_of_synonym_id
+      - associated_id
+      - domain_description
+      - domain_category
+      - data_location
       - id
   treatment:
     Desc: "The treatment node is comprised of properties which describe the treatment regiments and time periods for a participant."
@@ -592,6 +598,10 @@ Nodes:
       - age_at_treatment_end
       - treatment_type
       - treatment_agent
+      - dose
+      - dose_unit
+      - dose_route
+      - dose_frequency
       - id
   treatment_response:
     Desc: "The treatment response node is comprised of properties which describe the patient's response to a treatment."

@@ -133,7 +133,7 @@ Nodes:
       - family_id
       - id
   genetic_analysis:
-    Desc: 
+    Desc: "The genetic analysis node is comprised of properties which describe the participant's genetic test results."
     Tags: 
       Category: analysis
       Assignment: extended

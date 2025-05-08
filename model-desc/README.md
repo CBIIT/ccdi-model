@@ -1,0 +1,5 @@
+The Childhood Cancer Data Initiative (CCDI) Hub is an entry point for researchers, data scientists, and citizen scientists looking to use and connect with CCDI-supported data, tools, and applications.  The CCDI Hub’s mission is to support innovative research through increased accessibility of pediatric cancer research datasets and resources.
+
+It provides information about available tools and applications that support the CCDI vision, along with descriptions of resources, each of which targets specific aspects of childhood cancer research. The Explore Dashboard, an integrated tool of the CCDI Hub, provides participant-centric search functionality by connecting participants with files and samples. The Explore Dashboard enables researchers to find data within a single study or across multiple studies and create synthetic cohorts based on filtered metrics (I.e., demographics, diagnosis, samples, etc.) of interest.
+
+The Hub also provides direct links to resources and additional technical information. Users are invited to explore the Hub or select a resource’s link to learn more.

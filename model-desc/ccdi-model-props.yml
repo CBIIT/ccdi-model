@@ -3972,8 +3972,8 @@ PropDefinitions:
     Desc: A Digital Object Identifier (DOI) of the publication associated with the study.
     Term:
       - Origin: caDSR
-        Code: '3443454'
-        Value: Study Publication Identification Digital Object Identifier Text
+        Code: '15915370'
+        Value: Study Administration Publication Identification DOI Text
         Version: "1.00"
     Type: string
     Req: true
@@ -3984,8 +3984,8 @@ PropDefinitions:
     Desc: PubMed identifier of the publication associated with the study.
     Term:
       - Origin: caDSR
-        Code: '3443453'
-        Value: Study Publication Identification PubMed Identifier
+        Code: '15915377'
+        Value: Study Administration Publication Identification PubMed ID Text
         Version: "1.00"
     Type: string
     Req: true

@@ -26,8 +26,7 @@
                 "fileTransferManifestName": "ccdi_",
                 "iconSrc": "logo",
                 "footnote": "https://ccdi-dev.cancer.gov/data-model",
-                "landscape": true,
-                "enabled": false
+                "landscape": true
             },
             "facetFilterSearchData": [
                 {

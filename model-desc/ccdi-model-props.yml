@@ -3820,10 +3820,6 @@ PropDefinitions:
         Code: '14596191'
         Value: PDX Model Unique Identifier
         Version: "1.00"
-      - Origin: PubMedCentral
-        Code: 'PMC5738926'
-        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
-        Version: "1.00"
     Type: string
     Req: true
     Private: false
@@ -3834,10 +3830,6 @@ PropDefinitions:
       - Origin: caDSR
         Code: '14596198'
         Value: PDX Implantation Type
-        Version: "1.00"
-      - Origin: 'EMBL OLS OBI'
-        Code: 'OBI_0000426'
-        Value: Process which aims at introducing a compound or a mixture into a material entity (either biological entity or instrument) by relying on devices such as syringe or injector connection, attached or forced into a vascular system (veins of an organism or tubes of a machine) or in a tissue
         Version: "1.00"
     Enum:
       - 'injection'
@@ -3878,10 +3870,6 @@ PropDefinitions:
         Code: '14596205'
         Value: PDX Host Mouse Strain Name
         Version: "1.00"
-      - Origin: PubMedCentral
-        Code: 'PMC5738926'
-        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
-        Version: "1.00"
     Type: string
     Req: true
     Private: false
@@ -3919,10 +3907,6 @@ PropDefinitions:
         Code: '14616759'
         Value: PDX Tumor Origin Evaluated Type
         Version: "1.00"
-      - Origin: PubMedCentral
-        Code: 'PMC5738926'
-        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
-        Version: "1.00"
     Enum:
       - 'No'
       - 'Yes'
@@ -3934,9 +3918,9 @@ PropDefinitions:
   passage_number: 
     Desc: When different host strains, or PDX Engraftment Site or PDX Engraftment Type or PDX Engraftment Materia were used during the PDX line generation, please add passage.
     Term:
-      - Origin: CancerModels.org
-        Code: https://www.cancermodels.org/validation/dictionary
-        Value: passage_number
+      - Origin: caDSR
+        Code: '2773166'
+        Value: Cell Specimen Passage Number java.lang.Integer
         Version: "1.00"
     Type: string
     Req: false
@@ -3946,12 +3930,8 @@ PropDefinitions:
     Desc: Provide a list of all passages where validation was performed. Passage 0 correspond to first engraftment (if this is not the case please define how passages are numbered).
     Term:
       - Origin: CancerModels.org
-        Code: https://www.cancermodels.org/validation/dictionary
+        Code: 'https://www.cancermodels.org/validation/dictionary.passages_tested'
         Value: passages_tested
-        Version: "1.00"
-      - Origin: PubMedCentral
-        Code: 'PMC5738926'
-        Value: PDX-MI Minimal Information for Patient-Derived Tumor Xenograft Models
         Version: "1.00"
     Type: string
     Req: false
@@ -3961,7 +3941,7 @@ PropDefinitions:
     Desc: Any technique used to validate PDX against their original patient tumour, including fingerprinting, histology, immunohistochemistry.
     Term:
       - Origin: CancerModels.org
-        Code: https://www.cancermodels.org/validation/dictionary
+        Code: 'https://www.cancermodels.org/validation/dictionary.validation_technique'
         Value: validation_technique
         Version: "1.00"
     Type: string

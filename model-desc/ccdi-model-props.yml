@@ -4395,6 +4395,7 @@ PropDefinitions:
       - "pdf"
       - "ped"
       - "png"
+      - "quant.sf"
       - "rda"
       - "rdata"
       - "rds"

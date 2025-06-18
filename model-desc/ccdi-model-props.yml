@@ -281,6 +281,60 @@ PropDefinitions:
     Private: false 
     Strict: true
   #genetic_analysis
+  alteration_type:
+    Desc: 
+    Term: 
+      - Origin: caDSR
+        Code: '13367930'
+        Value: Gene Alteration Type
+        Version: "1.00"
+    Enum:
+      - "Chromosomal Deletion"
+      - "Chromosomal Duplication"
+      - "Chromosomal Inversion"
+      - "Chromosomal Translocation"
+      - "Chromothripsis"
+      - "Deletion"
+      - "Gene Fusion"
+      - "Gene Rearrangement"
+      - "Insertion"
+      - "Insertion, Duplication"
+      - "Isochromosome"
+      - "Mutation, NOS"
+      - "Not Reported"
+      - "Other"
+      - "Substitution"
+      - "Unknown"
+      - "Whole Chromosome Gain"
+      - "Whole Chromosome Loss"
+    Req: false
+    Strict: true
+    Private: false
+  #genetic_analysis
+  alteration_effect:
+    Desc: The type of effect of a sequence change on the function of an RNA, DNA, or protein.
+    Term:
+      - Origin: caDSR
+        Code: '13367935'
+        Value: Gene Alteration Effect Type
+        Version: "1.00"
+    Enum:
+      - "Frameshift Mutation"
+      - "Missense Mutation"
+      - "Monosomy"
+      - "Inframe Mutation"
+      - "Nullisomy"
+      - "Acceptor Splice Site SNP"
+      - "Donor Splice Site SNP"
+      - "Start Lost Mutation"
+      - "Nonsense Mutation"
+      - "Nonstop Mutation"
+      - "Silent Mutation"
+      - "Trisomy"
+    Req: false
+    Strict: true
+    Private: false
+  #genetic_analysis
   allelic_ratio:
     Desc: A decimal number capturing the ratio of variant alleles to wild-type alleles present in a sample.
     Term:
@@ -291,7 +345,6 @@ PropDefinitions:
     Type: number
     Req: false
     Private: false 
-    Strict: true
   #genetic_analysis
   vaf_numeric:
     Desc: A decimal number capturing the relative rate of occurrence of a specific variant allele within a population.
@@ -348,6 +401,28 @@ PropDefinitions:
     Req: true
     Private: false 
   #genetic_analysis
+  chromosome:
+    Desc: Threadlike structures made of protein and a single molecule of DNA in a human that serve to carry the genomic information from cell to cell.
+    Term:
+      - Origin: caDSR
+        Code: '11379445'
+        Value: Gene Human Chromosome Name
+        Version: "1.00"
+    Type: string
+    Req: true
+    Private: false
+  #genetic_analysis
+  cytoband:
+    Desc: Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the cytoband where the variant is located. Format [chromosome][chromosome arm].[band+sub-bands]. Example 17p13.1.
+    Term:
+      - Origin: caDSR
+        Code: '6142405'
+        Value: Molecular Analysis Cytoband Text
+        Version: "1.00"
+    Type: string
+    Req: false
+    Private: false
+  #genetic_analysis
   iscn:
     Desc: The words which describe a karyotype finding as classified by the International System for Human Cytogenetic Nomenclature.
     Term:
@@ -372,8 +447,8 @@ PropDefinitions:
       - "Unknown"
       - "Not Done"
     Req: false
-    Private: false 
     Strict: true
+    Private: false 
   #diagnosis
   laterality:
     Desc: Designates the side of the body where disease is found.
@@ -2839,17 +2914,6 @@ PropDefinitions:
     Req: false
     Private: false
   #molecular_test
-  cytoband:
-    Desc: Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the cytoband where the variant is located. Format [chromosome][chromosome arm].[band+sub-bands]. Example 17p13.1.
-    Term:
-      - Origin: caDSR
-        Code: '6142405'
-        Value: Molecular Analysis Cytoband Text
-        Version: "1.00"
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
   exon:
     Desc: The text term used to describe a specific exon targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located.
     Term:
@@ -4981,7 +5045,6 @@ PropDefinitions:
         Version: "1.00"
     Type: string
     Req: false
-    Strict: false
     Private: false
   #diagnosis
   disease_phase:

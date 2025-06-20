@@ -143,18 +143,23 @@ Nodes:
       - genetic_analysis_id
       - gene_symbol
       - transcript
+      - chromosone
+      - cytoband
       - age_at_genetic_analysis
       - genomic_source_category
       - reported_significance
       - reported_significance_system
+      - reference_genome_assembly
       - hgvs_coding
       - hgvs_protein
       - hgvs_genome
       - allelic_ratio
       - vaf_numeric
       - alteration
+      - alteration_type
+      - alteration_effect
       - dna_index_numeric
-      - iscn
+      - karyotype
       - status
       - second_gene_symbol
       - id

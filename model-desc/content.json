@@ -1,6 +1,7 @@
 {
     "model-files": ["ccdi-model.yml", "ccdi-model-props.yml"],
     "readme-file": "README.md",
+    "loading-file": "ccdi-file-examples.zip",
     "semantics": {
         "file-nodes": {
             "file": {
@@ -24,8 +25,9 @@
                 "downloadPrefix": "ccdi_",
                 "fileTransferManifestName": "ccdi_",
                 "iconSrc": "logo",
-                "footnote": "https://hub.datacommons.cancer.gov/model-navigator/ccdi",
-                "landscape": true
+                "footnote": "https://ccdi-dev.cancer.gov/data-model",
+                "landscape": true,
+                "enabled": false
             },
             "facetFilterSearchData": [
                 {

@@ -694,6 +694,8 @@ Relationships:
     Ends:
       - Src: molecular_test
         Dst: participant
+      - Src: molecular_test
+        Dst: sample
   of_pathology_file:
     Props: null
     Mul: many_to_one

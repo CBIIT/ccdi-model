@@ -378,6 +378,15 @@ Terms:
     Code: '5446318'
     Version: '1'
     Value: Ascites
+  Asian:
+    Origin: caDSR
+    Definition: A person having origins in any of the original peoples of the Far
+      East, Southeast Asia, or the Indian subcontinent, including for example, Cambodia,
+      China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand,
+      and Vietnam. (OMB)
+    Code: '2572233'
+    Version: '1'
+    Value: Asian
   ATAC-seq:
     Origin: caDSR
     Definition: Assay for Transposase-Accessible Chromatin (ATAC) strategy is used
@@ -485,6 +494,14 @@ Terms:
     Code: '6273352'
     Version: '1'
     Value: Bisulfite-Seq
+  Black or African American:
+    Origin: caDSR
+    Definition: A person having origins in any of the Black racial groups of Africa.
+      Terms such as \"Haitian\" or \"Negro\" can be used in addition to \"Black or
+      African American\". (OMB)
+    Code: '2572313'
+    Version: '1'
+    Value: 'Black or African American '
   Bladder:
     Origin: caDSR
     Definition: The distensible sac-like organ that functions as a reservoir of urine,
@@ -1682,6 +1699,13 @@ Terms:
     Code: '2582195'
     Version: '1'
     Value: Feces
+  Female:
+    Origin: caDSR
+    Definition: An individual who reports belonging to the cultural gender role distinction
+      of female.
+    Code: '2567172'
+    Version: '1'
+    Value: Female
   Female genital tract, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: The sex organs of the female.'
@@ -2937,6 +2961,13 @@ Terms:
     Code: '7670583'
     Version: '1'
     Value: Not Otherwise Specified Major Salivary Gland
+  Male:
+    Origin: caDSR
+    Definition: An individual who reports belonging to the cultural gender role distinction
+      of male.
+    Code: '2567171'
+    Version: '1'
+    Value: Male
   Male genital organs, NOS:
     Origin: caDSR
     Definition: 'Not characterized in any other way.: The external male sexual organs.'
@@ -6597,6 +6628,13 @@ Terms:
     Code: '3463244'
     Version: '1'
     Value: Whole Genome Sequencing
+  White:
+    Origin: caDSR
+    Definition: Denotes person with European, Middle Eastern, or North African ancestral
+      origin who identifies, or is identified, as White.
+    Code: '2572236'
+    Version: '1'
+    Value: White
   With Tumor:
     Origin: caDSR
     Definition: 'There is evidence of a tumor in an individual.'

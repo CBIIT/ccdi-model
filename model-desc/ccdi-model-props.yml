@@ -4624,7 +4624,16 @@ PropDefinitions:
     Type:
       value_type: list
       item_type:
-        - https://raw.githubusercontent.com/CBIIT/ccdi-model/refs/heads/CCDIDC-1353-enum_structure_updates/model-desc/enum_lists/race.yml
+        - "American Indian or Alaska Native"
+        - "Asian"
+        - "Black or African American"
+        - "Hispanic or Latino"
+        - "Middle Eastern or North African"
+        - "Native Hawaiian or other Pacific Islander"
+        - "Not Allowed to Collect"
+        - "Not Reported"
+        - "Unknown"
+        - "White"
     Req: true
     Strict: false
     Private: false
@@ -4637,7 +4646,15 @@ PropDefinitions:
         Value: Person Sex at Birth Category
         Version: "2.0"
     Enum:
-      - https://raw.githubusercontent.com/CBIIT/ccdi-model/refs/heads/CCDIDC-1353-enum_structure_updates/model-desc/enum_lists/sex_at_birth.yml
+      - "Female"
+      - "Intersex"
+      - "Male"
+      - "Not Reported"
+      - "Unknown"
+      - "Don't Know"
+      - "Decline to answer"
+      - "None of These Describe Me"
+      - "Prefer Not to Answer"
     Req: true
     Strict: false
     Private: false

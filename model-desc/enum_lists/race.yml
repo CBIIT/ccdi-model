@@ -1,0 +1,37 @@
+PropDefinitions:
+  race:
+    - "American Indian or Alaska Native"
+    - "Asian"
+    - "Black or African American"
+    - "Hispanic or Latino"
+    - "Middle Eastern or North African"
+    - "Native Hawaiian or other Pacific Islander"
+    - "Not Allowed to Collect"
+    - "Not Reported"
+    - "Unknown"
+    - "White"
+Terms:
+  White:
+    Origin: caDSR
+    Definition: Denotes person with European, Middle Eastern, or North African ancestral
+      origin who identifies, or is identified, as White.
+    Code: '2572236'
+    Version: '1'
+    Value: White
+  Black or African American:
+    Origin: caDSR
+    Definition: A person having origins in any of the Black racial groups of Africa.
+      Terms such as \"Haitian\" or \"Negro\" can be used in addition to \"Black or
+      African American\". (OMB)
+    Code: '2572313'
+    Version: '1'
+    Value: 'Black or African American'
+  Asian:
+    Origin: caDSR
+    Definition: A person having origins in any of the original peoples of the Far
+      East, Southeast Asia, or the Indian subcontinent, including for example, Cambodia,
+      China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand,
+      and Vietnam. (OMB)
+    Code: '2572233'
+    Version: '1'
+    Value: Asian

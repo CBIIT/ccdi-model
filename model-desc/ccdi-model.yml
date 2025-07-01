@@ -489,6 +489,7 @@ Nodes:
       - study_period_stop
       - study_data_types
       - size_of_data_being_uploaded
+      - curation_status
       - id
       - crdc_id
   study_admin:

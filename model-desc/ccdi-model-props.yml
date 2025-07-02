@@ -505,19 +505,21 @@ PropDefinitions:
   #study
   curation_status:
     Desc: The curation status of the study.
-    Term: 
+    Term:
       - Origin: caDSR
         Code: ''
-        Value: 
+        Value:
         Version: "1.00"
-    Enum:
-      - "Under curation"
-      - "On hold"
-      - "Validated"
-      - "DCF indexed"
-      - "dbGaP released"
-      - "CCDI released"
-      - "Redacted"
+    Type:
+      value_type: list
+      item_type:
+        - "Under curation"
+        - "On hold"
+        - "Validated"
+        - "DCF indexed"
+        - "dbGaP released"
+        - "CCDI released"
+        - "Redacted"
     Req: true
     Strict: false
     Private: false

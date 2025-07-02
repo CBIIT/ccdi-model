@@ -1,5 +1,5 @@
 Handle: CCDI
-Version: v2.0.0
+Version: v2.1.0
 Nodes:
   cell_line:
     Desc: "The cell line node is comprised of properties which describe cell lines that are either derived from samples or commercially obtained."
@@ -132,6 +132,32 @@ Nodes:
       - relationship
       - family_id
       - id
+  genetic_analysis:
+    Desc: "The genetic analysis node is comprised of properties which describe the participant's genetic test results."
+    Tags: 
+      Category: analysis
+      Assignment: extended
+      Class: secondary
+      Template: 'Yes'
+    Props:
+      - genetic_analysis_id
+      - gene_symbol
+      - transcript
+      - age_at_genetic_analysis
+      - genomic_source_category
+      - reported_significance
+      - reported_significance_system
+      - hgvs_coding
+      - hgvs_protein
+      - hgvs_genome
+      - allelic_ratio
+      - vaf_numeric
+      - alteration
+      - dna_index_numeric
+      - iscn
+      - status
+      - second_gene_symbol
+      - id
   medical_history:
     Desc: "The medical history node is comprised of properties which describe the participant's previous medical conditions."
     Tags:
@@ -226,7 +252,6 @@ Nodes:
       - sex_at_birth
       - id
       - crdc_id
-      # - dbgap_subject_id : store in synonym
   pathology_file: 
     Desc: "The pathology file node is comprised of properties which describe file metadata about the pathology image files."
     Tags:
@@ -256,6 +281,7 @@ Nodes:
       - deidentification_method
       - percent_tumor
       - percent_necrosis
+      - slim_url
       - id
       - crdc_id
   pdx:
@@ -458,11 +484,13 @@ Nodes:
       - consent_number
       - external_url
       - experimental_strategy_and_data_subtype
+      - study_status
+      - study_period_start
+      - study_period_stop
       - study_data_types
       - size_of_data_being_uploaded
       - id
       - crdc_id
-      # - bioproject_accession : store in synonym
   study_admin:
     Desc: "The study admin node is comprised of properties which describe the general structure of the study."
     Tags:
@@ -550,8 +578,12 @@ Nodes:
       Class: secondary
       Template: 'Yes'
     Props:
-      - synonym_id #the alternate or alias id in another repo
-      - repository_of_synonym_id #the name of the other repo
+      - synonym_id
+      - repository_of_synonym_id
+      - associated_id
+      - domain_description
+      - domain_category
+      - data_location
       - id
   treatment:
     Desc: "The treatment node is comprised of properties which describe the treatment regiments and time periods for a participant."
@@ -566,6 +598,10 @@ Nodes:
       - age_at_treatment_end
       - treatment_type
       - treatment_agent
+      - dose
+      - dose_unit
+      - dose_route
+      - dose_frequency
       - id
   treatment_response:
     Desc: "The treatment response node is comprised of properties which describe the patient's response to a treatment."
@@ -590,7 +626,7 @@ Relationships:
         Dst: study  
       - Src: cell_line
         Dst: sample 
-  of_clinical_measure_file: # #09.20.22 pd
+  of_clinical_measure_file:
     Props: null
     Mul: many_to_one 
     Ends:
@@ -624,17 +660,21 @@ Relationships:
     Ends:
       - Src: family_relationship
         Dst: participant      
-  of_survival:
+  of_generic_file:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: survival
+      - Src: generic_file
+        Dst: study
+      - Src: generic_file
         Dst: participant
-  of_pathology_file:
+      - Src: generic_file
+        Dst: sample
+  of_genetic_analysis:
     Props: null
     Mul: many_to_one
-    Ends:
-      - Src: pathology_file
+    Ends: 
+      - Src: genetic_analysis
         Dst: sample
   of_medical_history:
     Props: null
@@ -654,15 +694,19 @@ Relationships:
     Ends:
       - Src: molecular_test
         Dst: participant
+  of_pathology_file:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: pathology_file
+        Dst: sample
   of_participant:
     Props: null
-    Mul: many_to_one #will need to mod this to many_to_many if a participant is in >1 study
+    Mul: many_to_one
     Ends:
-      #- Src: participant
-      #  Dst: study_arm
       - Src: participant
         Dst: study
-  of_pdx: #27jan2023 pd
+  of_pdx:
     Props: null
     Mul: many_to_one
     Ends:
@@ -670,7 +714,7 @@ Relationships:
         Dst: study
       - Src: pdx
         Dst: sample
-  of_publication: # 09.20.22 pd
+  of_publication: 
     Props: null
     Mul: many_to_one
     Ends:
@@ -682,16 +726,6 @@ Relationships:
     Ends:
       - Src: radiology_file
         Dst: participant
-  of_generic_file:
-    Props: null
-    Mul: many_to_one
-    Ends:
-      - Src: generic_file
-        Dst: study
-      - Src: generic_file
-        Dst: participant
-      - Src: generic_file
-        Dst: sample
   of_sample: 
     Props: null
     Mul: many_to_one
@@ -732,6 +766,12 @@ Relationships:
     Ends:
       - Src: study_personnel  
         Dst: study     
+  of_survival:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: survival
+        Dst: participant
   of_synonym:
     Props: null
     Mul: many_to_one

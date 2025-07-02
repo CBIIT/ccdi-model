@@ -1319,6 +1319,12 @@ Terms:
     Code: '3452321'
     Version: '1'
     Value: Cytology
+  Cytospin Slide:
+    Origin: NCIt
+    Definition: A microscope slide prepared by depositing cells directly onto a slide by centrifugation. The cytocentrifuge spins at an angle, at low speeds, allowing the cells to adhere to the slide in a monolayer format.
+    Code: 'C115350'
+    Version: '1'
+    Value: Centrifuged Smear Slide
   days_to_last_followup:
     Origin: caDSR
     Definition: Time interval from the date of last followup to the date of initial
@@ -7373,4 +7379,9 @@ Terms:
     Code: '13299113'
     Version: '1'
     Value: Childhood Cancer Toronto Guidelines Stage
-
+  Wright-Giemsa: 
+    Origin: NCIt
+    Definition: A microscopy staining method that is a combination of the Wright and Giemsa staining protocols and utilizes the Romanowsky stains, which are mixtures of eosin and thiazine dyes such as methylene blue. It produces darker blue and magenta shades than the giemsa stain alone, which may provide better contrast in microscopy.
+    Code: 'C23041'
+    Version: '1'
+    Value: Wright-Giemsa Staining Method

@@ -4828,6 +4828,7 @@ PropDefinitions:
         - "C13.9 : Hypopharynx, NOS"
         - "C17.2 : Ileum"
         - "C39.9 : Ill-defined sites within respiratory system"
+        - "C76.3 : Inguinal region, NOS"
         - "C26.0 : Intestinal tract, NOS"
         - "C77.2 : Intra-abdominal lymph nodes"
         - "C22.1 : Intrahepatic bile duct"

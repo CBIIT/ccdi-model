@@ -170,7 +170,7 @@ Nodes:
       - medical_history_category
       - medical_history_condition
       - id
-  molecular_test:
+  laboratory_test:
     Desc: "The molecular test node is comprised of properties which describe varying tests results for participants."
     Tags:
       Category: analysis
@@ -178,41 +178,14 @@ Nodes:
       Class: secondary
       Template: 'Yes'
     Props:
-      - molecular_test_id
+      - lab_test_id
       - anatomic_site
-      - age_at_molecular_test
-      - gene_symbol
-      - molecular_analysis_method
+      - age_at_lab_test
+      - analysis_method
       - laboratory_test_name
       - test_result_text
       - test_result_numeric
       - test_unit
-      - aa_change
-      - antigen
-      - blood_test_normal_range_upper
-      - blood_test_normal_range_lower
-      - cell_count
-      - copy_number
-      - cytoband
-      - exon
-      - gene_mutation_abnormality_type
-      - histone_family
-      - histone_variant
-      - intron
-      - loci_abnormal_count
-      - loci_count
-      - locus
-      - mismatch_repair_mutation
-      - pathogenicity
-      - ploidy
-      - second_exon
-      - second_gene_symbol
-      - specialized_molecular_test
-      - test_analyte_type
-      - transcript
-      - variant_origin
-      - variant_type
-      - zygosity  
       - id
   methylation_array_file:
     Desc: "The methylation array file node is comprised of properties which describe file metadata specific to methylation array analysis."

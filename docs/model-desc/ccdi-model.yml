@@ -279,8 +279,6 @@ Nodes:
       - fixation_embedding_method
       - staining_method
       - deidentification_method
-      - percent_tumor
-      - percent_necrosis
       - slim_url
       - id
       - crdc_id
@@ -406,6 +404,8 @@ Nodes:
       - sample_tumor_status
       - tumor_classification
       - sample_description
+      - percent_tumor
+      - percent_necrosis
       - id
       - crdc_id
   sequencing_file: 

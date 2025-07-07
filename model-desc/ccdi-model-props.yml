@@ -1,6 +1,6 @@
 PropDefinitions:
   #consent_group
-  consent_group_id
+  consent_group_id:
     Desc: A sequence of characters used to uniquely identify, name, or characterize the presence and nature of a consent group in a study.
     Term:
       - Origin: caDSR
@@ -64,7 +64,7 @@ PropDefinitions:
         Code: '12365610'
         Value: Subject Age at Genetic Analysis Day Count
         Version: "2.00"
-    Type: integer
+    Type: number
     Req: true
     Private: false 
   #genetic_analysis

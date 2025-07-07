@@ -12,7 +12,7 @@ PropDefinitions:
     Private: false 
     Key: true
   #consent_group
-  consent_group_name
+  consent_group_name:
     Desc: The words or acronym which describe a set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository.
     Term:
       - Origin: caDSR
@@ -23,7 +23,7 @@ PropDefinitions:
     Req: true
     Private: false 
   #consent_group
-  consent_group_number
+  consent_group_number:
     Desc: A numeral or string of numerals used to identify the set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository.
     Term:
       - Origin: caDSR
@@ -34,7 +34,7 @@ PropDefinitions:
     Req: true
     Private: false
   #consent_group
-  consent_group_suffix
+  consent_group_suffix:
     Desc: Suffix applied to DCF indexing file record to note the appropriate participant's consent group. 
     Term:
       - Origin: caDSR

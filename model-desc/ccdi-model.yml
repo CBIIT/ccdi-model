@@ -39,7 +39,7 @@ Nodes:
       - id
       - crdc_id
   consent_group:
-    Desc:
+    Desc: "A set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository."
     Tags:
       Category: participant
       Assignment: extended
@@ -47,12 +47,10 @@ Nodes:
       Template: 'Yes'
     Props:
       - consent_group_id
-      - study_id
       - consent_group_name
       - consent_group_number
       - consent_group_suffix 
       - id
-      - study_id
   cytogenomic_file:
     Desc: "The cytogenomic file node is comprised of properties which describe file metadata for cytogenomic files."
     Tags:

@@ -4091,16 +4091,17 @@ PropDefinitions:
       - Origin: NCIt
         Code: 'C159157'
         Value: WHO AML Classification of Tumors
-    Enum:
-      - 'CNS Diagnosis Category'
-      - 'French-American-British Classification'
-      - 'ICD-O-3.2'
-      - 'Indication for Study'
-      - 'St. Jude Cloud Disease Ontology'
-      - 'WHO AML Classification of Tumors'
-      - 'WHO CNS5 Integrated Diagnosis'
-      - 'Unknown'
-      - 'Not Reported'
+    Type:
+      value_type: list
+      item_type:
+        - 'ICD-O-3.2'
+        - 'MCI CNS Diagnosis Category'
+        - 'WHO CNS5'
+        - 'Indication for Study'
+        - 'French-American-British Classification'
+        - 'WHO AML Classification of Tumors'
+        - 'Unknown'
+        - 'Not Reported'
     Req: true
     Strict: false
     Private: false 
@@ -4112,12 +4113,14 @@ PropDefinitions:
         Code: '14714146'
         Value: Diagnosis Assessment Basis Source
         Version: "1.00"
-    Enum:
-      - 'Clinical'
-      - 'Molecular'
-      - 'Pathology'
-      - 'Unknown'
-      - 'Not Reported'
+    Type:
+      value_type: list
+      item_type:
+        - 'Clinical'
+        - 'Molecular'
+        - 'Pathology'
+        - 'Unknown'
+        - 'Not Reported'
     Req: true
     Strict: false
     Private: false 

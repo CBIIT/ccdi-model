@@ -724,8 +724,6 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: participant
-        Dst: study
-      - Src: participant
         Dst: consent_group
   of_pdx:
     Props: null

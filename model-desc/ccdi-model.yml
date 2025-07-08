@@ -649,6 +649,12 @@ Relationships:
     Ends: 
       - Src: genetic_analysis
         Dst: sample
+  of_laboratory_test:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: molecular_test
+        Dst: participant
   of_medical_history:
     Props: null
     Mul: many_to_one
@@ -661,12 +667,6 @@ Relationships:
     Ends:
       - Src: methylation_array_file
         Dst: sample
-  of_molecular_test:
-    Props: null
-    Mul: many_to_one
-    Ends:
-      - Src: molecular_test
-        Dst: participant
   of_pathology_file:
     Props: null
     Mul: many_to_one

@@ -2887,7 +2887,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #laboratory_test, genetic_analysis
+  #genetic_analysis
   gene_symbol:
     Desc: A short-form abbreviation for a particular gene assigned by the HGNC (HUGO Gene Nomenclature Committee - an organism specific nomenclature committee).    
     Term:

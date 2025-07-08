@@ -178,9 +178,9 @@ Nodes:
       Class: secondary
       Template: 'Yes'
     Props:
-      - lab_test_id
+      - laboratory_test_id
       - anatomic_site
-      - age_at_lab_test
+      - age_at_laboratory_test
       - analysis_method
       - laboratory_test_name
       - test_result_text

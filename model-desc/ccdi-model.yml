@@ -653,8 +653,8 @@ Relationships:
     Props: null
     Mul: many_to_one
     Ends:
-      - Src: molecular_test
-        Dst: participant
+      - Src: laboratory_test
+        Dst: sample
   of_medical_history:
     Props: null
     Mul: many_to_one

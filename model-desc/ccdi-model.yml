@@ -179,8 +179,6 @@ Nodes:
       Template: 'Yes'
     Props:
       - laboratory_test_id
-      - anatomic_site
-      - age_at_laboratory_test
       - analysis_method
       - laboratory_test_name
       - test_result_text

@@ -6617,6 +6617,110 @@ PropDefinitions:
     Req: true
     Strict: false
     Private: false  
+  #diagnosis
+  diagnosis_category:
+    Desc: 
+    Term:
+      - Origin: caDSR
+        Code: '14741381'
+        Value: Diagnosis Disease CNS Diagnosis Category Text
+        Version: "1.00"
+      - Origin: caDSR
+        Code: '6161017'
+        Value: ICD-O Disease Diagnosis Category
+        Version: "1.00"
+      - Origin: caDSR
+        Code: '14235255'
+        Value: Medical History Domain Neoplasm CNS Diagnosis WHO Classification of Tumors
+        Version: "1.00"
+    Type:
+      value_type: list
+      item_type:
+        - "Acinar cell neoplasms"
+        - "Adenomas and adenocarcinomas"
+        - "Adult-type diffuse gliomas"
+        - "Atypical teratoid/rhabdoid tumor "
+        - "Blood vessel tumors"
+        - "Chondro-osseous tumors"
+        - "Choroid Plexus tumors"
+        - "Circumscribed astrocytic gliomas"
+        - "Circumscribed meningeal melanocytic neoplasms"
+        - "CNS Germ Cell Tumors"
+        - "CNS Sarcoma"
+        - "Complex epithelial neoplasms"
+        - "Complex mixed and stromal neoplasms"
+        - "Cranial and paraspinal nerve tumors"
+        - "Craniopharyngioma"
+        - "Cystic, mucinous and serous neoplasms"
+        - "Diffuse meningeal melanocytic neoplasms"
+        - "Ductal and lobular neoplasms"
+        - "Embryonal tumors"
+        - "Ependymal tumors"
+        - "Ependymoma"
+        - "Epithelial neoplasms, NOS"
+        - "Fibromatous neoplasms"
+        - "Germ cell neoplasms"
+        - "Germ cell tumors"
+        - "Giant cell tumors"
+        - "Gliomas"
+        - "Gliomas, glioneuronal tumors, and neuronal tumors"
+        - "Glioneuronal and neuronal tumors"
+        - "Granular cell tumors and alveolar soft part sarcomas"
+        - "Hematolymphoid tumors"
+        - "High-Grade Glioma"
+        - "Histiocytic tumors"
+        - "Hodgkin and non-Hodgkin lymphomas"
+        - "Leukemias, NOS"
+        - "Lipomatous neoplasms"
+        - "Low-Grade Glioma"
+        - "Lymphatic vessel tumors"
+        - "Lymphoid leukemias"
+        - "Lymphomas"
+        - "Mast cell neoplasms"
+        - "Medulloblastoma"
+        - "Melanocytic tumors"
+        - "Meningiomas"
+        - "Mesenchymal, non-meningothelial tumors"
+        - "Mesothelial neoplasms"
+        - "Metastases to the CNS"
+        - "Miscellaneous bone tumors"
+        - "Miscellaneous tumors"
+        - "Mucoepidermoid neoplasms"
+        - "Myelodysplastic syndromes"
+        - "Myeloid leukemias"
+        - "Myeloproliferative neoplasms"
+        - "Myomatous neoplasms"
+        - "Myxomatous neoplasms"
+        - "Neoplasms of histiocytes and accessory lymphoid cells"
+        - "Neoplasms, NOS"
+        - "Nerve sheath tumors"
+        - "Neuroepitheliomatous neoplasms"
+        - "Nevi and melanomas"
+        - "Odontogenic tumors"
+        - "Osseous and chondromatous neoplasms"
+        - "Other"
+        - "Other CNS Embryonal tumors"
+        - "Other hematological neoplasms"
+        - "Other leukemias"
+        - "Paragangliomas and glomus tumors"
+        - "Pediatric-type diffuse high-grade gliomas"
+        - "Pediatric-type diffuse low-grade gliomas"
+        - "Pineal tumors"
+        - "Plasma cell neoplasms"
+        - "Skeletal muscle tumors"
+        - "Soft tissue tumors"
+        - "Soft tissue tumors and sarcomas, NOS"
+        - "Specialized gonadal neoplasms"
+        - "Squamous cell neoplasms"
+        - "Synovial-like neoplasms"
+        - "Thymic epithelial neoplasms"
+        - "Transitional cell papillomas and carcinomas"
+        - "Trophoblastic neoplasms"
+        - "Tumors of the sellar region"
+        - "Uncertain differentiation"
+    Req: true
+    Strict: false
+    Private: false
   #treatment
   treatment_agent:
     Desc: The name of the individual therapeutic agent(s) used as part of a treatment regimen.

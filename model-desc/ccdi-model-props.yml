@@ -128,8 +128,8 @@ PropDefinitions:
     Type: string
     Req: true
     Private: false
-   #genetic_analysis
-   reference_genome:
+  #genetic_analysis
+  reference_genome:
     Desc: One or more characters used to identify the published NCBI genetic sequence that is used as a reference against which other sequences are compared.
     Term:
       - Origin: caDSR
@@ -141,7 +141,7 @@ PropDefinitions:
         Value: Genetic Reference Sequence
         Version: "1.00"
     Type: string
-    Req: true
+    Req: false
     Private: false
   #genetic_analysis
   chromosome:
@@ -152,7 +152,7 @@ PropDefinitions:
         Value: Gene Human Chromosome Name
         Version: "1.00"
     Type: string
-    Req: true
+    Req: false
     Private: false
   #genetic_alteration
   cytoband:
@@ -162,7 +162,7 @@ PropDefinitions:
         Value: Molecular Analysis Cytoband Text
         Version: "2.00"
     Type: string
-    Req: true
+    Req: false
     Private: false
   #genetic_analysis
   gene_symbol:
@@ -489,9 +489,9 @@ PropDefinitions:
       - "WT1 mutation"
       - "X Chromosome Inversion"
       - "ZC3H7B-BCOR"
-    Req: true
+    Req: false
+    Strict: false
     Private: false 
-    Strict: true
   #genetic_analysis
   allelic_ratio:
     Desc: A decimal number capturing the ratio of variant alleles to wild-type alleles present in a sample.
@@ -524,7 +524,7 @@ PropDefinitions:
         Value: Molecular Specimen DNA Index Float
         Version: "1.00"
     Type: number
-    Req: true
+    Req: false
     Private: false 
   #genetic_analysis
   karyotype:
@@ -552,8 +552,7 @@ PropDefinitions:
       - "Not Done"
     Req: false
     Private: false 
-    Strict: true
-  
+    Strict: true 
   #treatment
   dose:
     Desc: The amount of exposure that a subject actually receives.

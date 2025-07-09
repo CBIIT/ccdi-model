@@ -119,11 +119,11 @@ PropDefinitions:
     Private: false
   #genetic_analysis
   result:
-    Desc: 
+    Desc: A textual description of the outcome of any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting.
     Term:
       - Origin: caDSR
-        Code: ''
-        Value: 
+        Code: '13362271'
+        Value: test_result_text
         Version: "1.00"
     Type: string
     Req: true

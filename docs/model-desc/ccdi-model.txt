@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit a184374
+commit 585d0d7
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -1326,13 +1326,1075 @@ genetic_analysis	id	STRING
 genetic_analysis	iscn	STRING
 genetic_analysis	reported_significance	STRING
 genetic_analysis	reported_significance_system	STRING
-genetic_analysis	second_gene_symbol	STRING
+genetic_analysis	second_gene_symbol	NA
 genetic_analysis	status	Absent
 genetic_analysis	status	Not Done
 genetic_analysis	status	Present
 genetic_analysis	status	Unknown
-genetic_analysis	transcript	STRING
+genetic_analysis	transcript	NA
 genetic_analysis	vaf_numeric	NUMBER
+laboratory_test	analysis_method	NA
+laboratory_test	id	STRING
+laboratory_test	laboratory_test_id	STRING
+laboratory_test	laboratory_test_name	
+laboratory_test	laboratory_test_name	% lymphocyte of CD45 cells
+laboratory_test	laboratory_test_name	11-Deoxycorticosterone, Serum
+laboratory_test	laboratory_test_name	11-Deoxycortisol, Serum
+laboratory_test	laboratory_test_name	17-OH-Pregnenolone, Serum
+laboratory_test	laboratory_test_name	17-OH-Progesterone, Serum
+laboratory_test	laboratory_test_name	20(S)-hydroxycholesterol, Serum
+laboratory_test	laboratory_test_name	21 Gene Signature (Oncotype DX), #, Tissue
+laboratory_test	laboratory_test_name	21 Gene Signature (Oncotype DX), Tissue
+laboratory_test	laboratory_test_name	22(R)-hydroxycholesterol, Serum
+laboratory_test	laboratory_test_name	22(S)-hydroxycholesterol, Serum
+laboratory_test	laboratory_test_name	24(S),25-epoxycholesterol, Serum
+laboratory_test	laboratory_test_name	24R-hydroxycholesterol, Serum
+laboratory_test	laboratory_test_name	24S-hydroxycholesterol, Serum
+laboratory_test	laboratory_test_name	25-hydroxycholesterol, Serum
+laboratory_test	laboratory_test_name	27-hydroxycholesterol, Serum
+laboratory_test	laboratory_test_name	3beta-hydroxy-5-cholestenoic acid, Serum
+laboratory_test	laboratory_test_name	4 Hydroxytestosterone (4-OH), Serum/Plasma
+laboratory_test	laboratory_test_name	4 Hydroxytestosterone (4-OH), Tissue
+laboratory_test	laboratory_test_name	4-OHT E Isomer, Plasma
+laboratory_test	laboratory_test_name	4-OHT E Isomer, Tissue
+laboratory_test	laboratory_test_name	4-OHT Z Isomer, Plasma
+laboratory_test	laboratory_test_name	4-OHT Z Isomer, Tissue
+laboratory_test	laboratory_test_name	4beta-hydroxycholesterol, Serum
+laboratory_test	laboratory_test_name	5 Prime Nucleotidase
+laboratory_test	laboratory_test_name	5 Protein Signature (Ova1), Serum
+laboratory_test	laboratory_test_name	5'-Nucleotidase, Serum
+laboratory_test	laboratory_test_name	5-Hydroxyindoleacetic Acid (5-HIAA), Urine
+laboratory_test	laboratory_test_name	7-ketocholesterol, Serum
+laboratory_test	laboratory_test_name	70 Gene Signature (Mammaprint), Tissue
+laboratory_test	laboratory_test_name	7alpha,25-dihydroxycholesterol, Serum
+laboratory_test	laboratory_test_name	7alpha,27-dihydroxycholesterol, Serum
+laboratory_test	laboratory_test_name	7alpha-hydroxycholesterol, Serum
+laboratory_test	laboratory_test_name	7beta-hydroxycholesterol, Serum
+laboratory_test	laboratory_test_name	ABO Group, Rh Type, Blood
+laboratory_test	laboratory_test_name	AFP
+laboratory_test	laboratory_test_name	ALT
+laboratory_test	laboratory_test_name	AST
+laboratory_test	laboratory_test_name	Abnormal Lymphocytes, %, Blood
+laboratory_test	laboratory_test_name	Absolute Granulocyte
+laboratory_test	laboratory_test_name	Absolute Neutrophil Count
+laboratory_test	laboratory_test_name	Absolute Neutrophil Count (ANC), Blood
+laboratory_test	laboratory_test_name	Acetylcholine Receptor (AChR) Ab, Blood
+laboratory_test	laboratory_test_name	Acid Phosphatase (ACP), Serum
+laboratory_test	laboratory_test_name	Activated Partial Thromboplastin Time (APTT)
+laboratory_test	laboratory_test_name	Adenovirus Antibody, Serum
+laboratory_test	laboratory_test_name	Adenovirus, PCR, Quantitative, Blood
+laboratory_test	laboratory_test_name	Adiponectin, Serum
+laboratory_test	laboratory_test_name	Adrenocorticotropin, Serum
+laboratory_test	laboratory_test_name	Alanine Aminotransferase (ALT or SGPT), Serum
+laboratory_test	laboratory_test_name	Alb/Glob ratio
+laboratory_test	laboratory_test_name	Albumin
+laboratory_test	laboratory_test_name	Albumin, %, Electrophoresis, Random Urine
+laboratory_test	laboratory_test_name	Albumin, Electrophoresis, Timed Urine
+laboratory_test	laboratory_test_name	Albumin, Serum
+laboratory_test	laboratory_test_name	Albumin-Creatinine Ratio, Urine
+laboratory_test	laboratory_test_name	Aldolase, Serum
+laboratory_test	laboratory_test_name	Aldosterone, Serum
+laboratory_test	laboratory_test_name	Alkaline Phophatase
+laboratory_test	laboratory_test_name	Alkaline Phosphatase, Bone, Serum
+laboratory_test	laboratory_test_name	Alkaline Phosphatase, Serum
+laboratory_test	laboratory_test_name	Alpha 1 Globulin, %, 24 hour, Urine
+laboratory_test	laboratory_test_name	Alpha 1 Globulin, Electrophoresis, Random Urine
+laboratory_test	laboratory_test_name	Alpha 1 Globulin, Electrophoresis, Timed Urine
+laboratory_test	laboratory_test_name	Alpha 1 Globulin, Protein Electrophoresis, Serum
+laboratory_test	laboratory_test_name	Alpha 2 Globulin, %, 24 hour, Urine
+laboratory_test	laboratory_test_name	Alpha 2 Globulin, Electrophoresis, Random Urine
+laboratory_test	laboratory_test_name	Alpha 2 Globulin, Electrophoresis, Timed Urine
+laboratory_test	laboratory_test_name	Alpha 2 Globulin, Protein Electrophoresis, Serum
+laboratory_test	laboratory_test_name	Alpha-1 Fetoprotein, Serum
+laboratory_test	laboratory_test_name	Aluminum, Plasma
+laboratory_test	laboratory_test_name	Ammonia, Serum
+laboratory_test	laboratory_test_name	Amylase, Serum
+laboratory_test	laboratory_test_name	Anaplastic Lymphoma Kinase (ALK) Gene Arrangement, Tissue
+laboratory_test	laboratory_test_name	Androstenedione, Serum
+laboratory_test	laboratory_test_name	Anion Gap, Serum
+laboratory_test	laboratory_test_name	Anti-DsDNA
+laboratory_test	laboratory_test_name	Anti-HCV Antibody, Serum
+laboratory_test	laboratory_test_name	Anti-Hbe Antibody, Serum
+laboratory_test	laboratory_test_name	Anti-Interleukin 15 Antibody, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 1 (1) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 1 (1) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 1 (1) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 10A (34) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 10A (34) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 10A (34) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 11A (43) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 11A (43) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 11A (43) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 12F (12) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 12F (12) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 12F (12) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 14 (14) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 14 (14) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 14 (14) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 15B (54) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 15B (54) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 15B (54) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 17F (17) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 17F (17) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 17F (17) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 18C (56) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 18C (56) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 18C (56) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 19A (57) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 19A (57) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 19A (57) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 19F (19) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 19F (19) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 19F (19) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 2 (2) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 2 (2) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 2 (2) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 20 (20) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 20 (20) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 20(20) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 22F (22) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 22F (22) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 22F (22) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 23F (23) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 23F (23) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 23F (23) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 3 (3) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 3 (3) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 3 (3) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 33F (70) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 33F (70) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 33F (70) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 4 (4) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 4 (4) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 4 (4) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 5 (5) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 5 (5) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 5 (5) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 6B (26) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 6B (26) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 6B (26) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 7F (51) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 7F (51) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 7F (51) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 8 (8) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 8 (8) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 8 (8) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 9N (9) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 9N (9) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 9N (9) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 9V (68) Post-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 9V (68) Pre-Vaccination, Serum
+laboratory_test	laboratory_test_name	Anti-Pneumococcal Antibody Serotype 9V (68) Random, Serum
+laboratory_test	laboratory_test_name	Anti-Saccharomyces cerevisiae Antibodies (ASCA), IgA, Serum
+laboratory_test	laboratory_test_name	Anti-Saccharomyces cerevisiae Antibodies (ASCA), IgG, Serum
+laboratory_test	laboratory_test_name	Antiadrenal Antibody, Serum
+laboratory_test	laboratory_test_name	Antibody Screen, Serum
+laboratory_test	laboratory_test_name	Antibody to Hepatitis B surface antigen (HBSAb), Serum
+laboratory_test	laboratory_test_name	Antibody-Dependent Cell-Mediated Cytotoxicity (ADCC), Blood
+laboratory_test	laboratory_test_name	Antinuclear Antibody (ANA), Serum
+laboratory_test	laboratory_test_name	Antistreptolysin O, Blood
+laboratory_test	laboratory_test_name	Apoptotic Cells, %, Tissue
+laboratory_test	laboratory_test_name	Appearance, Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	Appearance, Urine
+laboratory_test	laboratory_test_name	Aspartate Aminotransferase (AST or SGOT), Serum
+laboratory_test	laboratory_test_name	Aspergillus (Galactomannan) Antigen; Blood
+laboratory_test	laboratory_test_name	Aspergillus (Galactomannan) Antigen; Bronchoalveolar Lavage
+laboratory_test	laboratory_test_name	Aspergillus (Galactomannan) Antigen; CSF
+laboratory_test	laboratory_test_name	Atypical Cells, Blood
+laboratory_test	laboratory_test_name	Atypical Lymphocytes, #, Blood
+laboratory_test	laboratory_test_name	Atypical Lymphocytes, %, Blood
+laboratory_test	laboratory_test_name	Auer Rods
+laboratory_test	laboratory_test_name	B Lymphocytes, #, Blood
+laboratory_test	laboratory_test_name	BCR-ABL P210 Assay, Blood
+laboratory_test	laboratory_test_name	BCR-ABL Sensitivity, Blood
+laboratory_test	laboratory_test_name	BCR-ABL/G6PDH Ratio, Blood
+laboratory_test	laboratory_test_name	BK Virus, Polymerase Chain Reaction (PCR), #, Blood
+laboratory_test	laboratory_test_name	BK Virus, Polymerase Chain Reaction (PCR), #, Urine
+laboratory_test	laboratory_test_name	BK Virus, Polymerase Chain Reaction (PCR), Quantitative, Copies/mL, Blood
+laboratory_test	laboratory_test_name	BRAF Gene Mutation V600E, Tissue
+laboratory_test	laboratory_test_name	BUN
+laboratory_test	laboratory_test_name	Babesia microti IgG Antibody, Blood
+laboratory_test	laboratory_test_name	Bacteria, Microscopic, Spot Urine
+laboratory_test	laboratory_test_name	Basophil
+laboratory_test	laboratory_test_name	Basophilic Myelocytes, %, Bone Marrow
+laboratory_test	laboratory_test_name	Basophils, #, Blood
+laboratory_test	laboratory_test_name	Basophils, %, Blood
+laboratory_test	laboratory_test_name	Bence Jones Protein, Electrophoresis, 24 hour, Urine
+laboratory_test	laboratory_test_name	Bence Jones Protein, Electrophoresis, Serum
+laboratory_test	laboratory_test_name	Bence Jones Protein, Electrophoresis, Urine
+laboratory_test	laboratory_test_name	Beta 1 Globulin, Protein Electrophoresis, Serum
+laboratory_test	laboratory_test_name	Beta 2 Globulin, Protein Electrophoresis, Serum
+laboratory_test	laboratory_test_name	Beta 2 Microglobulin
+laboratory_test	laboratory_test_name	Beta Choriogonadotropin (BHCG), or Pregnancy Test, Spot Urine
+laboratory_test	laboratory_test_name	Beta Choriogonadotropin BHCG, or Pregnancy Test, Serum
+laboratory_test	laboratory_test_name	Beta Globulin, %, 24 hour, Urine
+laboratory_test	laboratory_test_name	Beta Globulin, Electrophoresis, Random Urine
+laboratory_test	laboratory_test_name	Beta Globulin, Electrophoresis, Timed Urine
+laboratory_test	laboratory_test_name	Beta Globulin, Protein Electrophoresis, Serum
+laboratory_test	laboratory_test_name	Beta-2 Microglobulin, Serum
+laboratory_test	laboratory_test_name	Beta-2 Microglobulin, Urine
+laboratory_test	laboratory_test_name	Beta-Crosslaps, Serum
+laboratory_test	laboratory_test_name	Beta-D-Glucan, Blood
+laboratory_test	laboratory_test_name	Beta-D-Glucan, CSF
+laboratory_test	laboratory_test_name	Bicarbonate (HCO3), Arterial Blood
+laboratory_test	laboratory_test_name	Bicarbonate, Serum
+laboratory_test	laboratory_test_name	Bile (Biliary Obstruction), Spot Urine
+laboratory_test	laboratory_test_name	Bilirubin (Bile), Spot Urine
+laboratory_test	laboratory_test_name	Bilirubin, Direct, Serum
+laboratory_test	laboratory_test_name	Bilirubin, Indirect, Serum
+laboratory_test	laboratory_test_name	Bilirubin, Total, Serum
+laboratory_test	laboratory_test_name	Bisphenol, Serum/Plasma
+laboratory_test	laboratory_test_name	Bisphenol, Tissue
+laboratory_test	laboratory_test_name	Blasts
+laboratory_test	laboratory_test_name	Blasts, #, Blood
+laboratory_test	laboratory_test_name	Blasts, %, Blood
+laboratory_test	laboratory_test_name	Bleeding Time, Patient, Blood
+laboratory_test	laboratory_test_name	Blood Urea Nitrogen (BUN), Serum
+laboratory_test	laboratory_test_name	Blood Urea Nitrogen (BUN)/Creatinine Ratio, Serum
+laboratory_test	laboratory_test_name	Blood collection for Apalutamide
+laboratory_test	laboratory_test_name	Blood collection for HPV Antibody Titers
+laboratory_test	laboratory_test_name	Blood collection for pharmacogenomic analysis
+laboratory_test	laboratory_test_name	Blood leukocyte count
+laboratory_test	laboratory_test_name	Blood, Spot Urine
+laboratory_test	laboratory_test_name	Bromide, Serum
+laboratory_test	laboratory_test_name	Busulfan, Blood
+laboratory_test	laboratory_test_name	C Reactive Protein, High Sensitivity, Serum
+laboratory_test	laboratory_test_name	C Reactive Protein, Serum
+laboratory_test	laboratory_test_name	C-Peptide, Serum
+laboratory_test	laboratory_test_name	C-Telopeptide, Serum
+laboratory_test	laboratory_test_name	CD10 Cells, Blood
+laboratory_test	laboratory_test_name	CD103 Cells, Blood
+laboratory_test	laboratory_test_name	CD11C, Blood
+laboratory_test	laboratory_test_name	CD14, %, Peripheral Mononuclear Cells (PBMC), Blood
+laboratory_test	laboratory_test_name	CD16 or CD56/CD3, #, Blood
+laboratory_test	laboratory_test_name	CD16 or CD56/CD3, %, Blood
+laboratory_test	laboratory_test_name	CD16 or CD56/CD3-, #, Blood
+laboratory_test	laboratory_test_name	CD16 or CD56/CD3-, %, Blood
+laboratory_test	laboratory_test_name	CD16/56
+laboratory_test	laboratory_test_name	CD19 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD19 Cells, %, Blood
+laboratory_test	laboratory_test_name	CD19/20
+laboratory_test	laboratory_test_name	CD2 Cells, %, Blood
+laboratory_test	laboratory_test_name	CD20, #, Blood
+laboratory_test	laboratory_test_name	CD20, %, Blood
+laboratory_test	laboratory_test_name	CD22 Cells, Antibody, #, Blood
+laboratory_test	laboratory_test_name	CD22, #, Blood
+laboratory_test	laboratory_test_name	CD25 Cells PE, #, Blood
+laboratory_test	laboratory_test_name	CD25 Cells PE, %, Blood
+laboratory_test	laboratory_test_name	CD25 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD25 Cells, %, Blood
+laboratory_test	laboratory_test_name	CD3 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD3 Cells, %, Flow Cytometry, Blood
+laboratory_test	laboratory_test_name	CD3/7G7, #, Blood
+laboratory_test	laboratory_test_name	CD3/7G7, %, Blood
+laboratory_test	laboratory_test_name	CD3/CD25 Cells PE, #, Blood
+laboratory_test	laboratory_test_name	CD3/CD25 Cells PE, %, Blood
+laboratory_test	laboratory_test_name	CD3/CD25 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD3/CD25 Cells, %, Blood
+laboratory_test	laboratory_test_name	CD3/CD30 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD3/CD30 Cells, %, Blood
+laboratory_test	laboratory_test_name	CD3/CD4-/CD8-, #, Blood
+laboratory_test	laboratory_test_name	CD3/CD4-/CD8-, %, Blood
+laboratory_test	laboratory_test_name	CD3/CD8/CD28 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD3/CD8/CD28, %, Blood
+laboratory_test	laboratory_test_name	CD3/CD8/CD57 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD3/CD8/CD57, %, Blood
+laboratory_test	laboratory_test_name	CD3/HLA-DR, #, Blood
+laboratory_test	laboratory_test_name	CD3/HLA-DR, %, Blood
+laboratory_test	laboratory_test_name	CD34
+laboratory_test	laboratory_test_name	CD38 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD4 Cells to CD3 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD4 Cells to CD3 Cells, %, Blood
+laboratory_test	laboratory_test_name	CD4 Cells to CD8 Cells Ratio, Blood
+laboratory_test	laboratory_test_name	CD4 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD4 Cells, %, Flow Cytometry, Blood
+laboratory_test	laboratory_test_name	CD4+/CD25+ bright (T regs) Cells, #, Blood
+laboratory_test	laboratory_test_name	CD4+/CD25+ bright (T regs) Cells, %, Blood
+laboratory_test	laboratory_test_name	CD4+/CD25+/Foxp3+, #, Blood
+laboratory_test	laboratory_test_name	CD4/7G7 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD4/7G7 Cells, %, Blood
+laboratory_test	laboratory_test_name	CD4/CD25 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD4/CD25 Cells, %, Blood
+laboratory_test	laboratory_test_name	CD4/CD25 PE Cells, #, Blood
+laboratory_test	laboratory_test_name	CD4/CD25 PE Cells, %, Blood
+laboratory_test	laboratory_test_name	CD4/CD25/CD62L Cells, #, Blood
+laboratory_test	laboratory_test_name	CD4/CD25/CD62L Cells, %, Blood
+laboratory_test	laboratory_test_name	CD4/CD25/CD69 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD4/CD25/CD69 Cells, %, Blood
+laboratory_test	laboratory_test_name	CD4/CD30 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD4/CD30 Cells, %, Blood
+laboratory_test	laboratory_test_name	CD4/CD45RA+CD45RO, #, Blood
+laboratory_test	laboratory_test_name	CD4/CD45RA+CD45RO, %, Blood
+laboratory_test	laboratory_test_name	CD4/CD45RA, #, Blood
+laboratory_test	laboratory_test_name	CD4/CD45RA, %, Blood
+laboratory_test	laboratory_test_name	CD4/CD45RO, #, Blood
+laboratory_test	laboratory_test_name	CD4/CD45RO, %, Blood
+laboratory_test	laboratory_test_name	CD4/CD62L, #, Blood
+laboratory_test	laboratory_test_name	CD4/CD62L, %, Blood
+laboratory_test	laboratory_test_name	CD4/CD62L-/CD45RA, #, Blood
+laboratory_test	laboratory_test_name	CD4/CD62L-/CD45RA, %, Blood
+laboratory_test	laboratory_test_name	CD4/CD62L/CD45RA, #, Blood
+laboratory_test	laboratory_test_name	CD4/CD62L/CD45RA, %, Blood
+laboratory_test	laboratory_test_name	CD4/HLA-DR, #, Blood
+laboratory_test	laboratory_test_name	CD4/HLA-DR, %, Blood
+laboratory_test	laboratory_test_name	CD45 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD5 Cells, %, Blood
+laboratory_test	laboratory_test_name	CD52 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD7 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD7 Cells, %, Blood
+laboratory_test	laboratory_test_name	CD7-/CD25 PE Cells, #, Blood
+laboratory_test	laboratory_test_name	CD7-/CD25 PE Cells, %, Blood
+laboratory_test	laboratory_test_name	CD7/CD25 PE Cells, #, Blood
+laboratory_test	laboratory_test_name	CD7/CD25 PE Cells, %, Blood
+laboratory_test	laboratory_test_name	CD8 Cells, #, Blood
+laboratory_test	laboratory_test_name	CD8 Cells, %, Flow Cytometry, Blood
+laboratory_test	laboratory_test_name	CD8/CD25 PE, #, Blood
+laboratory_test	laboratory_test_name	CD8/CD25 PE, %, Blood
+laboratory_test	laboratory_test_name	CD8/CD25, #, Blood
+laboratory_test	laboratory_test_name	CD8/CD25, %, Blood
+laboratory_test	laboratory_test_name	CD8/CD3, #, Blood
+laboratory_test	laboratory_test_name	CD8/CD3, %, Blood
+laboratory_test	laboratory_test_name	CD8/CD45RA+CD45RO, #, Blood
+laboratory_test	laboratory_test_name	CD8/CD45RA+CD45RO, %, Blood
+laboratory_test	laboratory_test_name	CD8/CD45RA, #, Blood
+laboratory_test	laboratory_test_name	CD8/CD45RA, %, Blood
+laboratory_test	laboratory_test_name	CD8/CD45RO, #, Blood
+laboratory_test	laboratory_test_name	CD8/CD45RO, %, Blood
+laboratory_test	laboratory_test_name	CD8/CD57, #, Blood
+laboratory_test	laboratory_test_name	CD8/CD57, %, Blood
+laboratory_test	laboratory_test_name	CD8/CD62L, #, Blood
+laboratory_test	laboratory_test_name	CD8/CD62L, %, Blood
+laboratory_test	laboratory_test_name	CD8/CD62L-/CD45RA, #, Blood
+laboratory_test	laboratory_test_name	CD8/CD62L-/CD45RA, %, Blood
+laboratory_test	laboratory_test_name	CD8/CD62L/CD45RA, #, Blood
+laboratory_test	laboratory_test_name	CD8/CD62L/CD45RA, %, Blood
+laboratory_test	laboratory_test_name	CD8/HLA-DR, #, Blood
+laboratory_test	laboratory_test_name	CD8/HLA-DR, %, Blood
+laboratory_test	laboratory_test_name	CD8beta+/CD69+ Cells, #, Blood
+laboratory_test	laboratory_test_name	CD8beta+/CD69+ Cells, %, Blood
+laboratory_test	laboratory_test_name	CH50 Complement, Serum
+laboratory_test	laboratory_test_name	CMV PCR Quantitative Log 10, Blood
+laboratory_test	laboratory_test_name	CO2
+laboratory_test	laboratory_test_name	CO2 (Carbon Dioxide), Exhaled Gas
+laboratory_test	laboratory_test_name	CO2, Serum
+laboratory_test	laboratory_test_name	CRP
+laboratory_test	laboratory_test_name	CXCL9, Plasma
+laboratory_test	laboratory_test_name	Cadaverine, Tissue
+laboratory_test	laboratory_test_name	Calcitonin, Serum
+laboratory_test	laboratory_test_name	Calcium
+laboratory_test	laboratory_test_name	Calcium Oxalate Crystals, Urine
+laboratory_test	laboratory_test_name	Calcium, 24 hour, Urine
+laboratory_test	laboratory_test_name	Calcium, Corrected, Serum
+laboratory_test	laboratory_test_name	Calcium, Ionized, Arterial Blood
+laboratory_test	laboratory_test_name	Calcium, Ionized, Serum
+laboratory_test	laboratory_test_name	Calcium, Serum
+laboratory_test	laboratory_test_name	Calculated creatinine clearance
+laboratory_test	laboratory_test_name	Cancer Antigen 27-29 (CA27-29), Serum
+laboratory_test	laboratory_test_name	Carbamazepine, Serum
+laboratory_test	laboratory_test_name	Carbon Dioxide, Partial Pressure, mmHg, Arterial Blood
+laboratory_test	laboratory_test_name	Carbon Monoxide Diffusing Capacity, Respiratory System
+laboratory_test	laboratory_test_name	Carboxyhemoglobin, Arterial Blood
+laboratory_test	laboratory_test_name	Carcinoembryonic Antigen (CEA), Serum
+laboratory_test	laboratory_test_name	Carcinogenic Antigen 125 (CA125), Serum
+laboratory_test	laboratory_test_name	Carcinogenic Antigen 15-3 (CA15-3), Serum
+laboratory_test	laboratory_test_name	Carcinogenic Antigen 19-9 (CA19-9), Serum
+laboratory_test	laboratory_test_name	Cardiolipin Antibody, IgG, Serum
+laboratory_test	laboratory_test_name	Cardiolipin Antibody, IgM, Serum
+laboratory_test	laboratory_test_name	Casts, Spot Urine
+laboratory_test	laboratory_test_name	Catecholamines, Fractionated, Urine
+laboratory_test	laboratory_test_name	Catecholamines, Plasma
+laboratory_test	laboratory_test_name	Catecholamines, Random Urine
+laboratory_test	laboratory_test_name	Cell Count, Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	Cellularity
+laboratory_test	laboratory_test_name	Cellularity, %, Bone Marrow
+laboratory_test	laboratory_test_name	Centromere, Antibody, Serum
+laboratory_test	laboratory_test_name	Chloride
+laboratory_test	laboratory_test_name	Chloride, 24 hour, Urine
+laboratory_test	laboratory_test_name	Chloride, Serum
+laboratory_test	laboratory_test_name	Cholestanol, Serum
+laboratory_test	laboratory_test_name	Cholesterol Sulfate, Serum
+laboratory_test	laboratory_test_name	Cholesterol to High Density Lipids (HDL), Ratio, Serum
+laboratory_test	laboratory_test_name	Cholesterol, Serum
+laboratory_test	laboratory_test_name	Cholesterol, Total, Fasting, Serum
+laboratory_test	laboratory_test_name	Chromogranin A, Blood
+laboratory_test	laboratory_test_name	Chromogranin A, Serum
+laboratory_test	laboratory_test_name	Chromosome 17 Expression, %, Blood
+laboratory_test	laboratory_test_name	Chromosome 3 Expression, %, Blood
+laboratory_test	laboratory_test_name	Chromosome 7 Expression, %, Blood
+laboratory_test	laboratory_test_name	Chromosome 9p21 Expression, %, Blood
+laboratory_test	laboratory_test_name	Chromosome hematologic, Bone Marrow
+laboratory_test	laboratory_test_name	Clean Catch Culture, Urine
+laboratory_test	laboratory_test_name	Clostridium tetani toxoid Antibody, IgG, Serum
+laboratory_test	laboratory_test_name	Clot Retraction, Blood
+laboratory_test	laboratory_test_name	Clotting Time, Blood
+laboratory_test	laboratory_test_name	Coarse Granular Casts, Spot Urine
+laboratory_test	laboratory_test_name	Color, Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	Color, Urine
+laboratory_test	laboratory_test_name	Complement, C3, Serum
+laboratory_test	laboratory_test_name	Complement, C4, Serum
+laboratory_test	laboratory_test_name	Copper, Serum
+laboratory_test	laboratory_test_name	Copper, Urine
+laboratory_test	laboratory_test_name	Corticosterone, Mass Spectrometry, Serum
+laboratory_test	laboratory_test_name	Cortisol 1, Serum
+laboratory_test	laboratory_test_name	Cortisol 2, Serum
+laboratory_test	laboratory_test_name	Cortisol 3, Serum
+laboratory_test	laboratory_test_name	Cortisol, 24 hour, Urine
+laboratory_test	laboratory_test_name	Cortisol, Blood
+laboratory_test	laboratory_test_name	Cortisol, Serum
+laboratory_test	laboratory_test_name	Creatine Kinase (CK), Serum
+laboratory_test	laboratory_test_name	Creatine Phosphokinase (CPK), Serum
+laboratory_test	laboratory_test_name	Creatinine
+laboratory_test	laboratory_test_name	Creatinine Clearance
+laboratory_test	laboratory_test_name	Creatinine Clearance (CrCl), Cockcroft-Gault, Serum
+laboratory_test	laboratory_test_name	Creatinine Clearance, 24 hour, Urine
+laboratory_test	laboratory_test_name	Creatinine, Blood
+laboratory_test	laboratory_test_name	Creatinine, Plasma
+laboratory_test	laboratory_test_name	Creatinine, Serum
+laboratory_test	laboratory_test_name	Creatinine, Spot or Timed Sample, Urine
+laboratory_test	laboratory_test_name	Crystrals, Spot Urine
+laboratory_test	laboratory_test_name	Culture, Blood
+laboratory_test	laboratory_test_name	Culture, Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	Culture, Respiratory Virus, Nasopharynx
+laboratory_test	laboratory_test_name	Culture, Sputum
+laboratory_test	laboratory_test_name	Culture, Stool
+laboratory_test	laboratory_test_name	Cyclic Citrullinated Peptide (CCP), Antibody, Serum
+laboratory_test	laboratory_test_name	Cyclosporine, Blood
+laboratory_test	laboratory_test_name	Cystatin C, Blood
+laboratory_test	laboratory_test_name	Cytokeratin Fragments 21-1, Serum
+laboratory_test	laboratory_test_name	Cytomegalovirus (CMV) Antibody, IgG, Serum
+laboratory_test	laboratory_test_name	Cytomegalovirus (CMV) Antibody, IgM, Serum
+laboratory_test	laboratory_test_name	Cytomegalovirus (CMV) Antibody, Serum
+laboratory_test	laboratory_test_name	Cytomegalovirus (CMV) Antigenemia, Blood
+laboratory_test	laboratory_test_name	Cytomegalovirus (CMV), Polymerase Chain Reaction (PCR), Blood
+laboratory_test	laboratory_test_name	Cytomegalovirus, DNA, Polymerase Chain Reaction, Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	Cytomegalovirus, DNA, Polymerase Chain Reaction, Throat
+laboratory_test	laboratory_test_name	Cytomegalovirus, DNA, Polymerase Chain Reaction, Urine
+laboratory_test	laboratory_test_name	D-dimer, Plasma
+laboratory_test	laboratory_test_name	DIFFERENTIAL Neutrophils, %
+laboratory_test	laboratory_test_name	DNA-TCR B Chain, Blood
+laboratory_test	laboratory_test_name	Dako EGFR Pharmdx Immunohistochemical Labeling, Tissue
+laboratory_test	laboratory_test_name	Dehydroepiandrosterone (DHEA), Serum
+laboratory_test	laboratory_test_name	Dehydroepiandrosterone, Sulfate, Serum
+laboratory_test	laboratory_test_name	Denosumab, Serum
+laboratory_test	laboratory_test_name	Diffuse Cytoplasmic Anti-Neutrophil Cytoplasmic Antibody, Serum
+laboratory_test	laboratory_test_name	Diffusing Capacity % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Diffusing Capacity to Alveolar Ventilation Ratio %, Respiratory System
+laboratory_test	laboratory_test_name	Diffusing Capacity to Alveolar Ventilation Ratio, Respiratory System
+laboratory_test	laboratory_test_name	Diffusion Capacity Carbon Monoxide (DL) Adjusted, % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Diffusion Capacity Carbon Monoxide (DL) Adjusted, Respiratory System
+laboratory_test	laboratory_test_name	Diffusion Capacity, Respiratory System
+laboratory_test	laboratory_test_name	Dihydrotestosterone, Serum
+laboratory_test	laboratory_test_name	Diphtheriae Antibody, Serum
+laboratory_test	laboratory_test_name	Diptheria vaccine titer
+laboratory_test	laboratory_test_name	Direct Antiglobulin Test (Coombs), Red Blood Cells
+laboratory_test	laboratory_test_name	Direct Bilirubin
+laboratory_test	laboratory_test_name	Dopamine, 24 hour, Urine
+laboratory_test	laboratory_test_name	Dopamine, Plasma
+laboratory_test	laboratory_test_name	Double Negative T (DNT) Cells, #, Blood
+laboratory_test	laboratory_test_name	Double Negative T (DNT) Cells, %, Blood
+laboratory_test	laboratory_test_name	Double Strand DNA (DSDNA) Antibody, Serum
+laboratory_test	laboratory_test_name	EBV DNA
+laboratory_test	laboratory_test_name	EBV IgG
+laboratory_test	laboratory_test_name	EBV PCR Quantitative Log 10, Blood
+laboratory_test	laboratory_test_name	EGFR vXXI Immunohistochemical Labeling, Tissue
+laboratory_test	laboratory_test_name	ESR
+laboratory_test	laboratory_test_name	Endoxifen, Serum/Plasma
+laboratory_test	laboratory_test_name	Endoxifen, Tissue
+laboratory_test	laboratory_test_name	Eosinophilic Myelocytes, %, Bone Marrow
+laboratory_test	laboratory_test_name	Eosinophils, #, Blood
+laboratory_test	laboratory_test_name	Eosinophils, %, Blood
+laboratory_test	laboratory_test_name	Eosophinils
+laboratory_test	laboratory_test_name	Epidermal Growth Factor Receptor (EGFR) Mutation, Tissue
+laboratory_test	laboratory_test_name	Epinephrine, 24 hour, Urine
+laboratory_test	laboratory_test_name	Epinephrine, Plasma
+laboratory_test	laboratory_test_name	Epstein Barr Virus (EBV) Antibody, Serum
+laboratory_test	laboratory_test_name	Epstein Barr Virus (EBV) Nuclear Antibody, Serum
+laboratory_test	laboratory_test_name	Epstein Barr Virus (EBV), Heterophile, IgM, Serum
+laboratory_test	laboratory_test_name	Epstein-Barr Virus (EBV) Early Antigen, Serum
+laboratory_test	laboratory_test_name	Epstein-Barr Virus (EBV), DNA, #, Polymerase Chain Reaction (PCR), Blood
+laboratory_test	laboratory_test_name	Epstein-Barr Virus (EBV), IgM , Serum
+laboratory_test	laboratory_test_name	Epstein-Barr Virus (EBV), Nuclear Antibody, IgG, Serum
+laboratory_test	laboratory_test_name	Epstein-Barr Virus (EBV), Nuclear Antibody, IgM, Serum
+laboratory_test	laboratory_test_name	Erythrocyte Sedimentation Rate (ESR), Blood
+laboratory_test	laboratory_test_name	Erythropoietin, Serum
+laboratory_test	laboratory_test_name	Estimated Creatinine Renal Clearance, Urine
+laboratory_test	laboratory_test_name	Estimated GFR (eGFR), Serum
+laboratory_test	laboratory_test_name	Estimated Glomerular Filtration Rate
+laboratory_test	laboratory_test_name	Estradiol, Serum
+laboratory_test	laboratory_test_name	Estradiol, Tissue
+laboratory_test	laboratory_test_name	Estrogen Receptor (ER), Serum
+laboratory_test	laboratory_test_name	Expiratory Reserve Volume (ERV), % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Expiratory Reserve Volume (ERV), Respiratory System
+laboratory_test	laboratory_test_name	Expiratory Volume, Respiratory System
+laboratory_test	laboratory_test_name	Extractable Nuclear Antigens (ENA) Screen, Blood
+laboratory_test	laboratory_test_name	FAB Marrow Rating, Bone Marrow
+laboratory_test	laboratory_test_name	FEV1 to FVC Predicted Ratio, Respiratory System
+laboratory_test	laboratory_test_name	FEV1 to FVC Ratio, Post, Respiratory System
+laboratory_test	laboratory_test_name	FEV1 to FVC Ratio, Pre, Respiratory System
+laboratory_test	laboratory_test_name	FEV1 to FVC Ratio, Respiratory System
+laboratory_test	laboratory_test_name	Felbamate, Serum
+laboratory_test	laboratory_test_name	Ferritin
+laboratory_test	laboratory_test_name	Ferritin, Serum
+laboratory_test	laboratory_test_name	Fetal Hemoglobin, Blood
+laboratory_test	laboratory_test_name	Fibrin Degradation Products (FDP), Blood
+laboratory_test	laboratory_test_name	Fibrinogen, Auto, Platelet Poor Plasma
+laboratory_test	laboratory_test_name	Fibrinogen, Blood
+laboratory_test	laboratory_test_name	Fibrinogen, Fibrometer, Platelet Poor Plasma
+laboratory_test	laboratory_test_name	Fine Granular Casts, Spot Urine
+laboratory_test	laboratory_test_name	Fluorescent Activated Cell Sorting (FACS) Lymphoid Cells, #, Blood
+laboratory_test	laboratory_test_name	Folate, Red Blood Cell
+laboratory_test	laboratory_test_name	Folate, Serum
+laboratory_test	laboratory_test_name	Follicle Stimulating Hormone (FSH), Serum
+laboratory_test	laboratory_test_name	Forced Expiratory Flow (FEF), during midportion of expiratory cycle, Post, % Change, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Flow (FEF), during midportion of expiratory cycle, Post, % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Flow (FEF), during midportion of expiratory cycle, Post, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Flow (FEF), during midportion of expiratory cycle, Pre, % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Flow (FEF), during midportion of expiratory cycle, Pre, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Technique (FET), 100%, Post, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Technique (FET), 100%, Pre, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Volume % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Volume 1 Second (FEV1) Slope, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Volume 1 Second (FEV1), Post, % Change, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Volume 1 Second (FEV1), Post, % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Volume 1 Second (FEV1), Post, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Volume 1 Second (FEV1), Pre, % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Volume 1 Second (FEV1), Pre, Respiratory System
+laboratory_test	laboratory_test_name	Forced Expiratory Volume, Respiratory System
+laboratory_test	laboratory_test_name	Forced Vital Capacity (FVC) % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Forced Vital Capacity (FVC), Post, % Change, Respiratory System
+laboratory_test	laboratory_test_name	Forced Vital Capacity (FVC), Post, % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Forced Vital Capacity (FVC), Post, Respiratory System
+laboratory_test	laboratory_test_name	Forced Vital Capacity (FVC), Pre, % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Forced Vital Capacity (FVC), Pre, Respiratory System
+laboratory_test	laboratory_test_name	Forced Vital Capacity (FVC), Respiratory System
+laboratory_test	laboratory_test_name	Forced Vital Capacity (Maximum), Respiratory System
+laboratory_test	laboratory_test_name	Fosphenytoin, Serum
+laboratory_test	laboratory_test_name	Free T3
+laboratory_test	laboratory_test_name	Free T4
+laboratory_test	laboratory_test_name	Functional Residual Capacity (FRC), % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Functional Residual Capacity, Respiratory System
+laboratory_test	laboratory_test_name	Fungitell (Beta-D-Glucan) Assay Qualitative Blood
+laboratory_test	laboratory_test_name	Fungitell (Beta-D-Glucan) Assay Quantitative Blood
+laboratory_test	laboratory_test_name	GGT
+laboratory_test	laboratory_test_name	GMCSF, Serum
+laboratory_test	laboratory_test_name	Gamma Globulin, %, 24 hour, Urine
+laboratory_test	laboratory_test_name	Gamma Globulin, Electrophoresis, Random Urine
+laboratory_test	laboratory_test_name	Gamma Globulin, Electrophoresis, Timed Urine
+laboratory_test	laboratory_test_name	Gamma Globulin, Protein Electrophoresis, Serum
+laboratory_test	laboratory_test_name	Gamma Glutamyl Transferase (GGT), Serum
+laboratory_test	laboratory_test_name	Gastrin, Serum
+laboratory_test	laboratory_test_name	Globulin, Serum
+laboratory_test	laboratory_test_name	Glomerular Filtration Rate, Manual Calculation, Blood
+laboratory_test	laboratory_test_name	Glomerular filtration rate
+laboratory_test	laboratory_test_name	Glucagon, Serum
+laboratory_test	laboratory_test_name	Glucose
+laboratory_test	laboratory_test_name	Glucose Tolerance Test (GTT), Serum
+laboratory_test	laboratory_test_name	Glucose, CSF
+laboratory_test	laboratory_test_name	Glucose, Estimated Average, Blood
+laboratory_test	laboratory_test_name	Glucose, Fasting, Serum
+laboratory_test	laboratory_test_name	Glucose, Non-fasting, Serum
+laboratory_test	laboratory_test_name	Glucose, Quantitative, 24 hour, Urine
+laboratory_test	laboratory_test_name	Glucose, Serum
+laboratory_test	laboratory_test_name	Glucose, Spot Urine
+laboratory_test	laboratory_test_name	Glucose-6-Phosphate Dehydrogenase (G6PD), Blood
+laboratory_test	laboratory_test_name	H. influenza vaccine titer
+laboratory_test	laboratory_test_name	HCT
+laboratory_test	laboratory_test_name	HER2/neu (Human Epidermal Growth Factor Receptor), FISH, Tissue
+laboratory_test	laboratory_test_name	HER2/neu (Human Epidermal Growth Factor Receptor), IHC, Tissue
+laboratory_test	laboratory_test_name	HER2/neu (Human Epidermal Growth Factor Receptor), Serum
+laboratory_test	laboratory_test_name	HHV6, Log 10, PCR, Quantitative, Blood
+laboratory_test	laboratory_test_name	HHV6B, PCR, Quantitative, CSF
+laboratory_test	laboratory_test_name	HIV (Human Immunodeficiency Virus) 1/2 Plus O, Antibody, Serum
+laboratory_test	laboratory_test_name	HIV Viral Load, Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	HIV Viral Load, Serum
+laboratory_test	laboratory_test_name	HIV-1 Antibody, Serum
+laboratory_test	laboratory_test_name	HIV-2 Antibody, Serum
+laboratory_test	laboratory_test_name	HIV1 Log Viral Load, Polymerase Chain Reaction (PCR), Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	HIV1 Log Viral Load, Polymerase Chain Reaction (PCR), Plasma
+laboratory_test	laboratory_test_name	HIV1, Hepatitis C Virus (HCV), Hepatitis B Virus (HBV), Nucleic Acid Testing (NAT), Donor, Serum
+laboratory_test	laboratory_test_name	HIV1, Nucleic Acid Testing (NAT), Serum
+laboratory_test	laboratory_test_name	HLA A Antigen, White Blood Cells
+laboratory_test	laboratory_test_name	HLA Antibody Screen, Blood
+laboratory_test	laboratory_test_name	HLA B Antigen, White Blood Cells
+laboratory_test	laboratory_test_name	HLA Cw Antigen, White Blood Cells
+laboratory_test	laboratory_test_name	HLA DQB1 Antigen, High Resolution, White Blood Cells
+laboratory_test	laboratory_test_name	HLA DQB1 Antigen, Low Resolution, White Blood Cells
+laboratory_test	laboratory_test_name	HLA DQB1 Antigen, White Blood Cells
+laboratory_test	laboratory_test_name	HLA DR Antigen, White Blood Cells
+laboratory_test	laboratory_test_name	HLA DRB Antigen, High Resolution, White Blood Cells
+laboratory_test	laboratory_test_name	HLA DRB Antigen, Low Resolution, White Blood Cells
+laboratory_test	laboratory_test_name	HLA DRB Antigen, White Blood Cells
+laboratory_test	laboratory_test_name	HLA DRB1 Antigen, High Resolution, White Blood Cells
+laboratory_test	laboratory_test_name	HLA DRB1 Antigen, Low Resolution, White Blood Cells
+laboratory_test	laboratory_test_name	HLA DRB1 Antigen, White Blood Cells
+laboratory_test	laboratory_test_name	HLA Genotyping
+laboratory_test	laboratory_test_name	HLA-A03 Subtype Antigen, White Blood Cells
+laboratory_test	laboratory_test_name	HLA-A2 Antigen, White Blood Cells
+laboratory_test	laboratory_test_name	HLA-A24 Subtype Antigen
+laboratory_test	laboratory_test_name	HLA-A3 Subtype Antigen
+laboratory_test	laboratory_test_name	HLA-DPB, Blood
+laboratory_test	laboratory_test_name	HTLV1/HTLV2 Antibody, Serum
+laboratory_test	laboratory_test_name	Haptoglobin, Serum
+laboratory_test	laboratory_test_name	Helicobactor Pylori Antibody, IgG, Serum
+laboratory_test	laboratory_test_name	Hematocrit, %, Blood
+laboratory_test	laboratory_test_name	Hemoglobin
+laboratory_test	laboratory_test_name	Hemoglobin (Hgb) A1C, Blood
+laboratory_test	laboratory_test_name	Hemoglobin, Blood
+laboratory_test	laboratory_test_name	Hemoglobin, Spot Urine
+laboratory_test	laboratory_test_name	Hepatitis A Virus Antibody (HAV), IgA, Serum
+laboratory_test	laboratory_test_name	Hepatitis A Virus Antibody (HAV), IgG, Serum
+laboratory_test	laboratory_test_name	Hepatitis A Virus Antibody (HAV), IgM, Serum
+laboratory_test	laboratory_test_name	Hepatitis A Virus Antibody (HAV), Total, Serum
+laboratory_test	laboratory_test_name	Hepatitis B Antibody, Serum
+laboratory_test	laboratory_test_name	Hepatitis B Core (HBC) Antibody, IgG and IgM Total, Serum
+laboratory_test	laboratory_test_name	Hepatitis B Core (HBC) Antibody, IgM, Serum
+laboratory_test	laboratory_test_name	Hepatitis B Core Antibody, Serum
+laboratory_test	laboratory_test_name	Hepatitis B Surface Antigen, Serum
+laboratory_test	laboratory_test_name	Hepatitis B Viral Load (HBV), DNA, Blood
+laboratory_test	laboratory_test_name	Hepatitis B Virus Surface Antibody, Qualitative, Serum
+laboratory_test	laboratory_test_name	Hepatitis B Virus Surface Antibody, Quantitative, Serum
+laboratory_test	laboratory_test_name	Hepatitis B Virus Surface Antigen, Qualitative, Serum
+laboratory_test	laboratory_test_name	Hepatitis B Virus Surface Antigen, Quantitative, Serum
+laboratory_test	laboratory_test_name	Hepatitis B vaccine titer
+laboratory_test	laboratory_test_name	Hepatitis Be Antigen, Serum
+laboratory_test	laboratory_test_name	Hepatitis C Antibody, Serum
+laboratory_test	laboratory_test_name	Hepatitis C Virus (HCV) Viral Load, Serum
+laboratory_test	laboratory_test_name	Hepatitis C Virus, RNA, Quantitative, Copies/mL, Serum
+laboratory_test	laboratory_test_name	Hepatitis C Virus, RNA, Quantitative, IU/mL, Serum
+laboratory_test	laboratory_test_name	Hepatitis C Virus, RNA, Reverse Transcriptase (RT), Polymerase Chain Reaction (PCR), Serum
+laboratory_test	laboratory_test_name	Herpes Simplex Virus (HSV) 1/2, IgM, Serum
+laboratory_test	laboratory_test_name	Herpes Simplex Virus 1 (HSV1) IgG, Serum
+laboratory_test	laboratory_test_name	Herpes Simplex Virus 2 (HSV2) IgG, Serum
+laboratory_test	laboratory_test_name	High Density Lipoprotein, Cholesterol, Serum
+laboratory_test	laboratory_test_name	Histamine, Tissue
+laboratory_test	laboratory_test_name	Homovanillic Acid (HVA), Urine
+laboratory_test	laboratory_test_name	Homovanillic Acid/Creatinine Ratio, Urine
+laboratory_test	laboratory_test_name	Human Anti-Mouse Antibody, Blood
+laboratory_test	laboratory_test_name	Human Choriogonadotropin (HCG), Serum
+laboratory_test	laboratory_test_name	Human Chorionic Gonadotropin
+laboratory_test	laboratory_test_name	Human Epididymis Protein 4 (HE4), Serum
+laboratory_test	laboratory_test_name	Human Growth Hormone (HGH), Serum
+laboratory_test	laboratory_test_name	Human Herpesvirus 6 (HHV6) Viral Load, DNA, Blood
+laboratory_test	laboratory_test_name	Human Herpesvirus 6, PCR, Quantitative, Blood
+laboratory_test	laboratory_test_name	Human Immunodeficiency Virus (HIV) 1, Antibody, Western Blot, Serum
+laboratory_test	laboratory_test_name	Human Immunodeficiency Virus (HIV) 1, Western Blot, Serum
+laboratory_test	laboratory_test_name	Human Immunodeficiency Virus (HIV), 1-2 Antibody and Antigen Combination, Blood
+laboratory_test	laboratory_test_name	Human Immunodeficiency Virus (HIV), 1-2 Antibody, Serum
+laboratory_test	laboratory_test_name	Hyaline Casts, Spot Urine
+laboratory_test	laboratory_test_name	IC50 (Half Maximal Inhibitory Concentration), Blood
+laboratory_test	laboratory_test_name	IC50 (Half Maximal Inhibitory Concentration), Bone Marrow
+laboratory_test	laboratory_test_name	IFN-gamma, Serum
+laboratory_test	laboratory_test_name	IGF-1 (Human Growth Hormone), Blood
+laboratory_test	laboratory_test_name	IL-17, Serum
+laboratory_test	laboratory_test_name	IL-2, Serum
+laboratory_test	laboratory_test_name	IL-6, Serum
+laboratory_test	laboratory_test_name	INR
+laboratory_test	laboratory_test_name	Immature Granulocytes (IG), %, Blood
+laboratory_test	laboratory_test_name	Immature Granulocytes (IG), Absolute, Number, Blood
+laboratory_test	laboratory_test_name	Immunofixation Electrophoresis, Serum
+laboratory_test	laboratory_test_name	Immunoglobulin A
+laboratory_test	laboratory_test_name	Immunoglobulin A (IgA), Serum
+laboratory_test	laboratory_test_name	Immunoglobulin A, Immunoelectrophoresis, Urine
+laboratory_test	laboratory_test_name	Immunoglobulin D (IgD), Serum
+laboratory_test	laboratory_test_name	Immunoglobulin D, Immunoelectrophoresis, Urine
+laboratory_test	laboratory_test_name	Immunoglobulin E (IgE), Serum
+laboratory_test	laboratory_test_name	Immunoglobulin E, Immunoelectrophoresis, Urine
+laboratory_test	laboratory_test_name	Immunoglobulin G
+laboratory_test	laboratory_test_name	Immunoglobulin G (IgG), Serum
+laboratory_test	laboratory_test_name	Immunoglobulin G, Immunoelectrophoresis, Urine
+laboratory_test	laboratory_test_name	Immunoglobulin M
+laboratory_test	laboratory_test_name	Immunoglobulin M (IgM), Immunoelectrophoresis, Spot Urine
+laboratory_test	laboratory_test_name	Immunoglobulin M (IgM), Serum
+laboratory_test	laboratory_test_name	Inhibin A, Blood
+laboratory_test	laboratory_test_name	Inhibin B, Blood
+laboratory_test	laboratory_test_name	Inspiratory Capacity (IC), % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Inspiratory Capacity (IC), Respiratory System
+laboratory_test	laboratory_test_name	Insulin, Fasting, Serum
+laboratory_test	laboratory_test_name	Insulin, Serum
+laboratory_test	laboratory_test_name	Insulin-life Growth Factor Binding Protein 3, Serum
+laboratory_test	laboratory_test_name	Interferon, Serum
+laboratory_test	laboratory_test_name	Interleukin 2 s-Receptor-Alpha, Serum
+laboratory_test	laboratory_test_name	International Normalized Ratio (INR), Prothrombin Time, Blood
+laboratory_test	laboratory_test_name	Iodine, 24 hour, Urine
+laboratory_test	laboratory_test_name	Iodine, Concentration, 24 hour, Urine
+laboratory_test	laboratory_test_name	Iodine, Free, 24 hour, Urine
+laboratory_test	laboratory_test_name	Iron Saturation, Ratio, Serum
+laboratory_test	laboratory_test_name	Iron, Serum
+laboratory_test	laboratory_test_name	Isavuconazole Level, Plasma
+laboratory_test	laboratory_test_name	KIT (CD117) Gene Mutation, Tissue
+laboratory_test	laboratory_test_name	KRAS Gene Mutation,  Tissue
+laboratory_test	laboratory_test_name	Kappa Light Chain, Electrophoresis, Serum
+laboratory_test	laboratory_test_name	Kappa Light Chain, Immunoelectrophoresis, Urine
+laboratory_test	laboratory_test_name	Kappa/Lambda Immunoglobulin Free Light Chain Ratio, Serum
+laboratory_test	laboratory_test_name	Ketones, Spot Urine
+laboratory_test	laboratory_test_name	Ki67, %, Tissue
+laboratory_test	laboratory_test_name	LDH
+laboratory_test	laboratory_test_name	Lactate Dehydrogenase (LDH), Serum
+laboratory_test	laboratory_test_name	Lactate, Blood
+laboratory_test	laboratory_test_name	Lactate, Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	Lambda Light Chain, Electrophoresis, Serum
+laboratory_test	laboratory_test_name	Lambda Light Chain, Immunoelectrophoresis, Urine
+laboratory_test	laboratory_test_name	Lamotrigine, Serum
+laboratory_test	laboratory_test_name	Large Unstained Cells, #, Blood
+laboratory_test	laboratory_test_name	Large Unstained Cells, %, Blood
+laboratory_test	laboratory_test_name	Leptin, Serum
+laboratory_test	laboratory_test_name	Leukocyte Esterase, Spot Urine
+laboratory_test	laboratory_test_name	Leukocytes
+laboratory_test	laboratory_test_name	Levetiracetam, Serum
+laboratory_test	laboratory_test_name	Light Chain Ratio, Urine
+laboratory_test	laboratory_test_name	Lipase
+laboratory_test	laboratory_test_name	Lipase, Serum
+laboratory_test	laboratory_test_name	Liver Kidney Microsomal Antibody, Serum
+laboratory_test	laboratory_test_name	Low Density Lipid (LDL)-High Density Lipid (HDL) Cholesterol Ratio, Serum
+laboratory_test	laboratory_test_name	Low Density Lipoproteins, Cholesterol, Serum
+laboratory_test	laboratory_test_name	Lupus Anticoagulant, Platelet Poor Plasma
+laboratory_test	laboratory_test_name	Lupus Anticoagulant, Staclot, Platelet Poor Plasma
+laboratory_test	laboratory_test_name	Luteinizing Hormone
+laboratory_test	laboratory_test_name	Luteinizing Hormone (LH), Serum
+laboratory_test	laboratory_test_name	Lymphoblasts
+laboratory_test	laboratory_test_name	Lymphocytes
+laboratory_test	laboratory_test_name	Lymphocytes Variants, %, Blood
+laboratory_test	laboratory_test_name	Lymphocytes, #, Blood
+laboratory_test	laboratory_test_name	Lymphocytes, %, Blood
+laboratory_test	laboratory_test_name	Lymphocytes, %, Bone Marrow
+laboratory_test	laboratory_test_name	Lymphocytes, %, Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	Lymphocytes, Variant, #, Blood
+laboratory_test	laboratory_test_name	M Protein
+laboratory_test	laboratory_test_name	MGMT (O6-methylguanine-DNA methyltransferase) Immunohistochemical Labeling, Tissue
+laboratory_test	laboratory_test_name	MGMT Promoter Methylation, Blood
+laboratory_test	laboratory_test_name	MGMT Promoter Methylation, Tissue
+laboratory_test	laboratory_test_name	Magnesium, Ionized, Serum
+laboratory_test	laboratory_test_name	Magnesium, Serum
+laboratory_test	laboratory_test_name	Maximum Forced Expiratory Flow, Respiratory System
+laboratory_test	laboratory_test_name	Mch
+laboratory_test	laboratory_test_name	Mchc
+laboratory_test	laboratory_test_name	Mcv
+laboratory_test	laboratory_test_name	Mean Corpuscular Hemoglobin (MCH), Red Blood Cells
+laboratory_test	laboratory_test_name	Mean Corpuscular Hemoglobin Concentration (MCHC), Red Blood Cells
+laboratory_test	laboratory_test_name	Mean Corpuscular Volume (MCV), Red Blood Cells
+laboratory_test	laboratory_test_name	Measured Glomerular Filtration Rate
+laboratory_test	laboratory_test_name	Megakaryocytes, %, Bone Marrow
+laboratory_test	laboratory_test_name	Metamyelocytes
+laboratory_test	laboratory_test_name	Metamyelocytes, %, Bone Marrow
+laboratory_test	laboratory_test_name	Metanephrine, 24 hour, Urine
+laboratory_test	laboratory_test_name	Metanephrine, Plasma
+laboratory_test	laboratory_test_name	Metanephrine, Unconjugated, 24 hour, Urine
+laboratory_test	laboratory_test_name	Methemoglobin, %, Arterial Blood
+laboratory_test	laboratory_test_name	Methotrexate, CSF
+laboratory_test	laboratory_test_name	Methotrexate, Serum
+laboratory_test	laboratory_test_name	Mitochondrial Antibody, Serum
+laboratory_test	laboratory_test_name	Monoclonal Protein, Electrophoresis, Serum
+laboratory_test	laboratory_test_name	Monoclonal Protein, Electrophoresis, Urine
+laboratory_test	laboratory_test_name	Monoclonal Protein, Immunoelectrophoresis, 24 hour, Urine
+laboratory_test	laboratory_test_name	Monoclonal Protein, Immunoelectrophoresis, Urine
+laboratory_test	laboratory_test_name	Monocytes
+laboratory_test	laboratory_test_name	Monocytes, #, Blood
+laboratory_test	laboratory_test_name	Monocytes, %, Blood
+laboratory_test	laboratory_test_name	Monocytes, %, Bone Marrow
+laboratory_test	laboratory_test_name	Mucous, Spot Urine
+laboratory_test	laboratory_test_name	Mullerian inhibiting substance, Serum
+laboratory_test	laboratory_test_name	Myelin Basic Protein, Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	Myeloblasts
+laboratory_test	laboratory_test_name	Myeloblasts, %, Bone Marrow
+laboratory_test	laboratory_test_name	Myelocytes
+laboratory_test	laboratory_test_name	Myelocytes, %, Bone Marrow
+laboratory_test	laboratory_test_name	Myeloperoxidase Ab, Serum
+laboratory_test	laboratory_test_name	Myoglobin, Urine
+laboratory_test	laboratory_test_name	N1 Acetylspermidine, Tissue
+laboratory_test	laboratory_test_name	N1 Acetylspermine, Tissue
+laboratory_test	laboratory_test_name	N8 Acetylspermidine, Tissue
+laboratory_test	laboratory_test_name	Natural Killer (NK) Cells, #, Blood
+laboratory_test	laboratory_test_name	Natural Killer (NK) Cells, %, Blood
+laboratory_test	laboratory_test_name	Natural Killer T Cells, #, Blood
+laboratory_test	laboratory_test_name	Natural Killer T Cells, %, Blood
+laboratory_test	laboratory_test_name	Neuron-Specific Enolase (NSE), Serum
+laboratory_test	laboratory_test_name	Neutralizing Antibody BL22, Serum
+laboratory_test	laboratory_test_name	Neutralizing Antibody LMB-2, Serum
+laboratory_test	laboratory_test_name	Neutrophil Bands
+laboratory_test	laboratory_test_name	Neutrophil Bands, #, Blood
+laboratory_test	laboratory_test_name	Neutrophil Bands, %, Blood
+laboratory_test	laboratory_test_name	Neutrophilic Myelocytes, %, Bone Marrow
+laboratory_test	laboratory_test_name	Neutrophils
+laboratory_test	laboratory_test_name	Neutrophils, %, Blood
+laboratory_test	laboratory_test_name	Nitrite, Spot Urine
+laboratory_test	laboratory_test_name	Nonseparated Short Tandem Repeat Chimerism, %, Bone Marrow
+laboratory_test	laboratory_test_name	Nonseparated Short Tandem Repeat Chimerism, %, Whole Blood
+laboratory_test	laboratory_test_name	Norepinephrine, 24 hour, Urine
+laboratory_test	laboratory_test_name	Norepinephrine, Plasma
+laboratory_test	laboratory_test_name	Normetanephrine, 24 hour, Urine
+laboratory_test	laboratory_test_name	Normetanephrine, Plasma
+laboratory_test	laboratory_test_name	Normoblasts, %, Bone Marrow
+laboratory_test	laboratory_test_name	Not Reported
+laboratory_test	laboratory_test_name	Nuclear Matrix Protein 22 (NMP22), Urine
+laboratory_test	laboratory_test_name	Nucleated Cells, Total, Blood
+laboratory_test	laboratory_test_name	Nucleated Red Blood Cell (NRBC) Count, %, Blood
+laboratory_test	laboratory_test_name	Nucleated Red Blood Cells (NRBC), #, Blood
+laboratory_test	laboratory_test_name	Occult Blood (Guaiac), Stool
+laboratory_test	laboratory_test_name	Osmolality, 24 hour, Urine
+laboratory_test	laboratory_test_name	Osmolality, Serum
+laboratory_test	laboratory_test_name	Osteocalcin, Serum
+laboratory_test	laboratory_test_name	Other
+laboratory_test	laboratory_test_name	Other Cell Count, Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	Other Prostate Specific Antigen (PSA), Serum
+laboratory_test	laboratory_test_name	Oxalate, 24 hour, Urine
+laboratory_test	laboratory_test_name	Oxcarbazepine, Serum
+laboratory_test	laboratory_test_name	Oxygen Saturation, Arterial Blood
+laboratory_test	laboratory_test_name	Oxygen, Partial Pressure, mmHg, Arterial Blood
+laboratory_test	laboratory_test_name	P-Selectin, Blood
+laboratory_test	laboratory_test_name	PSA
+laboratory_test	laboratory_test_name	PT
+laboratory_test	laboratory_test_name	PT/aPTT
+laboratory_test	laboratory_test_name	PTEN Immunohistochemical Labeling, Tissue
+laboratory_test	laboratory_test_name	PTT
+laboratory_test	laboratory_test_name	Pancreatic Polypeptide, Serum
+laboratory_test	laboratory_test_name	Parathyroid (Parathyrin intact) Hormone, Serum
+laboratory_test	laboratory_test_name	Parathyroid Hormone, Intact, Blood
+laboratory_test	laboratory_test_name	Parietal Cell Antibody, Serum
+laboratory_test	laboratory_test_name	Paroxysmal Nocturnal Hemoglobinuria Flow
+laboratory_test	laboratory_test_name	Partial Prothromboplastin Time (PTT), Blood
+laboratory_test	laboratory_test_name	Percent Carbon Dioxide (pCO2), Arterial Blood
+laboratory_test	laboratory_test_name	Percent Oxygen (pO2), Arterial Blood
+laboratory_test	laboratory_test_name	Phenobarbital, Serum
+laboratory_test	laboratory_test_name	Phenytoin, Serum
+laboratory_test	laboratory_test_name	Pheresis Bag, #, Platelet
+laboratory_test	laboratory_test_name	Pheresis Bag, #, WBC
+laboratory_test	laboratory_test_name	Phosphate (inorganic Phosphorus), Serum
+laboratory_test	laboratory_test_name	Plasma Cells, %, Bone Marrow
+laboratory_test	laboratory_test_name	Plasminogen Activator Inhibitor (PAI-1), Serum
+laboratory_test	laboratory_test_name	Plasminogen Activator Inhibitor (PAI-1), Tissue
+laboratory_test	laboratory_test_name	Platelet Mean Volume (PMV), Blood
+laboratory_test	laboratory_test_name	Platelets
+laboratory_test	laboratory_test_name	Platelets, Blood
+laboratory_test	laboratory_test_name	Pneumococcus vaccine titer
+laboratory_test	laboratory_test_name	Polio Virus Antibody, Serum
+laboratory_test	laboratory_test_name	Polyclonal Protein, Electrophoresis, Serum
+laboratory_test	laboratory_test_name	Polyclonal Protein, Immunoelectrophoresis, Urine
+laboratory_test	laboratory_test_name	Polymorphic Basophils, %, Bone Marrow
+laboratory_test	laboratory_test_name	Polymorphic Eosinophils, %, Bone Marrow
+laboratory_test	laboratory_test_name	Polymorphic Neutrophils, %, Bone Marrow
+laboratory_test	laboratory_test_name	Polymorphonuclear Cells (Polys), #, Blood
+laboratory_test	laboratory_test_name	Polymorphonuclear Cells (Polys), %, Blood
+laboratory_test	laboratory_test_name	Potassium
+laboratory_test	laboratory_test_name	Potassium, 24 hour, Urine
+laboratory_test	laboratory_test_name	Potassium, Serum
+laboratory_test	laboratory_test_name	Prealbumin, Serum
+laboratory_test	laboratory_test_name	Primidone, Serum
+laboratory_test	laboratory_test_name	Pro Brain Natriuretic Peptide (BNP), Serum
+laboratory_test	laboratory_test_name	Procollagen 1, Intact N-terminal peptide (P1NP), Serum
+laboratory_test	laboratory_test_name	Progesterone Receptor (PR), Serum
+laboratory_test	laboratory_test_name	Progesterone, Serum/Plasma
+laboratory_test	laboratory_test_name	Prolactin, Serum
+laboratory_test	laboratory_test_name	Prolymphocytes
+laboratory_test	laboratory_test_name	Prolymphocytes, %, Bone Marrow
+laboratory_test	laboratory_test_name	Promonocytes
+laboratory_test	laboratory_test_name	Promyelocytes
+laboratory_test	laboratory_test_name	Promyelocytes, %, Bone Marrow
+laboratory_test	laboratory_test_name	Pronormoblasts, %, Bone Marrow
+laboratory_test	laboratory_test_name	Prostaglandin E2, Tissue
+laboratory_test	laboratory_test_name	Prostate Specific Antigen (PSA), Serum
+laboratory_test	laboratory_test_name	Prostate Specific Antigen Free (PSAF), Serum
+laboratory_test	laboratory_test_name	Prostate Specific Antigen Free (PSAF)/Prostate Specific Antigen Total (PSAT) Ratio, Blood
+laboratory_test	laboratory_test_name	Protein
+laboratory_test	laboratory_test_name	Protein excretion, 24 hour, Urine
+laboratory_test	laboratory_test_name	Protein, 24 hour, Urine
+laboratory_test	laboratory_test_name	Protein, CSF
+laboratory_test	laboratory_test_name	Protein, Qualitative, Urine
+laboratory_test	laboratory_test_name	Protein-Albumin Ratio, Urine
+laboratory_test	laboratory_test_name	Protein-Creatinine Ratio, Urine
+laboratory_test	laboratory_test_name	Proteinase-3 Antibodies, Serum
+laboratory_test	laboratory_test_name	Prothrombin Time (PT), Blood
+laboratory_test	laboratory_test_name	Pulmonary (Lung) Compliance, Respiratory System
+laboratory_test	laboratory_test_name	Putrescine, Tissue
+laboratory_test	laboratory_test_name	QuantiFERON-TB Gold (QFT), Blood
+laboratory_test	laboratory_test_name	RBC
+laboratory_test	laboratory_test_name	RPR (Rapid Plasma Reagin), Plasma
+laboratory_test	laboratory_test_name	Rapid Plasma Reagin (RPR), Serum
+laboratory_test	laboratory_test_name	Rdw
+laboratory_test	laboratory_test_name	Red Blood Cells (RBC), #, Blood
+laboratory_test	laboratory_test_name	Red Blood Cells (RBC), #, Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	Red Blood Cells (RBC), Microscopy, #, Spot Urine
+laboratory_test	laboratory_test_name	Red Blood Cells (RBC), Microscopy, Spot Urine
+laboratory_test	laboratory_test_name	Red Cell Distribution Width (RDW), Red Blood Cells
+laboratory_test	laboratory_test_name	Renal Epithelial Cells, Spot Urine
+laboratory_test	laboratory_test_name	Renin, Plasma
+laboratory_test	laboratory_test_name	Residual Volume to Total Lung Capacity Ratio,  Respiratory System
+laboratory_test	laboratory_test_name	Respiratory Volume (RV), % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Reticulocytes, %, Bone Marrow
+laboratory_test	laboratory_test_name	Reticulocytes, %, Red Blood Cells
+laboratory_test	laboratory_test_name	Reverse Triiodothyronine (T3), Free, Mass Spectrometry, Serum
+laboratory_test	laboratory_test_name	Rheumatoid Factor, Serum
+laboratory_test	laboratory_test_name	Ribonucleoprotein Extractable Nuclear (RNP) Antibody, Serum
+laboratory_test	laboratory_test_name	SARS-CoV-2 PCR, NP Swab
+laboratory_test	laboratory_test_name	Segmented Neutrophil
+laboratory_test	laboratory_test_name	Sequenced Based HLA-B, Blood
+laboratory_test	laboratory_test_name	Sequenced Based HLA-C (CW), Blood
+laboratory_test	laboratory_test_name	Sequenced Based HLA-DQB1, Blood
+laboratory_test	laboratory_test_name	Sequenced Based HLA-DR (DRB), Blood
+laboratory_test	laboratory_test_name	Sequenced Based HLA-DR (DRB1), Blood
+laboratory_test	laboratory_test_name	Serum Free Immunoglobulin Light Chain, Kappa
+laboratory_test	laboratory_test_name	Serum Free Immunoglobulin Light Chain, Lambda
+laboratory_test	laboratory_test_name	Serum Free Immunoglobulin Light Chain, NOS
+laboratory_test	laboratory_test_name	Sex hormone binding globulin, Serum
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, %, Other Source
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, %, White Blood Cells
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, Clusters of Differentiation 14 (CD14), %, Whole Blood
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, Clusters of Differentiation 19 (CD19), %, Whole Blood
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, Clusters of Differentiation 3 (CD3), %, Whole Blood
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, Donor, Clusters of Differentiation 4 (CD4), %, Blood
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, Donor, Clusters of Differentiation 8 (CD8), %, Blood
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, Dual Cord, %, Whole Blood
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, MonoMac, %, Whole Blood
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, Multiple Donor, %, Bone Marrow
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, Multiple Donor, %, Other Source
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, Multiple Donor, %, White Blood Cells
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, Multiple Donor, %, Whole Blood
+laboratory_test	laboratory_test_name	Short Tandem Repeat Chimerism, Natural Killers, %, Whole Blood
+laboratory_test	laboratory_test_name	Sirolimus (Rapamycin), Blood
+laboratory_test	laboratory_test_name	Sjogren's Syndrome-A Extractable Antibody, Serum
+laboratory_test	laboratory_test_name	Sjogren's Syndrome-B Extractable Antibody, Serum
+laboratory_test	laboratory_test_name	Smith Extractable Nuclear Antibody, Serum
+laboratory_test	laboratory_test_name	Sodium
+laboratory_test	laboratory_test_name	Sodium, 24 hour, Urine
+laboratory_test	laboratory_test_name	Sodium, Serum
+laboratory_test	laboratory_test_name	Sodium/Potassium Ratio, Serum
+laboratory_test	laboratory_test_name	Specific Gravity, Spot Urine
+laboratory_test	laboratory_test_name	Specimen Collection Period, Urine
+laboratory_test	laboratory_test_name	Spermidine, Tissue
+laboratory_test	laboratory_test_name	Spermine, Tissue
+laboratory_test	laboratory_test_name	Squamous Epithelial Cells, Spot Urine
+laboratory_test	laboratory_test_name	T Lymphocyte Helper Cells, Blood
+laboratory_test	laboratory_test_name	T Lymphocyte Suppressor Cells , Blood
+laboratory_test	laboratory_test_name	T Lymphocytes, #, Blood
+laboratory_test	laboratory_test_name	T Lymphocytes, %, Blood
+laboratory_test	laboratory_test_name	T Lymphocytes, Delayed Hypersensitivity Testing (DTH), Blood
+laboratory_test	laboratory_test_name	T lymphocyte Cytotoxic Cells (CTL), Blood
+laboratory_test	laboratory_test_name	T4
+laboratory_test	laboratory_test_name	TNF alpha, Serum
+laboratory_test	laboratory_test_name	TSH
+laboratory_test	laboratory_test_name	Tacrolimus, Blood
+laboratory_test	laboratory_test_name	Tamoxifen, Serum/Plasma
+laboratory_test	laboratory_test_name	Tamoxifen, Tissue
+laboratory_test	laboratory_test_name	Testosterone
+laboratory_test	laboratory_test_name	Testosterone, Blood
+laboratory_test	laboratory_test_name	Testosterone, Free, Serum
+laboratory_test	laboratory_test_name	Testosterone, Total, Serum
+laboratory_test	laboratory_test_name	Thrombin Time, Blood
+laboratory_test	laboratory_test_name	Thrombomodulin, Blood
+laboratory_test	laboratory_test_name	Thrombopoietin, Serum
+laboratory_test	laboratory_test_name	Thyroglobulin Antibody, Serum
+laboratory_test	laboratory_test_name	Thyroglobulin, Serum
+laboratory_test	laboratory_test_name	Thyroid Stimulating Hormone (TSH)-Free Thyroxine (T4) Ratio, Serum
+laboratory_test	laboratory_test_name	Thyroid Stimulating Immunoglobulins (TSI), Serum
+laboratory_test	laboratory_test_name	Thyroperoxidase Antibody, Serum
+laboratory_test	laboratory_test_name	Thyrotropin (Thyroid Stimulating Hormone or TSH), Serum
+laboratory_test	laboratory_test_name	Thyrotropin Receptor Antibody, Serum
+laboratory_test	laboratory_test_name	Thyroxine (T4), Free,  Serum
+laboratory_test	laboratory_test_name	Thyroxine (T4), Free, Dialysis, Serum
+laboratory_test	laboratory_test_name	Thyroxine (T4), Free, Mass Spectrometry, Serum
+laboratory_test	laboratory_test_name	Thyroxine (T4), Serum
+laboratory_test	laboratory_test_name	Thyroxine Binding Globulin (TBG), Serum
+laboratory_test	laboratory_test_name	Tidal Volume, Respiratory System
+laboratory_test	laboratory_test_name	Total Bilirubin
+laboratory_test	laboratory_test_name	Total Iron Binding Capacity, Serum
+laboratory_test	laboratory_test_name	Total Lung Capacity %, Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Total Lung Capacity %, Respiratory System
+laboratory_test	laboratory_test_name	Total Protein
+laboratory_test	laboratory_test_name	Total Protein Electrophoresis, Serum
+laboratory_test	laboratory_test_name	Total Protein, Serum
+laboratory_test	laboratory_test_name	Toxoplasmosa Gondii, Antibody, IgG, Serum
+laboratory_test	laboratory_test_name	Toxoplasmosa Gondii, Antibody, IgM, Serum
+laboratory_test	laboratory_test_name	Transferrin, Serum
+laboratory_test	laboratory_test_name	Transitional Cells, Spot Urine
+laboratory_test	laboratory_test_name	Trefoil Factor 1, Tissue
+laboratory_test	laboratory_test_name	Treponema pallidum, IgG, Serum
+laboratory_test	laboratory_test_name	Triglycerides, Serum
+laboratory_test	laboratory_test_name	Triiodothyronine (T3), Free, Mass Spectrometry, Serum
+laboratory_test	laboratory_test_name	Triiodothyronine (T3), Free, Serum
+laboratory_test	laboratory_test_name	Triiodothyronine (T3), Serum
+laboratory_test	laboratory_test_name	Troponin I, Blood
+laboratory_test	laboratory_test_name	Troponin T, Blood
+laboratory_test	laboratory_test_name	Trypanosoma cruzi Antibody, IgG, Serum
+laboratory_test	laboratory_test_name	Unknown
+laboratory_test	laboratory_test_name	Urate (Uric Acid), Serum
+laboratory_test	laboratory_test_name	Urea Nitrogen, 24 hour, Urine
+laboratory_test	laboratory_test_name	Uric Acid
+laboratory_test	laboratory_test_name	Uric Acid (Urate), 24 hour, Urine
+laboratory_test	laboratory_test_name	Urine M protein in mg/ 24 hrs
+laboratory_test	laboratory_test_name	Urine collection for HPV DNA and antibodies
+laboratory_test	laboratory_test_name	Urobilinogen, Spot Urine
+laboratory_test	laboratory_test_name	Urokinase Plasminogen Activator (uPA), Serum
+laboratory_test	laboratory_test_name	Urokinase Plasminogen Activator (uPA), Tissue
+laboratory_test	laboratory_test_name	Vaccinia Culture, Serum
+laboratory_test	laboratory_test_name	Vaccinia Culture, Spot Urine
+laboratory_test	laboratory_test_name	Valproate (Valproic Acid), Serum
+laboratory_test	laboratory_test_name	Vanillylmandelic Acid (VMA), Urine
+laboratory_test	laboratory_test_name	Vanillylmandelic Acid/Creatinine Ratio, Urine
+laboratory_test	laboratory_test_name	Varicella Zoster Virus (VZV) Antigen, Immunofluorescence, Skin
+laboratory_test	laboratory_test_name	Varicella Zoster Virus (VZV) DNA, Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	Varicella Zoster Virus (VZV), IgG, Antibody, Serum
+laboratory_test	laboratory_test_name	Vasoactive Intestinal Peptide (VIP), Serum
+laboratory_test	laboratory_test_name	Very Low Density Lipoprotein (VLDL) Cholesterol, Serum
+laboratory_test	laboratory_test_name	Vital Capacity (VC), % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Vital Capacity (VC), Respiratory System
+laboratory_test	laboratory_test_name	Vitamin B1, Blood
+laboratory_test	laboratory_test_name	Vitamin B12, Serum
+laboratory_test	laboratory_test_name	Vitamin D 25-OH, D2+D3 Total, Serum
+laboratory_test	laboratory_test_name	Vitamin D, 1, 25-Dihydroxy, Blood
+laboratory_test	laboratory_test_name	Vitamin D, 25-Dihydroxy, Blood
+laboratory_test	laboratory_test_name	Volume Residual, Respiratory System
+laboratory_test	laboratory_test_name	Volume expelled during midportion of expiration % Predicted, Respiratory System
+laboratory_test	laboratory_test_name	Volume expelled during midportion of expiration, Respiratory System
+laboratory_test	laboratory_test_name	Volume, Urine
+laboratory_test	laboratory_test_name	West Nile Virus Antibody, IgG and IgM, Serum
+laboratory_test	laboratory_test_name	West Nile Virus, PCR, Serum
+laboratory_test	laboratory_test_name	White Blood Cells (WBC), #, Blood
+laboratory_test	laboratory_test_name	White Blood Cells (WBC), #, Cerebrospinal Fluid
+laboratory_test	laboratory_test_name	White Blood Cells (WBC), Microscopy, Spot Urine
+laboratory_test	laboratory_test_name	White Blood Cells (WBC), Other, % Blood
+laboratory_test	laboratory_test_name	Zinc, Serum
+laboratory_test	laboratory_test_name	aa_change
+laboratory_test	laboratory_test_name	antigen
+laboratory_test	laboratory_test_name	apTT
+laboratory_test	laboratory_test_name	beta-hCG
+laboratory_test	laboratory_test_name	blood_test_normal_range_lower
+laboratory_test	laboratory_test_name	blood_test_normal_range_upper
+laboratory_test	laboratory_test_name	cell_count
+laboratory_test	laboratory_test_name	cfDNA
+laboratory_test	laboratory_test_name	copy_number
+laboratory_test	laboratory_test_name	cytoband
+laboratory_test	laboratory_test_name	exon
+laboratory_test	laboratory_test_name	gene_mutation_abnormality_type
+laboratory_test	laboratory_test_name	histone_family
+laboratory_test	laboratory_test_name	histone_variant
+laboratory_test	laboratory_test_name	intron
+laboratory_test	laboratory_test_name	loci_abnormal_count
+laboratory_test	laboratory_test_name	loci_count
+laboratory_test	laboratory_test_name	locus
+laboratory_test	laboratory_test_name	miR-367-3p
+laboratory_test	laboratory_test_name	miR-371a-3p
+laboratory_test	laboratory_test_name	miR-372-3p
+laboratory_test	laboratory_test_name	miR-373-3p
+laboratory_test	laboratory_test_name	miR-375-3p
+laboratory_test	laboratory_test_name	mismatch_repair_mutation
+laboratory_test	laboratory_test_name	pAKT Immunohistochemical Labeling, Tissue
+laboratory_test	laboratory_test_name	pH, Arterial Blood
+laboratory_test	laboratory_test_name	pH, Spot Urine
+laboratory_test	laboratory_test_name	pH, Venous Blood
+laboratory_test	laboratory_test_name	pathogenicity
+laboratory_test	laboratory_test_name	ploidy
+laboratory_test	laboratory_test_name	second_exon
+laboratory_test	laboratory_test_name	second_gene_symbol
+laboratory_test	laboratory_test_name	specialized_molecular_test
+laboratory_test	laboratory_test_name	test_analyte_type
+laboratory_test	laboratory_test_name	transcript
+laboratory_test	laboratory_test_name	variant_origin
+laboratory_test	laboratory_test_name	variant_type
+laboratory_test	laboratory_test_name	von Willebrand Activity, Blood
+laboratory_test	laboratory_test_name	von Willebrand Antigen, Blood
+laboratory_test	laboratory_test_name	zygosity
+laboratory_test	test_result_numeric	STRING
+laboratory_test	test_result_text	STRING
+laboratory_test	test_unit	STRING
 medical_history	id	STRING
 medical_history	medical_history_category	Autoimmune Disease
 medical_history	medical_history_category	Cancer
@@ -1413,183 +2475,6 @@ methylation_array_file	md5sum	STRING
 methylation_array_file	methylation_array_file_id	STRING
 methylation_array_file	methylation_platform	STRING
 methylation_array_file	reporter_label	STRING
-molecular_test	aa_change	STRING
-molecular_test	age_at_molecular_test	INTEGER
-molecular_test	antigen	Blood
-molecular_test	antigen	Bone Marrow
-molecular_test	antigen	Buccal Mucosa
-molecular_test	antigen	Buffy Coat
-molecular_test	antigen	Cerebrospinal Fluid
-molecular_test	antigen	Connective Tissue
-molecular_test	antigen	Embryonic Fluid
-molecular_test	antigen	Embryonic Tissue
-molecular_test	antigen	Feces
-molecular_test	antigen	Granulocyte
-molecular_test	antigen	Muscle Tissue
-molecular_test	antigen	Nerve Tissue
-molecular_test	antigen	Not Reported
-molecular_test	antigen	Peritoneal Fluid
-molecular_test	antigen	Plasma
-molecular_test	antigen	Pleural Fluid
-molecular_test	antigen	Saliva
-molecular_test	antigen	Serum
-molecular_test	antigen	Skin
-molecular_test	antigen	Soft Tissue
-molecular_test	antigen	Tissue, NOS
-molecular_test	antigen	Unknown
-molecular_test	antigen	Urine
-molecular_test	blood_test_normal_range_lower	INTEGER
-molecular_test	blood_test_normal_range_upper	INTEGER
-molecular_test	cell_count	INTEGER
-molecular_test	copy_number	INTEGER
-molecular_test	cytoband	STRING
-molecular_test	exon	STRING
-molecular_test	gene_symbol	STRING
-molecular_test	histone_family	H1
-molecular_test	histone_family	H2A
-molecular_test	histone_family	H2B
-molecular_test	histone_family	H3
-molecular_test	histone_family	H4
-molecular_test	histone_family	Not Reported
-molecular_test	histone_family	Unknown
-molecular_test	histone_variant	STRING
-molecular_test	id	STRING
-molecular_test	intron	STRING
-molecular_test	laboratory_test_name	5 Prime Nucleotidase
-molecular_test	laboratory_test_name	AFP
-molecular_test	laboratory_test_name	ALT
-molecular_test	laboratory_test_name	AST
-molecular_test	laboratory_test_name	Absolute Neutrophil Count
-molecular_test	laboratory_test_name	Albumin
-molecular_test	laboratory_test_name	Alkaline Phophatase
-molecular_test	laboratory_test_name	Auer Rods
-molecular_test	laboratory_test_name	BUN
-molecular_test	laboratory_test_name	Basophil
-molecular_test	laboratory_test_name	Beta 2 Microglobulin
-molecular_test	laboratory_test_name	Blasts
-molecular_test	laboratory_test_name	CD34
-molecular_test	laboratory_test_name	CO2
-molecular_test	laboratory_test_name	CRP
-molecular_test	laboratory_test_name	Calcium
-molecular_test	laboratory_test_name	Cellularity
-molecular_test	laboratory_test_name	Chloride
-molecular_test	laboratory_test_name	Creatinine
-molecular_test	laboratory_test_name	Creatinine Clearance
-molecular_test	laboratory_test_name	Direct Bilirubin
-molecular_test	laboratory_test_name	EBV DNA
-molecular_test	laboratory_test_name	EBV IgG
-molecular_test	laboratory_test_name	ESR
-molecular_test	laboratory_test_name	Eosophinils
-molecular_test	laboratory_test_name	Ferritin
-molecular_test	laboratory_test_name	Free T3
-molecular_test	laboratory_test_name	Free T4
-molecular_test	laboratory_test_name	GGT
-molecular_test	laboratory_test_name	Glucose
-molecular_test	laboratory_test_name	HCT
-molecular_test	laboratory_test_name	Hemoglobin
-molecular_test	laboratory_test_name	Human Chorionic Gonadotropin
-molecular_test	laboratory_test_name	INR
-molecular_test	laboratory_test_name	Immunoglobulin A
-molecular_test	laboratory_test_name	Immunoglobulin G
-molecular_test	laboratory_test_name	Immunoglobulin M
-molecular_test	laboratory_test_name	LDH
-molecular_test	laboratory_test_name	Leukocytes
-molecular_test	laboratory_test_name	Lipase
-molecular_test	laboratory_test_name	Luteinizing Hormone
-molecular_test	laboratory_test_name	Lymphoblasts
-molecular_test	laboratory_test_name	Lymphocytes
-molecular_test	laboratory_test_name	M Protein
-molecular_test	laboratory_test_name	Mch
-molecular_test	laboratory_test_name	Mchc
-molecular_test	laboratory_test_name	Mcv
-molecular_test	laboratory_test_name	Metamyelocytes
-molecular_test	laboratory_test_name	Monocytes
-molecular_test	laboratory_test_name	Myeloblasts
-molecular_test	laboratory_test_name	Myelocytes
-molecular_test	laboratory_test_name	Neutrophil Bands
-molecular_test	laboratory_test_name	Neutrophils
-molecular_test	laboratory_test_name	Not Reported
-molecular_test	laboratory_test_name	Other
-molecular_test	laboratory_test_name	PT
-molecular_test	laboratory_test_name	PTT
-molecular_test	laboratory_test_name	Platelets
-molecular_test	laboratory_test_name	Potassium
-molecular_test	laboratory_test_name	Prolymphocytes
-molecular_test	laboratory_test_name	Promonocytes
-molecular_test	laboratory_test_name	Promyelocytes
-molecular_test	laboratory_test_name	Protein
-molecular_test	laboratory_test_name	RBC
-molecular_test	laboratory_test_name	Rdw
-molecular_test	laboratory_test_name	Segmented Neutrophil
-molecular_test	laboratory_test_name	Serum Free Immunoglobulin Light Chain, Kappa
-molecular_test	laboratory_test_name	Serum Free Immunoglobulin Light Chain, Lambda
-molecular_test	laboratory_test_name	Serum Free Immunoglobulin Light Chain, NOS
-molecular_test	laboratory_test_name	Sodium
-molecular_test	laboratory_test_name	T4
-molecular_test	laboratory_test_name	TSH
-molecular_test	laboratory_test_name	Testosterone
-molecular_test	laboratory_test_name	Total Bilirubin
-molecular_test	laboratory_test_name	Total Protein
-molecular_test	laboratory_test_name	Unknown
-molecular_test	laboratory_test_name	Uric Acid
-molecular_test	laboratory_test_name	beta-hCG
-molecular_test	laboratory_test_name	cfDNA
-molecular_test	laboratory_test_name	miR-367-3p
-molecular_test	laboratory_test_name	miR-371a-3p
-molecular_test	laboratory_test_name	miR-372-3p
-molecular_test	laboratory_test_name	miR-373-3p
-molecular_test	laboratory_test_name	miR-375-3p
-molecular_test	loci_abnormal_count	INTEGER
-molecular_test	loci_count	INTEGER
-molecular_test	locus	STRING
-molecular_test	mismatch_repair_mutation	STRING
-molecular_test	molecular_analysis_method	Comparative Genomic Hybridization
-molecular_test	molecular_analysis_method	Cytogenetics, NOS
-molecular_test	molecular_analysis_method	FISH
-molecular_test	molecular_analysis_method	Flow Cytometry
-molecular_test	molecular_analysis_method	IHC
-molecular_test	molecular_analysis_method	ISH
-molecular_test	molecular_analysis_method	Karyotype
-molecular_test	molecular_analysis_method	Microarray
-molecular_test	molecular_analysis_method	Microsatellite Analysis
-molecular_test	molecular_analysis_method	Not Applicable
-molecular_test	molecular_analysis_method	Not Reported
-molecular_test	molecular_analysis_method	Nuclear Staining
-molecular_test	molecular_analysis_method	Other
-molecular_test	molecular_analysis_method	RNA Sequencing
-molecular_test	molecular_analysis_method	RT-PCR
-molecular_test	molecular_analysis_method	Sequencing, NOS
-molecular_test	molecular_analysis_method	Southern Blotting
-molecular_test	molecular_analysis_method	Targeted Sequencing
-molecular_test	molecular_analysis_method	Unknown
-molecular_test	molecular_analysis_method	WGS
-molecular_test	molecular_analysis_method	WXS
-molecular_test	molecular_test_id	STRING
-molecular_test	pathogenicity	STRING
-molecular_test	ploidy	STRING
-molecular_test	second_exon	STRING
-molecular_test	second_gene_symbol	STRING
-molecular_test	specialized_molecular_test	STRING
-molecular_test	test_analyte_type	DNA
-molecular_test	test_analyte_type	Not Reported
-molecular_test	test_analyte_type	Protein
-molecular_test	test_analyte_type	Total RNA
-molecular_test	test_analyte_type	Unknown
-molecular_test	test_analyte_type	mRNA
-molecular_test	test_analyte_type	miRNA
-molecular_test	test_result_numeric	STRING
-molecular_test	test_result_text	STRING
-molecular_test	test_unit	STRING
-molecular_test	transcript	STRING
-molecular_test	variant_origin	Germline
-molecular_test	variant_origin	Somatic
-molecular_test	variant_origin	Unknown
-molecular_test	zygosity	Hemizygous
-molecular_test	zygosity	Heterozygous
-molecular_test	zygosity	Homozygous
-molecular_test	zygosity	Not Reported
-molecular_test	zygosity	Nullizygous
-molecular_test	zygosity	Unknown
 participant	crdc_id	STRING
 participant	id	STRING
 participant	participant_id	STRING
@@ -2250,30 +3135,31 @@ treatment_response	treatment_response_id	STRING
 relationship	source_node	destination_node	property	value_or_TYPE
 of_cell_line	cell_line	sample	NA	NA
 of_cell_line	cell_line	study	NA	NA
-of_clinical_measure_file	clinical_measure_file	participant	NA	NA
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
+of_clinical_measure_file	clinical_measure_file	participant	NA	NA
 of_consent_group	consent_group	study	NA	NA
 of_cytogenomic_file	cytogenomic_file	sample	NA	NA
-of_diagnosis	diagnosis	sample	NA	NA
 of_diagnosis	diagnosis	participant	NA	NA
+of_diagnosis	diagnosis	sample	NA	NA
 of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
 of_generic_file	generic_file	study	NA	NA
-of_generic_file	generic_file	sample	NA	NA
 of_generic_file	generic_file	participant	NA	NA
+of_generic_file	generic_file	sample	NA	NA
 of_genetic_analysis	genetic_analysis	sample	NA	NA
+of_laboratory_test	laboratory_test	participant	NA	NA
+of_laboratory_test	laboratory_test	sample	NA	NA
 of_medical_history	medical_history	participant	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
-of_molecular_test	molecular_test	participant	NA	NA
 of_participant	participant	consent_group	NA	NA
 of_pathology_file	pathology_file	sample	NA	NA
-of_pdx	pdx	study	NA	NA
 of_pdx	pdx	sample	NA	NA
+of_pdx	pdx	study	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
-of_sample	sample	cell_line	NA	NA
-of_sample	sample	participant	NA	NA
 of_sample	sample	pdx	NA	NA
+of_sample	sample	participant	NA	NA
+of_sample	sample	cell_line	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
@@ -2281,8 +3167,8 @@ of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
 of_survival	survival	participant	NA	NA
 of_synonym	synonym	study	NA	NA
-of_synonym	synonym	participant	NA	NA
 of_synonym	synonym	sample	NA	NA
+of_synonym	synonym	participant	NA	NA
 of_treatment	treatment	participant	NA	NA
 of_treatment_response	treatment_response	participant	NA	NA
 
@@ -2290,7 +3176,6 @@ property	description
 UMI_barcode_offset	The offset in sequence of the UMI identifying barcode. E.g. "16".
 UMI_barcode_read	Unique molecular identifier; added at cell isolation or library construction step. Determines which transcript molecule the read originated from.
 UMI_barcode_size	The size of the UMI identifying barcode. E.g. "10".
-aa_change	Alphanumeric value used to describe the amino acid change for a specific genetic variant.
 acl	A free text field used to document whether the data in a repository is open access or controlled access. If access to the data are unrestricted, the acl field should be listed [“*]. Controlled access should be denoted as a comma delimited list of phs accession numbers, for example, [“phs000123] or [“phs000123,phs000124].
 acquisitionContrastCode	Text specifying the kind of contrast used during the imaging acquisition process.
 adult_or_childhood_study	The identifiable class of the study participant based upon their age.
@@ -2299,8 +3184,8 @@ age_at_diagnosis	Age at the time of diagnosis expressed in number of days since 
 age_at_event_free_survival_status	Time from diagnosis to first event (or censoring), in days.
 age_at_exposure	The age (in days) of subject at a known exposure to a hazardous factor or substance.
 age_at_genetic_analysis	The age in days of the subject at the time of the genetic analysis.
+age_at_laboratory_test	The age (in days) of the subject when the molecular test was performed.
 age_at_last_known_survival_status	The age (in days) of the subject when the vitals measurement was taken.
-age_at_molecular_test	The age (in days) of the subject when the molecular test was performed.
 age_at_response	The age (in days) of subject when the response assessment was made.
 age_at_treatment_end	Subject Age in Days at End of Treatment Course Day Count
 age_at_treatment_start	Subject Age in Days at Start of Treatment Course Day Count
@@ -2310,14 +3195,11 @@ alcohol_intensity	Category to describe the patient's current level of alcohol us
 allelic_ratio	A decimal number capturing the ratio of variant alleles to wild-type alleles present in a sample.
 alteration	The words by which the generally used name of the mutation is known.
 anatomic_site	The location within the body as captured in the topography label of the International Classification of Diseases for Oncology, 3rd Edition (ICD-O-3).
-antigen	The diagnostic test in which an antibody is used to link a cellular antigen specifically to a stain that can be seen with a microscope.
 arterialSpinLabelingContrastCode	Text specifying the kind of contrast used during the imaging acquisition process.
 asbestos_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
 associated_id	Text to identify the other name or alias of a person.
 authz	A free text field used to document whether the data in a repository is open access or controlled access. Open access files should have authz = ['/open']. Controlled access files have an acl value format of ['/programs/phsNNN'] (e.g.  ['/programs/1234'].
 avg_read_length	The average length for nucleic acid sequencing reads obtained after completion of the sequencing process.
-blood_test_normal_range_lower	Numeric value used to describe the lower limit of the normal range used to describe a healthy individual at the institution where the test was completed.
-blood_test_normal_range_upper	Numeric value used to describe the upper limit of the normal range used to describe a healthy individual at the institution where the test was completed.
 cDNA_read	The type of read that contains the cDNA read:index1/index2/read1/read2.
 cDNA_read_offset	A description of the cDNA offset.
 cDNA_read_size	The size of the cDNA read. E.g. "98".
@@ -2325,7 +3207,6 @@ cause_of_death	A high level grouping of the circumstance or condition of greates
 cell_barcode_offset	The offset in sequence of the cell identifying barcode.E.g. "0"
 cell_barcode_read	The type of read that contains the cell barcode: index1/index2/read1/read2.
 cell_barcode_size	The size of the cell identifying barcode. E.g. "16".
-cell_count	Numeric value used to describe the number of cells used for molecular testing.
 cell_line_id	A sequence of characters used to identify, name, or characterize a permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space.
 checksum_algorithm	The method by which the file checksum was calculated.
 checksum_value	A small-sized block of data derived from a file for the purpose of detecting errors that may have been introduced during file transmission and/or storage and used to verify data integrity.
@@ -2343,11 +3224,9 @@ consent_group_name	The words or acronym which describe a set of study participan
 consent_group_number	A numeral or string of numerals used to identify the set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository.
 consent_group_suffix	Suffix applied to DCF indexing file record to note the appropriate participant's consent group.
 consent_number	A numeral or string of numerals used to identify the set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository.
-copy_number	The quantity of gene copies resulting from a mutation.
 coverage	The number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.
 crdc_id	The crdc_id is a unique identifier that is generated by CRDC Data Submission Portal.
 custom_assembly_fasta_file_for_alignment	The name of the custom assembly fasta file used during sequence alignment.
-cytoband	Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the cytoband where the variant is located. Format [chromosome][chromosome arm].[band+sub-bands]. Example 17p13.1.
 cytogenomic_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 cytogenomic_platform	Words which describe the the equipment used to perform cytogenomic analysis.
 data_category	A text term based on categorization of the type of information contained in an electronic record.
@@ -2379,7 +3258,6 @@ email_address	The string of characters that represents the electronic mail addre
 end_bias	The type of overabundance of transcripts seen in a sequencing library.
 environmental_tobacco_smoke_exposure	The category related to contact with chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
 event_free_survival_status	Identify the nature of the event that best characterizes the endpoint of the study.
-exon	The text term used to describe a specific exon targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located.
 experimental_strategy_and_data_subtype	The type of systematic investigation using controlled observations and measurements to test hypotheses or develop a plan of action based on the facts discovered.
 exposure_id	A unique sequence of characters used to identify, name, or characterize the type of chemical, biological, or physical substances found in air, water, food, soil, or product that may have a harmful effect on a person's health.
 external_url	The specification of a node (file or directory) in a hierarchical file system where an electronic file is located.
@@ -2400,7 +3278,6 @@ follow_up_category	A text term based on grouping information about the health st
 follow_up_other	NCI-GLOSS Definition Monitoring a person's health over time after treatment. This includes keeping track of the health of people who participate in a clinical study or clinical trial for a period of time, both during the study and after the study ends
 funding_agency	The name of the funding source organization or sponsor.
 funding_source_program_name	The name of the program assigned by the funding agency.
-gene_mutation_abnormality_type	The type of transmissible change in the genetic material of an organism, which can result from radiation, viral infection, transposition, treatment with mutagenic chemicals and errors during DNA replication or meiosis.
 gene_symbol	A short-form abbreviation for a particular gene assigned by the HGNC (HUGO Gene Nomenclature Committee - an organism specific nomenclature committee).
 generic_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 genetic_analysis_id	A unique sequence of characters used to identify the digital data associated with genetic testing.
@@ -2409,8 +3286,6 @@ grant_id	Unique alphanumeric Identifier of a grant funding resource used to trea
 hgvs_coding	The words which describe the designation of a DNA coding sequence variation based on the Human Genome Variation Society (HGVS) nomenclature guidelines.
 hgvs_genome	One or more characters used to identify the published NCBI genetic sequence that is used as a reference against which other sequences are compared.
 hgvs_protein	The words which describe a protein sequence variation based on the Human Genome Variation Society (HGVS) nomenclature guidelines.
-histone_family	The text term used to describe the family, or classification of a group of basic proteins found in chromatin, called histones.
-histone_variant	The text term used to describe a specific histone variant, which are proteins that substitute for the core canonical histones.
 id	A unique sequence of characters used to identify, name, or characterize an attribute shared by all members of a class.
 image_modality	A system of categories for representing a specific manner, characteristic, pattern of a data acquisition device used in an imaging event whether physical or electronic.
 imaging_frequency	imaging_frequency
@@ -2418,11 +3293,12 @@ implantation_site	The location within the body from which a specimen was origina
 implantation_type	The type of surgical procedure that places a human-derived tumor sample into an immunodeficient mouse.
 institution	A sequence of characters used to identify, name, or characterize the laboratory, institute, or consortium that provided the information.
 instrument_model	The words used to describe the specific model of the instrument used to carry out a high-throughput sequencing experiment.
-intron	Intron number targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the intron where that variant is located.
 inversionRecoveryIndicator	An indicator response as to whether or not the pulse sequence is an inversion recovery pulse preparatory sequence.
 inversion_time	A measurement of the time between the inversion and excitation pulses in an inversion recovery pulse sequence.
 iscn	The words which describe a karyotype finding as classified by the International System for Human Cytogenetic Nomenclature.
-laboratory_test_name	The words by which the laboratory assessment is known.
+laboratory_test_id	A unique sequence of characters used to identify, name, or characterize a laboratory procedure that involves the study of tissues, cells, and fluids at the molecular level.
+laboratory_test_method	The text term used to describe the method used for molecular analysis.
+laboratory_test_name	The name of the lab test or examination used to obtain the measurement or finding.
 last_known_survival_status	Participant vital status
 laterality	Designates the side of the body where disease is found.
 library_construction_method	A textual description of the procedures performed for building a collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
@@ -2434,9 +3310,6 @@ library_source_molecule	The molecular component, such as carbohydrate, protein, 
 library_strand	The strandedness of the library, whether reads come from both strands of the cDNA or only from the first (antisense) or the second (sense) strand.
 library_strategy	The overall strategy for the collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
 license	Official or legal permission to do or own a specified thing.
-loci_abnormal_count	Numeric value used to describe the number of loci determined to be abnormal.
-loci_count	Numeric value used to describe the number of loci tested.
-locus	Alphanumeric value used to describe the locus of a specific genetic variant. Example NM_001126114.
 magnetic_field_strength	A measurement of the force of magnetism that acts in the region around a magnetic material or a moving electrical charge.
 magnification	A floating point numerical value describing the nominal magnification of an optical instrument using a combination of lenses to produce an image.
 md5sum	A 32-character hexadecimal number that is computed on a file.
@@ -2445,10 +3318,7 @@ medical_history_condition	The identifiable class of injuries, disabilities, synd
 medical_history_id	A unique sequence of characters used to identify, name, or characterize the identifiable class of injuries, disabilities, syndromes, or symptoms found in an individual's health background.
 methylation_array_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 methylation_platform	The equipment used to detect the presence and/or location of methyl groups during DNA or protein analysis.
-mismatch_repair_mutation	A yes/no/unknown indicator used to describe whether a gene has undergone mismatch repair.
 model_id	A unique sequence of characters used to identify, name, or characterize a mouse model for human cancer studies.
-molecular_analysis_method	The text term used to describe the method used for molecular analysis.
-molecular_test_id	A unique sequence of characters used to identify, name, or characterize a laboratory procedure that involves the study of tissues, cells, and fluids at the molecular level.
 mouse_strain	The words by which breeds of mice utilized for biological research are known.
 mrImageReconstructionProtocolElement	mrImageReconstructionProtocolElement
 multipleSpinEchoIndicator	An indicator response as to whether or not the pulse sequence is a multiple spin Echo pulse sequence.
@@ -2465,7 +3335,6 @@ participant_id	A sequence of letters, numbers, or characters that uniquely ident
 participant_list	A series of characters, one after the other, used to uniquely identify the subjects who have taken part in the investigation or research study.
 passage_number	When different host strains, or PDX Engraftment Site or PDX Engraftment Type or PDX Engraftment Materia were used during the PDX line generation, please add passage.
 passages_tested	Provide a list of all passages where validation was performed. Passage 0 correspond to first engraftment (if this is not the case please define how passages are numbered).
-pathogenicity	The likelihood of an entity to produce pathologic changes or disease.
 pathology_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 pdx_id	A unique sequence of characters used to identify, name, or characterize a mouse model for human cancer studies.
 percent_necrosis	Numeric value to represent the percentage of cell death in a malignant tumor sample or specimen.
@@ -2475,7 +3344,6 @@ personnel_type	The role of personnel in the study.
 phaseContrastIndicator	An indicator response as to whether or not the pulse sequence is a phase contrast sequence.
 pixel_spacing	Physical distance between the center of each pixel in an image.
 platform	The words used to describe the instrument used to carry out a high-throughput sequencing experiment.
-ploidy	Text term used to describe the number of sets of homologous chromosomes.
 protocols_link	A sequence of letters, numbers, or other characters that uniquely identifies a study protocol or a unique code used by publishers in the identification and exchange of the content of a digital object.
 publication_id	A Digital Object Identifier (DOI) of the publication associated with the study.
 pubmed_id	PubMed identifier of the publication associated with the study.
@@ -2505,8 +3373,6 @@ sample_type_for_implantation	Description of the type of material grafted into th
 saturationRecoveryIndicator	An indicator response as to whether or not the pulse sequence is a saturation recovery sequence.
 scanner_manufacturer	The words that describe an entity that produces finished goods used to perform a diagnostic, therapeutic or research activity.
 scanner_model	The words that describe the style or design of an entity"s finished goods used to perform a diagnostic, therapeutic or research activity.
-second_exon	A numeral or string of numerals that is used to identify the position of a second exon that is either involved in a molecular variation or of interest in an experiment or study.
-second_gene_symbol	The HGNC gene symbol for the second coding region in a mutation that spans two gene locations (Example: fusion, translocation, inversion).
 sequence_alignment_software	The name of the software program used to align nucleotide sequencing data.
 sequencing_file_id	A sequence of characters used to uniquely identify, name, or characterize a data file stored as an electronic record.
 sex_at_birth	A textual description of a person's sex at birth.
@@ -2516,7 +3382,6 @@ slice_thickness	A string of characters representing either a fixed point number 
 slim_url	File path to IDS SLIM viewer
 smoking_frequency	The number of occurrences of smoking over a time period.
 source	The words by which a permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space is known.
-specialized_molecular_test	A textual description of a laboratory procedure that involves the study of tissues, cells, and fluids using DNA/RNA analysis techniques for the identification of characteristics and abnormalities at the molecular level.
 spectrallySelectedSuppressionCode	Text specifying the kind of spectrally selected suppression used in an imaging technology or method.
 spike_in	A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix
 staining_method	The name of the dye or other coloring material used in microscopy to make biological sample structures visible.
@@ -2537,7 +3402,6 @@ study_personnel_id	A sequence of characters used to uniquely identify, name, or 
 study_status	The status of the study.
 survival_id	nnn
 synonym_id	A sequence of characters used to identify, name, or characterize a backup sequence of characters used to identify an entity.
-test_analyte_type	The text term used to describe the type of analyte used for molecular testing.
 test_result_numeric	The numeric value of the blood, urine, or other body substance laboratory test being recorded.
 test_result_text	A textual description of the outcome of any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting.
 test_unit	The code that represents the name of a unit of measure for reporting a laboratory result.
@@ -2548,7 +3412,6 @@ tobacco_smoking_quit_year	A record of an individual's background in regard to sm
 tobacco_smoking_status	A category which describes an individual's history of smoking tobacco.
 toronto_childhood_cancer_staging	Cancer stage as captured by the Toronto Childhood Cancer Stage Guidelines.
 total_number_of_input_cells	Numeric value used to describe the number of cells used for molecular testing.
-transcript	Alphanumeric value used to describe the transcript of a specific genetic variant.
 treatment_agent	The name of the individual therapeutic agent(s) used as part of a treatment regimen.
 treatment_id	A unique sequence of characters used to identify, name, or characterize the kind of treatment administered.
 treatment_response_id	In medicine, an improvement related to treatment. One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.
@@ -2565,8 +3428,5 @@ type_of_smoke_exposure	The type of environmental, occupational or consumer-based
 type_of_tobacco_used	The response that indicates which smoking products a person has ever used regularly.
 vaf_numeric	A decimal number capturing the relative rate of occurrence of a specific variant allele within a population.
 validation_technique	Any technique used to validate PDX against their original patient tumour, including fingerprinting, histology, immunohistochemistry.
-variant_origin	The text term that describes the origin of a variation in the nucleic acid sequence of a specific gene.
-variant_type	The text term used to describe the type of genetic variation.
 year_of_diagnosis	The year in which a subject was diagnosed.
 years_smoked	Number that represents the years spent smoking cigarettes.
-zygosity	The text term used to describe the zygosity of a specific genetic variant.

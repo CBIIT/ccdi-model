@@ -155,12 +155,18 @@ Nodes:
       Template: 'Yes'
     Props:
       - genetic_analysis_id
-      - gene_symbol
-      - transcript
       - age_at_genetic_analysis
       - genomic_source_category
       - reported_significance
       - reported_significance_system
+      - test
+      - result
+      - reference_genome
+      - chromosome
+      - cytoband
+      - gene_symbol
+      - transcript
+      - exon
       - hgvs_coding
       - hgvs_protein
       - hgvs_genome
@@ -168,9 +174,11 @@ Nodes:
       - vaf_numeric
       - alteration
       - dna_index_numeric
-      - iscn
+      - karyotype
       - status
-      - second_gene_symbol
+      - fusion_partner_gene
+      - fusion_partner_transcript
+      - fusion_partner_exon
       - id
   medical_history:
     Desc: "The medical history node is comprised of properties which describe the participant's previous medical conditions."
@@ -668,6 +676,8 @@ Relationships:
     Ends: 
       - Src: genetic_analysis
         Dst: sample
+      - Src: genetic_analysis
+        Dst: participant
   of_laboratory_test:
     Props: null
     Mul: many_to_one

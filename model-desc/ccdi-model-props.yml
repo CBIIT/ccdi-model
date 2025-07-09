@@ -266,7 +266,8 @@ PropDefinitions:
     Private: false
   #genetic_alteration
   chromosome_location:
-    Desc: Physical map location of a Gene, expressed as either a cytological chromosomal band or by chromosome, start point and end point.    Term:
+    Desc: Physical map location of a Gene, expressed as either a cytological chromosomal band or by chromosome, start point and end point.    
+    Term:
       - Origin: caDSR
         Code: '2557992'
         Value: Chromosome Map Location

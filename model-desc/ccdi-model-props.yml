@@ -508,7 +508,7 @@ PropDefinitions:
     Term:
       - Origin: caDSR
         Code: ''
-        Value:
+        Value: Curation Status
         Version: "1.00"
     Type:
       value_type: list

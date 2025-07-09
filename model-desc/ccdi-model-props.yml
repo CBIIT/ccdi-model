@@ -156,7 +156,8 @@ PropDefinitions:
     Private: false
   #genetic_alteration
   cytoband:
-    Desc: Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the cytoband where the variant is located. Format [chromosome][chromosome arm].[band+sub-bands]. Example 17p13.1.    Term:
+    Desc: Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis.
+    Term:
       - Origin: caDSR
         Code: '6142405'
         Value: Molecular Analysis Cytoband Text

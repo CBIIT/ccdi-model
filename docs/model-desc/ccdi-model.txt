@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 585d0d7
+commit a008b90
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -651,20 +651,6 @@ diagnosis	diagnosis	Yolk sac tumor
 diagnosis	diagnosis	Yolk sac tumor, NOS
 diagnosis	diagnosis	[---- Miscellaneous ----]
 diagnosis	diagnosis	see diagnosis_comment
-diagnosis	diagnosis_basis	Clinical
-diagnosis	diagnosis_basis	Molecular
-diagnosis	diagnosis_basis	Not Reported
-diagnosis	diagnosis_basis	Pathology
-diagnosis	diagnosis_basis	Unknown
-diagnosis	diagnosis_classification_system	CNS Diagnosis Category
-diagnosis	diagnosis_classification_system	French-American-British Classification
-diagnosis	diagnosis_classification_system	ICD-O-3.2
-diagnosis	diagnosis_classification_system	Indication for Study
-diagnosis	diagnosis_classification_system	Not Reported
-diagnosis	diagnosis_classification_system	St. Jude Cloud Disease Ontology
-diagnosis	diagnosis_classification_system	Unknown
-diagnosis	diagnosis_classification_system	WHO AML Classification of Tumors
-diagnosis	diagnosis_classification_system	WHO CNS5 Integrated Diagnosis
 diagnosis	diagnosis_comment	STRING
 diagnosis	diagnosis_id	STRING
 diagnosis	disease_phase	Initial Diagnosis
@@ -3133,8 +3119,8 @@ treatment_response	id	STRING
 treatment_response	treatment_response_id	STRING
 
 relationship	source_node	destination_node	property	value_or_TYPE
-of_cell_line	cell_line	sample	NA	NA
 of_cell_line	cell_line	study	NA	NA
+of_cell_line	cell_line	sample	NA	NA
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_clinical_measure_file	clinical_measure_file	participant	NA	NA
 of_consent_group	consent_group	study	NA	NA
@@ -3144,8 +3130,8 @@ of_diagnosis	diagnosis	sample	NA	NA
 of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
 of_generic_file	generic_file	study	NA	NA
-of_generic_file	generic_file	participant	NA	NA
 of_generic_file	generic_file	sample	NA	NA
+of_generic_file	generic_file	participant	NA	NA
 of_genetic_analysis	genetic_analysis	sample	NA	NA
 of_laboratory_test	laboratory_test	participant	NA	NA
 of_laboratory_test	laboratory_test	sample	NA	NA
@@ -3157,8 +3143,8 @@ of_pdx	pdx	sample	NA	NA
 of_pdx	pdx	study	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
-of_sample	sample	pdx	NA	NA
 of_sample	sample	participant	NA	NA
+of_sample	sample	pdx	NA	NA
 of_sample	sample	cell_line	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
@@ -3166,9 +3152,9 @@ of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
 of_survival	survival	participant	NA	NA
-of_synonym	synonym	study	NA	NA
-of_synonym	synonym	sample	NA	NA
 of_synonym	synonym	participant	NA	NA
+of_synonym	synonym	sample	NA	NA
+of_synonym	synonym	study	NA	NA
 of_treatment	treatment	participant	NA	NA
 of_treatment_response	treatment_response	participant	NA	NA
 
@@ -3237,6 +3223,7 @@ deidentification_method	The type of means, manner of procedure, or systematic co
 design_description	A written description of the materials and methods used to create the sequencing library.
 diagnosis	The term which identifies normal and abnormal cells and tissues used to define the presence and nature of disease, as categorized by diagnosis_classification_system property.
 diagnosis_basis	The underlying scientific foundation used to determine the diagnosis.
+diagnosis_category	The term which identifies normal and abnormal cells and tissues used to define the presence and nature of disease, as categorized by diagnosis_classification_system property.
 diagnosis_classification_system	The standard or agency upon which the specific term used as the diagnosis value was obtained.
 diagnosis_comment	Words that describe observations or explanations related to the diagnosis.
 diagnosis_id	A sequence of characters used to uniquely identify, name, or characterize the presence and nature of a disease or condition.

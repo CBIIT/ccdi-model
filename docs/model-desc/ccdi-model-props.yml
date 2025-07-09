@@ -521,9 +521,9 @@ PropDefinitions:
         Value: Administrative Activity Study Status
         Version: "1.00"
     Enum:
-      - Active
-      - Completed
-      - Provisional
+      - "Active"
+      - "Completed"
+      - "Provisional"
     Req: true
     Strict: true
     Private: false
@@ -547,6 +547,27 @@ PropDefinitions:
         Value: Administrative Activity Study Period End Year Date
         Version: "1.00"
     Type: integer
+  #study
+  curation_status:
+    Desc: The curation status of the study.
+    Term:
+      - Origin: caDSR
+        Code: ''
+        Value: Curation Status
+        Version: "1.00"
+    Type:
+      value_type: list
+      item_type:
+        - "Under curation"
+        - "On hold"
+        - "Validated"
+        - "DCF indexed"
+        - "dbGaP released"
+        - "CCDI released"
+        - "Redacted"
+    Req: true
+    Strict: false
+    Private: false
   #pathology_file
   slim_url:
     Desc: File path to IDS SLIM viewer

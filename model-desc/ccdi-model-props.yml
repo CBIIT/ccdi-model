@@ -2721,8 +2721,8 @@ PropDefinitions:
     Req: false
     Strict: true
     Private: false
-  #molecular_test
-  molecular_test_id:
+  #laboratory_test
+  laboratory_test_id:
     Desc: A unique sequence of characters used to identify, name, or characterize a laboratory procedure that involves the study of tissues, cells, and fluids at the molecular level.
     Term:
       - Origin: caDSR
@@ -2733,34 +2733,19 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  #molecular_test
-  age_at_molecular_test:
+  #laboratory_test
+  age_at_laboratory_test:
     Desc: The age (in days) of the subject when the molecular test was performed.
     Term:
       - Origin: caDSR
         Code: '14590166'
         Value: Subject Age at Molecular Test Day Count
         Version: "1.00"
-      - Origin: NCIt
-        Code: 'C192254'
-        Value: Age at Laboratory Test
-        Version: "1.00"
-    Type: integer
+    Type: number
     Req: true
     Private: false
-  #molecular_test, genetic_analysis
-  gene_symbol:
-    Desc: A short-form abbreviation for a particular gene assigned by the HGNC (HUGO Gene Nomenclature Committee - an organism specific nomenclature committee).    
-    Term:
-      - Origin: caDSR
-        Code: '11280318'
-        Value: Gene Occurrence HGNC Symbol Name
-        Version: "1.00"
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
-  molecular_analysis_method:
+  #laboratory_test
+  laboratory_test_method:
     Desc: The text term used to describe the method used for molecular analysis.
     Term:
       - Origin: caDSR
@@ -2792,15 +2777,966 @@ PropDefinitions:
     Req: false
     Strict: false
     Private: false
-  #molecular_test
+  #laboratoy_test
   laboratory_test_name:
-    Desc: The words by which the laboratory assessment is known.
+    Desc: The name of the lab test or examination used to obtain the measurement or finding.
     Term:
       - Origin: caDSR
         Code: '13569486'
         Value: Laboratory Procedure Test Name
         Version: "1.00"
+      - Origin: caDSR
+        Code: '7275579'
+        Value: Laboratory Test Name
+        Version: "1.00"    
     Enum:
+      - "% lymphocyte of CD45 cells"
+      - "11-Deoxycorticosterone, Serum"
+      - "11-Deoxycortisol, Serum"
+      - "17-OH-Pregnenolone, Serum"
+      - "17-OH-Progesterone, Serum"
+      - "20(S)-hydroxycholesterol, Serum"
+      - "21 Gene Signature (Oncotype DX), #, Tissue"
+      - "21 Gene Signature (Oncotype DX), Tissue"
+      - "22(R)-hydroxycholesterol, Serum"
+      - "22(S)-hydroxycholesterol, Serum"
+      - "24(S),25-epoxycholesterol, Serum"
+      - "24R-hydroxycholesterol, Serum"
+      - "24S-hydroxycholesterol, Serum"
+      - "25-hydroxycholesterol, Serum"
+      - "27-hydroxycholesterol, Serum"
+      - "3beta-hydroxy-5-cholestenoic acid, Serum"
+      - "4 Hydroxytestosterone (4-OH), Serum/Plasma"
+      - "4 Hydroxytestosterone (4-OH), Tissue"
+      - "4-OHT E Isomer, Plasma"
+      - "4-OHT E Isomer, Tissue"
+      - "4-OHT Z Isomer, Plasma"
+      - "4-OHT Z Isomer, Tissue"
+      - "4beta-hydroxycholesterol, Serum"
+      - "5 Protein Signature (Ova1), Serum"
+      - "5'-Nucleotidase, Serum"
+      - "5-Hydroxyindoleacetic Acid (5-HIAA), Urine"
+      - "7-ketocholesterol, Serum"
+      - "70 Gene Signature (Mammaprint), Tissue"
+      - "7alpha,25-dihydroxycholesterol, Serum"
+      - "7alpha,27-dihydroxycholesterol, Serum"
+      - "7alpha-hydroxycholesterol, Serum"
+      - "7beta-hydroxycholesterol, Serum"
+      - "Abnormal Lymphocytes, %, Blood"
+      - "ABO Group, Rh Type, Blood"
+      - "Absolute Granulocyte"
+      - "Absolute Neutrophil Count (ANC), Blood"
+      - "Acetylcholine Receptor (AChR) Ab, Blood"
+      - "Acid Phosphatase (ACP), Serum"
+      - "Activated Partial Thromboplastin Time (APTT)"
+      - "Adenovirus Antibody, Serum"
+      - "Adenovirus, PCR, Quantitative, Blood"
+      - "Adiponectin, Serum"
+      - "Adrenocorticotropin, Serum"
+      - "Alanine Aminotransferase (ALT or SGPT), Serum"
+      - "Alb/Glob ratio"
+      - "Albumin, %, Electrophoresis, Random Urine"
+      - "Albumin, Electrophoresis, Timed Urine"
+      - "Albumin, Serum"
+      - "Albumin-Creatinine Ratio, Urine"
+      - "Aldolase, Serum"
+      - "Aldosterone, Serum"
+      - "Alkaline Phosphatase, Bone, Serum"
+      - "Alkaline Phosphatase, Serum"
+      - "Alpha 1 Globulin, %, 24 hour, Urine"
+      - "Alpha 1 Globulin, Electrophoresis, Random Urine"
+      - "Alpha 1 Globulin, Electrophoresis, Timed Urine"
+      - "Alpha 1 Globulin, Protein Electrophoresis, Serum"
+      - "Alpha 2 Globulin, %, 24 hour, Urine"
+      - "Alpha 2 Globulin, Electrophoresis, Random Urine"
+      - "Alpha 2 Globulin, Electrophoresis, Timed Urine"
+      - "Alpha 2 Globulin, Protein Electrophoresis, Serum"
+      - "Alpha-1 Fetoprotein, Serum"
+      - "Aluminum, Plasma"
+      - "Ammonia, Serum"
+      - "Amylase, Serum"
+      - "Anaplastic Lymphoma Kinase (ALK) Gene Arrangement, Tissue"
+      - "Androstenedione, Serum"
+      - "Anion Gap, Serum"
+      - "Anti-DsDNA"
+      - "Anti-Hbe Antibody, Serum"
+      - "Anti-HCV Antibody, Serum"
+      - "Anti-Interleukin 15 Antibody, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 1 (1) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 1 (1) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 1 (1) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 10A (34) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 10A (34) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 10A (34) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 11A (43) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 11A (43) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 11A (43) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 12F (12) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 12F (12) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 12F (12) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 14 (14) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 14 (14) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 14 (14) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 15B (54) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 15B (54) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 15B (54) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 17F (17) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 17F (17) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 17F (17) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 18C (56) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 18C (56) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 18C (56) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 19A (57) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 19A (57) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 19A (57) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 19F (19) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 19F (19) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 19F (19) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 2 (2) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 2 (2) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 2 (2) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 20 (20) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 20 (20) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 20(20) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 22F (22) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 22F (22) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 22F (22) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 23F (23) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 23F (23) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 23F (23) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 3 (3) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 3 (3) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 3 (3) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 33F (70) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 33F (70) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 33F (70) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 4 (4) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 4 (4) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 4 (4) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 5 (5) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 5 (5) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 5 (5) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 6B (26) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 6B (26) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 6B (26) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 7F (51) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 7F (51) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 7F (51) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 8 (8) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 8 (8) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 8 (8) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 9N (9) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 9N (9) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 9N (9) Random, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 9V (68) Post-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 9V (68) Pre-Vaccination, Serum"
+      - "Anti-Pneumococcal Antibody Serotype 9V (68) Random, Serum"
+      - "Anti-Saccharomyces cerevisiae Antibodies (ASCA), IgA, Serum"
+      - "Anti-Saccharomyces cerevisiae Antibodies (ASCA), IgG, Serum"
+      - "Antiadrenal Antibody, Serum"
+      - "Antibody Screen, Serum"
+      - "Antibody to Hepatitis B surface antigen (HBSAb), Serum"
+      - "Antibody-Dependent Cell-Mediated Cytotoxicity (ADCC), Blood"
+      - "Antinuclear Antibody (ANA), Serum"
+      - "Antistreptolysin O, Blood"
+      - "Apoptotic Cells, %, Tissue"
+      - "Appearance, Cerebrospinal Fluid"
+      - "Appearance, Urine"
+      - "apTT"
+      - "Aspartate Aminotransferase (AST or SGOT), Serum"
+      - "Aspergillus (Galactomannan) Antigen; Blood"
+      - "Aspergillus (Galactomannan) Antigen; Bronchoalveolar Lavage"
+      - "Aspergillus (Galactomannan) Antigen; CSF"
+      - "Atypical Cells, Blood"
+      - "Atypical Lymphocytes, #, Blood"
+      - "Atypical Lymphocytes, %, Blood"
+      - "B Lymphocytes, #, Blood"
+      - "Babesia microti IgG Antibody, Blood"
+      - "Bacteria, Microscopic, Spot Urine"
+      - "Basophilic Myelocytes, %, Bone Marrow"
+      - "Basophils, #, Blood"
+      - "Basophils, %, Blood"
+      - "BCR-ABL P210 Assay, Blood"
+      - "BCR-ABL Sensitivity, Blood"
+      - "BCR-ABL/G6PDH Ratio, Blood"
+      - "Bence Jones Protein, Electrophoresis, 24 hour, Urine"
+      - "Bence Jones Protein, Electrophoresis, Serum"
+      - "Bence Jones Protein, Electrophoresis, Urine"
+      - "Beta 1 Globulin, Protein Electrophoresis, Serum"
+      - "Beta 2 Globulin, Protein Electrophoresis, Serum"
+      - "Beta Choriogonadotropin (BHCG), or Pregnancy Test, Spot Urine"
+      - "Beta Choriogonadotropin BHCG, or Pregnancy Test, Serum"
+      - "Beta Globulin, %, 24 hour, Urine"
+      - "Beta Globulin, Electrophoresis, Random Urine"
+      - "Beta Globulin, Electrophoresis, Timed Urine"
+      - "Beta Globulin, Protein Electrophoresis, Serum"
+      - "Beta-2 Microglobulin, Serum"
+      - "Beta-2 Microglobulin, Urine"
+      - "Beta-Crosslaps, Serum"
+      - "Beta-D-Glucan, Blood"
+      - "Beta-D-Glucan, CSF"
+      - "Bicarbonate (HCO3), Arterial Blood"
+      - "Bicarbonate, Serum"
+      - "Bile (Biliary Obstruction), Spot Urine"
+      - "Bilirubin (Bile), Spot Urine"
+      - "Bilirubin, Direct, Serum"
+      - "Bilirubin, Indirect, Serum"
+      - "Bilirubin, Total, Serum"
+      - "Bisphenol, Serum/Plasma"
+      - "Bisphenol, Tissue"
+      - "BK Virus, Polymerase Chain Reaction (PCR), #, Blood"
+      - "BK Virus, Polymerase Chain Reaction (PCR), #, Urine"
+      - "BK Virus, Polymerase Chain Reaction (PCR), Quantitative, Copies/mL, Blood"
+      - "Blasts, #, Blood"
+      - "Blasts, %, Blood"
+      - "Bleeding Time, Patient, Blood"
+      - "Blood collection for Apalutamide"
+      - "Blood collection for HPV Antibody Titers"
+      - "Blood collection for pharmacogenomic analysis"
+      - "Blood leukocyte count"
+      - "Blood Urea Nitrogen (BUN), Serum"
+      - "Blood Urea Nitrogen (BUN)/Creatinine Ratio, Serum"
+      - "Blood, Spot Urine"
+      - "BRAF Gene Mutation V600E, Tissue"
+      - "Bromide, Serum"
+      - "Busulfan, Blood"
+      - "C Reactive Protein, High Sensitivity, Serum"
+      - "C Reactive Protein, Serum"
+      - "C-Peptide, Serum"
+      - "C-Telopeptide, Serum"
+      - "Cadaverine, Tissue"
+      - "Calcitonin, Serum"
+      - "Calcium Oxalate Crystals, Urine"
+      - "Calcium, 24 hour, Urine"
+      - "Calcium, Corrected, Serum"
+      - "Calcium, Ionized, Arterial Blood"
+      - "Calcium, Ionized, Serum"
+      - "Calcium, Serum"
+      - "Calculated creatinine clearance"
+      - "Cancer Antigen 27-29 (CA27-29), Serum"
+      - "Carbamazepine, Serum"
+      - "Carbon Dioxide, Partial Pressure, mmHg, Arterial Blood"
+      - "Carbon Monoxide Diffusing Capacity, Respiratory System"
+      - "Carboxyhemoglobin, Arterial Blood"
+      - "Carcinoembryonic Antigen (CEA), Serum"
+      - "Carcinogenic Antigen 125 (CA125), Serum"
+      - "Carcinogenic Antigen 15-3 (CA15-3), Serum"
+      - "Carcinogenic Antigen 19-9 (CA19-9), Serum"
+      - "Cardiolipin Antibody, IgG, Serum"
+      - "Cardiolipin Antibody, IgM, Serum"
+      - "Casts, Spot Urine"
+      - "Catecholamines, Fractionated, Urine"
+      - "Catecholamines, Plasma"
+      - "Catecholamines, Random Urine"
+      - "CD10 Cells, Blood"
+      - "CD103 Cells, Blood"
+      - "CD11C, Blood"
+      - "CD14, %, Peripheral Mononuclear Cells (PBMC), Blood"
+      - "CD16 or CD56/CD3, #, Blood"
+      - "CD16 or CD56/CD3, %, Blood"
+      - "CD16 or CD56/CD3-, #, Blood"
+      - "CD16 or CD56/CD3-, %, Blood"
+      - "CD16/56"
+      - "CD19 Cells, #, Blood"
+      - "CD19 Cells, %, Blood"
+      - "CD19/20"
+      - "CD2 Cells, %, Blood"
+      - "CD20, #, Blood"
+      - "CD20, %, Blood"
+      - "CD22 Cells, Antibody, #, Blood"
+      - "CD22, #, Blood"
+      - "CD25 Cells PE, #, Blood"
+      - "CD25 Cells PE, %, Blood"
+      - "CD25 Cells, #, Blood"
+      - "CD25 Cells, %, Blood"
+      - "CD3 Cells, #, Blood"
+      - "CD3 Cells, %, Flow Cytometry, Blood"
+      - "CD3/7G7, #, Blood"
+      - "CD3/7G7, %, Blood"
+      - "CD3/CD25 Cells PE, #, Blood"
+      - "CD3/CD25 Cells PE, %, Blood"
+      - "CD3/CD25 Cells, #, Blood"
+      - "CD3/CD25 Cells, %, Blood"
+      - "CD3/CD30 Cells, #, Blood"
+      - "CD3/CD30 Cells, %, Blood"
+      - "CD3/CD4-/CD8-, #, Blood"
+      - "CD3/CD4-/CD8-, %, Blood"
+      - "CD3/CD8/CD28 Cells, #, Blood"
+      - "CD3/CD8/CD28, %, Blood"
+      - "CD3/CD8/CD57 Cells, #, Blood"
+      - "CD3/CD8/CD57, %, Blood"
+      - "CD3/HLA-DR, #, Blood"
+      - "CD3/HLA-DR, %, Blood"
+      - "CD38 Cells, #, Blood"
+      - "CD4 Cells to CD3 Cells, #, Blood"
+      - "CD4 Cells to CD3 Cells, %, Blood"
+      - "CD4 Cells to CD8 Cells Ratio, Blood"
+      - "CD4 Cells, #, Blood"
+      - "CD4 Cells, %, Flow Cytometry, Blood"
+      - "CD4+/CD25+ bright (T regs) Cells, #, Blood"
+      - "CD4+/CD25+ bright (T regs) Cells, %, Blood"
+      - "CD4+/CD25+/Foxp3+, #, Blood"
+      - "CD4/7G7 Cells, #, Blood"
+      - "CD4/7G7 Cells, %, Blood"
+      - "CD4/CD25 Cells, #, Blood"
+      - "CD4/CD25 Cells, %, Blood"
+      - "CD4/CD25 PE Cells, #, Blood"
+      - "CD4/CD25 PE Cells, %, Blood"
+      - "CD4/CD25/CD62L Cells, #, Blood"
+      - "CD4/CD25/CD62L Cells, %, Blood"
+      - "CD4/CD25/CD69 Cells, #, Blood"
+      - "CD4/CD25/CD69 Cells, %, Blood"
+      - "CD4/CD30 Cells, #, Blood"
+      - "CD4/CD30 Cells, %, Blood"
+      - "CD4/CD45RA+CD45RO, #, Blood"
+      - "CD4/CD45RA+CD45RO, %, Blood"
+      - "CD4/CD45RA, #, Blood"
+      - "CD4/CD45RA, %, Blood"
+      - "CD4/CD45RO, #, Blood"
+      - "CD4/CD45RO, %, Blood"
+      - "CD4/CD62L, #, Blood"
+      - "CD4/CD62L, %, Blood"
+      - "CD4/CD62L-/CD45RA, #, Blood"
+      - "CD4/CD62L-/CD45RA, %, Blood"
+      - "CD4/CD62L/CD45RA, #, Blood"
+      - "CD4/CD62L/CD45RA, %, Blood"
+      - "CD4/HLA-DR, #, Blood"
+      - "CD4/HLA-DR, %, Blood"
+      - "CD45 Cells, #, Blood"
+      - "CD5 Cells, %, Blood"
+      - "CD52 Cells, #, Blood"
+      - "CD7 Cells, #, Blood"
+      - "CD7 Cells, %, Blood"
+      - "CD7-/CD25 PE Cells, #, Blood"
+      - "CD7-/CD25 PE Cells, %, Blood"
+      - "CD7/CD25 PE Cells, #, Blood"
+      - "CD7/CD25 PE Cells, %, Blood"
+      - "CD8 Cells, #, Blood"
+      - "CD8 Cells, %, Flow Cytometry, Blood"
+      - "CD8/CD25 PE, #, Blood"
+      - "CD8/CD25 PE, %, Blood"
+      - "CD8/CD25, #, Blood"
+      - "CD8/CD25, %, Blood"
+      - "CD8/CD3, #, Blood"
+      - "CD8/CD3, %, Blood"
+      - "CD8/CD45RA+CD45RO, #, Blood"
+      - "CD8/CD45RA+CD45RO, %, Blood"
+      - "CD8/CD45RA, #, Blood"
+      - "CD8/CD45RA, %, Blood"
+      - "CD8/CD45RO, #, Blood"
+      - "CD8/CD45RO, %, Blood"
+      - "CD8/CD57, #, Blood"
+      - "CD8/CD57, %, Blood"
+      - "CD8/CD62L, #, Blood"
+      - "CD8/CD62L, %, Blood"
+      - "CD8/CD62L-/CD45RA, #, Blood"
+      - "CD8/CD62L-/CD45RA, %, Blood"
+      - "CD8/CD62L/CD45RA, #, Blood"
+      - "CD8/CD62L/CD45RA, %, Blood"
+      - "CD8/HLA-DR, #, Blood"
+      - "CD8/HLA-DR, %, Blood"
+      - "CD8beta+/CD69+ Cells, #, Blood"
+      - "CD8beta+/CD69+ Cells, %, Blood"
+      - "Cell Count, Cerebrospinal Fluid"
+      - "Cellularity, %, Bone Marrow"
+      - "Centromere, Antibody, Serum"
+      - "CH50 Complement, Serum"
+      - "Chloride, 24 hour, Urine"
+      - "Chloride, Serum"
+      - "Cholestanol, Serum"
+      - "Cholesterol Sulfate, Serum"
+      - "Cholesterol to High Density Lipids (HDL), Ratio, Serum"
+      - "Cholesterol, Serum"
+      - "Cholesterol, Total, Fasting, Serum"
+      - "Chromogranin A, Blood"
+      - "Chromogranin A, Serum"
+      - "Chromosome 17 Expression, %, Blood"
+      - "Chromosome 3 Expression, %, Blood"
+      - "Chromosome 7 Expression, %, Blood"
+      - "Chromosome 9p21 Expression, %, Blood"
+      - "Chromosome hematologic, Bone Marrow"
+      - "Clean Catch Culture, Urine"
+      - "Clostridium tetani toxoid Antibody, IgG, Serum"
+      - "Clot Retraction, Blood"
+      - "Clotting Time, Blood"
+      - "CMV PCR Quantitative Log 10, Blood"
+      - "CO2 (Carbon Dioxide), Exhaled Gas"
+      - "CO2, Serum"
+      - "Coarse Granular Casts, Spot Urine"
+      - "Color, Cerebrospinal Fluid"
+      - "Color, Urine"
+      - "Complement, C3, Serum"
+      - "Complement, C4, Serum"
+      - "Copper, Serum"
+      - "Copper, Urine"
+      - "Corticosterone, Mass Spectrometry, Serum"
+      - "Cortisol 1, Serum"
+      - "Cortisol 2, Serum"
+      - "Cortisol 3, Serum"
+      - "Cortisol, 24 hour, Urine"
+      - "Cortisol, Blood"
+      - "Cortisol, Serum"
+      - "Creatine Kinase (CK), Serum"
+      - "Creatine Phosphokinase (CPK), Serum"
+      - "Creatinine Clearance (CrCl), Cockcroft-Gault, Serum"
+      - "Creatinine Clearance, 24 hour, Urine"
+      - "Creatinine, Blood"
+      - "Creatinine, Plasma"
+      - "Creatinine, Serum"
+      - "Creatinine, Spot or Timed Sample, Urine"
+      - "Crystrals, Spot Urine"
+      - "Culture, Blood"
+      - "Culture, Cerebrospinal Fluid"
+      - "Culture, Respiratory Virus, Nasopharynx"
+      - "Culture, Sputum"
+      - "Culture, Stool"
+      - "CXCL9, Plasma"
+      - "Cyclic Citrullinated Peptide (CCP), Antibody, Serum"
+      - "Cyclosporine, Blood"
+      - "Cystatin C, Blood"
+      - "Cytokeratin Fragments 21-1, Serum"
+      - "Cytomegalovirus (CMV) Antibody, IgG, Serum"
+      - "Cytomegalovirus (CMV) Antibody, IgM, Serum"
+      - "Cytomegalovirus (CMV) Antibody, Serum"
+      - "Cytomegalovirus (CMV) Antigenemia, Blood"
+      - "Cytomegalovirus (CMV), Polymerase Chain Reaction (PCR), Blood"
+      - "Cytomegalovirus, DNA, Polymerase Chain Reaction, Cerebrospinal Fluid"
+      - "Cytomegalovirus, DNA, Polymerase Chain Reaction, Throat"
+      - "Cytomegalovirus, DNA, Polymerase Chain Reaction, Urine"
+      - "D-dimer, Plasma"
+      - "Dako EGFR Pharmdx Immunohistochemical Labeling, Tissue"
+      - "Dehydroepiandrosterone (DHEA), Serum"
+      - "Dehydroepiandrosterone, Sulfate, Serum"
+      - "Denosumab, Serum"
+      - "DIFFERENTIAL Neutrophils, %"
+      - "Diffuse Cytoplasmic Anti-Neutrophil Cytoplasmic Antibody, Serum"
+      - "Diffusing Capacity % Predicted, Respiratory System"
+      - "Diffusing Capacity to Alveolar Ventilation Ratio %, Respiratory System"
+      - "Diffusing Capacity to Alveolar Ventilation Ratio, Respiratory System"
+      - "Diffusion Capacity Carbon Monoxide (DL) Adjusted, % Predicted, Respiratory System"
+      - "Diffusion Capacity Carbon Monoxide (DL) Adjusted, Respiratory System"
+      - "Diffusion Capacity, Respiratory System"
+      - "Dihydrotestosterone, Serum"
+      - "Diphtheriae Antibody, Serum"
+      - "Diptheria vaccine titer"
+      - "Direct Antiglobulin Test (Coombs), Red Blood Cells"
+      - "DNA-TCR B Chain, Blood"
+      - "Dopamine, 24 hour, Urine"
+      - "Dopamine, Plasma"
+      - "Double Negative T (DNT) Cells, #, Blood"
+      - "Double Negative T (DNT) Cells, %, Blood"
+      - "Double Strand DNA (DSDNA) Antibody, Serum"
+      - "EBV PCR Quantitative Log 10, Blood"
+      - "EGFR vXXI Immunohistochemical Labeling, Tissue"
+      - "Endoxifen, Serum/Plasma"
+      - "Endoxifen, Tissue"
+      - "Eosinophilic Myelocytes, %, Bone Marrow"
+      - "Eosinophils, #, Blood"
+      - "Eosinophils, %, Blood"
+      - "Epidermal Growth Factor Receptor (EGFR) Mutation, Tissue"
+      - "Epinephrine, 24 hour, Urine"
+      - "Epinephrine, Plasma"
+      - "Epstein Barr Virus (EBV) Antibody, Serum"
+      - "Epstein Barr Virus (EBV) Nuclear Antibody, Serum"
+      - "Epstein Barr Virus (EBV), Heterophile, IgM, Serum"
+      - "Epstein-Barr Virus (EBV) Early Antigen, Serum"
+      - "Epstein-Barr Virus (EBV), DNA, #, Polymerase Chain Reaction (PCR), Blood"
+      - "Epstein-Barr Virus (EBV), IgM , Serum"
+      - "Epstein-Barr Virus (EBV), Nuclear Antibody, IgG, Serum"
+      - "Epstein-Barr Virus (EBV), Nuclear Antibody, IgM, Serum"
+      - "Erythrocyte Sedimentation Rate (ESR), Blood"
+      - "Erythropoietin, Serum"
+      - "Estimated Creatinine Renal Clearance, Urine"
+      - "Estimated GFR (eGFR), Serum"
+      - "Estimated Glomerular Filtration Rate"
+      - "Estradiol, Serum"
+      - "Estradiol, Tissue"
+      - "Estrogen Receptor (ER), Serum"
+      - "Expiratory Reserve Volume (ERV), % Predicted, Respiratory System"
+      - "Expiratory Reserve Volume (ERV), Respiratory System"
+      - "Expiratory Volume, Respiratory System"
+      - "Extractable Nuclear Antigens (ENA) Screen, Blood"
+      - "FAB Marrow Rating, Bone Marrow"
+      - "Felbamate, Serum"
+      - "Ferritin, Serum"
+      - "Fetal Hemoglobin, Blood"
+      - "FEV1 to FVC Predicted Ratio, Respiratory System"
+      - "FEV1 to FVC Ratio, Post, Respiratory System"
+      - "FEV1 to FVC Ratio, Pre, Respiratory System"
+      - "FEV1 to FVC Ratio, Respiratory System"
+      - "Fibrin Degradation Products (FDP), Blood"
+      - "Fibrinogen, Auto, Platelet Poor Plasma"
+      - "Fibrinogen, Blood"
+      - "Fibrinogen, Fibrometer, Platelet Poor Plasma"
+      - "Fine Granular Casts, Spot Urine"
+      - "Fluorescent Activated Cell Sorting (FACS) Lymphoid Cells, #, Blood"
+      - "Folate, Red Blood Cell"
+      - "Folate, Serum"
+      - "Follicle Stimulating Hormone (FSH), Serum"
+      - "Forced Expiratory Flow (FEF), during midportion of expiratory cycle, Post, % Change, Respiratory System"
+      - "Forced Expiratory Flow (FEF), during midportion of expiratory cycle, Post, % Predicted, Respiratory System"
+      - "Forced Expiratory Flow (FEF), during midportion of expiratory cycle, Post, Respiratory System"
+      - "Forced Expiratory Flow (FEF), during midportion of expiratory cycle, Pre, % Predicted, Respiratory System"
+      - "Forced Expiratory Flow (FEF), during midportion of expiratory cycle, Pre, Respiratory System"
+      - "Forced Expiratory Technique (FET), 100%, Post, Respiratory System"
+      - "Forced Expiratory Technique (FET), 100%, Pre, Respiratory System"
+      - "Forced Expiratory Volume % Predicted, Respiratory System"
+      - "Forced Expiratory Volume 1 Second (FEV1) Slope, Respiratory System"
+      - "Forced Expiratory Volume 1 Second (FEV1), Post, % Change, Respiratory System"
+      - "Forced Expiratory Volume 1 Second (FEV1), Post, % Predicted, Respiratory System"
+      - "Forced Expiratory Volume 1 Second (FEV1), Post, Respiratory System"
+      - "Forced Expiratory Volume 1 Second (FEV1), Pre, % Predicted, Respiratory System"
+      - "Forced Expiratory Volume 1 Second (FEV1), Pre, Respiratory System"
+      - "Forced Expiratory Volume, Respiratory System"
+      - "Forced Vital Capacity (FVC) % Predicted, Respiratory System"
+      - "Forced Vital Capacity (FVC), Post, % Change, Respiratory System"
+      - "Forced Vital Capacity (FVC), Post, % Predicted, Respiratory System"
+      - "Forced Vital Capacity (FVC), Post, Respiratory System"
+      - "Forced Vital Capacity (FVC), Pre, % Predicted, Respiratory System"
+      - "Forced Vital Capacity (FVC), Pre, Respiratory System"
+      - "Forced Vital Capacity (FVC), Respiratory System"
+      - "Forced Vital Capacity (Maximum), Respiratory System"
+      - "Fosphenytoin, Serum"
+      - "Functional Residual Capacity (FRC), % Predicted, Respiratory System"
+      - "Functional Residual Capacity, Respiratory System"
+      - "Fungitell (Beta-D-Glucan) Assay Qualitative Blood"
+      - "Fungitell (Beta-D-Glucan) Assay Quantitative Blood"
+      - "Gamma Globulin, %, 24 hour, Urine"
+      - "Gamma Globulin, Electrophoresis, Random Urine"
+      - "Gamma Globulin, Electrophoresis, Timed Urine"
+      - "Gamma Globulin, Protein Electrophoresis, Serum"
+      - "Gamma Glutamyl Transferase (GGT), Serum"
+      - "Gastrin, Serum"
+      - "Globulin, Serum"
+      - "Glomerular filtration rate"
+      - "Glomerular Filtration Rate, Manual Calculation, Blood"
+      - "Glucagon, Serum"
+      - "Glucose Tolerance Test (GTT), Serum"
+      - "Glucose, CSF"
+      - "Glucose, Estimated Average, Blood"
+      - "Glucose, Fasting, Serum"
+      - "Glucose, Non-fasting, Serum"
+      - "Glucose, Quantitative, 24 hour, Urine"
+      - "Glucose, Serum"
+      - "Glucose, Spot Urine"
+      - "Glucose-6-Phosphate Dehydrogenase (G6PD), Blood"
+      - "GMCSF, Serum"
+      - "H. influenza vaccine titer"
+      - "Haptoglobin, Serum"
+      - "Helicobactor Pylori Antibody, IgG, Serum"
+      - "Hematocrit, %, Blood"
+      - "Hemoglobin (Hgb) A1C, Blood"
+      - "Hemoglobin, Blood"
+      - "Hemoglobin, Spot Urine"
+      - "Hepatitis A Virus Antibody (HAV), IgA, Serum"
+      - "Hepatitis A Virus Antibody (HAV), IgG, Serum"
+      - "Hepatitis A Virus Antibody (HAV), IgM, Serum"
+      - "Hepatitis A Virus Antibody (HAV), Total, Serum"
+      - "Hepatitis B Antibody, Serum"
+      - "Hepatitis B Core (HBC) Antibody, IgG and IgM Total, Serum"
+      - "Hepatitis B Core (HBC) Antibody, IgM, Serum"
+      - "Hepatitis B Core Antibody, Serum"
+      - "Hepatitis B Surface Antigen, Serum"
+      - "Hepatitis B vaccine titer"
+      - "Hepatitis B Viral Load (HBV), DNA, Blood"
+      - "Hepatitis B Virus Surface Antibody, Qualitative, Serum"
+      - "Hepatitis B Virus Surface Antibody, Quantitative, Serum"
+      - "Hepatitis B Virus Surface Antigen, Qualitative, Serum"
+      - "Hepatitis B Virus Surface Antigen, Quantitative, Serum"
+      - "Hepatitis Be Antigen, Serum"
+      - "Hepatitis C Antibody, Serum"
+      - "Hepatitis C Virus (HCV) Viral Load, Serum"
+      - "Hepatitis C Virus, RNA, Quantitative, Copies/mL, Serum"
+      - "Hepatitis C Virus, RNA, Quantitative, IU/mL, Serum"
+      - "Hepatitis C Virus, RNA, Reverse Transcriptase (RT), Polymerase Chain Reaction (PCR), Serum"
+      - "HER2/neu (Human Epidermal Growth Factor Receptor), FISH, Tissue"
+      - "HER2/neu (Human Epidermal Growth Factor Receptor), IHC, Tissue"
+      - "HER2/neu (Human Epidermal Growth Factor Receptor), Serum"
+      - "Herpes Simplex Virus (HSV) 1/2, IgM, Serum"
+      - "Herpes Simplex Virus 1 (HSV1) IgG, Serum"
+      - "Herpes Simplex Virus 2 (HSV2) IgG, Serum"
+      - "HHV6, Log 10, PCR, Quantitative, Blood"
+      - "HHV6B, PCR, Quantitative, CSF"
+      - "High Density Lipoprotein, Cholesterol, Serum"
+      - "Histamine, Tissue"
+      - "HIV (Human Immunodeficiency Virus) 1/2 Plus O, Antibody, Serum"
+      - "HIV Viral Load, Cerebrospinal Fluid"
+      - "HIV Viral Load, Serum"
+      - "HIV-1 Antibody, Serum"
+      - "HIV-2 Antibody, Serum"
+      - "HIV1 Log Viral Load, Polymerase Chain Reaction (PCR), Cerebrospinal Fluid"
+      - "HIV1 Log Viral Load, Polymerase Chain Reaction (PCR), Plasma"
+      - "HIV1, Hepatitis C Virus (HCV), Hepatitis B Virus (HBV), Nucleic Acid Testing (NAT), Donor, Serum"
+      - "HIV1, Nucleic Acid Testing (NAT), Serum"
+      - "HLA A Antigen, White Blood Cells"
+      - "HLA Antibody Screen, Blood"
+      - "HLA B Antigen, White Blood Cells"
+      - "HLA Cw Antigen, White Blood Cells"
+      - "HLA DQB1 Antigen, High Resolution, White Blood Cells"
+      - "HLA DQB1 Antigen, Low Resolution, White Blood Cells"
+      - "HLA DQB1 Antigen, White Blood Cells"
+      - "HLA DR Antigen, White Blood Cells"
+      - "HLA DRB Antigen, High Resolution, White Blood Cells"
+      - "HLA DRB Antigen, Low Resolution, White Blood Cells"
+      - "HLA DRB Antigen, White Blood Cells"
+      - "HLA DRB1 Antigen, High Resolution, White Blood Cells"
+      - "HLA DRB1 Antigen, Low Resolution, White Blood Cells"
+      - "HLA DRB1 Antigen, White Blood Cells"
+      - "HLA Genotyping"
+      - "HLA-A03 Subtype Antigen, White Blood Cells"
+      - "HLA-A2 Antigen, White Blood Cells"
+      - "HLA-A24 Subtype Antigen"
+      - "HLA-A3 Subtype Antigen"
+      - "HLA-DPB, Blood"
+      - "Homovanillic Acid (HVA), Urine"
+      - "Homovanillic Acid/Creatinine Ratio, Urine"
+      - "HTLV1/HTLV2 Antibody, Serum"
+      - "Human Anti-Mouse Antibody, Blood"
+      - "Human Choriogonadotropin (HCG), Serum"
+      - "Human Epididymis Protein 4 (HE4), Serum"
+      - "Human Growth Hormone (HGH), Serum"
+      - "Human Herpesvirus 6 (HHV6) Viral Load, DNA, Blood"
+      - "Human Herpesvirus 6, PCR, Quantitative, Blood"
+      - "Human Immunodeficiency Virus (HIV) 1, Antibody, Western Blot, Serum"
+      - "Human Immunodeficiency Virus (HIV) 1, Western Blot, Serum"
+      - "Human Immunodeficiency Virus (HIV), 1-2 Antibody and Antigen Combination, Blood"
+      - "Human Immunodeficiency Virus (HIV), 1-2 Antibody, Serum"
+      - "Hyaline Casts, Spot Urine"
+      - "IC50 (Half Maximal Inhibitory Concentration), Blood"
+      - "IC50 (Half Maximal Inhibitory Concentration), Bone Marrow"
+      - "IFN-gamma, Serum"
+      - "IGF-1 (Human Growth Hormone), Blood"
+      - "IL-17, Serum"
+      - "IL-2, Serum"
+      - "IL-6, Serum"
+      - "Immature Granulocytes (IG), %, Blood"
+      - "Immature Granulocytes (IG), Absolute, Number, Blood"
+      - "Immunofixation Electrophoresis, Serum"
+      - "Immunoglobulin A (IgA), Serum"
+      - "Immunoglobulin A, Immunoelectrophoresis, Urine"
+      - "Immunoglobulin D (IgD), Serum"
+      - "Immunoglobulin D, Immunoelectrophoresis, Urine"
+      - "Immunoglobulin E (IgE), Serum"
+      - "Immunoglobulin E, Immunoelectrophoresis, Urine"
+      - "Immunoglobulin G (IgG), Serum"
+      - "Immunoglobulin G, Immunoelectrophoresis, Urine"
+      - "Immunoglobulin M (IgM), Immunoelectrophoresis, Spot Urine"
+      - "Immunoglobulin M (IgM), Serum"
+      - "Inhibin A, Blood"
+      - "Inhibin B, Blood"
+      - "Inspiratory Capacity (IC), % Predicted, Respiratory System"
+      - "Inspiratory Capacity (IC), Respiratory System"
+      - "Insulin, Fasting, Serum"
+      - "Insulin, Serum"
+      - "Insulin-life Growth Factor Binding Protein 3, Serum"
+      - "Interferon, Serum"
+      - "Interleukin 2 s-Receptor-Alpha, Serum"
+      - "International Normalized Ratio (INR), Prothrombin Time, Blood"
+      - "Iodine, 24 hour, Urine"
+      - "Iodine, Concentration, 24 hour, Urine"
+      - "Iodine, Free, 24 hour, Urine"
+      - "Iron Saturation, Ratio, Serum"
+      - "Iron, Serum"
+      - "Isavuconazole Level, Plasma"
+      - "Kappa Light Chain, Electrophoresis, Serum"
+      - "Kappa Light Chain, Immunoelectrophoresis, Urine"
+      - "Kappa/Lambda Immunoglobulin Free Light Chain Ratio, Serum"
+      - "Ketones, Spot Urine"
+      - "Ki67, %, Tissue"
+      - "KIT (CD117) Gene Mutation, Tissue"
+      - "KRAS Gene Mutation,  Tissue"
+      - "Lactate Dehydrogenase (LDH), Serum"
+      - "Lactate, Blood"
+      - "Lactate, Cerebrospinal Fluid"
+      - "Lambda Light Chain, Electrophoresis, Serum"
+      - "Lambda Light Chain, Immunoelectrophoresis, Urine"
+      - "Lamotrigine, Serum"
+      - "Large Unstained Cells, #, Blood"
+      - "Large Unstained Cells, %, Blood"
+      - "Leptin, Serum"
+      - "Leukocyte Esterase, Spot Urine"
+      - "Levetiracetam, Serum"
+      - "Light Chain Ratio, Urine"
+      - "Lipase, Serum"
+      - "Liver Kidney Microsomal Antibody, Serum"
+      - "Low Density Lipid (LDL)-High Density Lipid (HDL) Cholesterol Ratio, Serum"
+      - "Low Density Lipoproteins, Cholesterol, Serum"
+      - "Lupus Anticoagulant, Platelet Poor Plasma"
+      - "Lupus Anticoagulant, Staclot, Platelet Poor Plasma"
+      - "Luteinizing Hormone (LH), Serum"
+      - "Lymphocytes Variants, %, Blood"
+      - "Lymphocytes, #, Blood"
+      - "Lymphocytes, %, Blood"
+      - "Lymphocytes, %, Bone Marrow"
+      - "Lymphocytes, %, Cerebrospinal Fluid"
+      - "Lymphocytes, Variant, #, Blood"
+      - "Magnesium, Ionized, Serum"
+      - ""
+      - "Magnesium, Serum"
+      - "Maximum Forced Expiratory Flow, Respiratory System"
+      - "Mean Corpuscular Hemoglobin (MCH), Red Blood Cells"
+      - "Mean Corpuscular Hemoglobin Concentration (MCHC), Red Blood Cells"
+      - "Mean Corpuscular Volume (MCV), Red Blood Cells"
+      - "Measured Glomerular Filtration Rate"
+      - "Megakaryocytes, %, Bone Marrow"
+      - "Metamyelocytes, %, Bone Marrow"
+      - "Metanephrine, 24 hour, Urine"
+      - "Metanephrine, Plasma"
+      - "Metanephrine, Unconjugated, 24 hour, Urine"
+      - "Methemoglobin, %, Arterial Blood"
+      - "Methotrexate, CSF"
+      - "Methotrexate, Serum"
+      - "MGMT (O6-methylguanine-DNA methyltransferase) Immunohistochemical Labeling, Tissue"
+      - "MGMT Promoter Methylation, Blood"
+      - "MGMT Promoter Methylation, Tissue"
+      - "Mitochondrial Antibody, Serum"
+      - "Monoclonal Protein, Electrophoresis, Serum"
+      - "Monoclonal Protein, Electrophoresis, Urine"
+      - "Monoclonal Protein, Immunoelectrophoresis, 24 hour, Urine"
+      - "Monoclonal Protein, Immunoelectrophoresis, Urine"
+      - "Monocytes, #, Blood"
+      - "Monocytes, %, Blood"
+      - "Monocytes, %, Bone Marrow"
+      - "Mucous, Spot Urine"
+      - "Mullerian inhibiting substance, Serum"
+      - "Myelin Basic Protein, Cerebrospinal Fluid"
+      - "Myeloblasts, %, Bone Marrow"
+      - "Myelocytes, %, Bone Marrow"
+      - "Myeloperoxidase Ab, Serum"
+      - "Myoglobin, Urine"
+      - "N1 Acetylspermidine, Tissue"
+      - "N1 Acetylspermine, Tissue"
+      - "N8 Acetylspermidine, Tissue"
+      - "Natural Killer (NK) Cells, #, Blood"
+      - "Natural Killer (NK) Cells, %, Blood"
+      - "Natural Killer T Cells, #, Blood"
+      - "Natural Killer T Cells, %, Blood"
+      - "Neuron-Specific Enolase (NSE), Serum"
+      - "Neutralizing Antibody BL22, Serum"
+      - "Neutralizing Antibody LMB-2, Serum"
+      - "Neutrophil Bands, #, Blood"
+      - "Neutrophil Bands, %, Blood"
+      - "Neutrophilic Myelocytes, %, Bone Marrow"
+      - "Neutrophils, %, Blood"
+      - "Nitrite, Spot Urine"
+      - "Nonseparated Short Tandem Repeat Chimerism, %, Bone Marrow"
+      - "Nonseparated Short Tandem Repeat Chimerism, %, Whole Blood"
+      - "Norepinephrine, 24 hour, Urine"
+      - "Norepinephrine, Plasma"
+      - "Normetanephrine, 24 hour, Urine"
+      - "Normetanephrine, Plasma"
+      - "Normoblasts, %, Bone Marrow"
+      - "Nuclear Matrix Protein 22 (NMP22), Urine"
+      - "Nucleated Cells, Total, Blood"
+      - "Nucleated Red Blood Cell (NRBC) Count, %, Blood"
+      - "Nucleated Red Blood Cells (NRBC), #, Blood"
+      - "Occult Blood (Guaiac), Stool"
+      - "Osmolality, 24 hour, Urine"
+      - "Osmolality, Serum"
+      - "Osteocalcin, Serum"
+      - "Other Cell Count, Cerebrospinal Fluid"
+      - "Other Prostate Specific Antigen (PSA), Serum"
+      - "Oxalate, 24 hour, Urine"
+      - "Oxcarbazepine, Serum"
+      - "Oxygen Saturation, Arterial Blood"
+      - "Oxygen, Partial Pressure, mmHg, Arterial Blood"
+      - "P-Selectin, Blood"
+      - "pAKT Immunohistochemical Labeling, Tissue"
+      - "Pancreatic Polypeptide, Serum"
+      - "Parathyroid (Parathyrin intact) Hormone, Serum"
+      - "Parathyroid Hormone, Intact, Blood"
+      - "Parietal Cell Antibody, Serum"
+      - "Paroxysmal Nocturnal Hemoglobinuria Flow"
+      - "Partial Prothromboplastin Time (PTT), Blood"
+      - "Percent Carbon Dioxide (pCO2), Arterial Blood"
+      - "Percent Oxygen (pO2), Arterial Blood"
+      - "pH, Arterial Blood"
+      - "pH, Spot Urine"
+      - "pH, Venous Blood"
+      - "Phenobarbital, Serum"
+      - "Phenytoin, Serum"
+      - "Pheresis Bag, #, Platelet"
+      - "Pheresis Bag, #, WBC"
+      - "Phosphate (inorganic Phosphorus), Serum"
+      - "Plasma Cells, %, Bone Marrow"
+      - "Plasminogen Activator Inhibitor (PAI-1), Serum"
+      - "Plasminogen Activator Inhibitor (PAI-1), Tissue"
+      - "Platelet Mean Volume (PMV), Blood"
+      - "Platelets, Blood"
+      - "Pneumococcus vaccine titer"
+      - "Polio Virus Antibody, Serum"
+      - "Polyclonal Protein, Electrophoresis, Serum"
+      - "Polyclonal Protein, Immunoelectrophoresis, Urine"
+      - "Polymorphic Basophils, %, Bone Marrow"
+      - "Polymorphic Eosinophils, %, Bone Marrow"
+      - "Polymorphic Neutrophils, %, Bone Marrow"
+      - "Polymorphonuclear Cells (Polys), #, Blood"
+      - "Polymorphonuclear Cells (Polys), %, Blood"
+      - "Potassium, 24 hour, Urine"
+      - "Potassium, Serum"
+      - "Prealbumin, Serum"
+      - "Primidone, Serum"
+      - "Pro Brain Natriuretic Peptide (BNP), Serum"
+      - "Procollagen 1, Intact N-terminal peptide (P1NP), Serum"
+      - "Progesterone Receptor (PR), Serum"
+      - "Progesterone, Serum/Plasma"
+      - "Prolactin, Serum"
+      - "Prolymphocytes, %, Bone Marrow"
+      - "Promyelocytes, %, Bone Marrow"
+      - "Pronormoblasts, %, Bone Marrow"
+      - "Prostaglandin E2, Tissue"
+      - "Prostate Specific Antigen (PSA), Serum"
+      - "Prostate Specific Antigen Free (PSAF), Serum"
+      - "Prostate Specific Antigen Free (PSAF)/Prostate Specific Antigen Total (PSAT) Ratio, Blood"
+      - "Protein excretion, 24 hour, Urine"
+      - "Protein, 24 hour, Urine"
+      - "Protein, CSF"
+      - "Protein, Qualitative, Urine"
+      - "Protein-Albumin Ratio, Urine"
+      - "Protein-Creatinine Ratio, Urine"
+      - "Proteinase-3 Antibodies, Serum"
+      - "Prothrombin Time (PT), Blood"
+      - "PSA"
+      - "PT/aPTT"
+      - "PTEN Immunohistochemical Labeling, Tissue"
+      - "Pulmonary (Lung) Compliance, Respiratory System"
+      - "Putrescine, Tissue"
+      - "QuantiFERON-TB Gold (QFT), Blood"
+      - "Rapid Plasma Reagin (RPR), Serum"
+      - "Red Blood Cells (RBC), #, Blood"
+      - "Red Blood Cells (RBC), #, Cerebrospinal Fluid"
+      - "Red Blood Cells (RBC), Microscopy, #, Spot Urine"
+      - "Red Blood Cells (RBC), Microscopy, Spot Urine"
+      - "Red Cell Distribution Width (RDW), Red Blood Cells"
+      - "Renal Epithelial Cells, Spot Urine"
+      - "Renin, Plasma"
+      - "Residual Volume to Total Lung Capacity Ratio,  Respiratory System"
+      - "Respiratory Volume (RV), % Predicted, Respiratory System"
+      - "Reticulocytes, %, Bone Marrow"
+      - "Reticulocytes, %, Red Blood Cells"
+      - "Reverse Triiodothyronine (T3), Free, Mass Spectrometry, Serum"
+      - "Rheumatoid Factor, Serum"
+      - "Ribonucleoprotein Extractable Nuclear (RNP) Antibody, Serum"
+      - "RPR (Rapid Plasma Reagin), Plasma"
+      - "SARS-CoV-2 PCR, NP Swab"
+      - "Sequenced Based HLA-B, Blood"
+      - "Sequenced Based HLA-C (CW), Blood"
+      - "Sequenced Based HLA-DQB1, Blood"
+      - "Sequenced Based HLA-DR (DRB), Blood"
+      - "Sequenced Based HLA-DR (DRB1), Blood"
+      - "Sex hormone binding globulin, Serum"
+      - "Short Tandem Repeat Chimerism, %, Other Source"
+      - "Short Tandem Repeat Chimerism, %, White Blood Cells"
+      - "Short Tandem Repeat Chimerism, Clusters of Differentiation 14 (CD14), %, Whole Blood"
+      - "Short Tandem Repeat Chimerism, Clusters of Differentiation 19 (CD19), %, Whole Blood"
+      - "Short Tandem Repeat Chimerism, Clusters of Differentiation 3 (CD3), %, Whole Blood"
+      - "Short Tandem Repeat Chimerism, Donor, Clusters of Differentiation 4 (CD4), %, Blood"
+      - "Short Tandem Repeat Chimerism, Donor, Clusters of Differentiation 8 (CD8), %, Blood"
+      - "Short Tandem Repeat Chimerism, Dual Cord, %, Whole Blood"
+      - "Short Tandem Repeat Chimerism, MonoMac, %, Whole Blood"
+      - "Short Tandem Repeat Chimerism, Multiple Donor, %, Bone Marrow"
+      - "Short Tandem Repeat Chimerism, Multiple Donor, %, Other Source"
+      - "Short Tandem Repeat Chimerism, Multiple Donor, %, White Blood Cells"
+      - "Short Tandem Repeat Chimerism, Multiple Donor, %, Whole Blood"
+      - "Short Tandem Repeat Chimerism, Natural Killers, %, Whole Blood"
+      - "Sirolimus (Rapamycin), Blood"
+      - "Sjogren's Syndrome-A Extractable Antibody, Serum"
+      - "Sjogren's Syndrome-B Extractable Antibody, Serum"
+      - "Smith Extractable Nuclear Antibody, Serum"
+      - "Sodium, 24 hour, Urine"
+      - "Sodium, Serum"
+      - "Sodium/Potassium Ratio, Serum"
+      - "Specific Gravity, Spot Urine"
+      - "Specimen Collection Period, Urine"
+      - "Spermidine, Tissue"
+      - "Spermine, Tissue"
+      - "Squamous Epithelial Cells, Spot Urine"
+      - "T lymphocyte Cytotoxic Cells (CTL), Blood"
+      - "T Lymphocyte Helper Cells, Blood"
+      - "T Lymphocyte Suppressor Cells , Blood"
+      - "T Lymphocytes, #, Blood"
+      - "T Lymphocytes, %, Blood"
+      - "T Lymphocytes, Delayed Hypersensitivity Testing (DTH), Blood"
+      - "Tacrolimus, Blood"
+      - "Tamoxifen, Serum/Plasma"
+      - "Tamoxifen, Tissue"
+      - "Testosterone"
+      - "Testosterone, Blood"
+      - "Testosterone, Free, Serum"
+      - "Testosterone, Total, Serum"
+      - "Thrombin Time, Blood"
+      - "Thrombomodulin, Blood"
+      - "Thrombopoietin, Serum"
+      - "Thyroglobulin Antibody, Serum"
+      - "Thyroglobulin, Serum"
+      - "Thyroid Stimulating Hormone (TSH)-Free Thyroxine (T4) Ratio, Serum"
+      - "Thyroid Stimulating Immunoglobulins (TSI), Serum"
+      - "Thyroperoxidase Antibody, Serum"
+      - "Thyrotropin (Thyroid Stimulating Hormone or TSH), Serum"
+      - "Thyrotropin Receptor Antibody, Serum"
+      - "Thyroxine (T4), Free,  Serum"
+      - "Thyroxine (T4), Free, Dialysis, Serum"
+      - "Thyroxine (T4), Free, Mass Spectrometry, Serum"
+      - "Thyroxine (T4), Serum"
+      - "Thyroxine Binding Globulin (TBG), Serum"
+      - "Tidal Volume, Respiratory System"
+      - "TNF alpha, Serum"
+      - "Total Iron Binding Capacity, Serum"
+      - "Total Lung Capacity %, Predicted, Respiratory System"
+      - "Total Lung Capacity %, Respiratory System"
+      - "Total Protein Electrophoresis, Serum"
+      - "Total Protein, Serum"
+      - "Toxoplasmosa Gondii, Antibody, IgG, Serum"
+      - "Toxoplasmosa Gondii, Antibody, IgM, Serum"
+      - "Transferrin, Serum"
+      - "Transitional Cells, Spot Urine"
+      - "Trefoil Factor 1, Tissue"
+      - "Treponema pallidum, IgG, Serum"
+      - "Triglycerides, Serum"
+      - "Triiodothyronine (T3), Free, Mass Spectrometry, Serum"
+      - "Triiodothyronine (T3), Free, Serum"
+      - "Triiodothyronine (T3), Serum"
+      - "Troponin I, Blood"
+      - "Troponin T, Blood"
+      - "Trypanosoma cruzi Antibody, IgG, Serum"
+      - "Urate (Uric Acid), Serum"
+      - "Urea Nitrogen, 24 hour, Urine"
+      - "Uric Acid (Urate), 24 hour, Urine"
+      - "Urine collection for HPV DNA and antibodies"
+      - "Urine M protein in mg/ 24 hrs"
+      - "Urobilinogen, Spot Urine"
+      - "Urokinase Plasminogen Activator (uPA), Serum"
+      - "Urokinase Plasminogen Activator (uPA), Tissue"
+      - "Vaccinia Culture, Serum"
+      - "Vaccinia Culture, Spot Urine"
+      - "Valproate (Valproic Acid), Serum"
+      - "Vanillylmandelic Acid (VMA), Urine"
+      - "Vanillylmandelic Acid/Creatinine Ratio, Urine"
+      - "Varicella Zoster Virus (VZV) Antigen, Immunofluorescence, Skin"
+      - "Varicella Zoster Virus (VZV) DNA, Cerebrospinal Fluid"
+      - "Varicella Zoster Virus (VZV), IgG, Antibody, Serum"
+      - "Vasoactive Intestinal Peptide (VIP), Serum"
+      - "Very Low Density Lipoprotein (VLDL) Cholesterol, Serum"
+      - "Vital Capacity (VC), % Predicted, Respiratory System"
+      - "Vital Capacity (VC), Respiratory System"
+      - "Vitamin B1, Blood"
+      - "Vitamin B12, Serum"
+      - "Vitamin D 25-OH, D2+D3 Total, Serum"
+      - "Vitamin D, 1, 25-Dihydroxy, Blood"
+      - "Vitamin D, 25-Dihydroxy, Blood"
+      - "Volume expelled during midportion of expiration % Predicted, Respiratory System"
+      - "Volume expelled during midportion of expiration, Respiratory System"
+      - "Volume Residual, Respiratory System"
+      - "Volume, Urine"
+      - "von Willebrand Activity, Blood"
+      - "von Willebrand Antigen, Blood"
+      - "West Nile Virus Antibody, IgG and IgM, Serum"
+      - "West Nile Virus, PCR, Serum"
+      - "White Blood Cells (WBC), #, Blood"
+      - "White Blood Cells (WBC), #, Cerebrospinal Fluid"
+      - "White Blood Cells (WBC), Microscopy, Spot Urine"
+      - "White Blood Cells (WBC), Other, % Blood"
+      - "Zinc, Serum"
       - "5 Prime Nucleotidase"
       - "Absolute Neutrophil Count"
       - "AFP"
@@ -2877,18 +3813,43 @@ PropDefinitions:
       - "Serum Free Immunoglobulin Light Chain, NOS"
       - "Sodium"
       - "T4"
-      - "Testosterone"
       - "Total Bilirubin"
       - "Total Protein"
       - "TSH"
       - "Uric Acid"
+      - "aa_change"
+      - "antigen"
+      - "blood_test_normal_range_upper"
+      - "blood_test_normal_range_lower"
+      - "cell_count"
+      - "copy_number"
+      - "cytoband"
+      - "exon"
+      - "gene_mutation_abnormality_type"
+      - "histone_family"
+      - "histone_variant"
+      - "intron"
+      - "loci_abnormal_count"
+      - "loci_count"
+      - "locus"
+      - "mismatch_repair_mutation"
+      - "pathogenicity"
+      - "ploidy"
+      - "second_exon"
+      - "second_gene_symbol"
+      - "specialized_molecular_test"
+      - "test_analyte_type"
+      - "transcript"
+      - "variant_origin"
+      - "variant_type"
+      - "zygosity"
       - "Not Reported"
       - "Other"
       - "Unknown"
     Req: false
     Strict: false
     Private: false
-  #molecular_test
+  #laboratory_test
   test_result_numeric:
     Desc: The numeric value of the blood, urine, or other body substance laboratory test being recorded.
     Term:
@@ -2899,7 +3860,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #molecular_test
+  #laboratory_test
   test_result_text:
     Desc: A textual description of the outcome of any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting.
     Term:
@@ -2910,7 +3871,7 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #molecular_test
+  #laboratory_test
   test_unit:
     Desc: The code that represents the name of a unit of measure for reporting a laboratory result.
     Term:
@@ -2921,397 +3882,17 @@ PropDefinitions:
     Type: string
     Req: false
     Private: false
-  #molecular_test, genetic_analysis
-  transcript:
-    Desc: Alphanumeric value used to describe the transcript of a specific genetic variant.
+  #genetic_analysis
+  gene_symbol:
+    Desc: A short-form abbreviation for a particular gene assigned by the HGNC (HUGO Gene Nomenclature Committee - an organism specific nomenclature committee).    
     Term:
       - Origin: caDSR
-        Code: '6142465'
-        Value: transcript
+        Code: '11280318'
+        Value: Gene Occurrence HGNC Symbol Name
         Version: "1.00"
     Type: string
     Req: false
-    Private: false  
-  #molecular_test
-  aa_change:
-    Desc: Alphanumeric value used to describe the amino acid change for a specific genetic variant.
-    Term:
-      - Origin: caDSR
-        Code: '6142508'
-        Value: Molecular Analysis Amino Acid Change Text
-        Version: "1.00"
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
-  antigen:
-    Desc: The diagnostic test in which an antibody is used to link a cellular antigen specifically to a stain that can be seen with a microscope.
-    Term:
-      - Origin: caDSR
-        Code: '13362273'
-        Value: Immunohistochemical Test Method Type
-        Version: "1.00"
-    Enum:
-      - "Blood"
-      - "Bone Marrow"
-      - "Buccal Mucosa"
-      - "Buffy Coat"
-      - "Cerebrospinal Fluid"
-      - "Connective Tissue"
-      - "Embryonic Fluid"
-      - "Embryonic Tissue"
-      - "Feces"
-      - "Granulocyte"
-      - "Muscle Tissue"
-      - "Nerve Tissue"
-      - "Peritoneal Fluid"
-      - "Plasma"
-      - "Pleural Fluid"
-      - "Saliva"
-      - "Serum"
-      - "Skin"
-      - "Soft Tissue"
-      - "Tissue, NOS"
-      - "Urine"
-      - "Unknown"
-      - "Not Reported"
-    Req: false
-    Strict: false
-    Private: false
-  #molecular_test
-  blood_test_normal_range_upper:
-    Desc: Numeric value used to describe the upper limit of the normal range used to describe a healthy individual at the institution where the test was completed.
-    Term:
-      - Origin: caDSR
-        Code: '6142535'
-        Value: Laboratory Procedure Upper Limit of Normal Value
-        Version: "1.00"
-    Type: integer
-    Req: false
-    Private: false
-  #molecular_test
-  blood_test_normal_range_lower:
-    Desc: Numeric value used to describe the lower limit of the normal range used to describe a healthy individual at the institution where the test was completed.
-    Term:
-      - Origin: caDSR
-        Code: '6142571'
-        Value: Laboratory Procedure Lower Limit of Normal Value
-        Version: "1.00"
-    Type: integer
-    Req: false
-    Private: false
-  #molecular_test
-  cell_count:
-    Desc: Numeric value used to describe the number of cells used for molecular testing.
-    Term:
-      - Origin: caDSR
-        Code: '6142528'
-        Value: Molecular Analysis Cell Count
-        Version: "1.00"
-    Type: integer
-    Req: false
-    Private: false
-  #molecular_test
-  copy_number:
-    Desc: The quantity of gene copies resulting from a mutation.
-    Term:
-      - Origin: caDSR
-        Code: '13367966'
-        Value: Gene Mutation Copy Number Count
-        Version: "1.00"
-    Type: integer
-    Req: false
-    Private: false
-  #molecular_test
-  cytoband:
-    Desc: Alphanumeric value used to describe the cytoband or chromosomal location targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the cytoband where the variant is located. Format [chromosome][chromosome arm].[band+sub-bands]. Example 17p13.1.
-    Term:
-      - Origin: caDSR
-        Code: '6142405'
-        Value: Molecular Analysis Cytoband Text
-        Version: "2.00"
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
-  exon:
-    Desc: The text term used to describe a specific exon targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the exon where that variant is located.
-    Term:
-      - Origin: caDSR
-        Code: '6142411'
-        Value: Molecular Analysis Exon Identification Number
-        Version: "1.00"
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
-  histone_family:
-    Desc: The text term used to describe the family, or classification of a group of basic proteins found in chromatin, called histones.
-    Term:
-      - Origin: caDSR
-        Code: '6142511'
-        Value: Molecular Analysis Histone Gene Family Category
-        Version: "2.00"
-    Enum:
-      - "H1"
-      - "H2A"
-      - "H2B"
-      - "H3"
-      - "H4"
-      - "Unknown"
-      - "Not Reported"
-    Req: false
-    Strict: true
-    Private: false
-  #molecular_test
-  histone_variant:
-    Desc: The text term used to describe a specific histone variant, which are proteins that substitute for the core canonical histones.
-    Term:
-      - Origin: caDSR
-        Code: '14529709'
-        Value: Molecular Analysis Histone Gene Family Variant Type
-        Version: "1.00"
-    Type: string
-    Req: false
-    Strict: true
-    Private: false
-  #molecular_test
-  intron:
-    Desc: Intron number targeted or included in molecular analysis. If a specific genetic variant is being reported, this property can be used to capture the intron where that variant is located.
-    Term:
-      - Origin: caDSR
-        Code: '6514355'
-        Value: Molecular Analysis Intron Identifier
-        Version: "1.00"
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
-  loci_abnormal_count:
-    Desc: Numeric value used to describe the number of loci determined to be abnormal.
-    Term:
-      - Origin: caDSR
-        Code: '6074182'
-        Value: loci_abnormal_count
-        Version: "1.00"
-    Type: integer
-    Req: false
-    Private: false
-  #molecular_test
-  loci_count:
-    Desc: Numeric value used to describe the number of loci tested.
-    Term:
-      - Origin: caDSR
-        Code: '6074183'
-        Value: loci_count
-        Version: "1.00"
-    Type: integer
-    Req: false
-    Private: false
-  #molecular_test
-  locus:
-    Desc: Alphanumeric value used to describe the locus of a specific genetic variant. Example NM_001126114.
-    Term:
-      - Origin: caDSR
-        Code: '6142506'
-        Value: locus
-        Version: "1.00"
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
-  mismatch_repair_mutation:
-    Desc: A yes/no/unknown indicator used to describe whether a gene has undergone mismatch repair.
-    Term:
-      - Origin: caDSR
-        Code: '6142534'
-        Value: Gene Mutation Mismatch Repair Indicator
-        Version: "1.00"
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
-  gene_mutation_abnormality_type:
-    Desc: The type of transmissible change in the genetic material of an organism, which can result from radiation, viral infection, transposition, treatment with mutagenic chemicals and errors during DNA replication or meiosis.
-    Term:
-      - Origin: caDSR
-        Code: '13367935'
-        Value: Gene Mutation Abnormality Type
-        Version: "1.00"
-    Type:
-      value_type: list
-      item_type:
-        - "Acceptor Splice Site SNP"
-        - "Coding Sequence Variant"
-        - "Exon Mutation"
-        - "Frameshift Mutation"
-        - "Inframe"
-        - "Inframe Deletion"
-        - "Inframe Insertion"
-        - "Intronic Mutation"
-        - "Missense Mutation"
-        - "NMD Transcript Variant"
-        - "Non-Coding Gene Mutation"
-        - "Non-coding Transcript Variant"
-        - "Nonsense Mutation"
-        - "Not Reported"
-        - "Protein Altering Variant"
-        - "Splice Acceptor"
-        - "Splice Donor"
-        - "Splice Region Variant"
-        - "Start Lost"
-        - "Stop Gained"
-        - "Stop Lost"
-        - "Synonymous"
-        - "Upstream Gene Variant"
-    Req: false
-    Strict: false
-    Private: false
-  #molecular_test
-  pathogenicity:
-    Desc: The likelihood of an entity to produce pathologic changes or disease.
-    Term:
-      - Origin: caDSR
-        Code: '14532361'
-        Value: Molecular Analysis Pathogenicity Type
-        Version: "1.00"
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
-  ploidy:
-    Desc: Text term used to describe the number of sets of homologous chromosomes.
-    Term:
-      - Origin: caDSR
-        Code: '6142527'
-        Value: ploidy
-        Version: "1.00"
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
-  second_exon:
-    Desc: A numeral or string of numerals that is used to identify the position of a second exon that is either involved in a molecular variation or of interest in an experiment or study.
-    Term:
-      - Origin: caDSR
-        Code: '14578182'
-        Value: Molecular Analysis Second Exon of Interest Identification Number
-        Version: "1.00"
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test, genetic_analysis
-  second_gene_symbol:
-    Desc: "The HGNC gene symbol for the second coding region in a mutation that spans two gene locations (Example: fusion, translocation, inversion)."    
-    Term:
-      - Origin: caDSR
-        Code: '13367968'
-        Value: Gene Mutation Second Gene HGNC Symbol Name
-        Version: "1.00"
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
-  specialized_molecular_test:
-    Desc: A textual description of a laboratory procedure that involves the study of tissues, cells, and fluids using DNA/RNA analysis techniques for the identification of characteristics and abnormalities at the molecular level.
-    Term:
-      - Origin: caDSR
-        Code: '14595986'
-        Value: Molecular Test Specialized Text
-        Version: "1.00"
-    Type: string
-    Req: false
-    Private: false
-  #molecular_test
-  test_analyte_type:
-    Desc: The text term used to describe the type of analyte used for molecular testing.
-    Term:
-      - Origin: caDSR
-        Code: '15063661'
-        Value: Molecular Analysis Analyte Type
-        Version: "1.00"
-    Enum:
-      - "DNA"
-      - "mRNA"
-      - "miRNA"
-      - "Protein"
-      - "Total RNA"
-      - "Unknown"
-      - "Not Reported"
-    Req: false
-    Strict: true
-    Private: false
-  #molecular_test
-  variant_origin:
-    Desc: The text term that describes the origin of a variation in the nucleic acid sequence of a specific gene.
-    Term:
-      - Origin: caDSR
-        Code: '14473382'
-        Value: Molecular Analysis Gene Variant Genomic Source Category
-        Version: "1.00"
-    Enum:
-      - "Germline"
-      - "Somatic"
-      - "Unknown"
-    Req: false
-    Strict: true
-    Private: false
-  #molecular_test
-  variant_type:
-    Desc: The text term used to describe the type of genetic variation.
-    Term:
-      - Origin: caDSR
-        Code: '6142402'
-        Value: Molecular Analysis Gene Variant Type
-        Version: "2.00"
-    Type:
-      value_type: list
-      item_type:
-        - "Alleles"
-        - "Amplification"
-        - "Chrimerism"
-        - "Conversion"
-        - "Deletion"
-        - "Deletion-Insertion"
-        - "Duplication"
-        - "Extension"
-        - "Gain"
-        - "Hypermethylation"
-        - "Insertion"
-        - "Inversion"
-        - "Loss"
-        - "Methylation"
-        - "Mosaicism"
-        - "Other"
-        - "Partial Methylation"
-        - "Rearrangement"
-        - "Repeated Sequences"
-        - "Splice"
-        - "Substitution"
-        - "Translocation"
-        - "Unknown"
-        - "Not Reported"
-    Req: false
-    Strict: false
-    Private: false
-  #molecular_test
-  zygosity:
-    Desc: The text term used to describe the zygosity of a specific genetic variant.
-    Term:
-      - Origin: caDSR
-        Code: '6142510'
-        Value: Molecular Analysis Genetic Zygosity Type
-        Version: "2.00"
-    Enum:
-      - "Heterozygous"
-      - "Hemizygous"
-      - "Homozygous"
-      - "Nullizygous"
-      - "Unknown"
-      - "Not Reported"
-    Req: false
-    Strict: true
-    Private: false
+    Private: false 
   #follow_up
   risk_factor:
     Desc: "The text term used to describe a risk factor the patient had at the time of or prior to their diagnosis."

@@ -6622,8 +6622,12 @@ PropDefinitions:
     Private: false  
   #diagnosis
   diagnosis_category:
-    Desc: The text term used to describe the grouping of diagnoses.
+    Desc: The term which identifies normal and abnormal cells and tissues used to define the presence and nature of disease, as categorized by diagnosis_classification_system property.
     Term:
+      - Origin: caDSR
+        Code: '14714127'
+        Value: Diagnosis Disease Text
+        Version: "1.00"
       - Origin: caDSR
         Code: '14741381'
         Value: Diagnosis Disease CNS Diagnosis Category Text

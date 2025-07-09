@@ -143,6 +143,7 @@ Nodes:
       - genetic_analysis_id
       - gene_symbol
       - transcript
+      - exon
       - chromosone
       - cytoband
       - age_at_genetic_analysis
@@ -161,7 +162,9 @@ Nodes:
       - dna_index_numeric
       - karyotype
       - status
-      - second_gene_symbol
+      - fusion_partner_gene
+      - fusion_partner_transcript
+      - fusion_partner_exon
       - id
   medical_history:
     Desc: "The medical history node is comprised of properties which describe the participant's previous medical conditions."

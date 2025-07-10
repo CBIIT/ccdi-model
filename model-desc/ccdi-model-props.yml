@@ -394,6 +394,7 @@ PropDefinitions:
       - "NPM1 mutation"
       - "NRAS mutation"
       - "NTRK Rearranged"
+      - "Not Reported"
       - "Other"
       - "p.F1174L"
       - "PDGFRA Mutation"

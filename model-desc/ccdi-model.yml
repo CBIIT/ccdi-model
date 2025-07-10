@@ -474,8 +474,6 @@ Nodes:
       - study_name
       - study_acronym
       - study_description
-      - consent
-      - consent_number
       - external_url
       - experimental_strategy_and_data_subtype
       - study_status

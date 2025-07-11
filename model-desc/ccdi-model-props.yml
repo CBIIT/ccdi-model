@@ -2900,7 +2900,7 @@ PropDefinitions:
         Value: Subject Age at Molecular Test Day Count
         Version: "1.00"
     Type: number
-    Req: true
+    Req: false
     Private: false
   #laboratory_test
   laboratory_test_method:

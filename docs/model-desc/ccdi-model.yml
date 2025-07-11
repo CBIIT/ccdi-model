@@ -202,11 +202,12 @@ Nodes:
       Template: 'Yes'
     Props:
       - laboratory_test_id
-      - analysis_method
       - laboratory_test_name
+      - laboratory_test_method
       - test_result_text
       - test_result_numeric
       - test_unit
+      - age_at_laboratory_test
       - id
   methylation_array_file:
     Desc: "The methylation array file node is comprised of properties which describe file metadata specific to methylation array analysis."

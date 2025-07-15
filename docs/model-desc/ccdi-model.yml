@@ -401,6 +401,7 @@ Nodes:
       - sample_description
       - percent_tumor
       - percent_necrosis
+      - laterality
       - id
       - crdc_id
   sequencing_file: 

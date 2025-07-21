@@ -629,6 +629,8 @@ Relationships:
         Dst: study
       - Src: clinical_measure_file
         Dst: participant
+      - Src: clinical_measure_file
+        Dst: sample
   of_consent_group:
     Props: null
     Mul: many_to_one

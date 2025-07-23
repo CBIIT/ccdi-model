@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 05e5ae2
+commit d3ef319
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -194,7 +194,7 @@ diagnosis	diagnosis	Alveolar soft part sarcoma
 diagnosis	diagnosis	Anaplastic Ependymoma, Posterior Fossa
 diagnosis	diagnosis	Anaplastic Large Cell Lymphoma
 diagnosis	diagnosis	Anaplastic Meningioma
-diagnosis	diagnosis	Anaplastic large cell lymphoma (ALK+/ALKâˆ’)
+diagnosis	diagnosis	Anaplastic large cell lymphoma (ALK+/ALK-)
 diagnosis	diagnosis	Anaplastic large cell lymphoma, ALK positive
 diagnosis	diagnosis	Anaplastic large cell lymphoma, T-cell and Null-cell type
 diagnosis	diagnosis	Angiocentric glioma
@@ -202,7 +202,7 @@ diagnosis	diagnosis	Angiomatoid fibrous histiocytoma
 diagnosis	diagnosis	Angiomyofibroblastoma
 diagnosis	diagnosis	Angiomyosarcoma
 diagnosis	diagnosis	Astroblastoma
-diagnosis	diagnosis	Astroblastoma, MN1-altered
+diagnosis	diagnosis	Astroblastoma, MN1-altered
 diagnosis	diagnosis	Astrocytoma, IDH-mutant
 diagnosis	diagnosis	Astrocytoma, NOS
 diagnosis	diagnosis	Astrocytoma, anaplastic, NOS
@@ -235,8 +235,8 @@ diagnosis	diagnosis	CNS embryonal tumor
 diagnosis	diagnosis	CNS embryonal tumor with rhabdoid features
 diagnosis	diagnosis	CNS embryonal tumor, NOS
 diagnosis	diagnosis	CNS embryonal tumor, NOS or NEC
-diagnosis	diagnosis	CNS neuroblastoma, FOXR2-activated
-diagnosis	diagnosis	CNS tumor with BCOR internal tandem duplication
+diagnosis	diagnosis	CNS neuroblastoma, FOXR2-activated
+diagnosis	diagnosis	CNS tumor with BCOR internal tandem duplication
 diagnosis	diagnosis	Carcinoid tumor of uncertain malignant potential
 diagnosis	diagnosis	Carcinoma ex pleomorphic adenoma
 diagnosis	diagnosis	Carcinoma in situ, NOS
@@ -289,10 +289,10 @@ diagnosis	diagnosis	Desmoplastic fibroma
 diagnosis	diagnosis	Desmoplastic infantile astrocytoma
 diagnosis	diagnosis	Desmoplastic infantile ganglioglioma / desmoplastic infantile astrocytoma
 diagnosis	diagnosis	Desmoplastic melanoma, NOS
-diagnosis	diagnosis	Desmoplastic myxoid tumor of the pineal region, SMARCB1-mutant
+diagnosis	diagnosis	Desmoplastic myxoid tumor of the pineal region, SMARCB1-mutant
 diagnosis	diagnosis	Desmoplastic nodular medulloblastoma
 diagnosis	diagnosis	Desmoplastic small round cell tumor
-diagnosis	diagnosis	Diffuse astrocytoma, MYB- or MYBL1-altered
+diagnosis	diagnosis	Diffuse astrocytoma, MYB- or MYBL1-altered
 diagnosis	diagnosis	Diffuse glioneuronal tumor with oligodendroglioma-like features and nuclear clusters
 diagnosis	diagnosis	Diffuse hemispheric glioma, H3 G34-mutant
 diagnosis	diagnosis	Diffuse large B-cell lymphoma, NOS
@@ -432,8 +432,8 @@ diagnosis	diagnosis	Medulloblastoma, Group 3
 diagnosis	diagnosis	Medulloblastoma, Group 4
 diagnosis	diagnosis	Medulloblastoma, NOS
 diagnosis	diagnosis	Medulloblastoma, NOS or NEC
-diagnosis	diagnosis	Medulloblastoma, SHH-activated and TP53-mutant
-diagnosis	diagnosis	Medulloblastoma, SHH-activated and TP53-wildtype
+diagnosis	diagnosis	Medulloblastoma, SHH-activated and TP53-mutant
+diagnosis	diagnosis	Medulloblastoma, SHH-activated and TP53-wildtype
 diagnosis	diagnosis	Medulloblastoma, WNT-activated
 diagnosis	diagnosis	Medulloblastoma, WNT-activated, NOS
 diagnosis	diagnosis	Medulloblastoma, non-WNT/non-SHH
@@ -570,7 +570,7 @@ diagnosis	diagnosis	Precursor cell lymphoblastic lymphoma, NOS
 diagnosis	diagnosis	Primary cutaneous CD30 positive T-cell lymphoproliferative disorder
 diagnosis	diagnosis	Primary cutaneous follicle center lymphoma
 diagnosis	diagnosis	Primary diffuse large B-cell lymphoma of the CNS
-diagnosis	diagnosis	Primary intracranial sarcoma, DICER1-mutant
+diagnosis	diagnosis	Primary intracranial sarcoma, DICER1-mutant
 diagnosis	diagnosis	Primitive Neuroectodermal Tumor
 diagnosis	diagnosis	Proliferative dermal lesion in congenital nevus
 diagnosis	diagnosis	Renal cell carcinoma, NOS
@@ -607,8 +607,8 @@ diagnosis	diagnosis	Solid pseudopapillary tumor of ovary
 diagnosis	diagnosis	Solitary fibrous tumor
 diagnosis	diagnosis	Solitary fibrous tumor, NOS
 diagnosis	diagnosis	Spinal ependymoma
+diagnosis	diagnosis	Spinal ependymoma, MYCN-amplified
 diagnosis	diagnosis	Spinal ependymoma, NOS or NEC
-diagnosis	diagnosis	Spinal ependymoma, MYCN-amplified
 diagnosis	diagnosis	Spindle cell carcinoma, NOS
 diagnosis	diagnosis	Spindle cell rhabdomyosarcoma
 diagnosis	diagnosis	Spindle cell sarcoma
@@ -622,8 +622,8 @@ diagnosis	diagnosis	Subependymal giant cell astrocytoma
 diagnosis	diagnosis	Subependymoma
 diagnosis	diagnosis	Supratentorial ependymoma
 diagnosis	diagnosis	Supratentorial ependymoma, NOS or NEC
-diagnosis	diagnosis	Supratentorial ependymoma, YAP1 fusion-positive
-diagnosis	diagnosis	Supratentorial ependymoma, ZFTA fusion-positive
+diagnosis	diagnosis	Supratentorial ependymoma, YAP1 fusion-positive
+diagnosis	diagnosis	Supratentorial ependymoma, ZFTA fusion-positive
 diagnosis	diagnosis	Sympathetic paraganglioma
 diagnosis	diagnosis	Synovial sarcoma, NOS
 diagnosis	diagnosis	Synovial sarcoma, biphasic
@@ -2923,10 +2923,10 @@ sequencing_file	instrument_model	Not Reported
 sequencing_file	instrument_model	Other
 sequencing_file	instrument_model	PacBio RS
 sequencing_file	instrument_model	PacBio RS II
-sequencing_file	instrument_model	PacBio Revio
-sequencing_file	instrument_model	PacBio Sequel
-sequencing_file	instrument_model	PacBio Sequel II
-sequencing_file	instrument_model	PacBio Sequel IIe
+sequencing_file	instrument_model	PacBio Revio
+sequencing_file	instrument_model	PacBio Sequel
+sequencing_file	instrument_model	PacBio Sequel II
+sequencing_file	instrument_model	PacBio Sequel IIe
 sequencing_file	instrument_model	PromethION
 sequencing_file	instrument_model	Unknown
 sequencing_file	library_construction_method	STRING
@@ -3159,22 +3159,22 @@ treatment_response	id	STRING
 treatment_response	treatment_response_id	STRING
 
 relationship	source_node	destination_node	property	value_or_TYPE
-of_cell_line	cell_line	study	NA	NA
 of_cell_line	cell_line	sample	NA	NA
+of_cell_line	cell_line	study	NA	NA
 of_clinical_measure_file	clinical_measure_file	participant	NA	NA
-of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_clinical_measure_file	clinical_measure_file	sample	NA	NA
+of_clinical_measure_file	clinical_measure_file	study	NA	NA
 of_consent_group	consent_group	study	NA	NA
 of_cytogenomic_file	cytogenomic_file	sample	NA	NA
-of_diagnosis	diagnosis	participant	NA	NA
 of_diagnosis	diagnosis	sample	NA	NA
+of_diagnosis	diagnosis	participant	NA	NA
 of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
-of_generic_file	generic_file	sample	NA	NA
 of_generic_file	generic_file	participant	NA	NA
 of_generic_file	generic_file	study	NA	NA
-of_genetic_analysis	genetic_analysis	sample	NA	NA
+of_generic_file	generic_file	sample	NA	NA
 of_genetic_analysis	genetic_analysis	participant	NA	NA
+of_genetic_analysis	genetic_analysis	sample	NA	NA
 of_laboratory_test	laboratory_test	participant	NA	NA
 of_laboratory_test	laboratory_test	sample	NA	NA
 of_medical_history	medical_history	participant	NA	NA
@@ -3185,18 +3185,18 @@ of_pdx	pdx	sample	NA	NA
 of_pdx	pdx	study	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
+of_sample	sample	pdx	NA	NA
 of_sample	sample	cell_line	NA	NA
 of_sample	sample	participant	NA	NA
-of_sample	sample	pdx	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
 of_study_funding	study_funding	study	NA	NA
 of_study_personnel	study_personnel	study	NA	NA
 of_survival	survival	participant	NA	NA
+of_synonym	synonym	sample	NA	NA
 of_synonym	synonym	study	NA	NA
 of_synonym	synonym	participant	NA	NA
-of_synonym	synonym	sample	NA	NA
 of_treatment	treatment	participant	NA	NA
 of_treatment_response	treatment_response	participant	NA	NA
 

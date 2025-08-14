@@ -160,6 +160,7 @@ Nodes:
       - reported_significance
       - reported_significance_system
       - test
+      - method
       - result
       - reference_genome
       - chromosome
@@ -174,12 +175,16 @@ Nodes:
       - allelic_ratio
       - vaf_numeric
       - alteration
+      - alteration_type
+      - alteration_effect
       - dna_index_numeric
-      - karyotype
+      - iscn
       - status
       - fusion_partner_gene
       - fusion_partner_transcript
       - fusion_partner_exon
+      - translocation_partner_chromosome
+      - translocation_partner_cytoband
       - id
   medical_history:
     Desc: "The medical history node is comprised of properties which describe the participant's previous medical conditions."

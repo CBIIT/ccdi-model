@@ -6371,12 +6371,11 @@ PropDefinitions:
       value_type: list
       item_type:
         - "Archer Fusion"
-        - "DNA-Seq"
+        - "DNA Sequencing"
         - "Methylation Analysis"
-        - "Methylation Array"
-        - "Pathological"
-        - "Radiological"
-        - "RNA-Seq" 
+        - "Pathology"
+        - "Radiology"
+        - "RNA Sequencing" 
     Req: false
     Strict: true
     Private: false  

@@ -369,13 +369,6 @@ PropDefinitions:
         Code: '13362278'
         Value: Gene Mutation Colloquial Name
         Version: "1.00"
-  alteration:
-    Desc: The words by which the generally used name of the mutation is known.
-    Term:
-      - Origin: caDSR
-        Code: '13362278'
-        Value: Gene Mutation Colloquial Name
-        Version: "1.00"
     Enum:
       - "11q Deletion"
       - "12q Gain"

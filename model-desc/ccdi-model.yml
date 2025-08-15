@@ -170,7 +170,6 @@ Nodes:
       - hgvs_coding
       - hgvs_protein
       - hgvs_genome
-      - chromosome_location
       - allelic_ratio
       - vaf_numeric
       - alteration

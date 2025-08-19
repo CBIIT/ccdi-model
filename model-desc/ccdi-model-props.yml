@@ -5862,11 +5862,13 @@ PropDefinitions:
       - 'Initial Diagnosis'
       - 'Not Reported'
       - 'Post-Mortem'
+      - 'Prior Primary'
       - 'Progression'
       - 'Refractory'
       - 'Relapse'
       - 'Recurrent Disease'
       - 'Relapse/Progression'
+      - 'Synchronous'
       - 'Not Applicable'
       - 'Unknown'
     Req: true

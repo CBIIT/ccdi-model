@@ -396,7 +396,7 @@ Nodes:
       - anatomic_site
       - participant_age_at_collection
       - sample_tumor_status
-      - tumor_classification
+      - tumor_spatial_extent
       - sample_description
       - percent_tumor
       - percent_necrosis

@@ -90,7 +90,7 @@ Nodes:
       - diagnosis_basis
       - diagnosis_comment
       - disease_phase
-      - tumor_classification
+      - tumor_spatial_extent
       - anatomic_site
       - age_at_diagnosis
       - toronto_childhood_cancer_staging

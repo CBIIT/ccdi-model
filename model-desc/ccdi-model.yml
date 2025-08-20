@@ -142,7 +142,6 @@ Nodes:
       Template: 'Yes'
     Props:
       - family_relationship_id
-      - related_to_participant_id
       - relationship
       - family_id
       - id

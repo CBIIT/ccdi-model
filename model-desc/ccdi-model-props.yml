@@ -4623,16 +4623,6 @@ PropDefinitions:
     Req: true
     Private: false
     Key: true
-  related_to_participant_id:
-    Desc: A sequence of characters used to uniquely identify, name, or characterize the state of connectedness between members of the unit of society organized around kinship ties.
-    Term:
-      - Origin: caDSR
-        Code: '14539685'
-        Value: Family Member Relationship Unique Identifier
-        Version: "1.00"
-    Type: string
-    Req: true
-    Private: false
   relationship:
     Desc: The subgroup that describes the state of connectedness between members of the unit of society organized around kinship ties.
     Term: 

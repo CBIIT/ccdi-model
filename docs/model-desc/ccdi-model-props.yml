@@ -6351,19 +6351,24 @@ PropDefinitions:
     Private: false
   #sequencing_file
   library_source_molecule: 
-    Desc: The molecular component, such as carbohydrate, protein, lipid, or nucleic acid, that has been prepared for testing or research purposes.
+    Desc: The sample or material being subjected to analysis.
     Term:
       - Origin: caDSR
-        Code: '15235981'
-        Value: Molecular Specimen Molecule Source
+        Code: '15063661'
+        Value: Specimen Analyte Type
         Version: "1.00"
     Enum:
-      - "Genomic"
-      - "Metagenomic"
-      - "Metatranscriptomic"
-      - "Transcriptomic"
-      - "Viral RNA"
-      - "Not Reported"  
+      - "Circulating cell-free DNA"
+      - "Circulating Tumor-Derived DNA"
+      - "DNA"
+      - "MicroRNA"
+      - "Messenger RNA"
+      - "Not Reported"
+      - "Nucleic RNA Sample"
+      - "Protein"
+      - "RNA Specimen"
+      - "Total RNA"
+      - "Unknown" 
     Req: true
     Strict: true
     Private: false  

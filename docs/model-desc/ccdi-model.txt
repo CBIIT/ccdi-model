@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/ccdi-model
-commit 19c811e
+commit 248597c
 node	property	value_or_TYPE
 cell_line	cell_line_id	STRING
 cell_line	id	STRING
@@ -3135,12 +3135,17 @@ sequencing_file	library_source_material	Not Reported
 sequencing_file	library_source_material	Other
 sequencing_file	library_source_material	Single-cells
 sequencing_file	library_source_material	Single-nuclei
-sequencing_file	library_source_molecule	Genomic
-sequencing_file	library_source_molecule	Metagenomic
-sequencing_file	library_source_molecule	Metatranscriptomic
+sequencing_file	library_source_molecule	Circulating Tumor-Derived DNA
+sequencing_file	library_source_molecule	Circulating cell-free DNA
+sequencing_file	library_source_molecule	DNA
+sequencing_file	library_source_molecule	Messenger RNA
+sequencing_file	library_source_molecule	MicroRNA
 sequencing_file	library_source_molecule	Not Reported
-sequencing_file	library_source_molecule	Transcriptomic
-sequencing_file	library_source_molecule	Viral RNA
+sequencing_file	library_source_molecule	Nucleic RNA Sample
+sequencing_file	library_source_molecule	Protein
+sequencing_file	library_source_molecule	RNA Specimen
+sequencing_file	library_source_molecule	Total RNA
+sequencing_file	library_source_molecule	Unknown
 sequencing_file	library_strand	Not reported
 sequencing_file	library_strand	Unknown
 sequencing_file	library_strand	antisense
@@ -3319,21 +3324,21 @@ relationship	source_node	destination_node	property	value_or_TYPE
 of_cell_line	cell_line	study	NA	NA
 of_cell_line	cell_line	sample	NA	NA
 of_clinical_measure_file	clinical_measure_file	study	NA	NA
-of_clinical_measure_file	clinical_measure_file	participant	NA	NA
 of_clinical_measure_file	clinical_measure_file	sample	NA	NA
+of_clinical_measure_file	clinical_measure_file	participant	NA	NA
 of_consent_group	consent_group	study	NA	NA
 of_cytogenomic_file	cytogenomic_file	sample	NA	NA
-of_diagnosis	diagnosis	participant	NA	NA
 of_diagnosis	diagnosis	sample	NA	NA
+of_diagnosis	diagnosis	participant	NA	NA
 of_exposure	exposure	participant	NA	NA
 of_family_relationship	family_relationship	participant	NA	NA
 of_generic_file	generic_file	study	NA	NA
 of_generic_file	generic_file	participant	NA	NA
 of_generic_file	generic_file	sample	NA	NA
-of_genetic_analysis	genetic_analysis	sample	NA	NA
 of_genetic_analysis	genetic_analysis	participant	NA	NA
-of_laboratory_test	laboratory_test	sample	NA	NA
+of_genetic_analysis	genetic_analysis	sample	NA	NA
 of_laboratory_test	laboratory_test	participant	NA	NA
+of_laboratory_test	laboratory_test	sample	NA	NA
 of_medical_history	medical_history	participant	NA	NA
 of_methylation_array_file	methylation_array_file	sample	NA	NA
 of_participant	participant	consent_group	NA	NA
@@ -3342,9 +3347,9 @@ of_pdx	pdx	study	NA	NA
 of_pdx	pdx	sample	NA	NA
 of_publication	publication	study	NA	NA
 of_radiology_file	radiology_file	participant	NA	NA
-of_sample	sample	pdx	NA	NA
-of_sample	sample	cell_line	NA	NA
 of_sample	sample	participant	NA	NA
+of_sample	sample	cell_line	NA	NA
+of_sample	sample	pdx	NA	NA
 of_sequencing_file	sequencing_file	sample	NA	NA
 of_study_admin	study_admin	study	NA	NA
 of_study_arm	study_arm	study	NA	NA
@@ -3499,7 +3504,7 @@ library_id	A short unique identifier assigned to a nucleotide sequencing library
 library_layout	The read strategy or method that was used for sequencing and analysis of a nucleotide library.
 library_selection	The type of systematic actions performed to select or enrich DNA fragments used in analysis by high-throughput sequencing.
 library_source_material	The cell or cellular component that makes up the sample that has been prepared for testing or research purposes.
-library_source_molecule	The molecular component, such as carbohydrate, protein, lipid, or nucleic acid, that has been prepared for testing or research purposes.
+library_source_molecule	The sample or material being subjected to analysis.
 library_strand	The strandedness of the library, whether reads come from both strands of the cDNA or only from the first (antisense) or the second (sense) strand.
 library_strategy	The overall strategy for the collection of double stranded DNA fragments flanked by oligonucleotide sequence adapters to enable their analysis by high-throughput sequencing.
 license	Official or legal permission to do or own a specified thing.

@@ -6063,37 +6063,33 @@ PropDefinitions:
       - 'Initial Diagnosis'
       - 'Not Reported'
       - 'Post-Mortem'
+      - 'Prior Primary'
       - 'Progression'
       - 'Refractory'
       - 'Relapse'
       - 'Recurrent Disease'
       - 'Relapse/Progression'
+      - 'Synchronous'
       - 'Not Applicable'
       - 'Unknown'
     Req: true
     Strict: false
     Private: false
   #diagnosis
-  tumor_classification:
-    Desc: The classification of a tumor based primarily on histopathological characteristics.
+  tumor_spatial_extent:
+    Desc: The extent of disease present at the time of diagnosis.
     Term:
       - Origin: caDSR
-        Code: '12922545'
-        Value: Tumor Classification Type
+        Code: '16280721'
+        Value: Diagnosis Disease Extent Type
         Version: "1.00"
     Enum:
-      - 'Primary'
-      - 'Regional'
+      - 'Local'
+      - 'Locoregional'
       - 'Metastatic'
-      - 'Premalignant'
-      - 'Prior Primary'
-      - 'Progression'
-      - 'Recurrent'
-      - 'Synchronous Primary'
-      - 'Xenograft'
-      - 'Unknown'
+      - 'Regional'
       - 'Not Reported'
-      - 'Not Applicable'
+      - 'Unknown'
     Req: true
     Strict: false
     Private: false 

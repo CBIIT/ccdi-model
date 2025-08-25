@@ -90,7 +90,7 @@ Nodes:
       - diagnosis_basis
       - diagnosis_comment
       - disease_phase
-      - tumor_classification
+      - tumor_spatial_extent
       - anatomic_site
       - age_at_diagnosis
       - toronto_childhood_cancer_staging
@@ -142,7 +142,6 @@ Nodes:
       Template: 'Yes'
     Props:
       - family_relationship_id
-      - related_to_participant_id
       - relationship
       - family_id
       - id
@@ -160,6 +159,7 @@ Nodes:
       - reported_significance
       - reported_significance_system
       - test
+      - method
       - result
       - reference_genome
       - chromosome
@@ -173,12 +173,16 @@ Nodes:
       - allelic_ratio
       - vaf_numeric
       - alteration
+      - alteration_type
+      - alteration_effect
       - dna_index_numeric
-      - karyotype
+      - iscn
       - status
       - fusion_partner_gene
       - fusion_partner_transcript
       - fusion_partner_exon
+      - translocation_partner_chromosome
+      - translocation_partner_cytoband
       - id
   medical_history:
     Desc: "The medical history node is comprised of properties which describe the participant's previous medical conditions."
@@ -201,12 +205,15 @@ Nodes:
       Template: 'Yes'
     Props:
       - laboratory_test_id
-      - laboratory_test_name
-      - laboratory_test_method
-      - test_result_text
-      - test_result_numeric
-      - test_unit
       - age_at_laboratory_test
+      - laboratory_test_method
+      - laboratory_test_name
+      - specimen
+      - test_result_text
+      - test_result_modifier
+      - test_result_numeric
+      - test_result_unit
+      - sensitivity
       - id
   methylation_array_file:
     Desc: "The methylation array file node is comprised of properties which describe file metadata specific to methylation array analysis."
@@ -396,7 +403,7 @@ Nodes:
       - anatomic_site
       - participant_age_at_collection
       - sample_tumor_status
-      - tumor_classification
+      - tumor_spatial_extent
       - sample_description
       - percent_tumor
       - percent_necrosis

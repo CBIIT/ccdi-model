@@ -5700,6 +5700,7 @@ PropDefinitions:
         - "C50.1 : Central portion of breast"
         - "C71.6 : Cerebellum, NOS"
         - "C70.0 : Cerebral meninges"
+        - "Cerebrospinal Fluid"
         - "C71.0 : Cerebrum"
         - "C15.0 : Cervical esophagus"
         - "C53.9 : Cervix uteri"
@@ -5909,11 +5910,13 @@ PropDefinitions:
         - "C47.3 : Peripheral nerves and autonomic nervous system of thorax"
         - "C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS"
         - "C47.1 : Peripheral nerves and autonomic nervous system of upper limb and shoulder"
+        - "Peritoneal Fluid"
         - "C48.2 : Peritoneum, NOS"
         - "C14.0 : Pharynx, NOS"
         - "C75.3 : Pineal gland"
         - "C75.1 : Pituitary gland"
         - "C58.9 : Placenta"
+        - "Plasma"
         - "C38.4 : Pleura, NOS"
         - "C13.0 : Postcricoid region"
         - "C71.9 : Posterior cranial fossa"
@@ -5935,8 +5938,10 @@ PropDefinitions:
         - "C48.0 : Retroperitoneum"
         - "C41.3 : Rib, sternum, clavicle and associated joints"
         - "C57.2 : Round ligament"
+        - "Saliva"
         - "C08.9 : Salivary gland, NOS"
         - "C63.2 : Scrotum, NOS"
+        - "Serum"
         - "C40.3 : Short bones of lower limb and associated joints"
         - "C40.1 : Short bones of upper limb and associated joints"
         - "C40.0 : Bone of shoulder"
@@ -5961,6 +5966,7 @@ PropDefinitions:
         - "C42.2 : Spleen"
         - "C18.5 : Splenic flexure of colon"
         - "C16.9 : Stomach, NOS"
+        - "Stool"
         - "C32.2 : Subglottis"
         - "C08.1 : Sublingual gland"
         - "C08.0 : Submandibular gland"
@@ -5995,6 +6001,7 @@ PropDefinitions:
         - "C67.6 : Ureteric orifice"
         - "C68.0 : Urethra"
         - "C68.9 : Urinary system, NOS"
+        - "Urine"
         - "C57.4 : Uterine adnexa"
         - "C55.9 : Uterus, NOS"
         - "C05.2 : Uvula"
@@ -6575,12 +6582,12 @@ PropDefinitions:
     Type:
       value_type: list
       item_type:
-        - "Archer Fusion"
         - "DNA Sequencing"
         - "Methylation Analysis"
+        - "Multigene Expression Assay"
         - "Pathology"
         - "Radiology"
-        - "RNA Sequencing"
+        - "RNA Sequencing" 
     Req: false
     Strict: true
     Private: false  

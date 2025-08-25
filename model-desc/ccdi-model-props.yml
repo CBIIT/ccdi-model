@@ -19,8 +19,11 @@ PropDefinitions:
         Code: '14534329'
         Value: Research Activity dbGaP Consent Group Text
         Version: "1.00"
-    Type: string
+    Enum:
+      - "GRU"
+      - "HMB"
     Req: true
+    Strict: false
     Private: false 
   #consent_group
   consent_group_number:

@@ -6582,12 +6582,12 @@ PropDefinitions:
     Type:
       value_type: list
       item_type:
-        - "Archer Fusion"
         - "DNA Sequencing"
         - "Methylation Analysis"
+        - "Multigene Expression Assay"
         - "Pathology"
         - "Radiology"
-        - "RNA Sequencing"
+        - "RNA Sequencing" 
     Req: false
     Strict: true
     Private: false  

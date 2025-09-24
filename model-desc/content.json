@@ -25,9 +25,8 @@
                 "downloadPrefix": "ccdi_",
                 "fileTransferManifestName": "ccdi_",
                 "iconSrc": "logo",
-                "footnote": "https://ccdi-dev.cancer.gov/data-model",
-                "landscape": true,
-                "enabled": false
+                "footnote": "https://ccdi.cancer.gov/data-model",
+                "landscape": true
             },
             "facetFilterSearchData": [
                 {

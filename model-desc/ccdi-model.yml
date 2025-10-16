@@ -1,5 +1,5 @@
 Handle: CCDI
-Version: v2.1.0
+Version: v3.1.0
 Nodes:
   cell_line:
     Desc: "The cell line node is comprised of properties which describe cell lines that are either derived from samples or commercially obtained."
@@ -38,6 +38,19 @@ Nodes:
       - participant_list
       - id
       - crdc_id
+  consent_group:
+    Desc: "A set of study participants who have signed the same consent agreement and that will be included in the dbGaP repository."
+    Tags:
+      Category: participant
+      Assignment: extended
+      Class: secondary
+      Template: 'Yes'
+    Props:
+      - consent_group_id
+      - consent_group_name
+      - consent_group_number
+      - consent_group_suffix 
+      - id
   cytogenomic_file:
     Desc: "The cytogenomic file node is comprised of properties which describe file metadata for cytogenomic files."
     Tags:
@@ -72,6 +85,7 @@ Nodes:
     Props:
       - diagnosis_id
       - diagnosis
+      - diagnosis_category
       - diagnosis_classification_system
       - diagnosis_basis
       - diagnosis_comment
@@ -141,22 +155,31 @@ Nodes:
       Template: 'Yes'
     Props:
       - genetic_analysis_id
-      - gene_symbol
-      - transcript
       - age_at_genetic_analysis
       - genomic_source_category
       - reported_significance
       - reported_significance_system
+      - test
+      - result
+      - reference_genome
+      - chromosome
+      - cytoband
+      - gene_symbol
+      - transcript
+      - exon
       - hgvs_coding
       - hgvs_protein
       - hgvs_genome
+      - chromosome_location
       - allelic_ratio
       - vaf_numeric
       - alteration
       - dna_index_numeric
-      - iscn
+      - karyotype
       - status
-      - second_gene_symbol
+      - fusion_partner_gene
+      - fusion_partner_transcript
+      - fusion_partner_exon
       - id
   medical_history:
     Desc: "The medical history node is comprised of properties which describe the participant's previous medical conditions."
@@ -170,7 +193,7 @@ Nodes:
       - medical_history_category
       - medical_history_condition
       - id
-  molecular_test:
+  laboratory_test:
     Desc: "The molecular test node is comprised of properties which describe varying tests results for participants."
     Tags:
       Category: analysis
@@ -178,41 +201,13 @@ Nodes:
       Class: secondary
       Template: 'Yes'
     Props:
-      - molecular_test_id
-      - anatomic_site
-      - age_at_molecular_test
-      - gene_symbol
-      - molecular_analysis_method
+      - laboratory_test_id
       - laboratory_test_name
+      - laboratory_test_method
       - test_result_text
       - test_result_numeric
       - test_unit
-      - aa_change
-      - antigen
-      - blood_test_normal_range_upper
-      - blood_test_normal_range_lower
-      - cell_count
-      - copy_number
-      - cytoband
-      - exon
-      - gene_mutation_abnormality_type
-      - histone_family
-      - histone_variant
-      - intron
-      - loci_abnormal_count
-      - loci_count
-      - locus
-      - mismatch_repair_mutation
-      - pathogenicity
-      - ploidy
-      - second_exon
-      - second_gene_symbol
-      - specialized_molecular_test
-      - test_analyte_type
-      - transcript
-      - variant_origin
-      - variant_type
-      - zygosity  
+      - age_at_laboratory_test
       - id
   methylation_array_file:
     Desc: "The methylation array file node is comprised of properties which describe file metadata specific to methylation array analysis."
@@ -279,8 +274,6 @@ Nodes:
       - fixation_embedding_method
       - staining_method
       - deidentification_method
-      - percent_tumor
-      - percent_necrosis
       - slim_url
       - id
       - crdc_id
@@ -406,6 +399,8 @@ Nodes:
       - sample_tumor_status
       - tumor_classification
       - sample_description
+      - percent_tumor
+      - percent_necrosis
       - id
       - crdc_id
   sequencing_file: 
@@ -480,8 +475,6 @@ Nodes:
       - study_name
       - study_acronym
       - study_description
-      - consent
-      - consent_number
       - external_url
       - experimental_strategy_and_data_subtype
       - study_status
@@ -489,6 +482,7 @@ Nodes:
       - study_period_stop
       - study_data_types
       - size_of_data_being_uploaded
+      - curation_status
       - id
       - crdc_id
   study_admin:
@@ -634,6 +628,12 @@ Relationships:
         Dst: study
       - Src: clinical_measure_file
         Dst: participant
+  of_consent_group:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: consent_group
+        Dst: study
   of_cytogenomic_file:
     Props: null
     Mul: many_to_one
@@ -676,6 +676,16 @@ Relationships:
     Ends: 
       - Src: genetic_analysis
         Dst: sample
+      - Src: genetic_analysis
+        Dst: participant
+  of_laboratory_test:
+    Props: null
+    Mul: many_to_one
+    Ends:
+      - Src: laboratory_test
+        Dst: participant
+      - Src: laboratory_test
+        Dst: sample
   of_medical_history:
     Props: null
     Mul: many_to_one
@@ -688,12 +698,6 @@ Relationships:
     Ends:
       - Src: methylation_array_file
         Dst: sample
-  of_molecular_test:
-    Props: null
-    Mul: many_to_one
-    Ends:
-      - Src: molecular_test
-        Dst: participant
   of_pathology_file:
     Props: null
     Mul: many_to_one
@@ -705,7 +709,7 @@ Relationships:
     Mul: many_to_one
     Ends:
       - Src: participant
-        Dst: study
+        Dst: consent_group
   of_pdx:
     Props: null
     Mul: many_to_one

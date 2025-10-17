@@ -5,13 +5,15 @@ Properties:
   plurals:
     cell_line: cell_lines
     clinical_measure_file: clinical_measure_files
+    consent_group: consent_groups
     cytogenomic_file: cytogenomic_files
     diagnosis: diagnosises
     exposure: exposures
     family_relationship: family_relationships
+    genetic_analysis: genetic_analyses
     generic_file: generic_files
     medical_history: medical_historys
-    molecular_test: molecular_tests
+    laboratory_test: laboratory_tests
     methylation_array_file: methylation_array_files
     participant: participants
     pathology_file: pathology_files
@@ -44,13 +46,15 @@ Properties:
   id_fields:
     cell_line: id
     clinical_measure_file: id
+    consent_group: id
     cytogenomic_file: id
     diagnosis: id
     exposure: id
     family_relationship: id
+    genetic_analysis: id
     generic_file: id
     medical_history: id
-    molecular_test: id
+    laboratory_test: id
     methylation_array_file: id
     participant: id
     pathology_file: id

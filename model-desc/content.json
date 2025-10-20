@@ -12,8 +12,8 @@
             }
         }
     },
-    "current-version": "2.1.0",
-    "versions": ["2.1.0"],
+    "current-version": "3.1.0",
+    "versions": ["3.1.0"],
     "ui_settings": {
         "name": "CCDI",
         "assets": null,
@@ -25,7 +25,7 @@
                 "downloadPrefix": "ccdi_",
                 "fileTransferManifestName": "ccdi_",
                 "iconSrc": "logo",
-                "footnote": "https://ccdi-dev.cancer.gov/data-model",
+                "footnote": "https://ccdi.cancer.gov/data-model",
                 "landscape": true,
                 "enabled": false
             },
